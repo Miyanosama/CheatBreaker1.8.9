@@ -165,7 +165,8 @@ public class RenderManager {
                GlStateManager.disableBlend();
                float var17 = var1.J / 2.0F;
                AxisAlignedBB var18 = var1.getEntityBoundingBox();
-               GL11.glEnable(3042);
+               GlStateManager.enableBlend();
+               GlStateManager.tryBlendFuncSeparate(770, 771, 1, 0);
                if (var13.recoveredField3279.method_08908()) {
                   if (var13.recoveredField3268.method_08908()) {
                      GL11.glPushAttrib(8192);
@@ -189,7 +190,6 @@ public class RenderManager {
                   }
                }
 
-               GL11.glDisable(3042);
                if (var13.recoveredField3274.method_08908()) {
                   AxisAlignedBB var22 = new AxisAlignedBB(
                      var2 - var17, var4 + var1.getEyeHeight() - 0.01F, var6 - var17, var2 + var17, var4 + var1.getEyeHeight() + 0.01F, var6 + var17
@@ -210,7 +210,8 @@ public class RenderManager {
                WorldRenderer var20 = var23.getWorldRenderer();
                Vec3 var21 = var1.getLook(var9);
                var20.begin(3, DefaultVertexFormats.POSITION_COLOR);
-               var20.pos(var2, var4 + var1.getEyeHeight(), var6).endVertex();
+               var20.pos(var2, var4 + var1.getEyeHeight(), var6)
+                  .color(var16.getRed(), var16.getGreen(), var16.getBlue(), var16.getAlpha()).endVertex();
                var20.pos(var2 + var21.xCoord * 2.0, var4 + var1.getEyeHeight() + var21.yCoord * 2.0, var6 + var21.zCoord * 2.0)
                   .color(var16.getRed(), var16.getGreen(), var16.getBlue(), var16.getAlpha())
                   .endVertex();
