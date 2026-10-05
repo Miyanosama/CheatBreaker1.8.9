@@ -5,7 +5,6 @@ import com.cheatbreaker.client.ui.element.AbstractModulesGuiElement;
 import com.cheatbreaker.client.ui.fading.ColorFade;
 import com.cheatbreaker.client.ui.util.RenderUtil;
 import com.cheatbreaker.client.util.ClientResourceManager;
-import com.cheatbreaker.client.util.cosmetic.CosmeticType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.gui.Gui;
@@ -21,19 +20,8 @@ public class CosmeticSelectionElement extends AbstractModulesGuiElement {
       boolean var4 = var1 > this.x && var1 < this.x + this.width && var2 > this.y && var2 < this.y + this.height;
       Gui.a(this.x, this.y, this.x + this.width, this.y + this.height, this.recoveredField2290.method_25066(var4).getRGB());
       GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-      if (this.recoveredField2291.method_20848().method_00485().equals("cape")) {
-         Minecraft.getMinecraft().renderEngine.bindTexture(this.recoveredField2291.method_20859());
-         GL11.glPushMatrix();
-         GL11.glTranslatef(this.x + 20, this.y + 7, 0.0F);
-         GL11.glScalef(0.25F, 0.13F, 0.25F);
-         RenderUtil.method_22065(0.0F, 0.0F, 2.0F, 7.0F, 44, 120);
-         GL11.glPopMatrix();
-      } else {
-         try {
-            RenderUtil.drawIcon(this.recoveredField2291.method_20850(), 8.0F, this.x + 20, this.y + 7);
-         } catch (Exception var6) {
-         }
-      }
+      CheatBreaker.getInstance().method_19791().getPreviewCache()
+         .draw(this.recoveredField2291, this.x + 20, this.y + 7);
 
       CheatBreaker.getInstance()
          .recoveredField1548

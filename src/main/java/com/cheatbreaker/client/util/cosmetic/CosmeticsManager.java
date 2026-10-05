@@ -8,6 +8,11 @@ import net.minecraft.client.Minecraft;
 
 public class CosmeticsManager {
    private final LocalCosmetics localCosmetics;
+   private final CosmeticPreviewCache previewCache;
+
+   public CosmeticPreviewCache getPreviewCache() {
+      return this.previewCache;
+   }
 
    public LocalCosmetics getLocalCosmetics() {
       return this.localCosmetics;
@@ -51,6 +56,9 @@ public class CosmeticsManager {
    public CosmeticsManager() {
       this.recoveredField1254 = new ArrayList<>();
       this.localCosmetics = new LocalCosmetics(new java.io.File(Minecraft.getMinecraft().mcDataDir, "config/cheatbreaker-local-cosmetics.properties"));
+      this.previewCache = new CosmeticPreviewCache(this.localCosmetics.getCosmetics());
+      ((net.minecraft.client.resources.IReloadableResourceManager)Minecraft.getMinecraft().getResourceManager())
+         .registerReloadListener(this.previewCache);
    }
 
    public ClientResourceManager method_27048(UUID var1) {
