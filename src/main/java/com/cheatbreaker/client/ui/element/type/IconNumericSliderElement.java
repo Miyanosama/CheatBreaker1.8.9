@@ -215,8 +215,8 @@ public class IconNumericSliderElement extends AbstractModulesGuiElement {
          float var15 = Float.parseFloat("" + this.setting.method_08904());
          float var16 = Float.parseFloat("" + this.setting.method_08878());
          if (this.recoveredField1853) {
-            this.recoveredField1849 = (float)Math.round((var15 + (var1 - (this.x + 180) * this.scale) * ((var16 - var15) / (var13 * this.scale))) * 100.0)
-               / 100.0F;
+            this.recoveredField1849 = NumericSliderElement.valueForMouseX(var1, this.x, this.scale, var13, var15, var16,
+               this.setting.method_08911().contains("Scale"));
             if (this.setting.getType().equals(Setting.Type.INTEGER) || Keyboard.isKeyDown(42)) {
                this.recoveredField1849 = Math.round(this.recoveredField1849);
             }

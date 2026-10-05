@@ -12,6 +12,20 @@ import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.GL11;
 
 public class NumericSliderElement extends AbstractModulesGuiElement {
+   static float valueForMouseX(float mouseX, float elementX, float scale, double width,
+                              float minimum, float maximum, boolean snapIntegers) {
+      double start = (elementX + 181.25F) * scale;
+      double value = minimum + (mouseX - start) * (maximum - minimum) / (width * scale);
+      if (snapIntegers && maximum > minimum) {
+         double integer = Math.rint(value);
+         double integerX = start + width * scale * (integer - minimum) / (maximum - minimum);
+         if (integer >= minimum && integer <= maximum && Math.abs(mouseX - integerX) <= 3.0F * scale) {
+            value = integer;
+         }
+      }
+      return Math.max(minimum, Math.min(maximum, Math.round(value * 100.0) / 100.0F));
+   }
+
    public float recoveredField1501 = -1.0F;
    public boolean recoveredField1502 = false;
    public float recoveredField1503;
@@ -45,7 +59,8 @@ public class NumericSliderElement extends AbstractModulesGuiElement {
       float var11 = Float.parseFloat("" + this.recoveredField1504.method_08904());
       float var12 = Float.parseFloat("" + this.recoveredField1504.method_08878());
       if (this.recoveredField1502) {
-         this.recoveredField1503 = (float)Math.round((var11 + (var1 - (this.x + 180) * this.scale) * ((var12 - var11) / (var9 * this.scale))) * 100.0) / 100.0F;
+         this.recoveredField1503 = valueForMouseX(var1, this.x, this.scale, var9, var11, var12,
+            this.recoveredField1504.method_08911().contains("Scale"));
          if (this.recoveredField1504.getType().equals(Setting.Type.INTEGER) || Keyboard.isKeyDown(42)) {
             this.recoveredField1503 = Math.round(this.recoveredField1503);
          }
