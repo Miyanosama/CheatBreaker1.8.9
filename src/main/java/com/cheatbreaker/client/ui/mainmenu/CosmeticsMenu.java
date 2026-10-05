@@ -67,6 +67,7 @@ public class CosmeticsMenu extends MainMenuBase {
 
    @Override
    public void drawMenu(float var1, float var2) {
+      CheatBreaker.getInstance().method_19791().getPreviewCache().beginFrame(this.recoveredField63);
       super.drawMenu(var1, var2);
       Gui.drawRect(
          this.getScaledWidth() / 2.0F - 80.0F,

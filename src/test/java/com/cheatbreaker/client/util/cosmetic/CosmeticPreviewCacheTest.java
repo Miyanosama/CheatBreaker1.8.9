@@ -2,88 +2,121 @@ package com.cheatbreaker.client.util.cosmetic;
 
 import com.cheatbreaker.client.util.ClientResourceManager;
 import java.awt.image.BufferedImage;
-import java.io.File;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import junit.framework.TestCase;
 
 public class CosmeticPreviewCacheTest extends TestCase {
-    private static BufferedImage solid(int color) {
-        BufferedImage image = new BufferedImage(256, 256, BufferedImage.TYPE_INT_ARGB);
-        int[] pixels = new int[256 * 256];
+    private static ClientResourceManager wing(int index) {
+        return new ClientResourceManager("local", "Wing " + index, CosmeticType.WINGS,
+            0.125F, false, "client/wings/" + index + ".png");
+    }
+
+    private static BufferedImage image(int width, int height, int color) {
+        BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+        int[] pixels = new int[width * height];
         java.util.Arrays.fill(pixels, color);
-        image.setRGB(0, 0, 256, 256, pixels, 0, 256);
+        image.setRGB(0, 0, width, height, pixels, 0, width);
         return image;
     }
 
-    public void testBlockedDecodeReturnsImmediatelyAndBuildsAllPages() throws Exception {
-        List<ClientResourceManager> cosmetics = new LocalCosmetics(new File(".target/preview-test-no-config")).getCosmetics();
-        CosmeticPreviewCache cache = new CosmeticPreviewCache(cosmetics);
-        CountDownLatch entered = new CountDownLatch(1);
-        CountDownLatch release = new CountDownLatch(1);
-        Thread caller = Thread.currentThread();
-        CompletableFuture<Void> load = cache.reloadImages(location -> {
-            assertNotSame(caller, Thread.currentThread());
-            entered.countDown();
-            try {
-                release.await(5, TimeUnit.SECONDS);
-            } catch (InterruptedException error) {
-                throw new java.io.IOException(error);
+    public void testOriginalPixelsUploadInBoundedFramesAndTextureIsReused() throws Exception {
+        CosmeticPreviewCache cache = new CosmeticPreviewCache(Collections.singletonList(wing(0)));
+        BufferedImage original = image(1024, 512, 0xff123456);
+        original.setRGB(1023, 511, 0xffabcdef);
+        cache.reset(location -> original);
+        CosmeticPreviewCache.Entry entry = cache.getEntry(0);
+        entry.loaded.get(5, TimeUnit.SECONDS);
+        assertEquals(1024, entry.width);
+        assertEquals(512, entry.height);
+        assertEquals(0xffabcdef, entry.pixels[entry.pixels.length - 1]);
+        final int[] calls = new int[2];
+        final int[] uploaded = new int[1024 * 512];
+        CosmeticPreviewCache.Uploader uploader = new CosmeticPreviewCache.Uploader() {
+            public int allocate(int width, int height) {
+                assertEquals(1024, width);
+                assertEquals(512, height);
+                calls[0]++;
+                return 7;
             }
-            return solid(0xff3377aa);
+            public void upload(int texture, int[] pixels, int width, int rows, int y) {
+                assertEquals(7, texture);
+                assertTrue(pixels.length <= CosmeticPreviewCache.PIXELS_PER_FRAME);
+                assertEquals(y, calls[1] * 128);
+                System.arraycopy(pixels, 0, uploaded, y * width, pixels.length);
+                calls[1]++;
+            }
+            public void delete(int texture) { fail("Cached texture must remain available"); }
+        };
+        for (int frame = 0; frame < 4; frame++) {
+            assertFalse(entry.ready);
+            cache.advanceFrame(uploader);
+            assertEquals(frame + 1, calls[1]);
+        }
+        assertTrue(entry.ready);
+        assertNull(entry.pixels);
+        assertEquals(0xffabcdef, uploaded[uploaded.length - 1]);
+        assertEquals(0xff123456, uploaded[0]);
+        cache.requestPage(0);
+        cache.advanceFrame(uploader);
+        assertEquals(1, calls[0]);
+        assertEquals(4, calls[1]);
+    }
+
+    public void testNewPageTakesPriorityOverQueuedPrefetchWithoutBlockingCaller() throws Exception {
+        List<ClientResourceManager> cosmetics = new ArrayList<>();
+        for (int index = 0; index < 15; index++) cosmetics.add(wing(index));
+        CosmeticPreviewCache cache = new CosmeticPreviewCache(cosmetics);
+        CountDownLatch firstEntered = new CountDownLatch(1);
+        CountDownLatch release = new CountDownLatch(1);
+        List<String> decoded = Collections.synchronizedList(new ArrayList<>());
+        Thread caller = Thread.currentThread();
+        cache.reset(location -> {
+            assertNotSame(caller, Thread.currentThread());
+            decoded.add(location.getResourcePath());
+            firstEntered.countDown();
+            await(release);
+            return image(64, 32, 0xff0000ff);
         });
         try {
-            assertTrue(entered.await(1, TimeUnit.SECONDS));
-            assertFalse(load.isDone());
-            assertNull(cache.getImage());
+            assertTrue(firstEntered.await(1, TimeUnit.SECONDS));
+            cache.requestPage(2);
+            CosmeticPreviewCache.Entry current = cache.getEntry(10);
+            assertFalse(current.loaded.isDone());
+            release.countDown();
+            current.loaded.get(5, TimeUnit.SECONDS);
+            assertEquals("client/preview/wings/0.png", decoded.get(0));
+            assertEquals("client/preview/wings/10.png", decoded.get(1));
+            assertEquals(64, current.width);
         } finally {
             release.countDown();
         }
-        load.get(5, TimeUnit.SECONDS);
-        BufferedImage atlas = cache.getImage();
-        assertNotNull(atlas);
-        assertEquals(256, atlas.getWidth());
-        for (int index = 0; index < cosmetics.size(); index++) {
-            int x = index % 8 * 32;
-            int y = index / 8 * 32;
-            assertEquals(0xff3377aa, atlas.getRGB(x + 6, y + 6));
-            assertEquals(0, atlas.getRGB(x + 20, y + 20));
-        }
     }
 
-    public void testResourceReloadDiscardsOldDecodeResult() throws Exception {
-        ClientResourceManager wings = new ClientResourceManager("local", "Test", CosmeticType.WINGS,
-            0.125F, false, "client/wings/blue.png");
-        CosmeticPreviewCache cache = new CosmeticPreviewCache(Collections.singletonList(wings));
-        CountDownLatch oldEntered = new CountDownLatch(1);
-        CountDownLatch oldRelease = new CountDownLatch(1);
-        CountDownLatch newEntered = new CountDownLatch(1);
-        CountDownLatch newRelease = new CountDownLatch(1);
-        CompletableFuture<Void> old = cache.reloadImages(location -> {
-            oldEntered.countDown();
-            await(oldRelease);
-            return solid(0xffff0000);
+    public void testReloadRejectsStaleOriginalPixels() throws Exception {
+        CosmeticPreviewCache cache = new CosmeticPreviewCache(Collections.singletonList(wing(0)));
+        CountDownLatch entered = new CountDownLatch(1);
+        CountDownLatch release = new CountDownLatch(1);
+        cache.reset(location -> {
+            entered.countDown();
+            await(release);
+            return image(256, 256, 0xffff0000);
         });
         try {
-            assertTrue(oldEntered.await(1, TimeUnit.SECONDS));
-            CompletableFuture<Void> current = cache.reloadImages(location -> {
-                newEntered.countDown();
-                await(newRelease);
-                return solid(0xff0000ff);
-            });
-            oldRelease.countDown();
-            old.get(5, TimeUnit.SECONDS);
-            assertTrue(newEntered.await(1, TimeUnit.SECONDS));
-            assertNull(cache.getImage());
-            newRelease.countDown();
-            current.get(5, TimeUnit.SECONDS);
-            assertEquals(0xff0000ff, cache.getImage().getRGB(6, 6));
+            assertTrue(entered.await(1, TimeUnit.SECONDS));
+            CosmeticPreviewCache.Entry old = cache.getEntry(0);
+            cache.reset(location -> image(512, 256, 0xff0000ff));
+            CosmeticPreviewCache.Entry current = cache.getEntry(0);
+            assertTrue(old.loaded.isCancelled());
+            release.countDown();
+            current.loaded.get(5, TimeUnit.SECONDS);
+            assertEquals(512, current.width);
+            assertEquals(0xff0000ff, current.pixels[0]);
         } finally {
-            oldRelease.countDown();
-            newRelease.countDown();
+            release.countDown();
         }
     }
 

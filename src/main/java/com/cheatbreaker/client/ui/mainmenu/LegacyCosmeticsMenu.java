@@ -21,6 +21,7 @@ public class LegacyCosmeticsMenu extends GuiMainMenu {
 
    @Override
    public void drawScreen(int var1, int var2, float var3) {
+      CheatBreaker.getInstance().method_19791().getPreviewCache().beginFrame(this.recoveredField3521);
       super.drawScreen(var1, var2, var3);
       RenderUtil.method_22054(this.l / 2.0F - 80.0F, this.m / 2.0F - 78.0F, this.l / 2.0F + 80.0F, this.m / 2.0F + 100.0F, 14.0, -1342177281);
       if (this.recoveredField3522.isEmpty()) {
