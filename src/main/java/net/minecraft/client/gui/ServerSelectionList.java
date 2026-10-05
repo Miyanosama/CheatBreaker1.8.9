@@ -42,9 +42,7 @@ public class ServerSelectionList extends GuiListExtended {
          return;
       }
       int gapY = rowsTop + this.headerPadding + this.dragTargetRow * this.slotHeight;
-      Gui.drawRect(x, gapY, x + this.v_() - 4, gapY + this.slotHeight - 4, 0x30FFE080);
-      Gui.drawRect(x, gapY, x + this.v_() - 4, gapY + 1, 0xA0FFE080);
-      Gui.drawRect(x, gapY + this.slotHeight - 5, x + this.v_() - 4, gapY + this.slotHeight - 4, 0xA0FFE080);
+      Gui.drawRect(x, gapY, x + this.v_() - 4, gapY + this.slotHeight - 4, 0x40808080);
       for (int row = 0; row < this.getSize(); row++) {
          int preview = this.previewRow(row);
          if (preview < 0) continue;
