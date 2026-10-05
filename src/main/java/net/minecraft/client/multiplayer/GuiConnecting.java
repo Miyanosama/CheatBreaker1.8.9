@@ -23,9 +23,9 @@ import com.cheatbreaker.client.event.type.WorldChangeEvent;
 public class GuiConnecting extends GuiScreen {
    public static AtomicInteger CONNECTION_ID = new AtomicInteger(0);
    public GuiScreen previousGuiScreen;
-   public NetworkManager networkManager;
+   public volatile NetworkManager networkManager;
    public static Logger logger = LogManager.getLogger();
-   public boolean cancel;
+   public volatile boolean cancel;
 
    @Override
    public void actionPerformed(GuiButton var1) throws java.io.IOException {
@@ -56,25 +56,52 @@ public class GuiConnecting extends GuiScreen {
    }
 
    public void connect(final String var1, final int var2) {
+      this.connect(var1, var2, false);
+   }
+
+   protected ServerAddress resolveAddress(String host, int port, boolean lookupSrv) {
+      return lookupSrv ? ServerAddress.fromString(host) : new ServerAddress(host, port);
+   }
+
+   private void showConnectionError(final String reason) {
+      this.j.addScheduledTask(() -> {
+         if (!this.cancel && this.j.currentScreen == this) {
+            this.j.displayGuiScreen(new GuiDisconnected(this.previousGuiScreen, "connect.failed",
+               new ChatComponentTranslation("disconnect.genericReason", reason)));
+         }
+      });
+   }
+
+   private void connect(final String var1, final int var2, final boolean lookupSrv) {
       logger.info("Connecting to " + var1 + ", " + var2);
       (new Thread("Server Connector #" + CONNECTION_ID.incrementAndGet()) {
             @Override
             public void run() {
                InetAddress var1x = null;
+               int resolvedPort = var2;
 
                try {
                   if (GuiConnecting.this.cancel) {
                      return;
                   }
 
+                  ServerAddress address = GuiConnecting.this.resolveAddress(var1, var2, lookupSrv);
+                  String host = address.getIP();
+                  resolvedPort = address.getPort();
+                  if (GuiConnecting.this.cancel) return;
+                  var1x = InetAddress.getByName(host);
+                  if (GuiConnecting.this.cancel) return;
                   CheatBreaker.getInstance().method_19817().method_21935(new WorldChangeEvent());
-                  var1x = InetAddress.getByName(var1);
                   GuiConnecting.this.networkManager = NetworkManager.createNetworkManagerAndConnect(
-                     var1x, var2, GuiConnecting.this.j.gameSettings.isUsingNativeTransport()
+                     var1x, resolvedPort, GuiConnecting.this.j.gameSettings.isUsingNativeTransport()
                   );
+                  if (GuiConnecting.this.cancel) {
+                     GuiConnecting.this.networkManager.closeChannel(new ChatComponentText("Aborted"));
+                     return;
+                  }
                   GuiConnecting.this.networkManager
                      .setNetHandler(new NetHandlerLoginClient(GuiConnecting.this.networkManager, GuiConnecting.this.j, GuiConnecting.this.previousGuiScreen));
-                  GuiConnecting.this.networkManager.sendPacket(new C00Handshake(47, var1, var2, EnumConnectionState.LOGIN));
+                  GuiConnecting.this.networkManager.sendPacket(new C00Handshake(47, host, resolvedPort, EnumConnectionState.LOGIN));
                   GuiConnecting.this.networkManager.sendPacket(new C00PacketLoginStart(GuiConnecting.this.j.getSession().getProfile()));
                } catch (UnknownHostException var5) {
                   if (GuiConnecting.this.cancel) {
@@ -82,12 +109,7 @@ public class GuiConnecting extends GuiScreen {
                   }
 
                   GuiConnecting.logger.error("Couldn't connect to server", var5);
-                  GuiConnecting.this.j
-                     .displayGuiScreen(
-                        new GuiDisconnected(
-                           GuiConnecting.this.previousGuiScreen, "connect.failed", new ChatComponentTranslation("disconnect.genericReason", "Unknown host")
-                        )
-                     );
+                  GuiConnecting.this.showConnectionError("Unknown host");
                } catch (Exception var6) {
                   if (GuiConnecting.this.cancel) {
                      return;
@@ -96,16 +118,11 @@ public class GuiConnecting extends GuiScreen {
                   GuiConnecting.logger.error("Couldn't connect to server", var6);
                   String var3 = var6.toString();
                   if (var1x != null) {
-                     String var4 = var1x.toString() + ":" + var2;
-                     var3 = var3.replaceAll(var4, "");
+                     String var4 = var1x.toString() + ":" + resolvedPort;
+                     var3 = var3.replace(var4, "");
                   }
 
-                  GuiConnecting.this.j
-                     .displayGuiScreen(
-                        new GuiDisconnected(
-                           GuiConnecting.this.previousGuiScreen, "connect.failed", new ChatComponentTranslation("disconnect.genericReason", var3)
-                        )
-                     );
+                  GuiConnecting.this.showConnectionError(var3);
                }
             }
          })
@@ -121,16 +138,19 @@ public class GuiConnecting extends GuiScreen {
    public GuiConnecting(GuiScreen var1, Minecraft var2, ServerData var3) {
       this.j = var2;
       this.previousGuiScreen = var1;
-      ServerAddress var4 = ServerAddress.fromString(var3.serverIP);
-      var2.loadWorld((WorldClient)null);
+      if (var2.theWorld != null || var2.getIntegratedServer() != null) {
+         var2.loadWorld((WorldClient)null);
+      }
       var2.setServerData(var3);
-      this.connect(var4.getIP(), var4.getPort());
+      this.connect(var3.serverIP, 25565, true);
    }
 
    public GuiConnecting(GuiScreen var1, Minecraft var2, String var3, int var4) {
       this.j = var2;
       this.previousGuiScreen = var1;
-      var2.loadWorld((WorldClient)null);
+      if (var2.theWorld != null || var2.getIntegratedServer() != null) {
+         var2.loadWorld((WorldClient)null);
+      }
       this.connect(var3, var4);
    }
 

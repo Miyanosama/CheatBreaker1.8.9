@@ -437,7 +437,6 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
          this.thePlayer = null;
       }
 
-      System.gc();
       this.recoveredField3830 = 0L;
       CheatBreaker.getInstance().method_19817().method_21935(new WorldChangeEvent());
    }
