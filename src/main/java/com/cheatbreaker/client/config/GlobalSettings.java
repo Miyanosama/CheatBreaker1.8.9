@@ -138,7 +138,6 @@ public class GlobalSettings {
    public Setting recoveredField594;
    public Setting recoveredField595;
    public Setting recoveredField596;
-   public String recoveredField597;
    public Setting recoveredField598;
    public Setting recoveredField599;
 
@@ -153,7 +152,6 @@ public class GlobalSettings {
       this.recoveredField485 = true;
       this.reconnectTime = 60;
       this.recoveredField537 = "http://server.noxiuam.gq/crashReport";
-      this.recoveredField597 = "http://moosecbapi.000webhostapp.com/debug-upload.php";
       this.recoveredField575 = new ArrayList<>();
       this.recoveredField507 = new ArrayList<>();
       CheatBreaker.getInstance().recoveredField1579.info(CheatBreaker.getInstance().recoveredField1553 + "Created settings");

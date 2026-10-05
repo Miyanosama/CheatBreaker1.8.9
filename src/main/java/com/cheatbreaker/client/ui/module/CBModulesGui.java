@@ -10,7 +10,6 @@ import com.cheatbreaker.client.ui.element.module.ModulesGuiButtonElement;
 import com.cheatbreaker.client.ui.element.profile.ProfilesListElement;
 import com.cheatbreaker.client.ui.util.RenderUtil;
 import com.cheatbreaker.client.ui.util.font.CBFontRenderer;
-import com.cheatbreaker.client.util.ClientDiagnosticReport;
 import java.awt.Color;
 import java.awt.Rectangle;
 import java.util.ArrayList;
@@ -19,7 +18,6 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.GuiScreen;
-import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.util.ResourceLocation;
@@ -38,10 +36,8 @@ public class CBModulesGui extends GuiScreen {
    public AbstractScrollableElement currentScrollableElement;
    public float recoveredField781;
    public float recoveredField782;
-   public boolean recoveredField783;
    public static boolean recoveredField784 = false;
    public static AbstractModule draggingModule;
-   public GuiTextField recoveredField785;
    public int recoveredField786;
    public boolean recoveredField787;
    public ModulesGuiButtonElement recoveredField788;
@@ -56,7 +52,6 @@ public class CBModulesGui extends GuiScreen {
    public int recoveredField797;
    public List<ModuleGroupPositionSnapshot> recoveredField798;
    public ResourceLocation recoveredField799 = new ResourceLocation("client/icons/delete-64.png");
-   public ModulesGuiButtonElement recoveredField800;
    public AbstractScrollableElement recoveredField801;
    public AbstractScrollableElement recoveredField802;
    public List<ModulesGuiButtonElement> buttons;
@@ -382,14 +377,6 @@ public class CBModulesGui extends GuiScreen {
       }
 
       super.keyTyped(var1, var2);
-      if (this.recoveredField783) {
-         if (var2 == 28) {
-            ClientDiagnosticReport.method_20173(this.recoveredField785.getText());
-         }
-
-         this.recoveredField785.textboxKeyTyped(var1, var2);
-      }
-
       if (var2 == 30 && isCtrlKeyDown()) {
          for (AbstractModule var4 : this.recoveredField803) {
             if (var4.isEnabled() && var4.getGuiAnchor() != null && this.getModulePosition(var4) == null) {
@@ -705,13 +692,6 @@ public class CBModulesGui extends GuiScreen {
       int var39 = (int)(this.m / var8);
       this.recoveredField792.handleDrawElement(var1, var2, var3);
       this.recoveredField788.handleDrawElement(var1, var2, var3);
-      this.recoveredField800.handleDrawElement(var1, var2, var3);
-      if (this.recoveredField783) {
-         this.j.fontRendererObj.drawString("Bug Description (Press ENTER to send)", 39, var39 - 70, -1);
-         this.recoveredField785.setMaxStringLength(180);
-         this.recoveredField785.drawTextBox();
-      }
-
       float var41 = this.recoveredField778 * 8.0F / 255.0F;
       GL11.glPushMatrix();
       GL11.glColor4f(1.0F, 1.0F, 1.0F, var41);
@@ -849,10 +829,6 @@ public class CBModulesGui extends GuiScreen {
       int var2 = (int)(this.l / var1);
       int var3 = (int)(this.m / var1);
       this.method_26998(var2);
-      if (this.recoveredField783) {
-         this.recoveredField785.updateCursorCounter();
-      }
-
       if (!this.positions.isEmpty()) {
          boolean var4 = Keyboard.isKeyDown(203);
          boolean var5 = Keyboard.isKeyDown(205);
@@ -891,7 +867,6 @@ public class CBModulesGui extends GuiScreen {
       this.currentScrollableElement = null;
       this.recoveredField791 = false;
       this.recoveredField787 = false;
-      this.recoveredField783 = false;
       this.recoveredField778 = 0.0F;
    }
 
@@ -1032,8 +1007,6 @@ public class CBModulesGui extends GuiScreen {
       this.recoveredField789.add(this.recoveredField796);
       this.recoveredField792 = new ModulesGuiButtonElement(null, "eye-64.png", 4, var3 - 32, 28, 28, -12418828, var1);
       this.recoveredField788 = new ModulesGuiButtonElement(null, "?", 36, var3 - 32, 28, 28, -12418828, var1);
-      this.recoveredField800 = new ModulesGuiButtonElement(null, "Bug report", 68, var3 - 32, 140, 28, -12418828, var1);
-      this.recoveredField785 = new GuiTextField(299, this.j.fontRendererObj, 68, var3 - 58, 140, 20);
       if (CheatBreaker.getInstance().getConfigManager().method_25096()) {
          this.buttons.add(new ModulesGuiButtonElement(this.recoveredField802, "Staff Mods", var2 / 2 - 50, var3 / 2 - 44, 100, 20, -9442858, var1));
       }
@@ -1175,12 +1148,6 @@ public class CBModulesGui extends GuiScreen {
             if (this.recoveredField792.isMouseInside(var1, var2)) {
                Minecraft.getMinecraft().getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
                this.recoveredField787 = !this.recoveredField787;
-            } else if (this.recoveredField800.isMouseInside(var1, var2)) {
-               Minecraft.getMinecraft().getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
-               this.recoveredField783 = !this.recoveredField783;
-               if (this.recoveredField783) {
-                  this.recoveredField785.setFocused(true);
-               }
             }
 
             this.method_26994(var1, var2, var3);
