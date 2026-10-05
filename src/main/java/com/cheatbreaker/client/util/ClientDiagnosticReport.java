@@ -11,17 +11,38 @@ import java.lang.management.RuntimeMXBean;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.settings.GameSettings;
 import net.minecraft.src.Config;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
 import net.optifine.http.FileUploadThread;
 import net.optifine.http.IFileUploadListener;
+import org.apache.logging.log4j.LogManager;
 
 public class ClientDiagnosticReport {
+   private static final AtomicBoolean submitting = new AtomicBoolean();
+
+   static boolean submitInBackground(Runnable report) {
+      if (!submitting.compareAndSet(false, true)) return false;
+      Thread worker = new Thread(() -> {
+         try {
+            report.run();
+         } finally {
+            submitting.set(false);
+         }
+      }, "Bug Report Submitter");
+      worker.setDaemon(true);
+      worker.start();
+      return true;
+   }
+
    public static void method_20169() {
-      Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(EnumChatFormatting.GREEN + "Uploaded debug info."));
+      if (Minecraft.getMinecraft().thePlayer != null) {
+         Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(EnumChatFormatting.GREEN + "Uploaded debug info."));
+      }
       if ((Boolean)CheatBreaker.getInstance().getGlobalSettings().recoveredField594.getValue()) {
          Minecraft.getMinecraft().entityRenderer.stopUseShader();
       }
@@ -122,8 +143,7 @@ public class ClientDiagnosticReport {
       GameSettings var27 = Minecraft.getMinecraft().gameSettings;
       var14.append("= [ Options.txt ] =\n");
 
-      try {
-         BufferedReader var29 = new BufferedReader(new FileReader(var27.optionsFile));
+      try (BufferedReader var29 = new BufferedReader(new FileReader(var27.optionsFile))) {
 
          String var31;
          while ((var31 = var29.readLine()) != null) {
@@ -137,8 +157,7 @@ public class ClientDiagnosticReport {
 
       var14.append("\n= [ OptionsOF.txt ] =\n");
 
-      try {
-         BufferedReader var30 = new BufferedReader(new FileReader(var27.optionsFileOF));
+      try (BufferedReader var30 = new BufferedReader(new FileReader(var27.optionsFileOF))) {
 
          String var32;
          while ((var32 = var30.readLine()) != null) {
@@ -173,19 +192,33 @@ public class ClientDiagnosticReport {
    }
 
    public static void method_20173(String var0) {
-      try {
-         String var1 = CheatBreaker.getInstance().getGlobalSettings().recoveredField597;
-         String var2 = method_20170(var0);
-         byte[] var3 = var2.getBytes(StandardCharsets.US_ASCII);
-         IFileUploadListener var4 = (var0x, var1x, var2x) -> method_20169();
-         HashMap var5 = new HashMap();
-         var5.put("OF-Version", Config.getVersion());
-         FileUploadThread var6 = new FileUploadThread(var1, var5, var3, var4);
-         var6.setPriority(10);
-         var6.start();
-         Thread.sleep(1000L);
-      } catch (InterruptedException var7) {
-         var7.printStackTrace();
-      }
+      Minecraft minecraft = Minecraft.getMinecraft();
+      GuiScreen screen = minecraft.currentScreen;
+      String url = CheatBreaker.getInstance().getGlobalSettings().recoveredField597;
+      submitInBackground(() -> {
+         try {
+            byte[] content = method_20170(var0).getBytes(StandardCharsets.US_ASCII);
+            IFileUploadListener listener = (uploadedUrl, bytes, error) -> finishSubmission(minecraft, screen, error);
+            HashMap headers = new HashMap();
+            headers.put("OF-Version", Config.getVersion());
+            // Already on the report worker; keep generation and upload in one task.
+            new FileUploadThread(url, headers, content, listener).run();
+         } catch (Exception error) {
+            finishSubmission(minecraft, screen, error);
+         }
+      });
+   }
+
+   private static void finishSubmission(Minecraft minecraft, GuiScreen screen, Throwable error) {
+      if (error != null) LogManager.getLogger().warn("Could not upload bug report", error);
+      minecraft.addScheduledTask(() -> {
+         if (error != null) {
+            if (minecraft.thePlayer != null) {
+               minecraft.thePlayer.addChatMessage(new ChatComponentText(EnumChatFormatting.RED + "Could not upload debug info. Please try again."));
+            }
+         } else if (minecraft.currentScreen == screen) {
+            method_20169();
+         }
+      });
    }
 }
