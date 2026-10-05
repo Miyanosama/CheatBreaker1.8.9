@@ -82,47 +82,55 @@ public class LanServerDetector {
    }
 
    public static class ThreadLanServerFind extends Thread {
-      public MulticastSocket socket;
+      public volatile MulticastSocket socket;
       public LanServerDetector.LanServerList localServerList;
       public InetAddress broadcastAddress;
 
+      protected MulticastSocket createSocket() throws IOException {
+         return new MulticastSocket(4445);
+      }
+
+      @Override
+      public void interrupt() {
+         super.interrupt();
+         MulticastSocket current = this.socket;
+         if (current != null) current.close();
+      }
+
       @Override
       public void run() {
-         byte[] var1 = new byte[1024];
-
-         while (!this.isInterrupted()) {
-            DatagramPacket var2 = new DatagramPacket(var1, var1.length);
-
-            try {
-               this.socket.receive(var2);
-            } catch (SocketTimeoutException var5) {
-               continue;
-            } catch (IOException var6) {
-               LanServerDetector.logger.error("Couldn't ping server", var6);
-               break;
-            }
-
-            String var3 = new String(var2.getData(), var2.getOffset(), var2.getLength());
-            LanServerDetector.logger.debug(var2.getAddress() + ": " + var3);
-            this.localServerList.func_77551_a(var3, var2.getAddress());
-         }
-
          try {
-            this.socket.leaveGroup(this.broadcastAddress);
-         } catch (IOException var4) {
+            if (this.isInterrupted()) return;
+            this.socket = this.createSocket();
+            if (this.isInterrupted()) return;
+            this.broadcastAddress = InetAddress.getByName("224.0.2.60");
+            this.socket.setSoTimeout(5000);
+            this.socket.joinGroup(this.broadcastAddress);
+            byte[] buffer = new byte[1024];
+            while (!this.isInterrupted()) {
+               DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
+               try {
+                  this.socket.receive(packet);
+               } catch (SocketTimeoutException timeout) {
+                  continue;
+               }
+               String message = new String(packet.getData(), packet.getOffset(), packet.getLength());
+               LanServerDetector.logger.debug(packet.getAddress() + ": " + message);
+               this.localServerList.func_77551_a(message, packet.getAddress());
+            }
+         } catch (IOException error) {
+            if (!this.isInterrupted()) {
+               LanServerDetector.logger.warn("Unable to detect LAN servers", error);
+            }
+         } finally {
+            if (this.socket != null) this.socket.close();
          }
-
-         this.socket.close();
       }
 
       public ThreadLanServerFind(LanServerDetector.LanServerList var1) throws java.io.IOException {
          super("LanServerDetector #" + LanServerDetector.field_148551_a.incrementAndGet());
          this.localServerList = var1;
          this.setDaemon(true);
-         this.socket = new MulticastSocket(4445);
-         this.broadcastAddress = InetAddress.getByName("224.0.2.60");
-         this.socket.setSoTimeout(5000);
-         this.socket.joinGroup(this.broadcastAddress);
       }
    }
 }

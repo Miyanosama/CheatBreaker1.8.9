@@ -6,12 +6,19 @@ import com.google.gson.JsonParser;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.net.URLConnection;
+import org.apache.logging.log4j.LogManager;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Objects;
 
 public class ServerMappingLoader {
-   public static JsonArray recoveredField140;
+   public static volatile JsonArray recoveredField140 = new JsonArray();
+   private static volatile boolean loaded;
+
+   public static boolean isLoaded() {
+      return loaded;
+   }
 
    public static String[] method_12435(String var0) {
       try {
@@ -55,14 +62,21 @@ public class ServerMappingLoader {
    }
 
    static {
-      try {
-         recoveredField140 = new JsonParser()
-            .parse(
-               new BufferedReader(new InputStreamReader(new URL("https://servermappings.lunarclientcdn.com/servers.json").openStream(), StandardCharsets.UTF_8))
-            )
-            .getAsJsonArray();
-      } catch (Exception var1) {
-         var1.printStackTrace();
-      }
+      Thread loader = new Thread(() -> {
+         try {
+            URLConnection connection = new URL("https://servermappings.lunarclientcdn.com/servers.json").openConnection();
+            connection.setConnectTimeout(3000);
+            connection.setReadTimeout(3000);
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream(), StandardCharsets.UTF_8))) {
+               recoveredField140 = new JsonParser().parse(reader).getAsJsonArray();
+            }
+         } catch (Exception error) {
+            LogManager.getLogger().warn("Could not load optional server mappings", error);
+         } finally {
+            loaded = true;
+         }
+      }, "Server Mapping Loader");
+      loader.setDaemon(true);
+      loader.start();
    }
 }

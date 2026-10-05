@@ -5,6 +5,7 @@ import com.cheatbreaker.client.ui.ServerRiskWarningGui;
 import com.cheatbreaker.client.ui.mainmenu.MainMenu;
 import com.cheatbreaker.client.ui.serverlist.PinnedServerEntry;
 import com.cheatbreaker.client.util.server.ServerRestrictionAction;
+import com.cheatbreaker.client.util.server.ServerMappingLoader;
 import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;
 import java.util.List;
@@ -33,6 +34,7 @@ public class GuiMultiplayer extends GuiScreen implements GuiYesNoCallback {
    public OldServerPinger oldServerPinger = new OldServerPinger();
    public String hoveringText;
    public boolean initialized;
+   private boolean serverMappingsApplied;
    public boolean recoveredField1533;
    public boolean recoveredField1534;
    public ServerData selectedServer;
@@ -77,6 +79,12 @@ public class GuiMultiplayer extends GuiScreen implements GuiYesNoCallback {
    @Override
    public void updateScreen() {
       super.updateScreen();
+      if (!this.serverMappingsApplied && ServerMappingLoader.isLoaded()) {
+         this.serverMappingsApplied = true;
+         int selected = this.serverListSelector.func_148193_k();
+         this.serverListSelector.func_148195_a(this.savedServerList);
+         this.selectServer(selected);
+      }
       if (this.lanServerList.getWasUpdated()) {
          List var1 = this.lanServerList.getLanServers();
          this.lanServerList.setWasNotUpdated();
@@ -229,7 +237,6 @@ public class GuiMultiplayer extends GuiScreen implements GuiYesNoCallback {
       if (!this.initialized) {
          this.initialized = true;
          this.savedServerList = new ServerList(this.j);
-         this.savedServerList.loadServerList();
          this.lanServerList = new LanServerDetector.LanServerList();
 
          try {
