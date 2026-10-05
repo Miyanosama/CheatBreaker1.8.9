@@ -432,7 +432,9 @@ public abstract class RendererLivingEntity<T extends EntityLivingBase> extends R
       NametagModule var8 = CheatBreaker.getInstance().getModuleManager().recoveredField1713;
       if (!Reflector.RenderLivingEvent_Specials_Pre_Constructor.exists()
          || !Reflector.postForgeBusEvent(Reflector.RenderLivingEvent_Specials_Pre_Constructor, var1, this, var2, var4, var6)) {
-         if (this.canRenderName((T)var1) || var1.equals(Minecraft.getMinecraft().thePlayer) && var8.isEnabled() && var8.recoveredField2915.method_08908()) {
+         if (var1.equals(Minecraft.getMinecraft().thePlayer)
+            ? var8.isEnabled() && var8.recoveredField2915.method_08908()
+            : this.canRenderName((T)var1)) {
             double var9 = var1.h(this.b.livingPlayer);
             float var11 = var1.isSneaking() ? NAME_TAG_RANGE_SNEAK : NAME_TAG_RANGE;
             if (var9 < var11 * var11 && !CheatBreaker.getInstance().recoveredField1571) {
