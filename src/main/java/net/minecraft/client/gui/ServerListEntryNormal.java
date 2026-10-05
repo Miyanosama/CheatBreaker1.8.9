@@ -198,13 +198,13 @@ public class ServerListEntryNormal implements GuiListExtended.IGuiListEntry {
 
       int var19 = var6 - var2;
       int var20 = var7 - var3;
-      if (var19 >= var4 - 15 && var19 <= var4 - 5 && var20 >= 0 && var20 <= 8) {
+      if (!this.recoveredField202.isRowDragging() && var19 >= var4 - 15 && var19 <= var4 - 5 && var20 >= 0 && var20 <= 8) {
          this.recoveredField202.setHoveringText(var18);
-      } else if (var19 >= var4 - var35 - 15 - 2 && var19 <= var4 - 15 - 2 && var20 >= 0 && var20 <= 8) {
+      } else if (!this.recoveredField202.isRowDragging() && var19 >= var4 - var35 - 15 - 2 && var19 <= var4 - 15 - 2 && var20 >= 0 && var20 <= 8) {
          this.recoveredField202.setHoveringText(var16);
       }
 
-      if (this.mc.gameSettings.touchscreen || var8) {
+      if (!this.recoveredField202.isRowDragging() && (this.mc.gameSettings.touchscreen || var8)) {
          this.mc.getTextureManager().bindTexture(SERVER_SELECTION_BUTTONS);
          Gui.a(var2, var3, var2 + 32, var3 + 32, -1601138544);
          GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);

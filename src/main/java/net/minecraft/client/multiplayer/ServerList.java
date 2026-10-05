@@ -102,6 +102,16 @@ public class ServerList {
       }
    }
 
+   public boolean moveServer(int from, int to) {
+      if (from < 0 || to < 0 || from >= this.servers.size() || to >= this.servers.size() || from == to) return false;
+      for (int index = Math.min(from, to); index <= Math.max(from, to); index++) {
+         if (this.servers.get(index).recoveredField3389) return false;
+      }
+      ServerData server = this.servers.remove(from);
+      this.servers.add(to, server);
+      return true;
+   }
+
    public void addServerData(ServerData var1) {
       this.servers.add(var1);
    }

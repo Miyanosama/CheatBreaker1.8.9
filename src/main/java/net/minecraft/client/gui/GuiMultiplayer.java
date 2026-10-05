@@ -49,6 +49,7 @@ public class GuiMultiplayer extends GuiScreen implements GuiYesNoCallback {
 
    @Override
    public void a_() {
+      if (this.serverListSelector != null) this.serverListSelector.resetRowDrag();
       Keyboard.enableRepeatEvents(false);
       if (this.lanServerDetector != null) {
          this.lanServerDetector.interrupt();
@@ -383,6 +384,29 @@ public class GuiMultiplayer extends GuiScreen implements GuiYesNoCallback {
 
    public ServerList getServerList() {
       return this.savedServerList;
+   }
+
+   public boolean isRowDragging() {
+      return this.serverListSelector != null && this.serverListSelector.isRowDragging();
+   }
+
+   public void moveServerRow(int fromRow, int toRow) {
+      GuiListExtended.IGuiListEntry from = this.serverListSelector.getListEntry(fromRow);
+      GuiListExtended.IGuiListEntry to = this.serverListSelector.getListEntry(toRow);
+      if (!(from instanceof ServerListEntryNormal) || !(to instanceof ServerListEntryNormal)) return;
+      ServerData moved = ((ServerListEntryNormal)from).getServerData();
+      int fromIndex = this.savedServerList.servers.indexOf(moved);
+      int toIndex = this.savedServerList.servers.indexOf(((ServerListEntryNormal)to).getServerData());
+      if (!this.savedServerList.moveServer(fromIndex, toIndex)) return;
+      this.savedServerList.saveServerList();
+      this.serverListSelector.func_148195_a(this.savedServerList);
+      for (int row = 0; row < this.serverListSelector.serverListInternet.size(); row++) {
+         GuiListExtended.IGuiListEntry entry = this.serverListSelector.getListEntry(row);
+         if (entry instanceof ServerListEntryNormal && ((ServerListEntryNormal)entry).getServerData() == moved) {
+            this.selectServer(row);
+            break;
+         }
+      }
    }
 
    public OldServerPinger getOldServerPinger() {
