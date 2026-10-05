@@ -40,7 +40,7 @@ public final class LocalCosmetics {
                     CosmeticType type = path.startsWith("client/capes/") ? CosmeticType.CAPE : CosmeticType.WINGS;
                     String name = path.substring("client/".length(), path.length() - 4).replace('/', ' ');
                     cosmetics.add(new ClientResourceManager("local", name, type,
-                        type == CosmeticType.WINGS ? 0.25F : 1.0F,
+                        type == CosmeticType.WINGS ? 0.125F : 1.0F,
                         path.equals(selected.getProperty(type.name())), path));
                 }
             }
