@@ -50,33 +50,9 @@ public class CosmeticSelectionElement extends AbstractModulesGuiElement {
    @Override
    public void handleMouseClick(int var1, int var2, int var3) {
       boolean var4 = var1 > this.x && var1 < this.x + this.width && var2 > this.y && var2 < this.y + this.height;
-      if (var4) {
+      if (var4 && var3 == 0) {
          Minecraft.getMinecraft().getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
-         if (this.recoveredField2291.method_20849()) {
-            this.recoveredField2291.method_20857(false);
-         } else if (this.recoveredField2291.method_20848() == CosmeticType.CAPE) {
-            this.recoveredField2291.method_20857(true);
-
-            for (ClientResourceManager var8 : CheatBreaker.getInstance().method_19791().method_27046()) {
-               if (var8 != this.recoveredField2291 && var8.method_20848().equals(CosmeticType.CAPE)) {
-                  var8.method_20857(false);
-               }
-            }
-
-            this.recoveredField2291.method_20857(true);
-         } else {
-            this.recoveredField2291.method_20857(true);
-
-            for (ClientResourceManager var6 : CheatBreaker.getInstance().method_19791().method_27046()) {
-               if (var6 != this.recoveredField2291 && var6.method_20848() != CosmeticType.CAPE) {
-                  var6.method_20857(false);
-               }
-            }
-
-            this.recoveredField2291.method_20857(true);
-         }
-
-         CheatBreaker.getInstance().getAssetsWebSocket().sendClientCosmetics();
+         CheatBreaker.getInstance().method_19791().getLocalCosmetics().toggle(this.recoveredField2291);
       }
    }
 

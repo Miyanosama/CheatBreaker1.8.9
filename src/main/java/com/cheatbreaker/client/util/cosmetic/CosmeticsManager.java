@@ -7,6 +7,12 @@ import java.util.UUID;
 import net.minecraft.client.Minecraft;
 
 public class CosmeticsManager {
+   private final LocalCosmetics localCosmetics;
+
+   public LocalCosmetics getLocalCosmetics() {
+      return this.localCosmetics;
+   }
+
    public List<ClientResourceManager> recoveredField1254;
    public List<ClientResourceManager> recoveredField1255 = new ArrayList<>();
 
@@ -44,6 +50,7 @@ public class CosmeticsManager {
 
    public CosmeticsManager() {
       this.recoveredField1254 = new ArrayList<>();
+      this.localCosmetics = new LocalCosmetics(new java.io.File(Minecraft.getMinecraft().mcDataDir, "config/cheatbreaker-local-cosmetics.properties"));
    }
 
    public ClientResourceManager method_27048(UUID var1) {

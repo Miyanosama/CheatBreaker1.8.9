@@ -1,6 +1,8 @@
 package net.minecraft.client.model;
 
 import com.cheatbreaker.client.CheatBreaker;
+import com.cheatbreaker.client.util.ClientResourceManager;
+import net.minecraft.client.Minecraft;
 import com.cheatbreaker.client.cosmetic.model.DragonWingsModel;
 import com.cheatbreaker.client.util.cosmetic.CosmeticType;
 import net.minecraft.client.entity.AbstractClientPlayer;
@@ -148,13 +150,12 @@ public class ModelPlayer extends ModelBiped {
          this.bipedBodyWear.render(var7);
       }
 
-      EntityPlayer var9;
-      if (!this.o
-         && var1 instanceof EntityPlayer
-         && (var9 = (EntityPlayer)var1).method_00367()
-         && var9.method_00329().method_20848() == CosmeticType.WINGS
-         && (Boolean)CheatBreaker.getInstance().getGlobalSettings().recoveredField543.getValue()) {
-         this.recoveredField3328.method_20013(var1, var2, var3, var4, var5, var6, var7, var9.method_00329().method_20846(), var9.method_00329().method_20859());
+      ClientResourceManager wings = var1 == Minecraft.getMinecraft().thePlayer
+         ? CheatBreaker.getInstance().method_19791().getLocalCosmetics().getEquipped(CosmeticType.WINGS)
+         : (var1 instanceof EntityPlayer ? ((EntityPlayer)var1).method_00329() : null);
+      if (!this.o && wings != null && wings.method_20848() == CosmeticType.WINGS
+         && CheatBreaker.getInstance().getGlobalSettings().recoveredField543.method_08908()) {
+         this.recoveredField3328.method_20013(var1, var2, var3, var4, var5, var6, var7, wings.method_20846(), wings.method_20859());
       }
 
       if (var1 instanceof AbstractClientPlayer) {

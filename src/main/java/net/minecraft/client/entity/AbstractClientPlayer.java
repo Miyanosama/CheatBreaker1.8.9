@@ -112,6 +112,12 @@ public abstract class AbstractClientPlayer extends EntityPlayer {
             this.reloadCapeTimeMs = 0L;
          }
 
+         if (this == Minecraft.getMinecraft().thePlayer
+            && CheatBreaker.getInstance().getGlobalSettings().recoveredField556.method_08908()) {
+            ClientResourceManager localCape = CheatBreaker.getInstance().method_19791().getLocalCosmetics()
+               .getEquipped(com.cheatbreaker.client.util.cosmetic.CosmeticType.CAPE);
+            if (localCape != null) return localCape.method_20859();
+         }
          if (this.locationOfCape != null) {
             return this.locationOfCape;
          } else {
