@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import junit.framework.TestCase;
 import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.gui.GuiChat;
 import net.minecraft.client.gui.GuiScreenBook;
 import net.minecraft.client.gui.inventory.GuiEditSign;
 import sun.misc.Unsafe;
@@ -60,7 +61,7 @@ public class WindowsImeSupportTest extends TestCase {
    }
 
    public void testMenusOnlyRequireImeWhileATextFieldIsFocused() throws Exception {
-      GuiScreen screen = withoutGameStartup(GuiScreen.class);
+      GuiScreen screen = withoutGameStartup(GuiChat.class);
       Object field = new Object();
       boolean[] focused = {false};
       WindowsImeSupport.trackFocus(screen, field, () -> focused[0]);
