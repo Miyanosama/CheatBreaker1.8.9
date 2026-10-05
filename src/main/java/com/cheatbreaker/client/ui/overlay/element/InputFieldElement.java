@@ -61,6 +61,7 @@ public class InputFieldElement extends AbstractElement {
       }
 
       this.recoveredField2629 = var1;
+      net.minecraft.client.WindowsImeSupport.focusChanged(this, this::method_06013);
    }
 
    @Override

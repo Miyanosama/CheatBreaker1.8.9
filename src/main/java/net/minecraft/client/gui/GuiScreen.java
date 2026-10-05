@@ -550,6 +550,7 @@ public abstract class GuiScreen extends Gui implements GuiYesNoCallback {
    }
 
    public void setWorldAndResolution(Minecraft var1, int var2, int var3) {
+      net.minecraft.client.WindowsImeSupport.beginScreen(this);
       this.j = var1;
       this.k = var1.getRenderItem();
       this.q = var1.fontRendererObj;
@@ -558,6 +559,7 @@ public abstract class GuiScreen extends Gui implements GuiYesNoCallback {
       this.n.clear();
       this.initGui();
       this.method_11296();
+      net.minecraft.client.WindowsImeSupport.updateGameInput(this);
    }
 
    public void handleInput() throws java.io.IOException {

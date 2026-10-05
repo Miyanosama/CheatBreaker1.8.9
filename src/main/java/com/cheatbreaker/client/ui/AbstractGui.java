@@ -142,6 +142,7 @@ public abstract class AbstractGui extends GuiScreen {
 
    @Override
    public void setWorldAndResolution(Minecraft var1, int var2, int var3) {
+      net.minecraft.client.WindowsImeSupport.beginScreen(this);
       this.j = var1;
       this.q = var1.fontRendererObj;
       this.l = var2;
@@ -152,6 +153,7 @@ public abstract class AbstractGui extends GuiScreen {
       this.recoveredField13 = var2 / var4;
       this.recoveredField15 = var3 / var4;
       this.initGui();
+      net.minecraft.client.WindowsImeSupport.updateGameInput(this);
    }
 
    public float getScaledWidth() {

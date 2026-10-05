@@ -509,6 +509,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
    }
 
    public void method_20414() throws java.io.IOException {
+      WindowsImeSupport.updateGameInput(this.currentScreen);
       if (this.recoveredField3825 > 0) {
          this.recoveredField3825--;
       }
@@ -1747,6 +1748,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
 
          this.mcSoundHandler.method_27826();
       } finally {
+         WindowsImeSupport.restoreGameInput();
          Display.destroy();
          if (!this.hasCrashed) {
             System.exit(0);
@@ -2495,6 +2497,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
          }
 
          this.currentScreen.a_();
+         WindowsImeSupport.beginScreen(this.currentScreen);
       }
 
       if (var1 == null && this.theWorld == null) {
@@ -2524,6 +2527,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
          this.mcSoundHandler.resumeSounds();
          this.method_20340();
       }
+      WindowsImeSupport.updateGameInput(this.currentScreen);
    }
 
    public void draw(int var1, int var2, int var3, int var4, int var5, int var6, int var7, int var8, int var9, int var10) {

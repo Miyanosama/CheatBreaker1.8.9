@@ -111,6 +111,7 @@ public class GuiTextField extends Gui {
       }
 
       this.isFocused = var1;
+      net.minecraft.client.WindowsImeSupport.focusChanged(this, () -> this.isFocused && this.isEnabled);
    }
 
    public void method_10662(int var1) {

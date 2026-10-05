@@ -26,6 +26,7 @@ public class GlobalSettings {
    public boolean recoveredField485;
    public Setting recoveredField486;
    public Setting rawMouseInput;
+   public Setting preventImeSticking;
    public Setting recoveredField487;
    public Setting recoveredField488;
    public Setting recoveredField489;
@@ -221,6 +222,8 @@ public class GlobalSettings {
          .method_08894(() -> (Boolean)this.recoveredField564.getValue());
       new Setting(this.recoveredField571, "label").setValue("General Settings");
       this.rawMouseInput = new Setting(this.recoveredField571, "Raw Mouse Input", "Use unaccelerated mouse movement on Windows.").setValue(true);
+      this.preventImeSticking = new Setting(this.recoveredField571, "Prevent IME Input Sticking",
+         "Enable Windows IME only while editing text to prevent blocked game keys.").setValue(true);
       // Keep the existing name so saved Fullbright preferences still load.
       this.recoveredField486 = new Setting(this.recoveredField571, "Fullbright", "Render the world at full brightness.").setValue(true);
       // Recover brightness from options saved by the previous gamma-changing implementation.
