@@ -1,0 +1,57 @@
+package io.netty.handler.codec.rtsp;
+
+import net.minecraft.client.audio.SoundHandler$1;
+import net.minecraft.client.particle.EntityAuraFX$HappyVillagerFactory;
+import net.minecraft.client.resources.data.BaseMetadataSectionSerializer;
+import net.optifine.entity.model.anim.ModelUpdater;
+import org.apache.log4j.jmx.Agent;
+
+public class RtspHeaders$Values {
+   public static String GZIP;
+   public static String MIN_FRESH;
+   public static String PRIVATE;
+   public static String BYTES;
+   public ModelUpdater __junk3514828147534119000;
+   public BaseMetadataSectionSerializer __junk1478784872564721952;
+   public static String AVP;
+   public static String UDP;
+   public SoundHandler$1 __junk7333423703557342515;
+   public static String MAX_STALE;
+   public static String UNICAST;
+   public static String SSRC;
+   public static String SERVER_PORT;
+   public static String URL;
+   public static String PROXY_REVALIDATE;
+   public EntityAuraFX$HappyVillagerFactory __junk3824195554344579369;
+   public static String RTP;
+   public static String MUST_REVALIDATE;
+   public static String TIME;
+   public static String NO_TRANSFORM;
+   public static String RTPTIME;
+   public static String NONE;
+   public static String TCP;
+   public static String APPEND;
+   public static String MULTICAST;
+   public static String PUBLIC;
+   public static String NO_CACHE;
+   public static String INTERLEAVED;
+   public static String KEEP_ALIVE;
+   public static String TTL;
+   public static String MAX_AGE;
+   public static String CLOCK;
+   public static String PORT;
+   public static String ONLY_IF_CACHED;
+   public static String CONTINUE;
+   public static String LAYERS;
+   public static String MODE;
+   public static String CLOSE;
+   public static String CLIENT_PORT;
+   public static String CHARSET;
+   public static String DESTINATION;
+   public static String DEFLATE;
+   public static String IDENTITY;
+   public Agent __junk3574392974137383001;
+   public static String COMPRESS;
+   public static String SEQ;
+   public static String TIMEOUT;
+}

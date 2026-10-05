@@ -1,0 +1,32 @@
+{
+  "jar_sha256": "08b3190450be8e89fbd7580fa3e78a571c56f3ea3dafbdf7df70cb5bf1c56358",
+  "passed_markers": [
+    "RECOVERY_SMOKE_MENU",
+    "RECOVERY_SMOKE_WORLD",
+    "RECOVERY_SMOKE_PROTOCOL_PASSED",
+    "RECOVERY_SMOKE_REFLECTION_PASSED",
+    "RECOVERY_SMOKE_HUD_PASSED",
+    "RECOVERY_SMOKE_PASSED"
+  ],
+  "hud_modules": [
+    "RECOVERY_SMOKE_HUD ToggleSprint bounds=106.0x9.0",
+    "RECOVERY_SMOKE_HUD Key Strokes bounds=56.0x56.0",
+    "RECOVERY_SMOKE_HUD CPS bounds=56.0x13.0",
+    "RECOVERY_SMOKE_HUD FPS bounds=56.0x13.0",
+    "RECOVERY_SMOKE_HUD Memory Usage bounds=56.0x13.0",
+    "RECOVERY_SMOKE_HUD Potion Counter bounds=56.0x13.0",
+    "RECOVERY_SMOKE_HUD Combo Counter bounds=56.0x13.0",
+    "RECOVERY_SMOKE_HUD Sprint Reset Counter bounds=56.0x13.0",
+    "RECOVERY_SMOKE_HUD Reach Display bounds=56.0x13.0",
+    "RECOVERY_SMOKE_HUD Server Address bounds=84.0x16.0",
+    "RECOVERY_SMOKE_HUD Ping bounds=0.0x0.0",
+    "RECOVERY_SMOKE_HUD Clock bounds=56.0x13.0",
+    "RECOVERY_SMOKE_HUD Saturation bounds=0.0x0.0",
+    "RECOVERY_SMOKE_HUD Pack Display bounds=58.0x16.0"
+  ],
+  "failed": false,
+  "network_policy": "External-only test harness blocks all non-loopback connections. No authenticated remote functionality verified.",
+  "evidence_directory": ".target/run/smoke-evidence",
+  "log": ".target/run/smoke-stdout.log",
+  "exceptions_log": ".target/run/smoke-stderr.log"
+}

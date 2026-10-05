@@ -1,0 +1,26 @@
+[
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4723",
+    "reference": "org/scijava/nativelib/NativeLibraryUtil$1",
+    "exact_method_fraction": 1.0,
+    "exact_methods": 1
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4776",
+    "reference": "net/minecraft/client/renderer/ItemRenderer$1",
+    "exact_method_fraction": 1.0,
+    "exact_methods": 1
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1036",
+    "reference": "net/minecraft/client/renderer/ItemRenderer$1",
+    "exact_method_fraction": 1.0,
+    "exact_methods": 1
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4506",
+    "reference": "org/scijava/nativelib/NativeLibraryUtil$1",
+    "exact_method_fraction": 1.0,
+    "exact_methods": 1
+  }
+]

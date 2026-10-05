@@ -1,0 +1,55 @@
+package io.netty.handler.codec.rtsp;
+
+import net.minecraft.block.state.pattern.BlockPattern$CacheLoader;
+import net.minecraft.client.renderer.entity.RendererLivingEntity;
+import org.apache.log4j.net.SocketServer;
+
+public class RtspHeaders$Names {
+   public static String FROM;
+   public static String BANDWIDTH;
+   public static String CONTENT_ENCODING;
+   public static String VIA;
+   public static String CONTENT_BASE;
+   public static String CONFERENCE;
+   public static String TIMESTAMP;
+   public RendererLivingEntity __junk6068506813029917812;
+   public static String IF_MATCH;
+   public static String AUTHORIZATION;
+   public static String KEYMGMT;
+   public static String VARY;
+   public static String PROXY_REQUIRE;
+   public static String BLOCKSIZE;
+   public BlockPattern$CacheLoader __junk7135184785893466288;
+   public static String ALLOW;
+   public static String CSEQ;
+   public static String SESSION;
+   public static String DATE;
+   public static String HOST;
+   public static String LAST_MODIFIED;
+   public static String ACCEPT_ENCODING;
+   public static String TRANSPORT;
+   public static String ACCEPT_LANGUAGE;
+   public static String REFERER;
+   public static String RANGE;
+   public static String EXPIRES;
+   public static String CONNECTION;
+   public static String CONTENT_LOCATION;
+   public static String CONTENT_TYPE;
+   public static String IF_MODIFIED_SINCE;
+   public static String CONTENT_LANGUAGE;
+   public static String PUBLIC;
+   public static String SPEED;
+   public SocketServer __junk181182595000614734;
+   public static String REQUIRE;
+   public static String RTP_INFO;
+   public static String WWW_AUTHENTICATE;
+   public static String ACCEPT;
+   public static String PROXY_AUTHENTICATE;
+   public static String SCALE;
+   public static String SERVER;
+   public static String UNSUPPORTED;
+   public static String CONTENT_LENGTH;
+   public static String RETRT_AFTER;
+   public static String CACHE_CONTROL;
+   public static String USER_AGENT;
+}

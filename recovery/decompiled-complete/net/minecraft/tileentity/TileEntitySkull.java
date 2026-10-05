@@ -1,0 +1,117 @@
+package net.minecraft.tileentity;
+
+import com.google.common.collect.Iterables;
+import com.mojang.authlib.GameProfile;
+import com.mojang.authlib.properties.Property;
+import io.netty.util.internal.chmv8.ConcurrentHashMapV8$Segment;
+import java.util.UUID;
+import net.minecraft.client.renderer.BlockFluidRenderer;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.nbt.NBTUtil;
+import net.minecraft.network.Packet;
+import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.util.StringUtils;
+import org.scijava.nativelib.NativeLibraryUtil$Architecture;
+
+public class TileEntitySkull extends TileEntity {
+   public int skullRotation;
+   public BlockFluidRenderer field_0005;
+   public NativeLibraryUtil$Architecture field_0001;
+   public GameProfile playerProfile = null;
+   public ConcurrentHashMapV8$Segment field_0000;
+   public int skullType;
+
+   @Override
+   public Packet getDescriptionPacket() {
+      NBTTagCompound var1 = new NBTTagCompound();
+      this.writeToNBT(var1);
+      return new S35PacketUpdateTileEntity(this.c, 4, var1);
+   }
+
+   public int getSkullRotation() {
+      return this.skullRotation;
+   }
+
+   @Override
+   public void readFromNBT(NBTTagCompound var1) {
+      super.readFromNBT(var1);
+      this.skullType = var1.getByte("SkullType");
+      this.skullRotation = var1.getByte("Rot");
+      if (this.skullType == 3) {
+         if (var1.hasKey("Owner", 10)) {
+            this.playerProfile = NBTUtil.readGameProfileFromNBT(var1.getCompoundTag("Owner"));
+         } else if (var1.hasKey("ExtraType", 8)) {
+            String var2 = var1.getString("ExtraType");
+            if (!StringUtils.isNullOrEmpty(var2)) {
+               this.playerProfile = new GameProfile((UUID)null, var2);
+               this.updatePlayerProfile();
+            }
+         }
+      }
+   }
+
+   public void setType(int var1) {
+      this.skullType = var1;
+      this.playerProfile = null;
+   }
+
+   public int getSkullType() {
+      return this.skullType;
+   }
+
+   public void updatePlayerProfile() {
+      this.playerProfile = updateGameprofile(this.playerProfile);
+      this.markDirty();
+   }
+
+   public void setPlayerProfile(GameProfile var1) {
+      this.skullType = 3;
+      this.playerProfile = var1;
+      this.updatePlayerProfile();
+   }
+
+   public static GameProfile updateGameprofile(GameProfile var0) {
+      if (var0 != null && !StringUtils.isNullOrEmpty(var0.getName())) {
+         if (var0.isComplete() && var0.getProperties().containsKey("textures")) {
+            return var0;
+         } else if (MinecraftServer.getServer() == null) {
+            return var0;
+         } else {
+            GameProfile var1 = MinecraftServer.getServer().getPlayerProfileCache().getGameProfileForUsername(var0.getName());
+            if (var1 == null) {
+               return var0;
+            } else {
+               Property var2 = (Property)Iterables.getFirst(var1.getProperties().get("textures"), null);
+               if (var2 == null) {
+                  var1 = MinecraftServer.getServer().getMinecraftSessionService().fillProfileProperties(var1, true);
+               }
+
+               return var1;
+            }
+         }
+      } else {
+         return var0;
+      }
+   }
+
+   public void setSkullRotation(int var1) {
+      this.skullRotation = var1;
+   }
+
+   public GameProfile getPlayerProfile() {
+      return this.playerProfile;
+   }
+
+   @Override
+   public void writeToNBT(NBTTagCompound var1) {
+      super.writeToNBT(var1);
+      var1.setByte("SkullType", (byte)(this.skullType & 0xFF));
+      var1.setByte("Rot", (byte)(this.skullRotation & 0xFF));
+      if (this.playerProfile != null) {
+         NBTTagCompound var2 = new NBTTagCompound();
+         NBTUtil.writeGameProfile(var2, this.playerProfile);
+         var1.setTag("Owner", var2);
+      }
+   }
+}

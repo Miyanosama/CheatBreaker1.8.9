@@ -1,0 +1,7 @@
+{
+  "aliases": {
+    "recovered/unidentified/UnidentifiedInterface4137": "org/apache/log4j/spi/ErrorCode",
+    "recovered/unidentified/UnidentifiedClass1161": "net/optifine/expr/TokenType$Const"
+  },
+  "evidence": "All descriptors and ConstantValue bags match unique reference classes; ErrorCode exact seven error IDs, TokenType.Const exact ALPHAS and DIGITS."
+}

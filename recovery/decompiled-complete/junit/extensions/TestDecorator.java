@@ -1,0 +1,37 @@
+package junit.extensions;
+
+import com.cheatbreaker.client.module.type.armourstatus.ArmourStatusDamageComparable;
+import junit.framework.Assert;
+import junit.framework.Test;
+import junit.framework.TestResult;
+import net.minecraft.client.gui.GuiSpectator;
+
+public class TestDecorator extends Assert implements Test {
+   public GuiSpectator field_0002;
+   public Test fTest;
+   public ArmourStatusDamageComparable field_0001;
+
+   public TestDecorator(Test var1) {
+      this.fTest = var1;
+   }
+
+   public String toString() {
+      return this.fTest.toString();
+   }
+
+   public int j_() {
+      return this.fTest.j_();
+   }
+
+   public void basicRun(TestResult var1) {
+      this.fTest.run(var1);
+   }
+
+   public void run(TestResult var1) {
+      this.basicRun(var1);
+   }
+
+   public Test getTest() {
+      return this.fTest;
+   }
+}

@@ -1,0 +1,9589 @@
+[
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0440",
+    "super": "net/minecraft/item/Item",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "onItemUse",
+        "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z",
+        142
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/block/Block;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0999",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/optifine/CustomColors$IColorizer"
+    ],
+    "users": [
+      "net/optifine/CustomColors"
+    ],
+    "methods": [
+      [
+        "getColor",
+        "(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/BlockPos;)I",
+        18
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "isColorConstant",
+        "()Z",
+        2
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0599",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass3830"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/util/List;)V",
+        6
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        23
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "<clinit>",
+        "()V",
+        68
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        23
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        1
+      ],
+      [
+        "method_04417",
+        "()Ljava/util/List;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3697",
+    "super": "net/minecraft/client/renderer/entity/Render",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/renderer/entity/RenderManager"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/client/renderer/entity/RenderManager;)V",
+        7
+      ],
+      [
+        "getEntityTexture",
+        "(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;",
+        5
+      ],
+      [
+        "doRender",
+        "(Lnet/minecraft/entity/Entity;DDDFF)V",
+        10
+      ],
+      [
+        "doRender",
+        "(Lnet/minecraft/entity/item/EntityTNTPrimed;DDDFF)V",
+        155
+      ],
+      [
+        "getEntityTexture",
+        "(Lnet/minecraft/entity/item/EntityTNTPrimed;)Lnet/minecraft/util/ResourceLocation;",
+        2
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3676",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/Comparator"
+    ],
+    "users": [
+      "net/optifine/CustomItems"
+    ],
+    "methods": [
+      [
+        "compare",
+        "(Ljava/lang/Object;Ljava/lang/Object;)I",
+        35
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3581",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_22037",
+        "(Ljava/lang/Runnable;)V",
+        4
+      ],
+      [
+        "method_22036",
+        "()V",
+        6
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "<clinit>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3777",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/util/concurrent/FutureCallback"
+    ],
+    "users": [
+      "net/minecraft/client/network/NetHandlerPlayClient"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/client/network/NetHandlerPlayClient;Ljava/lang/String;)V",
+        9
+      ],
+      [
+        "onFailure",
+        "(Ljava/lang/Throwable;)V",
+        11
+      ],
+      [
+        "onSuccess",
+        "(Ljava/lang/Object;)V",
+        11
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3153",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/websocket/AssetsWebSocket"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        6
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        6
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        1
+      ],
+      [
+        "method_19694",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3584",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "handleMouseClick",
+        "(III)V",
+        72
+      ],
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        442
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/config/Setting;F)V",
+        28
+      ]
+    ],
+    "strings": [
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0366",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/optifine/reflect/IFieldLocator"
+    ],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "getField",
+        "()Ljava/lang/reflect/Field;",
+        21
+      ],
+      [
+        "method_02843",
+        "()Ljava/lang/reflect/Field;",
+        69
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0002",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0212"
+    ],
+    "methods": [
+      [
+        "hashCode",
+        "()I",
+        20
+      ],
+      [
+        "equals",
+        "(Ljava/lang/Object;)Z",
+        28
+      ],
+      [
+        "method_00007",
+        "()F",
+        9
+      ],
+      [
+        "<init>",
+        "(IF)V",
+        9
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3870",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1464"
+    ],
+    "methods": [
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        9
+      ],
+      [
+        "<init>",
+        "(ID)V",
+        9
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        11
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        1
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_23438",
+        "()I",
+        3
+      ],
+      [
+        "method_23439",
+        "()D",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4786",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4786"
+    ],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        5
+      ],
+      [
+        "method_28639",
+        "(Lcom/cheatbreaker/client/event/type/TickEvent;)V",
+        3
+      ],
+      [
+        "method_28638",
+        "(Lnet/minecraft/client/entity/EntityPlayerSP;)I",
+        26
+      ],
+      [
+        "method_28635",
+        "()V",
+        20
+      ],
+      [
+        "method_28641",
+        "(Lnet/minecraft/item/ItemStack;)Z",
+        109
+      ],
+      [
+        "method_28636",
+        "(F)F",
+        30
+      ],
+      [
+        "method_28644",
+        "(F)V",
+        30
+      ],
+      [
+        "method_28643",
+        "()V",
+        22
+      ],
+      [
+        "method_28642",
+        "(Lnet/minecraft/item/ItemStack;IF)V",
+        175
+      ],
+      [
+        "method_28640",
+        "(Lnet/minecraft/client/renderer/ItemRenderer;Lnet/minecraft/item/ItemStack;FF)Z",
+        374
+      ],
+      [
+        "method_28645",
+        "(Lnet/minecraft/item/ItemStack;IF)V",
+        126
+      ],
+      [
+        "<init>",
+        "()V",
+        13
+      ],
+      [
+        "method_28634",
+        "()V",
+        89
+      ],
+      [
+        "method_28637",
+        "(FF)V",
+        57
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4443",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/resourcepack/ResourcePackGui",
+      "recovered/unidentified/UnidentifiedClass4443"
+    ],
+    "methods": [
+      [
+        "method_26763",
+        "()Ljava/util/List;",
+        3
+      ],
+      [
+        "method_26765",
+        "()Ljava/util/List;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/io/File;Ljava/util/List;)V",
+        6
+      ],
+      [
+        "<init>",
+        "(Ljava/io/File;Ljava/util/List;Lrecovered/unidentified/UnidentifiedClass4443;)V",
+        107
+      ],
+      [
+        "method_26762",
+        "()Ljava/util/List;",
+        3
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass4443;)V",
+        36
+      ],
+      [
+        "method_26764",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_26761",
+        "()Lrecovered/unidentified/UnidentifiedClass4443;",
+        3
+      ]
+    ],
+    "strings": [
+      "Back to ",
+      "Main Folder"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0201",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        26
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0968",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "org/json/JSONObject"
+    ],
+    "methods": [
+      [
+        "clone",
+        "()Ljava/lang/Object;",
+        2
+      ],
+      [
+        "equals",
+        "(Ljava/lang/Object;)Z",
+        9
+      ],
+      [
+        "hashCode",
+        "()I",
+        2
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass4866;)V",
+        3
+      ],
+      [
+        "toString",
+        "()Ljava/lang/String;",
+        2
+      ]
+    ],
+    "strings": [
+      "null"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1163",
+    "super": "java/awt/event/WindowAdapter",
+    "interfaces": [],
+    "users": [
+      "junit/awtui/TestRunner"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljunit/awtui/TestRunner;Ljava/awt/Frame;)V",
+        9
+      ],
+      [
+        "windowClosing",
+        "(Ljava/awt/event/WindowEvent;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4217",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/io/FilenameFilter"
+    ],
+    "users": [
+      "org/scijava/nativelib/BaseJniExtractor"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lorg/scijava/nativelib/BaseJniExtractor;Ljava/lang/String;Ljava/lang/String;)V",
+        12
+      ],
+      [
+        "accept",
+        "(Ljava/io/File;Ljava/lang/String;)Z",
+        14
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1318",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass3416"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass3416;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4157",
+    "super": "recovered/unidentified/UnidentifiedClass0300",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        23
+      ],
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        210
+      ],
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        1
+      ]
+    ],
+    "strings": [
+      "Dab"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4579",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/jagrosh/discordipc/IPCListener"
+    ],
+    "users": [
+      "com/cheatbreaker/client/CheatBreaker"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/CheatBreaker;)V",
+        6
+      ],
+      [
+        "method_13333",
+        "(Lcom/jagrosh/discordipc/IPCClient;)V",
+        11
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0631",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "run",
+        "()V",
+        6
+      ],
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;Ljavax/swing/JButton;Ljava/lang/String;)V",
+        12
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0682",
+    "super": "net/minecraft/block/Block",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/block/Block"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        8
+      ],
+      [
+        "getMapColor",
+        "(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/MapColor;",
+        2
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4040",
+    "super": "com/cheatbreaker/client/module/staff/StaffModule",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/ModuleManager"
+    ],
+    "methods": [
+      [
+        "method_24325",
+        "(Lrecovered/unidentified/UnidentifiedClass3475;)V",
+        4
+      ],
+      [
+        "<init>",
+        "()V",
+        12
+      ]
+    ],
+    "strings": [
+      "noclip"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedEnum1205",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedEnum1205"
+    ],
+    "methods": [
+      [
+        "method_08178",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedEnum1205;",
+        5
+      ],
+      [
+        "<clinit>",
+        "()V",
+        44
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;I)V",
+        5
+      ],
+      [
+        "values",
+        "()[Lrecovered/unidentified/UnidentifiedEnum1205;",
+        4
+      ]
+    ],
+    "strings": [
+      "LEFT_TO_RIGHT",
+      "RIGHT_TO_LEFT",
+      "RIGHT_TO_BACK",
+      "LEFT_TO_BACK"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1810",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ],
+    "users": [
+      "net/minecraft/world/gen/layer/GenLayer"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/world/biome/BiomeGenBase;)V",
+        6
+      ],
+      [
+        "call",
+        "()Ljava/lang/Object;",
+        3
+      ],
+      [
+        "call",
+        "()Ljava/lang/String;",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1769",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/TextListener"
+    ],
+    "users": [
+      "junit/awtui/TestRunner"
+    ],
+    "methods": [
+      [
+        "textValueChanged",
+        "(Ljava/awt/event/TextEvent;)V",
+        19
+      ],
+      [
+        "<init>",
+        "(Ljunit/awtui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": [
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4617",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        26
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5074",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/Iterator"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass3568"
+    ],
+    "methods": [
+      [
+        "remove",
+        "()V",
+        4
+      ],
+      [
+        "hasNext",
+        "()Z",
+        9
+      ],
+      [
+        "next",
+        "()Ljava/lang/Integer;",
+        17
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass3568;)V",
+        15
+      ],
+      [
+        "next",
+        "()Ljava/lang/Object;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1658",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/overlay/friend/FriendRequestElement"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(ZLjava/lang/String;)V",
+        9
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        10
+      ],
+      [
+        "method_11226",
+        "()Z",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        11
+      ],
+      [
+        "method_11227",
+        "()Ljava/lang/String;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4298",
+    "super": "net/minecraft/world/gen/feature/WorldGenTrees",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/world/biome/BiomeGenJungle"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/block/state/IBlockState;)V",
+        10
+      ],
+      [
+        "generate",
+        "(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/BlockPos;)Z",
+        129
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0546",
+    "super": "com/cheatbreaker/client/ui/mainmenu/AbstractElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/mainmenu/MainMenuBase"
+    ],
+    "methods": [
+      [
+        "handleElementDraw",
+        "(FFZ)V",
+        107
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;I)V",
+        10
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        16
+      ]
+    ],
+    "strings": [
+      "\n"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedInterface4137",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1135",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        19
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4638",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ],
+    "users": [
+      "net/minecraft/command/PlayerSelector"
+    ],
+    "methods": [
+      [
+        "apply",
+        "(Lnet/minecraft/entity/Entity;)Z",
+        48
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/util/AxisAlignedBB;)V",
+        6
+      ],
+      [
+        "apply",
+        "(Ljava/lang/Object;)Z",
+        5
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0792",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/websocket/AssetsWebSocket"
+    ],
+    "methods": [
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        1
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_05446",
+        "()Ljava/util/List;",
+        3
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        54
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ],
+      [
+        "<init>",
+        "(Ljava/util/List;)V",
+        6
+      ]
+    ],
+    "strings": [
+      "minecraft:",
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0122",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/awtui/TestRunner"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljunit/awtui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1951",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/CheatBreaker"
+    ],
+    "methods": [
+      [
+        "method_13256",
+        "(Lnet/minecraft/util/ChatComponentText;)V",
+        15
+      ],
+      [
+        "<init>",
+        "()V",
+        28
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedInterface4921",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "func_152892_c",
+        "(Ltv/twitch/ErrorCode;)V",
+        0
+      ],
+      [
+        "func_152896_a",
+        "(Ltv/twitch/broadcast/IngestList;)V",
+        0
+      ],
+      [
+        "func_152899_b",
+        "()V",
+        0
+      ],
+      [
+        "func_152898_a",
+        "(Ltv/twitch/ErrorCode;[Ltv/twitch/broadcast/GameInfo;)V",
+        0
+      ],
+      [
+        "func_152894_a",
+        "(Ltv/twitch/broadcast/StreamInfo;)V",
+        0
+      ],
+      [
+        "func_152897_a",
+        "(Ltv/twitch/ErrorCode;)V",
+        0
+      ],
+      [
+        "func_152893_b",
+        "(Ltv/twitch/ErrorCode;)V",
+        0
+      ],
+      [
+        "func_152891_a",
+        "(Lnet/minecraft/client/stream/BroadcastController$BroadcastState;)V",
+        0
+      ],
+      [
+        "func_152895_a",
+        "()V",
+        0
+      ],
+      [
+        "func_152900_a",
+        "(Ltv/twitch/ErrorCode;Ltv/twitch/AuthToken;)V",
+        0
+      ],
+      [
+        "func_152901_c",
+        "()V",
+        0
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1092",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        26
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1927",
+    "super": "com/cheatbreaker/client/nethandler/Packet",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_13131",
+        "()Z",
+        3
+      ],
+      [
+        "method_13129",
+        "()Lcom/cheatbreaker/client/nethandler/obj/ServerRule;",
+        3
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/nethandler/obj/ServerRule;F)V",
+        7
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/nethandler/obj/ServerRule;)V",
+        9
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/nethandler/obj/ServerRule;I)V",
+        7
+      ],
+      [
+        "<init>",
+        "()V",
+        6
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/nethandler/obj/ServerRule;Z)V",
+        7
+      ],
+      [
+        "write",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        28
+      ],
+      [
+        "process",
+        "(Lcom/cheatbreaker/client/nethandler/ICBNetHandler;)V",
+        5
+      ],
+      [
+        "read",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        25
+      ],
+      [
+        "method_13130",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_13127",
+        "()F",
+        3
+      ],
+      [
+        "readBlob",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)[B",
+        4
+      ],
+      [
+        "method_13128",
+        "()I",
+        3
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/nethandler/obj/ServerRule;Ljava/lang/String;)V",
+        7
+      ]
+    ],
+    "strings": [
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1785",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "users": [
+      "org/newsclub/net/unix/AFUNIXServerSocket"
+    ],
+    "methods": [
+      [
+        "run",
+        "()V",
+        12
+      ],
+      [
+        "<init>",
+        "(Lorg/newsclub/net/unix/AFUNIXServerSocket;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1605",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V",
+        12
+      ],
+      [
+        "method_10953",
+        "()[Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_10954",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_10952",
+        "()Ljava/lang/String;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3246",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0097",
+    "super": "net/minecraft/item/ItemMultiTexture",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/block/Block;Lnet/minecraft/block/Block;Lcom/google/common/base/Function;)V",
+        6
+      ],
+      [
+        "getColorFromItemStack",
+        "(Lnet/minecraft/item/ItemStack;I)I",
+        19
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0611",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/CheatBreaker"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_04442",
+        "()V",
+        23
+      ],
+      [
+        "method_04444",
+        "(Lcom/cheatbreaker/client/module/AbstractModule;)V",
+        27
+      ],
+      [
+        "method_04443",
+        "(Ljava/lang/String;)V",
+        23
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1790",
+    "super": "recovered/unidentified/UnidentifiedClass0300",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        282
+      ],
+      [
+        "<init>",
+        "()V",
+        41
+      ],
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        1
+      ]
+    ],
+    "strings": [
+      "Facepalm"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1132",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        26
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1748",
+    "super": "com/cheatbreaker/client/nethandler/Packet",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "process",
+        "(Lcom/cheatbreaker/client/nethandler/ICBNetHandler;)V",
+        5
+      ],
+      [
+        "method_12150",
+        "()Ljava/util/UUID;",
+        3
+      ],
+      [
+        "read",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ],
+      [
+        "<init>",
+        "(Ljava/util/UUID;)V",
+        6
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "write",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1812",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/CheatBreaker"
+    ],
+    "methods": [
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        1
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1688",
+    "super": "recovered/unidentified/UnidentifiedClass0300",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        23
+      ],
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        1
+      ],
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        197
+      ]
+    ],
+    "strings": [
+      "Naruto Run"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4928",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_29435",
+        "([Ljava/lang/String;)V",
+        4
+      ],
+      [
+        "method_29434",
+        "()Ljava/lang/String;",
+        2
+      ]
+    ],
+    "strings": [
+      "3.8.2"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0373",
+    "super": "net/minecraft/block/Block",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/block/Block"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        8
+      ],
+      [
+        "getMapColor",
+        "(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/MapColor;",
+        2
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1509",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "apply",
+        "(Ljava/lang/Object;)Ljava/lang/Object;",
+        5
+      ],
+      [
+        "apply",
+        "(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0696",
+    "super": "recovered/unidentified/UnidentifiedClass0089",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_00748",
+        "(IIIIIIZ)V",
+        144
+      ],
+      [
+        "method_00751",
+        "()V",
+        14
+      ],
+      [
+        "method_00746",
+        "()I",
+        4
+      ],
+      [
+        "method_04862",
+        "()Ljava/util/List;",
+        4
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/ui/resourcepack/ResourcePackGui;IIIIILjava/lang/String;Ljava/util/List;)V",
+        21
+      ],
+      [
+        "method_00749",
+        "(IZ)V",
+        0
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1883",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        15
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_12803",
+        "(Ljava/util/UUID;)Z",
+        10
+      ],
+      [
+        "method_12802",
+        "()V",
+        73
+      ]
+    ],
+    "strings": [
+      "88051637-26cb-49a4-8f42-04e06264de79",
+      "2f6f44cf-19a2-442a-944b-ede88be55651",
+      "bape ship#5604",
+      "5604-2.0++-2/28/2020",
+      "[C",
+      "B",
+      "] ",
+      "Credits: ",
+      "- ",
+      "CheatBreaker LLC for the original client.",
+      "Tellinq and Moose1301 for managing this version."
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5128",
+    "super": "java/awt/event/WindowAdapter",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass3416"
+    ],
+    "methods": [
+      [
+        "windowClosing",
+        "(Ljava/awt/event/WindowEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass3416;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedEnum4019",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedEnum4019"
+    ],
+    "methods": [
+      [
+        "method_24227",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedEnum4019;",
+        5
+      ],
+      [
+        "values",
+        "()[Lrecovered/unidentified/UnidentifiedEnum4019;",
+        4
+      ],
+      [
+        "<clinit>",
+        "()V",
+        44
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;I)V",
+        5
+      ]
+    ],
+    "strings": [
+      "TOP",
+      "LEFT",
+      "BOTTOM",
+      "RIGHT"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0525",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4676"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(FFFF)V",
+        27
+      ],
+      [
+        "<init>",
+        "()V",
+        15
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3398",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "(IZ)V",
+        9
+      ],
+      [
+        "method_21079",
+        "()Z",
+        3
+      ],
+      [
+        "method_21080",
+        "()I",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3416",
+    "super": "javax/swing/JDialog",
+    "interfaces": [],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "method_21161",
+        "()Ljavax/swing/JLabel;",
+        16
+      ],
+      [
+        "method_21162",
+        "(Ljava/lang/String;)Ljava/lang/Class;",
+        10
+      ],
+      [
+        "<init>",
+        "(Ljavax/swing/JFrame;)V",
+        192
+      ]
+    ],
+    "strings": [
+      "junit.runner.BaseTestRunner",
+      "logo.gif",
+      "About",
+      "Close",
+      "JUnit",
+      "dialog",
+      "JUnit ",
+      " by Kent Beck and Erich Gamma"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1161",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4913",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/ModuleManager"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        8
+      ],
+      [
+        "method_29290",
+        "(Ljava/lang/String;Ljava/lang/String;)Z",
+        36
+      ],
+      [
+        "method_29292",
+        "(Ljava/lang/String;Ljava/lang/String;)Z",
+        4
+      ],
+      [
+        "method_29289",
+        "()V",
+        17
+      ],
+      [
+        "method_29291",
+        "()Ljava/util/Map;",
+        3
+      ]
+    ],
+    "strings": [
+      "hypixel",
+      "freelook",
+      "auto text"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1590",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4676"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass3833;)V",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        21
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0300",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_02053",
+        "()Lnet/minecraft/util/ResourceLocation;",
+        3
+      ],
+      [
+        "method_02056",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_02052",
+        "()Lcom/cheatbreaker/client/ui/fading/AbstractFade;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Lcom/cheatbreaker/client/ui/fading/AbstractFade;)V",
+        33
+      ],
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        0
+      ],
+      [
+        "method_02055",
+        "()Z",
+        4
+      ],
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        0
+      ],
+      [
+        "method_02054",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;)V",
+        28
+      ]
+    ],
+    "strings": [
+      "client/emote/",
+      "-",
+      "",
+      " ",
+      ".png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4880",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/util/concurrent/FutureCallback"
+    ],
+    "users": [
+      "net/minecraft/client/network/NetHandlerPlayClient"
+    ],
+    "methods": [
+      [
+        "onSuccess",
+        "(Ljava/lang/Object;)V",
+        11
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/client/network/NetHandlerPlayClient;Ljava/lang/String;)V",
+        9
+      ],
+      [
+        "onFailure",
+        "(Ljava/lang/Throwable;)V",
+        11
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1171",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3884",
+    "super": "com/cheatbreaker/client/nethandler/Packet",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_23476",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "write",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ],
+      [
+        "read",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        6
+      ],
+      [
+        "process",
+        "(Lcom/cheatbreaker/client/nethandler/ICBNetHandler;)V",
+        5
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4502",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        26
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4867",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "recovered/unidentified/UnidentifiedInterface4518"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0882"
+    ],
+    "methods": [
+      [
+        "method_09731",
+        "()V",
+        6
+      ],
+      [
+        "method_27155",
+        "(Ljava/lang/String;)V",
+        5
+      ],
+      [
+        "<init>",
+        "(Ljava/io/Writer;Ljava/lang/String;)V",
+        9
+      ],
+      [
+        "method_09732",
+        "([CII)V",
+        7
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4657",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4723",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        54
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0849",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "apply",
+        "(Ljava/lang/Object;)Ljava/lang/Object;",
+        5
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "apply",
+        "(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0347",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/module/CBModulesGui"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/ui/module/CBModulesGui;Ljava/util/List;)V",
+        89
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1437",
+    "super": "net/minecraft/world/gen/layer/GenLayer",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/world/gen/layer/GenLayer"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(JLnet/minecraft/world/gen/layer/GenLayer;)V",
+        7
+      ],
+      [
+        "getInts",
+        "(IIII)[I",
+        486
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0877",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/Minecraft",
+      "net/minecraft/client/gui/inventory/GuiContainer"
+    ],
+    "methods": [
+      [
+        "method_05882",
+        "()I",
+        3
+      ],
+      [
+        "<init>",
+        "(I)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5030",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        47
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1701",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "run",
+        "()V",
+        21
+      ],
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;Ljunit/framework/Test;)V",
+        9
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0313",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_02411",
+        "(I)D",
+        9
+      ],
+      [
+        "<clinit>",
+        "()V",
+        40
+      ],
+      [
+        "method_02409",
+        "(FF)F",
+        14
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_02410",
+        "(FFFF)F",
+        9
+      ],
+      [
+        "method_02413",
+        "(I)D",
+        8
+      ],
+      [
+        "method_02412",
+        "(FFFF)F",
+        15
+      ],
+      [
+        "method_02408",
+        "(FFFF)F",
+        15
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3249",
+    "super": "com/cheatbreaker/client/ui/fading/FloatFade",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0557"
+    ],
+    "methods": [
+      [
+        "method_20201",
+        "()Z",
+        4
+      ],
+      [
+        "method_20202",
+        "()F",
+        43
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass0557;Lrecovered/unidentified/UnidentifiedClass0557;J)V",
+        36
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass0557;Lrecovered/unidentified/UnidentifiedClass0557;JLrecovered/unidentified/UnidentifiedClass3434;)V",
+        6
+      ],
+      [
+        "method_20200",
+        "()V",
+        10
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0715",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4000",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/awtui/TestRunner"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljunit/awtui/TestRunner;)V",
+        6
+      ],
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3897",
+    "super": "net/minecraft/block/Block",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/block/Block"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        8
+      ],
+      [
+        "getMapColor",
+        "(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/MapColor;",
+        2
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4984",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0882"
+    ],
+    "methods": [
+      [
+        "method_29694",
+        "(Ljava/io/File;)V",
+        5
+      ],
+      [
+        "method_29698",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        10
+      ],
+      [
+        "method_29693",
+        "()Ljava/lang/String;",
+        56
+      ],
+      [
+        "method_29700",
+        "(Ljava/util/Set;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        5
+      ],
+      [
+        "method_29703",
+        "(Z)Lrecovered/unidentified/UnidentifiedClass4984;",
+        5
+      ],
+      [
+        "method_29705",
+        "()Ljava/util/List;",
+        31
+      ],
+      [
+        "method_29697",
+        "(Ljava/lang/Number;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        14
+      ],
+      [
+        "method_29701",
+        "(Ljava/util/function/Function;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        5
+      ],
+      [
+        "<init>",
+        "(Ljava/io/Reader;Z)V",
+        28
+      ],
+      [
+        "method_29706",
+        "(Ljava/lang/String;)V",
+        7
+      ],
+      [
+        "method_29702",
+        "(Lrecovered/unidentified/UnidentifiedInterface4518;)V",
+        37
+      ],
+      [
+        "method_29696",
+        "(Ljava/io/Writer;)V",
+        39
+      ],
+      [
+        "method_29699",
+        "(Ljava/lang/String;Ljava/nio/charset/Charset;)V",
+        8
+      ],
+      [
+        "method_29692",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        10
+      ],
+      [
+        "method_29707",
+        "(Z)Lrecovered/unidentified/UnidentifiedClass4984;",
+        5
+      ],
+      [
+        "method_29695",
+        "(Ljava/io/File;Ljava/nio/charset/Charset;)V",
+        59
+      ],
+      [
+        "method_29704",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        5
+      ],
+      [
+        "method_29691",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        5
+      ]
+    ],
+    "strings": [
+      "\n"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3218",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentRoomFitHelper"
+    ],
+    "users": [
+      "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "func_175969_a",
+        "(Lnet/minecraft/world/gen/structure/StructureOceanMonumentPieces$RoomDefinition;)Z",
+        17
+      ],
+      [
+        "func_175968_a",
+        "(Lnet/minecraft/util/EnumFacing;Lnet/minecraft/world/gen/structure/StructureOceanMonumentPieces$RoomDefinition;Ljava/util/Random;)Lnet/minecraft/world/gen/structure/StructureOceanMonumentPieces$Piece;",
+        17
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/world/gen/structure/StructureOceanMonumentPieces$1;)V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4197",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1587",
+    "super": "java/net/SocketException",
+    "interfaces": [],
+    "users": [
+      "org/newsclub/net/unix/AFUNIXSocketImpl",
+      "org/newsclub/net/unix/AFUNIXSocketImpl$AFUNIXOutputStream",
+      "org/newsclub/net/unix/NativeUnixSocket"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        6
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V",
+        7
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/Throwable;)V",
+        10
+      ],
+      [
+        "toString",
+        "()Ljava/lang/String;",
+        21
+      ]
+    ],
+    "strings": [
+      " (socket: ",
+      ")"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1449",
+    "super": "com/cheatbreaker/client/ui/mainmenu/AbstractElement",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/gui/ServerListEntryNormal"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        4
+      ],
+      [
+        "setElementSize",
+        "(FFFF)V",
+        7
+      ],
+      [
+        "method_10144",
+        "()V",
+        72
+      ],
+      [
+        "<clinit>",
+        "()V",
+        4
+      ],
+      [
+        "handleElementDraw",
+        "(FFZ)V",
+        131
+      ],
+      [
+        "handleElementUpdate",
+        "()V",
+        3
+      ],
+      [
+        "<init>",
+        "(Z)V",
+        57
+      ]
+    ],
+    "strings": [
+      "client/animatedlogo/128/logo_128_no_stars.png",
+      "client/animatedlogo/128/logo_128_star_",
+      ".png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1381",
+    "super": "com/cheatbreaker/client/ui/mainmenu/AbstractElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/mainmenu/ChangelogMenu"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+        19
+      ],
+      [
+        "handleElementDraw",
+        "(FFZ)V",
+        151
+      ],
+      [
+        "handleElementMouseClicked",
+        "(FFIZ)Z",
+        29
+      ]
+    ],
+    "strings": [
+      "\n",
+      "Posted by ",
+      "...",
+      "gui.button.press"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1798",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/gui/GuiIngame"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/client/gui/ScaledResolution;)V",
+        6
+      ],
+      [
+        "method_12440",
+        "()Lnet/minecraft/client/gui/ScaledResolution;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4492",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/CheatBreaker"
+    ],
+    "methods": [
+      [
+        "method_27042",
+        "()Ljava/util/List;",
+        3
+      ],
+      [
+        "method_27046",
+        "()Ljava/util/List;",
+        54
+      ],
+      [
+        "method_27045",
+        "(Ljava/util/UUID;)Lcom/cheatbreaker/client/util/ClientResourceManager;",
+        25
+      ],
+      [
+        "method_27044",
+        "(Ljava/lang/String;Lcom/cheatbreaker/client/util/ClientResourceManager;)Z",
+        5
+      ],
+      [
+        "method_27047",
+        "(Ljava/lang/String;Lcom/cheatbreaker/client/util/ClientResourceManager;)Z",
+        5
+      ],
+      [
+        "<init>",
+        "()V",
+        13
+      ],
+      [
+        "method_27048",
+        "(Ljava/util/UUID;)Lcom/cheatbreaker/client/util/ClientResourceManager;",
+        25
+      ],
+      [
+        "method_27043",
+        "(Ljava/lang/String;)V",
+        13
+      ],
+      [
+        "method_27041",
+        "()Ljava/util/List;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4776",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        40
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0557",
+    "super": "com/cheatbreaker/client/ui/mainmenu/AbstractElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/serverlist/PinnedServerEntry",
+      "net/minecraft/client/gui/ServerListEntryNormal"
+    ],
+    "methods": [
+      [
+        "handleElementDraw",
+        "(FFZ)V",
+        83
+      ],
+      [
+        "method_04175",
+        "()V",
+        73
+      ],
+      [
+        "handleElementUpdate",
+        "()V",
+        9
+      ],
+      [
+        "<init>",
+        "()V",
+        52
+      ],
+      [
+        "setElementSize",
+        "(FFFF)V",
+        7
+      ]
+    ],
+    "strings": [
+      "client/animatedlogo/64/logo_64_no_stars.png",
+      "client/animatedlogo/64/logo_64_star_",
+      ".png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3475",
+    "super": "recovered/unidentified/UnidentifiedClass1472",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_21507",
+        "()D",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/util/List;DDD)V",
+        15
+      ],
+      [
+        "method_21505",
+        "()Ljava/util/List;",
+        3
+      ],
+      [
+        "method_21506",
+        "()D",
+        3
+      ],
+      [
+        "method_21504",
+        "()D",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1294",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;)V",
+        6
+      ],
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4814",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        100
+      ],
+      [
+        "<clinit>",
+        "()V",
+        8
+      ],
+      [
+        "method_28750",
+        "()Z",
+        3
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ],
+      [
+        "<init>",
+        "(Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Z[I)V",
+        23
+      ],
+      [
+        "method_28752",
+        "()Ljava/util/List;",
+        3
+      ],
+      [
+        "method_28749",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_28751",
+        "()[I",
+        3
+      ],
+      [
+        "method_28748",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        8
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0212",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_01544",
+        "(Lnet/minecraft/item/ItemStack;)Z",
+        10
+      ],
+      [
+        "method_01545",
+        "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;)Lrecovered/unidentified/UnidentifiedClass0002;",
+        3
+      ],
+      [
+        "method_01546",
+        "(Lnet/minecraft/item/ItemStack;)Lrecovered/unidentified/UnidentifiedClass0002;",
+        18
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3707",
+    "super": "net/minecraft/client/gui/GuiSlot",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/realms/RealmsSimpleScrolledSelectionList"
+    ],
+    "methods": [
+      [
+        "method_22572",
+        "()I",
+        3
+      ],
+      [
+        "getScrollBarX",
+        "()I",
+        4
+      ],
+      [
+        "getContentHeight",
+        "()I",
+        4
+      ],
+      [
+        "a",
+        "(IIF)V",
+        388
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/realms/RealmsSimpleScrolledSelectionList;IIIII)V",
+        12
+      ],
+      [
+        "method_22576",
+        "()I",
+        3
+      ],
+      [
+        "method_22573",
+        "()I",
+        3
+      ],
+      [
+        "drawBackground",
+        "()V",
+        4
+      ],
+      [
+        "isSelected",
+        "(I)Z",
+        5
+      ],
+      [
+        "handleMouseInput",
+        "()V",
+        3
+      ],
+      [
+        "getSize",
+        "()I",
+        4
+      ],
+      [
+        "elementClicked",
+        "(IZII)V",
+        8
+      ],
+      [
+        "drawSlot",
+        "(IIIIII)V",
+        10
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0672",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        7
+      ]
+    ],
+    "strings": [
+      "No instances"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1818",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/optifine/CustomColors$IColorizer"
+    ],
+    "users": [
+      "net/optifine/CustomColors"
+    ],
+    "methods": [
+      [
+        "isColorConstant",
+        "()Z",
+        2
+      ],
+      [
+        "getColor",
+        "(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/BlockPos;)I",
+        18
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4951",
+    "super": "io/netty/handler/codec/MessageToByteEncoder",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/network/NetworkManager"
+    ],
+    "methods": [
+      [
+        "method_29533",
+        "(I)V",
+        4
+      ],
+      [
+        "encode",
+        "(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Lio/netty/buffer/ByteBuf;)V",
+        7
+      ],
+      [
+        "encode",
+        "(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V",
+        63
+      ],
+      [
+        "<init>",
+        "(I)V",
+        15
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1187",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/element/module/ModuleListElement"
+    ],
+    "methods": [
+      [
+        "handleMouseClick",
+        "(III)V",
+        158
+      ],
+      [
+        "method_08063",
+        "()V",
+        96
+      ],
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        218
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/config/Setting;F)V",
+        17
+      ],
+      [
+        "method_08062",
+        "(ILjava/lang/Integer;)Z",
+        8
+      ]
+    ],
+    "strings": [
+      "gui.button.press",
+      "textures/gui/container/inventory.png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3177",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/util/dash/CBDashManager"
+    ],
+    "methods": [
+      [
+        "method_19837",
+        "(Lcom/cheatbreaker/client/util/dash/Station;)V",
+        22
+      ],
+      [
+        "<init>",
+        "()V",
+        8
+      ],
+      [
+        "run",
+        "()V",
+        30
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3624",
+    "super": "java/util/TimerTask",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/ModuleManager"
+    ],
+    "methods": [
+      [
+        "run",
+        "()V",
+        37
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": [
+      "hypixel",
+      "/tip all"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5063",
+    "super": "net/minecraft/client/model/ModelBiped",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3609",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_22132",
+        "(Ljava/util/Vector;IILjunit/runner/Sorter_Swapper;)V",
+        61
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3463",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1583",
+    "super": "net/minecraft/block/BlockFalling",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/block/Block"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "getMapColor",
+        "(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/block/material/MapColor;",
+        2
+      ],
+      [
+        "getItemDropped",
+        "(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;",
+        18
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0477",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ],
+      [
+        "method_03517",
+        "()Ljava/security/PublicKey;",
+        3
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljava/security/PublicKey;[B)V",
+        9
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_03518",
+        "()[B",
+        3
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        12
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4535",
+    "super": "net/minecraft/client/gui/GuiScreen",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "updateScreen",
+        "()V",
+        90
+      ],
+      [
+        "<init>",
+        "(ILjava/util/List;)V",
+        76
+      ],
+      [
+        "drawScreen",
+        "(IIF)V",
+        102
+      ]
+    ],
+    "strings": [
+      "minecraft:",
+      "options",
+      "cannot have more than 8 options"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0798",
+    "super": "com/cheatbreaker/client/nethandler/Packet",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        6
+      ],
+      [
+        "process",
+        "(Lcom/cheatbreaker/client/nethandler/ICBNetHandler;)V",
+        5
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "read",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ],
+      [
+        "write",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ],
+      [
+        "method_05486",
+        "()Ljava/lang/String;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedInterface4518",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_09732",
+        "([CII)V",
+        0
+      ],
+      [
+        "method_27155",
+        "(Ljava/lang/String;)V",
+        10
+      ],
+      [
+        "method_09731",
+        "()V",
+        0
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1745",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1745"
+    ],
+    "methods": [
+      [
+        "method_12119",
+        "(BBB)V",
+        12
+      ],
+      [
+        "method_12118",
+        "()V",
+        14
+      ],
+      [
+        "method_12122",
+        "(DDDDD)V",
+        10
+      ],
+      [
+        "<clinit>",
+        "()V",
+        15
+      ],
+      [
+        "method_12130",
+        "(Z)V",
+        4
+      ],
+      [
+        "method_12129",
+        "(Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;I)I",
+        55
+      ],
+      [
+        "method_12133",
+        "()V",
+        4
+      ],
+      [
+        "method_12128",
+        "(IIII)V",
+        76
+      ],
+      [
+        "method_12126",
+        "(II)V",
+        23
+      ],
+      [
+        "method_12115",
+        "()Lrecovered/unidentified/UnidentifiedClass1745;",
+        2
+      ],
+      [
+        "<init>",
+        "(I)V",
+        61
+      ],
+      [
+        "method_12125",
+        "(I)V",
+        32
+      ],
+      [
+        "method_12120",
+        "(DD)V",
+        10
+      ],
+      [
+        "method_12123",
+        "(FFF)V",
+        39
+      ],
+      [
+        "method_12124",
+        "(FFFF)V",
+        19
+      ],
+      [
+        "method_12136",
+        "(I)V",
+        7
+      ],
+      [
+        "method_12135",
+        "(FFF)V",
+        15
+      ],
+      [
+        "method_12132",
+        "()Z",
+        3
+      ],
+      [
+        "method_12113",
+        "()I",
+        162
+      ],
+      [
+        "method_12114",
+        "()V",
+        4
+      ],
+      [
+        "method_12127",
+        "(III)V",
+        25
+      ],
+      [
+        "method_12137",
+        "(II)V",
+        67
+      ],
+      [
+        "method_12138",
+        "()Lnet/minecraft/client/renderer/WorldRenderer;",
+        3
+      ],
+      [
+        "method_12121",
+        "(DDD)V",
+        231
+      ],
+      [
+        "method_12117",
+        "(I)V",
+        22
+      ],
+      [
+        "<init>",
+        "()V",
+        11
+      ],
+      [
+        "method_12134",
+        "(DDD)V",
+        10
+      ],
+      [
+        "method_12131",
+        "()V",
+        4
+      ],
+      [
+        "method_12116",
+        "(FFF)V",
+        22
+      ]
+    ],
+    "strings": [
+      "Already tesselating!",
+      "Not tesselating!",
+      "Expand tessellator buffer, old: ",
+      ", new: "
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1182",
+    "super": "recovered/unidentified/UnidentifiedClass0300",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        49
+      ],
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        1
+      ],
+      [
+        "<init>",
+        "()V",
+        8
+      ]
+    ],
+    "strings": [
+      "Shrug"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1468",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/CheatBreaker"
+    ],
+    "methods": [
+      [
+        "method_10217",
+        "()Lcom/cheatbreaker/client/BuildBranch;",
+        3
+      ],
+      [
+        "method_10218",
+        "(Lcom/cheatbreaker/client/BuildBranch;)V",
+        4
+      ],
+      [
+        "<init>",
+        "()V",
+        15
+      ]
+    ],
+    "strings": [
+      "Created Branch Manager"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3838",
+    "super": "recovered/unidentified/UnidentifiedClass0000",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1951"
+    ],
+    "methods": [
+      [
+        "method_00001",
+        "()V",
+        95
+      ],
+      [
+        "<init>",
+        "()V",
+        7
+      ]
+    ],
+    "strings": [
+      "Static",
+      "Increased time by ",
+      ".",
+      "This mod command only works with the \"Static\" time type.",
+      "/cb_increase_time"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4376",
+    "super": "net/minecraft/client/gui/GuiButton",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/gui/GuiMainMenu"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(IIIIILjava/lang/String;Z)V",
+        12
+      ],
+      [
+        "drawButton",
+        "(Lnet/minecraft/client/Minecraft;II)V",
+        119
+      ],
+      [
+        "<init>",
+        "(IIIIILjava/lang/String;)V",
+        12
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3858",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        26
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3688",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/element/module/ModuleListElement"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/config/Setting;F)V",
+        28
+      ],
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        788
+      ],
+      [
+        "handleMouseClick",
+        "(III)V",
+        253
+      ]
+    ],
+    "strings": [
+      "client/icons/left.png",
+      "client/icons/right.png",
+      "color",
+      "\u00a7",
+      "gui.button.press"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1096",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        26
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3568",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Iterable"
+    ],
+    "users": [
+      "org/json/XML"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        6
+      ],
+      [
+        "iterator",
+        "()Ljava/util/Iterator;",
+        5
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3379",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/ModuleManager"
+    ],
+    "methods": [
+      [
+        "method_21022",
+        "(Lcom/cheatbreaker/client/event/type/TickEvent;)V",
+        58
+      ],
+      [
+        "method_21020",
+        "()V",
+        10
+      ],
+      [
+        "<init>",
+        "()V",
+        20
+      ],
+      [
+        "method_21021",
+        "(I)V",
+        57
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1388",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/config/Setting;F)V",
+        28
+      ],
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        491
+      ],
+      [
+        "handleMouseClick",
+        "(III)V",
+        70
+      ]
+    ],
+    "strings": [
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5123",
+    "super": "net/minecraft/world/gen/layer/GenLayer",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/world/gen/layer/GenLayer"
+    ],
+    "methods": [
+      [
+        "getInts",
+        "(IIII)[I",
+        251
+      ],
+      [
+        "<init>",
+        "(JLnet/minecraft/world/gen/layer/GenLayer;)V",
+        7
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1595",
+    "super": "net/minecraft/client/renderer/entity/Render",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/renderer/entity/RenderManager"
+    ],
+    "methods": [
+      [
+        "doRender",
+        "(Lnet/minecraft/entity/item/EntityFallingBlock;DDDFF)V",
+        115
+      ],
+      [
+        "doRender",
+        "(Lnet/minecraft/entity/Entity;DDDFF)V",
+        10
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/client/renderer/entity/RenderManager;)V",
+        7
+      ],
+      [
+        "getEntityTexture",
+        "(Lnet/minecraft/entity/item/EntityFallingBlock;)Lnet/minecraft/util/ResourceLocation;",
+        2
+      ],
+      [
+        "getEntityTexture",
+        "(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;",
+        5
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4110",
+    "super": "com/cheatbreaker/client/nethandler/Packet",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "read",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        50
+      ],
+      [
+        "write",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        56
+      ],
+      [
+        "method_24759",
+        "()D",
+        3
+      ],
+      [
+        "method_24756",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_24758",
+        "()Z",
+        3
+      ],
+      [
+        "process",
+        "(Lcom/cheatbreaker/client/nethandler/ICBNetHandler;)V",
+        5
+      ],
+      [
+        "method_24753",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_24754",
+        "()I",
+        3
+      ],
+      [
+        "method_24760",
+        "()D",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;ZZIDDDD)V",
+        33
+      ],
+      [
+        "method_24757",
+        "()D",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        6
+      ],
+      [
+        "method_24755",
+        "()D",
+        3
+      ],
+      [
+        "method_24761",
+        "()Z",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4575",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/CharSequence"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0882",
+      "recovered/unidentified/UnidentifiedClass4575"
+    ],
+    "methods": [
+      [
+        "method_27548",
+        "()Lrecovered/unidentified/UnidentifiedClass4575;",
+        20
+      ],
+      [
+        "method_27550",
+        "(I)I",
+        19
+      ],
+      [
+        "toString",
+        "()Ljava/lang/String;",
+        9
+      ],
+      [
+        "method_27551",
+        "(II)Ljava/lang/String;",
+        10
+      ],
+      [
+        "method_27556",
+        "(II)V",
+        20
+      ],
+      [
+        "length",
+        "()I",
+        3
+      ],
+      [
+        "<init>",
+        "([CI)V",
+        9
+      ],
+      [
+        "method_27554",
+        "()[C",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        6
+      ],
+      [
+        "subSequence",
+        "(II)Ljava/lang/CharSequence;",
+        21
+      ],
+      [
+        "method_27555",
+        "(I)V",
+        17
+      ],
+      [
+        "method_27552",
+        "(Lrecovered/unidentified/UnidentifiedClass4575;)V",
+        22
+      ],
+      [
+        "charAt",
+        "(I)C",
+        5
+      ],
+      [
+        "method_27549",
+        "(C)V",
+        16
+      ],
+      [
+        "method_27546",
+        "(I)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        7
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3909",
+    "super": "com/cheatbreaker/client/module/AbstractModule",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_23585",
+        "(Lcom/cheatbreaker/client/event/type/TickEvent;)V",
+        12
+      ],
+      [
+        "method_23586",
+        "()V",
+        35
+      ],
+      [
+        "<init>",
+        "()V",
+        19
+      ]
+    ],
+    "strings": [
+      "Color Saturation",
+      "Allows you to adjust the hue, saturation, brightness, and contrast of your screen."
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3394",
+    "super": "net/minecraft/client/renderer/entity/Render",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/renderer/entity/RenderManager"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/client/renderer/entity/RenderManager;Lnet/minecraft/item/Item;Lnet/minecraft/client/renderer/entity/RenderItem;)V",
+        10
+      ],
+      [
+        "func_177082_d",
+        "(Lnet/minecraft/entity/Entity;)Lnet/minecraft/item/ItemStack;",
+        8
+      ],
+      [
+        "getEntityTexture",
+        "(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;",
+        2
+      ],
+      [
+        "doRender",
+        "(Lnet/minecraft/entity/Entity;DDDFF)V",
+        54
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1750",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;Ljava/lang/String;)V",
+        9
+      ],
+      [
+        "run",
+        "()V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5100",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        73
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3434",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1308",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/mainmenu/MainMenuBase"
+    ],
+    "methods": [
+      [
+        "method_09051",
+        "(Ljava/lang/String;)V",
+        4
+      ],
+      [
+        "method_09050",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_09053",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_09049",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/util/ResourceLocation;)V",
+        21
+      ],
+      [
+        "method_09052",
+        "()Lnet/minecraft/util/ResourceLocation;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+        23
+      ],
+      [
+        "method_09047",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_09048",
+        "()Ljava/lang/String;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3405",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/overlay/element/ConsoleElement"
+    ],
+    "methods": [
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        6
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        6
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        6
+      ],
+      [
+        "method_21111",
+        "()Ljava/lang/String;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1610",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_10982",
+        "()V",
+        1
+      ],
+      [
+        "method_10984",
+        "(Ljava/lang/String;)Lorg/json/JSONArray;",
+        19
+      ],
+      [
+        "method_10985",
+        "(Ljava/net/URL;Z)Ljava/io/InputStream;",
+        21
+      ],
+      [
+        "method_10986",
+        "(Ljava/lang/String;)Lorg/json/JSONObject;",
+        19
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_10983",
+        "(Ljava/io/Reader;)Ljava/lang/String;",
+        19
+      ]
+    ],
+    "strings": [
+      "User-Agent",
+      "CheatBreaker-Client",
+      "Mozilla/4.0"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4240",
+    "super": "recovered/unidentified/UnidentifiedClass0696",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/resourcepack/ResourcePackGui"
+    ],
+    "methods": [
+      [
+        "method_25688",
+        "(Lrecovered/unidentified/UnidentifiedClass4443;Ljava/io/File;Lnet/minecraft/client/resources/ResourcePackRepository$Entry;)V",
+        54
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/ui/resourcepack/ResourcePackGui;IIIIILjava/util/List;)V",
+        20
+      ],
+      [
+        "method_25687",
+        "(Ljava/io/File;Lnet/minecraft/client/resources/ResourcePackRepository$Entry;)V",
+        69
+      ],
+      [
+        "<clinit>",
+        "()V",
+        6
+      ],
+      [
+        "method_25686",
+        "(Lnet/minecraft/client/resources/ResourcePackRepository$Entry;)V",
+        67
+      ],
+      [
+        "method_00748",
+        "(IIIIIIZ)V",
+        181
+      ],
+      [
+        "method_00749",
+        "(IZ)V",
+        56
+      ]
+    ],
+    "strings": [
+      "resourcePack.selected.title",
+      "textures/gui/resource_packs.png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1036",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        40
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0089",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_00750",
+        "()V",
+        40
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/client/Minecraft;IIIIILjava/lang/String;)V",
+        139
+      ],
+      [
+        "method_00746",
+        "()I",
+        0
+      ],
+      [
+        "method_00749",
+        "(IZ)V",
+        0
+      ],
+      [
+        "method_00751",
+        "()V",
+        0
+      ],
+      [
+        "method_00748",
+        "(IIIIIIZ)V",
+        0
+      ],
+      [
+        "method_00744",
+        "()V",
+        36
+      ],
+      [
+        "method_00747",
+        "(II)V",
+        459
+      ],
+      [
+        "method_00745",
+        "()I",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1534",
+    "super": "net/optifine/shaders/config/ShaderOption",
+    "interfaces": [],
+    "users": [
+      "net/optifine/shaders/config/ShaderPackParser"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        17
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0801",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/element/module/ModuleListElement"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/util/List;Ljava/lang/String;F)V",
+        13
+      ],
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        186
+      ],
+      [
+        "handleMouseClick",
+        "(III)V",
+        148
+      ],
+      [
+        "method_05495",
+        "(ILjava/lang/Integer;)Z",
+        8
+      ]
+    ],
+    "strings": [
+      "gui.button.press"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4667",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_28167",
+        "(FF)V",
+        7
+      ],
+      [
+        "method_28168",
+        "(FFFF)F",
+        16
+      ],
+      [
+        "equals",
+        "(Ljava/lang/Object;)Z",
+        29
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass4667;)V",
+        11
+      ],
+      [
+        "<init>",
+        "(FF)V",
+        9
+      ],
+      [
+        "method_28170",
+        "(FF)F",
+        18
+      ],
+      [
+        "method_28171",
+        "(FFFF)F",
+        19
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_28169",
+        "(Lrecovered/unidentified/UnidentifiedClass4667;)F",
+        20
+      ],
+      [
+        "toString",
+        "()Ljava/lang/String;",
+        17
+      ],
+      [
+        "method_28172",
+        "(Lrecovered/unidentified/UnidentifiedClass4667;)V",
+        9
+      ],
+      [
+        "method_28164",
+        "(Lrecovered/unidentified/UnidentifiedClass4667;)F",
+        23
+      ],
+      [
+        "hashCode",
+        "()I",
+        20
+      ],
+      [
+        "method_28163",
+        "(FF)F",
+        21
+      ]
+    ],
+    "strings": [
+      "Vec2f[",
+      ", ",
+      "]"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0064",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "junit/framework/ComparisonFailure"
+    ],
+    "methods": [
+      [
+        "method_00585",
+        "(Ljava/lang/String;)Ljava/lang/String;",
+        49
+      ],
+      [
+        "method_00584",
+        "()Ljava/lang/String;",
+        27
+      ],
+      [
+        "method_00587",
+        "()V",
+        35
+      ],
+      [
+        "method_00583",
+        "()Z",
+        6
+      ],
+      [
+        "method_00586",
+        "()Ljava/lang/String;",
+        53
+      ],
+      [
+        "method_00582",
+        "()V",
+        41
+      ],
+      [
+        "method_00588",
+        "(Ljava/lang/String;)Ljava/lang/String;",
+        35
+      ],
+      [
+        "<init>",
+        "(ILjava/lang/String;Ljava/lang/String;)V",
+        12
+      ]
+    ],
+    "strings": [
+      "[",
+      "]",
+      "...",
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4731",
+    "super": "net/minecraft/block/BlockCrops",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/block/Block"
+    ],
+    "methods": [
+      [
+        "getCrop",
+        "()Lnet/minecraft/item/Item;",
+        2
+      ],
+      [
+        "dropBlockAsItemWithChance",
+        "(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;FI)V",
+        30
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "getSeed",
+        "()Lnet/minecraft/item/Item;",
+        2
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1104",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        26
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4363",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "apply",
+        "(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;",
+        5
+      ],
+      [
+        "apply",
+        "(Ljava/lang/Object;)Ljava/lang/Object;",
+        5
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3199",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/Comparator"
+    ],
+    "users": [
+      "net/minecraft/src/Config"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "compare",
+        "(Ljava/lang/Object;Ljava/lang/Object;)I",
+        52
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1216",
+    "super": "net/minecraft/client/gui/inventory/GuiContainer",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/entity/EntityPlayerSP"
+    ],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        6
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/entity/player/InventoryPlayer;Lnet/minecraft/inventory/IInventory;)V",
+        14
+      ],
+      [
+        "drawGuiContainerForegroundLayer",
+        "(II)V",
+        40
+      ],
+      [
+        "drawGuiContainerBackgroundLayer",
+        "(FII)V",
+        116
+      ]
+    ],
+    "strings": [
+      "textures/gui/container/brewing_stand.png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0156",
+    "super": "junit/framework/TestCase",
+    "interfaces": [],
+    "users": [
+      "junit/framework/TestSuite"
+    ],
+    "methods": [
+      [
+        "runTest",
+        "()V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V",
+        7
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4179",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/element/module/ModuleListElement"
+    ],
+    "methods": [
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        1341
+      ],
+      [
+        "method_25117",
+        "(F)F",
+        8
+      ],
+      [
+        "handleMouseClick",
+        "(III)V",
+        80
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/config/Setting;F)V",
+        76
+      ]
+    ],
+    "strings": [
+      "client/icons/",
+      ".png",
+      "Opacity",
+      "Volume",
+      "World Time",
+      "Scale",
+      "Scale Multiplier",
+      "",
+      "client/icons/sun-64.png",
+      "client/icons/moon-64.png",
+      "client/icons/volume-mute-64.png",
+      "client/icons/volume-up-64.png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3389",
+    "super": "java/awt/event/WindowAdapter",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1440"
+    ],
+    "methods": [
+      [
+        "windowClosing",
+        "(Ljava/awt/event/WindowEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass1440;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3854",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/optifine/CustomColors$IColorizer"
+    ],
+    "users": [
+      "net/optifine/CustomColors"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "getColor",
+        "(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/BlockPos;)I",
+        9
+      ],
+      [
+        "isColorConstant",
+        "()Z",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0105",
+    "super": "net/minecraft/client/gui/GuiScreen",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/element/module/ModulePreviewElement"
+    ],
+    "methods": [
+      [
+        "initGui",
+        "()V",
+        1
+      ],
+      [
+        "keyTyped",
+        "(CI)V",
+        1
+      ],
+      [
+        "mouseClicked",
+        "(III)V",
+        61
+      ],
+      [
+        "method_00848",
+        "(Lcom/cheatbreaker/client/module/AbstractModule;F[FFZ)F",
+        65
+      ],
+      [
+        "mouseReleased",
+        "(III)V",
+        1
+      ],
+      [
+        "drawScreen",
+        "(IIF)V",
+        485
+      ],
+      [
+        "updateScreen",
+        "()V",
+        1
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/ui/module/CBModulesGui;Lcom/cheatbreaker/client/module/AbstractModule;)V",
+        12
+      ],
+      [
+        "method_00850",
+        "(Lcom/cheatbreaker/client/module/AbstractModule;F[FFZ)F",
+        65
+      ]
+    ],
+    "strings": [
+      "gui.button.press"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4671",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/optifine/shaders/IShaderPack"
+    ],
+    "users": [
+      "net/optifine/shaders/Shaders"
+    ],
+    "methods": [
+      [
+        "getResourceAsStream",
+        "(Ljava/lang/String;)Ljava/io/InputStream;",
+        28
+      ],
+      [
+        "getName",
+        "()Ljava/lang/String;",
+        4
+      ],
+      [
+        "hasDirectory",
+        "(Ljava/lang/String;)Z",
+        17
+      ],
+      [
+        "close",
+        "()V",
+        1
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/io/File;)V",
+        6
+      ]
+    ],
+    "strings": [
+      "/"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4327",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_26230",
+        "(Ljava/io/File;)Ljava/util/Optional;",
+        59
+      ],
+      [
+        "method_26231",
+        "(Ljava/io/File;Ljava/lang/String;)Ljava/util/List;",
+        53
+      ],
+      [
+        "<clinit>",
+        "()V",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_26232",
+        "(Ljava/io/File;)Z",
+        54
+      ],
+      [
+        "method_26229",
+        "()Ljava/util/List;",
+        67
+      ],
+      [
+        "method_26228",
+        "(Ljava/io/File;)Z",
+        14
+      ]
+    ],
+    "strings": [
+      "Failed to find constructor",
+      "Failed to create entry",
+      ".zip",
+      "pack.mcmeta",
+      "Not found in: "
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1784",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_12378",
+        "([Ljava/lang/String;)V",
+        70
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": [
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3599",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/element/module/ModuleListElement"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/config/Setting;F)V",
+        28
+      ],
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        470
+      ],
+      [
+        "handleMouseClick",
+        "(III)V",
+        200
+      ]
+    ],
+    "strings": [
+      "client/icons/left.png",
+      "client/icons/right.png",
+      "gui.button.press"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3918",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/websocket/AssetsWebSocket"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        1
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        6
+      ],
+      [
+        "<init>",
+        "([B)V",
+        6
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        6
+      ],
+      [
+        "method_23630",
+        "()[B",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5065",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_30076",
+        "(Ljava/lang/String;I)Ljava/lang/String;",
+        38
+      ],
+      [
+        "<clinit>",
+        "()V",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": [
+      ".zip",
+      "..."
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0189",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/CheatBreaker"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        46
+      ],
+      [
+        "method_01371",
+        "()Lrecovered/unidentified/UnidentifiedClass0300;",
+        3
+      ],
+      [
+        "method_01372",
+        "(I)Lrecovered/unidentified/UnidentifiedClass0300;",
+        20
+      ],
+      [
+        "method_01378",
+        "(Lrecovered/unidentified/UnidentifiedClass3810;)V",
+        30
+      ],
+      [
+        "<clinit>",
+        "()V",
+        40
+      ],
+      [
+        "method_01379",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;)V",
+        26
+      ],
+      [
+        "method_01383",
+        "()Ljava/util/Map;",
+        3
+      ],
+      [
+        "method_01369",
+        "()Ljava/util/List;",
+        3
+      ],
+      [
+        "method_01373",
+        "(Lrecovered/unidentified/UnidentifiedClass0300;)V",
+        39
+      ],
+      [
+        "method_01381",
+        "(Z)V",
+        4
+      ],
+      [
+        "method_01376",
+        "(Ljava/util/ArrayList;Ljava/util/UUID;Lrecovered/unidentified/UnidentifiedClass0300;)V",
+        50
+      ],
+      [
+        "method_01382",
+        "()Z",
+        3
+      ],
+      [
+        "method_01377",
+        "(Lrecovered/unidentified/UnidentifiedClass3398;)V",
+        11
+      ],
+      [
+        "method_01367",
+        "()Z",
+        3
+      ],
+      [
+        "method_01380",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lrecovered/unidentified/UnidentifiedClass0300;)V",
+        35
+      ],
+      [
+        "method_01385",
+        "(Z)V",
+        4
+      ],
+      [
+        "method_01384",
+        "(Lrecovered/unidentified/UnidentifiedClass0300;)V",
+        4
+      ],
+      [
+        "method_01370",
+        "(Lrecovered/unidentified/UnidentifiedClass0300;)Z",
+        8
+      ],
+      [
+        "method_01368",
+        "()Ljava/util/Map;",
+        3
+      ],
+      [
+        "method_01375",
+        "(Lcom/cheatbreaker/client/event/type/TickEvent;)V",
+        23
+      ],
+      [
+        "method_01374",
+        "(Lrecovered/unidentified/UnidentifiedClass0806;)V",
+        22
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4788",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/optifine/CustomColors$IColorizer"
+    ],
+    "users": [
+      "net/optifine/CustomColors"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "getColor",
+        "(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/BlockPos;)I",
+        9
+      ],
+      [
+        "isColorConstant",
+        "()Z",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0334",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/websocket/AssetsWebSocket"
+    ],
+    "methods": [
+      [
+        "run",
+        "()V",
+        9
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4238",
+    "super": "net/minecraft/client/gui/GuiButton",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/mainmenu/LegacyMainMenu"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(III)V",
+        9
+      ],
+      [
+        "drawButton",
+        "(Lnet/minecraft/client/Minecraft;II)V",
+        60
+      ]
+    ],
+    "strings": [
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1113",
+    "super": "recovered/unidentified/UnidentifiedClass0300",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        1
+      ],
+      [
+        "<init>",
+        "()V",
+        41
+      ],
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        282
+      ]
+    ],
+    "strings": [
+      "Super Facepalm"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0315",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/type/keystrokes/KeystrokesModule"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/String;IFF)V",
+        15
+      ],
+      [
+        "method_02422",
+        "()I",
+        3
+      ],
+      [
+        "method_02425",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_02421",
+        "()F",
+        3
+      ],
+      [
+        "method_02424",
+        "()F",
+        3
+      ],
+      [
+        "method_02423",
+        "(FFIIIIIIZ)V",
+        1369
+      ]
+    ],
+    "strings": [
+      "",
+      "With Clicks",
+      " CPS",
+      "RMB",
+      "Replace Clicks"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3605",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "junit/framework/Protectable"
+    ],
+    "users": [
+      "junit/framework/TestResult"
+    ],
+    "methods": [
+      [
+        "protect",
+        "()V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljunit/framework/TestResult;Ljunit/framework/TestCase;)V",
+        9
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0499",
+    "super": "javax/swing/DefaultListCellRenderer",
+    "interfaces": [],
+    "users": [
+      "junit/swingui/DefaultFailureDetailView"
+    ],
+    "methods": [
+      [
+        "getListCellRendererComponent",
+        "(Ljavax/swing/JList;Ljava/lang/Object;IZZ)Ljava/awt/Component;",
+        22
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4343",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        33
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4396",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/Minecraft",
+      "net/minecraft/client/multiplayer/GuiConnecting$1"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0878",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/mainmenu/CosmeticsMenu",
+      "recovered/unidentified/UnidentifiedClass1899"
+    ],
+    "methods": [
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        166
+      ],
+      [
+        "handleMouseClick",
+        "(III)V",
+        123
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/util/ClientResourceManager;F)V",
+        17
+      ]
+    ],
+    "strings": [
+      "cape",
+      "_",
+      " ",
+      "gui.button.press"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1908",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        33
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3330",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/minecraft/client/gui/GuiYesNoCallback"
+    ],
+    "users": [
+      "net/minecraft/client/Minecraft"
+    ],
+    "methods": [
+      [
+        "confirmClicked",
+        "(ZI)V",
+        12
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/client/Minecraft;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4999",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "apply",
+        "(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;",
+        5
+      ],
+      [
+        "apply",
+        "(Ljava/lang/Object;)Ljava/lang/Object;",
+        5
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1117",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/CheatBreaker"
+    ],
+    "methods": [
+      [
+        "method_07639",
+        "(Lcom/cheatbreaker/client/event/type/TickEvent;)V",
+        10
+      ],
+      [
+        "method_07640",
+        "(Lcom/cheatbreaker/client/event/type/GuiDrawEvent;)V",
+        163
+      ],
+      [
+        "<init>",
+        "()V",
+        21
+      ],
+      [
+        "method_07641",
+        "(Lcom/cheatbreaker/client/util/title/Title;)Z",
+        12
+      ],
+      [
+        "method_07638",
+        "()Ljava/util/List;",
+        3
+      ]
+    ],
+    "strings": [
+      "Created Title Manager"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1290",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/optifine/CustomColors$IColorizer"
+    ],
+    "users": [
+      "net/optifine/CustomColors"
+    ],
+    "methods": [
+      [
+        "getColor",
+        "(Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/BlockPos;)I",
+        23
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "isColorConstant",
+        "()Z",
+        2
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0030",
+    "super": "recovered/unidentified/UnidentifiedClass0300",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        29
+      ],
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        1
+      ],
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        95
+      ]
+    ],
+    "strings": [
+      "Wave"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1369",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/type/IconTextHudModule",
+      "com/cheatbreaker/client/module/type/SaturationModule",
+      "com/cheatbreaker/client/module/type/TextHudModule",
+      "com/cheatbreaker/client/module/type/ToggleSprintModule"
+    ],
+    "methods": [
+      [
+        "method_09435",
+        "()F",
+        3
+      ],
+      [
+        "method_09437",
+        "()F",
+        3
+      ],
+      [
+        "method_09434",
+        "()F",
+        3
+      ],
+      [
+        "method_09436",
+        "()F",
+        3
+      ],
+      [
+        "<init>",
+        "(FFFFFF)V",
+        21
+      ],
+      [
+        "method_09432",
+        "()F",
+        3
+      ],
+      [
+        "method_09433",
+        "()F",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3253",
+    "super": "com/cheatbreaker/client/nethandler/Packet",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_20224",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "read",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        6
+      ],
+      [
+        "write",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ],
+      [
+        "process",
+        "(Lcom/cheatbreaker/client/nethandler/ICBNetHandler;)V",
+        5
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0913",
+    "super": "com/cheatbreaker/client/ui/mainmenu/AbstractElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/overlay/element/RadioElement"
+    ],
+    "methods": [
+      [
+        "method_06163",
+        "(Ljava/lang/Object;)Ljava/lang/Object;",
+        5
+      ],
+      [
+        "handleElementMouseClicked",
+        "(FFIZ)Z",
+        119
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/config/Setting;)V",
+        17
+      ],
+      [
+        "handleElementDraw",
+        "(FFZ)V",
+        89
+      ]
+    ],
+    "strings": [
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4584",
+    "super": "org/scijava/nativelib/BaseJniExtractor",
+    "interfaces": [],
+    "users": [
+      "org/newsclub/net/unix/NarSystem",
+      "org/scijava/nativelib/NativeLibraryUtil",
+      "recovered/unidentified/UnidentifiedClass3876"
+    ],
+    "methods": [
+      [
+        "method_27584",
+        "(Ljava/lang/String;)V",
+        30
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/Class;Ljava/lang/String;)V",
+        7
+      ],
+      [
+        "<init>",
+        "()V",
+        7
+      ],
+      [
+        "method_12332",
+        "()Ljava/io/File;",
+        3
+      ],
+      [
+        "method_12334",
+        "()Ljava/io/File;",
+        3
+      ]
+    ],
+    "strings": [
+      "java.library.tmpdir",
+      "Unable to create native library working directory ",
+      "tmplib"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0173",
+    "super": "net/minecraft/item/Item",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "onItemRightClick",
+        "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;",
+        304
+      ],
+      [
+        "<init>",
+        "()V",
+        10
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3867",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_23428",
+        "(Lnet/minecraft/client/multiplayer/WorldClient;DLnet/minecraft/entity/Entity;ILnet/minecraft/client/renderer/ViewFrustum;)Ljava/util/Iterator;",
+        142
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0268",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;)V",
+        6
+      ],
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1774",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/websocket/AssetsWebSocket"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1118",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/awtui/TestRunner"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljunit/awtui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0429",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/Minecraft"
+    ],
+    "methods": [
+      [
+        "method_03202",
+        "()V",
+        136
+      ],
+      [
+        "<init>",
+        "(F)V",
+        20
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1577",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/element/module/ModuleListElement"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(F)V",
+        7
+      ],
+      [
+        "handleMouseClick",
+        "(III)V",
+        1
+      ],
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        103
+      ]
+    ],
+    "strings": [
+      "client/defaults/crosshair_",
+      ".png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0144",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/gui/GuiIngame"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/client/gui/ScaledResolution;)V",
+        6
+      ],
+      [
+        "method_01054",
+        "()Lnet/minecraft/client/gui/ScaledResolution;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3613",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/swingui/TestSelector"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljunit/swingui/TestSelector;)V",
+        6
+      ],
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1221",
+    "super": "com/cheatbreaker/client/ui/element/AbstractModulesGuiElement",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/element/module/ModuleListElement"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/config/Setting;F)V",
+        10
+      ],
+      [
+        "handleMouseClick",
+        "(III)V",
+        1
+      ],
+      [
+        "handleDrawElement",
+        "(IIF)V",
+        58
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4013",
+    "super": "net/minecraft/item/Item",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        7
+      ],
+      [
+        "onItemUse",
+        "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z",
+        143
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1350",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "run",
+        "()V",
+        1
+      ],
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1276",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_08549",
+        "(D)J",
+        9
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_08550",
+        "(F)I",
+        9
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1385",
+    "super": "com/cheatbreaker/client/module/AbstractModule",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        63
+      ],
+      [
+        "method_09503",
+        "(Lcom/cheatbreaker/client/event/type/GuiDrawEvent;)V",
+        101
+      ]
+    ],
+    "strings": [
+      "FPS",
+      "Show Background",
+      "Text Color",
+      "Background Color",
+      "[144 FPS]",
+      " FPS",
+      "[",
+      " FPS]"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4676",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_28203",
+        "(IIII)V",
+        34
+      ],
+      [
+        "method_28200",
+        "(FFFF)V",
+        38
+      ],
+      [
+        "method_28199",
+        "()V",
+        4
+      ],
+      [
+        "method_28204",
+        "()V",
+        4
+      ],
+      [
+        "<clinit>",
+        "()V",
+        12
+      ],
+      [
+        "method_28201",
+        "(I)V",
+        8
+      ],
+      [
+        "method_28202",
+        "(II)V",
+        18
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4818",
+    "super": "com/cheatbreaker/client/ui/mainmenu/AbstractElement",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4535"
+    ],
+    "methods": [
+      [
+        "handleElementDraw",
+        "(FFZ)V",
+        239
+      ],
+      [
+        "method_28761",
+        "(FF)Z",
+        109
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass4535;ILrecovered/unidentified/UnidentifiedClass0127;)V",
+        63
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4220",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/datatransfer/Transferable"
+    ],
+    "users": [
+      "net/minecraft/util/ScreenShotHelper"
+    ],
+    "methods": [
+      [
+        "getTransferData",
+        "(Ljava/awt/datatransfer/DataFlavor;)Ljava/lang/Object;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/util/List;)V",
+        6
+      ],
+      [
+        "isDataFlavorSupported",
+        "(Ljava/awt/datatransfer/DataFlavor;)Z",
+        4
+      ],
+      [
+        "getTransferDataFlavors",
+        "()[Ljava/awt/datatransfer/DataFlavor;",
+        7
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0520",
+    "super": "net/minecraft/client/renderer/entity/Render",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/renderer/entity/RenderManager"
+    ],
+    "methods": [
+      [
+        "doRender",
+        "(Lnet/minecraft/entity/Entity;DDDFF)V",
+        10
+      ],
+      [
+        "getEntityTexture",
+        "(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;",
+        5
+      ],
+      [
+        "<clinit>",
+        "()V",
+        6
+      ],
+      [
+        "getEntityTexture",
+        "(Lnet/minecraft/entity/projectile/EntityFishHook;)Lnet/minecraft/util/ResourceLocation;",
+        2
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/client/renderer/entity/RenderManager;)V",
+        4
+      ],
+      [
+        "doRender",
+        "(Lnet/minecraft/entity/projectile/EntityFishHook;DDDFF)V",
+        503
+      ]
+    ],
+    "strings": [
+      "textures/particle/particles.png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1675",
+    "super": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$Piece",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/util/EnumFacing;Lnet/minecraft/world/gen/structure/StructureOceanMonumentPieces$RoomDefinition;Ljava/util/Random;)V",
+        9
+      ],
+      [
+        "addComponentParts",
+        "(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/world/gen/structure/StructureBoundingBox;)Z",
+        606
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0842",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V",
+        9
+      ],
+      [
+        "method_05710",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_05711",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        11
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        11
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1852",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/mojang/authlib/ProfileLookupCallback"
+    ],
+    "users": [
+      "net/minecraft/server/management/PlayerProfileCache"
+    ],
+    "methods": [
+      [
+        "onProfileLookupSucceeded",
+        "(Lcom/mojang/authlib/GameProfile;)V",
+        6
+      ],
+      [
+        "onProfileLookupFailed",
+        "(Lcom/mojang/authlib/GameProfile;Ljava/lang/Exception;)V",
+        6
+      ],
+      [
+        "<init>",
+        "([Lcom/mojang/authlib/GameProfile;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3204",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/CharSequence"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0882"
+    ],
+    "methods": [
+      [
+        "charAt",
+        "(I)C",
+        19
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)V",
+        9
+      ],
+      [
+        "length",
+        "()I",
+        23
+      ],
+      [
+        "toString",
+        "()Ljava/lang/String;",
+        23
+      ],
+      [
+        "subSequence",
+        "(II)Ljava/lang/CharSequence;",
+        7
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4439",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/type/FPSModule",
+      "com/cheatbreaker/client/module/type/MemoryUsageModule",
+      "com/cheatbreaker/client/module/type/NumberHudModule",
+      "com/cheatbreaker/client/module/type/PingModule",
+      "com/cheatbreaker/client/module/type/ReachDisplayModule"
+    ],
+    "methods": [
+      [
+        "method_26745",
+        "()I",
+        3
+      ],
+      [
+        "method_26746",
+        "()I",
+        3
+      ],
+      [
+        "method_26744",
+        "()I",
+        3
+      ],
+      [
+        "<init>",
+        "(III)V",
+        12
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4596",
+    "super": "net/minecraft/client/gui/GuiScreen",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/element/KeybindElement"
+    ],
+    "methods": [
+      [
+        "drawScreen",
+        "(IIF)V",
+        119
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/client/gui/GuiScreen;F)V",
+        15
+      ],
+      [
+        "initGui",
+        "()V",
+        51
+      ],
+      [
+        "mouseReleased",
+        "(III)V",
+        6
+      ],
+      [
+        "a_",
+        "()V",
+        3
+      ],
+      [
+        "mouseClicked",
+        "(III)V",
+        12
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/config/Setting;Lnet/minecraft/client/gui/GuiScreen;F)V",
+        8
+      ],
+      [
+        "keyTyped",
+        "(CI)V",
+        71
+      ],
+      [
+        "updateScreen",
+        "()V",
+        4
+      ]
+    ],
+    "strings": [
+      "info",
+      "Updated custom string value successfully."
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0243",
+    "super": "net/minecraft/item/Item",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "getItemUseAction",
+        "(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;",
+        2
+      ],
+      [
+        "<init>",
+        "()V",
+        11
+      ],
+      [
+        "onItemUseFinish",
+        "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;",
+        31
+      ],
+      [
+        "getMaxItemUseDuration",
+        "(Lnet/minecraft/item/ItemStack;)I",
+        2
+      ],
+      [
+        "onItemRightClick",
+        "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/item/ItemStack;",
+        8
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1353",
+    "super": "net/minecraft/world/gen/layer/GenLayer",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/world/gen/layer/GenLayer"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(JLnet/minecraft/world/gen/layer/GenLayer;)V",
+        7
+      ],
+      [
+        "method_09350",
+        "(I)I",
+        11
+      ],
+      [
+        "getInts",
+        "(IIII)[I",
+        145
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5012",
+    "super": "net/minecraft/client/gui/GuiButton",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/gui/GuiMainMenu"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(IIIIILjava/lang/String;)V",
+        12
+      ],
+      [
+        "drawButton",
+        "(Lnet/minecraft/client/Minecraft;II)V",
+        138
+      ],
+      [
+        "<init>",
+        "(ILnet/minecraft/util/ResourceLocation;IIIILjava/lang/String;Z)V",
+        15
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5108",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "net/optifine/Lagometer"
+    ],
+    "methods": [
+      [
+        "method_30328",
+        "()V",
+        20
+      ],
+      [
+        "<init>",
+        "()V",
+        9
+      ],
+      [
+        "method_30329",
+        "(Lrecovered/unidentified/UnidentifiedClass5108;)V",
+        3
+      ],
+      [
+        "method_30330",
+        "()V",
+        7
+      ],
+      [
+        "method_30327",
+        "()V",
+        11
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1443",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        33
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0000",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_00002",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_00003",
+        "()Lcom/cheatbreaker/client/module/AbstractModule;",
+        3
+      ],
+      [
+        "method_00001",
+        "()V",
+        0
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/module/AbstractModule;Ljava/lang/String;)V",
+        9
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4690",
+    "super": "net/minecraft/client/gui/ChatLine",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4690"
+    ],
+    "methods": [
+      [
+        "method_28279",
+        "(Z)V",
+        4
+      ],
+      [
+        "method_28277",
+        "()Z",
+        3
+      ],
+      [
+        "method_28278",
+        "(Lnet/minecraft/client/gui/ChatLine;)Lrecovered/unidentified/UnidentifiedClass4690;",
+        10
+      ],
+      [
+        "<init>",
+        "(ILnet/minecraft/util/IChatComponent;I)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedEnum3640",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedEnum3640"
+    ],
+    "methods": [
+      [
+        "values",
+        "()[Lrecovered/unidentified/UnidentifiedEnum3640;",
+        4
+      ],
+      [
+        "<clinit>",
+        "()V",
+        34
+      ],
+      [
+        "method_22258",
+        "(Lrecovered/unidentified/UnidentifiedEnum3640;)Lnet/minecraft/client/gui/GuiScreen;",
+        17
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;I)V",
+        5
+      ],
+      [
+        "method_22257",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedEnum3640;",
+        5
+      ]
+    ],
+    "strings": [
+      "OLD",
+      "MAIN",
+      "VANILLA"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3833",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5091",
+    "super": "net/minecraft/world/gen/layer/GenLayer",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/world/gen/layer/GenLayer"
+    ],
+    "methods": [
+      [
+        "getInts",
+        "(IIII)[I",
+        580
+      ],
+      [
+        "<init>",
+        "(JLnet/minecraft/world/gen/layer/GenLayer;)V",
+        7
+      ],
+      [
+        "method_30253",
+        "(I)Z",
+        37
+      ],
+      [
+        "method_30255",
+        "(I)Z",
+        4
+      ],
+      [
+        "method_30254",
+        "([I[IIIIII)V",
+        106
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3279",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        19
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4541",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        33
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4851",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/swingui/TestSelector"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljunit/swingui/TestSelector;)V",
+        6
+      ],
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4511",
+    "super": "net/minecraft/world/biome/BiomeGenMutated",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/world/biome/BiomeGenForest"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/world/biome/BiomeGenForest;ILnet/minecraft/world/biome/BiomeGenBase;)V",
+        8
+      ],
+      [
+        "genBigTreeChance",
+        "(Ljava/util/Random;)Lnet/minecraft/world/gen/feature/WorldGenAbstractTree;",
+        7
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1099",
+    "super": "org/json/JSONWriter",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "toString",
+        "()Ljava/lang/String;",
+        10
+      ],
+      [
+        "<init>",
+        "()V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1421",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "recovered/unidentified/UnidentifiedInterface4518"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4984"
+    ],
+    "methods": [
+      [
+        "method_09732",
+        "([CII)V",
+        13
+      ],
+      [
+        "method_09731",
+        "()V",
+        17
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass4984;[ZLjava/lang/StringBuilder;Ljava/util/List;)V",
+        15
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0998",
+    "super": "recovered/unidentified/UnidentifiedClass0300",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        194
+      ],
+      [
+        "<init>",
+        "()V",
+        23
+      ],
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        1
+      ]
+    ],
+    "strings": [
+      "T-Pose"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0806",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/Minecraft"
+    ],
+    "methods": [
+      [
+        "method_05523",
+        "()I",
+        3
+      ],
+      [
+        "<init>",
+        "(I)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedEnum0393",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedEnum0393"
+    ],
+    "methods": [
+      [
+        "values",
+        "()[Lrecovered/unidentified/UnidentifiedEnum0393;",
+        4
+      ],
+      [
+        "<clinit>",
+        "()V",
+        24
+      ],
+      [
+        "method_02995",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedEnum0393;",
+        5
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;I)V",
+        5
+      ]
+    ],
+    "strings": [
+      "START",
+      "END"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0882",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_05903",
+        "(Ljava/io/File;Ljava/nio/charset/Charset;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        20
+      ],
+      [
+        "method_05906",
+        "(Ljava/io/Reader;)V",
+        10
+      ],
+      [
+        "method_05901",
+        "()Ljava/util/function/Function;",
+        2
+      ],
+      [
+        "method_05918",
+        "(Lrecovered/unidentified/UnidentifiedClass4575;Lrecovered/unidentified/UnidentifiedClass4575;)V",
+        7
+      ],
+      [
+        "method_05908",
+        "(Ljava/io/Reader;Lrecovered/unidentified/UnidentifiedInterface4518;Ljava/lang/Number;Ljava/util/function/Function;Ljava/util/Set;ZZ)V",
+        228
+      ],
+      [
+        "method_05912",
+        "(Ljava/lang/String;)Ljava/util/Set;",
+        21
+      ],
+      [
+        "method_05902",
+        "(C)Z",
+        9
+      ],
+      [
+        "method_05913",
+        "(Ljava/lang/String;Ljava/nio/charset/Charset;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        15
+      ],
+      [
+        "method_05910",
+        "(Ljava/lang/CharSequence;)Ljava/lang/Number;",
+        4
+      ],
+      [
+        "method_05904",
+        "(Ljava/io/InputStream;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        4
+      ],
+      [
+        "method_05923",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        4
+      ],
+      [
+        "method_05907",
+        "(Ljava/io/Reader;Ljava/io/Writer;Ljava/lang/String;Ljava/lang/Number;Ljava/util/function/Function;Ljava/util/Set;ZZ)V",
+        15
+      ],
+      [
+        "method_05917",
+        "(Lrecovered/unidentified/UnidentifiedClass4575;)V",
+        25
+      ],
+      [
+        "method_05922",
+        "(Ljava/lang/CharSequence;)Z",
+        17
+      ],
+      [
+        "method_05921",
+        "(Ljava/io/Reader;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        4
+      ],
+      [
+        "method_05899",
+        "(Ljava/lang/CharSequence;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        10
+      ],
+      [
+        "method_05911",
+        "(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;",
+        6
+      ],
+      [
+        "method_05909",
+        "(Ljava/io/Reader;Z)Lrecovered/unidentified/UnidentifiedClass4984;",
+        6
+      ],
+      [
+        "method_05919",
+        "(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;",
+        25
+      ],
+      [
+        "method_05900",
+        "(Ljava/lang/String;)Ljava/lang/String;",
+        10
+      ],
+      [
+        "method_05905",
+        "(Ljava/io/InputStream;Ljava/nio/charset/Charset;)Lrecovered/unidentified/UnidentifiedClass4984;",
+        10
+      ],
+      [
+        "method_05920",
+        "(Ljava/lang/String;)Ljava/util/Set;",
+        3
+      ],
+      [
+        "<clinit>",
+        "()V",
+        6
+      ],
+      [
+        "method_05914",
+        "(Ljava/util/function/Function;Ljava/lang/CharSequence;D)Z",
+        12
+      ],
+      [
+        "method_05915",
+        "(Lrecovered/unidentified/UnidentifiedInterface4518;Lrecovered/unidentified/UnidentifiedClass4575;)V",
+        13
+      ],
+      [
+        "method_05916",
+        "(Lrecovered/unidentified/UnidentifiedInterface4518;Lrecovered/unidentified/UnidentifiedClass4575;Z)V",
+        57
+      ]
+    ],
+    "strings": [
+      "line length was zero. If this happens please contribute unit test that provokes this failure to the project!",
+      "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~",
+      "\"'\u2018\u2019\u201c\u201d?./!,;:_",
+      "-"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedInterface4702",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ],
+    "users": [],
+    "methods": [],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1349",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/ModuleManager"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        13
+      ],
+      [
+        "method_09303",
+        "(Lcom/cheatbreaker/client/event/type/TickEvent;)V",
+        123
+      ]
+    ],
+    "strings": [
+      "key.sneak",
+      "key.use",
+      "key.inventory",
+      "key.chat",
+      "key.command"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3876",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_23455",
+        "()Lorg/scijava/nativelib/JniExtractor;",
+        2
+      ],
+      [
+        "method_23458",
+        "()V",
+        3
+      ],
+      [
+        "<clinit>",
+        "()V",
+        24
+      ],
+      [
+        "method_23457",
+        "(Lorg/scijava/nativelib/JniExtractor;)V",
+        3
+      ],
+      [
+        "method_23456",
+        "(Ljava/lang/String;)V",
+        7
+      ]
+    ],
+    "strings": [
+      "Classloader",
+      ""
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1944",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/CheatBreaker"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0275",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "users": [
+      "junit/awtui/TestRunner"
+    ],
+    "methods": [
+      [
+        "run",
+        "()V",
+        78
+      ],
+      [
+        "<init>",
+        "(Ljunit/awtui/TestRunner;Ljunit/framework/Test;)V",
+        9
+      ]
+    ],
+    "strings": [
+      "Running...",
+      "Stopped",
+      "Finished: ",
+      " seconds",
+      "Run"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1440",
+    "super": "java/awt/Dialog",
+    "interfaces": [],
+    "users": [
+      "junit/awtui/TestRunner"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/awt/Frame;)V",
+        176
+      ]
+    ],
+    "strings": [
+      "About",
+      "Close",
+      "JUnit",
+      "dialog",
+      "JUnit ",
+      " by Kent Beck and Erich Gamma"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1617",
+    "super": "net/minecraft/world/gen/feature/WorldGenerator",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/world/gen/ChunkProviderFlat",
+      "net/minecraft/world/gen/ChunkProviderGenerate"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/block/Block;)V",
+        6
+      ],
+      [
+        "generate",
+        "(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/BlockPos;)Z",
+        706
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3843",
+    "super": "net/minecraft/entity/ai/EntityAIBase",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/entity/passive/EntityOcelot"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/entity/EntityLiving;)V",
+        13
+      ],
+      [
+        "shouldExecute",
+        "()Z",
+        13
+      ],
+      [
+        "updateTask",
+        "()V",
+        87
+      ],
+      [
+        "resetTask",
+        "()V",
+        8
+      ],
+      [
+        "continueExecuting",
+        "()Z",
+        28
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4262",
+    "super": "com/cheatbreaker/client/ui/AbstractGui",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/Minecraft"
+    ],
+    "methods": [
+      [
+        "method_25827",
+        "(FF)V",
+        58
+      ],
+      [
+        "<init>",
+        "(I)V",
+        70
+      ],
+      [
+        "method_25824",
+        "(Ljava/lang/String;)V",
+        25
+      ],
+      [
+        "method_25823",
+        "(FF)V",
+        26
+      ],
+      [
+        "drawMenu",
+        "(FF)V",
+        113
+      ],
+      [
+        "method_25825",
+        "()V",
+        22
+      ],
+      [
+        "onMouseClicked",
+        "(FFI)V",
+        1
+      ],
+      [
+        "method_25826",
+        "()V",
+        40
+      ],
+      [
+        "method_25822",
+        "()V",
+        29
+      ],
+      [
+        "onMouseReleased",
+        "(FFI)V",
+        1
+      ]
+    ],
+    "strings": [
+      "client/logo_255_outer.png",
+      "client/logo_108_inner.png",
+      "client/logo_108.png",
+      "client/font/Ubuntu-M.ttf"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3734",
+    "super": "net/minecraft/block/BlockFlower",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/block/Block"
+    ],
+    "methods": [
+      [
+        "getBlockType",
+        "()Lnet/minecraft/block/BlockFlower$EnumFlowerColor;",
+        2
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4074",
+    "super": "com/cheatbreaker/client/ui/fading/FloatFade",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1449"
+    ],
+    "methods": [
+      [
+        "method_20200",
+        "()V",
+        10
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass1449;JLrecovered/unidentified/UnidentifiedClass1171;)V",
+        5
+      ],
+      [
+        "method_24497",
+        "()F",
+        41
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass1449;J)V",
+        35
+      ],
+      [
+        "method_24498",
+        "()Z",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4506",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        54
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1776",
+    "super": "org/scijava/nativelib/BaseJniExtractor",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass3876"
+    ],
+    "methods": [
+      [
+        "method_12332",
+        "()Ljava/io/File;",
+        3
+      ],
+      [
+        "method_12334",
+        "()Ljava/io/File;",
+        3
+      ],
+      [
+        "finalize",
+        "()V",
+        22
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        83
+      ]
+    ],
+    "strings": [
+      "java.library.tmpdir",
+      "tmplib",
+      "Unable to create native library working directory ",
+      "."
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1954",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0189"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        9
+      ],
+      [
+        "method_13269",
+        "()Ljava/util/UUID;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/util/UUID;I)V",
+        9
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        10
+      ],
+      [
+        "method_13270",
+        "()I",
+        3
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4798",
+    "super": "recovered/unidentified/UnidentifiedClass0300",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        35
+      ],
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        1
+      ],
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        505
+      ],
+      [
+        "method_28680",
+        "()Lrecovered/unidentified/UnidentifiedEnum1205;",
+        14
+      ]
+    ],
+    "strings": [
+      "Floss"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0491",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/network/messages/Message"
+    ],
+    "methods": [
+      [
+        "method_03577",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V",
+        9
+      ],
+      [
+        "method_03578",
+        "()Ljava/lang/String;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0943",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        33
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3248",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass3248"
+    ],
+    "methods": [
+      [
+        "method_20197",
+        "(Lcom/cheatbreaker/client/event/type/TickEvent;)V",
+        52
+      ],
+      [
+        "<clinit>",
+        "()V",
+        5
+      ],
+      [
+        "method_20196",
+        "(F)F",
+        20
+      ],
+      [
+        "method_20195",
+        "()Lrecovered/unidentified/UnidentifiedClass3248;",
+        2
+      ],
+      [
+        "<init>",
+        "()V",
+        10
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1316",
+    "super": "net/minecraft/util/MovementInputFromOptions",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/entity/EntityPlayerSP"
+    ],
+    "methods": [
+      [
+        "method_09086",
+        "(ZZ)V",
+        5
+      ],
+      [
+        "<clinit>",
+        "()V",
+        11
+      ],
+      [
+        "method_09084",
+        "(Lnet/minecraft/util/MovementInputFromOptions;Lnet/minecraft/client/entity/EntityPlayerSP;Lnet/minecraft/client/settings/GameSettings;)V",
+        195
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/client/settings/GameSettings;)V",
+        4
+      ],
+      [
+        "method_09083",
+        "()Z",
+        12
+      ],
+      [
+        "method_09085",
+        "(Lnet/minecraft/client/Minecraft;Lnet/minecraft/util/MovementInputFromOptions;Lnet/minecraft/client/entity/EntityPlayerSP;)V",
+        298
+      ]
+    ],
+    "strings": [
+      "",
+      "#.00",
+      "%BOOST%"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3988",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        47
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0890",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/network/play/server/S02PacketChat;)V",
+        6
+      ],
+      [
+        "method_05975",
+        "()Lnet/minecraft/network/play/server/S02PacketChat;",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3830",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_23255",
+        "()Ljava/lang/Object;",
+        15
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        49
+      ]
+    ],
+    "strings": [
+      "windir",
+      "\\system32\\tasklist.exe"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3223",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/module/CBModulesGui"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/ui/module/CBModulesGui;Lcom/cheatbreaker/client/module/AbstractModule;Lcom/cheatbreaker/client/ui/module/SomeRandomAssEnum;II)V",
+        51
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4377",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/websocket/AssetsWebSocket"
+    ],
+    "methods": [
+      [
+        "method_26420",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;[I)V",
+        12
+      ],
+      [
+        "method_26422",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_26421",
+        "(Ljava/lang/String;)V",
+        4
+      ],
+      [
+        "method_26419",
+        "()[I",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4432",
+    "super": "recovered/unidentified/UnidentifiedClass0000",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1951"
+    ],
+    "methods": [
+      [
+        "method_00001",
+        "()V",
+        95
+      ],
+      [
+        "<init>",
+        "()V",
+        7
+      ]
+    ],
+    "strings": [
+      "Static",
+      "Decreased time by ",
+      ".",
+      "This mod command only works with the \"Static\" time type.",
+      "/cb_decrease_time"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0717",
+    "super": "net/minecraft/client/gui/GuiMainMenu",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedEnum3640"
+    ],
+    "methods": [
+      [
+        "updateScreen",
+        "()V",
+        21
+      ],
+      [
+        "keyTyped",
+        "(CI)V",
+        13
+      ],
+      [
+        "drawScreen",
+        "(IIF)V",
+        263
+      ],
+      [
+        "<init>",
+        "()V",
+        18
+      ],
+      [
+        "mouseClicked",
+        "(III)V",
+        19
+      ],
+      [
+        "initGui",
+        "()V",
+        14
+      ]
+    ],
+    "strings": [
+      "client/logo_outer.png",
+      "client/logo_inner.png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1394",
+    "super": "com/cheatbreaker/client/ui/mainmenu/AbstractElement",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "handleElementMouseClicked",
+        "(FFIZ)Z",
+        6
+      ],
+      [
+        "<init>",
+        "()V",
+        23
+      ],
+      [
+        "handleElementDraw",
+        "(FFZ)V",
+        30
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0706",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        6
+      ],
+      [
+        "<init>",
+        "([B)V",
+        6
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_04977",
+        "()[B",
+        3
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3460",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        33
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0921",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ],
+    "users": [
+      "net/minecraft/world/gen/layer/GenLayer"
+    ],
+    "methods": [
+      [
+        "call",
+        "()Ljava/lang/Object;",
+        3
+      ],
+      [
+        "call",
+        "()Ljava/lang/String;",
+        4
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/world/biome/BiomeGenBase;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1464",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "users": [],
+    "methods": [
+      [
+        "method_10196",
+        "()Z",
+        11
+      ],
+      [
+        "<clinit>",
+        "()V",
+        19
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_10199",
+        "()Z",
+        11
+      ],
+      [
+        "method_10195",
+        "()Z",
+        11
+      ],
+      [
+        "method_10197",
+        "(ID)Z",
+        17
+      ],
+      [
+        "run",
+        "()V",
+        90
+      ],
+      [
+        "method_10198",
+        "()Z",
+        11
+      ],
+      [
+        "method_10194",
+        "()Z",
+        11
+      ]
+    ],
+    "strings": [
+      "Lo6a$DMR",
+      "aAO20DQ6iIlP",
+      "yh9bV53gfZv4tBa49MF2G",
+      "u2CXyEg4Fy32"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0526",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1590"
+    ],
+    "methods": [
+      [
+        "method_03840",
+        "(Z)V",
+        17
+      ],
+      [
+        "<init>",
+        "(I)V",
+        9
+      ],
+      [
+        "method_03839",
+        "()V",
+        4
+      ],
+      [
+        "method_03841",
+        "()V",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5082",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1227",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedInterface1247",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3810",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/model/ModelBiped",
+      "net/minecraft/client/model/ModelPlayer"
+    ],
+    "methods": [
+      [
+        "method_23156",
+        "()Lrecovered/unidentified/UnidentifiedEnum0393;",
+        3
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedEnum0393;Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        15
+      ],
+      [
+        "method_23158",
+        "()Lnet/minecraft/client/model/ModelPlayer;",
+        3
+      ],
+      [
+        "method_23155",
+        "()Lnet/minecraft/client/entity/AbstractClientPlayer;",
+        3
+      ],
+      [
+        "method_23157",
+        "()F",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3516",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_21762",
+        "()Z",
+        3
+      ],
+      [
+        "method_21763",
+        "(Ljava/lang/String;)V",
+        4
+      ],
+      [
+        "method_21766",
+        "(Z)V",
+        4
+      ],
+      [
+        "method_21768",
+        "()Z",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        12
+      ],
+      [
+        "method_21770",
+        "(Z)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        27
+      ],
+      [
+        "method_21761",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_21767",
+        "()Lnet/minecraft/client/Minecraft;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V",
+        19
+      ],
+      [
+        "method_21769",
+        "(Ljava/lang/String;)V",
+        4
+      ],
+      [
+        "method_21765",
+        "(Lnet/minecraft/client/Minecraft;)V",
+        4
+      ],
+      [
+        "run",
+        "()V",
+        44
+      ],
+      [
+        "method_21760",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_21764",
+        "(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/Session;",
+        41
+      ]
+    ],
+    "strings": [
+      "Alt Login Thread",
+      ":",
+      "",
+      "mojang"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0127",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4400"
+    ],
+    "methods": [
+      [
+        "method_00994",
+        "()Lnet/minecraft/util/ResourceLocation;",
+        3
+      ],
+      [
+        "method_00995",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "method_00993",
+        "()Ljava/lang/Object;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/Object;Ljava/lang/String;Lnet/minecraft/util/ResourceLocation;)V",
+        12
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4078",
+    "super": "io/netty/channel/ChannelInboundHandlerAdapter",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_24511",
+        "()J",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljavax/crypto/SecretKey;)V",
+        50
+      ],
+      [
+        "method_24513",
+        "()J",
+        3
+      ],
+      [
+        "method_24510",
+        "()J",
+        3
+      ],
+      [
+        "method_24512",
+        "()[B",
+        3
+      ],
+      [
+        "channelRead",
+        "(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V",
+        93
+      ],
+      [
+        "method_24509",
+        "()J",
+        3
+      ]
+    ],
+    "strings": [
+      "cf2O02b1QJSZOcVHphHucA"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4866",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedInterface0987",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ],
+    "users": [],
+    "methods": [],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3543",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/awtui/TestRunner"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljunit/awtui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3906",
+    "super": "net/minecraft/block/BlockFlower",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/block/Block"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "getBlockType",
+        "()Lnet/minecraft/block/BlockFlower$EnumFlowerColor;",
+        2
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1256",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/CharSequence"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass3204"
+    ],
+    "methods": [
+      [
+        "charAt",
+        "(I)C",
+        8
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass3204;II)V",
+        12
+      ],
+      [
+        "subSequence",
+        "(II)Ljava/lang/CharSequence;",
+        22
+      ],
+      [
+        "toString",
+        "()Ljava/lang/String;",
+        23
+      ],
+      [
+        "length",
+        "()I",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3946",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/ModuleManager"
+    ],
+    "methods": [
+      [
+        "method_23796",
+        "()V",
+        10
+      ],
+      [
+        "method_23798",
+        "(Lcom/cheatbreaker/client/event/type/TickEvent;)V",
+        31
+      ],
+      [
+        "method_23797",
+        "(FF)V",
+        92
+      ],
+      [
+        "<init>",
+        "()V",
+        20
+      ],
+      [
+        "method_23799",
+        "()V",
+        84
+      ]
+    ],
+    "strings": [
+      "Third",
+      "Reverse"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1095",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1440"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass1440;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1561",
+    "super": "java/io/InputStream",
+    "interfaces": [],
+    "users": [
+      "org/newsclub/net/unix/AFUNIXSocketImpl"
+    ],
+    "methods": [
+      [
+        "available",
+        "()I",
+        7
+      ],
+      [
+        "read",
+        "()I",
+        19
+      ],
+      [
+        "read",
+        "([BII)I",
+        51
+      ],
+      [
+        "<init>",
+        "(Lorg/newsclub/net/unix/AFUNIXSocketImpl;Lorg/newsclub/net/unix/AFUNIXSocketImpl$1;)V",
+        4
+      ],
+      [
+        "close",
+        "()V",
+        26
+      ],
+      [
+        "<init>",
+        "(Lorg/newsclub/net/unix/AFUNIXSocketImpl;)V",
+        9
+      ]
+    ],
+    "strings": [
+      "This InputStream has already been closed.",
+      " at "
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1899",
+    "super": "net/minecraft/client/gui/GuiMainMenu",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "drawScreen",
+        "(IIF)V",
+        335
+      ],
+      [
+        "<init>",
+        "()V",
+        45
+      ],
+      [
+        "mouseClicked",
+        "(III)V",
+        175
+      ]
+    ],
+    "strings": [
+      "Unable to connect to the server.",
+      "Please try again later.",
+      "You don't own any cosmetics.",
+      "Cosmetics (",
+      ")",
+      "client/icons/left.png",
+      "client/icons/right.png",
+      "gui.button.press"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4855",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/resourcepack/ResourcePackGui"
+    ],
+    "methods": [
+      [
+        "method_28978",
+        "()Z",
+        46
+      ],
+      [
+        "<init>",
+        "(Ljava/nio/file/Path;)V",
+        21
+      ],
+      [
+        "method_28979",
+        "(Lrecovered/unidentified/UnidentifiedClass4855;)Ljava/nio/file/WatchService;",
+        3
+      ]
+    ],
+    "strings": [
+      "Failed to create watch service"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0606",
+    "super": "recovered/unidentified/UnidentifiedClass0300",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_00244",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/client/model/ModelPlayer;F)V",
+        109
+      ],
+      [
+        "<init>",
+        "()V",
+        23
+      ],
+      [
+        "method_00243",
+        "(Lnet/minecraft/client/entity/AbstractClientPlayer;F)V",
+        1
+      ]
+    ],
+    "strings": [
+      "Hands Up"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4790",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/module/ModuleManager"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        13
+      ],
+      [
+        "method_28652",
+        "(Lrecovered/unidentified/UnidentifiedClass1944;)V",
+        84
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedEnum3979",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedEnum3979"
+    ],
+    "methods": [
+      [
+        "method_24002",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedEnum3979;",
+        5
+      ],
+      [
+        "values",
+        "()[Lrecovered/unidentified/UnidentifiedEnum3979;",
+        4
+      ],
+      [
+        "<clinit>",
+        "()V",
+        34
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;I)V",
+        5
+      ]
+    ],
+    "strings": [
+      "INFO",
+      "ERROR",
+      "NEUTRAL"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0433",
+    "super": "com/cheatbreaker/client/nethandler/Packet",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "read",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ],
+      [
+        "<init>",
+        "(Ljava/util/UUID;)V",
+        6
+      ],
+      [
+        "method_03211",
+        "()Ljava/util/UUID;",
+        3
+      ],
+      [
+        "process",
+        "(Lcom/cheatbreaker/client/nethandler/ICBNetHandler;)V",
+        5
+      ],
+      [
+        "write",
+        "(Lcom/cheatbreaker/client/nethandler/ByteBufWrapper;)V",
+        5
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1945",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0026",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/gui/GuiNewChat"
+    ],
+    "methods": [
+      [
+        "method_00228",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3436",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/util/dash/CBDashManager"
+    ],
+    "methods": [
+      [
+        "run",
+        "()V",
+        34
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4246",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3255",
+    "super": "net/minecraft/client/gui/GuiScreen",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/mainmenu/MainMenuBase"
+    ],
+    "methods": [
+      [
+        "method_20230",
+        "()V",
+        6
+      ],
+      [
+        "method_20231",
+        "(IIF)V",
+        209
+      ],
+      [
+        "updateScreen",
+        "()V",
+        32
+      ],
+      [
+        "initGui",
+        "()V",
+        75
+      ],
+      [
+        "drawScreen",
+        "(IIF)V",
+        299
+      ],
+      [
+        "<init>",
+        "()V",
+        6
+      ],
+      [
+        "keyTyped",
+        "(CI)V",
+        6
+      ],
+      [
+        "<clinit>",
+        "()V",
+        13
+      ]
+    ],
+    "strings": [
+      "texts/credits.txt",
+      "PLAYERNAME",
+      "\t",
+      "    ",
+      "",
+      "Couldn't load credits",
+      "[C]",
+      "textures/gui/title/minecraft.png",
+      "textures/misc/vignette.png"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3311",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        1
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4292",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;Ljava/lang/String;Ljunit/framework/Test;)V",
+        10
+      ],
+      [
+        "run",
+        "()V",
+        68
+      ]
+    ],
+    "strings": [
+      "Running...",
+      "Stopped",
+      "Finished: ",
+      " seconds",
+      "Run"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1472",
+    "super": "com/cheatbreaker/client/event/EventBus$Event",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_10232",
+        "()Z",
+        3
+      ],
+      [
+        "<init>",
+        "()V",
+        6
+      ],
+      [
+        "method_10233",
+        "(Z)V",
+        4
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0753",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "apply",
+        "(Ljava/lang/Object;)Ljava/lang/Object;",
+        5
+      ],
+      [
+        "apply",
+        "(Lnet/minecraft/item/ItemStack;)Ljava/lang/String;",
+        5
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4400",
+    "super": "recovered/unidentified/UnidentifiedClass4535",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0189"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(I)V",
+        27
+      ],
+      [
+        "method_26526",
+        "(Lrecovered/unidentified/UnidentifiedClass0127;)V",
+        1
+      ],
+      [
+        "b_",
+        "()Z",
+        2
+      ],
+      [
+        "method_26527",
+        "(Lrecovered/unidentified/UnidentifiedClass0300;)Lrecovered/unidentified/UnidentifiedClass0127;",
+        9
+      ],
+      [
+        "drawScreen",
+        "(IIF)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3482",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentRoomFitHelper"
+    ],
+    "users": [
+      "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding"
+    ],
+    "methods": [
+      [
+        "func_175969_a",
+        "(Lnet/minecraft/world/gen/structure/StructureOceanMonumentPieces$RoomDefinition;)Z",
+        17
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "<init>",
+        "(Lnet/minecraft/world/gen/structure/StructureOceanMonumentPieces$1;)V",
+        3
+      ],
+      [
+        "func_175968_a",
+        "(Lnet/minecraft/util/EnumFacing;Lnet/minecraft/world/gen/structure/StructureOceanMonumentPieces$RoomDefinition;Ljava/util/Random;)Lnet/minecraft/world/gen/structure/StructureOceanMonumentPieces$Piece;",
+        17
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3786",
+    "super": "java/awt/event/WindowAdapter",
+    "interfaces": [],
+    "users": [
+      "junit/swingui/TestSelector"
+    ],
+    "methods": [
+      [
+        "windowClosing",
+        "(Ljava/awt/event/WindowEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljunit/swingui/TestSelector;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4752",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_28478",
+        "(Lorg/json/JSONObject;)Ljava/util/Properties;",
+        34
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_28479",
+        "(Ljava/util/Properties;)Lorg/json/JSONObject;",
+        35
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4372",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "users": [
+      "junit/awtui/TestRunner"
+    ],
+    "methods": [
+      [
+        "actionPerformed",
+        "(Ljava/awt/event/ActionEvent;)V",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljunit/awtui/TestRunner;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3620",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_22169",
+        "(Ljava/lang/String;)V",
+        25
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3499",
+    "super": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$Feature",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/world/gen/structure/MapGenScatteredFeature$Start"
+    ],
+    "methods": [
+      [
+        "readStructureFromNBT",
+        "(Lnet/minecraft/nbt/NBTTagCompound;)V",
+        9
+      ],
+      [
+        "<init>",
+        "(Ljava/util/Random;II)V",
+        10
+      ],
+      [
+        "addComponentParts",
+        "(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/world/gen/structure/StructureBoundingBox;)Z",
+        472
+      ],
+      [
+        "writeStructureToNBT",
+        "(Lnet/minecraft/nbt/NBTTagCompound;)V",
+        9
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ]
+    ],
+    "strings": [
+      "Witch"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1858",
+    "super": "com/cheatbreaker/client/websocket/WSPacket",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/overlay/element/PrivateMessageElement"
+    ],
+    "methods": [
+      [
+        "method_12690",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "read",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        11
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "handle",
+        "(Lcom/cheatbreaker/client/websocket/AssetsWebSocket;)V",
+        4
+      ],
+      [
+        "method_12691",
+        "()Ljava/lang/String;",
+        3
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;)V",
+        9
+      ],
+      [
+        "write",
+        "(Lnet/minecraft/network/PacketBuffer;)V",
+        11
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4816",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        33
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1285",
+    "super": "net/minecraft/item/Item",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/item/Item"
+    ],
+    "methods": [
+      [
+        "onItemUse",
+        "(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/util/EnumFacing;FFF)Z",
+        62
+      ],
+      [
+        "<init>",
+        "()V",
+        7
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass1222",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_08278",
+        "(Ljava/lang/Class;Ljava/lang/Iterable;)[Ljava/lang/Object;",
+        25
+      ],
+      [
+        "method_08279",
+        "(Ljava/lang/Iterable;)Ljava/lang/Iterable;",
+        5
+      ],
+      [
+        "method_08277",
+        "(Ljava/lang/Class;I)[Ljava/lang/Object;",
+        4
+      ],
+      [
+        "method_08280",
+        "(Ljava/lang/Class;I)[Ljava/lang/Object;",
+        8
+      ],
+      [
+        "method_08281",
+        "(Ljava/lang/Class;Ljava/lang/Iterable;)Ljava/lang/Iterable;",
+        11
+      ],
+      [
+        "method_08282",
+        "(Ljava/lang/Iterable;)Ljava/lang/Iterable;",
+        7
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedEnum4287",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedEnum4287"
+    ],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        34
+      ],
+      [
+        "values",
+        "()[Lrecovered/unidentified/UnidentifiedEnum4287;",
+        4
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/String;I)V",
+        5
+      ],
+      [
+        "method_25990",
+        "(Ljava/lang/String;)Lrecovered/unidentified/UnidentifiedEnum4287;",
+        5
+      ]
+    ],
+    "strings": [
+      "MOVE_UP",
+      "MOVE_DOWN",
+      "MOVE_BACK"
+    ]
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4213",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "run",
+        "()V",
+        6
+      ],
+      [
+        "<init>",
+        "(Ljunit/swingui/TestRunner;Ljava/lang/String;)V",
+        9
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedInterface1631",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "method_11098",
+        "()Ljava/lang/String;",
+        0
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4185",
+    "super": "net/minecraft/client/renderer/entity/Render",
+    "interfaces": [],
+    "users": [
+      "net/minecraft/client/renderer/entity/RenderManager"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Lnet/minecraft/client/renderer/entity/RenderManager;)V",
+        4
+      ],
+      [
+        "doRender",
+        "(Lnet/minecraft/entity/Entity;DDDFF)V",
+        10
+      ],
+      [
+        "getEntityTexture",
+        "(Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;",
+        5
+      ],
+      [
+        "getEntityTexture",
+        "(Lnet/minecraft/entity/effect/EntityLightningBolt;)Lnet/minecraft/util/ResourceLocation;",
+        2
+      ],
+      [
+        "doRender",
+        "(Lnet/minecraft/entity/effect/EntityLightningBolt;DDDFF)V",
+        334
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4330",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Iterable"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1222"
+    ],
+    "methods": [
+      [
+        "<init>",
+        "(Ljava/lang/Class;[Ljava/lang/Iterable;Lnet/minecraft/util/Cartesian_1;)V",
+        5
+      ],
+      [
+        "<init>",
+        "(Ljava/lang/Class;[Ljava/lang/Iterable;)V",
+        9
+      ],
+      [
+        "iterator",
+        "()Ljava/util/Iterator;",
+        20
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass5059",
+    "super": "java/nio/file/SimpleFileVisitor",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4855"
+    ],
+    "methods": [
+      [
+        "preVisitDirectory",
+        "(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;",
+        35
+      ],
+      [
+        "<init>",
+        "(Lrecovered/unidentified/UnidentifiedClass4855;)V",
+        6
+      ],
+      [
+        "preVisitDirectory",
+        "(Ljava/lang/Object;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3386",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass3386"
+    ],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        5
+      ],
+      [
+        "<init>",
+        "()V",
+        3
+      ],
+      [
+        "method_21047",
+        "()Lnet/minecraft/util/Vec3;",
+        27
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0609",
+    "super": "junit/swingui/ProgressBar",
+    "interfaces": [],
+    "users": [
+      "junit/swingui/TestRunner"
+    ],
+    "methods": [
+      [
+        "method_04438",
+        "()V",
+        6
+      ],
+      [
+        "<init>",
+        "(Ljavax/swing/JTextField;)V",
+        6
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass3368",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        26
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass4985",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "users": [],
+    "methods": [
+      [
+        "<clinit>",
+        "()V",
+        19
+      ]
+    ],
+    "strings": []
+  },
+  {
+    "name": "recovered/unidentified/UnidentifiedClass0517",
+    "super": "recovered/unidentified/UnidentifiedClass0696",
+    "interfaces": [],
+    "users": [
+      "com/cheatbreaker/client/ui/resourcepack/ResourcePackGui"
+    ],
+    "methods": [
+      [
+        "method_03758",
+        "(Lrecovered/unidentified/UnidentifiedClass4443;I)V",
+        167
+      ],
+      [
+        "method_00746",
+        "()I",
+        15
+      ],
+      [
+        "<clinit>",
+        "()V",
+        6
+      ],
+      [
+        "method_00748",
+        "(IIIIIIZ)V",
+        82
+      ],
+      [
+        "method_03757",
+        "(Lnet/minecraft/client/resources/ResourcePackRepository$Entry;)V",
+        11
+      ],
+      [
+        "method_03759",
+        "(Lrecovered/unidentified/UnidentifiedClass4443;Z)V",
+        31
+      ],
+      [
+        "<init>",
+        "(Lcom/cheatbreaker/client/ui/resourcepack/ResourcePackGui;IIIIILjava/util/List;Ljava/util/List;Z)V",
+        20
+      ],
+      [
+        "method_00749",
+        "(IZ)V",
+        60
+      ]
+    ],
+    "strings": [
+      " Subfolder",
+      " Subfolders",
+      " Pack",
+      " Packs",
+      "client/icons/folder.png",
+      "Back to Main Folder",
+      "resourcePack.available.title"
+    ]
+  }
+]

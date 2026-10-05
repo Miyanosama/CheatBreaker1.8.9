@@ -1,0 +1,40 @@
+package com.cheatbreaker.client.ui.util;
+
+public class GuiThemeColors {
+   public static int recoveredField1678 = -723724;
+   public static int recoveredField1650 = -1611336460;
+   public static int recoveredField1673 = -854025;
+   public static int recoveredField1647 = -657931;
+   public static int recoveredField1660 = -13916106;
+   public static int recoveredField1658 = -5756117;
+   public static int recoveredField1680 = -1347374928;
+   public static int recoveredField1668 = -2040098;
+   public static int recoveredField1662 = 1862270976;
+   public static int recoveredField1654 = -1895825408;
+   public static int recoveredField1663 = -1090519040;
+   public static int recoveredField1659 = -1358954496;
+   public static int recoveredField1677 = -822083584;
+   public static int recoveredField1651 = 2130706432;
+   public static int recoveredField1674 = 791621423;
+   public static int recoveredField1670 = -818991313;
+   public static int recoveredField1681 = 523185967;
+   public static int recoveredField1661 = 1865363247;
+   public static int recoveredField1648 = -15461356;
+   public static int recoveredField1649 = -1810623468;
+   public static int recoveredField1656 = -15591657;
+   public static int recoveredField1664 = -15395563;
+   public static int recoveredField1666 = -14382035;
+   public static int recoveredField1653 = -7592924;
+   public static int recoveredField1646 = -1353888435;
+   public static int recoveredField1672 = -14671840;
+   public static int recoveredField1676 = -1879048193;
+   public static int recoveredField1679 = -1342177281;
+   public static int recoveredField1665 = -536870913;
+   public static int recoveredField1669 = -805306369;
+   public static int recoveredField1655 = -268435457;
+   public static int recoveredField1675 = -1610612737;
+   public static int recoveredField1652 = 1340071903;
+   public static int recoveredField1667 = -270540833;
+   public static int recoveredField1657 = 1071636447;
+   public static int recoveredField1671 = -1881153569;
+}

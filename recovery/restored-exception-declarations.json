@@ -1,0 +1,72 @@
+[
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/LineConsumer.java",
+    "method": "method_09732",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  },
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/LineConsumer.java",
+    "method": "method_27155",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  },
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/LineConsumer.java",
+    "method": "method_09731",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  },
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/WordWrap$1.java",
+    "method": "method_09731",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  },
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/WordWrap$1.java",
+    "method": "method_27155",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  },
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/WordWrap$1.java",
+    "method": "method_09732",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  },
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/WordWrap$Builder$1.java",
+    "method": "method_09732",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  },
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/WordWrap$Builder$1.java",
+    "method": "method_09731",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  },
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/WordWrap.java",
+    "method": "method_05915",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  },
+  {
+    "source": "src/main/java/org/davidmoten/text/utils/WordWrap.java",
+    "method": "method_05916",
+    "exceptions": [
+      "java.io.IOException"
+    ]
+  }
+]

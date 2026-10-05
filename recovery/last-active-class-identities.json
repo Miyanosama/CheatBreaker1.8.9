@@ -1,0 +1,22 @@
+{
+  "aliases": {
+    "recovered/unidentified/UnidentifiedClass1750": "junit/swingui/TestRunner$14",
+    "recovered/unidentified/UnidentifiedClass4213": "junit/swingui/TestRunner$15",
+    "recovered/unidentified/UnidentifiedClass4657": "org/slf4j/event/EventConstants",
+    "recovered/unidentified/UnidentifiedClass1899": "com/cheatbreaker/client/ui/mainmenu/LegacyCosmeticsMenu",
+    "recovered/unidentified/UnidentifiedClass3255": "com/cheatbreaker/client/ui/mainmenu/CreditsGui",
+    "recovered/unidentified/UnidentifiedClass3516": "com/cheatbreaker/client/util/auth/AltLoginThread",
+    "recovered/unidentified/UnidentifiedClass4220": "com/cheatbreaker/client/util/screenshot/FileListTransferable",
+    "recovered/unidentified/UnidentifiedClass3398": "com/cheatbreaker/client/event/type/EmoteMouseInputEvent"
+  },
+  "evidence": {
+    "1750": "JUnit access$700/showInfo trampoline identifies TestRunner$14",
+    "4213": "JUnit access$800/showStatus trampoline identifies TestRunner$15",
+    "4657": "All six unique ConstantValue entries exactly match SLF4J EventConstants",
+    "1899": "GuiMainMenu cosmetic pagination selector; distinct from MainMenuBase CosmeticsMenu",
+    "3255": "Reads vanilla credits.txt and draws credit-scrolling screen",
+    "3516": "Thread named Alt Login Thread and Yggdrasil session authentication",
+    "4220": "Screenshot clipboard Transferable exposes javaFileListFlavor",
+    "3398": "Event consumed only by EmoteManager: button index 0 and pressed flag cancel local emote; producer not present"
+  }
+}

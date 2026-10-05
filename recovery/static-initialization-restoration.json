@@ -1,0 +1,810 @@
+[
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0201",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0313",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0943",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1036",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1092",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1096",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1104",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1132",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1135",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1443",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1908",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3279",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3368",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3460",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3858",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3988",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4343",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4502",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4506",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4541",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4617",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4723",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4776",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4816",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4985",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass5030",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "org/json/XMLTokener",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "org/apache/log4j/nt/NTEventLogAppender",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "org/apache/log4j/lf5/viewer/LogTableColumn",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/optifine/util/EntityUtils",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/optifine/util/IteratorCache",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/optifine/util/MathUtils",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockDirt$DirtType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStone$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStoneBrick$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStoneSlab$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockTallGrass$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockWall$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/command/CommandReplaceItem",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/DataWatcher",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/EntityList",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/EntitySpawnPlacementRegistry",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/item/EnumDyeColor",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/network/EnumConnectionState",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/potion/PotionHelper",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/realms/RealmsDefaultVertexFormat",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/tileentity/TileEntity",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/util/EnumFacing$Axis",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/util/IntegerCache",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/world/EnumDifficulty",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/MapGenStructureIO",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonument",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/item/EntityMinecart$EnumMinecartType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/monster/EntityEnderman",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/passive/EntitySheep",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/player/EntityPlayer$EnumChatVisibility",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/audio/SoundCategory",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiFlatPresets",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiScreenCustomizePresets",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/BlockModelRenderer$VertexTranslations",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/GlStateManager",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/resources/model/ModelBakery",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/chunk/VisGraph",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/entity/RendererLivingEntity",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/vertex/DefaultVertexFormats",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/channel/AbstractChannel",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/channel/DefaultChannelPipeline",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/channel/MultithreadEventLoopGroup",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/util/concurrent/DefaultPromise",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/util/internal/JavassistTypeParameterMatcherGenerator",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/util/internal/PlatformDependent",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/ReplayingDecoderBuffer",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/logging/LoggingHandler",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/ssl/OpenSslEngine",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/ssl/SslHandler",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/compression/ZlibCodecFactory",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/HttpMethod",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/rtsp/RtspMethods",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/spdy/SpdySessionHandler",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/HttpPostRequestEncoder",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "com/jagrosh/discordipc/IPCClient$1",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "com/cheatbreaker/client/nethandler/Packet",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "com/cheatbreaker/client/websocket/WSPacket",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0201",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0313",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0943",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1036",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1092",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1096",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1104",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1132",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1135",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1443",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1908",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3279",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3368",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3460",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3858",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3988",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4343",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4502",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4506",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4541",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4617",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4723",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4776",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4816",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4985",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass5030",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "org/json/XMLTokener",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "org/apache/log4j/helpers/Loader",
+    "before": [
+      "TSTR",
+      "java1",
+      "<static:java1,ignoreTCL>",
+      "ignoreTCL"
+    ],
+    "after": [
+      "TSTR",
+      "java1",
+      "ignoreTCL",
+      "<static:java1,ignoreTCL>"
+    ]
+  },
+  {
+    "class": "org/apache/log4j/helpers/LogLog",
+    "before": [
+      "recoveredField734",
+      "recoveredField735",
+      "recoveredField736",
+      "recoveredField737",
+      "recoveredField738",
+      "debugEnabled",
+      "<static:debugEnabled>",
+      "quietMode"
+    ],
+    "after": [
+      "recoveredField734",
+      "recoveredField735",
+      "recoveredField736",
+      "recoveredField737",
+      "recoveredField738",
+      "debugEnabled",
+      "quietMode",
+      "<static:debugEnabled>"
+    ]
+  },
+  {
+    "class": "org/apache/log4j/nt/NTEventLogAppender",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "org/apache/log4j/lf5/viewer/LogTableColumn",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/optifine/util/EntityUtils",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/optifine/util/IteratorCache",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/optifine/util/MathUtils",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockDirt$DirtType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStone$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStoneBrick$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStoneSlab$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockTallGrass$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/block/BlockWall$EnumType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/command/CommandReplaceItem",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/DataWatcher",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/EntityList",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/EntitySpawnPlacementRegistry",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/item/EnumDyeColor",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/network/EnumConnectionState",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/potion/PotionHelper",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/realms/RealmsDefaultVertexFormat",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/scoreboard/IScoreObjectiveCriteria",
+    "before": [
+      "totalKillCount",
+      "playerKillCount",
+      "deathCount",
+      "field_178793_i",
+      "DUMMY",
+      "health",
+      "INSTANCES",
+      "TRIGGER",
+      "field_178792_h"
+    ],
+    "after": [
+      "INSTANCES",
+      "DUMMY",
+      "TRIGGER",
+      "deathCount",
+      "playerKillCount",
+      "totalKillCount",
+      "health",
+      "field_178792_h",
+      "field_178793_i"
+    ]
+  },
+  {
+    "class": "net/minecraft/tileentity/TileEntity",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/util/EnumFacing$Axis",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/util/IntegerCache",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/world/EnumDifficulty",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/MapGenStructureIO",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonument",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/item/EntityMinecart$EnumMinecartType",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/monster/EntityEnderman",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/monster/IMob",
+    "before": [
+      "a_",
+      "b_"
+    ],
+    "after": [
+      "b_",
+      "a_"
+    ]
+  },
+  {
+    "class": "net/minecraft/entity/passive/EntitySheep",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/entity/player/EntityPlayer$EnumChatVisibility",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/audio/SoundCategory",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiFlatPresets",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiScreenCustomizePresets",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/BlockModelRenderer$VertexTranslations",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/GlStateManager",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/resources/model/ModelBakery",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/chunk/VisGraph",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/entity/RendererLivingEntity",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/vertex/DefaultVertexFormats",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "junit/runner/BaseTestRunner",
+    "before": [
+      "recoveredField739",
+      "fgMaxMessageLength",
+      "<static:fgMaxMessageLength>",
+      "fgFilterStack"
+    ],
+    "after": [
+      "recoveredField739",
+      "fgMaxMessageLength",
+      "fgFilterStack",
+      "<static:fgMaxMessageLength>"
+    ]
+  },
+  {
+    "class": "io/netty/buffer/ByteBufProcessor",
+    "before": [
+      "FIND_NON_LF",
+      "FIND_NON_CR",
+      "FIND_LF",
+      "FIND_CRLF",
+      "FIND_NON_CRLF",
+      "FIND_NON_LINEAR_WHITESPACE",
+      "FIND_NUL",
+      "FIND_CR",
+      "FIND_NON_NUL",
+      "FIND_LINEAR_WHITESPACE"
+    ],
+    "after": [
+      "FIND_NUL",
+      "FIND_NON_NUL",
+      "FIND_CR",
+      "FIND_NON_CR",
+      "FIND_LF",
+      "FIND_NON_LF",
+      "FIND_CRLF",
+      "FIND_NON_CRLF",
+      "FIND_LINEAR_WHITESPACE",
+      "FIND_NON_LINEAR_WHITESPACE"
+    ]
+  },
+  {
+    "class": "io/netty/channel/AbstractChannel",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/channel/ChannelFutureListener",
+    "before": [
+      "CLOSE_ON_FAILURE",
+      "FIRE_EXCEPTION_ON_FAILURE",
+      "CLOSE"
+    ],
+    "after": [
+      "CLOSE",
+      "CLOSE_ON_FAILURE",
+      "FIRE_EXCEPTION_ON_FAILURE"
+    ]
+  },
+  {
+    "class": "io/netty/channel/DefaultChannelPipeline",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/channel/MultithreadEventLoopGroup",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/util/concurrent/DefaultPromise",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/util/internal/JavassistTypeParameterMatcherGenerator",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/util/internal/PlatformDependent",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/util/internal/SystemPropertyUtil",
+    "before": [
+      "initializedLogger",
+      "<static:initializedLogger>",
+      "logger",
+      "INTEGER_PATTERN"
+    ],
+    "after": [
+      "initializedLogger",
+      "logger",
+      "<static:initializedLogger>",
+      "INTEGER_PATTERN"
+    ]
+  },
+  {
+    "class": "io/netty/handler/codec/ReplayingDecoderBuffer",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/logging/LoggingHandler",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/ssl/OpenSslEngine",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/ssl/SslHandler",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/compression/ZlibCodecFactory",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/HttpMethod",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/rtsp/RtspMethods",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/spdy/SpdySessionHandler",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/HttpPostRequestEncoder",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "com/jagrosh/discordipc/IPCClient$1",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "com/cheatbreaker/client/nethandler/Packet",
+    "unplaced_static_block": true
+  },
+  {
+    "class": "com/cheatbreaker/client/websocket/WSPacket",
+    "unplaced_static_block": true
+  }
+]

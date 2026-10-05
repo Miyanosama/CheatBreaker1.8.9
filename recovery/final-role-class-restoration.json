@@ -1,0 +1,889 @@
+[
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0913$EnumSwitch",
+    "target": "com/cheatbreaker/client/ui/overlay/element/RadioVolumeSlider$EnumSwitch",
+    "kind": "reviewed semantic role",
+    "evidence": "Setting.Type switch table, sole code consumer is radio volume slider"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0189",
+    "target": "com/cheatbreaker/client/emote/EmoteManager",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "Minecraft.getMinecraft"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0127",
+    "target": "com/cheatbreaker/client/ui/selection/SelectionOption",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4535",
+    "target": "com/cheatbreaker/client/ui/selection/SelectionGui",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "GL11.glColor4f",
+        "GL11.glPopMatrix",
+        "GL11.glPushMatrix",
+        "Keyboard.isKeyDown",
+        "Mouse.getX",
+        "Mouse.getY",
+        "Preconditions.checkArgument",
+        "Preconditions.checkNotNull",
+        "RenderUtil.method_22055"
+      ],
+      "strings": [
+        "minecraft:",
+        "options",
+        "cannot have more than 8 options"
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4400",
+    "target": "com/cheatbreaker/client/ui/selection/EmoteSelectionGui",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "Collectors.toList"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4818",
+    "target": "com/cheatbreaker/client/ui/selection/SelectionOptionElement",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "GL11.glColor4d",
+        "GL11.glPopMatrix",
+        "GL11.glPushMatrix",
+        "Math.atan2",
+        "Math.cos",
+        "Math.sin",
+        "Math.sqrt",
+        "Math.toDegrees",
+        "Math.toRadians",
+        "RenderUtil.drawIcon",
+        "RenderUtil.method_22053"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0313",
+    "target": "com/cheatbreaker/client/util/math/ScalarMath",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Math.round",
+        "Math.sin",
+        "Math.toRadians",
+        "MathHelper.clamp_float"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0334",
+    "target": "com/cheatbreaker/client/websocket/AssetsReconnectThread",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "Thread.sleep"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0347",
+    "target": "com/cheatbreaker/client/ui/module/ModuleGroupPositionSnapshot",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3223",
+    "target": "com/cheatbreaker/client/ui/module/ModuleResizeSnapshot",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0546",
+    "target": "com/cheatbreaker/client/ui/mainmenu/FadingTextElement",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "WordWrap.method_05899"
+      ],
+      "strings": [
+        "\\n"
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0611",
+    "target": "com/cheatbreaker/client/ui/module/ModuleGuiNavigator",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "Minecraft.getMinecraft"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0491",
+    "target": "com/cheatbreaker/client/util/voicechat/CaptureDevice",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0717",
+    "target": "com/cheatbreaker/client/ui/mainmenu/LogoVanillaMainMenu",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "GL11.glColor4f",
+        "GL11.glPopMatrix",
+        "GL11.glPushMatrix",
+        "GL11.glRotatef",
+        "GL11.glScalef",
+        "GL11.glTranslatef",
+        "Gui.drawRect",
+        "MainMenuBase.method_11936",
+        "Math.sin",
+        "Minecraft.getMinecraft",
+        "RenderUtil.drawIcon"
+      ],
+      "strings": [
+        "client/logo_outer.png",
+        "client/logo_inner.png"
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0913",
+    "target": "com/cheatbreaker/client/ui/overlay/element/RadioVolumeSlider",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Double.parseDouble",
+        "Gui.drawRect",
+        "Integer.parseInt",
+        "Mouse.isButtonDown"
+      ],
+      "strings": [
+        "",
+        ""
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1308",
+    "target": "com/cheatbreaker/client/ui/mainmenu/AccountEntry",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1316",
+    "target": "com/cheatbreaker/client/util/input/ToggleSprintMovementInput",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "Minecraft.getMinecraft",
+        "System.currentTimeMillis"
+      ],
+      "strings": [
+        "",
+        "",
+        "#.00",
+        "%BOOST%"
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1394",
+    "target": "com/cheatbreaker/client/ui/element/type/HoverBackgroundElement",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Gui.drawRect"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1464",
+    "target": "com/cheatbreaker/client/util/IntegritySyncTask",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "SECONDS.toMillis",
+        "Stopwatch.createStarted",
+        "Thread.sleep"
+      ],
+      "strings": [
+        "Lo6a$DMR",
+        "aAO20DQ6iIlP",
+        "yh9bV53gfZv4tBa49MF2G",
+        "u2CXyEg4Fy32"
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1605",
+    "target": "com/cheatbreaker/client/command/CommandMetadata",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1951",
+    "target": "com/cheatbreaker/client/command/ModuleCommandManager",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "Minecraft.getMinecraft"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3177",
+    "target": "com/cheatbreaker/client/util/dash/StationDataQueueThread",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3436",
+    "target": "com/cheatbreaker/client/util/dash/StationRefreshThread",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "Duration.between",
+        "LocalDateTime.now",
+        "Thread.sleep"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3248",
+    "target": "com/cheatbreaker/client/util/render/EyeHeightAnimationController",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "Minecraft.getMinecraft"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3379",
+    "target": "com/cheatbreaker/client/util/render/PerspectiveController",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "Minecraft.getMinecraft"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3386",
+    "target": "com/cheatbreaker/client/util/render/FishingRodHandOffset",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Minecraft.getMinecraft"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4078",
+    "target": "com/cheatbreaker/client/network/CBInboundChannel",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": [
+        "cf2O02b1QJSZOcVHphHucA"
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4376",
+    "target": "com/cheatbreaker/client/ui/mainmenu/TextMenuButton",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "GL11.glColor4f",
+        "Gui.a"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4377",
+    "target": "com/cheatbreaker/client/util/player/PlayerNametagStyle",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4492",
+    "target": "com/cheatbreaker/client/util/cosmetic/CosmeticsManager",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Minecraft.getMinecraft"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4579",
+    "target": "com/cheatbreaker/client/util/discord/DiscordReadyListener",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "CheatBreaker.method_19781",
+        "Minecraft.getMinecraft"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4596",
+    "target": "com/cheatbreaker/client/ui/element/SettingTextEditGui",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "GL11.glPopMatrix",
+        "GL11.glPushMatrix",
+        "GL11.glScalef",
+        "Keyboard.enableRepeatEvents"
+      ],
+      "strings": [
+        "info",
+        "Updated custom string value successfully."
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4690",
+    "target": "com/cheatbreaker/client/util/chat/ClientChatLine",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4855",
+    "target": "com/cheatbreaker/client/ui/resourcepack/RecursiveDirectoryWatcher",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "FileSystems.getDefault",
+        "Files.walkFileTree",
+        "ResourcePackFolderScanner.method_26228",
+        "ResourcePackFolderScanner.method_26232"
+      ],
+      "strings": [
+        "Failed to create watch service"
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass5059",
+    "target": "com/cheatbreaker/client/ui/resourcepack/DirectoryRegistrationVisitor",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "ResourcePackFolderScanner.method_26228",
+        "ResourcePackFolderScanner.method_26232",
+        "UnidentifiedClass4855.method_28979"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass5012",
+    "target": "com/cheatbreaker/client/ui/mainmenu/IconMenuButton",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CheatBreaker.getInstance",
+        "GL11.glColor4f",
+        "Gui.a",
+        "RenderUtil.drawIcon"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0366",
+    "target": "net/optifine/reflect/FieldLocatorActionKeyF3",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Arrays.asList",
+        "Minecraft.getMinecraft",
+        "ReflectorRaw.getFieldAfter",
+        "ReflectorRaw.getFields"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0429",
+    "target": "net/minecraft/util/Timer",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "MathHelper.clamp_double",
+        "Minecraft.getSystemTime",
+        "System.nanoTime"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1222",
+    "target": "net/minecraft/util/Cartesian",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Array.newInstance",
+        "Iterables.transform",
+        "Lists.newArrayList"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3843",
+    "target": "net/minecraft/entity/ai/EntityAIOcelotAttack",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Math.max"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0173",
+    "target": "net/minecraft/item/ItemBoat",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Item.getIdFromItem",
+        "MathHelper.cos",
+        "MathHelper.floor_double",
+        "MathHelper.sin"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3199",
+    "target": "net/optifine/util/DisplayModeComparator",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass5108",
+    "target": "net/optifine/Lagometer$TimerNano",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "System.nanoTime"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3867",
+    "target": "net/optifine/shaders/ShadowUtils",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Arrays.asList",
+        "MathHelper.ceiling_float_int",
+        "MathHelper.cos",
+        "MathHelper.floor_double",
+        "MathHelper.sin",
+        "Shaders.getShadowRenderDistance"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1534",
+    "target": "net/optifine/shaders/config/ShaderOptionRest",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1784",
+    "target": "net/optifine/expr/TestExpressions",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": [
+        "",
+        ""
+      ]
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4511",
+    "target": "net/minecraft/world/biome/BiomeGenForest$1",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1810",
+    "target": "net/minecraft/world/gen/layer/GenLayer$1",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "String.valueOf"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0921",
+    "target": "net/minecraft/world/gen/layer/GenLayer$2",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "String.valueOf"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1852",
+    "target": "net/minecraft/server/management/PlayerProfileCache$1",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0999",
+    "target": "net/optifine/CustomColors$2",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CustomColors.getColorBiome"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1818",
+    "target": "net/optifine/CustomColors$1",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CustomColors.getColorBiome"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3854",
+    "target": "net/optifine/CustomColors$4",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "ColorizerFoliage.getFoliageColorBirch"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4788",
+    "target": "net/optifine/CustomColors$3",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "ColorizerFoliage.getFoliageColorPine"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1290",
+    "target": "net/optifine/CustomColors$5",
+    "kind": "same-version reference role and implementation",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "CustomColors.getColorBiome",
+        "CustomColors.method_29853",
+        "ForgeBiome_getWaterColorMultiplier.exists",
+        "Reflector.callInt"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0753",
+    "target": "net/minecraft/item/SaplingItemNameFunction",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "EnumType.byMetadata"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4363",
+    "target": "net/minecraft/item/LogItemNameFunction",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "EnumType.byMetadata"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4999",
+    "target": "net/minecraft/item/PlanksItemNameFunction",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "EnumType.byMetadata"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0097",
+    "target": "net/minecraft/item/DoublePlantItem",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "ColorizerGrass.getGrassColor",
+        "EnumPlantType.byMetadata"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0373",
+    "target": "net/minecraft/block/NetherBrickMapColorBlock",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3897",
+    "target": "net/minecraft/block/NetherrackMapColorBlock",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0682",
+    "target": "net/minecraft/block/HardenedClayMapColorBlock",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3777",
+    "target": "net/minecraft/client/network/ServerResourcePackDownloadCallback",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4880",
+    "target": "net/minecraft/client/network/LocalResourcePackLoadCallback",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3330",
+    "target": "net/minecraft/client/StreamingConfirmCallback",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3676",
+    "target": "net/optifine/CustomItemPropertiesComparator",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Config.equals"
+      ],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3568",
+    "target": "org/json/UnicodeCodePoints",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [],
+      "strings": []
+    }
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass5074",
+    "target": "org/json/UnicodeCodePointIterator",
+    "kind": "reviewed semantic role",
+    "evidence": {
+      "review": "Class implementation and real caller context inspected; literal/superclass/call signatures retained",
+      "external_calls": [
+        "Character.charCount"
+      ],
+      "strings": []
+    }
+  }
+]

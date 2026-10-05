@@ -1,0 +1,4318 @@
+[
+  {
+    "original": "IIIlllIIlllIllllllllIllII",
+    "super": "llllllllIIIIIIIIIIllllllI",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlIIIIIllIlllIIllllIlIlll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "lllllllIIlIIllIIlllIIIlII"
+    ],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IIlIIllIlllIllIIllllIlIII",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIlIIlIlllIIIllIlllIllllI",
+    "super": "IlIIlllIIIllIIIlIllIlIlll",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIlIIIllllllllIIIIlIlIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/Comparator"
+    ],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lIIllllIIlIllIIlIIllllllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIlIlIlIlllIlIlIIIIIIIIIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/util/concurrent/FutureCallback"
+    ],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIIIIIIIlIIIIlIIllllIIIII",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "lIIllllIlIIIllIIllllIlllI",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IIIlIllllIllllIllIIlIIlII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "IlIlIlIIIIIIlIIIIIIlllIlI"
+    ],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IIIIIIIIIIIllIlIlIIIlIlll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "lIllIIlIIlIIIllIllIIIlIll",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "lllIlIIIllllIllllllllIlll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 14,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "llIlIIlllllllIIlllllllllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 8,
+    "fields": 8,
+    "strings": [
+      "Back to ",
+      "Main Folder"
+    ]
+  },
+  {
+    "original": "IIIIlIlllIlllIlllIIlIIllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "IlIIIIIIIIIlllIIIlIllIllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 5,
+    "strings": [
+      "null"
+    ]
+  },
+  {
+    "original": "IlIIllIlIIIIlllIlIIllIlll",
+    "super": "java/awt/event/WindowAdapter",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "llIIIllIIIlIIIIIIIlIlllll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/io/FilenameFilter"
+    ],
+    "methods": 2,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "IlIlIllIlIlllIlIIlIlIlllI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "llIIIIlIlIlIllIIIllIIIIII",
+    "super": "IIIlIIlIlIIlllllIlIllIllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 7,
+    "strings": [
+      "Dab"
+    ]
+  },
+  {
+    "original": "llIlllIIIIlIlIlllIllIllIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/jagrosh/discordipc/IPCListener"
+    ],
+    "methods": 2,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "IIlIlIIIIlIIIlIIIIIIllIII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IIlIllIIlIIllIIlIIIIlIlII",
+    "super": "IlIlIllllIllIIIIIIIllIlll",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lIllllIIlIIllIlIIIllIIlll",
+    "super": "lIIlIlIlIlllIllIllIlIIlll",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 2,
+    "strings": [
+      "noclip"
+    ]
+  },
+  {
+    "original": "IlIIlllllIllIIlIIlIllIIIl",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 7,
+    "strings": [
+      "LEFT_TO_BACK",
+      "LEFT_TO_RIGHT",
+      "RIGHT_TO_BACK",
+      "RIGHT_TO_LEFT"
+    ]
+  },
+  {
+    "original": "IlllIlllIlIllllIIlIllIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ],
+    "methods": 3,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IlllIlIlIlIIllllIIIIIIllI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/TextListener"
+    ],
+    "methods": 2,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "llIllllIIlllllllIlIIIlIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "llllllIIlIIlIIlIIlIIIllIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/Iterator"
+    ],
+    "methods": 5,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "IllIllIllllIllIllIlIlIIIl",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "llIIlIllIIlllIllIlIlllIll",
+    "super": "lllIlllllIIlIIIlIlIlIllIl",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IIlIIIlllIIIlIlIlIIlIllIl",
+    "super": "lIIllIIIlIlIIIIIIlIIlIIll",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "llIIIIlIIIIlIIIIIllIlIIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 0,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IlIIlIlllIlIIIIIlIIIllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "llIllllllllllIllIlIIIllII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ],
+    "methods": 3,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "IIllIIllllllIlIIIIIIlllII",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 5,
+    "strings": [
+      "minecraft:"
+    ]
+  },
+  {
+    "original": "IIIIIllIlIIllIIIIlIllllII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IllllllllIIIIlIIlIIIIlIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "llllIIIlllIllllIIIllIIlII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 11,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "IlIIlIIIlIIIlIIllIIlIIlII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IllllllIIllllIlIIIlIIIlll",
+    "super": "IIIIIlIllllIIIIIIlIllIIIl",
+    "interfaces": [],
+    "methods": 15,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "IlllIllIIIlIlllllllIllIll",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IllIlIlIIIIIlIllIIIllIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIIIIllIlllIIIllIIlIlIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IIIIIlIlIIlllllllIlllllIl",
+    "super": "lIlIIllIlIIIllIllIllIIlII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "IIlIIlllIllIlllllllIIllIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "IlllIllIIllIlllIIIIlIlIIl",
+    "super": "IIIlIIlIlIIlllllIlIllIllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 7,
+    "strings": [
+      "Facepalm"
+    ]
+  },
+  {
+    "original": "IlIIlIllIllIIIllIllllllII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IlllIIllllllIlllllIlIllII",
+    "super": "IIIIIlIllllIIIIIIlIllIIIl",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IlllIllllIIllIlIlIlllllII",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlllIIIIIIIIlIIllIllIIlIl",
+    "super": "IIIlIIlIlIIlllllIlIllIllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 5,
+    "strings": [
+      "Naruto Run"
+    ]
+  },
+  {
+    "original": "llllIIlIIlllllIllllIllIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 2,
+    "strings": [
+      "3.8.2"
+    ]
+  },
+  {
+    "original": "IIIllIIIIllIllIIIIIllIlIl",
+    "super": "IlIlIllllIllIIIIIIIllIlll",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IllIIIllllIlllIlIIIlllllI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "methods": 3,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IIlIllIllIIIIIIlIllIIIIII",
+    "super": "IIIIIlIIllIlIIlIIIIIlIIIl",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "IllllIllIlIIlIlIllIIllIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 6,
+    "strings": [
+      "2f6f44cf-19a2-442a-944b-ede88be55651",
+      "5604-2.0++-2/28/2020",
+      "88051637-26cb-49a4-8f42-04e06264de79",
+      "CheatBreaker LLC for the original client.",
+      "Credits: ",
+      "Tellinq and Moose1301 for managing this version.",
+      "bape ship#5604"
+    ]
+  },
+  {
+    "original": "llllllllllllIIlIlIlIlIIII",
+    "super": "java/awt/event/WindowAdapter",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIlllIllIIIlIlIlIIlIlIllI",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 8,
+    "strings": [
+      "BOTTOM",
+      "LEFT",
+      "RIGHT",
+      "TOP"
+    ]
+  },
+  {
+    "original": "IIlIIIIllllIllIlllIlIlIlI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "lIIlIIlIIIllllIlIlllIIIII",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIIlIIllllIIIllllIIIlIlll",
+    "super": "javax/swing/JDialog",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 2,
+    "strings": [
+      " by Kent Beck and Erich Gamma",
+      "About",
+      "Close",
+      "JUnit",
+      "JUnit ",
+      "dialog",
+      "junit.runner.BaseTestRunner",
+      "logo.gif"
+    ]
+  },
+  {
+    "original": "IlIIllIIllIIllIlllIIllIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "llllIIIllIIIIllIIIIllllIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 3,
+    "strings": [
+      "auto text",
+      "freelook",
+      "hypixel"
+    ]
+  },
+  {
+    "original": "IllIlIIIlllIIIIIlIlIlllIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IIIlIIlIlIIlllllIlIllIllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 8,
+    "fields": 4,
+    "strings": [
+      ".png",
+      "client/emote/"
+    ]
+  },
+  {
+    "original": "lllIllllIlllllllIIlIIlIII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/util/concurrent/FutureCallback"
+    ],
+    "methods": 3,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IlIIllIlllIIIIIlIIIllIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 0,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "lIllIIlIllIIlIlIIIIlIllll",
+    "super": "IIIIIlIllllIIIIIIlIllIIIl",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "llIllIIIIIIlIllllllIIIllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "lllIllllIIIIIIllIIIllllII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "llIllIIIllIIllIlIIIIllIIl"
+    ],
+    "methods": 4,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "lllIIIIlIIllllIlIIIlllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "lllIIlIlIIllIIlIlIlIIlIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IIllIlllllIIllIIlIIllIlII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "methods": 3,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "IIIlIlIlllIIllIlllIlllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IlIllllIllllIlIIIlIIIIlIl",
+    "super": "IlIlIIlllllIIIIlllIIllllI",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IIlllIIllIIllIlIIIIIllIll",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lllllIIlIIIIIIIIlIIIllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IlllIIIIIllllIIIIllIllllI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IIIlIIlllIIIIIllllIIlIIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 8,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIIIIlllIlIlIllIIIIIIllII",
+    "super": "IlIIllIlllllIIIlllIIIllII",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "IIlIlllIlIIIlIIlIllIlllIl",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lIlllIlIIllIlIIIIIIlllIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "lIllIIlllIIlIlllIIIIllIII",
+    "super": "IlIlIllllIllIIIIIIIllIlll",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "llllIlIllIllllIIIllIIIIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 18,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "lIIIIlIlIlIIllIIlIIlllIll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "llIllllllllllllllllIlIIll"
+    ],
+    "methods": 4,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "llIIIlIIlIlIIllIllIIlllII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IllIlIIIlIlllIlllIlIIIIll",
+    "super": "java/net/SocketException",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 2,
+    "strings": [
+      " (socket: "
+    ]
+  },
+  {
+    "original": "IlIlllllllIIlllllIIIllIII",
+    "super": "lIIllIIIlIlIIIIIIlIIlIIll",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 12,
+    "strings": [
+      ".png",
+      "client/animatedlogo/128/logo_128_no_stars.png",
+      "client/animatedlogo/128/logo_128_star_"
+    ]
+  },
+  {
+    "original": "IlIllIlIlllllIIllllIIIllI",
+    "super": "lIIllIIIlIlIIIIIIlIIlIIll",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 8,
+    "strings": [
+      "...",
+      "Posted by ",
+      "gui.button.press"
+    ]
+  },
+  {
+    "original": "IlllIllIllIllIlIIlllIllIl",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "llIlIlllIlllIIIllIIllIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 9,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lllIlIIIlIIIIlllIlllIlllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IIlIIlIIIIlIIlIIlllIIIlIl",
+    "super": "lIIllIIIlIlIIIIIIlIIlIIll",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 7,
+    "strings": [
+      ".png",
+      "client/animatedlogo/64/logo_64_no_stars.png",
+      "client/animatedlogo/64/logo_64_star_"
+    ]
+  },
+  {
+    "original": "lIIlIlllIllIIIllllIlIIIIl",
+    "super": "IllIIIIlIIIlIlIllIlIIllII",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "IlIlIlIlIlIlIlIIlIlllllIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "lllIlIlllIlIlIIlIlllIlllI",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 11,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "IIIIllIIIllIllllIlllIIlll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "lIlIIllIIIllllIlIIllIIlll",
+    "super": "lIlllllIIllllIIIIllllllll",
+    "interfaces": [],
+    "methods": 13,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IIlIlIlllIIIIIllllIIIllll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 5,
+    "strings": [
+      "No instances"
+    ]
+  },
+  {
+    "original": "IlllIlllllIIlIlIlIIIlllIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "lllllllIIlIIllIIlllIIIlII"
+    ],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "llllIIlllIlllIlIllIIIIIlI",
+    "super": "io/netty/handler/codec/MessageToByteEncoder",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IlIIlllIIllllIlIIllIIlIII",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 5,
+    "strings": [
+      "gui.button.press",
+      "textures/gui/container/inventory.png"
+    ]
+  },
+  {
+    "original": "lIIIIIlIIIlIIllllIlllIIII",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIlIIIIIllIIIIllIIIIllIlI",
+    "super": "java/util/TimerTask",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 2,
+    "strings": [
+      "/tip all",
+      "hypixel"
+    ]
+  },
+  {
+    "original": "lllllIllllIIllIIIlIllIIlI",
+    "super": "IIIlllIlIIIIIlIlIIlIIIlll",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "lIlIIIIIIIlIllllIlIlIlllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lIIlIllIlIlIIIIIIIIIlllll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 0,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "IllIlIIIIllIIIIlIIlllIlIl",
+    "super": "IlIIIIlIllIIIllIlIlIlIIll",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IIIlllllIIIIIlIlllIlIIIlI",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "llIllIIllIllIllllIllIlIll",
+    "super": "IllIlllIIlIIlllllIlIIllll",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 7,
+    "strings": [
+      "cannot have more than 8 options",
+      "minecraft:",
+      "options"
+    ]
+  },
+  {
+    "original": "IIllIlIIIllIIIIIllIlllIlI",
+    "super": "IIIIIlIllllIIIIIIlIllIIIl",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "llIllIIIllIIllIlIIIIllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "IlllIIllllIllIlIIIIlIllIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 29,
+    "fields": 43,
+    "strings": [
+      ", new: ",
+      "Already tesselating!",
+      "Expand tessellator buffer, old: ",
+      "Not tesselating!"
+    ]
+  },
+  {
+    "original": "IlIIlllIIlIIlIlIllIIIIlll",
+    "super": "IIIlIIlIlIIlllllIlIllIllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 2,
+    "strings": [
+      "Shrug"
+    ]
+  },
+  {
+    "original": "IllIIIIIllIIlIlIIIlIllllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 3,
+    "strings": [
+      "Created Branch Manager"
+    ]
+  },
+  {
+    "original": "lIlIllllllllIIlIIIIlIIIIl",
+    "super": "IIIIIIIIIIIlIIIllIllIIIIl",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 0,
+    "strings": [
+      "/cb_increase_time",
+      "Increased time by ",
+      "Static",
+      "This mod command only works with the \"Static\" time type."
+    ]
+  },
+  {
+    "original": "llIIllllllIllIIlIIIIIIIll",
+    "super": "IllIllIllIIIIllIIllIIlIlI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIllIIIlIlIIllIllIIllIIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIlIIlIIlIIlIlIIlIlIlllII",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 7,
+    "strings": [
+      "client/icons/left.png",
+      "client/icons/right.png",
+      "color",
+      "gui.button.press"
+    ]
+  },
+  {
+    "original": "IlIIlIIIllIlIlIIIlllIIIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIIlllIllIIllIlIIlIlIllIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Iterable"
+    ],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIIlIIIIlllIlIIIlIlIIIlll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 13,
+    "strings": []
+  },
+  {
+    "original": "IlIllIllIIlIllllllIIIllIl",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "llllllllIllIlIlIIllIlIIIl",
+    "super": "IlIlIIlllllIIIIlllIIllllI",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IllIlIIlIlllIllIlIIlIlIII",
+    "super": "IlIIlllIIIllIIIlIllIlIlll",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "llIIIIIIlllIllIIlIIlllIII",
+    "super": "IIIIIlIllllIIIIIIlIllIIIl",
+    "interfaces": [],
+    "methods": 14,
+    "fields": 12,
+    "strings": []
+  },
+  {
+    "original": "llIlllIIIIIIlIllllIllIIll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/CharSequence"
+    ],
+    "methods": 16,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "lIllIlIIIIlllIllIIlIlIlll",
+    "super": "lllIlIllllIllIIlllIlIIlII",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 2,
+    "strings": [
+      "Allows you to adjust the hue, saturation, brightness, and contrast of your screen.",
+      "Color Saturation"
+    ]
+  },
+  {
+    "original": "lIIlIIIlllIlIIlIIlIllllIl",
+    "super": "IlIIlllIIIllIIIlIllIlIlll",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IlllIlIIIIIIIlllIlIllllII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lllllllIIIIIIIIIIllIlllll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 39,
+    "strings": []
+  },
+  {
+    "original": "lIIlIlIlIIlIIIIIlIIIllIlI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 0,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "IlIlIllIIIIllIlIllIlIIllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 9,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "lIIlIIlIlIllllIIIIllIlIII",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IllIlIlIIlllIlIllllIlIlII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 2,
+    "strings": [
+      "CheatBreaker-Client",
+      "Mozilla/4.0",
+      "User-Agent"
+    ]
+  },
+  {
+    "original": "llIIIlllIIlIlllIIIIIIIllI",
+    "super": "IIlIllIllIIIIIIlIllIIIIII",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 5,
+    "strings": [
+      "resourcePack.selected.title",
+      "textures/gui/resource_packs.png"
+    ]
+  },
+  {
+    "original": "IlIIIlIIIIllIIIllIIllllIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IIIIIlIIllIlIIlIIIIIlIIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 9,
+    "fields": 19,
+    "strings": []
+  },
+  {
+    "original": "IllIIlIlIlIlIlIIIIIlllIll",
+    "super": "lIlIlIIIIIlIlllIllIIlIIll",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "IIllIlIIlIIIlIllIlIIIllIl",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 5,
+    "strings": [
+      "gui.button.press"
+    ]
+  },
+  {
+    "original": "lllIIIIlllllIIIIIllIlIIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 14,
+    "fields": 6,
+    "strings": [
+      "Vec2f["
+    ]
+  },
+  {
+    "original": "IIIIIIlllIllllIllIllIIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 8,
+    "fields": 14,
+    "strings": [
+      "..."
+    ]
+  },
+  {
+    "original": "lllIIlIllllIlllIllIlllllI",
+    "super": "IlIIlIlIlIlIIIIlIlllIllII",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IlIIlIIlIlIIIlIIIIlllIIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "llIIllllIIlIIIIIllllIllll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIIIIlIIIIlIIIlIIllIlIlII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/Comparator"
+    ],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IlIlIIIIIlIlllllIlllIllII",
+    "super": "lIIlIllIlIIllIlIIlIllIlII",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 5,
+    "strings": [
+      "textures/gui/container/brewing_stand.png"
+    ]
+  },
+  {
+    "original": "IIIIlIIIlIIIlIIlllIIIIIlI",
+    "super": "llIIlIIllIIIlllIlIIlIIlIl",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "llIIIIllllIIIIllIIlIIIIlI",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 18,
+    "strings": [
+      ".png",
+      "Opacity",
+      "Scale",
+      "Scale Multiplier",
+      "Volume",
+      "World Time",
+      "client/icons/",
+      "client/icons/circle-64.png",
+      "client/icons/circle-hollow-64.png",
+      "client/icons/letter-t-64.png",
+      "client/icons/moon-64.png",
+      "client/icons/sun-64.png",
+      "client/icons/volume-mute-64.png",
+      "client/icons/volume-up-64.png"
+    ]
+  },
+  {
+    "original": "lIIlIIIllIIIIIllIlllIlIII",
+    "super": "java/awt/event/WindowAdapter",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIllIIIlIIIlIlIllllllIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "lllllllIIlIIllIIlllIIIlII"
+    ],
+    "methods": 3,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IIIIIlIllIlllllIllIlllllI",
+    "super": "IllIlllIIlIIlllllIlIIllll",
+    "interfaces": [],
+    "methods": 9,
+    "fields": 3,
+    "strings": [
+      "gui.button.press"
+    ]
+  },
+  {
+    "original": "lllIIIlIIIllIlIlIIllIIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "lIIllIIIlIIlIlIIIllIIIIII"
+    ],
+    "methods": 5,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "llIIllIIlIIllIlIIlllllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 3,
+    "strings": [
+      ".zip",
+      "Failed to create entry",
+      "Failed to find constructor",
+      "Not found in: ",
+      "pack.mcmeta"
+    ]
+  },
+  {
+    "original": "IlllIllIIIIlllIllIllIIllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "lIIllllllIIIIlIIIllIlIIIl",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 8,
+    "strings": [
+      "client/icons/left.png",
+      "client/icons/right.png",
+      "gui.button.press"
+    ]
+  },
+  {
+    "original": "lIllIlIIllIIllIllIlIIllIl",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "lllllIlllllIlIllIlIlIIlll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 3,
+    "strings": [
+      "...",
+      ".zip"
+    ]
+  },
+  {
+    "original": "IIIIlIlIllllIllllIIIllllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 21,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "lllIlIIlIIIIIlIlIIIlIllll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "lllllllIIlIIllIIlllIIIlII"
+    ],
+    "methods": 3,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IIIlIlIlIIIIlIIlIlllllIII",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "llIIIlllIIlIlIllIlIlIIlII",
+    "super": "IllIllIllIIIIllIIllIIlIlI",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIIlllIIllllIIIllIlIIlIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 2,
+    "strings": [
+      "Created EventBus",
+      "EventBus ["
+    ]
+  },
+  {
+    "original": "IlIIlIIlllIlllllIIlllIllI",
+    "super": "IIIlIIlIlIIlllllIlIllIllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 9,
+    "strings": [
+      "Super Facepalm"
+    ]
+  },
+  {
+    "original": "IIIlIIlllIlIlIlllllIllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 16,
+    "strings": [
+      " CPS",
+      "RMB",
+      "Replace Clicks",
+      "With Clicks"
+    ]
+  },
+  {
+    "original": "lIIllllllllIlllllIlIllIII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "lIlIIIlIIlIIlIlllllIIllIl"
+    ],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IIlIIIIIIlIlIllIIlIllIIII",
+    "super": "javax/swing/DefaultListCellRenderer",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "llIIllIlIllIlIIlllllllIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "llIlIIIlIIllIIlIllllIIIlI",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "IIlllIIllIIllIllllIlIIlll",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 4,
+    "strings": [
+      "cape",
+      "gui.button.press"
+    ]
+  },
+  {
+    "original": "IlllllIlIIIIIIIIllIlIlIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIIIllIlIlIlllllllllllllI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "lIIlllIIlIIlIIlIlIlIlIlIl"
+    ],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "llllIllllIIllIIIIlIIllIll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IlIIlIlIIIIllIIlIIllIllIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 2,
+    "strings": [
+      "Created Title Manager"
+    ]
+  },
+  {
+    "original": "IlIlIlIlIIlIIIllIlIlIlIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "lllllllIIlIIllIIlllIIIlII"
+    ],
+    "methods": 3,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "IIIIIIIllllIIllIlIIlIlIll",
+    "super": "IIIlIIlIlIIlllllIlIllIllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 4,
+    "strings": [
+      "Wave"
+    ]
+  },
+  {
+    "original": "IlIllIlIIIlIlllIIIlIIIIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 10,
+    "strings": []
+  },
+  {
+    "original": "lIIIIlllllIlIIllIIIllllIl",
+    "super": "IIIIIlIllllIIIIIIlIllIIIl",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IIllllIIIIIllIlIlllIIIlIl",
+    "super": "lIIllIIIlIlIIIIIIlIIlIIll",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "llIlllIIIllIlIllllllllIll",
+    "super": "lIlIIIIlllllIlIlIIIIlIlll",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 3,
+    "strings": [
+      "Unable to create native library working directory ",
+      "java.library.tmpdir",
+      "tmplib"
+    ]
+  },
+  {
+    "original": "IIIIlIIllIllIIIIllIIlllll",
+    "super": "llllllllIIIIIIIIIIllllllI",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIllIIIllllIIllIIIlllIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IIIlIIIIIlIIIIlIllllIIlll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IlllIlIllIIllIlIIIIlIlIII",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IlIIlIlIIIllIllIlllIlIIII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IIIlllIIIIllIlIIlIlllIIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 13,
+    "strings": []
+  },
+  {
+    "original": "IllIlIIIIIIIlIlIllllllIll",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 2,
+    "strings": [
+      ".png",
+      "client/defaults/crosshair_"
+    ]
+  },
+  {
+    "original": "IIIIIllllIlIllIlIllllIllI",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "lIlIIIIIIlIllIIIllllIlIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlIlIIIIlIlIllIlIlllllllI",
+    "super": "lIlIlllIIlIllIlIIIIlllIIl",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "lIlllIlIlllIIllllIIlllllI",
+    "super": "llllllllIIIIIIIIIIllllllI",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlIllIIIIllIlllIIllIIIIIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IlIlIlIIIllIlIllIIlllIlll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IlIllIllIIIllIlIIIllllIlI",
+    "super": "lllIlIllllIllIIlllIlIIlII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 7,
+    "strings": [
+      " FPS",
+      " FPS]",
+      "Background Color",
+      "FPS",
+      "Show Background",
+      "Text Color",
+      "[144 FPS]"
+    ]
+  },
+  {
+    "original": "lllIIIlIlIIlIIIIlIlIIIlll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 8,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "lllIlIllllIIlIIIIIlIIlIIl",
+    "super": "lIIllIIIlIlIIIIIIlIIlIIll",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "llIIIllIIlIllIIlIIlllIlII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/datatransfer/Transferable"
+    ],
+    "methods": 4,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IIlIIIIlIlIlIIllIlIIIIIlI",
+    "super": "IlIIlllIIIllIIIlIllIlIlll",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 3,
+    "strings": [
+      "textures/particle/particles.png"
+    ]
+  },
+  {
+    "original": "IllIlllIllIlIlIIlIIllllll",
+    "super": "IIIIlIllIlIllIllllIIllIII",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "IIllIllllIIlIlllllIlIIllI",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IllllIIlIlIIllllIIIllIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/mojang/authlib/ProfileLookupCallback"
+    ],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIIIIlIIIlIIlIlllllIIIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/CharSequence"
+    ],
+    "methods": 5,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "llIlIIlllIllIlIIllIIIIIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "llIlllIlIIlIlIIllIllIIIll",
+    "super": "IllIlllIIlIIlllllIlIIllll",
+    "interfaces": [],
+    "methods": 9,
+    "fields": 8,
+    "strings": [
+      "Updated custom string value successfully.",
+      "info"
+    ]
+  },
+  {
+    "original": "IIIIlllIlIllIIlIIlIIlIlIl",
+    "super": "llllllllIIIIIIIIIIllllllI",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IlIllIIIlllIlIIllIIIIlIll",
+    "super": "IlIlIIlllllIIIIlllIIllllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lllllIIIIlIllIlIIIlllllII",
+    "super": "IllIllIllIIIIllIIllIIlIlI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "lllllllIIllIlIllIIlIIIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlIlllllIlIllIllIIlllIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IIIIIIIIIIIlIIIllIllIIIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lllIIIllIIIllIIIIllIlIIlI",
+    "super": "IlllIIlIlIIlIlIlIIIllIIlI",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lIlIIIIllIIllllIIIlllIlII",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 8,
+    "strings": [
+      "MAIN",
+      "OLD",
+      "VANILLA"
+    ]
+  },
+  {
+    "original": "lIlIllllIIlIIlIIlllIlIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 0,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "llllllIllIIlIlIlllllIIlIl",
+    "super": "IlIlIIlllllIIIIlllIIllllI",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lIIIlIIllllllllIllIIllIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "llIllIlIIIlIIlIllIlllllll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "lllIlllIIIllIIlIllIIllIll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "llIllIIIlIlIIllIIlIIlIlII",
+    "super": "IlllIIlIIIIllllIIlIlIIlII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlIIlIIIllllllIlIllllIIll",
+    "super": "lIllIllIlIlllllIlIIllIlll",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "IlIlllIlllIlllIllIlIIIllI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "llIllIIIllIIllIlIIIIllIIl"
+    ],
+    "methods": 3,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IlIIIIIllIllIlllIIlIIlIII",
+    "super": "IIIlIIlIlIIlllllIlIllIllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 3,
+    "strings": [
+      "T-Pose"
+    ]
+  },
+  {
+    "original": "IIllIlIIllIIlIIlIllIIlIlI",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "IIIllIIlllIIllllIIIIIIlIl",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 7,
+    "strings": [
+      "END",
+      "START"
+    ]
+  },
+  {
+    "original": "IIlllIIllllIlIllIlIlIlIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 27,
+    "fields": 10,
+    "strings": [
+      "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~",
+      "\"'‘’“”?./!,;:_",
+      "line length was zero. If this happens please contribute unit test that provokes this failure to the project!"
+    ]
+  },
+  {
+    "original": "lllIIIllllIIIIIllIlIllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ],
+    "methods": 0,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "IlIllIIIIlIlIIlllIlllIIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 6,
+    "strings": [
+      "key.chat",
+      "key.command",
+      "key.inventory",
+      "key.sneak",
+      "key.use"
+    ]
+  },
+  {
+    "original": "lIllIIlIIllllllIIlIIllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 2,
+    "strings": [
+      "Classloader"
+    ]
+  },
+  {
+    "original": "IlllllllIIlIlIlIlIlllllll",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "IIIlIIIIlIlIIllIIllllIIIl",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": [
+      " seconds",
+      "Finished: ",
+      "Run",
+      "Running...",
+      "Stopped"
+    ]
+  },
+  {
+    "original": "IlIlllllIIllllIIlIIIllIIl",
+    "super": "java/awt/Dialog",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 4,
+    "strings": [
+      " by Kent Beck and Erich Gamma",
+      "About",
+      "Close",
+      "JUnit",
+      "JUnit ",
+      "dialog"
+    ]
+  },
+  {
+    "original": "IllIlIllIIlllIIlIllIIIIII",
+    "super": "lllIIIlIlIlllIllIlIlIIlll",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lIllIIIIIlIIlIlIIlIllIIII",
+    "super": "IIlllIIIlIllIllIIlIIIlIII",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "llIIlIIIlIlIIllIIIIIllIll",
+    "super": "IIIllIIlIlIllIIllllIIIlII",
+    "interfaces": [],
+    "methods": 10,
+    "fields": 12,
+    "strings": [
+      "client/font/Ubuntu-M.ttf",
+      "client/logo_108.png",
+      "client/logo_108_inner.png",
+      "client/logo_255_outer.png"
+    ]
+  },
+  {
+    "original": "lIlIIlllllllIlIllllIlllII",
+    "super": "llIlllllllllIIIlllIIllIlI",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIlllllIlIlIllIIIlIIllIII",
+    "super": "IlIIllIlllllIIIlllIIIllII",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "llIllIIIIlIIIIllIIIlIlIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlllIlIllIlIlllIIlIlIIlll",
+    "super": "lIlIIIIlllllIlIlIIIIlIlll",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 3,
+    "strings": [
+      "Unable to create native library working directory ",
+      "java.library.tmpdir",
+      "tmplib"
+    ]
+  },
+  {
+    "original": "IlllllllllIlIlIIIIIlIllIl",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lllIlIlIIIllIIlIIlIlIIlll",
+    "super": "IIIlIIlIlIIlllllIlIllIllI",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 8,
+    "strings": [
+      "Floss"
+    ]
+  },
+  {
+    "original": "IIlIIIIIIIIIIlllIIllIlllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "IIlllllIlIIIIIIIlIIlllIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "lIIIIlllIlIIIlIlllllIIIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "IlIlIllIlIIIlIlIlIIlIIlIl",
+    "super": "IllIlIllllIIIIlIIlIllIlII",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 16,
+    "strings": [
+      "#.00",
+      "%BOOST%"
+    ]
+  },
+  {
+    "original": "lIlllIIllIIIllIIIIllIllIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "IIlllIlIIlllIIllllIIlIllI",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lIlIlllIllllIllIIllIIIlII",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 4,
+    "strings": [
+      "\\system32\\tasklist.exe",
+      "windir"
+    ]
+  },
+  {
+    "original": "lIIIIlIllIlIIIIllllIlllII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 14,
+    "strings": []
+  },
+  {
+    "original": "llIlIIIIIIlIIlIlIllIIllIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "llIlIIlIllIlIIllIlIIIllIl",
+    "super": "IIIIIIIIIIIlIIIllIllIIIIl",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": [
+      "/cb_decrease_time",
+      "Decreased time by ",
+      "Static",
+      "This mod command only works with the \"Static\" time type."
+    ]
+  },
+  {
+    "original": "IIlIlllIlIlIIIlIllIIIIllI",
+    "super": "lIlIIlIIIIIIlllIIIllllllI",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 6,
+    "strings": [
+      "client/logo_inner.png",
+      "client/logo_outer.png"
+    ]
+  },
+  {
+    "original": "IlIllIlllIllIlllIlIIllIlI",
+    "super": "lIIllIIIlIlIIIIIIlIIlIIll",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "IIlIlllIIIIIllIllIlIlllll",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "lIIlIllIlIIlIlIIlllllIIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "lIllIlllIlIllIIlIIIIllIII",
+    "super": "io/netty/channel/SimpleChannelInboundHandler",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 2,
+    "strings": [
+      "MC|PingHost"
+    ]
+  },
+  {
+    "original": "IIllllIIIllIlllllIlllIIll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/util/concurrent/Callable"
+    ],
+    "methods": 3,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IllIIIIIlIIlIlIIlIllIIllI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "methods": 9,
+    "fields": 10,
+    "strings": [
+      "Lo6a$DMR",
+      "aAO20DQ6iIlP",
+      "u2CXyEg4Fy32",
+      "yh9bV53gfZv4tBa49MF2G"
+    ]
+  },
+  {
+    "original": "IIlIIIIllllIllllllIlIlIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "llllllIlIIllIllIIlllIIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "IlIlIIIllIIIllIllIlIIIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlIlIIlIlllIllIlllIIlllll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 0,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "lIlIllIlIlIlIIllIlIlllIII",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "lIIllIlIIllIlIlllIIlIIlll",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "methods": 15,
+    "fields": 7,
+    "strings": [
+      "Alt Login Thread",
+      "mojang"
+    ]
+  },
+  {
+    "original": "IIIIIllIlllIIIIIIllIlllll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "lIlllllIllIlIIlIlllIIIllI",
+    "super": "io/netty/channel/ChannelInboundHandlerAdapter",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 6,
+    "strings": [
+      "cf2O02b1QJSZOcVHphHucA"
+    ]
+  },
+  {
+    "original": "lllIlllIllllllllIlIlIlIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 0,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlIIIIIlIIIIlllIlIlIlIIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ],
+    "methods": 0,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "lIIlllIIIlIlllIllIllIIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "lIllIlIIIIlIlIIIIlIIlIlIl",
+    "super": "llIlllllllllIIIlllIIllIlI",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IlIlIIllIlIIlIlIIlIlIlIII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/CharSequence"
+    ],
+    "methods": 5,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "lIllIllIllIIllIlIIIIIIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 9,
+    "strings": [
+      "Reverse",
+      "Third"
+    ]
+  },
+  {
+    "original": "IlIIlIIIlIlIllIlIIlIlIllI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IllIIllIllIIlllIIIIIlIlll",
+    "super": "java/io/InputStream",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 5,
+    "strings": [
+      " at ",
+      "This InputStream has already been closed."
+    ]
+  },
+  {
+    "original": "IlllllIIIlIIllIIIIIIIllll",
+    "super": "lIlIIlIIIIIIlllIIIllllllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 6,
+    "strings": [
+      "Cosmetics (",
+      "Please try again later.",
+      "Unable to connect to the server.",
+      "You don't own any cosmetics.",
+      "client/icons/left.png",
+      "client/icons/right.png",
+      "gui.button.press"
+    ]
+  },
+  {
+    "original": "lllIlllIIlllllllllIIllllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 1,
+    "strings": [
+      "Failed to create watch service"
+    ]
+  },
+  {
+    "original": "IIlIIlllIlIIlIlIllIIIllII",
+    "super": "IIIlIIlIlIIlllllIlIllIllI",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 4,
+    "strings": [
+      "Hands Up"
+    ]
+  },
+  {
+    "original": "lllIlIIlIIIlllIlIIIlIlIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIlllIIIllIlIllIIIllIIlIl",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 7,
+    "strings": [
+      "ERROR",
+      "INFO",
+      "NEUTRAL"
+    ]
+  },
+  {
+    "original": "IIIlllIIlIIllIIIIIllllIll",
+    "super": "IIIIIlIllllIIIIIIlIllIIIl",
+    "interfaces": [],
+    "methods": 6,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IlllllllIIlllIIIIIlIlllIl",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "IIIIIIIlIllllIlIIIIIIIllI",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "lIIlIlIlIIllIIlIllIlIIlll",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 6,
+    "strings": []
+  },
+  {
+    "original": "llIIIllllIIIIllIIIlIlIlII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIIIIlllllIllllIIlllIIllI",
+    "super": "IllIlllIIlIIlllllIlIIllll",
+    "interfaces": [],
+    "methods": 8,
+    "fields": 10,
+    "strings": [
+      "    ",
+      "Couldn't load credits",
+      "PLAYERNAME",
+      "[C]",
+      "texts/credits.txt",
+      "textures/gui/title/minecraft.png",
+      "textures/misc/vignette.png"
+    ]
+  },
+  {
+    "original": "lIIIllIIIIllllIllIllllIIl",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 9,
+    "strings": []
+  },
+  {
+    "original": "llIIlIlIlllIIIIlIIllIlIII",
+    "super": "java/lang/Thread",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": [
+      " seconds",
+      "Finished: ",
+      "Run",
+      "Running...",
+      "Stopped"
+    ]
+  },
+  {
+    "original": "IllIIIIlIIIlIlIllIlIIllII",
+    "super": "IlllllllIllIlIIlIllllllII",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IIllIIIlIlIlIIIllIlIIlIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ],
+    "methods": 3,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "llIlIIIlIllIlIllIllIlIlll",
+    "super": "llIllIIllIllIllllIllIlIll",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIIlIllllllllIIIIlIlIIIll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "llIllllllllllllllllIlIIll"
+    ],
+    "methods": 4,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lIlIlIlllIIllIIIlIIlllllI",
+    "super": "java/awt/event/WindowAdapter",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "lllIIlllIIIlIllIIlIlllIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "llIIlllllIIlIIIlIlIIlIlII",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/awt/event/ActionListener"
+    ],
+    "methods": 2,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "lIlIIIIIlIIIIlIlIIlIIIIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 1,
+    "strings": []
+  },
+  {
+    "original": "lIIllIIlIIlIIIllIIlIlllll",
+    "super": "lIlIllIIIIIlIIllllllllIIl",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 5,
+    "strings": [
+      "Witch"
+    ]
+  },
+  {
+    "original": "IllllIIllIIlllllllIIlIIlI",
+    "super": "IlIIllllllIlIIllllllIlllI",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 8,
+    "strings": []
+  },
+  {
+    "original": "lllIlIllllIIIllIllIIlIllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "IlIlIlIIlllIIlIIllIIIllIl",
+    "super": "llllllllIIIIIIIIIIllllllI",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "IlIlIIIIllIllIIIIIIIlIlII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 7,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "llIIlIlIlIlIlIlIIIIIIllIl",
+    "super": "java/lang/Enum",
+    "interfaces": [],
+    "methods": 4,
+    "fields": 11,
+    "strings": [
+      "MOVE_BACK",
+      "MOVE_DOWN",
+      "MOVE_UP"
+    ]
+  },
+  {
+    "original": "llIIIlIllIlIllIIIlllIIIll",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Runnable"
+    ],
+    "methods": 2,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IllIlIllllIllllIllIIlIIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 0,
+    "strings": []
+  },
+  {
+    "original": "llIIIlIIIIlIIIIIllIIlIllI",
+    "super": "IlIIlllIIIllIIIlIllIlIlll",
+    "interfaces": [],
+    "methods": 5,
+    "fields": 3,
+    "strings": []
+  },
+  {
+    "original": "llIIllIIlIlIlIllIlllllIlI",
+    "super": "java/lang/Object",
+    "interfaces": [
+      "java/lang/Iterable"
+    ],
+    "methods": 3,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lllllIllIlllllllIlIlIllll",
+    "super": "java/nio/file/SimpleFileVisitor",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 7,
+    "strings": []
+  },
+  {
+    "original": "lIIlIIIlIllIlIIllllIllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 3,
+    "fields": 4,
+    "strings": []
+  },
+  {
+    "original": "IIlIIlllIllIIlIlIlIlllIll",
+    "super": "lllIlllIlllllIlIIlIlllIII",
+    "interfaces": [],
+    "methods": 2,
+    "fields": 5,
+    "strings": []
+  },
+  {
+    "original": "lIIIlllllIlIlIllIlIlllllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "llllIlIllllIIllIIlIlIlIlI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 2,
+    "strings": []
+  },
+  {
+    "original": "IIlIIIIlIIllIIllIIIIIllII",
+    "super": "IIlIllIllIIIIIIlIllIIIIII",
+    "interfaces": [],
+    "methods": 8,
+    "fields": 6,
+    "strings": [
+      " Pack",
+      " Packs",
+      " Subfolder",
+      " Subfolders",
+      "Back to Main Folder",
+      "client/icons/folder.png",
+      "resourcePack.available.title"
+    ]
+  },
+  {
+    "original": "IlllllIllIlIllIlIIllIlllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\r\nIsInMemory: ",
+      "\r\nRealFile: ",
+      " #X",
+      " (NYI)",
+      " (expected: 0-9)",
+      " ***********",
+      " // Shader option ",
+      " // Shader option OFF",
+      " // Shader option ON",
+      " > ",
+      " DefaultDeleteAfter: ",
+      " and ",
+      " as it does not match what we currently have (",
+      " can only be started once.",
+      " checksums",
+      " contains one of the following prohibited characters: ",
+      " elements: ",
+      " frame ",
+      " into ",
+      " kb/s",
+      " no",
+      " test",
+      " to be a Boolean, was ",
+      " to be a Float, was ",
+      " to be a Int, was ",
+      " to be a JsonArray, was ",
+      " to be a JsonObject, was ",
+      " to be a string, was ",
+      " total; ",
+      " value: ",
+      " values, found: ",
+      " vs our ",
+      " when I expected it to be uploading; aborting task",
+      " with ",
+      "\"\r\n",
+      "\"; ",
+      "# X",
+      "###",
+      "#define ",
+      "$Domain",
+      "$Path",
+      "$Version",
+      "%.2f, Math: %f, Helper: %f, diff: %f",
+      "%s§%d§%d",
+      "&#x",
+      "&amp;",
+      "&apos;",
+      "&gt;",
+      "&lt;",
+      "&quot;",
+      "' contains a space character.",
+      "(data: ",
+      "(last: ",
+      "), Age ",
+      "), RGBA (",
+      "* Invalid book tag *",
+      "*** Reloading textures ***",
+      "******** ",
+      ",  Errors: ",
+      ",  Failures: ",
+      ", HTTPOnly",
+      ", Pos (",
+      ", active = ",
+      ", boxes: ",
+      ", comment=",
+      ", decoderResult: ",
+      ", domain=",
+      ", expected to find a Boolean",
+      ", expected to find a Float",
+      ", expected to find a Int",
+      ", expected to find a JsonArray",
+      ", expected to find a JsonObject",
+      ", expected to find a string",
+      ", limit is ",
+      ", limit was ",
+      ", maxAge=",
+      ", name=",
+      ", newList: ",
+      ", offlineSince=",
+      ", online="
+    ]
+  },
+  {
+    "original": "lllIIlIIlIllllllIlIIlllII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\n m = \n",
+      "\n= [ OptionsOF.txt ] =\n",
+      "\nm =",
+      "\nm=",
+      "\ns =",
+      "\nt*m =",
+      "\nt*m=",
+      "\nu=",
+      "\nv =",
+      "\r\n\r\n",
+      "\r\n--",
+      "\r\nContent-Transfer-Encoding: ",
+      " \n u.transpose*m*v.transpose  = \n",
+      " \ne = ",
+      " \nm  = \n",
+      " \ns = ",
+      " \nu  = \n",
+      " \nv  = \n",
+      " (expected: 1-9)",
+      " (expected: 9-15)",
+      " (expected: > 0)",
+      " -> ",
+      " // ",
+      " 0.0     ",
+      " MB)",
+      " MB) / ",
+      " MB) up to ",
+      " bytes (",
+      " category\">",
+      " e.g. : java javazoom.jl.player.advanced.jlap localfile.mp3",
+      " for more information.",
+      " is",
+      " options",
+      " port configFile directory",
+      " risk!",
+      " thread\">",
+      " | ",
+      "\". ",
+      "#params for setter != 1",
+      "%20",
+      "%2A",
+      "%7E",
+      "%LABEL%: %VALUE%",
+      "%VALUE%",
+      "%d game time, %d day time",
+      "&|=",
+      "' is not ",
+      "' not found!",
+      "(?i)\\u00A7[0-9A-FK-OR]",
+      "(?i)§[0-9a-fklmnor]",
+      "(decodeResult: ",
+      "(no connection)",
+      "(this Map)",
+      "): ",
+      "+-*/%!&|<>=",
+      ", RESOURCE_CURRENT=",
+      ", RESOURCE_PREVIOUS=",
+      ", album=",
+      ", artist=",
+      ", coverUrl=",
+      ", currentSongUrl=",
+      ", duration=",
+      ", favorite=",
+      ", genre=",
+      ", logoUrl=",
+      ", offsetY: ",
+      ", play=",
+      ", startTime=",
+      ", title=",
+      "--\r\n",
+      "-//APACHE//DTD LOG4J 1.2//EN",
+      "-01-",
+      "-02-",
+      "-03-",
+      "-04-",
+      "-05-",
+      "-06-",
+      "-07-",
+      "-08-",
+      "-09-"
+    ]
+  },
+  {
+    "original": "IIlIIIlIlIIIIlllIllIllIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "    ",
+      "        ",
+      "                ",
+      "                                ",
+      " (expected: ",
+      " (expected: 0 < ioRatio <= 100)",
+      " (expected: 0-14)",
+      " (expected: >= 0)",
+      " (expected: >= 2)",
+      " (expected: power of 2)",
+      " => ",
+      " FPS",
+      " by your slf4j binding is not compatible with ",
+      " bytes.",
+      " chunks",
+      " had a failure",
+      " had an error",
+      " static",
+      " was successful",
+      " x ",
+      "%USER%",
+      ") => ",
+      ") of logging calls during the initialization phase have been intercepted and are",
+      ") relighted ",
+      "), already used by",
+      "), already used by ",
+      "*** Exception outside of constructor ***",
+      "*** Exception outside of method ***",
+      "*** IllegalArgumentException ***",
+      "*** Reflector Forge ***",
+      "*** Reflector Vanilla ***",
+      ", but maximum is ",
+      ", index: ",
+      ", maximum is ",
+      ", uniform: ",
+      "-Dio.netty.allocator.cacheTrimInterval: {}",
+      "-Dio.netty.allocator.chunkSize: {}",
+      "-Dio.netty.allocator.maxCachedBufferCapacity: {}",
+      "-Dio.netty.allocator.maxOrder: {}",
+      "-Dio.netty.allocator.normalCacheSize: {}",
+      "-Dio.netty.allocator.numDirectArenas: {}",
+      "-Dio.netty.allocator.numHeapArenas: {}",
+      "-Dio.netty.allocator.pageSize: {}",
+      "-Dio.netty.allocator.smallCacheSize: {}",
+      "-Dio.netty.allocator.tinyCacheSize: {}",
+      "-Dio.netty.allocator.type: unpooled (unknown: {})",
+      "-Dio.netty.allocator.type: {}",
+      "-Dio.netty.threadLocalDirectBufferSize: {}",
+      "//canary.discordapp.com/api",
+      "//discordapp.com/api",
+      "//ptb.discordapp.com/api",
+      "/achat ",
+      "/friend ",
+      "/gc ",
+      "/msg ",
+      "0000",
+      "1.6",
+      "1.7",
+      "224.0.2.60",
+      "2Pi (Auto GG, Auto Friend, Auto Tip)",
+      "<NULL>",
+      "<PRESS ANY KEY>",
+      "A collection of mods made for the Hypixel Network.",
+      "A number (",
+      "A-Z",
+      "ALL",
+      "ALLIUM",
+      "ALLOW",
+      "ANDESITE",
+      "ANDESITE_SMOOTH",
+      "ANY",
+      "ASPECT_RATIO",
+      "ATLAS_SIZE",
+      "About...",
+      "Accept",
+      "Accessed Blocks before Bootstrap!",
+      "Actual binding is of type [",
+      "Adjusts the volume of the Dash Radio.",
+      "Advanced",
+      "Age"
+    ]
+  },
+  {
+    "original": "IIIIIlllIIlllIlllllIIlIII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "   ",
+      "         +-------------------------------------------------+",
+      "         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |",
+      " (Hidden)",
+      " (expected: 0 - ",
+      " (expected: 0 <= progress <= total (",
+      " (expected: 1, 2, 3, 4, or 8)",
+      " - ",
+      " - discarded",
+      " - discarding",
+      " Add mods to selected region",
+      " B ",
+      " Don't lock mods while dragging",
+      " R ",
+      " Reset mod to closest position",
+      " Select & drag mods",
+      " and FS ",
+      " attribute in ",
+      " by Kent Beck and Erich Gamma",
+      " in ",
+      " logger.",
+      " with null attribute",
+      " with null attribute name",
+      "\" is defined as both ID ",
+      "\", count arguments: ",
+      "\", index: ",
+      "#X#",
+      "%$1s",
+      "%(\\d+\\$)?[\\d\\.]*[df]",
+      "%3D",
+      "%r [%t] %p %c %x - %m%n",
+      "', quitting.",
+      "(?i)§[0-689A-E]",
+      ") + ",
+      ") is less ",
+      "**:**",
+      "+--------+-------------------------------------------------+----------------+",
+      ", adapter: ",
+      ", appender=",
+      ", defaulting to 0 (Ocean)",
+      ", facing: ",
+      ", function: ",
+      ", layer: ",
+      ", max: ",
+      ", model: ",
+      ", operators: ",
+      ", quitting.",
+      ", should be: ",
+      ", sprite: ",
+      ", tint: ",
+      ", type: ",
+      "- §c",
+      "---Adding logger [",
+      "-nofilterstack",
+      "-noloading",
+      "-wait",
+      ". Log output:",
+      ".auth",
+      ".host",
+      ".item",
+      ".jem",
+      ".jpm",
+      ".port",
+      "/assets/minecraft/lang/en_US.lang",
+      "22653B89-116E-49DC-9B6B-9971489B5BE5",
+      "258EAFA5-E914-47DA-95CA-C5AB0DC85B11",
+      "2f6f44cf-19a2-442a-944b-ede88be55651",
+      "3.8.2",
+      "5604-2.0++-2/28/2020",
+      "5D6F0BA2-1186-46AC-B896-C61C5CEE99CC",
+      "648D7064-6A60-4F59-8ABE-C2C23A6DD7A9",
+      "7107DE5E-7CE8-4030-940E-514C1F160890",
+      "88051637-26cb-49a4-8f42-04e06264de79",
+      "91AEAA56-376B-4498-935B-2F7F68070635",
+      ": expected number, was ",
+      ": §f",
+      ":mm",
+      ":ss",
+      "; charset=UTF-8",
+      "@Sharable annotation is not allowed"
+    ]
+  },
+  {
+    "original": "lIlIIIIIIIIIlllIlIIIlIIll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\t\t<",
+      "\t</loglevelcolors>\r\n",
+      "\t</loglevels>\r\n",
+      "\t</logtablecolumns>\r\n",
+      "\t<loglevelcolors>\r\n",
+      "\t<loglevels>\r\n",
+      "\t<logtablecolumns>\r\n",
+      "\n-----END CERTIFICATE-----\n",
+      "\n-----END PRIVATE KEY-----\n",
+      " (expectd: 0+)",
+      " (max: ",
+      " / ",
+      " = ",
+      " MB/s",
+      " Normal Unsuspend: ",
+      " Not Unsuspend: ",
+      " Unsupsend final status => ",
+      " Unsuspend: ",
+      " We are not retrying.",
+      " We will try again later.",
+      " because a security violation occured.",
+      " bytes, new size ",
+      " channel(s) to the new Selector.",
+      " found, only 0/90/180/270 allowed",
+      " has been exceeded.",
+      " is missing a mapping! This is a bug!",
+      " layout.",
+      " not found in ",
+      " raised by a Selector - JDK bug?",
+      "\" file=\"",
+      "\" level=\"",
+      "\" line=\"",
+      "\" method=\"",
+      "\" not found",
+      "\" should be public",
+      "\" thread=\"",
+      "\" timestamp=\"",
+      "\" value=\"",
+      "\"/>\r\n",
+      "\">\r\n",
+      "%s/%s%s",
+      "%s/mipmaps/%s.%d%s",
+      "%s:%s:%d",
+      "' and '",
+      "' loaded from pack: '",
+      "([1-9][0-9]+)-?bit",
+      "(directByDefault: ",
+      "(internal)",
+      "(repeated)",
+      "(validOps: ",
+      "*** Reloading custom textures ***",
+      ", CorrelationID=",
+      ", Destination=",
+      ", Duration: ",
+      ", Expiration=",
+      ", GL error (",
+      ", MessageID=",
+      ", Particles: false",
+      ", Priority=",
+      ", Redelivered=",
+      ", ReplyTo=",
+      ", Splash: true",
+      ", Timestamp=",
+      ", Type=",
+      ", elemSize: ",
+      ", glTextureId: ",
+      ", height=",
+      ", icon: ",
+      ", length: ",
+      ", offset: ",
+      ", originY=",
+      ", parent: ",
+      ", path: ",
+      ", properties: ",
+      ", quads: ",
+      ", subSlots=",
+      ", texture=",
+      ", variants: ",
+      ", width=",
+      ",layout"
+    ]
+  },
+  {
+    "original": "IlIIllllIIIlIIllIllIlIIIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      " (Active)",
+      " (expected: 0 or greater)",
+      " (expected: a positive integer)",
+      " (repository: ",
+      " (socket: ",
+      " > 2*",
+      " Current Speed Read: ",
+      " DOES NOT HAVE ANY OPTIONS.",
+      " GL version ",
+      " IDN: ",
+      " KB",
+      " KB Current Write: ",
+      " KB/s Current Read: ",
+      " KB/s, Write: ",
+      " Settings",
+      " [character ",
+      " aa",
+      " af",
+      " at ",
+      " back into data...",
+      " block)",
+      " exceeds 255 char limit",
+      " fps ",
+      " fr",
+      " from ",
+      " has no item?!",
+      " implementation; ",
+      " is currently restricted:\n",
+      " is not a valid IPv4 address",
+      " is not a valid IPv6 address",
+      " is not in bounds 0 < x < 65536",
+      " line ",
+      " more ...",
+      " ns ago",
+      " ns later",
+      " refused connection.",
+      " reg",
+      " sf",
+      " sh",
+      " sky, ",
+      " to ",
+      " was destroyed already",
+      "\": \"",
+      "\"layer",
+      "$1-$2-$3-$4-$5",
+      "%(?:(\\d+)\\$)?([A-Za-z%]|$)",
+      "%, ",
+      "%s:%s:%s",
+      "' already exists!",
+      "' and instead saw '",
+      "' and instead saw ''",
+      "' is too long!",
+      "'; default values will be used.",
+      "(\\p{XDigit}{8})(\\p{XDigit}{4})(\\p{XDigit}{4})(\\p{XDigit}{4})(\\p{XDigit}+)",
+      ") is  not in the range of 1 to 4. Ignoring.",
+      ") is not a valid type. Ignoring.",
+      ") is not in the range of 1 to 4. Ignoring.",
+      "). Ignoring.",
+      ", A: ",
+      ", args=",
+      ", cancelled",
+      ", count: ",
+      ", false) call failed.",
+      ", got ",
+      ", items: [",
+      ", leftAlign=",
+      ", max=",
+      ", siblings=",
+      ", style=",
+      ", task: ",
+      ", true) call failed.",
+      ", used: ",
+      ", value='",
+      ",:]}/\\\"[{;=#",
+      "--> Status: ",
+      "-?[0-9]+",
+      "-server.txt",
+      ". Exception is ",
+      ". T: ",
+      "... and "
+    ]
+  },
+  {
+    "original": "lIIIllIllllllIIlIlIIIllIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\u001b[31m[CheatBreaker]\u001b[0m ",
+      " Drop: ",
+      " ENTRY",
+      " ENTRY ",
+      " HANDSHAKEN: ",
+      " RETURN",
+      " RETURN ",
+      " THROW",
+      " channel. Press 'Unbound' to talk!",
+      " channel. Press 'Unbound'!",
+      " frames",
+      " frames in ",
+      " hearts",
+      " id: ",
+      " is already bound to another keybind!",
+      " joined ",
+      " left ",
+      " members",
+      " ms (",
+      " ms per frame.)",
+      " os.arch is ",
+      " os.name is ",
+      " port configFile",
+      "%.2f",
+      "%.2f, %.2f, %.2f",
+      "%1$d / 0x%1$X / 0b%2$s",
+      "%2.3f",
+      "%4s",
+      "%5.3f",
+      "%d,%d",
+      "%m%n",
+      "%s['%s'/%d, l='%s', x=%.2f, y=%.2f, z=%.2f]",
+      "'%s' in ResourcePack '%s'",
+      "([a-zA-Z0-9]+)",
+      "(version: ",
+      ", Tags=",
+      ", addedParent: ",
+      ", blockpos=",
+      ", blocks: ",
+      ", blur: ",
+      ", cannot add it to event ",
+      ", class1: ",
+      ", class2: ",
+      ", deadline: ",
+      ", entity=",
+      ", f=",
+      ", id1: ",
+      ", id2: ",
+      ", id: ",
+      ", keepAlive: ",
+      ", message: ",
+      ", model=",
+      ", new: ",
+      ", overlay: ",
+      ", period: ",
+      ", pos=",
+      ", severity: ",
+      ", source: ",
+      ", weight: ",
+      "-Dio.netty.eventLoopThreads: {}",
+      "-GCM-",
+      ".dll",
+      ".dylib",
+      ".isEndOfInput() failed",
+      ".so",
+      ".xml",
+      "/32.png",
+      "/cb_increase_time",
+      "/panorama_",
+      "1.7.10",
+      "7bit",
+      "8bit",
+      ";domain=",
+      ";expires=",
+      ";path=",
+      ";secure",
+      "ACCEPT",
+      "ACOS",
+      "ADVANCED",
+      "AFFECTED_BLOCKS"
+    ]
+  },
+  {
+    "original": "IlIIllIlIlIlIlllIlIIIlllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\tat ",
+      " != ",
+      " ($TMPDIR)",
+      " (%TEMP%)",
+      " (%USERPROFILE%\\AppData\\Local\\Temp)",
+      " (%USERPROFILE%\\Local Settings\\Temp)",
+      " (expected >= 0)",
+      " (expected >= quietPeriod (",
+      " (io.netty.tmpdir)",
+      " (java.io.tmpdir)",
+      " LogRecords.",
+      " RSV2: ",
+      " RSV3: ",
+      " Right-click for more info.",
+      " TopicConnectionFactoryBindingName TopicBindingName username password configFile",
+      " ]]",
+      " appender.",
+      " as it does not exist in ",
+      " cannot support property ",
+      " contains a total of ",
+      " day",
+      " days",
+      " does not implement org.apache.log4j.LoggerFactory",
+      " hour",
+      " hours",
+      " in the GZIP header",
+      " in update, size: ",
+      " is  [",
+      " level set to ",
+      " minute",
+      " minutes",
+      " ms\n",
+      " must be bound to join a group.",
+      " must produce at least one message.",
+      " on block ",
+      " tag(s)",
+      " ticks\n",
+      " ticks per second\n\n",
+      " ticks per second. It should be ",
+      "\" is an unknown syslog facility. Defaulting to \"USER\".",
+      "\" is not allowed on Hypixel.",
+      "# #",
+      "#%04d%s",
+      "#%04d/%d%s",
+      "#.###",
+      "#E#",
+      "%.0f",
+      "%.1f",
+      "%LABEL%",
+      "%s is not an array index",
+      "' to '",
+      "'%s' is already in use",
+      "(?i)§[0-9A-FK-OR]",
+      "(?i)§[0-9A-FR]",
+      "(Reflector)  - ",
+      "(Reflector) More than one method found: ",
+      "(Unknown)",
+      "(s) ",
+      "(this Collection)",
+      "), ",
+      "*cracks redstone whip*",
+      ", B: ",
+      ", Got: ",
+      ", I: ",
+      ", block: ",
+      ", data=",
+      ", data=(FREED)}",
+      ", dim: ",
+      ", it is not an allowed value",
+      ", name: ",
+      ", property: ",
+      ", protocolIdentifier=",
+      ", was expecting ObjectMessage.",
+      ", when parsing: ",
+      "--- BEGIN PROFILE DUMP ---\n\n",
+      "--- END PROFILE DUMP ---\n\n",
+      "---- Minecraft Profiler Results ----\n",
+      "-Dio.netty.netty.workdir: ",
+      "-Dio.netty.tmpdir: ",
+      ".SUCCESS"
+    ]
+  },
+  {
+    "original": "IIIIllIIllIlIIIlIlIlIIllI",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\n\nA detailed walkthrough of the error, its code path and all known details is as follows:\n",
+      "\n#line ",
+      " \n\r\t",
+      " (expected: SHA1)",
+      " - LogFactor5",
+      " - in ",
+      " 2.0 ",
+      " 2.1 ",
+      " 3.0 ",
+      " 3.2 ",
+      " 4.0 ",
+      " CPS",
+      " Font: ",
+      " Read Limit: ",
+      " Read Suspend: ",
+      " Suspend final status => ",
+      " Write suspend: ",
+      " [pos ",
+      " and Counter: ",
+      " and column ",
+      " cap ",
+      " in profile: ",
+      " length=",
+      " lim ",
+      " not found.",
+      " records out of a total of: ",
+      " records.",
+      " type, expression: ",
+      " type: ",
+      " will reopened at: ",
+      "#include depth exceeded: ",
+      "#line ",
+      "#line 1 ",
+      "#version ",
+      "%s clear color: %s %s %s %s",
+      "%s clear disabled",
+      "%s format: %s",
+      "%s mipmap enabled",
+      "%s/%s/%s",
+      "&4Minimap &fis not allowed on this server. Some functions may not work.",
+      "' is an invalid parameter.\nPlease try again.",
+      "' to registry",
+      "(=> ",
+      "(Note: This will not shut down the Virtual Machine,\n",
+      ") anyway as requested.",
+      ", allowedRequestHeaders=",
+      ", allowedRequestMethods=",
+      ", anyOrigin=",
+      ", available: ",
+      ", drawBuffers: ",
+      ", exposedHeaders=",
+      ", fbStatus: ",
+      ", file: ",
+      ", isCredentialsAllowed=",
+      ", key: ",
+      ", origins=",
+      ", preflightHeaders=",
+      ", program: ",
+      ", value: ",
+      "-- Head --\n",
+      "---- Minecraft Crash Report ----\n",
+      ".READ_SUSPENDED",
+      ".REOPEN_TASK",
+      ".columns",
+      ".fsh",
+      ".gsh",
+      ".lang",
+      ".mca",
+      ".vsh",
+      "/mc_Entity_x.txt",
+      "/org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif",
+      "/shaders",
+      "/shaders/block.properties",
+      "/shaders/lang/",
+      "/shaders/world",
+      "127.0.0.1",
+      "192.168",
+      "49455A49-7EC5-45BA-B886-3B90B23A1718",
+      ":()L",
+      ":(L"
+    ]
+  },
+  {
+    "original": "lIlIIIlIllIlllllllllIIlII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\n= [ Global Settings ] =",
+      "\nStackTrace: ",
+      "\nYour ban will be removed on ",
+      "                default = 2",
+      "  -p name    output as a PCM wave file",
+      "  -v[x]         verbose mode. ",
+      "  More info on http://www.javazoom.net",
+      " # ",
+      " (expected: 0+)",
+      " - Error",
+      " - Failed",
+      " - Passed",
+      " <> ",
+      " Clicks",
+      " Force-closing the connection.",
+      " II",
+      " IN: [{}:{}] {}",
+      " MB)\n",
+      " RCPS",
+      " and others",
+      " at (",
+      " bytes extra whilst reading packet ",
+      " bytes, ",
+      " col: ",
+      " has no public constructor TestCase(String name) or TestCase()",
+      " if ",
+      " is below server threshold of ",
+      " is larger than protocol maximum of ",
+      " is not a @Sharable handler, so can't be added or removed multiple times.",
+      " is not in bounds 0 <= x <= 65535",
+      " is not public",
+      " last write attempt timed out.",
+      " lost connection: ",
+      " ms",
+      " not supported.",
+      " of: ",
+      " program: ",
+      " selector.",
+      " set to ",
+      " to get combined.",
+      " u,v: ",
+      " was constructed with non-default constructor.",
+      " was constructed with the default constructor.",
+      " xyz: ",
+      "\" and \"",
+      "\" at id ",
+      "\" line: ",
+      "\" options.",
+      "\" to ",
+      "\" was already parsed.",
+      "########0.00",
+      "%d total; %s",
+      "' at index ",
+      "' obtained!",
+      "' took aprox ",
+      "', in: ",
+      "': ",
+      "(+)",
+      "(-)",
+      "(Favorite)",
+      "(Un-favorite)",
+      ") refCnt: ",
+      ") version ",
+      ") was larger than I expected, found ",
+      "+0-1+2+3+13&4-4",
+      ", allocated: ",
+      ", ao: ",
+      ", awardLocallyOnly=",
+      ", builtIn: ",
+      ", dst: ",
+      ", dstAlpha: ",
+      ", end: ",
+      ", face: ",
+      ", formatter=",
+      ", frames: ",
+      ", gui3d: ",
+      ", nameId=",
+      ", objectiveCriteria=",
+      ", particle: ",
+      ", result: "
+    ]
+  },
+  {
+    "original": "lllIlIIIIlIIlIIIllIlIIlII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\nCategoryPath:\n\t",
+      "   Thread=[",
+      " FPS]",
+      " Kbps",
+      " Spikes",
+      " a LogLevel.",
+      " are missing",
+      " bytes]",
+      " colors: ",
+      " for facing ",
+      " fps",
+      " just tried to change non-editable sign",
+      " moved too quickly! ",
+      " moved wrongly!",
+      " tried to attack an invalid entity",
+      " tried to set an invalid carried item",
+      " was kicked for floating too long!",
+      "! (Max is ",
+      "%.3f bpp",
+      "%VALUE% %LABEL%",
+      "%s:textures/models/armor/%s_layer_%d%s.png",
+      "&([abcdefghijklmrABCDEFGHIJKLMNR0-9])|(&$)",
+      "(You just lost the game)",
+      ") call failed.",
+      ") into",
+      ") is less than zero",
+      ") is not a positive integer.",
+      ", but was given one with a height of ",
+      ", components=",
+      ", found one with ",
+      ", in:",
+      ", location: ",
+      ", maxpri=",
+      ", remoteAddress: ",
+      "---------------------------\n",
+      "-Dio.netty.initialSeedUniquifier: 0x%016x (took %d ms)",
+      ".REPLAY",
+      ".UNMARSHALLER",
+      ".decode() method must consume the inbound data ",
+      ".decode() must consume the inbound ",
+      "/glass_",
+      "/glass_pane_",
+      "0  ",
+      "0.00",
+      "020E0DFB-87AE-4653-9556-831010E291A0",
+      "0e291f67c9274a1abdddeb3fd919cbaa",
+      "1  ",
+      "10 ",
+      "11 ",
+      "12 ",
+      "13 ",
+      "14 ",
+      "15 ",
+      "16 ",
+      "17 ",
+      "18 ",
+      "19 ",
+      "1cbd08c76f8af6dddce02c5138971129",
+      "2  ",
+      "20 ",
+      "21 ",
+      "22 ",
+      "23 ",
+      "24 ",
+      "25 ",
+      "26 ",
+      "27 ",
+      "28 ",
+      "29 ",
+      "3  ",
+      "30 ",
+      "31 ",
+      "32 ",
+      "322c936a8c8be1b803cd94861bdfa868",
+      "33 ",
+      "4  ",
+      "5  ",
+      "6  ",
+      "6debd47ed13483642cf09e832ed0bc1b",
+      "7  "
+    ]
+  },
+  {
+    "original": "lllIllllIlIIllIIIIlIIllll",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "        java javazoom.jl.player.jlp -url http://www.server.com/remotefile.mp3",
+      "        java javazoom.jl.player.jlp -url http://www.shoutcastserver.com:8000",
+      " (Bryce)",
+      " (ID: ",
+      " - can't reassign to ",
+      " Build (",
+      " Name: ",
+      " cm",
+      " couldn't be hashed. Deleting it.",
+      " e.g. : java javazoom.jl.player.jlp localfile.mp3",
+      " events.",
+      " fails instantiation checks! ",
+      " found, only -45/-22.5/0/22.5/45 allowed",
+      " had wrong hash (expected ",
+      " is already assigned to protocol ",
+      " is already known to ID ",
+      " km",
+      " must be 0 or greater",
+      " must be greater than min (",
+      " packet ",
+      " restrictions:\n- Disclosure to any user below the lowest authorized ranking is prohibited. This includes but is not limited to new changes inside the build such as new features, fixes, and improvements.\n- Recording/streaming on this build is not recommended, but allowed to a certain extent. If any capturing software is showing this build, do not show any changes from this build that differ from the master branch. If, however, you are recording to submit a bug report, these restrictions do not apply.\n\nManagement reserves the rights to restrict your access to future builds if you violate any restrictions applied.",
+      " says:",
+      " seconds",
+      " task: ",
+      " wants to be your friend.",
+      " will be unavailable.",
+      "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~",
+      "\"'‘’“”?./!,;:_",
+      "\">]>\n",
+      "\"?\"",
+      "# MC_Client: PROFILES",
+      "################################",
+      "&data;\n",
+      "'from' specifier exceeds the allowed boundaries: ",
+      "'to' specifier exceeds the allowed boundaries: ",
+      "(?i)§[0-9A-F]",
+      "(?i)§[1-69A-E]",
+      "(Reflector) Field not found: ",
+      "(Reflector) More than one match found for field: ",
+      "(Unknown file)",
+      "(Unknown file) ",
+      "([a-zA-Z0-9-_ \\]\\[]+)",
+      "(name: ",
+      ") - ",
+      ") exceeds the allowed maximum (",
+      "). Deleting it.",
+      "+0+1-2+3&4-4+13",
+      "+0+1-2-3&4-4+13",
+      "+0-1+2-3&4-4+13",
+      "+0-1-2+3&4-4+13",
+      "+0-1-2-3&4-4+13",
+      "+14&13-13",
+      "+5-6-7",
+      ", array: ",
+      ", basePath: ",
+      ", found ",
+      ", frameCount=",
+      ", frameHeight: ",
+      ", frameIndex: ",
+      ", frameWidth: ",
+      ", func: ",
+      ", matchBlocks: ",
+      ", matchTiles: ",
+      ", mu=",
+      ", ref: ",
+      ", rotated=",
+      ", size: ",
+      ", this: ",
+      ", to: ",
+      ", u0=",
+      ", u1=",
+      ", v0=",
+      ", v1=",
+      ", x=",
+      ", y=",
+      "----name=",
+      "--> Last-good-stream-ID = ",
+      "-0+1+2-3+13&4-4",
+      "-0+1-2-3&4-4+13",
+      "-0+3-4+13"
+    ]
+  },
+  {
+    "original": "lllIIllIIlIIlIIlIllIIIlII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\r\n\r\n<html><head></head><body><h1>",
+      "\r\nContent-Type: text/html\nServer: TooTallNate Java-WebSocket\r\nContent-Length: ",
+      "  #",
+      "  ~",
+      " ()",
+      " (decimal)",
+      " (expected: 1+)",
+      " (expected: Thread.MIN_PRIORITY <= priority <= Thread.MAX_PRIORITY)",
+      " Dashed Line",
+      " Eye Height",
+      " Eye Height Color",
+      " FOV",
+      " HTTP/1.1",
+      " Hitbox",
+      " Hitbox Options",
+      " Hitbox Outline",
+      " I ",
+      " Line Distance",
+      " Line Thickness",
+      " Look Vector",
+      " Look Vector Color",
+      " Outline Color",
+      " X ",
+      " as a Component",
+      " certificate with unknown fingerprint: ",
+      " could not be instantiated",
+      " does not have a class function toLevel(String, Level)",
+      " event!",
+      " extension: ",
+      " for JMSAppender named [",
+      " fps, C: ",
+      " i ",
+      " in the specified shader program.",
+      " incoming friend requests",
+      " instances.  ",
+      " instead of ",
+      " into a Component",
+      " is a shared resource that must be reused across the JVM,",
+      " is an invalid choice",
+      " max frame size: ",
+      " or password: ",
+      " protocol: ",
+      " refuses handshake",
+      " username: ",
+      " values should be in pure ascii",
+      "!0 & !1 & !2 & 3 & 3+6",
+      "!0 & !1 & 2 & !3 & 2+6",
+      "!0 & !1 & 2 & 3",
+      "!0 & 1 & !2 & !3 & 1+6",
+      "!0 & 1 & !2 & 3 & 3+6",
+      "!0 & 1 & 2 & !3 & 2+6",
+      "!0 & 1 & 2 & 3 & 2+6",
+      "\" has no closing brace. Opening brace at position ",
+      "\" object is not assignable to a \"",
+      "\" variable.",
+      "\" was loaded by ",
+      "\" was loaded by [",
+      "#  ",
+      "## ",
+      "#.*",
+      "#.00",
+      "#R#",
+      "#W#",
+      "%BOOST%",
+      "' (",
+      "' - expected object, found ",
+      "' at: ",
+      "' defined",
+      "' for item: '",
+      "' for variant: '",
+      "' from: '",
+      "' in resourcepack: '",
+      "'->name: empty value",
+      "'->region: empty value",
+      "(?:^\\s+|\\s+$|\\n)",
+      "(COPIES CURRENT PROFILE) ",
+      "([0-9]+)\\.([0-9]+)(\\.([0-9]+))?(.+)?",
+      "([A-Z])([0-9]+)(.*)",
+      "([^/]+/)shaders/",
+      "([a-zA-Z0-9_]+)"
+    ]
+  },
+  {
+    "original": "IIIIIlIllllIIIlIIlIllIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      "\n\tat ",
+      "\nStacktrace:",
+      " (expected: offset <= offset + length <= dsts.length (",
+      " (expected: offset <= offset + length <= srcs.length (",
+      " --\n",
+      " NE",
+      " NW",
+      " SE",
+      " SW",
+      " bytes encoded, max ",
+      " in conversion patterrn.",
+      " is already defined",
+      " kbps",
+      " not allowed for this operation",
+      " not allowed in a pipeline",
+      "\" not a decimal integer.",
+      "%.2f,%.2f,%.2f - %s",
+      "%1$d, %2$d, %3$d",
+      "%COORDS%",
+      "%CPS%",
+      "%DIR%",
+      "%FPS%",
+      "%IP%",
+      "%NL%",
+      "%X%",
+      "%Y%",
+      "%Z%",
+      "' does not exist",
+      "(%1$d, %2$d)",
+      "(%1$d, %2$d, %3$d)",
+      "(%1$d, %2$d, %3$d, C: %4$s)",
+      "(%1$d, %2$d, C: %3$s)",
+      "(16, 65, 120) NW",
+      "(Default)",
+      "(Error finding chunk loc)",
+      "(Error finding world loc)",
+      "(Level ",
+      "(Preferred)",
+      "(\\S+)/(\\d+)\\.(\\d+)",
+      "(\\w+)",
+      "(freed)",
+      "(ridx: ",
+      ") isn't a positive integer.",
+      ", bold=",
+      ", cap: ",
+      ", clickEvent=",
+      ", color=",
+      ", hoverEvent=",
+      ", id=",
+      ", insertion=",
+      ", italic=",
+      ", name='",
+      ", obfuscated=",
+      ", operation=",
+      ", paths: ",
+      ", real: ",
+      ", serialize=",
+      ", underlined=",
+      ", unwrapped: ",
+      ", valueDefault: ",
+      ", when resolving: ",
+      ", widx: ",
+      "-- ",
+      "--> Size = ",
+      ".\n Was expecting digit, instead got char \"",
+      ".*/libc-(\\d+)\\.(\\d+)\\..*",
+      ".*/libstdc\\+\\+\\.so\\.(\\d+)\\.0\\.(\\d+)",
+      ".decode() did not read anything but decoded a message.",
+      ".mcmeta",
+      "/discord-ipc-",
+      "/lib/libc.so.6",
+      "/usr/lib/libstdc++.so.5",
+      "/usr/lib/libstdc++.so.6",
+      "0 is not a valid status code for a RST_STREAM",
+      "1234",
+      "; OpenSSL error: '",
+      "= [ Description ] =\n",
+      "AA_LEVEL",
+      "ABS",
+      "ACCOUNT_NOT_BOUND"
+    ]
+  },
+  {
+    "original": "IlIlIIllllIIllIIlIlIlllII",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      " ##",
+      " (incompatible)",
+      " (length: >= 1)",
+      " (persist value: ",
+      " Exit ",
+      " [CPY]",
+      " [Copy]",
+      " [OPN]",
+      " [Open]",
+      " [UPL]",
+      " [Upload]",
+      " a LogTableColumn.",
+      " and copied ",
+      " blocks",
+      " class loader.",
+      " closed",
+      " custom profiles",
+      " does not extend PatternConverter.",
+      " fancy-clouds",
+      " fast",
+      " fast-clouds",
+      " for ",
+      " from remote entity.",
+      " in conversion pattern.",
+      " in ht.",
+      " is ",
+      " is not a valid integer.",
+      " missing response(s)",
+      " not found",
+      " port ",
+      " ticks",
+      " to open the Mod Menu.",
+      " vbo",
+      " vsync",
+      " when I expected it to be compiling; aborting task",
+      " when I expected it to be pending; ignoring task",
+      "! Press escape and ",
+      "\" icon",
+      "\"Silently\" catching entity tracking error.",
+      "# %COORDS% - Display coordinates.",
+      "# %CPS% - Display CPS.",
+      "# %DIR% - Display current look direction.",
+      "# %FPS% - Display current FPS.",
+      "# %IP% - Current server IP.",
+      "# %NL% - Break into a new line.",
+      "# %X% - Your X location.",
+      "# %Y% - Your (foot) Y location.",
+      "# %Z% - Your Z location.",
+      "# (& color formatting is allowed)",
+      "# Customize your HUD info display string.",
+      "# MC_Client: GLOBAL SETTINGS",
+      "# MC_Client: MODULE SETTINGS",
+      "# Optional uses:",
+      "########## GL ERROR ##########",
+      "##0.00",
+      "#@!@# Game crashed! Crash report saved to: #@!@# ",
+      "#@?@# Game crashed! Crash report could not be saved. #@?@#",
+      "%d fps (%d chunk update%s) T: %s%s%s%s%s",
+      "%s (%s)",
+      "&9Copied &fscreenshot.",
+      "&n=",
+      "&s=",
+      "' tried to join with an invalid session",
+      "'.'yyyy-MM-dd",
+      "(+NBT)",
+      "([a-zA-Z0-9/]+)/",
+      ") [",
+      ", texid: ",
+      ", y: ",
+      "-+BEGIN\\s+.*CERTIFICATE[^-]*-+(?:\\s|\\r|\\n)+([a-z0-9+/=\\r\\n]+)-+END\\s+.*CERTIFICATE[^-]*-+",
+      "-+BEGIN\\s+.*PRIVATE\\s+KEY[^-]*-+(?:\\s|\\r|\\n)+([a-z0-9+/=\\r\\n]+)-+END\\s+.*PRIVATE\\s+KEY[^-]*-+",
+      "--> ",
+      "-Position=",
+      "-RenderHUD=",
+      "-State=",
+      "-WasRenderHUD=",
+      "-client.txt",
+      "-xTranslation=",
+      "-yTranslation=",
+      ". All logging will FAIL."
+    ]
+  },
+  {
+    "original": "IIIlllIIllIIlIlIllllIIlIl",
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "methods": 1,
+    "fields": 1,
+    "strings": [
+      " ...",
+      " OpenGL errors",
+      " Pack",
+      " Packs",
+      " Subfolder",
+      " Subfolders",
+      " active connections)\r\n\r\n",
+      " has been CheatBreaker Banned (#000",
+      " is in the wrong location; relocating. (Expected ",
+      " is missing block data, skipping",
+      " is missing level data, skipping",
+      "%dx %s",
+      "(too big to display)",
+      ", fin:",
+      ", len:",
+      ", payloadlength:[pos:",
+      ", rsv1:",
+      ", rsv2:",
+      ", rsv3:",
+      "--> Delta-Window-Size = ",
+      ".OOS",
+      "1.0x",
+      "98ping",
+      "<unknown>",
+      "ARB_fragment_shader is ",
+      "ARB_framebuffer_object is ",
+      "ARB_framebuffer_object is supported and separate blending is supported.\n",
+      "ARB_shader_objects is ",
+      "ARB_shader_objects, ARB_vertex_shader, and ARB_fragment_shader are supported.\n",
+      "ARB_vertex_buffer_object is supported.\n",
+      "ARB_vertex_shader is ",
+      "Above",
+      "Add",
+      "AuxSize",
+      "Back to Main Folder",
+      "BatFlags",
+      "Below",
+      "Change the scale of the mod.",
+      "Channel: ",
+      "Chunk file at ",
+      "Client (map_client.txt)",
+      "Console",
+      "DOMAIN",
+      "Decencies",
+      "Delta-Window-Size must be positive: ",
+      "DiffuseSampler",
+      "EXT_blend_func_separate is ",
+      "EXT_framebuffer_object is ",
+      "EXT_framebuffer_object is supported.\n",
+      "Encountered error while in SocketHandler loop.",
+      "Failed to save chunk",
+      "Framedata{ optcode:",
+      "FreddieJLH",
+      "GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT",
+      "GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER",
+      "GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT",
+      "GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER",
+      "GUI Scale",
+      "InSize",
+      "InhabitedTime",
+      "Invalid URL: ",
+      "LightPopulated",
+      "Moose1301",
+      "Netty Local Server IO #%d",
+      "Not At",
+      "Not using framebuffer objects because ",
+      "Noxiuam",
+      "OpenGL 1.3, ARB_copy_buffer",
+      "OpenGL 1.4",
+      "OpenGL 1.4 is ",
+      "OpenGL 1.5 is supported.\n",
+      "OpenGL 2.1 is ",
+      "OpenGL 2.1 is supported.\n",
+      "OpenGL 3.0 is ",
+      "OpenGL 3.0 is supported and separate blending is supported.\n",
+      "OutSize",
+      "Payload may not be larger than 32767 bytes",
+      "ProjMat",
+      "ScreenSize",
+      "Sending Custom Payload with Channel: "
+    ]
+  }
+]

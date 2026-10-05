@@ -1,0 +1,1627 @@
+[
+  {
+    "original": "IIIIIIIIIIIlIIIllIllIIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass0000",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIIIIIIIllIlIlIIIlIlll",
+    "name": "recovered/unidentified/UnidentifiedClass0002",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIIIlIllllIlIIIIIIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass0026",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIIIllllIIllIlIIlIlIll",
+    "name": "recovered/unidentified/UnidentifiedClass0030",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIIlllIllllIllIllIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass0064",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIlIIllIlIIlIIIIIlIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass0089",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIlIlIIlllllllIlllllIl",
+    "name": "recovered/unidentified/UnidentifiedClass0097",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIlIllIlllllIllIlllllI",
+    "name": "recovered/unidentified/UnidentifiedClass0105",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIlIllllIIIlIIlIllIlIl",
+    "name": "recovered/strings/StringTable01",
+    "role": "string-table"
+  },
+  {
+    "original": "IIIIIllIlIIllIIIIlIllllII",
+    "name": "recovered/unidentified/UnidentifiedClass0122",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIllIlllIIIIIIllIlllll",
+    "name": "recovered/unidentified/UnidentifiedClass0127",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIIlllIIlllIlllllIIlIII",
+    "name": "recovered/strings/StringTable02",
+    "role": "string-table"
+  },
+  {
+    "original": "IIIIIllllIlIllIlIllllIllI",
+    "name": "recovered/unidentified/UnidentifiedClass0144",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIlIIIlIIIlIIlllIIIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass0156",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIlIIllIllIIIIllIIlllll",
+    "name": "recovered/unidentified/UnidentifiedClass0173",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIlIlIllllIllllIIIllllI",
+    "name": "recovered/unidentified/UnidentifiedClass0189",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIlIlllIlllIlllIIlIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass0201",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIllIIIllIllllIlllIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass0212",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIIllIIllIlIIIlIlIlIIllI",
+    "name": "recovered/strings/StringTable03",
+    "role": "string-table"
+  },
+  {
+    "original": "IIIIlllIlIllIIlIIlIIlIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass0243",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlIIIIIlIIIIlIllllIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass0268",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlIIIIlIlIIllIIllllIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass0275",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlIIlIlIIlllllIlIllIllI",
+    "name": "recovered/unidentified/UnidentifiedClass0300",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlIIlllIIIIIllllIIlIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass0313",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlIIlllIlIlIlllllIllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass0315",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlIlIlIIIIlIIlIlllllIII",
+    "name": "recovered/unidentified/UnidentifiedClass0334",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlIlIlllIIllIlllIlllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass0347",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlIllllIllllIllIIlIIlII",
+    "name": "recovered/unidentified/UnidentifiedClass0366",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIllIIIIllIllIIIIIllIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass0373",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIllIIlllIIllllIIIIIIlIl",
+    "name": "recovered/unidentified/UnidentifiedEnum0393",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlllIIIIllIlIIlIlllIIII",
+    "name": "recovered/unidentified/UnidentifiedClass0429",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlllIIlIIllIIIIIllllIll",
+    "name": "recovered/unidentified/UnidentifiedClass0433",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlllIIllIIlIlIllllIIlIl",
+    "name": "recovered/strings/StringTable04",
+    "role": "string-table"
+  },
+  {
+    "original": "IIIlllIIlllIllllllllIllII",
+    "name": "recovered/unidentified/UnidentifiedClass0440",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIIlllllIIIIIlIlllIlIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass0477",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIIIIIIIIIlllIIllIlllI",
+    "name": "recovered/unidentified/UnidentifiedClass0491",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIIIIIlIlIllIIlIllIIII",
+    "name": "recovered/unidentified/UnidentifiedClass0499",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIIIlIIllIIllIIIIIllII",
+    "name": "recovered/unidentified/UnidentifiedClass0517",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIIIlIlIlIIllIlIIIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass0520",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIIIllllIllIlllIlIlIlI",
+    "name": "recovered/unidentified/UnidentifiedClass0525",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIIIllllIllllllIlIlIIl",
+    "name": "recovered/unidentified/UnidentifiedClass0526",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIIlIlIIIIlllIllIllIIl",
+    "name": "recovered/strings/StringTable05",
+    "role": "string-table"
+  },
+  {
+    "original": "IIlIIIlllIIIlIlIlIIlIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass0546",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIlIIIIlIIlIIlllIIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass0557",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIllIlllIllIIllllIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass0599",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIlllIlIIlIlIllIIIllII",
+    "name": "recovered/unidentified/UnidentifiedClass0606",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIlllIllIIlIlIlIlllIll",
+    "name": "recovered/unidentified/UnidentifiedClass0609",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIIlllIllIlllllllIIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass0611",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIlIIIIlIIIlIIIIIIllIII",
+    "name": "recovered/unidentified/UnidentifiedClass0631",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIlIlllIIIIIllllIIIllll",
+    "name": "recovered/unidentified/UnidentifiedClass0672",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIllIIlIIllIIlIIIIlIlII",
+    "name": "recovered/unidentified/UnidentifiedClass0682",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIllIllIIIIIIlIllIIIIII",
+    "name": "recovered/unidentified/UnidentifiedClass0696",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIlllIIIIIllIllIlIlllll",
+    "name": "recovered/unidentified/UnidentifiedClass0706",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIlllIlIIIlIIlIllIlllIl",
+    "name": "recovered/unidentified/UnidentifiedClass0715",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlIlllIlIlIIIlIllIIIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass0717",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIllIIIlIlIlIIIllIlIIlIlI",
+    "name": "recovered/unidentified/UnidentifiedClass0753",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIllIIllllllIlIIIIIIlllII",
+    "name": "recovered/unidentified/UnidentifiedClass0792",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIllIlIIIllIIIIIllIlllIlI",
+    "name": "recovered/unidentified/UnidentifiedClass0798",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIllIlIIlIIIlIllIlIIIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass0801",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIllIlIIllIIlIIlIllIIlIlI",
+    "name": "recovered/unidentified/UnidentifiedClass0806",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIllIllllIIlIlllllIlIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass0842",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIllIlllllIIllIIlIIllIlII",
+    "name": "recovered/unidentified/UnidentifiedClass0849",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlllIIllIIllIlIIIIIllIll",
+    "name": "recovered/unidentified/UnidentifiedClass0877",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlllIIllIIllIllllIlIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass0878",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlllIIllllIlIllIlIlIlIll",
+    "name": "recovered/unidentified/UnidentifiedClass0882",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlllIlIIlllIIllllIIlIllI",
+    "name": "recovered/unidentified/UnidentifiedClass0890",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIllllIIIIIllIlIlllIIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass0913",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIllllIIIllIlllllIlllIIll",
+    "name": "recovered/unidentified/UnidentifiedClass0921",
+    "role": "unidentified"
+  },
+  {
+    "original": "IIlllllIlIIIIIIIlIIlllIII",
+    "name": "recovered/unidentified/UnidentifiedClass0943",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIIIIIIIIlllIIIlIllIllI",
+    "name": "recovered/unidentified/UnidentifiedClass0968",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIIIIlIIIIlllIlIlIlIIlI",
+    "name": "recovered/unidentified/UnidentifiedInterface0987",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIIIIllIllIlllIIlIIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass0998",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIIIIllIlllIIllllIlIlll",
+    "name": "recovered/unidentified/UnidentifiedClass0999",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIIlIIIIllIIIllIIllllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1036",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIIIlIIIlIIllIIlIIlII",
+    "name": "recovered/unidentified/UnidentifiedClass1092",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIIIlIlIllIlIIlIlIllI",
+    "name": "recovered/unidentified/UnidentifiedClass1095",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIIIllIlIlIIIlllIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass1096",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIIIllllllIlIllllIIll",
+    "name": "recovered/unidentified/UnidentifiedClass1099",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIIlIlIIIlIIIIlllIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass1104",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIIlllIlllllIIlllIllI",
+    "name": "recovered/unidentified/UnidentifiedClass1113",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIlIIIIllIIlIIllIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1117",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIlIIIllIllIlllIlIIII",
+    "name": "recovered/unidentified/UnidentifiedClass1118",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIllIllIIIllIllllllII",
+    "name": "recovered/unidentified/UnidentifiedClass1132",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlIlllIlIIIIIlIIIllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass1135",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIllIIllIIllIlllIIllIII",
+    "name": "recovered/unidentified/UnidentifiedClass1161",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIllIlIIIIlllIlIIllIlll",
+    "name": "recovered/unidentified/UnidentifiedClass1163",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIllIlIlIlIlllIlIIIlllI",
+    "name": "recovered/strings/StringTable06",
+    "role": "string-table"
+  },
+  {
+    "original": "IlIIllIlllIIIIIlIIIllIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass1171",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlllIIlIIlIlIllIIIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass1182",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIlllIIllllIlIIllIIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass1187",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIIllllIIIlIIllIllIlIIIl",
+    "name": "recovered/strings/StringTable07",
+    "role": "string-table"
+  },
+  {
+    "original": "IlIIlllllIllIIlIIlIllIIIl",
+    "name": "recovered/unidentified/UnidentifiedEnum1205",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIIIIIlIlllllIlllIllII",
+    "name": "recovered/unidentified/UnidentifiedClass1216",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIIIIlIlIllIlIlllllllI",
+    "name": "recovered/unidentified/UnidentifiedClass1221",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIIIIllIllIIIIIIIlIlII",
+    "name": "recovered/unidentified/UnidentifiedClass1222",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIIIllIIIllIllIlIIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass1227",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIIlIlllIllIlllIIlllll",
+    "name": "recovered/unidentified/UnidentifiedInterface1247",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIIllIlIIlIlIIlIlIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass1256",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIIllllIIllIIlIlIlllII",
+    "name": "recovered/strings/StringTable08",
+    "role": "string-table"
+  },
+  {
+    "original": "IlIlIlIIIllIlIllIIlllIlll",
+    "name": "recovered/unidentified/UnidentifiedClass1276",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIlIIlllIIlIIllIIIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1285",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIlIlIIlIIIllIlIlIlIlI",
+    "name": "recovered/unidentified/UnidentifiedClass1290",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIlIlIlIlIlIIlIlllllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1294",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIllIIIIllIlIllIlIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass1308",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIllIlIIIlIlIlIIlIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass1316",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlIllIlIlllIlIIlIlIlllI",
+    "name": "recovered/unidentified/UnidentifiedClass1318",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIllIIIIlIlIIlllIlllIIII",
+    "name": "recovered/unidentified/UnidentifiedClass1349",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIllIIIIllIlllIIllIIIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass1350",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIllIIIlllIlIIllIIIIlIll",
+    "name": "recovered/unidentified/UnidentifiedClass1353",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIllIlIIIlIlllIIIlIIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass1369",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIllIlIlllllIIllllIIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass1381",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIllIllIIIllIlIIIllllIlI",
+    "name": "recovered/unidentified/UnidentifiedClass1385",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIllIllIIlIllllllIIIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1388",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIllIlllIllIlllIlIIllIlI",
+    "name": "recovered/unidentified/UnidentifiedClass1394",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlllIlllIlllIllIlIIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass1421",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIllllIllllIlIIIlIIIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass1437",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlllllIIllllIIlIIIllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass1440",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlllllIlIllIllIIlllIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass1443",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlIlllllllIIlllllIIIllIII",
+    "name": "recovered/unidentified/UnidentifiedClass1449",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIIIIIlIIlIlIIlIllIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass1464",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIIIIIllIIlIlIIIlIllllI",
+    "name": "recovered/unidentified/UnidentifiedClass1468",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIIIIlIIIlIlIllIlIIllII",
+    "name": "recovered/unidentified/UnidentifiedClass1472",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIIIllllIlllIlIIIlllllI",
+    "name": "recovered/unidentified/UnidentifiedClass1509",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIIlIlIlIlIlIIIIIlllIll",
+    "name": "recovered/unidentified/UnidentifiedClass1534",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIIllIllIIlllIIIIIlIlll",
+    "name": "recovered/unidentified/UnidentifiedClass1561",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlIIIIIIIlIlIllllllIll",
+    "name": "recovered/unidentified/UnidentifiedClass1577",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlIIIIllIIIIlIIlllIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass1583",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlIIIlIlllIlllIlIIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass1587",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlIIIlllIIIIIlIlIlllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1590",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlIIlIlllIllIlIIlIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass1595",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlIlIIIIIlIllIIIllIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass1605",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlIlIIlllIlIllllIlIlII",
+    "name": "recovered/unidentified/UnidentifiedClass1610",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlIllIIlllIIlIllIIIIII",
+    "name": "recovered/unidentified/UnidentifiedClass1617",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlIllllIllllIllIIlIIII",
+    "name": "recovered/unidentified/UnidentifiedInterface1631",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIllIllllIllIllIlIlIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass1658",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllIlllIllIlIlIIlIIllllll",
+    "name": "recovered/unidentified/UnidentifiedClass1675",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIIIIIIIIlIIllIllIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass1688",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIIIIIllllIIIIllIllllI",
+    "name": "recovered/unidentified/UnidentifiedClass1701",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIIllllIllIlIIIIlIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1745",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIIllllllIlllllIlIllII",
+    "name": "recovered/unidentified/UnidentifiedClass1748",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIlIIIIIIIlllIlIllllII",
+    "name": "recovered/unidentified/UnidentifiedClass1750",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIlIlIlIIllllIIIIIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass1769",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIlIllIIllIlIIIIlIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass1774",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIlIllIlIlllIIlIlIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass1776",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIllIIIIlllIllIllIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass1784",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIllIIIlIlllllllIllIll",
+    "name": "recovered/unidentified/UnidentifiedClass1785",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIllIIllIlllIIIIlIlIIl",
+    "name": "recovered/unidentified/UnidentifiedClass1790",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIllIllIllIlIIlllIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1798",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIlllIlIllllIIlIllIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass1810",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIllllIIllIlIlIlllllII",
+    "name": "recovered/unidentified/UnidentifiedClass1812",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllIlllllIIlIlIlIIIlllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1818",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllllIIlIlIIllllIIIllIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass1852",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllllIIllIIlllllllIIlIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass1858",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllllIllIlIIlIlIllIIllIII",
+    "name": "recovered/unidentified/UnidentifiedClass1883",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllllIIIlIIllIIIIIIIllll",
+    "name": "recovered/unidentified/UnidentifiedClass1899",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllllIlIIIIIIIIllIlIlIIl",
+    "name": "recovered/unidentified/UnidentifiedClass1908",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllllIllIlIllIlIIllIlllI",
+    "name": "recovered/strings/StringTable09",
+    "role": "string-table"
+  },
+  {
+    "original": "IllllllIIllllIlIIIlIIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass1927",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllllllIIlIlIlIlIlllllll",
+    "name": "recovered/unidentified/UnidentifiedClass1944",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllllllIIlllIIIIIlIlllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1945",
+    "role": "unidentified"
+  },
+  {
+    "original": "IllllllllIIIIlIIlIIIIlIIl",
+    "name": "recovered/unidentified/UnidentifiedClass1951",
+    "role": "unidentified"
+  },
+  {
+    "original": "IlllllllllIlIlIIIIIlIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass1954",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIIIIlIIIIlIIllllIIIII",
+    "name": "recovered/unidentified/UnidentifiedClass3153",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIIlIIIlIIllllIlllIIII",
+    "name": "recovered/unidentified/UnidentifiedClass3177",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIlIIIIlIIIlIIllIlIlII",
+    "name": "recovered/unidentified/UnidentifiedClass3199",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIlIIIlIIlIlllllIIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass3204",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIlIlIlIIllIIlIIlllIll",
+    "name": "recovered/unidentified/UnidentifiedClass3218",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIlIllIlIIIIllllIlllII",
+    "name": "recovered/unidentified/UnidentifiedClass3223",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIllIlllIIIllIIlIlIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass3246",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIlllIlIIIlIlllllIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass3248",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIlllIlIlIllIIIIIIllII",
+    "name": "recovered/unidentified/UnidentifiedClass3249",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIlllllIlIIllIIIllllIl",
+    "name": "recovered/unidentified/UnidentifiedClass3253",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIIlllllIllllIIlllIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass3255",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIlIIllllllllIllIIllIll",
+    "name": "recovered/unidentified/UnidentifiedClass3279",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIllIIIIllllIllIllllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass3311",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIllIlIlIlllllllllllllI",
+    "name": "recovered/unidentified/UnidentifiedClass3330",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIIllIllllllIIlIlIIIllIl",
+    "name": "recovered/strings/StringTable10",
+    "role": "string-table"
+  },
+  {
+    "original": "lIIIlllllIlIlIllIlIlllllI",
+    "name": "recovered/unidentified/UnidentifiedClass3368",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIIIIlllIlIIIlIlIIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass3379",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIIIlIllIlIIllllIllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass3386",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIIIllIIIIIllIlllIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass3389",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIIIlllIlIIlIIlIllllIl",
+    "name": "recovered/unidentified/UnidentifiedClass3394",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIIlIIIllllIlIlllIIIII",
+    "name": "recovered/unidentified/UnidentifiedClass3398",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIIlIlIllllIIIIllIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass3405",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIIllllIIIllllIIIlIlll",
+    "name": "recovered/unidentified/UnidentifiedClass3416",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIlIlIIlIIIIIlIIIllIlI",
+    "name": "recovered/unidentified/UnidentifiedClass3434",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIlIlIIllIIlIllIlIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass3436",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIllIlIIlIlIIlllllIIll",
+    "name": "recovered/unidentified/UnidentifiedClass3460",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIllIlIlIIIIIIIIIlllll",
+    "name": "recovered/unidentified/UnidentifiedClass3463",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIlllIllIIIllllIlIIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass3475",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlIllllllllIIIIlIlIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass3482",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIllIIlIIlIIIllIIlIlllll",
+    "name": "recovered/unidentified/UnidentifiedClass3499",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIllIlIIllIlIlllIIlIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass3516",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlllIIIlIlllIllIllIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass3543",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlllIIllllIIIllIlIIlIll",
+    "name": "recovered/unidentified/UnidentifiedClass3556",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIlllIllIIllIlIIlIlIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass3568",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIllllIIlIllIIlIIllllllI",
+    "name": "recovered/unidentified/UnidentifiedClass3581",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIllllIlIIIllIIllllIlllI",
+    "name": "recovered/unidentified/UnidentifiedClass3584",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIllllllIIIIlIIIllIlIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass3599",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIIllllllllIlllllIlIllIII",
+    "name": "recovered/unidentified/UnidentifiedClass3605",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIIIIIIIIlllIlIIIlIIll",
+    "name": "recovered/strings/StringTable11",
+    "role": "string-table"
+  },
+  {
+    "original": "lIlIIIIIIIlIllllIlIlIlllI",
+    "name": "recovered/unidentified/UnidentifiedClass3609",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIIIIIlIllIIIllllIlIlI",
+    "name": "recovered/unidentified/UnidentifiedClass3613",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIIIIlIIIIlIlIIlIIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass3620",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIIIIllIIIIllIIIIllIlI",
+    "name": "recovered/unidentified/UnidentifiedClass3624",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIIIllIIllllIIIlllIlII",
+    "name": "recovered/unidentified/UnidentifiedEnum3640",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIIlIllIlllllllllIIlII",
+    "name": "recovered/strings/StringTable12",
+    "role": "string-table"
+  },
+  {
+    "original": "lIlIIIllllllllIIIIlIlIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass3676",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIlIIlIIlIlIIlIlIlllII",
+    "name": "recovered/unidentified/UnidentifiedClass3688",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIlIlllIIIllIlllIllllI",
+    "name": "recovered/unidentified/UnidentifiedClass3697",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIllIIIllllIlIIllIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass3707",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIIlllllllIlIllllIlllII",
+    "name": "recovered/unidentified/UnidentifiedClass3734",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIlIlIlllIlIlIIIIIIIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass3777",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIlIlllIIllIIIlIIlllllI",
+    "name": "recovered/unidentified/UnidentifiedClass3786",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIllIlIlIlIIllIlIlllIII",
+    "name": "recovered/unidentified/UnidentifiedClass3810",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIlllIllllIllIIllIIIlII",
+    "name": "recovered/unidentified/UnidentifiedClass3830",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIllllIIlIIlIIlllIlIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass3833",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlIllllllllIIlIIIIlIIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass3838",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIIIIIlIIlIlIIlIllIIII",
+    "name": "recovered/unidentified/UnidentifiedClass3843",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIIIlIIIlIlIllllllIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass3854",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIIIlIlIIllIllIIllIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass3858",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIIIllllIIllIIIlllIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass3867",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIIlIIlIIIllIllIIIlIll",
+    "name": "recovered/unidentified/UnidentifiedClass3870",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIIlIIllllllIIlIIllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass3876",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIIlIllIIlIlIIIIlIllll",
+    "name": "recovered/unidentified/UnidentifiedClass3884",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIIlllIIlIlllIIIIllIII",
+    "name": "recovered/unidentified/UnidentifiedClass3897",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIlIIIIlIlIIIIlIIlIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass3906",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIlIIIIlllIllIIlIlIlll",
+    "name": "recovered/unidentified/UnidentifiedClass3909",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIlIIllIIllIllIlIIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass3918",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIllIllIIllIlIIIIIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass3946",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllIlllIlIllIIlIIIIllIII",
+    "name": "recovered/unidentified/UnidentifiedClass3953",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlllIIIllIlIllIIIllIIlIl",
+    "name": "recovered/unidentified/UnidentifiedEnum3979",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlllIIllIIIllIIIIllIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass3988",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlllIlIIllIlIIIIIIlllIlI",
+    "name": "recovered/unidentified/UnidentifiedClass4000",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlllIlIlllIIllllIIlllllI",
+    "name": "recovered/unidentified/UnidentifiedClass4013",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlllIllIIIlIlIlIIlIlIllI",
+    "name": "recovered/unidentified/UnidentifiedEnum4019",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIllllIIlIIllIlIIIllIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass4040",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlllllIlIlIllIIIlIIllIII",
+    "name": "recovered/unidentified/UnidentifiedClass4074",
+    "role": "unidentified"
+  },
+  {
+    "original": "lIlllllIllIlIIlIlllIIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass4078",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIIIIlllIllIIlIIlllIII",
+    "name": "recovered/unidentified/UnidentifiedClass4110",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIIlIIIIlIIIIIllIlIIll",
+    "name": "recovered/unidentified/UnidentifiedInterface4137",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIIlIlIlIllIIIllIIIIII",
+    "name": "recovered/unidentified/UnidentifiedClass4157",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIIllllIIIIllIIlIIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass4179",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIlIIIIlIIIIIllIIlIllI",
+    "name": "recovered/unidentified/UnidentifiedClass4185",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIlIIlIlIIllIllIIlllII",
+    "name": "recovered/unidentified/UnidentifiedClass4197",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIlIllIlIllIIIlllIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass4213",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIllIIIlIIIIIIIlIlllll",
+    "name": "recovered/unidentified/UnidentifiedClass4217",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIllIIlIllIIlIIlllIlII",
+    "name": "recovered/unidentified/UnidentifiedClass4220",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIlllIIlIlIllIlIlIIlII",
+    "name": "recovered/unidentified/UnidentifiedClass4238",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIlllIIlIlllIIIIIIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass4240",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIIllllIIIIllIIIlIlIlII",
+    "name": "recovered/unidentified/UnidentifiedClass4246",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIlIIIlIlIIllIIIIIllIll",
+    "name": "recovered/unidentified/UnidentifiedClass4262",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIlIlIlIlIlIlIIIIIIllIl",
+    "name": "recovered/unidentified/UnidentifiedEnum4287",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIlIlIlllIIIIlIIllIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass4292",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIlIllIIlllIllIlIlllIll",
+    "name": "recovered/unidentified/UnidentifiedClass4298",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIllIIlIIllIlIIlllllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass4327",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIllIIlIlIlIllIlllllIlI",
+    "name": "recovered/unidentified/UnidentifiedClass4330",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIllIlIllIlIIlllllllIII",
+    "name": "recovered/unidentified/UnidentifiedClass4343",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIllllIIlIIIIIllllIllll",
+    "name": "recovered/unidentified/UnidentifiedClass4363",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIlllllIIlIIIlIlIIlIlII",
+    "name": "recovered/unidentified/UnidentifiedClass4372",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIIllllllIllIIlIIIIIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass4376",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlIIIIIIlIIlIlIllIIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass4377",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlIIIlIIllIIlIllllIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass4396",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlIIIlIllIlIllIllIlIlll",
+    "name": "recovered/unidentified/UnidentifiedClass4400",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlIIlIllIlIIllIlIIIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass4432",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlIIlllIllIlIIllIIIIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass4439",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlIIlllllllIIlllllllllI",
+    "name": "recovered/unidentified/UnidentifiedClass4443",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlIlllIlllIIIllIIllIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass4492",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIllIIIIIIlIllllllIIIllI",
+    "name": "recovered/unidentified/UnidentifiedClass4502",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIllIIIIlIIIIllIIIlIlIIl",
+    "name": "recovered/unidentified/UnidentifiedClass4506",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIllIIIlIlIIllIIlIIlIlII",
+    "name": "recovered/unidentified/UnidentifiedClass4511",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIllIIIllIIllIlIIIIllIIl",
+    "name": "recovered/unidentified/UnidentifiedInterface4518",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIllIIllIllIllllIllIlIll",
+    "name": "recovered/unidentified/UnidentifiedClass4535",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIllIlIIIlIIlIllIlllllll",
+    "name": "recovered/unidentified/UnidentifiedClass4541",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlllIIIIIIlIllllIllIIll",
+    "name": "recovered/unidentified/UnidentifiedClass4575",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlllIIIIlIlIlllIllIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass4579",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlllIIIllIlIllllllllIll",
+    "name": "recovered/unidentified/UnidentifiedClass4584",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIlllIlIIlIlIIllIllIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass4596",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIllllIIlllllllIlIIIlIIl",
+    "name": "recovered/unidentified/UnidentifiedClass4617",
+    "role": "unidentified"
+  },
+  {
+    "original": "llIllllllllllIllIlIIIllII",
+    "name": "recovered/unidentified/UnidentifiedClass4638",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIIIIlIIllllIlIIIlllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass4657",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIIIIlllllIIIIIllIlIIII",
+    "name": "recovered/unidentified/UnidentifiedClass4667",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIIIlIIIllIlIlIIllIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass4671",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIIIlIlIIlIIIIlIlIIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass4676",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIIIllIIIllIIIIllIlIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass4690",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIIIllllIIIIIllIlIllIIl",
+    "name": "recovered/unidentified/UnidentifiedInterface4702",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIIlIIlIllllllIlIIlllII",
+    "name": "recovered/strings/StringTable13",
+    "role": "string-table"
+  },
+  {
+    "original": "lllIIlIlIIllIIlIlIlIIlIll",
+    "name": "recovered/unidentified/UnidentifiedClass4723",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIIlIllllIlllIllIlllllI",
+    "name": "recovered/unidentified/UnidentifiedClass4731",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIIllIIlIIlIIlIllIIIlII",
+    "name": "recovered/strings/StringTable14",
+    "role": "string-table"
+  },
+  {
+    "original": "lllIIlllIIIlIllIIlIlllIII",
+    "name": "recovered/unidentified/UnidentifiedClass4752",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlIIIIlIIlIIIllIlIIlII",
+    "name": "recovered/strings/StringTable15",
+    "role": "string-table"
+  },
+  {
+    "original": "lllIlIIIlIIIIlllIlllIlllI",
+    "name": "recovered/unidentified/UnidentifiedClass4776",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlIIIllllIllllllllIlll",
+    "name": "recovered/unidentified/UnidentifiedClass4786",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlIIlIIIIIlIlIIIlIllll",
+    "name": "recovered/unidentified/UnidentifiedClass4788",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlIIlIIIlllIlIIIlIlIll",
+    "name": "recovered/unidentified/UnidentifiedClass4790",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlIlIIIllIIlIIlIlIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass4798",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlIlllIlIlIIlIlllIlllI",
+    "name": "recovered/unidentified/UnidentifiedClass4814",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlIllllIIIllIllIIlIllI",
+    "name": "recovered/unidentified/UnidentifiedClass4816",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlIllllIIlIIIIIlIIlIIl",
+    "name": "recovered/unidentified/UnidentifiedClass4818",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlllIIIllIIlIllIIllIll",
+    "name": "recovered/unidentified/UnidentifiedClass4851",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlllIIlllllllllIIllllI",
+    "name": "recovered/unidentified/UnidentifiedClass4855",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIlllIllllllllIlIlIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass4866",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIllllIIIIIIllIIIllllII",
+    "name": "recovered/unidentified/UnidentifiedClass4867",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllIllllIlIIllIIIIlIIllll",
+    "name": "recovered/strings/StringTable16",
+    "role": "string-table"
+  },
+  {
+    "original": "lllIllllIlllllllIIlIIlIII",
+    "name": "recovered/unidentified/UnidentifiedClass4880",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllIIIllIIIIllIIIIllllIl",
+    "name": "recovered/unidentified/UnidentifiedClass4913",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllIIIlllIllllIIIllIIlII",
+    "name": "recovered/unidentified/UnidentifiedInterface4921",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllIIlIIlllllIllllIllIll",
+    "name": "recovered/unidentified/UnidentifiedClass4928",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllIIlllIlllIlIllIIIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass4951",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllIlIllIllllIIIllIIIIll",
+    "name": "recovered/unidentified/UnidentifiedClass4984",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllIlIllllIIllIIlIlIlIlI",
+    "name": "recovered/unidentified/UnidentifiedClass4985",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllIllllIIllIIIIlIIllIll",
+    "name": "recovered/unidentified/UnidentifiedClass4999",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllllIIIIlIllIlIIIlllllII",
+    "name": "recovered/unidentified/UnidentifiedClass5012",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllllIIlIIIIIIIIlIIIllIIl",
+    "name": "recovered/unidentified/UnidentifiedClass5030",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllllIllIlllllllIlIlIllll",
+    "name": "recovered/unidentified/UnidentifiedClass5059",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllllIllllIIllIIIlIllIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass5063",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllllIlllllIlIllIlIlIIlll",
+    "name": "recovered/unidentified/UnidentifiedClass5065",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllllIIlIIlIIlIIlIIIllIl",
+    "name": "recovered/unidentified/UnidentifiedClass5074",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllllIlIIllIllIIlllIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass5082",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllllIllIIlIlIlllllIIlIl",
+    "name": "recovered/unidentified/UnidentifiedClass5091",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllllllIIIIIIIIIIllIlllll",
+    "name": "recovered/unidentified/UnidentifiedClass5100",
+    "role": "unidentified"
+  },
+  {
+    "original": "lllllllIIllIlIllIIlIIIIlI",
+    "name": "recovered/unidentified/UnidentifiedClass5108",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllllllIllIlIlIIllIlIIIl",
+    "name": "recovered/unidentified/UnidentifiedClass5123",
+    "role": "unidentified"
+  },
+  {
+    "original": "llllllllllllIIlIlIlIlIIII",
+    "name": "recovered/unidentified/UnidentifiedClass5128",
+    "role": "unidentified"
+  }
+]

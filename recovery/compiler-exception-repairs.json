@@ -1,0 +1,552 @@
+[
+  {
+    "source": "src/main/java/com/cheatbreaker/client/websocket/AssetsWebSocket.java",
+    "header": "public static byte[] getKeyResponse(byte[] var0, byte[] var1) {",
+    "exception": "java.security.InvalidKeyException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/websocket/AssetsWebSocket.java",
+    "header": "public static byte[] getKeyResponse(byte[] var0, byte[] var1) {",
+    "exception": "java.security.NoSuchAlgorithmException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/websocket/AssetsWebSocket.java",
+    "header": "public static byte[] getKeyResponse(byte[] var0, byte[] var1) {",
+    "exception": "java.security.spec.InvalidKeySpecException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/websocket/AssetsWebSocket.java",
+    "header": "public static byte[] getKeyResponse(byte[] var0, byte[] var1) {",
+    "exception": "javax.crypto.IllegalBlockSizeException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/websocket/AssetsWebSocket.java",
+    "header": "public static byte[] getKeyResponse(byte[] var0, byte[] var1) throws java.security.InvalidKeyException, java.security.NoSuchAlgorithmException, java.security.spec.InvalidKeySpecException, javax.crypto.IllegalBlockSizeException {",
+    "exception": "javax.crypto.BadPaddingException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/websocket/AssetsWebSocket.java",
+    "header": "public static byte[] getKeyResponse(byte[] var0, byte[] var1) throws java.security.InvalidKeyException, java.security.NoSuchAlgorithmException, java.security.spec.InvalidKeySpecException, javax.crypto.IllegalBlockSizeException {",
+    "exception": "javax.crypto.NoSuchPaddingException"
+  },
+  {
+    "source": "src/main/java/com/jagrosh/discordipc/entities/pipe/Pipe.java",
+    "header": "public static Pipe method_13409(IPCClient var0, long var1, HashMap<String, Callback> var3, DiscordBuild... var4) {",
+    "exception": "com.jagrosh.discordipc.exceptions.NoDiscordClientException"
+  },
+  {
+    "source": "src/main/java/com/jagrosh/discordipc/IPCClient.java",
+    "header": "public void method_13323(DiscordBuild... var1) {",
+    "exception": "com.jagrosh.discordipc.exceptions.NoDiscordClientException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/world/World.java",
+    "header": "public void I() {",
+    "exception": "net.minecraft.world.MinecraftException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/crash/CrashReport.java",
+    "header": "public static void method_26097(String var0, String var1) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/network/CustomPayloadSender.java",
+    "header": "public void readPacketData(PacketBuffer var1) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/nethandler/CBOutboundChannel.java",
+    "header": "public void write(ChannelHandlerContext var1, Object var2, ChannelPromise var3) {",
+    "exception": "java.lang.Exception"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/network/CheatBreakerPingHandler.java",
+    "header": "public void channelRead(ChannelHandlerContext var1, Object var2) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/network/CheatBreakerPingHandler.java",
+    "header": "public void channelRead(ChannelHandlerContext var1, Object var2) {",
+    "exception": "java.lang.Exception"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/overlay/element/PrivateMessageElement.java",
+    "header": "public static String method_01186(byte[] var0) {",
+    "exception": "java.security.NoSuchAlgorithmException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/overlay/element/PrivateMessageElement.java",
+    "header": "public static String method_01186(byte[] var0) throws java.security.NoSuchAlgorithmException {",
+    "exception": "javax.crypto.NoSuchPaddingException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/util/dash/DashPlayer.java",
+    "header": "public void method_27650() {",
+    "exception": "javazoom.jl.decoder.JavaLayerException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/util/dash/DashPlayer.java",
+    "header": "public void method_27651() {",
+    "exception": "javazoom.jl.decoder.JavaLayerException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/util/dash/DashPlayer.java",
+    "header": "public void writeImpl(short[] var1, int var2, int var3) {",
+    "exception": "javazoom.jl.decoder.JavaLayerException"
+  },
+  {
+    "source": "src/main/java/org/newsclub/net/unix/AFUNIXSocket.java",
+    "header": "public AFUNIXSocket(AFUNIXSocketImpl var1) {",
+    "exception": "java.net.SocketException"
+  },
+  {
+    "source": "src/main/java/org/newsclub/net/unix/AFUNIXSocket.java",
+    "header": "public static AFUNIXSocket method_25943() {",
+    "exception": "java.net.SocketException"
+  },
+  {
+    "source": "src/main/java/org/newsclub/net/unix/AFUNIXSocket.java",
+    "header": "public static AFUNIXSocket method_25949() {",
+    "exception": "java.net.SocketException"
+  },
+  {
+    "source": "src/main/java/org/newsclub/net/unix/AFUNIXSocketImpl.java",
+    "header": "public void method_06134(int var1, SocketAddress var2) {",
+    "exception": "java.net.SocketException"
+  },
+  {
+    "source": "src/main/java/org/newsclub/net/unix/AFUNIXSocketImpl.java",
+    "header": "public static int method_06145(Object var0) {",
+    "exception": "recovered.unidentified.UnidentifiedClass1587"
+  },
+  {
+    "source": "src/main/java/org/newsclub/net/unix/AFUNIXSocketImpl.java",
+    "header": "public static int method_06137(Object var0) {",
+    "exception": "recovered.unidentified.UnidentifiedClass1587"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass1561.java",
+    "header": "public void close() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass1561.java",
+    "header": "public int read(byte[] var1, int var2, int var3) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/io/netty/handler/ssl/util/SimpleTrustManagerFactory.java",
+    "header": "public void engineInit(KeyStore var1) {",
+    "exception": "java.security.KeyStoreException"
+  },
+  {
+    "source": "src/main/java/io/netty/handler/ssl/util/SimpleTrustManagerFactory.java",
+    "header": "public void engineInit(ManagerFactoryParameters var1) {",
+    "exception": "java.security.InvalidAlgorithmParameterException"
+  },
+  {
+    "source": "src/main/java/io/netty/util/internal/chmv8/ForkJoinTask.java",
+    "header": "public Unsafe run() {",
+    "exception": "java.lang.IllegalAccessException"
+  },
+  {
+    "source": "src/main/java/io/netty/util/internal/chmv8/ForkJoinPool.java",
+    "header": "public Unsafe run() {",
+    "exception": "java.lang.IllegalAccessException"
+  },
+  {
+    "source": "src/main/java/org/apache/log4j/Logger.java",
+    "header": "public static Class class$(String var0) {",
+    "exception": "java.lang.Throwable"
+  },
+  {
+    "source": "src/main/java/junit/framework/TestCase.java",
+    "header": "public void method_25956() {",
+    "exception": "java.lang.Throwable"
+  },
+  {
+    "source": "src/main/java/junit/runner/LoadingTestCollector.java",
+    "header": "public boolean isTestClass(Class var1) {",
+    "exception": "java.lang.ClassNotFoundException"
+  },
+  {
+    "source": "src/main/java/junit/swingui/TestRunner.java",
+    "header": "public void method_00042() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/junit/textui/TestRunner.java",
+    "header": "public TestResult method_22615(String var1, String var2, boolean var3) {",
+    "exception": "java.lang.ClassNotFoundException"
+  },
+  {
+    "source": "src/main/java/net/optifine/gui/GuiScreenOF.java",
+    "header": "public void mouseClicked(int var1, int var2, int var3) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/Minecraft.java",
+    "header": "public void method_20414() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/Minecraft.java",
+    "header": "public void method_20396() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/gui/GuiMainMenu.java",
+    "header": "public void mouseClicked(int var1, int var2, int var3) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/ServerRiskWarningGui.java",
+    "header": "public void mouseClicked(int var1, int var2, int var3) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/mainmenu/MainMenuBase.java",
+    "header": "public void keyTyped(char var1, int var2) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/mainmenu/MainMenuBase.java",
+    "header": "public void handleMouseInput() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/mainmenu/BuildRestrictionsMenu.java",
+    "header": "public void handleMouseInput() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/mainmenu/ChangelogMenu.java",
+    "header": "public void handleMouseInput() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/mainmenu/LegacyMainMenu.java",
+    "header": "public void mouseClicked(int var1, int var2, int var3) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/mainmenu/MainMenu.java",
+    "header": "public void handleMouseInput() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/mainmenu/NewsMenu.java",
+    "header": "public void handleMouseInput() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/module/CBModulesGui.java",
+    "header": "public void handleMouseInput() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/module/CBModulesGui.java",
+    "header": "public void keyTyped(char var1, int var2) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/module/CBProfileCreateGui.java",
+    "header": "public void mouseClicked(int var1, int var2, int var3) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/overlay/OverlayGui.java",
+    "header": "public void handleMouseInput() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/overlay/VoiceChatGui.java",
+    "header": "public void keyTyped(char var1, int var2) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/resourcepack/ResourcePackGui.java",
+    "header": "public void keyTyped(char var1, int var2) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/resourcepack/ResourcePackGui.java",
+    "header": "public void mouseClicked(int var1, int var2, int var3) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/ui/resourcepack/ResourcePackGui.java",
+    "header": "public void handleMouseInput() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/gui/GuiMultiplayer.java",
+    "header": "public void mouseClicked(int var1, int var2, int var3) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/gui/GuiMultiplayer.java",
+    "header": "public void keyTyped(char var1, int var2) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/gui/GuiMultiplayer.java",
+    "header": "public void handleMouseInput() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/junit/extensions/TestSetup.java",
+    "header": "public void run(TestResult var1) {",
+    "exception": "java.lang.Exception"
+  },
+  {
+    "source": "src/main/java/junit/framework/TestResult$1.java",
+    "header": "public void protect() {",
+    "exception": "java.lang.Throwable"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/gui/GuiCustomizeWorldScreen.java",
+    "header": "public void func_175331_h() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/gui/GuiVideoSettings.java",
+    "header": "public void actionPerformedRightClick(GuiButton var1) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00321(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00317(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00309(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00309(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.EntityNotFoundException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00314(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00314(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.WrongUsageException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00303(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00303(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.EntityNotFoundException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00316(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00316(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.EntityNotFoundException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00316(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.NumberInvalidException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00316(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.SyntaxErrorException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00324(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00324(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.EntityNotFoundException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00324(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.PlayerNotFoundException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00320(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00320(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.EntityNotFoundException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00320(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.PlayerNotFoundException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00310(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00310(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.EntityNotFoundException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00310(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.SyntaxErrorException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "header": "public void method_00323(ICommandSender var1, String[] var2, int var3) {",
+    "exception": "net.minecraft.command.CommandException"
+  },
+  {
+    "source": "src/main/java/net/minecraft/world/chunk/storage/RegionFile.java",
+    "header": "public void close() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/net/optifine/shaders/gui/GuiShaders.java",
+    "header": "public void actionPerformedRightClick(GuiButton var1) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/apache/log4j/net/TelnetAppender.java",
+    "header": "public SocketHandler(int var2) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/BaseJniExtractor.java",
+    "header": "public File extractResource(File var1, URL var2, String var3) {",
+    "exception": "java.io.FileNotFoundException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/BaseJniExtractor.java",
+    "header": "public File extractResource(File var1, URL var2, String var3) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/BaseJniExtractor.java",
+    "header": "public void extractRegistered() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/BaseJniExtractor.java",
+    "header": "public void extractRegistered() {",
+    "exception": "java.io.UnsupportedEncodingException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/BaseJniExtractor.java",
+    "header": "public File extractJni(String var1, String var2) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/BaseJniExtractor.java",
+    "header": "public static void copy(InputStream var0, OutputStream var1) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass0882.java",
+    "header": "public static void method_05918(UnidentifiedClass4575 var0, UnidentifiedClass4575 var1) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass0882.java",
+    "header": "public static void method_05908(\n      Reader var0,\n      UnidentifiedInterface4518 var1,\n      Number var2,\n      Function<? super CharSequence, ? extends Number> var3,\n      Set<Character> var4,\n      boolean var5,\n      boolean var6\n   ) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/DefaultJniExtractor.java",
+    "header": "public DefaultJniExtractor() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/DefaultJniExtractor.java",
+    "header": "public DefaultJniExtractor(Class var1, String var2) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/DefaultJniExtractor.java",
+    "header": "public void method_27584(String var1) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/NativeLoader.java",
+    "header": "public static void method_23456(String var0) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/NativeLoader.java",
+    "header": "public static void method_23458() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/WebappJniExtractor.java",
+    "header": "public WebappJniExtractor(String var1) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/org/scijava/nativelib/WebappJniExtractor.java",
+    "header": "public void finalize() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass1610.java",
+    "header": "public static String method_10983(Reader var0) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass1610.java",
+    "header": "public static JSONObject method_10986(String var0) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass1610.java",
+    "header": "public static JSONObject method_10986(String var0) {",
+    "exception": "java.net.MalformedURLException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass1610.java",
+    "header": "public static JSONArray method_10984(String var0) {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass1610.java",
+    "header": "public static JSONArray method_10984(String var0) {",
+    "exception": "java.net.MalformedURLException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass3830.java",
+    "header": "public Object method_23255() {",
+    "exception": "java.io.IOException"
+  },
+  {
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass5059.java",
+    "header": "public FileVisitResult preVisitDirectory(Path var1, BasicFileAttributes var2) {",
+    "exception": "java.io.IOException"
+  }
+]

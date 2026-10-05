@@ -1,0 +1,24 @@
+package io.netty.util.internal;
+
+import io.netty.handler.codec.socks.SocksAuthScheme;
+import io.netty.handler.timeout.WriteTimeoutException;
+import java.nio.ByteBuffer;
+import java.security.cert.X509Certificate;
+import net.minecraft.client.resources.data.PackMetadataSectionSerializer;
+import net.minecraft.entity.monster.EntityEnderman;
+
+public class EmptyArrays {
+   public static byte[] EMPTY_BYTES = new byte[0];
+   public static boolean[] EMPTY_BOOLEANS = new boolean[0];
+   public static double[] EMPTY_DOUBLES = new double[0];
+   public static float[] EMPTY_FLOATS = new float[0];
+   public static int[] EMPTY_INTS = new int[0];
+   public static short[] EMPTY_SHORTS = new short[0];
+   public static long[] EMPTY_LONGS = new long[0];
+   public static Object[] EMPTY_OBJECTS = new Object[0];
+   public static Class<?>[] EMPTY_CLASSES = new Class[0];
+   public static String[] EMPTY_STRINGS = new String[0];
+   public static StackTraceElement[] EMPTY_STACK_TRACE = new StackTraceElement[0];
+   public static ByteBuffer[] EMPTY_BYTE_BUFFERS = new ByteBuffer[0];
+   public static X509Certificate[] EMPTY_X509_CERTIFICATES = new X509Certificate[0];
+}

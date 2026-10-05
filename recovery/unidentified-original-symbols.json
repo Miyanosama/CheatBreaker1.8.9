@@ -1,0 +1,82 @@
+[
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0672",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass0672.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0715",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass0715.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1171",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass1171.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3246",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass3246.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3434",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass3434.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3463",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass3463.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3833",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass3833.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4246",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass4246.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4866",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass4866.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass5063",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedClass5063.java",
+    "code_users": [],
+    "status": "Implementation preserved; historical spelling unconfirmed"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedInterface0987",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedInterface0987.java",
+    "code_users": [
+      "com/cheatbreaker/client/network/messages/Message.java"
+    ],
+    "status": "Implementation preserved; historical spelling unconfirmed",
+    "semantic_role": "Native agent resource-existence method marker: Message probes (String)boolean methods",
+    "original_annotation_metadata": "javap verified original ACC_ANNOTATION and no Retention metadata; no runtime-retention change made"
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedInterface4702",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedInterface4702.java",
+    "code_users": [
+      "com/cheatbreaker/client/network/messages/Message.java"
+    ],
+    "status": "Implementation preserved; historical spelling unconfirmed",
+    "semantic_role": "Native agent resource-reader method marker: Message probes (String)byte[] methods",
+    "original_annotation_metadata": "javap verified original ACC_ANNOTATION and no Retention metadata; no runtime-retention change made"
+  }
+]

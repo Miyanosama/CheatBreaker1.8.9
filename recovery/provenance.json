@@ -1,0 +1,23 @@
+{
+  "input_jar": "C:\\Users\\hp\\AppData\\Roaming\\.minecraft\\versions\\CheatBreaker-preview-1.8.9\\CheatBreaker-preview-1.8.9.jar",
+  "sha256": "6f3027ef4984f71e3ebc64d8fd3e76681bc14aba93d63ed8697a6de400cbda14",
+  "reference_source_tree": "F:\\Work\\CheatBreakerZ\\src\\main\\java",
+  "reference_binary": "F:\\Work\\CheatBreakerZ\\.target\\maven\\original-cheatbreaker-client-1.0-SNAPSHOT.jar",
+  "minecraft_version": "1.8.9",
+  "optifine_version": "1.8.9_HD_U_M6_pre2",
+  "decompiled_source_files": 5139,
+  "resources_extracted": 4233,
+  "unrecoverable_metadata": [
+    "Original comments",
+    "Original local variable names",
+    "Original formatting",
+    "Unmapped original symbol names"
+  ],
+  "source_profile": "full-source",
+  "notes": "This is a reconstructed project. Reference implementations supply names and structural evidence only; all method bodies come from the supplied preview JAR.",
+  "selected_source_files": 3610,
+  "complete_decompiled_source_files": 5139,
+  "source_build_status": "failed",
+  "recovery_audit": "passed",
+  "bytecode_class_source": ".target/input/preview.jar"
+}

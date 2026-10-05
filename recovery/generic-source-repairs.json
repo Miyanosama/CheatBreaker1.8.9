@@ -1,0 +1,2368 @@
+[
+  {
+    "file": "src/main/java/com/cheatbreaker/client/util/server/ServerRestrictionManager.java",
+    "line": 72,
+    "before": "               String[] var19 = var3.toArray(new String[var16]);",
+    "after": "               String[] var19 = (java.lang.String[])var3.toArray(new String[var16]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/nethandler/NetHandler.java",
+    "line": 540,
+    "before": "         for (Entry var8 : var2.entrySet()) {",
+    "after": "         for (Entry var8 : (Iterable<Entry>)(Iterable<?>)(var2.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/nethandler/NetHandler.java",
+    "line": 195,
+    "before": "            for (String var7 : var10) {",
+    "after": "            for (String var7 : (Iterable<String>)(Iterable<?>)(var10)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/config/ConfigManager.java",
+    "line": 310,
+    "before": "            for (AbstractModule var7 : var4) {",
+    "after": "            for (AbstractModule var7 : (Iterable<AbstractModule>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to com.cheatbreaker.client.module.AbstractModule"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/config/ConfigManager.java",
+    "line": 92,
+    "before": "                           for (AbstractModule var36 : var4) {",
+    "after": "                           for (AbstractModule var36 : (Iterable<AbstractModule>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to com.cheatbreaker.client.module.AbstractModule"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/Minecraft.java",
+    "line": 1223,
+    "before": "               for (DisplayMode var9 : var1) {",
+    "after": "               for (DisplayMode var9 : (Iterable<DisplayMode>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.lwjgl.opengl.DisplayMode"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/Minecraft.java",
+    "line": 1215,
+    "before": "            for (DisplayMode var7 : var1) {",
+    "after": "            for (DisplayMode var7 : (Iterable<DisplayMode>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.lwjgl.opengl.DisplayMode"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/websocket/AssetsWebSocket.java",
+    "line": 353,
+    "before": "      for (Entry var18 : var5.entrySet()) {",
+    "after": "      for (Entry var18 : (Iterable<Entry>)(Iterable<?>)(var5.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/websocket/AssetsWebSocket.java",
+    "line": 335,
+    "before": "      for (Entry var7 : var4.entrySet()) {",
+    "after": "      for (Entry var7 : (Iterable<Entry>)(Iterable<?>)(var4.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 977,
+    "before": "            for (AxisAlignedBB var51 : var30) {",
+    "after": "            for (AxisAlignedBB var51 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var30)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 958,
+    "before": "            for (AxisAlignedBB var47 : var30) {",
+    "after": "            for (AxisAlignedBB var47 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var30)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 951,
+    "before": "            for (AxisAlignedBB var45 : var30) {",
+    "after": "            for (AxisAlignedBB var45 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var30)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 944,
+    "before": "            for (AxisAlignedBB var43 : var30) {",
+    "after": "            for (AxisAlignedBB var43 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var30)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 936,
+    "before": "            for (AxisAlignedBB var40 : var30) {",
+    "after": "            for (AxisAlignedBB var40 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var30)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 929,
+    "before": "            for (AxisAlignedBB var38 : var30) {",
+    "after": "            for (AxisAlignedBB var38 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var30)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 922,
+    "before": "            for (AxisAlignedBB var36 : var30) {",
+    "after": "            for (AxisAlignedBB var36 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var30)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 905,
+    "before": "         for (AxisAlignedBB var60 : var54) {",
+    "after": "         for (AxisAlignedBB var60 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var54)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 899,
+    "before": "         for (AxisAlignedBB var24 : var54) {",
+    "after": "         for (AxisAlignedBB var24 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var54)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 892,
+    "before": "         for (AxisAlignedBB var23 : var54) {",
+    "after": "         for (AxisAlignedBB var23 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var54)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/Entity.java",
+    "line": 191,
+    "before": "         for (AxisAlignedBB var15 : var11) {",
+    "after": "         for (AxisAlignedBB var15 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var11)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/player/EntityPlayer.java",
+    "line": 278,
+    "before": "      for (ScoreObjective var5 : var3) {",
+    "after": "      for (ScoreObjective var5 : (Iterable<ScoreObjective>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.scoreboard.ScoreObjective"
+  },
+  {
+    "file": "src/main/java/net/minecraft/item/ItemStack.java",
+    "line": 529,
+    "before": "         for (Entry var24 : var18.entries()) {",
+    "after": "         for (Entry var24 : (Iterable<Entry>)(Iterable<?>)(var18.entries())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/nethandler/server/PacketTeammates.java",
+    "line": 31,
+    "before": "         for (Entry var5 : ((Map)var3.getValue()).entrySet()) {",
+    "after": "         for (Entry var5 : (Iterable<Entry>)(Iterable<?>)(((Map)var3.getValue()).entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/renderer/RenderGlobal.java",
+    "line": 2552,
+    "before": "               for (TileEntity var55 : var50) {",
+    "after": "               for (TileEntity var55 : (Iterable<TileEntity>)(Iterable<?>)(var50)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.tileentity.TileEntity"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/renderer/RenderGlobal.java",
+    "line": 2498,
+    "before": "               for (Entity var30 : var28) {",
+    "after": "               for (Entity var30 : (Iterable<Entity>)(Iterable<?>)(var28)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.Entity"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/resources/ResourcePackRepository.java",
+    "line": 174,
+    "before": "      for (File var4 : var1) {",
+    "after": "      for (File var4 : (Iterable<File>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.io.File"
+  },
+  {
+    "file": "src/main/java/net/minecraft/server/MinecraftServer.java",
+    "line": 1048,
+    "before": "            for (String var15 : var13) {",
+    "after": "            for (String var15 : (Iterable<String>)(Iterable<?>)(var13)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/crash/CrashReport.java",
+    "line": 521,
+    "before": "      for (String var5 : var1) {",
+    "after": "      for (String var5 : (Iterable<String>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/crash/CrashReport.java",
+    "line": 337,
+    "before": "            for (String var6 : var2) {",
+    "after": "            for (String var6 : (Iterable<String>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/crash/CrashReport.java",
+    "line": 169,
+    "before": "      for (Setting var34 : var31) {",
+    "after": "      for (Setting var34 : (Iterable<Setting>)(Iterable<?>)(var31)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to com.cheatbreaker.client.config.Setting"
+  },
+  {
+    "file": "src/main/java/net/minecraft/profiler/PlayerUsageSnooper.java",
+    "line": 39,
+    "before": "      for (String var5 : var2) {",
+    "after": "      for (String var5 : (Iterable<String>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/audio/SoundHandler.java",
+    "line": 205,
+    "before": "                  for (Entry var8 : var6.entrySet()) {",
+    "after": "                  for (Entry var8 : (Iterable<Entry>)(Iterable<?>)(var6.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/renderer/texture/TextureMap.java",
+    "line": 657,
+    "before": "      for (TextureAtlasSprite var41 : var35.values()) {",
+    "after": "      for (TextureAtlasSprite var41 : (Iterable<TextureAtlasSprite>)(Iterable<?>)(var35.values())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.client.renderer.texture.TextureAtlasSprite"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/renderer/texture/TextureMap.java",
+    "line": 506,
+    "before": "                     for (int var60 : var57) {",
+    "after": "                     for (int var60 : (Iterable<int>)(Iterable<?>)(var57)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to int"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/renderer/texture/TextureMap.java",
+    "line": 199,
+    "before": "      for (int var28 : var20) {",
+    "after": "      for (int var28 : (Iterable<int>)(Iterable<?>)(var20)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to int"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/renderer/texture/TextureMap.java",
+    "line": 190,
+    "before": "      for (int var25 : var20) {",
+    "after": "      for (int var25 : (Iterable<int>)(Iterable<?>)(var20)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to int"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/module/type/ScoreboardModule.java",
+    "line": 64,
+    "before": "         for (Score var19 : var7) {",
+    "after": "         for (Score var19 : (Iterable<Score>)(Iterable<?>)(var7)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.scoreboard.Score"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/module/type/ScoreboardModule.java",
+    "line": 51,
+    "before": "         for (Score var13 : var7) {",
+    "after": "         for (Score var13 : (Iterable<Score>)(Iterable<?>)(var7)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.scoreboard.Score"
+  },
+  {
+    "file": "src/main/java/net/minecraft/scoreboard/Scoreboard.java",
+    "line": 317,
+    "before": "      for (Map var4 : var1) {",
+    "after": "      for (Map var4 : (Iterable<Map>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/player/EntityPlayerMP.java",
+    "line": 698,
+    "before": "            for (Chunk var14 : var6) {",
+    "after": "            for (Chunk var14 : (Iterable<Chunk>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.chunk.Chunk"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/player/EntityPlayerMP.java",
+    "line": 694,
+    "before": "            for (TileEntity var13 : var9) {",
+    "after": "            for (TileEntity var13 : (Iterable<TileEntity>)(Iterable<?>)(var9)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.tileentity.TileEntity"
+  },
+  {
+    "file": "src/main/java/net/minecraft/enchantment/Enchantment.java",
+    "line": 66,
+    "before": "      enchantmentsBookList = var0.toArray(new Enchantment[var0.size()]);",
+    "after": "      enchantmentsBookList = (net.minecraft.enchantment.Enchantment[])var0.toArray(new Enchantment[var0.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.enchantment.Enchantment[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiNewChat.java",
+    "line": 155,
+    "before": "      for (IChatComponent var9 : var6) {",
+    "after": "      for (IChatComponent var9 : (Iterable<IChatComponent>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.IChatComponent"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiPlayerTabOverlay.java",
+    "line": 170,
+    "before": "         for (String var47 : var18) {",
+    "after": "         for (String var47 : (Iterable<String>)(Iterable<?>)(var18)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiPlayerTabOverlay.java",
+    "line": 95,
+    "before": "         for (String var45 : var17) {",
+    "after": "         for (String var45 : (Iterable<String>)(Iterable<?>)(var17)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiPlayerTabOverlay.java",
+    "line": 87,
+    "before": "         for (String var44 : var18) {",
+    "after": "         for (String var44 : (Iterable<String>)(Iterable<?>)(var18)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiPlayerTabOverlay.java",
+    "line": 79,
+    "before": "         for (String var20 : var17) {",
+    "after": "         for (String var20 : (Iterable<String>)(Iterable<?>)(var17)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiPlayerTabOverlay.java",
+    "line": 40,
+    "before": "      for (NetworkPlayerInfo var9 : var5) {",
+    "after": "      for (NetworkPlayerInfo var9 : (Iterable<NetworkPlayerInfo>)(Iterable<?>)(var5)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.client.network.NetworkPlayerInfo"
+  },
+  {
+    "file": "src/main/java/net/minecraft/util/EnumParticleTypes.java",
+    "line": 112,
+    "before": "      PARTICLE_NAMES = var0.toArray(new String[var0.size()]);",
+    "after": "      PARTICLE_NAMES = (java.lang.String[])var0.toArray(new String[var0.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandHandler.java",
+    "line": 132,
+    "before": "            for (Entity var11 : var14) {",
+    "after": "            for (Entity var11 : (Iterable<Entity>)(Iterable<?>)(var14)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.Entity"
+  },
+  {
+    "file": "src/main/java/net/minecraft/server/management/ServerConfigurationManager.java",
+    "line": 412,
+    "before": "      for (EntityPlayerMP var6 : var3) {",
+    "after": "      for (EntityPlayerMP var6 : (Iterable<EntityPlayerMP>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.player.EntityPlayerMP"
+  },
+  {
+    "file": "src/main/java/net/minecraft/server/management/PlayerProfileCache.java",
+    "line": 144,
+    "before": "      return var1.toArray(new String[var1.size()]);",
+    "after": "      return (java.lang.String[])var1.toArray(new String[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/server/management/PlayerProfileCache.java",
+    "line": 107,
+    "before": "         for (PlayerProfileCache.ProfileEntry var4 : Lists.reverse(var2)) {",
+    "after": "         for (PlayerProfileCache.ProfileEntry var4 : (Iterable<PlayerProfileCache.ProfileEntry>)(Iterable<?>)(Lists.reverse(var2))) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.server.management.PlayerProfileCache.ProfileEntry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/world/GameRules.java",
+    "line": 12,
+    "before": "      return var1.toArray(new String[var1.size()]);",
+    "after": "      return (java.lang.String[])var1.toArray(new String[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiMainMenu.java",
+    "line": 386,
+    "before": "      for (Map var26 : var6) {",
+    "after": "      for (Map var26 : (Iterable<Map>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map"
+  },
+  {
+    "file": "src/main/java/net/minecraft/network/play/server/S21PacketChunkData.java",
+    "line": 47,
+    "before": "         for (ExtendedBlockStorage var21 : var6) {",
+    "after": "         for (ExtendedBlockStorage var21 : (Iterable<ExtendedBlockStorage>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.chunk.storage.ExtendedBlockStorage"
+  },
+  {
+    "file": "src/main/java/net/minecraft/network/play/server/S21PacketChunkData.java",
+    "line": 42,
+    "before": "      for (ExtendedBlockStorage var20 : var6) {",
+    "after": "      for (ExtendedBlockStorage var20 : (Iterable<ExtendedBlockStorage>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.chunk.storage.ExtendedBlockStorage"
+  },
+  {
+    "file": "src/main/java/net/minecraft/network/play/server/S21PacketChunkData.java",
+    "line": 33,
+    "before": "      for (ExtendedBlockStorage var9 : var6) {",
+    "after": "      for (ExtendedBlockStorage var9 : (Iterable<ExtendedBlockStorage>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.chunk.storage.ExtendedBlockStorage"
+  },
+  {
+    "file": "src/main/java/org/java_websocket/server/WebSocketServer.java",
+    "line": 567,
+    "before": "         for (WebSocket var8 : var6) {",
+    "after": "         for (WebSocket var8 : (Iterable<WebSocket>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.java_websocket.WebSocket"
+  },
+  {
+    "file": "src/main/java/org/java_websocket/server/WebSocketServer.java",
+    "line": 413,
+    "before": "         for (WebSocket var4 : var2) {",
+    "after": "         for (WebSocket var4 : (Iterable<WebSocket>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.java_websocket.WebSocket"
+  },
+  {
+    "file": "src/main/java/net/minecraft/block/state/BlockState.java",
+    "line": 130,
+    "before": "               for (Comparable var6 : var4.getAllowedValues()) {",
+    "after": "               for (Comparable var6 : (Iterable<Comparable>)(Iterable<?>)(var4.getAllowedValues())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.Comparable"
+  },
+  {
+    "file": "src/main/java/net/minecraft/block/state/BlockState.java",
+    "line": 68,
+    "before": "      for (BlockState.StateImplementation var10 : var4) {",
+    "after": "      for (BlockState.StateImplementation var10 : (Iterable<BlockState.StateImplementation>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.block.state.BlockState.StateImplementation"
+  },
+  {
+    "file": "src/main/java/net/minecraft/pathfinding/PathNavigate.java",
+    "line": 117,
+    "before": "               for (AxisAlignedBB var7 : var3) {",
+    "after": "               for (AxisAlignedBB var7 : (Iterable<AxisAlignedBB>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.AxisAlignedBB"
+  },
+  {
+    "file": "src/main/java/net/minecraft/network/NetHandlerPlayServer.java",
+    "line": 207,
+    "before": "      this.playerEntity.playerNetServerHandler.sendPacket(new S3APacketTabComplete(var2.toArray(new String[var2.size()])));",
+    "after": "      this.playerEntity.playerNetServerHandler.sendPacket(new S3APacketTabComplete((java.lang.String[])var2.toArray(new String[var2.size()])));",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/server/management/PlayerManager.java",
+    "line": 78,
+    "before": "               for (ChunkCoordIntPair var8 : this.getNearest(var4, var5, var6)) {",
+    "after": "               for (ChunkCoordIntPair var8 : (Iterable<ChunkCoordIntPair>)(Iterable<?>)(this.getNearest(var4, var5, var6))) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.ChunkCoordIntPair"
+  },
+  {
+    "file": "src/main/java/net/minecraft/scoreboard/ServerScoreboard.java",
+    "line": 201,
+    "before": "         for (Packet var6 : var2) {",
+    "after": "         for (Packet var6 : (Iterable<Packet>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.network.Packet"
+  },
+  {
+    "file": "src/main/java/net/minecraft/scoreboard/ServerScoreboard.java",
+    "line": 122,
+    "before": "         for (Packet var6 : var2) {",
+    "after": "         for (Packet var6 : (Iterable<Packet>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.network.Packet"
+  },
+  {
+    "file": "src/main/java/net/minecraft/block/BlockFlower.java",
+    "line": 129,
+    "before": "            TYPES_FOR_BLOCK[var3.ordinal()] = var4.toArray(new BlockFlower.EnumFlowerType[var4.size()]);",
+    "after": "            TYPES_FOR_BLOCK[var3.ordinal()] = (net.minecraft.block.BlockFlower.EnumFlowerType[])var4.toArray(new BlockFlower.EnumFlowerType[var4.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.block.BlockFlower.EnumFlowerType[]"
+  },
+  {
+    "file": "src/main/java/io/netty/buffer/CompositeByteBuf.java",
+    "line": 1083,
+    "before": "         return var3.toArray(new ByteBuffer[var3.size()]);",
+    "after": "         return (java.nio.ByteBuffer[])var3.toArray(new ByteBuffer[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.nio.ByteBuffer[]"
+  },
+  {
+    "file": "src/main/java/io/netty/buffer/CompositeByteBuf.java",
+    "line": 251,
+    "before": "      for (CompositeByteBuf.Component var5 : var3) {",
+    "after": "      for (CompositeByteBuf.Component var5 : (Iterable<CompositeByteBuf.Component>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to io.netty.buffer.CompositeByteBuf.Component"
+  },
+  {
+    "file": "src/main/java/io/netty/util/concurrent/FastThreadLocal.java",
+    "line": 34,
+    "before": "               FastThreadLocal[] var3 = var2.toArray(new FastThreadLocal[var2.size()]);",
+    "after": "               FastThreadLocal[] var3 = (io.netty.util.concurrent.FastThreadLocal[])var2.toArray(new FastThreadLocal[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to io.netty.util.concurrent.FastThreadLocal[]"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/module/type/TabListModule.java",
+    "line": 358,
+    "before": "         for (String var48 : var20) {",
+    "after": "         for (String var48 : (Iterable<String>)(Iterable<?>)(var20)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/module/type/TabListModule.java",
+    "line": 290,
+    "before": "         for (String var46 : var19) {",
+    "after": "         for (String var46 : (Iterable<String>)(Iterable<?>)(var19)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/module/type/TabListModule.java",
+    "line": 280,
+    "before": "         for (String var45 : var20) {",
+    "after": "         for (String var45 : (Iterable<String>)(Iterable<?>)(var20)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/module/type/TabListModule.java",
+    "line": 272,
+    "before": "         for (String var22 : var19) {",
+    "after": "         for (String var22 : (Iterable<String>)(Iterable<?>)(var19)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/module/type/TabListModule.java",
+    "line": 233,
+    "before": "      for (NetworkPlayerInfo var11 : var7) {",
+    "after": "      for (NetworkPlayerInfo var11 : (Iterable<NetworkPlayerInfo>)(Iterable<?>)(var7)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.client.network.NetworkPlayerInfo"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/ui/mainmenu/MainMenuBase.java",
+    "line": 197,
+    "before": "      for (Map var17 : var2) {",
+    "after": "      for (Map var17 : (Iterable<Map>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/ui/overlay/friend/FriendRequestListElement.java",
+    "line": 174,
+    "before": "         for (FriendRequestElement var7 : var5) {",
+    "after": "         for (FriendRequestElement var7 : (Iterable<FriendRequestElement>)(Iterable<?>)(var5)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to com.cheatbreaker.client.ui.overlay.friend.FriendRequestElement"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/ui/overlay/friend/FriendsListElement.java",
+    "line": 53,
+    "before": "         for (FriendElement var9 : var7) {",
+    "after": "         for (FriendElement var9 : (Iterable<FriendElement>)(Iterable<?>)(var7)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to com.cheatbreaker.client.ui.overlay.friend.FriendElement"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/ui/overlay/VoiceChatGui.java",
+    "line": 107,
+    "before": "      for (VoiceUser var10 : var8) {",
+    "after": "      for (VoiceUser var10 : (Iterable<VoiceUser>)(Iterable<?>)(var8)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to com.cheatbreaker.client.util.voicechat.VoiceUser"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/ui/resourcepack/ResourcePackGui.java",
+    "line": 223,
+    "before": "            for (ResourcePackRepository.Entry var4 : var2) {",
+    "after": "            for (ResourcePackRepository.Entry var4 : (Iterable<ResourcePackRepository.Entry>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.client.resources.ResourcePackRepository.Entry"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/util/ClientDiagnosticReport.java",
+    "line": 162,
+    "before": "      for (String var5 : var1) {",
+    "after": "      for (String var5 : (Iterable<String>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/util/ClientDiagnosticReport.java",
+    "line": 115,
+    "before": "      for (Setting var28 : var25) {",
+    "after": "      for (Setting var28 : (Iterable<Setting>)(Iterable<?>)(var25)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to com.cheatbreaker.client.config.Setting"
+  },
+  {
+    "file": "src/main/java/com/cheatbreaker/client/util/server/ServerMappingLoader.java",
+    "line": 29,
+    "before": "               return var5.toArray(var9);",
+    "after": "               return (java.lang.String[])var5.toArray(var9);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/io/netty/bootstrap/Bootstrap.java",
+    "line": 139,
+    "before": "         for (Entry var7 : var4.entrySet()) {",
+    "after": "         for (Entry var7 : (Iterable<Entry>)(Iterable<?>)(var4.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/io/netty/bootstrap/Bootstrap.java",
+    "line": 126,
+    "before": "         for (Entry var6 : var3.entrySet()) {",
+    "after": "         for (Entry var6 : (Iterable<Entry>)(Iterable<?>)(var3.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/io/netty/bootstrap/ServerBootstrap.java",
+    "line": 94,
+    "before": "         for (Entry var6 : var3.entrySet()) {",
+    "after": "         for (Entry var6 : (Iterable<Entry>)(Iterable<?>)(var3.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/io/netty/util/concurrent/SingleThreadEventExecutor.java",
+    "line": 165,
+    "before": "         for (Runnable var4 : var2) {",
+    "after": "         for (Runnable var4 : (Iterable<Runnable>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.Runnable"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/DefaultChannelConfig.java",
+    "line": 282,
+    "before": "         return (T)this.getWriteBufferLowWaterMark();",
+    "after": "         return (T)(Object)this.getWriteBufferLowWaterMark();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/DefaultChannelConfig.java",
+    "line": 280,
+    "before": "         return (T)this.getWriteBufferHighWaterMark();",
+    "after": "         return (T)(Object)this.getWriteBufferHighWaterMark();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/DefaultChannelConfig.java",
+    "line": 278,
+    "before": "         return (T)this.isAutoClose();",
+    "after": "         return (T)(Object)this.isAutoClose();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/DefaultChannelConfig.java",
+    "line": 276,
+    "before": "         return (T)this.isAutoRead();",
+    "after": "         return (T)(Object)this.isAutoRead();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/DefaultChannelConfig.java",
+    "line": 270,
+    "before": "         return (T)this.getWriteSpinCount();",
+    "after": "         return (T)(Object)this.getWriteSpinCount();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/DefaultChannelConfig.java",
+    "line": 268,
+    "before": "         return (T)this.getMaxMessagesPerRead();",
+    "after": "         return (T)(Object)this.getMaxMessagesPerRead();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/DefaultChannelConfig.java",
+    "line": 266,
+    "before": "         return (T)this.getConnectTimeoutMillis();",
+    "after": "         return (T)(Object)this.getConnectTimeoutMillis();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java",
+    "line": 142,
+    "before": "         return (T)this.activeOnOpen;",
+    "after": "         return (T)(Object)this.activeOnOpen;",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java",
+    "line": 140,
+    "before": "         return (T)this.getTrafficClass();",
+    "after": "         return (T)(Object)this.getTrafficClass();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java",
+    "line": 138,
+    "before": "         return (T)this.getTimeToLive();",
+    "after": "         return (T)(Object)this.getTimeToLive();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java",
+    "line": 132,
+    "before": "         return (T)this.isLoopbackModeDisabled();",
+    "after": "         return (T)(Object)this.isLoopbackModeDisabled();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java",
+    "line": 130,
+    "before": "         return (T)this.isReuseAddress();",
+    "after": "         return (T)(Object)this.isReuseAddress();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java",
+    "line": 128,
+    "before": "         return (T)this.getSendBufferSize();",
+    "after": "         return (T)(Object)this.getSendBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java",
+    "line": 126,
+    "before": "         return (T)this.getReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollDatagramChannelConfig.java",
+    "line": 124,
+    "before": "         return (T)this.isBroadcast();",
+    "after": "         return (T)(Object)this.isBroadcast();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollEventLoop.java",
+    "line": 87,
+    "before": "      for (AbstractEpollChannel var5 : var1) {",
+    "after": "      for (AbstractEpollChannel var5 : (Iterable<AbstractEpollChannel>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to io.netty.channel.epoll.AbstractEpollChannel"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollServerSocketChannelConfig.java",
+    "line": 144,
+    "before": "         return (T)this.getBacklog();",
+    "after": "         return (T)(Object)this.getBacklog();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollServerSocketChannelConfig.java",
+    "line": 142,
+    "before": "         return (T)this.isReuseAddress();",
+    "after": "         return (T)(Object)this.isReuseAddress();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollServerSocketChannelConfig.java",
+    "line": 140,
+    "before": "         return (T)this.getReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 114,
+    "before": "         return (T)this.getTcpKeepIntvl();",
+    "after": "         return (T)(Object)this.getTcpKeepIntvl();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 112,
+    "before": "         return (T)this.getTcpKeepIdle();",
+    "after": "         return (T)(Object)this.getTcpKeepIdle();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 110,
+    "before": "         return (T)this.isTcpCork();",
+    "after": "         return (T)(Object)this.isTcpCork();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 108,
+    "before": "         return (T)this.isAllowHalfClosure();",
+    "after": "         return (T)(Object)this.isAllowHalfClosure();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 106,
+    "before": "         return (T)this.getTrafficClass();",
+    "after": "         return (T)(Object)this.getTrafficClass();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 104,
+    "before": "         return (T)this.getSoLinger();",
+    "after": "         return (T)(Object)this.getSoLinger();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 102,
+    "before": "         return (T)this.isReuseAddress();",
+    "after": "         return (T)(Object)this.isReuseAddress();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 100,
+    "before": "         return (T)this.isKeepAlive();",
+    "after": "         return (T)(Object)this.isKeepAlive();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 98,
+    "before": "         return (T)this.isTcpNoDelay();",
+    "after": "         return (T)(Object)this.isTcpNoDelay();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 96,
+    "before": "         return (T)this.getSendBufferSize();",
+    "after": "         return (T)(Object)this.getSendBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java",
+    "line": 94,
+    "before": "         return (T)this.getReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/nio/NioEventLoop.java",
+    "line": 163,
+    "before": "      for (AbstractNioChannel var8 : var2) {",
+    "after": "      for (AbstractNioChannel var8 : (Iterable<AbstractNioChannel>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to io.netty.channel.nio.AbstractNioChannel"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/nio/NioEventLoop.java",
+    "line": 152,
+    "before": "      for (SelectionKey var4 : var1) {",
+    "after": "      for (SelectionKey var4 : (Iterable<SelectionKey>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.nio.channels.SelectionKey"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java",
+    "line": 133,
+    "before": "         return (T)this.getWaitTimeMillis();",
+    "after": "         return (T)(Object)this.getWaitTimeMillis();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java",
+    "line": 125,
+    "before": "         return (T)this.isRts();",
+    "after": "         return (T)(Object)this.isRts();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java",
+    "line": 123,
+    "before": "         return (T)this.isDtr();",
+    "after": "         return (T)(Object)this.isDtr();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java",
+    "line": 121,
+    "before": "         return (T)this.getBaudrate();",
+    "after": "         return (T)(Object)this.getBaudrate();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/DefaultSctpChannelConfig.java",
+    "line": 193,
+    "before": "         return (T)this.getSendBufferSize();",
+    "after": "         return (T)(Object)this.getSendBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/DefaultSctpChannelConfig.java",
+    "line": 191,
+    "before": "         return (T)this.getReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/DefaultSctpServerChannelConfig.java",
+    "line": 182,
+    "before": "         return (T)this.getReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/nio/NioSctpChannel.java",
+    "line": 371,
+    "before": "         for (SocketAddress var4 : var1) {",
+    "after": "         for (SocketAddress var4 : (Iterable<SocketAddress>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.net.SocketAddress"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/nio/NioSctpChannel.java",
+    "line": 80,
+    "before": "         for (SocketAddress var4 : var1) {",
+    "after": "         for (SocketAddress var4 : (Iterable<SocketAddress>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.net.SocketAddress"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/nio/NioSctpServerChannel.java",
+    "line": 184,
+    "before": "         for (SocketAddress var4 : var1) {",
+    "after": "         for (SocketAddress var4 : (Iterable<SocketAddress>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.net.SocketAddress"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/oio/OioSctpChannel.java",
+    "line": 330,
+    "before": "         for (SocketAddress var4 : var1) {",
+    "after": "         for (SocketAddress var4 : (Iterable<SocketAddress>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.net.SocketAddress"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/oio/OioSctpChannel.java",
+    "line": 250,
+    "before": "               for (SelectionKey var7 : var5) {",
+    "after": "               for (SelectionKey var7 : (Iterable<SelectionKey>)(Iterable<?>)(var5)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.nio.channels.SelectionKey"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/oio/OioSctpChannel.java",
+    "line": 165,
+    "before": "         for (SocketAddress var4 : var1) {",
+    "after": "         for (SocketAddress var4 : (Iterable<SocketAddress>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.net.SocketAddress"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/sctp/oio/OioSctpServerChannel.java",
+    "line": 144,
+    "before": "         for (SocketAddress var4 : var1) {",
+    "after": "         for (SocketAddress var4 : (Iterable<SocketAddress>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.net.SocketAddress"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultDatagramChannelConfig.java",
+    "line": 384,
+    "before": "         return (T)this.getTrafficClass();",
+    "after": "         return (T)(Object)this.getTrafficClass();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultDatagramChannelConfig.java",
+    "line": 382,
+    "before": "         return (T)this.getTimeToLive();",
+    "after": "         return (T)(Object)this.getTimeToLive();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultDatagramChannelConfig.java",
+    "line": 376,
+    "before": "         return (T)this.isLoopbackModeDisabled();",
+    "after": "         return (T)(Object)this.isLoopbackModeDisabled();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultDatagramChannelConfig.java",
+    "line": 374,
+    "before": "         return (T)this.isReuseAddress();",
+    "after": "         return (T)(Object)this.isReuseAddress();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultDatagramChannelConfig.java",
+    "line": 372,
+    "before": "         return (T)this.getSendBufferSize();",
+    "after": "         return (T)(Object)this.getSendBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultDatagramChannelConfig.java",
+    "line": 370,
+    "before": "         return (T)this.getReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultDatagramChannelConfig.java",
+    "line": 368,
+    "before": "         return (T)this.isBroadcast();",
+    "after": "         return (T)(Object)this.isBroadcast();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultServerSocketChannelConfig.java",
+    "line": 81,
+    "before": "         return (T)this.isReuseAddress();",
+    "after": "         return (T)(Object)this.isReuseAddress();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultServerSocketChannelConfig.java",
+    "line": 79,
+    "before": "         return (T)this.getReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultSocketChannelConfig.java",
+    "line": 57,
+    "before": "         return (T)this.getTrafficClass();",
+    "after": "         return (T)(Object)this.getTrafficClass();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultSocketChannelConfig.java",
+    "line": 55,
+    "before": "         return (T)this.getSoLinger();",
+    "after": "         return (T)(Object)this.getSoLinger();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultSocketChannelConfig.java",
+    "line": 53,
+    "before": "         return (T)this.isReuseAddress();",
+    "after": "         return (T)(Object)this.isReuseAddress();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultSocketChannelConfig.java",
+    "line": 51,
+    "before": "         return (T)this.isKeepAlive();",
+    "after": "         return (T)(Object)this.isKeepAlive();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultSocketChannelConfig.java",
+    "line": 49,
+    "before": "         return (T)this.isTcpNoDelay();",
+    "after": "         return (T)(Object)this.isTcpNoDelay();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultSocketChannelConfig.java",
+    "line": 47,
+    "before": "         return (T)this.getSendBufferSize();",
+    "after": "         return (T)(Object)this.getSendBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/socket/DefaultSocketChannelConfig.java",
+    "line": 45,
+    "before": "         return (T)this.getReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java",
+    "line": 103,
+    "before": "         return (T)this.isReuseAddress();",
+    "after": "         return (T)(Object)this.isReuseAddress();",
+    "diagnostic": "incompatible types: boolean cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java",
+    "line": 101,
+    "before": "         return (T)this.getSendBufferSize();",
+    "after": "         return (T)(Object)this.getSendBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java",
+    "line": 99,
+    "before": "         return (T)this.getReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java",
+    "line": 97,
+    "before": "         return (T)this.getSystemSendBufferSize();",
+    "after": "         return (T)(Object)this.getSystemSendBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java",
+    "line": 95,
+    "before": "         return (T)this.getSystemReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getSystemReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java",
+    "line": 93,
+    "before": "         return (T)this.getProtocolSendBufferSize();",
+    "after": "         return (T)(Object)this.getProtocolSendBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/channel/udt/DefaultUdtChannelConfig.java",
+    "line": 91,
+    "before": "         return (T)this.getProtocolReceiveBufferSize();",
+    "after": "         return (T)(Object)this.getProtocolReceiveBufferSize();",
+    "diagnostic": "incompatible types: int cannot be converted to T"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/codec/http/HttpHeaders.java",
+    "line": 412,
+    "before": "         for (String var6 : var4) {",
+    "after": "         for (String var6 : (Iterable<String>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/codec/http/multipart/DefaultHttpDataFactory.java",
+    "line": 140,
+    "before": "         for (HttpData var4 : var2) {",
+    "after": "         for (HttpData var4 : (Iterable<HttpData>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to io.netty.handler.codec.http.multipart.HttpData"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/codec/http/multipart/DefaultHttpDataFactory.java",
+    "line": 86,
+    "before": "            for (HttpData var5 : var3) {",
+    "after": "            for (HttpData var5 : (Iterable<HttpData>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to io.netty.handler.codec.http.multipart.HttpData"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/codec/http/multipart/HttpPostRequestEncoder.java",
+    "line": 133,
+    "before": "               for (String var7 : var3) {",
+    "after": "               for (String var7 : (Iterable<String>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/codec/http/multipart/HttpPostRequestEncoder.java",
+    "line": 90,
+    "before": "            for (String var5 : var2) {",
+    "after": "            for (String var5 : (Iterable<String>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/codec/spdy/SpdyFrameEncoder.java",
+    "line": 35,
+    "before": "      for (Integer var9 : var3) {",
+    "after": "      for (Integer var9 : (Iterable<Integer>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.Integer"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/codec/spdy/SpdyHeaderBlockRawEncoder.java",
+    "line": 38,
+    "before": "         for (String var6 : var2) {",
+    "after": "         for (String var6 : (Iterable<String>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/ssl/JdkSslContext.java",
+    "line": 100,
+    "before": "         PROTOCOLS = var3.toArray(new String[var3.size()]);",
+    "after": "         PROTOCOLS = (java.lang.String[])var3.toArray(new String[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/ssl/JdkSslContext.java",
+    "line": 61,
+    "before": "         return var1.toArray(new String[var1.size()]);",
+    "after": "         return (java.lang.String[])var1.toArray(new String[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/ssl/SslHandler.java",
+    "line": 400,
+    "before": "                        for (Runnable var2x : var1) {",
+    "after": "                        for (Runnable var2x : (Iterable<Runnable>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.Runnable"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/ssl/JdkSslServerContext.java",
+    "line": 134,
+    "before": "            var39.setKeyEntry(\"key\", var19, var17, var20.toArray(new Certificate[var20.size()]));",
+    "after": "            var39.setKeyEntry(\"key\", var19, var17, (java.security.cert.Certificate[])var20.toArray(new Certificate[var20.size()]));",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.security.cert.Certificate[]"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/ssl/OpenSslServerContext.java",
+    "line": 187,
+    "before": "                  for (String var41 : var34) {",
+    "after": "                  for (String var41 : (Iterable<String>)(Iterable<?>)(var34)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/ssl/PemReader.java",
+    "line": 81,
+    "before": "         return var2.toArray(new ByteBuf[var2.size()]);",
+    "after": "         return (io.netty.buffer.ByteBuf[])var2.toArray(new ByteBuf[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to io.netty.buffer.ByteBuf[]"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/ssl/util/FingerprintTrustManagerFactory.java",
+    "line": 146,
+    "before": "         return var1.toArray(new byte[var1.size()][]);",
+    "after": "         return (byte[][])var1.toArray(new byte[var1.size()][]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to byte[][]"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/ssl/util/FingerprintTrustManagerFactory.java",
+    "line": 101,
+    "before": "         this.fingerprints = var2.toArray(new byte[var2.size()][]);",
+    "after": "         this.fingerprints = (byte[][])var2.toArray(new byte[var2.size()][]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to byte[][]"
+  },
+  {
+    "file": "src/main/java/io/netty/handler/traffic/GlobalTrafficShapingHandler.java",
+    "line": 42,
+    "before": "         for (GlobalTrafficShapingHandler.ToSend var5 : var3) {",
+    "after": "         for (GlobalTrafficShapingHandler.ToSend var5 : (Iterable<GlobalTrafficShapingHandler.ToSend>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to io.netty.handler.traffic.GlobalTrafficShapingHandler.ToSend"
+  },
+  {
+    "file": "src/main/java/io/netty/util/NetUtil.java",
+    "line": 352,
+    "before": "            for (NetworkInterface var47 : var4) {",
+    "after": "            for (NetworkInterface var47 : (Iterable<NetworkInterface>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.net.NetworkInterface"
+  },
+  {
+    "file": "src/main/java/io/netty/util/NetUtil.java",
+    "line": 337,
+    "before": "      for (NetworkInterface var8 : var4) {",
+    "after": "      for (NetworkInterface var8 : (Iterable<NetworkInterface>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.net.NetworkInterface"
+  },
+  {
+    "file": "src/main/java/io/netty/util/Version.java",
+    "line": 90,
+    "before": "      for (String var20 : var15) {",
+    "after": "      for (String var20 : (Iterable<String>)(Iterable<?>)(var15)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/io/netty/util/internal/StringUtil.java",
+    "line": 55,
+    "before": "      return var3.toArray(new String[var3.size()]);",
+    "after": "      return (java.lang.String[])var3.toArray(new String[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/io/netty/util/internal/chmv8/ConcurrentHashMapV8.java",
+    "line": 1667,
+    "before": "         for (Entry var12 : var2.entrySet()) {",
+    "after": "         for (Entry var12 : (Iterable<Entry>)(Iterable<?>)(var2.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/item/EntityFallingBlock.java",
+    "line": 55,
+    "before": "            for (Entity var9 : var5) {",
+    "after": "            for (Entity var9 : (Iterable<Entity>)(Iterable<?>)(var5)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.Entity"
+  },
+  {
+    "file": "src/main/java/net/minecraft/block/BlockDynamicLiquid.java",
+    "line": 126,
+    "before": "         for (EnumFacing var12 : var16) {",
+    "after": "         for (EnumFacing var12 : (Iterable<EnumFacing>)(Iterable<?>)(var16)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.EnumFacing"
+  },
+  {
+    "file": "src/main/java/net/minecraft/block/BlockPressurePlate.java",
+    "line": 45,
+    "before": "         for (Entity var6 : var4) {",
+    "after": "         for (Entity var6 : (Iterable<Entity>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.Entity"
+  },
+  {
+    "file": "src/main/java/net/minecraft/block/BlockRedstoneWire.java",
+    "line": 51,
+    "before": "      for (BlockPos var6 : var4) {",
+    "after": "      for (BlockPos var6 : (Iterable<BlockPos>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.BlockPos"
+  },
+  {
+    "file": "src/main/java/net/minecraft/block/BlockSponge.java",
+    "line": 65,
+    "before": "      for (BlockPos var15 : var4) {",
+    "after": "      for (BlockPos var15 : (Iterable<BlockPos>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.BlockPos"
+  },
+  {
+    "file": "src/main/java/net/minecraft/block/BlockTripWire.java",
+    "line": 119,
+    "before": "         for (Entity var8 : var6) {",
+    "after": "         for (Entity var8 : (Iterable<Entity>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.Entity"
+  },
+  {
+    "file": "src/main/java/net/minecraft/world/gen/FlatGeneratorInfo.java",
+    "line": 225,
+    "before": "               for (Entry var8 : var5.entrySet()) {",
+    "after": "               for (Entry var8 : (Iterable<Entry>)(Iterable<?>)(var5.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/inventory/ContainerRepair.java",
+    "line": 278,
+    "before": "                     for (int var25 : var14.keySet()) {",
+    "after": "                     for (int var25 : (Iterable<int>)(Iterable<?>)(var14.keySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to int"
+  },
+  {
+    "file": "src/main/java/net/minecraft/inventory/ContainerRepair.java",
+    "line": 260,
+    "before": "               for (int var34 : var28.keySet()) {",
+    "after": "               for (int var34 : (Iterable<int>)(Iterable<?>)(var28.keySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to int"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiScreenResourcePacks.java",
+    "line": 161,
+    "before": "         for (ResourcePackRepository.Entry var4 : var2) {",
+    "after": "         for (ResourcePackRepository.Entry var4 : (Iterable<ResourcePackRepository.Entry>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.client.resources.ResourcePackRepository.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiScreenResourcePacks.java",
+    "line": 99,
+    "before": "               for (ResourcePackRepository.Entry var15 : var10) {",
+    "after": "               for (ResourcePackRepository.Entry var15 : (Iterable<ResourcePackRepository.Entry>)(Iterable<?>)(var10)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.client.resources.ResourcePackRepository.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/gui/GuiSnooper.java",
+    "line": 66,
+    "before": "      this.field_146607_r = var2.toArray(new String[var2.size()]);",
+    "after": "      this.field_146607_r = (java.lang.String[])var2.toArray(new String[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/EntityList.java",
+    "line": 134,
+    "before": "      for (String var3 : var0) {",
+    "after": "      for (String var3 : (Iterable<String>)(Iterable<?>)(var0)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/renderer/texture/Stitcher.java",
+    "line": 75,
+    "before": "      for (Stitcher.Slot var4 : var1) {",
+    "after": "      for (Stitcher.Slot var4 : (Iterable<Stitcher.Slot>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.client.renderer.texture.Stitcher.Slot"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/boss/EntityDragon.java",
+    "line": 521,
+    "before": "         for (EntityEnderCrystal var7 : var2) {",
+    "after": "         for (EntityEnderCrystal var7 : (Iterable<EntityEnderCrystal>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.item.EntityEnderCrystal"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/projectile/EntityPotion.java",
+    "line": 74,
+    "before": "                     for (PotionEffect var12 : var2) {",
+    "after": "                     for (PotionEffect var12 : (Iterable<PotionEffect>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.potion.PotionEffect"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/projectile/EntityPotion.java",
+    "line": 66,
+    "before": "               for (EntityLivingBase var6 : var4) {",
+    "after": "               for (EntityLivingBase var6 : (Iterable<EntityLivingBase>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.EntityLivingBase"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/monster/EntityWitch.java",
+    "line": 162,
+    "before": "                     for (PotionEffect var4 : var6) {",
+    "after": "                     for (PotionEffect var4 : (Iterable<PotionEffect>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.potion.PotionEffect"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/renderer/tileentity/TileEntityBannerRenderer.java",
+    "line": 53,
+    "before": "            for (TileEntityBanner.EnumBannerPattern var12 : var9) {",
+    "after": "            for (TileEntityBanner.EnumBannerPattern var12 : (Iterable<TileEntityBanner.EnumBannerPattern>)(Iterable<?>)(var9)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.tileentity.TileEntityBanner.EnumBannerPattern"
+  },
+  {
+    "file": "src/main/java/net/minecraft/tileentity/TileEntityBeacon.java",
+    "line": 164,
+    "before": "            for (EntityPlayer var12 : var8) {",
+    "after": "            for (EntityPlayer var12 : (Iterable<EntityPlayer>)(Iterable<?>)(var8)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.player.EntityPlayer"
+  },
+  {
+    "file": "src/main/java/net/minecraft/tileentity/TileEntityBeacon.java",
+    "line": 159,
+    "before": "         for (EntityPlayer var10 : var8) {",
+    "after": "         for (EntityPlayer var10 : (Iterable<EntityPlayer>)(Iterable<?>)(var8)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.player.EntityPlayer"
+  },
+  {
+    "file": "src/main/java/net/optifine/reflect/ReflectorMethod.java",
+    "line": 154,
+    "before": "      return var2.toArray(new Method[var2.size()]);",
+    "after": "      return (java.lang.reflect.Method[])var2.toArray(new Method[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.reflect.Method[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/resources/model/ModelBakery.java",
+    "line": 210,
+    "before": "            for (ResourceLocation var3 : var1) {",
+    "after": "            for (ResourceLocation var3 : (Iterable<ResourceLocation>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.ResourceLocation"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/resources/model/ModelBakery.java",
+    "line": 186,
+    "before": "      for (ModelResourceLocation var4 : var2) {",
+    "after": "      for (ModelResourceLocation var4 : (Iterable<ModelResourceLocation>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.client.resources.model.ModelResourceLocation"
+  },
+  {
+    "file": "src/main/java/net/minecraft/client/resources/model/ModelBakery.java",
+    "line": 167,
+    "before": "         for (Entry var5 : var3.entrySet()) {",
+    "after": "         for (Entry var5 : (Iterable<Entry>)(Iterable<?>)(var3.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandClone.java",
+    "line": 179,
+    "before": "                        for (NextTickListEntry var47 : var39) {",
+    "after": "                        for (NextTickListEntry var47 : (Iterable<NextTickListEntry>)(Iterable<?>)(var39)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.NextTickListEntry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandClone.java",
+    "line": 173,
+    "before": "                     for (CommandClone.StaticCloneData var43 : var33) {",
+    "after": "                     for (CommandClone.StaticCloneData var43 : (Iterable<CommandClone.StaticCloneData>)(Iterable<?>)(var33)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.command.CommandClone.StaticCloneData"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandClone.java",
+    "line": 160,
+    "before": "                     for (CommandClone.StaticCloneData var42 : var15) {",
+    "after": "                     for (CommandClone.StaticCloneData var42 : (Iterable<CommandClone.StaticCloneData>)(Iterable<?>)(var15)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.command.CommandClone.StaticCloneData"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandClone.java",
+    "line": 154,
+    "before": "                     for (CommandClone.StaticCloneData var41 : var30) {",
+    "after": "                     for (CommandClone.StaticCloneData var41 : (Iterable<CommandClone.StaticCloneData>)(Iterable<?>)(var30)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.command.CommandClone.StaticCloneData"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandClone.java",
+    "line": 143,
+    "before": "                     for (CommandClone.StaticCloneData var40 : var33) {",
+    "after": "                     for (CommandClone.StaticCloneData var40 : (Iterable<CommandClone.StaticCloneData>)(Iterable<?>)(var33)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.command.CommandClone.StaticCloneData"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandClone.java",
+    "line": 132,
+    "before": "                        for (BlockPos var32 : var17) {",
+    "after": "                        for (BlockPos var32 : (Iterable<BlockPos>)(Iterable<?>)(var17)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.BlockPos"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandClone.java",
+    "line": 123,
+    "before": "                        for (BlockPos var31 : var17) {",
+    "after": "                        for (BlockPos var31 : (Iterable<BlockPos>)(Iterable<?>)(var17)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.BlockPos"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandFill.java",
+    "line": 157,
+    "before": "            for (BlockPos var27 : var25) {",
+    "after": "            for (BlockPos var27 : (Iterable<BlockPos>)(Iterable<?>)(var25)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.BlockPos"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/CommandStats.java",
+    "line": 149,
+    "before": "      for (ScoreObjective var4 : var1) {",
+    "after": "      for (ScoreObjective var4 : (Iterable<ScoreObjective>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.scoreboard.ScoreObjective"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/PlayerSelector.java",
+    "line": 463,
+    "before": "            for (World var10 : var7) {",
+    "after": "            for (World var10 : (Iterable<World>)(Iterable<?>)(var7)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.World"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/PlayerSelector.java",
+    "line": 390,
+    "before": "         for (Entity var5 : var2) {",
+    "after": "         for (Entity var5 : (Iterable<Entity>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.Entity"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/PlayerSelector.java",
+    "line": 224,
+    "before": "               for (Entry var4 : var2.entrySet()) {",
+    "after": "               for (Entry var4 : (Iterable<Entry>)(Iterable<?>)(var2.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandAchievement.java",
+    "line": 116,
+    "before": "                        for (Achievement var22 : var9) {",
+    "after": "                        for (Achievement var22 : (Iterable<Achievement>)(Iterable<?>)(var9)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.stats.Achievement"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandAchievement.java",
+    "line": 99,
+    "before": "                        for (Achievement var11 : var17) {",
+    "after": "                        for (Achievement var11 : (Iterable<Achievement>)(Iterable<?>)(var17)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.stats.Achievement"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandAchievement.java",
+    "line": 84,
+    "before": "                        for (Achievement var21 : Lists.reverse(var18)) {",
+    "after": "                        for (Achievement var21 : (Iterable<Achievement>)(Iterable<?>)(Lists.reverse(var18))) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.stats.Achievement"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandBanIp.java",
+    "line": 44,
+    "before": "      for (EntityPlayerMP var9 : var5) {",
+    "after": "      for (EntityPlayerMP var9 : (Iterable<EntityPlayerMP>)(Iterable<?>)(var5)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.player.EntityPlayerMP"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "line": 954,
+    "before": "      for (ScoreObjective var4 : var1) {",
+    "after": "      for (ScoreObjective var4 : (Iterable<ScoreObjective>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.scoreboard.ScoreObjective"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "line": 771,
+    "before": "         for (ScorePlayerTeam var8 : var9) {",
+    "after": "         for (ScorePlayerTeam var8 : (Iterable<ScorePlayerTeam>)(Iterable<?>)(var9)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.scoreboard.ScorePlayerTeam"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "line": 486,
+    "before": "      for (ScoreObjective var5 : var2) {",
+    "after": "      for (ScoreObjective var5 : (Iterable<ScoreObjective>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.scoreboard.ScoreObjective"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "line": 459,
+    "before": "         for (String var8 : var12) {",
+    "after": "         for (String var8 : (Iterable<String>)(Iterable<?>)(var12)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "line": 385,
+    "before": "         for (Score var9 : var6.values()) {",
+    "after": "         for (Score var9 : (Iterable<Score>)(Iterable<?>)(var6.values())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.scoreboard.Score"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "line": 65,
+    "before": "         for (String var8 : var6) {",
+    "after": "         for (String var8 : (Iterable<String>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/minecraft/command/server/CommandScoreboard.java",
+    "line": 47,
+    "before": "         for (ScoreObjective var6 : var3) {",
+    "after": "         for (ScoreObjective var6 : (Iterable<ScoreObjective>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.scoreboard.ScoreObjective"
+  },
+  {
+    "file": "src/main/java/net/minecraft/enchantment/EnchantmentHelper.java",
+    "line": 240,
+    "before": "         for (EnchantmentData var6 : var3) {",
+    "after": "         for (EnchantmentData var6 : (Iterable<EnchantmentData>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.enchantment.EnchantmentData"
+  },
+  {
+    "file": "src/main/java/net/minecraft/enchantment/EnchantmentHelper.java",
+    "line": 189,
+    "before": "                     for (EnchantmentData var16 : var8) {",
+    "after": "                     for (EnchantmentData var16 : (Iterable<EnchantmentData>)(Iterable<?>)(var8)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.enchantment.EnchantmentData"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/SharedMonsterAttributes.java",
+    "line": 77,
+    "before": "         for (AttributeModifier var6 : var3) {",
+    "after": "         for (AttributeModifier var6 : (Iterable<AttributeModifier>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.ai.attributes.AttributeModifier"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/ai/EntityAIFollowGolem.java",
+    "line": 42,
+    "before": "            for (EntityIronGolem var3 : var1) {",
+    "after": "            for (EntityIronGolem var3 : (Iterable<EntityIronGolem>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.monster.EntityIronGolem"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/ai/EntityAIFollowParent.java",
+    "line": 21,
+    "before": "         for (EntityAnimal var6 : var1) {",
+    "after": "         for (EntityAnimal var6 : (Iterable<EntityAnimal>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.passive.EntityAnimal"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/ai/EntityAIMate.java",
+    "line": 28,
+    "before": "      for (EntityAnimal var7 : var2) {",
+    "after": "      for (EntityAnimal var7 : (Iterable<EntityAnimal>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.passive.EntityAnimal"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/ai/EntityAIPlay.java",
+    "line": 58,
+    "before": "         for (EntityVillager var5 : var1) {",
+    "after": "         for (EntityVillager var5 : (Iterable<EntityVillager>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.passive.EntityVillager"
+  },
+  {
+    "file": "src/main/java/net/minecraft/entity/ai/attributes/ModifiableAttributeInstance.java",
+    "line": 137,
+    "before": "         for (AttributeModifier var3 : Lists.newArrayList(var1)) {",
+    "after": "         for (AttributeModifier var3 : (Iterable<AttributeModifier>)(Iterable<?>)(Lists.newArrayList(var1))) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.entity.ai.attributes.AttributeModifier"
+  },
+  {
+    "file": "src/main/java/net/minecraft/item/ItemPotion.java",
+    "line": 275,
+    "before": "            for (PotionEffect var6 : var4) {",
+    "after": "            for (PotionEffect var6 : (Iterable<PotionEffect>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.potion.PotionEffect"
+  },
+  {
+    "file": "src/main/java/net/minecraft/item/ItemPotion.java",
+    "line": 201,
+    "before": "            for (Entry var18 : var6.entries()) {",
+    "after": "            for (Entry var18 : (Iterable<Entry>)(Iterable<?>)(var6.entries())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/item/ItemPotion.java",
+    "line": 169,
+    "before": "                  for (Entry var13 : var11.entrySet()) {",
+    "after": "                  for (Entry var13 : (Iterable<Entry>)(Iterable<?>)(var11.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/item/ItemPotion.java",
+    "line": 164,
+    "before": "            for (PotionEffect var8 : var5) {",
+    "after": "            for (PotionEffect var8 : (Iterable<PotionEffect>)(Iterable<?>)(var5)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.potion.PotionEffect"
+  },
+  {
+    "file": "src/main/java/net/minecraft/item/ItemPotion.java",
+    "line": 63,
+    "before": "         for (PotionEffect var4 : var2) {",
+    "after": "         for (PotionEffect var4 : (Iterable<PotionEffect>)(Iterable<?>)(var2)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.potion.PotionEffect"
+  },
+  {
+    "file": "src/main/java/net/minecraft/item/crafting/ShapelessRecipes.java",
+    "line": 43,
+    "before": "               for (ItemStack var9 : var3) {",
+    "after": "               for (ItemStack var9 : (Iterable<ItemStack>)(Iterable<?>)(var3)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.item.ItemStack"
+  },
+  {
+    "file": "src/main/java/net/minecraft/src/Config.java",
+    "line": 1843,
+    "before": "            return var1.toArray(new String[var1.size()]);",
+    "after": "            return (java.lang.String[])var1.toArray(new String[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/src/Config.java",
+    "line": 1707,
+    "before": "            DisplayMode[] var8 = var2.toArray(new DisplayMode[var2.size()]);",
+    "after": "            DisplayMode[] var8 = (org.lwjgl.opengl.DisplayMode[])var2.toArray(new DisplayMode[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to org.lwjgl.opengl.DisplayMode[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/src/Config.java",
+    "line": 1699,
+    "before": "            for (Dimension var4 : var1) {",
+    "after": "            for (Dimension var4 : (Iterable<Dimension>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.awt.Dimension"
+  },
+  {
+    "file": "src/main/java/net/minecraft/src/Config.java",
+    "line": 1081,
+    "before": "      return var2.toArray(new DisplayMode[var2.size()]);",
+    "after": "      return (org.lwjgl.opengl.DisplayMode[])var2.toArray(new DisplayMode[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to org.lwjgl.opengl.DisplayMode[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/src/Config.java",
+    "line": 476,
+    "before": "      return var2.toArray(new IResourcePack[var2.size()]);",
+    "after": "      return (net.minecraft.client.resources.IResourcePack[])var2.toArray(new IResourcePack[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.client.resources.IResourcePack[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/src/Config.java",
+    "line": 365,
+    "before": "      return var3.toArray(new String[var3.size()]);",
+    "after": "      return (java.lang.String[])var3.toArray(new String[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/minecraft/stats/StatList.java",
+    "line": 143,
+    "before": "      for (Item var8 : var0) {",
+    "after": "      for (Item var8 : (Iterable<Item>)(Iterable<?>)(var0)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.item.Item"
+  },
+  {
+    "file": "src/main/java/net/minecraft/world/chunk/storage/AnvilChunkLoader.java",
+    "line": 122,
+    "before": "         for (NextTickListEntry var33 : var25) {",
+    "after": "         for (NextTickListEntry var33 : (Iterable<NextTickListEntry>)(Iterable<?>)(var25)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.NextTickListEntry"
+  },
+  {
+    "file": "src/main/java/net/minecraft/world/gen/structure/MapGenStructure.java",
+    "line": 159,
+    "before": "            for (BlockPos var23 : var20) {",
+    "after": "            for (BlockPos var23 : (Iterable<BlockPos>)(Iterable<?>)(var20)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.BlockPos"
+  },
+  {
+    "file": "src/main/java/net/minecraft/world/gen/structure/StructureOceanMonumentPieces.java",
+    "line": 1093,
+    "before": "         for (StructureOceanMonumentPieces.RoomDefinition var36 : var30) {",
+    "after": "         for (StructureOceanMonumentPieces.RoomDefinition var36 : (Iterable<StructureOceanMonumentPieces.RoomDefinition>)(Iterable<?>)(var30)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.gen.structure.StructureOceanMonumentPieces.RoomDefinition"
+  },
+  {
+    "file": "src/main/java/net/minecraft/world/gen/structure/StructureOceanMonumentPieces.java",
+    "line": 658,
+    "before": "               for (StructureOceanMonumentPieces.MonumentRoomFitHelper var10 : var6) {",
+    "after": "               for (StructureOceanMonumentPieces.MonumentRoomFitHelper var10 : (Iterable<StructureOceanMonumentPieces.MonumentRoomFitHelper>)(Iterable<?>)(var6)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.gen.structure.StructureOceanMonumentPieces.MonumentRoomFitHelper"
+  },
+  {
+    "file": "src/main/java/net/minecraft/world/gen/structure/StructureOceanMonumentPieces.java",
+    "line": 656,
+    "before": "         for (StructureOceanMonumentPieces.RoomDefinition var8 : var5) {",
+    "after": "         for (StructureOceanMonumentPieces.RoomDefinition var8 : (Iterable<StructureOceanMonumentPieces.RoomDefinition>)(Iterable<?>)(var5)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.world.gen.structure.StructureOceanMonumentPieces.RoomDefinition"
+  },
+  {
+    "file": "src/main/java/net/optifine/ConnectedProperties.java",
+    "line": 808,
+    "before": "         return var4.toArray(new TextureAtlasSprite[var4.size()]);",
+    "after": "         return (net.minecraft.client.renderer.texture.TextureAtlasSprite[])var4.toArray(new TextureAtlasSprite[var4.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.client.renderer.texture.TextureAtlasSprite[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/ConnectedProperties.java",
+    "line": 126,
+    "before": "         String[] var10 = var2.toArray(new String[var2.size()]);",
+    "after": "         String[] var10 = (java.lang.String[])var2.toArray(new String[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/ConnectedTextures.java",
+    "line": 1624,
+    "before": "            ConnectedProperties[] var4 = var3.toArray(new ConnectedProperties[var3.size()]);",
+    "after": "            ConnectedProperties[] var4 = (net.optifine.ConnectedProperties[])var3.toArray(new ConnectedProperties[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.ConnectedProperties[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/ConnectedTextures.java",
+    "line": 956,
+    "before": "      return var0.toArray(new String[var0.size()]);",
+    "after": "      return (java.lang.String[])var0.toArray(new String[var0.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/ConnectedTextures.java",
+    "line": 782,
+    "before": "      ConnectedProperties[] var7 = var0.toArray(new ConnectedProperties[var0.size()]);",
+    "after": "      ConnectedProperties[] var7 = (net.optifine.ConnectedProperties[])var0.toArray(new ConnectedProperties[var0.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.ConnectedProperties[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomBlockLayers.java",
+    "line": 65,
+    "before": "         renderLayers = var0.toArray(new EnumWorldBlockLayer[var0.size()]);",
+    "after": "         renderLayers = (net.minecraft.util.EnumWorldBlockLayer[])var0.toArray(new EnumWorldBlockLayer[var0.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.util.EnumWorldBlockLayer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomColormap.java",
+    "line": 189,
+    "before": "         Integer[] var5 = var1.toArray(new Integer[var1.size()]);",
+    "after": "         Integer[] var5 = (java.lang.Integer[])var1.toArray(new Integer[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.Integer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomColors.java",
+    "line": 248,
+    "before": "      Integer[] var22 = var21.toArray(new Integer[var21.size()]);",
+    "after": "      Integer[] var22 = (java.lang.Integer[])var21.toArray(new Integer[var21.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.Integer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomColors.java",
+    "line": 116,
+    "before": "            CustomColormap[] var4 = var3.toArray(new CustomColormap[var3.size()]);",
+    "after": "            CustomColormap[] var4 = (net.optifine.CustomColormap[])var3.toArray(new CustomColormap[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.CustomColormap[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomGuis.java",
+    "line": 211,
+    "before": "                  CustomGuiProperties[] var4 = var3.toArray(new CustomGuiProperties[var3.size()]);",
+    "after": "                  CustomGuiProperties[] var4 = (net.optifine.CustomGuiProperties[])var3.toArray(new CustomGuiProperties[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.CustomGuiProperties[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomItemProperties.java",
+    "line": 736,
+    "before": "         Integer[] var15 = var3.toArray(new Integer[var3.size()]);",
+    "after": "         Integer[] var15 = (java.lang.Integer[])var3.toArray(new Integer[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.Integer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomItemProperties.java",
+    "line": 578,
+    "before": "         return var4.toArray(new NbtTagValue[var4.size()]);",
+    "after": "         return (net.optifine.config.NbtTagValue[])var4.toArray(new NbtTagValue[var4.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.config.NbtTagValue[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomItems.java",
+    "line": 450,
+    "before": "         String[] var4 = var3.toArray(new String[var3.size()]);",
+    "after": "         String[] var4 = (java.lang.String[])var3.toArray(new String[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomItems.java",
+    "line": 287,
+    "before": "            CustomItemProperties[] var4 = var3.toArray(new CustomItemProperties[var3.size()]);",
+    "after": "            CustomItemProperties[] var4 = (net.optifine.CustomItemProperties[])var3.toArray(new CustomItemProperties[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.CustomItemProperties[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomLoadingScreens.java",
+    "line": 36,
+    "before": "      Integer[] var16 = var15.toArray(new Integer[var15.size()]);",
+    "after": "      Integer[] var16 = (java.lang.Integer[])var15.toArray(new Integer[var15.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.Integer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomPanorama.java",
+    "line": 120,
+    "before": "      return var0.toArray(new String[var0.size()]);",
+    "after": "      return (java.lang.String[])var0.toArray(new String[var0.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/CustomSky.java",
+    "line": 92,
+    "before": "            CustomSkyLayer[] var20 = var5.toArray(new CustomSkyLayer[var5.size()]);",
+    "after": "            CustomSkyLayer[] var20 = (net.optifine.CustomSkyLayer[])var5.toArray(new CustomSkyLayer[var5.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.CustomSkyLayer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/config/ConnectedParser.java",
+    "line": 868,
+    "before": "      Integer[] var8 = var2.toArray(new Integer[var2.size()]);",
+    "after": "      Integer[] var8 = (java.lang.Integer[])var2.toArray(new Integer[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.Integer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/config/ConnectedParser.java",
+    "line": 521,
+    "before": "      Integer[] var10 = var2.toArray(new Integer[var2.size()]);",
+    "after": "      Integer[] var10 = (java.lang.Integer[])var2.toArray(new Integer[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.Integer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/config/ConnectedParser.java",
+    "line": 454,
+    "before": "      Integer[] var7 = var2.toArray(new Integer[var2.size()]);",
+    "after": "      Integer[] var7 = (java.lang.Integer[])var2.toArray(new Integer[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.Integer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/config/ConnectedParser.java",
+    "line": 417,
+    "before": "         return var2.toArray(new MatchBlock[var2.size()]);",
+    "after": "         return (net.optifine.config.MatchBlock[])var2.toArray(new MatchBlock[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.config.MatchBlock[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/config/ConnectedParser.java",
+    "line": 398,
+    "before": "         return var4.toArray(new BiomeGenBase[var4.size()]);",
+    "after": "         return (net.minecraft.world.biome.BiomeGenBase[])var4.toArray(new BiomeGenBase[var4.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.world.biome.BiomeGenBase[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/Lang.java",
+    "line": 41,
+    "before": "      String[] var5 = var1.toArray(new String[var1.size()]);",
+    "after": "      String[] var5 = (java.lang.String[])var1.toArray(new String[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/Mipmaps.java",
+    "line": 47,
+    "before": "               return var5.toArray(new Dimension[var5.size()]);",
+    "after": "               return (java.awt.Dimension[])var5.toArray(new Dimension[var5.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.awt.Dimension[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/NaturalTextures.java",
+    "line": 80,
+    "before": "            propertiesByIndex = var4.toArray(new NaturalProperties[var4.size()]);",
+    "after": "            propertiesByIndex = (net.optifine.NaturalProperties[])var4.toArray(new NaturalProperties[var4.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.NaturalProperties[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/RandomEntities.java",
+    "line": 283,
+    "before": "            ResourceLocation[] var7 = var2.toArray(new ResourceLocation[var2.size()]);",
+    "after": "            ResourceLocation[] var7 = (net.minecraft.util.ResourceLocation[])var2.toArray(new ResourceLocation[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.util.ResourceLocation[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/RandomEntityProperties.java",
+    "line": 62,
+    "before": "      return var5.toArray(new RandomEntityRule[var5.size()]);",
+    "after": "      return (net.optifine.RandomEntityRule[])var5.toArray(new RandomEntityRule[var5.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.RandomEntityRule[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/TextureAnimations.java",
+    "line": 256,
+    "before": "         return var2.toArray(new TextureAnimation[var2.size()]);",
+    "after": "         return (net.optifine.TextureAnimation[])var2.toArray(new TextureAnimation[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.TextureAnimation[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/TextureAnimations.java",
+    "line": 38,
+    "before": "      return var1.toArray(new TextureAnimation[var1.size()]);",
+    "after": "      return (net.optifine.TextureAnimation[])var1.toArray(new TextureAnimation[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.TextureAnimation[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/entity/model/CustomEntityModelParser.java",
+    "line": 202,
+    "before": "      CustomModelRenderer[] var14 = var10.toArray(new CustomModelRenderer[var10.size()]);",
+    "after": "      CustomModelRenderer[] var14 = (net.optifine.entity.model.CustomModelRenderer[])var10.toArray(new CustomModelRenderer[var10.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.entity.model.CustomModelRenderer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/entity/model/CustomEntityModelParser.java",
+    "line": 104,
+    "before": "            ModelVariableUpdater[] var17 = var8.toArray(new ModelVariableUpdater[var8.size()]);",
+    "after": "            ModelVariableUpdater[] var17 = (net.optifine.entity.model.anim.ModelVariableUpdater[])var8.toArray(new ModelVariableUpdater[var8.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.entity.model.anim.ModelVariableUpdater[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/entity/model/CustomEntityModels.java",
+    "line": 95,
+    "before": "      return var2.toArray(new ResourceLocation[var2.size()]);",
+    "after": "      return (net.minecraft.util.ResourceLocation[])var2.toArray(new ResourceLocation[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.util.ResourceLocation[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/entity/model/ModelAdapter.java",
+    "line": 31,
+    "before": "      return var3.toArray(new ModelRenderer[var3.size()]);",
+    "after": "      return (net.minecraft.client.model.ModelRenderer[])var3.toArray(new ModelRenderer[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.client.model.ModelRenderer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/entity/model/CustomModelRegistry.java",
+    "line": 102,
+    "before": "      return var0.toArray(new String[var0.size()]);",
+    "after": "      return (java.lang.String[])var0.toArray(new String[var0.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/expr/ExpressionParser.java",
+    "line": 268,
+    "before": "            return var2.toArray(new IExpression[var2.size()]);",
+    "after": "            return (net.optifine.expr.IExpression[])var2.toArray(new IExpression[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.expr.IExpression[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/expr/ParametersVariable.java",
+    "line": 63,
+    "before": "      return var7.toArray(new ExpressionType[var7.size()]);",
+    "after": "      return (net.optifine.expr.ExpressionType[])var7.toArray(new ExpressionType[var7.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.expr.ExpressionType[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/expr/TokenParser.java",
+    "line": 16,
+    "before": "            return var3.toArray(new Token[var3.size()]);",
+    "after": "            return (net.optifine.expr.Token[])var3.toArray(new Token[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.expr.Token[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/gui/TooltipProviderShaderOptions.java",
+    "line": 29,
+    "before": "      return var4.toArray(new String[var4.size()]);",
+    "after": "      return (java.lang.String[])var4.toArray(new String[var4.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/http/HttpPipelineSender.java",
+    "line": 54,
+    "before": "      for (String var5 : var3.keySet()) {",
+    "after": "      for (String var5 : (Iterable<String>)(Iterable<?>)(var3.keySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/optifine/player/PlayerItemParser.java",
+    "line": 104,
+    "before": "         PlayerItemRenderer[] var14 = var7.toArray(new PlayerItemRenderer[var7.size()]);",
+    "after": "         PlayerItemRenderer[] var14 = (net.optifine.player.PlayerItemRenderer[])var7.toArray(new PlayerItemRenderer[var7.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.player.PlayerItemRenderer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/reflect/ReflectorForge.java",
+    "line": 102,
+    "before": "            return var2.toArray(new String[var2.size()]);",
+    "after": "            return (java.lang.String[])var2.toArray(new String[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/reflect/ReflectorRaw.java",
+    "line": 137,
+    "before": "         return var4.toArray(new Field[var4.size()]);",
+    "after": "         return (java.lang.reflect.Field[])var4.toArray(new Field[var4.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.reflect.Field[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/reflect/ReflectorRaw.java",
+    "line": 74,
+    "before": "            Field[] var7 = var6.toArray(new Field[var6.size()]);",
+    "after": "            Field[] var7 = (java.lang.reflect.Field[])var6.toArray(new Field[var6.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.reflect.Field[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/reflect/ReflectorRaw.java",
+    "line": 22,
+    "before": "         return var2.toArray(new Field[var2.size()]);",
+    "after": "         return (java.lang.reflect.Field[])var2.toArray(new Field[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.reflect.Field[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/render/ChunkVisibility.java",
+    "line": 117,
+    "before": "                     for (BlockPos var18 : var21.keySet()) {",
+    "after": "                     for (BlockPos var18 : (Iterable<BlockPos>)(Iterable<?>)(var21.keySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.util.BlockPos"
+  },
+  {
+    "file": "src/main/java/net/optifine/render/ChunkVisibility.java",
+    "line": 42,
+    "before": "         EnumFacing[] var9 = var4.toArray(new EnumFacing[var4.size()]);",
+    "after": "         EnumFacing[] var9 = (net.minecraft.util.EnumFacing[])var4.toArray(new EnumFacing[var4.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.minecraft.util.EnumFacing[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/BlockAlias.java",
+    "line": 59,
+    "before": "      Integer[] var5 = var1.toArray(new Integer[var1.size()]);",
+    "after": "      Integer[] var5 = (java.lang.Integer[])var1.toArray(new Integer[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.Integer[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/BlockAlias.java",
+    "line": 42,
+    "before": "      return var2.toArray(new MatchBlock[var2.size()]);",
+    "after": "      return (net.optifine.config.MatchBlock[])var2.toArray(new MatchBlock[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.config.MatchBlock[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/BlockAliases.java",
+    "line": 29,
+    "before": "            var1[var2] = var3.toArray(new BlockAlias[var3.size()]);",
+    "after": "            var1[var2] = (net.optifine.shaders.BlockAlias[])var3.toArray(new BlockAlias[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.shaders.BlockAlias[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/config/ShaderProfile.java",
+    "line": 20,
+    "before": "      return var1.toArray(new String[var1.size()]);",
+    "after": "      return (java.lang.String[])var1.toArray(new String[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/Shaders.java",
+    "line": 4344,
+    "before": "            return var5.toArray(new ShaderOption[var5.size()]);",
+    "after": "            return (net.optifine.shaders.config.ShaderOption[])var5.toArray(new ShaderOption[var5.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.shaders.config.ShaderOption[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/Shaders.java",
+    "line": 2694,
+    "before": "            for (String var5 : var0) {",
+    "after": "            for (String var5 : (Iterable<String>)(Iterable<?>)(var0)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.String"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/Shaders.java",
+    "line": 2477,
+    "before": "      return var9.toArray(new ShaderOption[var9.size()]);",
+    "after": "      return (net.optifine.shaders.config.ShaderOption[])var9.toArray(new ShaderOption[var9.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.shaders.config.ShaderOption[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/Shaders.java",
+    "line": 1737,
+    "before": "      return var1.toArray(new ShaderOption[var1.size()]);",
+    "after": "      return (net.optifine.shaders.config.ShaderOption[])var1.toArray(new ShaderOption[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.shaders.config.ShaderOption[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/Shaders.java",
+    "line": 778,
+    "before": "      return var1.toArray(new ShaderOption[var1.size()]);",
+    "after": "      return (net.optifine.shaders.config.ShaderOption[])var1.toArray(new ShaderOption[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.shaders.config.ShaderOption[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/uniform/CustomUniforms.java",
+    "line": 40,
+    "before": "      this.expressionsCached = var3.toArray(new IExpressionCached[var3.size()]);",
+    "after": "      this.expressionsCached = (net.optifine.expr.IExpressionCached[])var3.toArray(new IExpressionCached[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.expr.IExpressionCached[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/config/ShaderOptionProfile.java",
+    "line": 53,
+    "before": "      return var1.toArray(new String[var1.size()]);",
+    "after": "      return (java.lang.String[])var1.toArray(new String[var1.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/config/ShaderPackParser.java",
+    "line": 786,
+    "before": "         ShaderOption[] var9 = var8.toArray(new ShaderOption[var8.size()]);",
+    "after": "         ShaderOption[] var9 = (net.optifine.shaders.config.ShaderOption[])var8.toArray(new ShaderOption[var8.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.shaders.config.ShaderOption[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/config/ShaderPackParser.java",
+    "line": 770,
+    "before": "      return var2.toArray(new ShaderMacro[var2.size()]);",
+    "after": "      return (net.optifine.shaders.config.ShaderMacro[])var2.toArray(new ShaderMacro[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.shaders.config.ShaderMacro[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/config/ShaderPackParser.java",
+    "line": 563,
+    "before": "               for (ShaderMacro var32 : var10) {",
+    "after": "               for (ShaderMacro var32 : (Iterable<ShaderMacro>)(Iterable<?>)(var10)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.optifine.shaders.config.ShaderMacro"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/config/ShaderPackParser.java",
+    "line": 528,
+    "before": "         CustomUniform[] var16 = var6.toArray(new CustomUniform[var6.size()]);",
+    "after": "         CustomUniform[] var16 = (net.optifine.shaders.uniform.CustomUniform[])var6.toArray(new CustomUniform[var6.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.shaders.uniform.CustomUniform[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/shaders/config/ShaderPackParser.java",
+    "line": 105,
+    "before": "         ShaderOption[] var13 = var6.toArray(new ShaderOption[var6.size()]);",
+    "after": "         ShaderOption[] var13 = (net.optifine.shaders.config.ShaderOption[])var6.toArray(new ShaderOption[var6.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to net.optifine.shaders.config.ShaderOption[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/util/KeyUtils.java",
+    "line": 19,
+    "before": "      for (KeyBinding var5 : var7) {",
+    "after": "      for (KeyBinding var5 : (Iterable<KeyBinding>)(Iterable<?>)(var7)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to net.minecraft.client.settings.KeyBinding"
+  },
+  {
+    "file": "src/main/java/net/optifine/util/NativeMemory.java",
+    "line": 31,
+    "before": "      for (Throwable var7 : var1) {",
+    "after": "      for (Throwable var7 : (Iterable<Throwable>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.lang.Throwable"
+  },
+  {
+    "file": "src/main/java/net/optifine/util/ResUtils.java",
+    "line": 135,
+    "before": "      return var2.toArray(new String[var2.size()]);",
+    "after": "      return (java.lang.String[])var2.toArray(new String[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/util/ResUtils.java",
+    "line": 121,
+    "before": "         return var2.toArray(new String[var2.size()]);",
+    "after": "         return (java.lang.String[])var2.toArray(new String[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/util/ResUtils.java",
+    "line": 100,
+    "before": "         return var3.toArray(new String[var3.size()]);",
+    "after": "         return (java.lang.String[])var3.toArray(new String[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/util/ResUtils.java",
+    "line": 72,
+    "before": "         return var4.toArray(new String[var4.size()]);",
+    "after": "         return (java.lang.String[])var4.toArray(new String[var4.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/util/StrUtils.java",
+    "line": 111,
+    "before": "            return var2.toArray(new String[var2.size()]);",
+    "after": "            return (java.lang.String[])var2.toArray(new String[var2.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/net/optifine/util/StrUtils.java",
+    "line": 56,
+    "before": "            return var3.toArray(new String[var3.size()]);",
+    "after": "            return (java.lang.String[])var3.toArray(new String[var3.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/chainsaw/MyTableModel.java",
+    "line": 225,
+    "before": "                  for (EventDetails var5 : MyTableModel.this.mPendingEvents) {",
+    "after": "                  for (EventDetails var5 : (Iterable<EventDetails>)(Iterable<?>)(MyTableModel.this.mPendingEvents)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.apache.log4j.chainsaw.EventDetails"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/chainsaw/MyTableModel.java",
+    "line": 143,
+    "before": "      this.mFilteredEvents = var4.toArray(EMPTY_LIST);",
+    "after": "      this.mFilteredEvents = (org.apache.log4j.chainsaw.EventDetails[])var4.toArray(EMPTY_LIST);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to org.apache.log4j.chainsaw.EventDetails[]"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/chainsaw/MyTableModel.java",
+    "line": 136,
+    "before": "      for (EventDetails var7 : this.mAllEvents) {",
+    "after": "      for (EventDetails var7 : (Iterable<EventDetails>)(Iterable<?>)(this.mAllEvents)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.apache.log4j.chainsaw.EventDetails"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/jdbc/JDBCAppender.java",
+    "line": 77,
+    "before": "      for (LoggingEvent var2 : this.buffer) {",
+    "after": "      for (LoggingEvent var2 : (Iterable<LoggingEvent>)(Iterable<?>)(this.buffer)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.apache.log4j.spi.LoggingEvent"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/jmx/AbstractDynamicMBean.java",
+    "line": 98,
+    "before": "            for (Attribute var4 : var1) {",
+    "after": "            for (Attribute var4 : (Iterable<Attribute>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to javax.management.Attribute"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java",
+    "line": 432,
+    "before": "      for (LogTableColumn var3 : this._columns) {",
+    "after": "      for (LogTableColumn var3 : (Iterable<LogTableColumn>)(Iterable<?>)(this._columns)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.apache.log4j.lf5.viewer.LogTableColumn"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java",
+    "line": 345,
+    "before": "      for (LogTableColumn var4 : var1) {",
+    "after": "      for (LogTableColumn var4 : (Iterable<LogTableColumn>)(Iterable<?>)(var1)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.apache.log4j.lf5.viewer.LogTableColumn"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java",
+    "line": 174,
+    "before": "      for (LogLevel var4 : var1.keySet()) {",
+    "after": "      for (LogLevel var4 : (Iterable<LogLevel>)(Iterable<?>)(var1.keySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.apache.log4j.lf5.LogLevel"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java",
+    "line": 163,
+    "before": "      for (LogLevel var5 : var1.keySet()) {",
+    "after": "      for (LogLevel var5 : (Iterable<LogLevel>)(Iterable<?>)(var1.keySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.apache.log4j.lf5.LogLevel"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java",
+    "line": 162,
+    "before": "      for (LogRecord var3 : this._allRecords) {",
+    "after": "      for (LogRecord var3 : (Iterable<LogRecord>)(Iterable<?>)(this._allRecords)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.apache.log4j.lf5.LogRecord"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/pattern/PatternParser.java",
+    "line": 469,
+    "before": "            var16 = var4.toArray(var16);",
+    "after": "            var16 = (java.lang.String[])var4.toArray(var16);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/rewrite/MapRewritePolicy.java",
+    "line": 21,
+    "before": "         for (Entry var7 : var4.entrySet()) {",
+    "after": "         for (Entry var7 : (Iterable<Entry>)(Iterable<?>)(var4.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/org/apache/log4j/rewrite/PropertyRewritePolicy.java",
+    "line": 33,
+    "before": "         for (Entry var4 : this.properties.entrySet()) {",
+    "after": "         for (Entry var4 : (Iterable<Entry>)(Iterable<?>)(this.properties.entrySet())) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to java.util.Map.Entry"
+  },
+  {
+    "file": "src/main/java/org/java_websocket/server/DefaultSSLWebSocketServerFactory.java",
+    "line": 51,
+    "before": "      var3.setEnabledCipherSuites(var4.toArray(new String[var4.size()]));",
+    "after": "      var3.setEnabledCipherSuites((java.lang.String[])var4.toArray(new String[var4.size()]));",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.String[]"
+  },
+  {
+    "file": "src/main/java/org/slf4j/LoggerFactory.java",
+    "line": 215,
+    "before": "         for (SubstituteLoggingEvent var7 : var4) {",
+    "after": "         for (SubstituteLoggingEvent var7 : (Iterable<SubstituteLoggingEvent>)(Iterable<?>)(var4)) {",
+    "diagnostic": "incompatible types: java.lang.Object cannot be converted to org.slf4j.event.SubstituteLoggingEvent"
+  },
+  {
+    "file": "src/main/java/recovered/unidentified/UnidentifiedClass0366.java",
+    "line": 36,
+    "before": "      Field[] var9 = var8.toArray(new Field[var8.size()]);",
+    "after": "      Field[] var9 = (java.lang.reflect.Field[])var8.toArray(new Field[var8.size()]);",
+    "diagnostic": "incompatible types: java.lang.Object[] cannot be converted to java.lang.reflect.Field[]"
+  }
+]

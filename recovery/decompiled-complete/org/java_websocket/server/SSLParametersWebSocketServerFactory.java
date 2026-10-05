@@ -1,0 +1,40 @@
+package org.java_websocket.server;
+
+import io.netty.util.internal.chmv8.CountedCompleter;
+import java.nio.channels.ByteChannel;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.SocketChannel;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLEngine;
+import javax.net.ssl.SSLParameters;
+import net.minecraft.command.CommandDefaultGameMode;
+import org.java_websocket.SSLSocketChannel2;
+
+public class SSLParametersWebSocketServerFactory extends DefaultSSLWebSocketServerFactory {
+   public CountedCompleter field_0001;
+   public SSLParameters sslParameters;
+   public CommandDefaultGameMode field_0000;
+
+   public SSLParametersWebSocketServerFactory(SSLContext var1, ExecutorService var2, SSLParameters var3) {
+      super(var1, var2);
+      if (var3 == null) {
+         throw new IllegalArgumentException();
+      } else {
+         this.sslParameters = var3;
+      }
+   }
+
+   @Override
+   public ByteChannel wrapChannel(SocketChannel var1, SelectionKey var2) {
+      SSLEngine var3 = this.sslcontext.createSSLEngine();
+      var3.setUseClientMode(false);
+      var3.setSSLParameters(this.sslParameters);
+      return new SSLSocketChannel2(var1, var3, this.exec, var2);
+   }
+
+   public SSLParametersWebSocketServerFactory(SSLContext var1, SSLParameters var2) {
+      this(var1, Executors.newSingleThreadScheduledExecutor(), var2);
+   }
+}

@@ -1,0 +1,12 @@
+{
+  "manifest": "C:\\Users\\hp\\AppData\\Roaming\\.minecraft\\versions\\CheatBreakerNeo-1.8.9\\CheatBreakerNeo-1.8.9.json",
+  "clientVersion": "1.8.9",
+  "cache": "C:\\Users\\hp\\AppData\\Roaming\\.minecraft\\PCL.ini",
+  "invalidated_keys": [
+    "InstanceCache",
+    "VersionCache"
+  ],
+  "backup": "F:\\Work\\CheatBreaker1.8.9\\.target\\deployment-backups\\pcl-identification-20261005-181728",
+  "jar_sha256_unchanged": "08b3190450be8e89fbd7580fa3e78a571c56f3ea3dafbdf7df70cb5bf1c56358",
+  "restart_launcher_required": true
+}

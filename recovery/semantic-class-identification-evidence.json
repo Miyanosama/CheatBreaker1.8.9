@@ -1,0 +1,192 @@
+[
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass3697",
+    "name": "net/minecraft/client/renderer/entity/RenderTNTPrimed",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass1595",
+    "name": "net/minecraft/client/renderer/entity/RenderFallingBlock",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass5123",
+    "name": "net/minecraft/world/gen/layer/GenLayerAddIsland",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass1353",
+    "name": "net/minecraft/world/gen/layer/GenLayerRiver",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass5091",
+    "name": "net/minecraft/world/gen/layer/GenLayerShore",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass1583",
+    "name": "net/minecraft/block/BlockGravel",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass4731",
+    "name": "net/minecraft/block/BlockPotato",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass3734",
+    "name": "net/minecraft/block/BlockYellowFlower",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass3906",
+    "name": "net/minecraft/block/BlockRedFlower",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass4928",
+    "name": "junit/runner/Version",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass0300",
+    "name": "com/cheatbreaker/client/emote/Emote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass4157",
+    "name": "com/cheatbreaker/client/emote/type/DabEmote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass1790",
+    "name": "com/cheatbreaker/client/emote/type/FacepalmEmote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass1688",
+    "name": "com/cheatbreaker/client/emote/type/NarutoRunEmote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass1182",
+    "name": "com/cheatbreaker/client/emote/type/ShrugEmote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass1113",
+    "name": "com/cheatbreaker/client/emote/type/SuperFacepalmEmote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass0030",
+    "name": "com/cheatbreaker/client/emote/type/WaveEmote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass0998",
+    "name": "com/cheatbreaker/client/emote/type/TPoseEmote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass4798",
+    "name": "com/cheatbreaker/client/emote/type/FlossEmote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass0606",
+    "name": "com/cheatbreaker/client/emote/type/HandsUpEmote",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass0000",
+    "name": "com/cheatbreaker/client/command/ModuleCommand",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass3838",
+    "name": "com/cheatbreaker/client/command/type/IncreaseWorldTimeCommand",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass4432",
+    "name": "com/cheatbreaker/client/command/type/DecreaseWorldTimeCommand",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass4040",
+    "name": "com/cheatbreaker/client/module/staff/NoClipModule",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass3909",
+    "name": "com/cheatbreaker/client/module/type/ColorSaturationModule",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass3581",
+    "name": "com/cheatbreaker/client/util/AsyncExecutor",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedInterface4921",
+    "name": "net/minecraft/client/stream/BroadcastController$BroadcastListener",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedInterface1631",
+    "name": "org/json/JSONString",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedInterface1247",
+    "name": "net/minecraftforge/client/model/IModelPart",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass1472",
+    "name": "com/cheatbreaker/client/event/CancellableEvent",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass3475",
+    "name": "com/cheatbreaker/client/event/type/CollisionEvent",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass3810",
+    "name": "com/cheatbreaker/client/event/type/PlayerModelRenderEvent",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedEnum0393",
+    "name": "com/cheatbreaker/client/event/EventPhase",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass0026",
+    "name": "com/cheatbreaker/client/event/type/ChatMessageEvent",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass0890",
+    "name": "com/cheatbreaker/client/event/type/ChatPacketEvent",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass0806",
+    "name": "com/cheatbreaker/client/event/type/KeyPressEvent",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass0877",
+    "name": "com/cheatbreaker/client/event/type/MouseClickEvent",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  },
+  {
+    "original_source": "recovered/unidentified/UnidentifiedClass4396",
+    "name": "com/cheatbreaker/client/event/type/WorldChangeEvent",
+    "status": "semantic identity inferred from constructor labels, implemented interfaces, registry usage and method body; not an assertion of the stripped historical name"
+  }
+]

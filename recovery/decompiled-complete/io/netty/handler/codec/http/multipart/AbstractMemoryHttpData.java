@@ -1,0 +1,257 @@
+package io.netty.handler.codec.http.multipart;
+
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.CompositeByteBuf;
+import io.netty.buffer.Unpooled;
+import io.netty.buffer.UnpooledByteBufAllocator;
+import io.netty.handler.codec.ByteToMessageDecoder;
+import io.netty.handler.codec.http.HttpConstants;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.Buffer;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
+import java.nio.charset.Charset;
+import net.minecraft.block.BlockPistonBase;
+import net.minecraft.client.particle.EntitySpellParticleFX$InstantFactory;
+import net.optifine.CustomColormap;
+
+public abstract class AbstractMemoryHttpData extends AbstractHttpData {
+   public ByteToMessageDecoder __junk4176258167406717388;
+   public BlockPistonBase __junk9096089428247675438;
+   public boolean isRenamed;
+   public UnpooledByteBufAllocator __junk6576069266628690519;
+   public CustomColormap __junk1704577616681796519;
+   public int chunkPosition;
+   public EntitySpellParticleFX$InstantFactory __junk3157244433724252378;
+   public ByteBuf byteBuf;
+
+   @Override
+   public String getString(Charset var1) {
+      if (this.byteBuf == null) {
+         return "";
+      } else {
+         if (var1 == null) {
+            var1 = HttpConstants.DEFAULT_CHARSET;
+         }
+
+         return this.byteBuf.toString(var1);
+      }
+   }
+
+   @Override
+   public void setContent(File var1) {
+      if (var1 == null) {
+         throw new NullPointerException("file");
+      } else {
+         long var2 = var1.length();
+         if (var2 > (1831876892605546495L & -1831876890458062849L)) {
+            throw new IllegalArgumentException("File too big to be loaded in memory");
+         } else {
+            FileInputStream var4 = new FileInputStream(var1);
+            FileChannel var5 = var4.getChannel();
+            byte[] var6 = new byte[(int)var2];
+            ByteBuffer var7 = ByteBuffer.wrap(var6);
+            int var8 = 0;
+
+            while (var8 < var2) {
+               var8 += var5.read(var7);
+            }
+
+            var5.close();
+            var4.close();
+            ((Buffer)var7).flip();
+            if (this.byteBuf != null) {
+               this.byteBuf.release();
+            }
+
+            this.byteBuf = Unpooled.wrappedBuffer(Integer.MAX_VALUE, var7);
+            this.size = var2;
+            this.completed = true;
+         }
+      }
+   }
+
+   @Override
+   public void delete() {
+      if (this.byteBuf != null) {
+         this.byteBuf.release();
+         this.byteBuf = null;
+      }
+   }
+
+   @Override
+   public byte[] get() {
+      if (this.byteBuf == null) {
+         return Unpooled.EMPTY_BUFFER.array();
+      } else {
+         byte[] var1 = new byte[this.byteBuf.readableBytes()];
+         this.byteBuf.getBytes(this.byteBuf.readerIndex(), var1);
+         return var1;
+      }
+   }
+
+   @Override
+   public boolean renameTo(File var1) {
+      if (var1 == null) {
+         throw new NullPointerException("dest");
+      } else if (this.byteBuf == null) {
+         var1.createNewFile();
+         this.isRenamed = true;
+         return true;
+      } else {
+         int var2 = this.byteBuf.readableBytes();
+         FileOutputStream var3 = new FileOutputStream(var1);
+         FileChannel var4 = var3.getChannel();
+         int var5 = 0;
+         if (this.byteBuf.nioBufferCount() == 1) {
+            ByteBuffer var6 = this.byteBuf.nioBuffer();
+
+            while (var5 < var2) {
+               var5 += var4.write(var6);
+            }
+         } else {
+            ByteBuffer[] var7 = this.byteBuf.nioBuffers();
+
+            while (var5 < var2) {
+               var5 = (int)(var5 + var4.write(var7));
+            }
+         }
+
+         var4.force(false);
+         var4.close();
+         var3.close();
+         this.isRenamed = true;
+         return var5 == var2;
+      }
+   }
+
+   @Override
+   public void addContent(ByteBuf var1, boolean var2) {
+      if (var1 != null) {
+         long var3 = var1.readableBytes();
+         if (this.definedSize > (-6019998386973835136L & 6019998385967208272L) && this.definedSize < this.size + var3) {
+            throw new IOException("Out of size: " + (this.size + var3) + " > " + this.definedSize);
+         }
+
+         this.size += var3;
+         if (this.byteBuf == null) {
+            this.byteBuf = var1;
+         } else if (this.byteBuf instanceof CompositeByteBuf) {
+            CompositeByteBuf var5 = (CompositeByteBuf)this.byteBuf;
+            var5.addComponent(var1);
+            var5.writerIndex(var5.writerIndex() + var1.readableBytes());
+         } else {
+            CompositeByteBuf var6 = Unpooled.compositeBuffer(Integer.MAX_VALUE);
+            var6.addComponents(this.byteBuf, var1);
+            var6.writerIndex(this.byteBuf.readableBytes() + var1.readableBytes());
+            this.byteBuf = var6;
+         }
+      }
+
+      if (var2) {
+         this.completed = true;
+      } else if (var1 == null) {
+         throw new NullPointerException("buffer");
+      }
+   }
+
+   @Override
+   public void setContent(InputStream var1) {
+      if (var1 == null) {
+         throw new NullPointerException("inputStream");
+      } else {
+         ByteBuf var2 = Unpooled.buffer();
+         byte[] var3 = new byte[16384];
+         int var4 = var1.read(var3);
+
+         int var5;
+         for (var5 = 0; var4 > 0; var4 = var1.read(var3)) {
+            var2.writeBytes(var3, 0, var4);
+            var5 += var4;
+         }
+
+         this.size = var5;
+         if (this.definedSize > (73583121L & 1636635712L) && this.definedSize < this.size) {
+            throw new IOException("Out of size: " + this.size + " > " + this.definedSize);
+         } else {
+            if (this.byteBuf != null) {
+               this.byteBuf.release();
+            }
+
+            this.byteBuf = var2;
+            this.completed = true;
+         }
+      }
+   }
+
+   @Override
+   public String getString() {
+      return this.getString(HttpConstants.DEFAULT_CHARSET);
+   }
+
+   @Override
+   public void setContent(ByteBuf var1) {
+      if (var1 == null) {
+         throw new NullPointerException("buffer");
+      } else {
+         long var2 = var1.readableBytes();
+         if (this.definedSize > (-8315778450048415480L & 8315778450037150276L) && this.definedSize < var2) {
+            throw new IOException("Out of size: " + var2 + " > " + this.definedSize);
+         } else {
+            if (this.byteBuf != null) {
+               this.byteBuf.release();
+            }
+
+            this.byteBuf = var1;
+            this.size = var2;
+            this.completed = true;
+         }
+      }
+   }
+
+   @Override
+   public ByteBuf getChunk(int var1) {
+      if (this.byteBuf != null && var1 != 0 && this.byteBuf.readableBytes() != 0) {
+         int var2 = this.byteBuf.readableBytes() - this.chunkPosition;
+         if (var2 == 0) {
+            this.chunkPosition = 0;
+            return Unpooled.EMPTY_BUFFER;
+         } else {
+            int var3 = var1;
+            if (var2 < var1) {
+               var3 = var2;
+            }
+
+            ByteBuf var4 = this.byteBuf.slice(this.chunkPosition, var3).retain();
+            this.chunkPosition += var3;
+            return var4;
+         }
+      } else {
+         this.chunkPosition = 0;
+         return Unpooled.EMPTY_BUFFER;
+      }
+   }
+
+   @Override
+   public boolean isInMemory() {
+      return true;
+   }
+
+   @Override
+   public File getFile() {
+      throw new IOException("Not represented by a file");
+   }
+
+   public AbstractMemoryHttpData(String var1, Charset var2, long var3) {
+      super(var1, var2, var3);
+   }
+
+   @Override
+   public ByteBuf getByteBuf() {
+      return this.byteBuf;
+   }
+}

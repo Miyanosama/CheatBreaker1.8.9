@@ -1,0 +1,78 @@
+{
+  "input_class_count": 5139,
+  "method_count": 44631,
+  "field_count": 33871,
+  "mapped_class_count": 4019,
+  "confirmed_or_semantic_class_count": 3694,
+  "fallback_class_count": 325,
+  "fallback_unidentified_class_count": 309,
+  "string_tables": 16,
+  "corrected_member_matches": 1451,
+  "member_conflicts": 145,
+  "readable_method_names": 34455,
+  "placeholder_method_names": 2737,
+  "readable_field_names": 18417,
+  "placeholder_field_names": 15708,
+  "complete_source_files": 5139,
+  "selected_source_files": 3697,
+  "resource_files": 4233,
+  "source_compilation": "passed: clean compilation of all 3697 Java source files",
+  "mvn_test": "passed: eleven behavior tests and six recovery integrity checks",
+  "mvn_audit": "passed: six recovery integrity checks",
+  "compile_diagnostic_locations": 0,
+  "compile_affected_files": 0,
+  "arithmetic_expressions_folded": 162655,
+  "string_references_inlined": 29745,
+  "source_only_enum_switch_reconstructions": 22,
+  "runtime_tested": true,
+  "deployments": [
+    {
+      "version": "CheatBreakerNeo-1.8.9",
+      "directory": "C:\\Users\\hp\\AppData\\Roaming\\.minecraft\\versions\\CheatBreakerNeo-1.8.9",
+      "source_jar": "F:\\Work\\CheatBreaker1.8.9\\.target\\maven\\CheatBreaker1.8.9.jar",
+      "jar_sha256": "08b3190450be8e89fbd7580fa3e78a571c56f3ea3dafbdf7df70cb5bf1c56358",
+      "jar_bytes": 33137454,
+      "compiled_classes": 5109,
+      "native_files_verified": 14,
+      "backup": null,
+      "deployed_at": "2026-10-05T17:45:44.129532+08:00"
+    }
+  ],
+  "build_bat": "passed: source-built JAR, JSON, natives and launch scripts packaged",
+  "source_view_class_identity_repairs": 308,
+  "source_view_unidentified_class_count": 12,
+  "work_status": "Source compilation, source coverage and isolated runtime validation completed; twelve unreferenced/empty historical type names remain unconfirmed; remote features untested",
+  "last_successful_test_log": ".target/gzip-header-restoration-test.log",
+  "last_successful_build_log": ".target/build-neo-deployment.log",
+  "runtime_scope": [
+    "Main menu",
+    "Integrated singleplayer world load/save/reopen",
+    "Fourteen HUD modules",
+    "HUD editor",
+    "Server rule dispatch",
+    "OptiFine villager reflection"
+  ],
+  "runtime_exclusions": [
+    "Authenticated multiplayer",
+    "External cosmetics/friends/voice/radio services",
+    "Exhaustive original/source behavior equivalence"
+  ],
+  "compiled_classes": 5109,
+  "compiled_placeholder_method_count": 2174,
+  "compiled_placeholder_field_count": 3748,
+  "enum_identity_audit": {
+    "checked": 215,
+    "mismatches": 0
+  },
+  "static_initialization_audit": {
+    "checked": 1282,
+    "unexplained_mismatches": 0,
+    "verified_generated_switch_differences": 3
+  },
+  "updated_at": "2026-10-05T17:52:42.330944+08:00",
+  "remaining_review": [
+    "Twelve historical type names (ten unused structures and two native probe annotations)",
+    "Configuration readback exceptions in isolated repeated-start tests",
+    "Authenticated multiplayer and remote/native service behavior"
+  ]
+}

@@ -1,0 +1,2746 @@
+[
+  {
+    "source": "org/java_websocket/SSLSocketChannel.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$Status",
+    "cases": {
+      "1": "OK",
+      "2": "BUFFER_UNDERFLOW",
+      "3": "BUFFER_OVERFLOW",
+      "4": "CLOSED"
+    }
+  },
+  {
+    "source": "org/java_websocket/SSLSocketChannel.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$Status",
+    "cases": {
+      "1": "OK",
+      "2": "BUFFER_UNDERFLOW",
+      "3": "BUFFER_OVERFLOW",
+      "4": "CLOSED"
+    }
+  },
+  {
+    "source": "org/java_websocket/SSLSocketChannel.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$HandshakeStatus",
+    "cases": {
+      "1": "FINISHED",
+      "2": "NEED_UNWRAP",
+      "3": "NEED_WRAP",
+      "4": "NEED_TASK",
+      "5": "NOT_HANDSHAKING"
+    }
+  },
+  {
+    "source": "org/java_websocket/SSLSocketChannel.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$Status",
+    "cases": {
+      "1": "OK",
+      "2": "BUFFER_UNDERFLOW",
+      "3": "BUFFER_OVERFLOW",
+      "4": "CLOSED"
+    }
+  },
+  {
+    "source": "org/java_websocket/SSLSocketChannel.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$Status",
+    "cases": {
+      "1": "OK",
+      "2": "BUFFER_UNDERFLOW",
+      "3": "BUFFER_OVERFLOW",
+      "4": "CLOSED"
+    }
+  },
+  {
+    "source": "org/java_websocket/framing/FramedataImpl1.java",
+    "field": "$SwitchMap$org$java_websocket$enums$Opcode",
+    "cases": {
+      "1": "PING",
+      "2": "PONG",
+      "3": "TEXT",
+      "4": "BINARY",
+      "5": "CLOSING",
+      "6": "CONTINUOUS"
+    }
+  },
+  {
+    "source": "net/optifine/ConnectedTextures.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "EAST",
+      "4": "WEST",
+      "5": "NORTH",
+      "6": "SOUTH"
+    }
+  },
+  {
+    "source": "net/optifine/ConnectedTexturesCompact.java",
+    "field": "$SwitchMap$net$optifine$ConnectedTexturesCompact$Dir",
+    "cases": {
+      "1": "UP",
+      "2": "UP_RIGHT",
+      "3": "RIGHT",
+      "4": "DOWN_RIGHT",
+      "5": "DOWN",
+      "6": "DOWN_LEFT",
+      "7": "LEFT",
+      "8": "UP_LEFT"
+    }
+  },
+  {
+    "source": "net/optifine/CustomGuiProperties.java",
+    "field": "$SwitchMap$net$optifine$CustomGuiProperties$EnumContainer",
+    "cases": {
+      "1": "ANVIL",
+      "2": "BEACON",
+      "3": "BREWING_STAND",
+      "4": "CHEST",
+      "5": "CRAFTING",
+      "6": "CREATIVE",
+      "7": "DISPENSER",
+      "8": "ENCHANTMENT",
+      "9": "FURNACE",
+      "10": "HOPPER",
+      "11": "HORSE",
+      "12": "INVENTORY",
+      "13": "SHULKER_BOX",
+      "14": "VILLAGER"
+    }
+  },
+  {
+    "source": "net/optifine/CustomGuiProperties.java",
+    "field": "$SwitchMap$net$optifine$CustomGuiProperties$EnumContainer",
+    "cases": {
+      "1": "ANVIL",
+      "2": "BEACON",
+      "3": "BREWING_STAND",
+      "4": "CHEST",
+      "5": "CRAFTING",
+      "6": "CREATIVE",
+      "7": "DISPENSER",
+      "8": "ENCHANTMENT",
+      "9": "FURNACE",
+      "10": "HOPPER",
+      "11": "HORSE",
+      "12": "INVENTORY",
+      "13": "SHULKER_BOX",
+      "14": "VILLAGER"
+    }
+  },
+  {
+    "source": "net/optifine/CustomGuiProperties.java",
+    "field": "$SwitchMap$net$optifine$CustomGuiProperties$EnumContainer",
+    "cases": {
+      "1": "ANVIL",
+      "2": "BEACON",
+      "3": "BREWING_STAND",
+      "4": "CHEST",
+      "5": "CRAFTING",
+      "6": "CREATIVE",
+      "7": "DISPENSER",
+      "8": "ENCHANTMENT",
+      "9": "FURNACE",
+      "10": "HOPPER",
+      "11": "HORSE",
+      "12": "INVENTORY",
+      "13": "SHULKER_BOX",
+      "14": "VILLAGER"
+    }
+  },
+  {
+    "source": "net/optifine/expr/ExpressionParser.java",
+    "field": "$SwitchMap$net$optifine$expr$TokenType",
+    "cases": {
+      "1": "NUMBER",
+      "2": "IDENTIFIER",
+      "3": "BRACKET_OPEN",
+      "4": "OPERATOR"
+    }
+  },
+  {
+    "source": "net/optifine/expr/FunctionFloat.java",
+    "field": "$SwitchMap$net$optifine$expr$FunctionType",
+    "cases": {
+      "1": "SMOOTH"
+    }
+  },
+  {
+    "source": "net/optifine/expr/FunctionType.java",
+    "field": "$SwitchMap$net$optifine$expr$FunctionType",
+    "cases": {
+      "1": "PLUS",
+      "2": "MINUS",
+      "3": "MUL",
+      "4": "DIV",
+      "5": "MOD",
+      "6": "NEG",
+      "7": "PI",
+      "8": "SIN",
+      "9": "COS",
+      "10": "ASIN",
+      "11": "ACOS",
+      "12": "TAN",
+      "13": "ATAN",
+      "14": "ATAN2",
+      "15": "TORAD",
+      "16": "TODEG",
+      "17": "MIN",
+      "18": "MAX",
+      "19": "CLAMP",
+      "20": "ABS",
+      "21": "EXP",
+      "22": "FLOOR",
+      "23": "CEIL",
+      "24": "FRAC",
+      "25": "LOG",
+      "26": "POW",
+      "27": "RANDOM",
+      "28": "ROUND",
+      "29": "SIGNUM",
+      "30": "SQRT",
+      "31": "FMOD",
+      "32": "TIME",
+      "33": "IF",
+      "34": "SMOOTH",
+      "35": "TRUE",
+      "36": "FALSE",
+      "37": "NOT",
+      "38": "AND",
+      "39": "OR",
+      "40": "GREATER",
+      "41": "GREATER_OR_EQUAL",
+      "42": "SMALLER",
+      "43": "SMALLER_OR_EQUAL",
+      "44": "EQUAL",
+      "45": "NOT_EQUAL",
+      "46": "BETWEEN",
+      "47": "EQUALS",
+      "48": "IN",
+      "49": "VEC2",
+      "50": "VEC3",
+      "51": "VEC4"
+    }
+  },
+  {
+    "source": "net/optifine/expr/FunctionType.java",
+    "field": "$SwitchMap$net$optifine$expr$FunctionType",
+    "cases": {
+      "1": "PLUS",
+      "2": "MINUS",
+      "3": "MUL",
+      "4": "DIV",
+      "5": "MOD",
+      "6": "NEG",
+      "7": "PI",
+      "8": "SIN",
+      "9": "COS",
+      "10": "ASIN",
+      "11": "ACOS",
+      "12": "TAN",
+      "13": "ATAN",
+      "14": "ATAN2",
+      "15": "TORAD",
+      "16": "TODEG",
+      "17": "MIN",
+      "18": "MAX",
+      "19": "CLAMP",
+      "20": "ABS",
+      "21": "EXP",
+      "22": "FLOOR",
+      "23": "CEIL",
+      "24": "FRAC",
+      "25": "LOG",
+      "26": "POW",
+      "27": "RANDOM",
+      "28": "ROUND",
+      "29": "SIGNUM",
+      "30": "SQRT",
+      "31": "FMOD",
+      "32": "TIME",
+      "33": "IF",
+      "34": "SMOOTH",
+      "35": "TRUE",
+      "36": "FALSE",
+      "37": "NOT",
+      "38": "AND",
+      "39": "OR",
+      "40": "GREATER",
+      "41": "GREATER_OR_EQUAL",
+      "42": "SMALLER",
+      "43": "SMALLER_OR_EQUAL",
+      "44": "EQUAL",
+      "45": "NOT_EQUAL",
+      "46": "BETWEEN",
+      "47": "EQUALS",
+      "48": "IN",
+      "49": "VEC2",
+      "50": "VEC3",
+      "51": "VEC4"
+    }
+  },
+  {
+    "source": "net/optifine/expr/FunctionType.java",
+    "field": "$SwitchMap$net$optifine$expr$FunctionType",
+    "cases": {
+      "1": "PLUS",
+      "2": "MINUS",
+      "3": "MUL",
+      "4": "DIV",
+      "5": "MOD",
+      "6": "NEG",
+      "7": "PI",
+      "8": "SIN",
+      "9": "COS",
+      "10": "ASIN",
+      "11": "ACOS",
+      "12": "TAN",
+      "13": "ATAN",
+      "14": "ATAN2",
+      "15": "TORAD",
+      "16": "TODEG",
+      "17": "MIN",
+      "18": "MAX",
+      "19": "CLAMP",
+      "20": "ABS",
+      "21": "EXP",
+      "22": "FLOOR",
+      "23": "CEIL",
+      "24": "FRAC",
+      "25": "LOG",
+      "26": "POW",
+      "27": "RANDOM",
+      "28": "ROUND",
+      "29": "SIGNUM",
+      "30": "SQRT",
+      "31": "FMOD",
+      "32": "TIME",
+      "33": "IF",
+      "34": "SMOOTH",
+      "35": "TRUE",
+      "36": "FALSE",
+      "37": "NOT",
+      "38": "AND",
+      "39": "OR",
+      "40": "GREATER",
+      "41": "GREATER_OR_EQUAL",
+      "42": "SMALLER",
+      "43": "SMALLER_OR_EQUAL",
+      "44": "EQUAL",
+      "45": "NOT_EQUAL",
+      "46": "BETWEEN",
+      "47": "EQUALS",
+      "48": "IN",
+      "49": "VEC2",
+      "50": "VEC3",
+      "51": "VEC4"
+    }
+  },
+  {
+    "source": "net/optifine/model/QuadBounds.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/optifine/model/QuadBounds.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/CustomTextureRaw.java",
+    "field": "$SwitchMap$net$optifine$texture$TextureType",
+    "cases": {
+      "1": "TEXTURE_1D",
+      "2": "TEXTURE_2D",
+      "3": "TEXTURE_3D",
+      "4": "TEXTURE_RECTANGLE"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/Shaders.java",
+    "field": "$SwitchMap$net$optifine$shaders$config$EnumShaderOption",
+    "cases": {
+      "1": "ANTIALIASING",
+      "2": "NORMAL_MAP",
+      "3": "SPECULAR_MAP",
+      "4": "RENDER_RES_MUL",
+      "5": "SHADOW_RES_MUL",
+      "6": "HAND_DEPTH_MUL",
+      "7": "CLOUD_SHADOW",
+      "8": "OLD_HAND_LIGHT",
+      "9": "OLD_LIGHTING",
+      "10": "SHADER_PACK",
+      "11": "TWEAK_BLOCK_DAMAGE",
+      "12": "SHADOW_CLIP_FRUSTRUM",
+      "13": "TEX_MIN_FIL_B",
+      "14": "TEX_MIN_FIL_N",
+      "15": "TEX_MIN_FIL_S",
+      "16": "TEX_MAG_FIL_B",
+      "17": "TEX_MAG_FIL_N",
+      "18": "TEX_MAG_FIL_S"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/Shaders.java",
+    "field": "$SwitchMap$net$optifine$shaders$config$EnumShaderOption",
+    "cases": {
+      "1": "ANTIALIASING",
+      "2": "NORMAL_MAP",
+      "3": "SPECULAR_MAP",
+      "4": "RENDER_RES_MUL",
+      "5": "SHADOW_RES_MUL",
+      "6": "HAND_DEPTH_MUL",
+      "7": "CLOUD_SHADOW",
+      "8": "OLD_HAND_LIGHT",
+      "9": "OLD_LIGHTING",
+      "10": "SHADER_PACK",
+      "11": "TWEAK_BLOCK_DAMAGE",
+      "12": "SHADOW_CLIP_FRUSTRUM",
+      "13": "TEX_MIN_FIL_B",
+      "14": "TEX_MIN_FIL_N",
+      "15": "TEX_MIN_FIL_S",
+      "16": "TEX_MAG_FIL_B",
+      "17": "TEX_MAG_FIL_N",
+      "18": "TEX_MAG_FIL_S"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/Shaders.java",
+    "field": "$SwitchMap$net$optifine$shaders$ProgramStage",
+    "cases": {
+      "1": "GBUFFERS",
+      "2": "DEFERRED",
+      "3": "COMPOSITE",
+      "4": "SHADOW"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/Shaders.java",
+    "field": "$SwitchMap$net$optifine$texture$TextureType",
+    "cases": {
+      "1": "TEXTURE_1D",
+      "2": "TEXTURE_2D",
+      "3": "TEXTURE_3D",
+      "4": "TEXTURE_RECTANGLE"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/Shaders.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumWorldBlockLayer",
+    "cases": {
+      "1": "SOLID",
+      "2": "CUTOUT",
+      "3": "CUTOUT_MIPPED",
+      "4": "TRANSLUCENT"
+    }
+  },
+  {
+    "source": "net/optifine/util/MathUtilsTest.java",
+    "field": "$SwitchMap$net$optifine$util$MathUtilsTest$OPER",
+    "cases": {
+      "1": "SIN",
+      "2": "COS",
+      "3": "ASIN",
+      "4": "ACOS"
+    }
+  },
+  {
+    "source": "net/optifine/util/MathUtilsTest.java",
+    "field": "$SwitchMap$net$optifine$util$MathUtilsTest$OPER",
+    "cases": {
+      "1": "SIN",
+      "2": "COS",
+      "3": "ASIN",
+      "4": "ACOS"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/config/ShaderMacros.java",
+    "field": "$SwitchMap$net$minecraft$util$Util$EnumOS",
+    "cases": {
+      "1": "WINDOWS",
+      "2": "OSX",
+      "3": "LINUX"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/gui/GuiButtonEnumShaderOption.java",
+    "field": "$SwitchMap$net$optifine$shaders$config$EnumShaderOption",
+    "cases": {
+      "1": "ANTIALIASING",
+      "2": "NORMAL_MAP",
+      "3": "SPECULAR_MAP",
+      "4": "RENDER_RES_MUL",
+      "5": "SHADOW_RES_MUL",
+      "6": "HAND_DEPTH_MUL",
+      "7": "CLOUD_SHADOW",
+      "8": "OLD_HAND_LIGHT",
+      "9": "OLD_LIGHTING",
+      "10": "SHADOW_CLIP_FRUSTRUM",
+      "11": "TWEAK_BLOCK_DAMAGE"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/gui/GuiShaders.java",
+    "field": "recoveredField2777",
+    "cases": {
+      "1": "ANTIALIASING",
+      "2": "NORMAL_MAP",
+      "3": "SPECULAR_MAP",
+      "4": "RENDER_RES_MUL",
+      "5": "SHADOW_RES_MUL",
+      "6": "HAND_DEPTH_MUL",
+      "7": "OLD_HAND_LIGHT",
+      "8": "OLD_LIGHTING",
+      "9": "TWEAK_BLOCK_DAMAGE",
+      "10": "CLOUD_SHADOW",
+      "11": "TEX_MIN_FIL_B",
+      "12": "TEX_MAG_FIL_N",
+      "13": "TEX_MAG_FIL_S",
+      "14": "SHADOW_CLIP_FRUSTRUM"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/uniform/ShaderParameterBool.java",
+    "field": "$SwitchMap$net$optifine$shaders$uniform$ShaderParameterBool",
+    "cases": {
+      "1": "IS_ALIVE",
+      "2": "IS_BURNING",
+      "3": "IS_CHILD",
+      "4": "IS_HURT",
+      "5": "IS_IN_LAVA",
+      "6": "IS_IN_WATER",
+      "7": "IS_INVISIBLE",
+      "8": "IS_ON_GROUND",
+      "9": "IS_RIDDEN",
+      "10": "IS_RIDING",
+      "11": "IS_SNEAKING",
+      "12": "IS_SPRINTING",
+      "13": "IS_WET"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/uniform/ShaderParameterFloat.java",
+    "field": "recoveredField1301",
+    "cases": {
+      "1": "BIOME",
+      "2": "TEMPERATURE",
+      "3": "RAINFALL"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/uniform/UniformType.java",
+    "field": "$SwitchMap$net$optifine$shaders$uniform$UniformType",
+    "cases": {
+      "1": "BOOL",
+      "2": "INT",
+      "3": "FLOAT",
+      "4": "VEC2",
+      "5": "VEC3",
+      "6": "VEC4"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/uniform/UniformType.java",
+    "field": "$SwitchMap$net$optifine$shaders$uniform$UniformType",
+    "cases": {
+      "1": "BOOL",
+      "2": "INT",
+      "3": "FLOAT",
+      "4": "VEC2",
+      "5": "VEC3",
+      "6": "VEC4"
+    }
+  },
+  {
+    "source": "net/optifine/shaders/uniform/UniformType.java",
+    "field": "$SwitchMap$net$optifine$shaders$uniform$UniformType",
+    "cases": {
+      "1": "BOOL",
+      "2": "INT",
+      "3": "FLOAT",
+      "4": "VEC2",
+      "5": "VEC3",
+      "6": "VEC4"
+    }
+  },
+  {
+    "source": "net/optifine/entity/model/anim/ModelVariableType.java",
+    "field": "$SwitchMap$net$optifine$entity$model$anim$ModelVariableType",
+    "cases": {
+      "1": "POS_X",
+      "2": "POS_Y",
+      "3": "POS_Z",
+      "4": "ANGLE_X",
+      "5": "ANGLE_Y",
+      "6": "ANGLE_Z",
+      "7": "OFFSET_X",
+      "8": "OFFSET_Y",
+      "9": "OFFSET_Z",
+      "10": "SCALE_X",
+      "11": "SCALE_Y",
+      "12": "SCALE_Z"
+    }
+  },
+  {
+    "source": "net/optifine/entity/model/anim/ModelVariableType.java",
+    "field": "$SwitchMap$net$optifine$entity$model$anim$ModelVariableType",
+    "cases": {
+      "1": "POS_X",
+      "2": "POS_Y",
+      "3": "POS_Z",
+      "4": "ANGLE_X",
+      "5": "ANGLE_Y",
+      "6": "ANGLE_Z",
+      "7": "OFFSET_X",
+      "8": "OFFSET_Y",
+      "9": "OFFSET_Z",
+      "10": "SCALE_X",
+      "11": "SCALE_Y",
+      "12": "SCALE_Z"
+    }
+  },
+  {
+    "source": "net/optifine/entity/model/anim/RenderEntityParameterBool.java",
+    "field": "$SwitchMap$net$optifine$entity$model$anim$RenderEntityParameterBool",
+    "cases": {
+      "1": "IS_ALIVE",
+      "2": "IS_BURNING",
+      "3": "IS_CHILD",
+      "4": "IS_HURT",
+      "5": "IS_IN_LAVA",
+      "6": "IS_IN_WATER",
+      "7": "IS_INVISIBLE",
+      "8": "IS_ON_GROUND",
+      "9": "IS_RIDDEN",
+      "10": "IS_RIDING",
+      "11": "IS_SNEAKING",
+      "12": "IS_SPRINTING",
+      "13": "IS_WET"
+    }
+  },
+  {
+    "source": "net/optifine/entity/model/anim/RenderEntityParameterFloat.java",
+    "field": "$SwitchMap$net$optifine$entity$model$anim$RenderEntityParameterFloat",
+    "cases": {
+      "1": "HEALTH",
+      "2": "HURT_TIME",
+      "3": "IDLE_TIME",
+      "4": "MAX_HEALTH",
+      "5": "MOVE_FORWARD",
+      "6": "MOVE_STRAFING",
+      "7": "POS_X",
+      "8": "POS_Y",
+      "9": "POS_Z",
+      "10": "REVENGE_TIME",
+      "11": "SWING_PROGRESS",
+      "12": "LIMB_SWING",
+      "13": "LIMB_SWING_SPEED",
+      "14": "AGE",
+      "15": "HEAD_YAW",
+      "16": "HEAD_PITCH",
+      "17": "SCALE"
+    }
+  },
+  {
+    "source": "net/optifine/entity/model/anim/RenderEntityParameterFloat.java",
+    "field": "$SwitchMap$net$optifine$entity$model$anim$RenderEntityParameterFloat",
+    "cases": {
+      "1": "HEALTH",
+      "2": "HURT_TIME",
+      "3": "IDLE_TIME",
+      "4": "MAX_HEALTH",
+      "5": "MOVE_FORWARD",
+      "6": "MOVE_STRAFING",
+      "7": "POS_X",
+      "8": "POS_Y",
+      "9": "POS_Z",
+      "10": "REVENGE_TIME",
+      "11": "SWING_PROGRESS",
+      "12": "LIMB_SWING",
+      "13": "LIMB_SWING_SPEED",
+      "14": "AGE",
+      "15": "HEAD_YAW",
+      "16": "HEAD_PITCH",
+      "17": "SCALE"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockBanner.java",
+    "field": "field_180370_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockButton.java",
+    "field": "field_180420_a",
+    "cases": {
+      "1": "EAST",
+      "2": "WEST",
+      "3": "SOUTH",
+      "4": "NORTH",
+      "5": "UP",
+      "6": "DOWN"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockButton.java",
+    "field": "field_180420_a",
+    "cases": {
+      "1": "EAST",
+      "2": "WEST",
+      "3": "SOUTH",
+      "4": "NORTH",
+      "5": "UP",
+      "6": "DOWN"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockCocoa.java",
+    "field": "field_180415_a",
+    "cases": {
+      "1": "SOUTH",
+      "2": "NORTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockFarmland.java",
+    "field": "field_181625_a",
+    "cases": {
+      "1": "UP",
+      "2": "NORTH",
+      "3": "SOUTH",
+      "4": "WEST",
+      "5": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockFlowerPot.java",
+    "field": "field_180353_a",
+    "cases": {
+      "1": "OAK",
+      "2": "SPRUCE",
+      "3": "BIRCH",
+      "4": "JUNGLE",
+      "5": "ACACIA",
+      "6": "DARK_OAK"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockFlowerPot.java",
+    "field": "field_180352_b",
+    "cases": {
+      "1": "POPPY",
+      "2": "BLUE_ORCHID",
+      "3": "ALLIUM",
+      "4": "HOUSTONIA",
+      "5": "RED_TULIP",
+      "6": "ORANGE_TULIP",
+      "7": "WHITE_TULIP",
+      "8": "PINK_TULIP",
+      "9": "OXEYE_DAISY"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockHugeMushroom.java",
+    "field": "field_181092_a",
+    "cases": {
+      "1": "ALL_STEM",
+      "2": "ALL_INSIDE",
+      "3": "STEM"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockLever.java",
+    "field": "field_180165_a",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockLever.java",
+    "field": "field_180163_b",
+    "cases": {
+      "1": "EAST",
+      "2": "WEST",
+      "3": "SOUTH",
+      "4": "NORTH",
+      "5": "UP_Z",
+      "6": "UP_X",
+      "7": "DOWN_X",
+      "8": "DOWN_Z"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockLever.java",
+    "field": "field_180165_a",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockLever.java",
+    "field": "field_180164_c",
+    "cases": {
+      "1": "X",
+      "2": "Z"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockLever.java",
+    "field": "field_180164_c",
+    "cases": {
+      "1": "X",
+      "2": "Z"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockLog.java",
+    "field": "field_180167_a",
+    "cases": {
+      "1": "X",
+      "2": "Y",
+      "3": "Z"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockNewLog.java",
+    "field": "field_180191_a",
+    "cases": {
+      "1": "X",
+      "2": "Z",
+      "3": "NONE",
+      "4": "Y"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockNewLog.java",
+    "field": "field_180191_a",
+    "cases": {
+      "1": "X",
+      "2": "Z",
+      "3": "NONE",
+      "4": "Y"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockNewLog.java",
+    "field": "field_181093_a",
+    "cases": {
+      "1": "ACACIA",
+      "2": "DARK_OAK"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockOldLog.java",
+    "field": "field_180203_a",
+    "cases": {
+      "1": "X",
+      "2": "Z",
+      "3": "NONE",
+      "4": "Y"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockOldLog.java",
+    "field": "field_180203_a",
+    "cases": {
+      "1": "X",
+      "2": "Z",
+      "3": "NONE",
+      "4": "Y"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockOldLog.java",
+    "field": "field_181094_a",
+    "cases": {
+      "1": "OAK",
+      "2": "SPRUCE",
+      "3": "BIRCH",
+      "4": "JUNGLE"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockPistonBase.java",
+    "field": "field_177243_a",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockPistonExtension.java",
+    "field": "field_177247_a",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockPistonExtension.java",
+    "field": "field_177247_a",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockPressurePlate.java",
+    "field": "recoveredField908",
+    "cases": {
+      "1": "EVERYTHING",
+      "2": "MOBS"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockRailBase.java",
+    "field": "field_180371_a",
+    "cases": {
+      "1": "NORTH_SOUTH",
+      "2": "EAST_WEST",
+      "3": "ASCENDING_EAST",
+      "4": "ASCENDING_WEST",
+      "5": "ASCENDING_NORTH",
+      "6": "ASCENDING_SOUTH",
+      "7": "SOUTH_EAST",
+      "8": "SOUTH_WEST",
+      "9": "NORTH_WEST",
+      "10": "NORTH_EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockRailPowered.java",
+    "field": "recoveredField3591",
+    "cases": {
+      "1": "NORTH_SOUTH",
+      "2": "EAST_WEST",
+      "3": "ASCENDING_EAST",
+      "4": "ASCENDING_WEST",
+      "5": "ASCENDING_NORTH",
+      "6": "ASCENDING_SOUTH"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockSapling.java",
+    "field": "recoveredField2486",
+    "cases": {
+      "1": "SPRUCE",
+      "2": "BIRCH",
+      "3": "JUNGLE",
+      "4": "ACACIA",
+      "5": "DARK_OAK",
+      "6": "OAK"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockSilverfish.java",
+    "field": "field_180178_a",
+    "cases": {
+      "1": "COBBLESTONE",
+      "2": "STONEBRICK",
+      "3": "MOSSY_STONEBRICK",
+      "4": "CRACKED_STONEBRICK",
+      "5": "CHISELED_STONEBRICK"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockSkull.java",
+    "field": "field_177063_a",
+    "cases": {
+      "1": "UP",
+      "2": "NORTH",
+      "3": "SOUTH",
+      "4": "WEST",
+      "5": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockTorch.java",
+    "field": "field_176609_a",
+    "cases": {
+      "1": "EAST",
+      "2": "WEST",
+      "3": "SOUTH",
+      "4": "NORTH",
+      "5": "DOWN",
+      "6": "UP"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockTrapDoor.java",
+    "field": "field_177058_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockTripWireHook.java",
+    "field": "field_177056_a",
+    "cases": {
+      "1": "EAST",
+      "2": "WEST",
+      "3": "SOUTH",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockVine.java",
+    "field": "field_177057_a",
+    "cases": {
+      "1": "UP",
+      "2": "NORTH",
+      "3": "SOUTH",
+      "4": "EAST",
+      "5": "WEST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockVine.java",
+    "field": "field_177057_a",
+    "cases": {
+      "1": "UP",
+      "2": "NORTH",
+      "3": "SOUTH",
+      "4": "EAST",
+      "5": "WEST"
+    }
+  },
+  {
+    "source": "net/minecraft/block/BlockWallSign.java",
+    "field": "field_177331_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/client/Minecraft.java",
+    "field": "field_183016_a",
+    "cases": {
+      "1": "ENTITY",
+      "2": "BLOCK",
+      "3": "MISS"
+    }
+  },
+  {
+    "source": "net/minecraft/client/Minecraft.java",
+    "field": "field_183016_a",
+    "cases": {
+      "1": "ENTITY",
+      "2": "BLOCK",
+      "3": "MISS"
+    }
+  },
+  {
+    "source": "net/minecraft/client/Minecraft.java",
+    "field": "field_183017_b",
+    "cases": {
+      "1": "FURNACE",
+      "2": "CHEST",
+      "3": "TNT",
+      "4": "HOPPER",
+      "5": "COMMAND_BLOCK"
+    }
+  },
+  {
+    "source": "net/minecraft/item/ItemHoe.java",
+    "field": "field_179590_a",
+    "cases": {
+      "1": "DIRT",
+      "2": "COARSE_DIRT"
+    }
+  },
+  {
+    "source": "net/minecraft/network/NetHandlerPlayServer.java",
+    "field": "field_180222_b",
+    "cases": {
+      "1": "START_SNEAKING",
+      "2": "STOP_SNEAKING",
+      "3": "START_SPRINTING",
+      "4": "STOP_SPRINTING",
+      "5": "STOP_SLEEPING",
+      "6": "RIDING_JUMP",
+      "7": "OPEN_INVENTORY"
+    }
+  },
+  {
+    "source": "net/minecraft/network/NetHandlerPlayServer.java",
+    "field": "field_180223_c",
+    "cases": {
+      "1": "PERFORM_RESPAWN",
+      "2": "REQUEST_STATS",
+      "3": "OPEN_INVENTORY_ACHIEVEMENT"
+    }
+  },
+  {
+    "source": "net/minecraft/network/NetHandlerPlayServer.java",
+    "field": "field_180224_a",
+    "cases": {
+      "1": "DROP_ITEM",
+      "2": "DROP_ALL_ITEMS",
+      "3": "RELEASE_USE_ITEM",
+      "4": "START_DESTROY_BLOCK",
+      "5": "ABORT_DESTROY_BLOCK",
+      "6": "STOP_DESTROY_BLOCK"
+    }
+  },
+  {
+    "source": "net/minecraft/tileentity/TileEntityChest.java",
+    "field": "field_177366_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "EAST",
+      "4": "WEST"
+    }
+  },
+  {
+    "source": "net/minecraft/util/EnumFacing.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "NORTH",
+      "2": "EAST",
+      "3": "SOUTH",
+      "4": "WEST",
+      "5": "UP",
+      "6": "DOWN"
+    }
+  },
+  {
+    "source": "net/minecraft/util/EnumFacing.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "NORTH",
+      "2": "EAST",
+      "3": "SOUTH",
+      "4": "WEST",
+      "5": "UP",
+      "6": "DOWN"
+    }
+  },
+  {
+    "source": "net/minecraft/util/EnumFacing.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "NORTH",
+      "2": "EAST",
+      "3": "SOUTH",
+      "4": "WEST",
+      "5": "UP",
+      "6": "DOWN"
+    }
+  },
+  {
+    "source": "net/minecraft/util/EnumFacing.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "NORTH",
+      "2": "EAST",
+      "3": "SOUTH",
+      "4": "WEST",
+      "5": "UP",
+      "6": "DOWN"
+    }
+  },
+  {
+    "source": "net/minecraft/util/EnumFacing.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing$Axis",
+    "cases": {
+      "1": "X",
+      "2": "Y",
+      "3": "Z"
+    }
+  },
+  {
+    "source": "net/minecraft/util/EnumFacing.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing$Plane",
+    "cases": {
+      "1": "HORIZONTAL",
+      "2": "VERTICAL"
+    }
+  },
+  {
+    "source": "net/minecraft/world/biome/BiomeGenBase.java",
+    "field": "field_180275_a",
+    "cases": {
+      "1": "MONSTER",
+      "2": "CREATURE",
+      "3": "WATER_CREATURE",
+      "4": "AMBIENT"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/layer/GenLayerEdge.java",
+    "field": "field_151642_a",
+    "cases": {
+      "1": "COOL_WARM",
+      "2": "HEAT_ICE",
+      "3": "SPECIAL"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces.java",
+    "field": "field_175956_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureComponent.java",
+    "field": "field_176100_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureComponent.java",
+    "field": "field_176100_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureMineshaftPieces.java",
+    "field": "field_175894_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureMineshaftPieces.java",
+    "field": "field_175894_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureMineshaftPieces.java",
+    "field": "field_175894_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureMineshaftPieces.java",
+    "field": "field_175894_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureMineshaftPieces.java",
+    "field": "field_175894_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureMineshaftPieces.java",
+    "field": "field_175894_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureNetherBridgePieces.java",
+    "field": "field_175888_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureNetherBridgePieces.java",
+    "field": "field_175888_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureNetherBridgePieces.java",
+    "field": "field_175888_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureNetherBridgePieces.java",
+    "field": "field_175888_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces.java",
+    "field": "field_175971_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces.java",
+    "field": "field_175971_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "cases": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "cases": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "cases": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "cases": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_175951_b",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "cases": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureVillagePieces.java",
+    "field": "field_176064_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureVillagePieces.java",
+    "field": "field_176064_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureVillagePieces.java",
+    "field": "field_176064_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureVillagePieces.java",
+    "field": "field_176064_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureVillagePieces.java",
+    "field": "field_176064_a",
+    "cases": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/server/network/NetHandlerHandshakeTCP.java",
+    "field": "field_151291_a",
+    "cases": {
+      "1": "LOGIN",
+      "2": "STATUS"
+    }
+  },
+  {
+    "source": "net/minecraft/network/play/server/S38PacketPlayerListItem.java",
+    "field": "recoveredField2388",
+    "cases": {
+      "1": "ADD_PLAYER",
+      "2": "UPDATE_GAME_MODE",
+      "3": "UPDATE_LATENCY",
+      "4": "UPDATE_DISPLAY_NAME",
+      "5": "REMOVE_PLAYER"
+    }
+  },
+  {
+    "source": "net/minecraft/network/play/server/S38PacketPlayerListItem.java",
+    "field": "recoveredField2388",
+    "cases": {
+      "1": "ADD_PLAYER",
+      "2": "UPDATE_GAME_MODE",
+      "3": "UPDATE_LATENCY",
+      "4": "UPDATE_DISPLAY_NAME",
+      "5": "REMOVE_PLAYER"
+    }
+  },
+  {
+    "source": "net/minecraft/network/play/server/S42PacketCombatEvent.java",
+    "field": "field_179944_a",
+    "cases": {
+      "1": "END_COMBAT",
+      "2": "ENTITY_DIED"
+    }
+  },
+  {
+    "source": "net/minecraft/network/play/server/S44PacketWorldBorder.java",
+    "field": "field_179947_a",
+    "cases": {
+      "1": "SET_SIZE",
+      "2": "LERP_SIZE",
+      "3": "SET_CENTER",
+      "4": "SET_WARNING_BLOCKS",
+      "5": "SET_WARNING_TIME",
+      "6": "INITIALIZE"
+    }
+  },
+  {
+    "source": "net/minecraft/network/play/server/S44PacketWorldBorder.java",
+    "field": "field_179947_a",
+    "cases": {
+      "1": "SET_SIZE",
+      "2": "LERP_SIZE",
+      "3": "SET_CENTER",
+      "4": "SET_WARNING_BLOCKS",
+      "5": "SET_WARNING_TIME",
+      "6": "INITIALIZE"
+    }
+  },
+  {
+    "source": "net/minecraft/network/play/server/S44PacketWorldBorder.java",
+    "field": "field_179947_a",
+    "cases": {
+      "1": "SET_SIZE",
+      "2": "LERP_SIZE",
+      "3": "SET_CENTER",
+      "4": "SET_WARNING_BLOCKS",
+      "5": "SET_WARNING_TIME",
+      "6": "INITIALIZE"
+    }
+  },
+  {
+    "source": "net/minecraft/entity/item/EntityMinecart.java",
+    "field": "field_180036_b",
+    "cases": {
+      "1": "ASCENDING_EAST",
+      "2": "ASCENDING_WEST",
+      "3": "ASCENDING_NORTH",
+      "4": "ASCENDING_SOUTH"
+    }
+  },
+  {
+    "source": "net/minecraft/entity/item/EntityMinecart.java",
+    "field": "field_180037_a",
+    "cases": {
+      "1": "CHEST",
+      "2": "FURNACE",
+      "3": "TNT",
+      "4": "SPAWNER",
+      "5": "HOPPER",
+      "6": "COMMAND_BLOCK"
+    }
+  },
+  {
+    "source": "net/minecraft/entity/player/EntityPlayer.java",
+    "field": "field_179420_a",
+    "cases": {
+      "1": "SOUTH",
+      "2": "NORTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/entity/player/EntityPlayer.java",
+    "field": "field_179420_a",
+    "cases": {
+      "1": "SOUTH",
+      "2": "NORTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/entity/player/EntityPlayer.java",
+    "field": "field_179420_a",
+    "cases": {
+      "1": "SOUTH",
+      "2": "NORTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/client/audio/SoundHandler.java",
+    "field": "recoveredField2927",
+    "cases": {
+      "1": "FILE",
+      "2": "SOUND_EVENT"
+    }
+  },
+  {
+    "source": "net/minecraft/client/network/NetHandlerPlayClient.java",
+    "field": "field_178884_b",
+    "cases": {
+      "1": "ADD_PLAYER",
+      "2": "UPDATE_GAME_MODE",
+      "3": "UPDATE_LATENCY",
+      "4": "UPDATE_DISPLAY_NAME"
+    }
+  },
+  {
+    "source": "net/minecraft/client/network/NetHandlerPlayClient.java",
+    "field": "field_178885_a",
+    "cases": {
+      "1": "TITLE",
+      "2": "SUBTITLE",
+      "3": "RESET"
+    }
+  },
+  {
+    "source": "net/minecraft/client/network/NetworkPlayerInfo.java",
+    "field": "field_178875_a",
+    "cases": {
+      "1": "SKIN",
+      "2": "CAPE"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/BlockModelRenderer.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/BlockModelShapes.java",
+    "field": "field_178257_a",
+    "cases": {
+      "1": "DEFAULT",
+      "2": "CHISELED",
+      "3": "LINES_Y",
+      "4": "LINES_X",
+      "5": "LINES_Z"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/GlStateManager.java",
+    "field": "$SwitchMap$net$minecraft$client$renderer$GlStateManager$TexGen",
+    "cases": {
+      "1": "S",
+      "2": "T",
+      "3": "R",
+      "4": "Q"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/RenderGlobal.java",
+    "field": "$SwitchMap$net$minecraft$client$renderer$vertex$VertexFormatElement$EnumUsage",
+    "cases": {
+      "1": "POSITION",
+      "2": "UV",
+      "3": "COLOR"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/WorldRenderer.java",
+    "field": "$SwitchMap$net$minecraft$client$renderer$vertex$VertexFormatElement$EnumType",
+    "cases": {
+      "1": "FLOAT",
+      "2": "UINT",
+      "3": "INT",
+      "4": "USHORT",
+      "5": "SHORT",
+      "6": "UBYTE",
+      "7": "BYTE"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/WorldRenderer.java",
+    "field": "$SwitchMap$net$minecraft$client$renderer$vertex$VertexFormatElement$EnumType",
+    "cases": {
+      "1": "FLOAT",
+      "2": "UINT",
+      "3": "INT",
+      "4": "USHORT",
+      "5": "SHORT",
+      "6": "UBYTE",
+      "7": "BYTE"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/WorldRenderer.java",
+    "field": "$SwitchMap$net$minecraft$client$renderer$vertex$VertexFormatElement$EnumType",
+    "cases": {
+      "1": "FLOAT",
+      "2": "UINT",
+      "3": "INT",
+      "4": "USHORT",
+      "5": "SHORT",
+      "6": "UBYTE",
+      "7": "BYTE"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/WorldRenderer.java",
+    "field": "$SwitchMap$net$minecraft$client$renderer$vertex$VertexFormatElement$EnumType",
+    "cases": {
+      "1": "FLOAT",
+      "2": "UINT",
+      "3": "INT",
+      "4": "USHORT",
+      "5": "SHORT",
+      "6": "UBYTE",
+      "7": "BYTE"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/WorldRenderer.java",
+    "field": "$SwitchMap$net$minecraft$client$renderer$vertex$VertexFormatElement$EnumType",
+    "cases": {
+      "1": "FLOAT",
+      "2": "UINT",
+      "3": "INT",
+      "4": "USHORT",
+      "5": "SHORT",
+      "6": "UBYTE",
+      "7": "BYTE"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/WorldVertexBufferUploader.java",
+    "field": "recoveredField1930",
+    "cases": {
+      "1": "POSITION",
+      "2": "UV",
+      "3": "COLOR",
+      "4": "NORMAL"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/WorldVertexBufferUploader.java",
+    "field": "recoveredField1930",
+    "cases": {
+      "1": "POSITION",
+      "2": "UV",
+      "3": "COLOR",
+      "4": "NORMAL"
+    }
+  },
+  {
+    "source": "net/minecraft/client/settings/GameSettings.java",
+    "field": "$SwitchMap$net$minecraft$client$settings$GameSettings$Options",
+    "cases": {
+      "1": "INVERT_MOUSE",
+      "2": "VIEW_BOBBING",
+      "3": "ANAGLYPH",
+      "4": "FBO_ENABLE",
+      "5": "CHAT_COLOR",
+      "6": "CHAT_LINKS",
+      "7": "CHAT_LINKS_PROMPT",
+      "8": "SNOOPER_ENABLED",
+      "9": "USE_FULLSCREEN",
+      "10": "ENABLE_VSYNC",
+      "11": "USE_VBO",
+      "12": "TOUCHSCREEN",
+      "13": "STREAM_SEND_METADATA",
+      "14": "FORCE_UNICODE_FONT",
+      "15": "BLOCK_ALTERNATIVES",
+      "16": "REDUCED_DEBUG_INFO",
+      "17": "ENTITY_SHADOWS",
+      "18": "REALMS_NOTIFICATIONS"
+    }
+  },
+  {
+    "source": "net/minecraft/client/stream/BroadcastController.java",
+    "field": "recoveredField1356",
+    "cases": {
+      "1": "Authenticated",
+      "2": "LoggedIn",
+      "3": "ReceivedIngestServers",
+      "4": "Starting",
+      "5": "Stopping",
+      "6": "FindingIngestServer",
+      "7": "Authenticating",
+      "8": "Initialized",
+      "9": "Uninitialized",
+      "10": "IngestTesting",
+      "11": "Paused",
+      "12": "Broadcasting"
+    }
+  },
+  {
+    "source": "net/minecraft/client/stream/ChatController.java",
+    "field": "recoveredField3119",
+    "cases": {
+      "1": "None",
+      "2": "Url",
+      "3": "TextureAtlas"
+    }
+  },
+  {
+    "source": "net/minecraft/client/stream/ChatController.java",
+    "field": "recoveredField3118",
+    "cases": {
+      "1": "TTV_CHAT_JOINED_CHANNEL",
+      "2": "TTV_CHAT_LEFT_CHANNEL"
+    }
+  },
+  {
+    "source": "net/minecraft/client/stream/ChatController.java",
+    "field": "field_175976_a",
+    "cases": {
+      "1": "Connected",
+      "2": "Connecting",
+      "3": "Created",
+      "4": "Disconnected",
+      "5": "Disconnecting"
+    }
+  },
+  {
+    "source": "net/minecraft/client/stream/IngestServerTester.java",
+    "field": "field_176003_a",
+    "cases": {
+      "1": "TTV_ST_RTMPSTATE",
+      "2": "TTV_ST_RTMPDATASENT"
+    }
+  },
+  {
+    "source": "net/minecraft/client/stream/IngestServerTester.java",
+    "field": "field_176002_b",
+    "cases": {
+      "1": "Starting",
+      "2": "DoneTestingServer",
+      "3": "ConnectingToServer",
+      "4": "TestingServer",
+      "5": "Cancelling",
+      "6": "Uninitalized",
+      "7": "Finished",
+      "8": "Cancelled",
+      "9": "Failed"
+    }
+  },
+  {
+    "source": "net/minecraft/client/stream/IngestServerTester.java",
+    "field": "field_176002_b",
+    "cases": {
+      "1": "Starting",
+      "2": "DoneTestingServer",
+      "3": "ConnectingToServer",
+      "4": "TestingServer",
+      "5": "Cancelling",
+      "6": "Uninitalized",
+      "7": "Finished",
+      "8": "Cancelled",
+      "9": "Failed"
+    }
+  },
+  {
+    "source": "net/minecraft/client/stream/IngestServerTester.java",
+    "field": "field_176002_b",
+    "cases": {
+      "1": "Starting",
+      "2": "DoneTestingServer",
+      "3": "ConnectingToServer",
+      "4": "TestingServer",
+      "5": "Cancelling",
+      "6": "Uninitalized",
+      "7": "Finished",
+      "8": "Cancelled",
+      "9": "Failed"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/chunk/VisGraph.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/vertex/VertexFormat.java",
+    "field": "recoveredField1029",
+    "cases": {
+      "1": "NORMAL",
+      "2": "COLOR",
+      "3": "UV"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/entity/layers/LayerArmorBase.java",
+    "field": "recoveredField900",
+    "cases": {
+      "1": "LEATHER",
+      "2": "CHAIN",
+      "3": "IRON",
+      "4": "GOLD",
+      "5": "DIAMOND"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/block/model/BlockPart.java",
+    "field": "field_178234_a",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/block/model/BreakingFour.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/block/model/FaceBakery.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/block/model/FaceBakery.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing$Axis",
+    "cases": {
+      "1": "X",
+      "2": "Y",
+      "3": "Z"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/block/model/FaceBakery.java",
+    "field": "$SwitchMap$net$minecraft$util$EnumFacing",
+    "cases": {
+      "1": "DOWN",
+      "2": "UP",
+      "3": "NORTH",
+      "4": "SOUTH",
+      "5": "WEST",
+      "6": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/block/model/ItemCameraTransforms.java",
+    "field": "field_181684_a",
+    "cases": {
+      "1": "THIRD_PERSON",
+      "2": "FIRST_PERSON",
+      "3": "HEAD",
+      "4": "GUI",
+      "5": "GROUND",
+      "6": "FIXED"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/block/model/ItemModelGenerator.java",
+    "field": "recoveredField54",
+    "cases": {
+      "1": "UP",
+      "2": "DOWN",
+      "3": "LEFT",
+      "4": "RIGHT"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/block/model/ItemModelGenerator.java",
+    "field": "recoveredField54",
+    "cases": {
+      "1": "UP",
+      "2": "DOWN",
+      "3": "LEFT",
+      "4": "RIGHT"
+    }
+  },
+  {
+    "source": "net/minecraft/client/gui/stream/GuiStreamUnavailable.java",
+    "field": "field_152577_a",
+    "cases": {
+      "1": "ACCOUNT_NOT_BOUND",
+      "2": "FAILED_TWITCH_AUTH",
+      "3": "ACCOUNT_NOT_MIGRATED",
+      "4": "UNSUPPORTED_OS_MAC",
+      "5": "UNKNOWN",
+      "6": "LIBRARY_FAILURE",
+      "7": "INITIALIZATION_FAILURE"
+    }
+  },
+  {
+    "source": "net/minecraft/client/gui/stream/GuiStreamUnavailable.java",
+    "field": "field_152578_b",
+    "cases": {
+      "1": "WINDOWS",
+      "2": "OSX"
+    }
+  },
+  {
+    "source": "net/minecraft/client/gui/stream/GuiStreamUnavailable.java",
+    "field": "field_152579_c",
+    "cases": {
+      "1": "INVALID_TOKEN",
+      "2": "ERROR"
+    }
+  },
+  {
+    "source": "io/netty/buffer/AbstractByteBufAllocator.java",
+    "field": "$SwitchMap$io$netty$util$ResourceLeakDetector$Level",
+    "cases": {
+      "1": "SIMPLE",
+      "2": "ADVANCED",
+      "3": "PARANOID"
+    }
+  },
+  {
+    "source": "io/netty/util/internal/logging/AbstractInternalLogger.java",
+    "field": "$SwitchMap$io$netty$util$internal$logging$InternalLogLevel",
+    "cases": {
+      "1": "TRACE",
+      "2": "DEBUG",
+      "3": "INFO",
+      "4": "WARN",
+      "5": "ERROR"
+    }
+  },
+  {
+    "source": "io/netty/util/internal/logging/AbstractInternalLogger.java",
+    "field": "$SwitchMap$io$netty$util$internal$logging$InternalLogLevel",
+    "cases": {
+      "1": "TRACE",
+      "2": "DEBUG",
+      "3": "INFO",
+      "4": "WARN",
+      "5": "ERROR"
+    }
+  },
+  {
+    "source": "io/netty/util/internal/logging/AbstractInternalLogger.java",
+    "field": "$SwitchMap$io$netty$util$internal$logging$InternalLogLevel",
+    "cases": {
+      "1": "TRACE",
+      "2": "DEBUG",
+      "3": "INFO",
+      "4": "WARN",
+      "5": "ERROR"
+    }
+  },
+  {
+    "source": "io/netty/util/internal/logging/AbstractInternalLogger.java",
+    "field": "$SwitchMap$io$netty$util$internal$logging$InternalLogLevel",
+    "cases": {
+      "1": "TRACE",
+      "2": "DEBUG",
+      "3": "INFO",
+      "4": "WARN",
+      "5": "ERROR"
+    }
+  },
+  {
+    "source": "io/netty/util/internal/logging/AbstractInternalLogger.java",
+    "field": "$SwitchMap$io$netty$util$internal$logging$InternalLogLevel",
+    "cases": {
+      "1": "TRACE",
+      "2": "DEBUG",
+      "3": "INFO",
+      "4": "WARN",
+      "5": "ERROR"
+    }
+  },
+  {
+    "source": "io/netty/util/internal/logging/AbstractInternalLogger.java",
+    "field": "$SwitchMap$io$netty$util$internal$logging$InternalLogLevel",
+    "cases": {
+      "1": "TRACE",
+      "2": "DEBUG",
+      "3": "INFO",
+      "4": "WARN",
+      "5": "ERROR"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslContext.java",
+    "field": "$SwitchMap$io$netty$handler$ssl$SslProvider",
+    "cases": {
+      "1": "JDK",
+      "2": "OPENSSL"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$HandshakeStatus",
+    "cases": {
+      "1": "NEED_TASK",
+      "2": "FINISHED",
+      "3": "NOT_HANDSHAKING",
+      "4": "NEED_WRAP",
+      "5": "NEED_UNWRAP"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$HandshakeStatus",
+    "cases": {
+      "1": "NEED_TASK",
+      "2": "FINISHED",
+      "3": "NOT_HANDSHAKING",
+      "4": "NEED_WRAP",
+      "5": "NEED_UNWRAP"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$Status",
+    "cases": {
+      "1": "BUFFER_OVERFLOW"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$HandshakeStatus",
+    "cases": {
+      "1": "NEED_TASK",
+      "2": "FINISHED",
+      "3": "NOT_HANDSHAKING",
+      "4": "NEED_WRAP",
+      "5": "NEED_UNWRAP"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$Status",
+    "cases": {
+      "1": "BUFFER_OVERFLOW"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/compression/JdkZlibDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$JdkZlibDecoder$GzipState",
+    "cases": {
+      "1": "FOOTER_START",
+      "2": "HEADER_START",
+      "3": "FLG_READ",
+      "4": "XLEN_READ",
+      "5": "SKIP_FNAME",
+      "6": "SKIP_COMMENT",
+      "7": "PROCESS_FHCRC",
+      "8": "HEADER_END"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/compression/JdkZlibDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$ZlibWrapper",
+    "cases": {
+      "1": "GZIP",
+      "2": "NONE",
+      "3": "ZLIB",
+      "4": "ZLIB_OR_NONE"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/compression/JdkZlibDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$JdkZlibDecoder$GzipState",
+    "cases": {
+      "1": "FOOTER_START",
+      "2": "HEADER_START",
+      "3": "FLG_READ",
+      "4": "XLEN_READ",
+      "5": "SKIP_FNAME",
+      "6": "SKIP_COMMENT",
+      "7": "PROCESS_FHCRC",
+      "8": "HEADER_END"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/compression/JdkZlibEncoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$ZlibWrapper",
+    "cases": {
+      "1": "GZIP",
+      "2": "ZLIB"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/compression/Snappy.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$Snappy$State",
+    "cases": {
+      "1": "READY",
+      "2": "READING_PREAMBLE",
+      "3": "READING_TAG",
+      "4": "READING_LITERAL",
+      "5": "READING_COPY"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/compression/SnappyFramedDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$SnappyFramedDecoder$ChunkType",
+    "cases": {
+      "1": "STREAM_IDENTIFIER",
+      "2": "RESERVED_SKIPPABLE",
+      "3": "RESERVED_UNSKIPPABLE",
+      "4": "UNCOMPRESSED_DATA",
+      "5": "COMPRESSED_DATA"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/compression/ZlibUtil.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$ZlibWrapper",
+    "cases": {
+      "1": "NONE",
+      "2": "ZLIB",
+      "3": "GZIP",
+      "4": "ZLIB_OR_NONE"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/compression/ZlibUtil.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$ZlibWrapper",
+    "cases": {
+      "1": "NONE",
+      "2": "ZLIB",
+      "3": "GZIP",
+      "4": "ZLIB_OR_NONE"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/http/HttpContentCompressor.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$ZlibWrapper",
+    "cases": {
+      "1": "GZIP",
+      "2": "ZLIB"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/http/HttpContentEncoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$http$HttpContentEncoder$State",
+    "cases": {
+      "1": "AWAIT_HEADERS",
+      "2": "AWAIT_CONTENT",
+      "3": "PASS_THROUGH"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/http/HttpObjectDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$http$HttpObjectDecoder$State",
+    "cases": {
+      "1": "SKIP_CONTROL_CHARS",
+      "2": "READ_INITIAL",
+      "3": "READ_HEADER",
+      "4": "READ_VARIABLE_LENGTH_CONTENT",
+      "5": "READ_FIXED_LENGTH_CONTENT",
+      "6": "READ_CHUNK_SIZE",
+      "7": "READ_CHUNKED_CONTENT",
+      "8": "READ_CHUNK_DELIMITER",
+      "9": "READ_CHUNK_FOOTER",
+      "10": "BAD_MESSAGE",
+      "11": "UPGRADED"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksAuthRequestDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksAuthRequestDecoder$State",
+    "cases": {
+      "1": "CHECK_PROTOCOL_VERSION",
+      "2": "READ_USERNAME",
+      "3": "READ_PASSWORD"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksAuthResponseDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksAuthResponseDecoder$State",
+    "cases": {
+      "1": "CHECK_PROTOCOL_VERSION",
+      "2": "READ_AUTH_RESPONSE"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksCmdRequest.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksAddressType",
+    "cases": {
+      "1": "IPv4",
+      "2": "DOMAIN",
+      "3": "IPv6",
+      "4": "UNKNOWN"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksCmdRequest.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksAddressType",
+    "cases": {
+      "1": "IPv4",
+      "2": "DOMAIN",
+      "3": "IPv6",
+      "4": "UNKNOWN"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksCmdRequestDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksCmdRequestDecoder$State",
+    "cases": {
+      "1": "CHECK_PROTOCOL_VERSION",
+      "2": "READ_CMD_HEADER",
+      "3": "READ_CMD_ADDRESS"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksCmdRequestDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksAddressType",
+    "cases": {
+      "1": "IPv4",
+      "2": "DOMAIN",
+      "3": "IPv6",
+      "4": "UNKNOWN"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksCmdResponse.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksAddressType",
+    "cases": {
+      "1": "IPv4",
+      "2": "DOMAIN",
+      "3": "IPv6",
+      "4": "UNKNOWN"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksCmdResponse.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksAddressType",
+    "cases": {
+      "1": "IPv4",
+      "2": "DOMAIN",
+      "3": "IPv6",
+      "4": "UNKNOWN"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksCmdResponseDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksCmdResponseDecoder$State",
+    "cases": {
+      "1": "CHECK_PROTOCOL_VERSION",
+      "2": "READ_CMD_HEADER",
+      "3": "READ_CMD_ADDRESS"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksCmdResponseDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksAddressType",
+    "cases": {
+      "1": "IPv4",
+      "2": "DOMAIN",
+      "3": "IPv6",
+      "4": "UNKNOWN"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksInitRequestDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksInitRequestDecoder$State",
+    "cases": {
+      "1": "CHECK_PROTOCOL_VERSION",
+      "2": "READ_AUTH_SCHEMES"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/socks/SocksInitResponseDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$socks$SocksInitResponseDecoder$State",
+    "cases": {
+      "1": "CHECK_PROTOCOL_VERSION",
+      "2": "READ_PREFFERED_AUTH_TYPE"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/spdy/SpdyFrameDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$spdy$SpdyFrameDecoder$State",
+    "cases": {
+      "1": "READ_COMMON_HEADER",
+      "2": "READ_DATA_FRAME",
+      "3": "READ_SYN_STREAM_FRAME",
+      "4": "READ_SYN_REPLY_FRAME",
+      "5": "READ_RST_STREAM_FRAME",
+      "6": "READ_SETTINGS_FRAME",
+      "7": "READ_SETTING",
+      "8": "READ_PING_FRAME",
+      "9": "READ_GOAWAY_FRAME",
+      "10": "READ_HEADERS_FRAME",
+      "11": "READ_WINDOW_UPDATE_FRAME",
+      "12": "READ_HEADER_BLOCK",
+      "13": "DISCARD_FRAME",
+      "14": "FRAME_ERROR"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/spdy/SpdyHeaderBlockRawDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$spdy$SpdyHeaderBlockRawDecoder$State",
+    "cases": {
+      "1": "READ_NUM_HEADERS",
+      "2": "READ_NAME_LENGTH",
+      "3": "READ_NAME",
+      "4": "SKIP_NAME",
+      "5": "READ_VALUE_LENGTH",
+      "6": "READ_VALUE",
+      "7": "SKIP_VALUE",
+      "8": "END_HEADER_BLOCK",
+      "9": "ERROR"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/spdy/SpdyOrHttpChooser.java",
+    "field": "$SwitchMap$io$netty$handler$codec$spdy$SpdyOrHttpChooser$SelectedProtocol",
+    "cases": {
+      "1": "UNKNOWN",
+      "2": "SPDY_3_1",
+      "3": "HTTP_1_0",
+      "4": "HTTP_1_1"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/http/multipart/HttpPostRequestDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$http$multipart$HttpPostRequestDecoder$MultiPartStatus",
+    "cases": {
+      "1": "DISPOSITION",
+      "2": "FIELD",
+      "3": "NOTSTARTED",
+      "4": "PREAMBLE",
+      "5": "HEADERDELIMITER",
+      "6": "FILEUPLOAD",
+      "7": "MIXEDDELIMITER",
+      "8": "MIXEDDISPOSITION",
+      "9": "MIXEDFILEUPLOAD",
+      "10": "PREEPILOGUE",
+      "11": "EPILOGUE"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/http/multipart/HttpPostRequestDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$http$multipart$HttpPostRequestDecoder$MultiPartStatus",
+    "cases": {
+      "1": "DISPOSITION",
+      "2": "FIELD",
+      "3": "NOTSTARTED",
+      "4": "PREAMBLE",
+      "5": "HEADERDELIMITER",
+      "6": "FILEUPLOAD",
+      "7": "MIXEDDELIMITER",
+      "8": "MIXEDDISPOSITION",
+      "9": "MIXEDFILEUPLOAD",
+      "10": "PREEPILOGUE",
+      "11": "EPILOGUE"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/http/multipart/HttpPostRequestDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$http$multipart$HttpPostRequestDecoder$MultiPartStatus",
+    "cases": {
+      "1": "DISPOSITION",
+      "2": "FIELD",
+      "3": "NOTSTARTED",
+      "4": "PREAMBLE",
+      "5": "HEADERDELIMITER",
+      "6": "FILEUPLOAD",
+      "7": "MIXEDDELIMITER",
+      "8": "MIXEDDISPOSITION",
+      "9": "MIXEDFILEUPLOAD",
+      "10": "PREEPILOGUE",
+      "11": "EPILOGUE"
+    }
+  },
+  {
+    "source": "io/netty/handler/codec/http/websocketx/WebSocket08FrameDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$http$websocketx$WebSocket08FrameDecoder$State",
+    "cases": {
+      "1": "FRAME_START",
+      "2": "MASKING_KEY",
+      "3": "PAYLOAD",
+      "4": "CORRUPT"
+    }
+  },
+  {
+    "source": "io/netty/channel/udt/nio/NioUdtByteConnectorChannel.java",
+    "field": "$SwitchMap$com$barchart$udt$StatusUDT",
+    "cases": {
+      "1": "INIT",
+      "2": "OPENED"
+    }
+  },
+  {
+    "source": "io/netty/channel/udt/nio/NioUdtMessageConnectorChannel.java",
+    "field": "$SwitchMap$com$barchart$udt$StatusUDT",
+    "cases": {
+      "1": "INIT",
+      "2": "OPENED"
+    }
+  },
+  {
+    "source": "io/netty/channel/udt/nio/NioUdtProvider.java",
+    "field": "$SwitchMap$com$barchart$udt$nio$KindUDT",
+    "cases": {
+      "1": "ACCEPTOR",
+      "2": "CONNECTOR",
+      "3": "RENDEZVOUS"
+    }
+  },
+  {
+    "source": "io/netty/channel/udt/nio/NioUdtProvider.java",
+    "field": "$SwitchMap$com$barchart$udt$TypeUDT",
+    "cases": {
+      "1": "DATAGRAM",
+      "2": "STREAM"
+    }
+  },
+  {
+    "source": "io/netty/channel/udt/nio/NioUdtProvider.java",
+    "field": "$SwitchMap$com$barchart$udt$TypeUDT",
+    "cases": {
+      "1": "DATAGRAM",
+      "2": "STREAM"
+    }
+  },
+  {
+    "source": "io/netty/channel/udt/nio/NioUdtProvider.java",
+    "field": "$SwitchMap$com$barchart$udt$TypeUDT",
+    "cases": {
+      "1": "DATAGRAM",
+      "2": "STREAM"
+    }
+  },
+  {
+    "source": "io/netty/channel/socket/nio/ProtocolFamilyConverter.java",
+    "field": "$SwitchMap$io$netty$channel$socket$InternetProtocolFamily",
+    "cases": {
+      "1": "IPv4",
+      "2": "IPv6"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/CheatBreaker.java",
+    "field": "recoveredField279",
+    "cases": {
+      "1": "AWAY",
+      "2": "BUSY",
+      "3": "HIDDEN"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/module/AbstractModule.java",
+    "field": "recoveredField252",
+    "cases": {
+      "1": "LEFT_TOP",
+      "2": "LEFT_MIDDLE",
+      "3": "LEFT_BOTTOM",
+      "4": "MIDDLE_TOP",
+      "5": "MIDDLE_MIDDLE",
+      "6": "MIDDLE_BOTTOM_LEFT",
+      "7": "MIDDLE_BOTTOM_RIGHT",
+      "8": "RIGHT_TOP",
+      "9": "RIGHT_MIDDLE",
+      "10": "RIGHT_BOTTOM"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/module/AbstractModule.java",
+    "field": "recoveredField252",
+    "cases": {
+      "1": "LEFT_TOP",
+      "2": "LEFT_MIDDLE",
+      "3": "LEFT_BOTTOM",
+      "4": "MIDDLE_TOP",
+      "5": "MIDDLE_MIDDLE",
+      "6": "MIDDLE_BOTTOM_LEFT",
+      "7": "MIDDLE_BOTTOM_RIGHT",
+      "8": "RIGHT_TOP",
+      "9": "RIGHT_MIDDLE",
+      "10": "RIGHT_BOTTOM"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/util/friend/Friend.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$util$friend$Status",
+    "cases": {
+      "1": "AWAY",
+      "2": "BUSY",
+      "3": "HIDDEN"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/util/friend/Friend.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$util$friend$Status",
+    "cases": {
+      "1": "AWAY",
+      "2": "BUSY",
+      "3": "HIDDEN"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/ui/module/CBAnchorHelper.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$ui$module$CBGuiAnchor",
+    "cases": {
+      "1": "LEFT_TOP",
+      "2": "RIGHT_TOP",
+      "3": "MIDDLE_TOP",
+      "4": "LEFT_MIDDLE",
+      "5": "RIGHT_MIDDLE",
+      "6": "MIDDLE_MIDDLE",
+      "7": "LEFT_BOTTOM",
+      "8": "MIDDLE_BOTTOM_RIGHT",
+      "9": "MIDDLE_BOTTOM_LEFT",
+      "10": "RIGHT_BOTTOM"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/ui/module/CBAnchorHelper.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$ui$module$CBGuiAnchor",
+    "cases": {
+      "1": "LEFT_TOP",
+      "2": "RIGHT_TOP",
+      "3": "MIDDLE_TOP",
+      "4": "LEFT_MIDDLE",
+      "5": "RIGHT_MIDDLE",
+      "6": "MIDDLE_MIDDLE",
+      "7": "LEFT_BOTTOM",
+      "8": "MIDDLE_BOTTOM_RIGHT",
+      "9": "MIDDLE_BOTTOM_LEFT",
+      "10": "RIGHT_BOTTOM"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/ui/module/CBAnchorHelper.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$ui$module$CBGuiAnchor",
+    "cases": {
+      "1": "LEFT_TOP",
+      "2": "RIGHT_TOP",
+      "3": "MIDDLE_TOP",
+      "4": "LEFT_MIDDLE",
+      "5": "RIGHT_MIDDLE",
+      "6": "MIDDLE_MIDDLE",
+      "7": "LEFT_BOTTOM",
+      "8": "MIDDLE_BOTTOM_RIGHT",
+      "9": "MIDDLE_BOTTOM_LEFT",
+      "10": "RIGHT_BOTTOM"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/ui/module/CBAnchorHelper.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$ui$module$CBGuiAnchor",
+    "cases": {
+      "1": "LEFT_TOP",
+      "2": "RIGHT_TOP",
+      "3": "MIDDLE_TOP",
+      "4": "LEFT_MIDDLE",
+      "5": "RIGHT_MIDDLE",
+      "6": "MIDDLE_MIDDLE",
+      "7": "LEFT_BOTTOM",
+      "8": "MIDDLE_BOTTOM_RIGHT",
+      "9": "MIDDLE_BOTTOM_LEFT",
+      "10": "RIGHT_BOTTOM"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/ui/module/CBAnchorHelper.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$ui$module$CBGuiAnchor",
+    "cases": {
+      "1": "LEFT_TOP",
+      "2": "RIGHT_TOP",
+      "3": "MIDDLE_TOP",
+      "4": "LEFT_MIDDLE",
+      "5": "RIGHT_MIDDLE",
+      "6": "MIDDLE_MIDDLE",
+      "7": "LEFT_BOTTOM",
+      "8": "MIDDLE_BOTTOM_RIGHT",
+      "9": "MIDDLE_BOTTOM_LEFT",
+      "10": "RIGHT_BOTTOM"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/ui/module/CBAnchorHelper.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$ui$module$CBGuiAnchor",
+    "cases": {
+      "1": "LEFT_TOP",
+      "2": "RIGHT_TOP",
+      "3": "MIDDLE_TOP",
+      "4": "LEFT_MIDDLE",
+      "5": "RIGHT_MIDDLE",
+      "6": "MIDDLE_MIDDLE",
+      "7": "LEFT_BOTTOM",
+      "8": "MIDDLE_BOTTOM_RIGHT",
+      "9": "MIDDLE_BOTTOM_LEFT",
+      "10": "RIGHT_BOTTOM"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/ui/module/CBModulesGui.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$ui$module$SomeRandomAssEnum",
+    "cases": {
+      "1": "RIGHT_BOTTOM",
+      "2": "LEFT_TOP",
+      "3": "RIGHT_TOP",
+      "4": "LEFT_BOTTOM"
+    }
+  },
+  {
+    "source": "com/cheatbreaker/client/ui/module/CBModulesGui.java",
+    "field": "$SwitchMap$com$cheatbreaker$client$ui$module$CBPositionEnum",
+    "cases": {
+      "1": "LEFT",
+      "2": "CENTER",
+      "3": "RIGHT"
+    }
+  }
+]

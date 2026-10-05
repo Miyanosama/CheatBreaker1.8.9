@@ -1,0 +1,36 @@
+package net.optifine.entity.model;
+
+import io.netty.channel.AbstractChannel$AbstractUnsafe$5;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelBiped;
+import net.minecraft.client.model.ModelZombie;
+import net.minecraft.client.renderer.entity.Render;
+import net.minecraft.client.renderer.entity.RenderManager;
+import net.minecraft.client.renderer.entity.RenderPigZombie;
+import net.minecraft.entity.monster.EntityPigZombie;
+import net.optifine.entity.model.anim.RenderEntityParameterFloat;
+
+public class ModelAdapterPigZombie extends ModelAdapterBiped {
+   public RenderEntityParameterFloat field_0000;
+   public AbstractChannel$AbstractUnsafe$5 field_0001;
+
+   public ModelAdapterPigZombie() {
+      super(EntityPigZombie.class, "zombie_pigman", 0.5F);
+   }
+
+   @Override
+   public ModelBase makeModel() {
+      return new ModelZombie();
+   }
+
+   @Override
+   public IEntityRenderer makeEntityRender(ModelBase var1, float var2) {
+      RenderManager var3 = Minecraft.getMinecraft().getRenderManager();
+      RenderPigZombie var4 = new RenderPigZombie(var3);
+      Render.setModelBipedMain(var4, (ModelBiped)var1);
+      var4.f = var1;
+      var4.c = var2;
+      return var4;
+   }
+}

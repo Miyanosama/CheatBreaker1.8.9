@@ -1,0 +1,266 @@
+{
+  "original_classes": 5139,
+  "compiled_classes": 5109,
+  "unchanged_binary_names": 5086,
+  "missing_name_interpretations": [
+    {
+      "original_binary_name": "io/netty/buffer/ByteBufUtil$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/channel/AbstractServerChannel$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/channel/DefaultMessageSizeEstimator$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/channel/PendingWriteQueue$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/channel/embedded/EmbeddedChannel$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/channel/nio/AbstractNioMessageChannel$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/channel/rxtx/RxtxChannel$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/channel/socket/nio/NioServerSocketChannel$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/handler/codec/http/DefaultHttpHeaders$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/handler/codec/http/HttpClientCodec$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/handler/codec/http/cors/CorsConfig$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/handler/codec/http/multipart/HttpPostRequestEncoder$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/handler/codec/spdy/DefaultSpdyHeaders$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/util/HashedWheelTimer$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/util/ThreadDeathWatcher$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/util/collection/IntObjectHashMap$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "io/netty/util/concurrent/AbstractEventExecutor$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/Minecraft$16",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/client/Minecraft$6"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/client/Minecraft$17",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/client/Minecraft$7"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/client/Minecraft$18",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/client/Minecraft$8"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/client/gui/GuiCustomizeSkin$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/gui/GuiKeyBindingList$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/gui/GuiPlayerTabOverlay$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/gui/MapItemRenderer$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/network/NetHandlerPlayClient$3",
+      "status": "compiler naming/table reconstruction requires structural interpretation",
+      "matching_compiled_names": []
+    },
+    {
+      "original_binary_name": "net/minecraft/client/network/NetHandlerPlayClient$3$1",
+      "status": "compiler naming/table reconstruction requires structural interpretation",
+      "matching_compiled_names": []
+    },
+    {
+      "original_binary_name": "net/minecraft/client/network/NetHandlerPlayClient$3$1$1",
+      "status": "compiler naming/table reconstruction requires structural interpretation",
+      "matching_compiled_names": []
+    },
+    {
+      "original_binary_name": "net/minecraft/client/network/NetHandlerPlayClient$4",
+      "status": "compiler naming/table reconstruction requires structural interpretation",
+      "matching_compiled_names": []
+    },
+    {
+      "original_binary_name": "net/minecraft/client/particle/EntitySmokeFX$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/renderer/EnumFaceDirection$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/renderer/block/model/ModelBlock$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/renderer/block/statemap/StateMap$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/renderer/entity/RenderItem$6",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/client/renderer/entity/RenderItem$2"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/client/renderer/entity/RenderItem$7",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/client/renderer/entity/RenderItem$3"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/client/renderer/entity/RenderItem$8",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/client/renderer/entity/RenderItem$4"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/client/renderer/entity/RenderItem$9",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/client/renderer/entity/RenderItem$5"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/client/resources/data/IMetadataSerializer$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/client/util/JsonException$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/crash/CrashReportCategory$6",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/crash/CrashReportCategory$1"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/crash/CrashReportCategory$7",
+      "status": "compiler naming/table reconstruction requires structural interpretation",
+      "matching_compiled_names": [
+        "net/minecraft/crash/CrashReportCategory$2",
+        "net/minecraft/crash/CrashReportCategory$5"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/enchantment/EnchantmentHelper$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/entity/monster/EntityZombie$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/init/Bootstrap$12$1",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/init/Bootstrap$5$1"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/item/Item$15",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/item/Item$6"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/item/Item$16",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/item/Item$7"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/item/Item$17",
+      "status": "anonymous implementation represented under compiler-assigned name",
+      "matching_compiled_names": [
+        "net/minecraft/item/Item$8"
+      ]
+    },
+    {
+      "original_binary_name": "net/minecraft/item/crafting/RecipesBanners$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "net/minecraft/server/MinecraftServer$4",
+      "status": "compiler naming/table reconstruction requires structural interpretation",
+      "matching_compiled_names": []
+    },
+    {
+      "original_binary_name": "net/minecraft/server/management/PreYggdrasilConverter$5",
+      "status": "compiler naming/table reconstruction requires structural interpretation",
+      "matching_compiled_names": []
+    },
+    {
+      "original_binary_name": "net/minecraft/world/gen/ChunkProviderSettings$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "org/newsclub/net/unix/AFUNIXSocketImpl$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "org/slf4j/MDC$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    },
+    {
+      "original_binary_name": "org/slf4j/helpers/Util$1",
+      "status": "empty compiler-generated marker, complete source retained in archive"
+    }
+  ],
+  "note": "Binary names alone are not a behavior equivalence check. Anonymous implementations can occupy names shared with other original anonymous classes; original complete source archive remains authoritative."
+}

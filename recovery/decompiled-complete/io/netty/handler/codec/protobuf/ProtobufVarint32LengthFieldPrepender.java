@@ -1,0 +1,24 @@
+package io.netty.handler.codec.protobuf;
+
+import com.google.protobuf.CodedOutputStream;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.ByteBufOutputStream;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.handler.codec.MessageToByteEncoder;
+import javazoom.jl.converter.Converter$PrintWriterProgressListener;
+import net.minecraft.block.BlockCarrot;
+
+public class ProtobufVarint32LengthFieldPrepender extends MessageToByteEncoder<ByteBuf> {
+   public BlockCarrot __junk660668975275241323;
+   public Converter$PrintWriterProgressListener __junk8568030339652319596;
+
+   public void encode(ChannelHandlerContext var1, ByteBuf var2, ByteBuf var3) {
+      int var4 = var2.readableBytes();
+      int var5 = CodedOutputStream.computeRawVarint32Size(var4);
+      var3.ensureWritable(var5 + var4);
+      CodedOutputStream var6 = CodedOutputStream.newInstance(new ByteBufOutputStream(var3), var5);
+      var6.writeRawVarint32(var4);
+      var6.flush();
+      var3.writeBytes(var2, var2.readerIndex(), var4);
+   }
+}

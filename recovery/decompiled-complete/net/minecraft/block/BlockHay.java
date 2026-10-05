@@ -1,0 +1,70 @@
+package net.minecraft.block;
+
+import io.netty.channel.DefaultMessageSizeEstimator$HandleImpl;
+import io.netty.handler.codec.rtsp.RtspHeaders$Values;
+import net.minecraft.block.material.MapColor;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.state.BlockState;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.command.CommandTrigger;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.BlockPos;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumFacing$Axis;
+import net.minecraft.world.World;
+
+public class BlockHay extends BlockRotatedPillar {
+   public CommandTrigger field_0001;
+   public RtspHeaders$Values field_0002;
+   public DefaultMessageSizeEstimator$HandleImpl field_0000;
+
+   public BlockHay() {
+      super(Material.grass, MapColor.yellowColor);
+      this.setDefaultState(this.M.getBaseState().withProperty(N, EnumFacing$Axis.Y));
+      this.setCreativeTab(CreativeTabs.tabBlock);
+   }
+
+   @Override
+   public int getMetaFromState(IBlockState var1) {
+      byte var2 = 0;
+      EnumFacing$Axis var3 = var1.getValue(N);
+      if (var3 == EnumFacing$Axis.X) {
+         var2 |= 4;
+      } else if (var3 == EnumFacing$Axis.Z) {
+         var2 |= 8;
+      }
+
+      return var2;
+   }
+
+   @Override
+   public BlockState createBlockState() {
+      return new BlockState(this, N);
+   }
+
+   @Override
+   public IBlockState getStateFromMeta(int var1) {
+      EnumFacing$Axis var2 = EnumFacing$Axis.Y;
+      int var3 = var1 & 12;
+      if (var3 == 4) {
+         var2 = EnumFacing$Axis.X;
+      } else if (var3 == 8) {
+         var2 = EnumFacing$Axis.Z;
+      }
+
+      return this.getDefaultState().withProperty(N, var2);
+   }
+
+   @Override
+   public IBlockState onBlockPlaced(World var1, BlockPos var2, EnumFacing var3, float var4, float var5, float var6, int var7, EntityLivingBase var8) {
+      return super.onBlockPlaced(var1, var2, var3, var4, var5, var6, var7, var8).withProperty(N, var3.getAxis());
+   }
+
+   @Override
+   public ItemStack createStackedBlock(IBlockState var1) {
+      return new ItemStack(Item.getItemFromBlock(this), 1, 0);
+   }
+}

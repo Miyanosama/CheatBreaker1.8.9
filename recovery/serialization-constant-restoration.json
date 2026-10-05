@@ -1,0 +1,110 @@
+[
+  {
+    "class": "io/netty/util/internal/chmv8/ConcurrentHashMapV8$ValuesView",
+    "field": "serialVersionUID",
+    "original": 2249069246763182397,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ConcurrentHashMapV8$KeySetView",
+    "field": "serialVersionUID",
+    "original": 7249069246763182397,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/HttpPostRequestDecoder$ErrorDataDecoderException",
+    "field": "serialVersionUID",
+    "original": 5020247425493164465,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinTask$AdaptedCallable",
+    "field": "serialVersionUID",
+    "original": 2838392045355241008,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinTask$AdaptedRunnableAction",
+    "field": "serialVersionUID",
+    "original": 5232453952276885070,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ConcurrentHashMapV8",
+    "field": "serialVersionUID",
+    "original": 7249069246763182397,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ConcurrentHashMapV8$CollectionView",
+    "field": "serialVersionUID",
+    "original": 7249069246763182397,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/HttpPostRequestDecoder$EndOfDataDecoderException",
+    "field": "serialVersionUID",
+    "original": 1336267941020800769,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinTask$AdaptedRunnable",
+    "field": "serialVersionUID",
+    "original": 5232453952276885070,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/handler/codec/http/HttpHeaderDateFormat$HttpHeaderDateFormatObsolete1",
+    "field": "serialVersionUID",
+    "original": -3178072504225114298,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/handler/codec/http/HttpHeaderDateFormat",
+    "field": "serialVersionUID",
+    "original": -925286159755905325,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinTask",
+    "field": "serialVersionUID",
+    "original": -7721805057305804111,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/HttpPostRequestDecoder$IncompatibleDataDecoderException",
+    "field": "serialVersionUID",
+    "original": -953268047926250267,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ConcurrentHashMapV8$EntrySetView",
+    "field": "serialVersionUID",
+    "original": 2249069246763182397,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/handler/codec/http/HttpHeaderDateFormat$HttpHeaderDateFormatObsolete2",
+    "field": "serialVersionUID",
+    "original": 3010674519968303714,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinTask$RunnableExecuteAction",
+    "field": "serialVersionUID",
+    "original": 5232453952276885070,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ConcurrentHashMapV8$Segment",
+    "field": "serialVersionUID",
+    "original": 2249069246763182397,
+    "compiled": 0
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/HttpPostRequestDecoder$NotEnoughDataDecoderException",
+    "field": "serialVersionUID",
+    "original": -7846841864603865638,
+    "compiled": 0
+  }
+]

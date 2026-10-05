@@ -1,0 +1,1082 @@
+[
+  {
+    "class": "org/java_websocket/util/Base64",
+    "method": "encodeBytesToBytes",
+    "local": "var10",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "org/java_websocket/util/Base64",
+    "method": "encodeBytesToBytes",
+    "local": "var7",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/optifine/gui/TooltipProviderEnumShaderOptions",
+    "method": "getTooltipBounds",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/optifine/player/CapeUtils",
+    "method": "parseCape",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/optifine/player/CapeUtils",
+    "method": "parseCape",
+    "local": "var1",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/optifine/shaders/SVertexBuilder",
+    "method": "beginAddVertexData",
+    "local": "var6",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/optifine/shaders/SVertexBuilder",
+    "method": "beginAddVertexData",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/optifine/util/TextureUtils",
+    "method": "ceilPowerOfTwo",
+    "local": "var1",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/optifine/util/TextureUtils",
+    "method": "twoToPower",
+    "local": "var1",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/optifine/util/TextureUtils",
+    "method": "getPowerOfTwo",
+    "local": "var1",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/block/BlockButton",
+    "method": "getMetaFromState",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/block/BlockCommandBlock",
+    "method": "getMetaFromState",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/block/BlockHay",
+    "method": "getMetaFromState",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/block/BlockStairs",
+    "method": "getMetaFromState",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/block/BlockTripWire",
+    "method": "getMetaFromState",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/block/BlockVine",
+    "method": "getMetaFromState",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/Minecraft",
+    "method": "getGLMaximumTextureSize",
+    "local": "var0",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/item/ItemFireworkCharge",
+    "method": "addExplosionInfo",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/network/PacketBuffer",
+    "method": "readItemStackFromBuffer",
+    "local": "var2",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/potion/PotionEffect",
+    "method": "readCustomPotionEffectFromNBT",
+    "local": "var1",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/scoreboard/ScorePlayerTeam",
+    "method": "func_98299_i",
+    "local": "var1",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/server/MinecraftServer",
+    "method": "initialWorldChunkLoad",
+    "local": "var12",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/server/MinecraftServer",
+    "method": "initialWorldChunkLoad",
+    "local": "var11",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/tileentity/TileEntityBrewingStand",
+    "method": "readFromNBT",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/tileentity/TileEntityFurnace",
+    "method": "readFromNBT",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/tileentity/TileEntityHopper",
+    "method": "readFromNBT",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/ChunkProviderEnd",
+    "method": "func_180519_a",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$SwampHut",
+    "method": "addComponentParts",
+    "local": "var9",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$SwampHut",
+    "method": "addComponentParts",
+    "local": "var8",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$JunglePyramid",
+    "method": "addComponentParts",
+    "local": "var13",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$JunglePyramid",
+    "method": "addComponentParts",
+    "local": "var12",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$JunglePyramid",
+    "method": "addComponentParts",
+    "local": "var9",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$JunglePyramid",
+    "method": "addComponentParts",
+    "local": "var10",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$JunglePyramid",
+    "method": "addComponentParts",
+    "local": "var8",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$DesertPyramid",
+    "method": "addComponentParts",
+    "local": "var10",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureNetherBridgePieces$NetherStalkRoom",
+    "method": "addComponentParts",
+    "local": "var9",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureNetherBridgePieces$NetherStalkRoom",
+    "method": "addComponentParts",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureNetherBridgePieces$Entrance",
+    "method": "addComponentParts",
+    "local": "var6",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureNetherBridgePieces$Entrance",
+    "method": "addComponentParts",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentCoreRoom",
+    "method": "addComponentParts",
+    "local": "var10",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentCoreRoom",
+    "method": "addComponentParts",
+    "local": "var8",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentCoreRoom",
+    "method": "addComponentParts",
+    "local": "var6",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$WingRoom",
+    "method": "addComponentParts",
+    "local": "var8",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$Penthouse",
+    "method": "addComponentParts",
+    "local": "var6",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$Penthouse",
+    "method": "addComponentParts",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175838_g",
+    "local": "var9",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175838_g",
+    "local": "var7",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175838_g",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175840_a",
+    "local": "var12",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175840_a",
+    "local": "var9",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175842_f",
+    "local": "var8",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175842_f",
+    "local": "var7",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175842_f",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175835_e",
+    "local": "var8",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$MonumentBuilding",
+    "method": "func_175835_e",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$DoubleYRoom",
+    "method": "addComponentParts",
+    "local": "var6",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureStrongholdPieces$PortalRoom",
+    "method": "addComponentParts",
+    "local": "var13",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureStrongholdPieces$PortalRoom",
+    "method": "addComponentParts",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureStrongholdPieces$Library",
+    "method": "addComponentParts",
+    "local": "var10",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/entity/item/EntityFireworkRocket",
+    "method": "<init>",
+    "local": "var9",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/entity/passive/EntityHorse",
+    "method": "interact",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiIngame",
+    "method": "method_28532",
+    "local": "var52",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiIngame",
+    "method": "method_28532",
+    "local": "var45",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiIngame",
+    "method": "method_28532",
+    "local": "var37",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiOptionsRowList",
+    "method": "<init>",
+    "local": "var8",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiPageButtonList",
+    "method": "func_178055_t",
+    "local": "var1",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiPageButtonList",
+    "method": "func_178069_s",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiScreenBook$NextPageButton",
+    "method": "drawButton",
+    "local": "var6",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiScreenBook$NextPageButton",
+    "method": "drawButton",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/renderer/EntityRenderer",
+    "method": "method_29146",
+    "local": "var20",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/renderer/ImageBufferDownload",
+    "method": "parseUserSkin",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/renderer/RenderGlobal",
+    "method": "renderClouds",
+    "local": "var26",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/renderer/RenderGlobal",
+    "method": "renderClouds",
+    "local": "var25",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/renderer/WorldRenderer",
+    "method": "quadsToTriangles",
+    "local": "var3",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/shader/Framebuffer",
+    "method": "framebufferClear",
+    "local": "var1",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/inventory/GuiBeacon",
+    "method": "updateScreen",
+    "local": "var10",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "net/minecraft/client/gui/inventory/GuiContainerCreative",
+    "method": "func_147051_a",
+    "local": "var6",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/Bitstream",
+    "method": "parse_frame",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "do_downmix",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "antialias",
+    "local": "var3",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "huffman_decode",
+    "local": "var11",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "inv_mdct",
+    "local": "var24",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "decode",
+    "local": "var15",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "decode",
+    "local": "var16",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "decode",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "decode",
+    "local": "var7",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "hybrid",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "reorder",
+    "local": "var6",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/LayerIIIDecoder",
+    "method": "stereo",
+    "local": "var3",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples7",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples5",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples9",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples1",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples2",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples12",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples0",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples13",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples15",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples6",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples8",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples4",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples3",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples10",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples14",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/decoder/SynthesisFilter",
+    "method": "compute_pcm_samples11",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/buffer/AbstractByteBuf",
+    "method": "calculateNewCapacity",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/buffer/ByteBufUtil",
+    "method": "hexDump",
+    "local": "var6",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/buffer/PoolChunk",
+    "method": "allocateNode",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/channel/AdaptiveRecvByteBufAllocator",
+    "method": "<clinit>",
+    "local": "var2",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/channel/AdaptiveRecvByteBufAllocator",
+    "method": "<clinit>",
+    "local": "var1",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/util/HashedWheelTimer",
+    "method": "normalizeTicksPerWheel",
+    "local": "var1",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ConcurrentHashMapV8",
+    "method": "writeObject",
+    "local": "var3",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinPool",
+    "method": "getQueuedSubmissionCount",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinPool",
+    "method": "getStealCount",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinPool",
+    "method": "getQueuedTaskCount",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinPool",
+    "method": "hasQueuedSubmissions",
+    "local": "var3",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinPool",
+    "method": "helpComplete",
+    "local": "var6",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinPool",
+    "method": "getRunningThreadCount",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/util/internal/chmv8/ForkJoinPool",
+    "method": "pollSubmission",
+    "local": "var4",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/handler/codec/base64/Base64",
+    "method": "encode",
+    "local": "var10",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/handler/codec/base64/Base64",
+    "method": "encode",
+    "local": "var7",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/handler/codec/compression/Snappy",
+    "method": "getHashTable",
+    "local": "var1",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "io/netty/handler/codec/http/websocketx/WebSocket08FrameDecoder",
+    "method": "checkCloseFrameBody",
+    "local": "var4",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/nethandler/Packet",
+    "method": "readBlob",
+    "local": "var2",
+    "from": "short",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/util/RenderUtil",
+    "method": "method_22054",
+    "local": "var22",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/util/RenderUtil",
+    "method": "method_22054",
+    "local": "var21",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/util/RenderUtil",
+    "method": "method_22054",
+    "local": "var20",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/util/RenderUtil",
+    "method": "method_22054",
+    "local": "var11",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/overlay/element/PrivateMessageElement",
+    "method": "handleElementDraw",
+    "local": "var8",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/overlay/element/RadioElement",
+    "method": "setElementSize",
+    "local": "var5",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/element/module/ModuleListElement",
+    "method": "handleDrawElement",
+    "local": "var13",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/element/type/ColorPickerElement",
+    "method": "method_07933",
+    "local": "var2",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/module/type/SaturationModule",
+    "method": "method_24948",
+    "local": "var13",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "com/cheatbreaker/client/module/type/TabListModule",
+    "method": "method_20823",
+    "local": "var24",
+    "from": "byte",
+    "to": "int",
+    "evidence": "mutable local; original method contains no corresponding I2B/I2S"
+  },
+  {
+    "class": "javazoom/jl/converter/RiffFile",
+    "method": "Write([SI)I",
+    "local": "var5",
+    "old": "byte",
+    "new": "int",
+    "evidence": "Original IINC index has no I2B; existing original I2B applies to sample-byte extraction and masked this counter in the conservative first pass."
+  }
+]

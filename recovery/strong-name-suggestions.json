@@ -1,0 +1,20 @@
+[
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4638",
+    "reference": "net/minecraft/command/PlayerSelector$3",
+    "fraction": 0.6666666666666666,
+    "matches": 2
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1509",
+    "reference": "net/minecraft/item/Item$3",
+    "fraction": 1.0,
+    "matches": 3
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0849",
+    "reference": "net/minecraft/item/Item$2",
+    "fraction": 1.0,
+    "matches": 3
+  }
+]

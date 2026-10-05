@@ -1,0 +1,55 @@
+package net.minecraft.client.gui.achievement;
+
+import java.util.Comparator;
+import net.minecraft.client.particle.EntitySnowShovelFX;
+import net.minecraft.item.Item;
+import net.minecraft.stats.StatBase;
+import net.minecraft.stats.StatCrafting;
+import net.minecraft.stats.StatList;
+import net.minecraft.world.gen.structure.StructureNetherBridgePieces$Stairs;
+
+public class GuiStats$StatsItem$1 implements Comparator<StatCrafting> {
+   public EntitySnowShovelFX field_0003;
+   public StructureNetherBridgePieces$Stairs field_0002;
+
+   public int compare(StatCrafting var1, StatCrafting var2) {
+      int var3 = Item.getIdFromItem(var1.func_150959_a());
+      int var4 = Item.getIdFromItem(var2.func_150959_a());
+      StatBase var5 = null;
+      StatBase var6 = null;
+      if (this.field_148343_b.y == 0) {
+         var5 = StatList.objectBreakStats[var3];
+         var6 = StatList.objectBreakStats[var4];
+      } else if (this.field_148343_b.y == 1) {
+         var5 = StatList.objectCraftStats[var3];
+         var6 = StatList.objectCraftStats[var4];
+      } else if (this.field_148343_b.y == 2) {
+         var5 = StatList.objectUseStats[var3];
+         var6 = StatList.objectUseStats[var4];
+      }
+
+      if (var5 != null || var6 != null) {
+         if (var5 == null) {
+            return 1;
+         }
+
+         if (var6 == null) {
+            return -1;
+         }
+
+         int var7 = GuiStats.access$100(this.field_148343_b.field_148220_k).a(var5);
+         int var8 = GuiStats.access$100(this.field_148343_b.field_148220_k).a(var6);
+         if (var7 != var8) {
+            return (var7 - var8) * this.field_148343_b.z;
+         }
+      }
+
+      return var3 - var4;
+   }
+
+   public GuiStats$StatsItem$1(GuiStats$StatsItem var1, GuiStats var2) {
+      this.field_148343_b = var1;
+      this.field_148344_a = var2;
+      super();
+   }
+}

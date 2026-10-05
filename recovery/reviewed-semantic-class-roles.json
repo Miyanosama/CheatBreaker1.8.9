@@ -1,0 +1,282 @@
+[
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0002",
+    "source_name": "com/cheatbreaker/client/util/food/FoodValues",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0212",
+    "source_name": "com/cheatbreaker/client/util/food/FoodHelper",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0315",
+    "source_name": "com/cheatbreaker/client/module/type/keystrokes/KeystrokeKey",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4262",
+    "source_name": "com/cheatbreaker/client/ui/loading/StartupLoadingGui",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1610",
+    "source_name": "com/cheatbreaker/client/util/HttpJsonReader",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1117",
+    "source_name": "com/cheatbreaker/client/util/title/TitleManager",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1468",
+    "source_name": "com/cheatbreaker/client/util/branch/BranchManager",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4913",
+    "source_name": "com/cheatbreaker/client/util/server/LocalServerRestrictions",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1883",
+    "source_name": "com/cheatbreaker/client/util/ClientCredits",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4786",
+    "source_name": "com/cheatbreaker/client/util/render/LegacyItemAnimations",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3946",
+    "source_name": "com/cheatbreaker/client/util/render/FreelookController",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4443",
+    "source_name": "com/cheatbreaker/client/ui/resourcepack/ResourcePackFolder",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0089",
+    "source_name": "com/cheatbreaker/client/ui/resourcepack/ResourcePackSlotElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0696",
+    "source_name": "com/cheatbreaker/client/ui/resourcepack/ResourcePackEntryElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4240",
+    "source_name": "com/cheatbreaker/client/ui/resourcepack/SelectedResourcePackEntry",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0517",
+    "source_name": "com/cheatbreaker/client/ui/resourcepack/ResourcePackFolderEntry",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4327",
+    "source_name": "com/cheatbreaker/client/ui/resourcepack/ResourcePackFolderScanner",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass5065",
+    "source_name": "com/cheatbreaker/client/ui/resourcepack/ResourcePackText",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0105",
+    "source_name": "com/cheatbreaker/client/ui/module/ModulePlacementGui",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1187",
+    "source_name": "com/cheatbreaker/client/ui/element/type/PotionSelectionElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0801",
+    "source_name": "com/cheatbreaker/client/ui/element/type/BlockSelectionElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0878",
+    "source_name": "com/cheatbreaker/client/ui/element/type/CosmeticSelectionElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1577",
+    "source_name": "com/cheatbreaker/client/ui/element/type/CrosshairPreviewElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1221",
+    "source_name": "com/cheatbreaker/client/ui/element/type/SettingSectionElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3599",
+    "source_name": "com/cheatbreaker/client/ui/element/type/CyclingToggleElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3688",
+    "source_name": "com/cheatbreaker/client/ui/element/type/CyclingChoiceElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3584",
+    "source_name": "com/cheatbreaker/client/ui/element/type/CompactNumericSliderElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1388",
+    "source_name": "com/cheatbreaker/client/ui/element/type/NumericSliderElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4179",
+    "source_name": "com/cheatbreaker/client/ui/element/type/IconNumericSliderElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4667",
+    "source_name": "com/cheatbreaker/client/util/math/Vec2f",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4439",
+    "source_name": "com/cheatbreaker/client/config/IntegerRangeDefaults",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1369",
+    "source_name": "com/cheatbreaker/client/ui/module/HudSizeDefaults",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1745",
+    "source_name": "com/cheatbreaker/client/util/render/LegacyTessellator",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4676",
+    "source_name": "com/cheatbreaker/client/util/render/LegacyGlStateManager",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0526",
+    "source_name": "com/cheatbreaker/client/util/render/LegacyGlBooleanState",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0525",
+    "source_name": "com/cheatbreaker/client/util/render/LegacyGlColorState",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1590",
+    "source_name": "com/cheatbreaker/client/util/render/LegacyGlBlendState",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1449",
+    "source_name": "com/cheatbreaker/client/ui/mainmenu/LargeAnimatedLogoElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0557",
+    "source_name": "com/cheatbreaker/client/ui/mainmenu/SmallAnimatedLogoElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4074",
+    "source_name": "com/cheatbreaker/client/ui/mainmenu/LargeLogoStarFade",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3249",
+    "source_name": "com/cheatbreaker/client/ui/mainmenu/SmallLogoStarFade",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1381",
+    "source_name": "com/cheatbreaker/client/ui/mainmenu/NewsPreviewElement",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3620",
+    "source_name": "com/cheatbreaker/client/util/ConsoleChatPrinter",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4790",
+    "source_name": "com/cheatbreaker/client/util/ClientStartupListener",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1349",
+    "source_name": "com/cheatbreaker/client/util/input/KeyBindingResumeListener",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3624",
+    "source_name": "com/cheatbreaker/client/util/server/HypixelAutoTipTask",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass5100",
+    "source_name": "com/cheatbreaker/client/ui/util/GuiThemeColors",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1944",
+    "source_name": "com/cheatbreaker/client/event/type/ClientInitializedEvent",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0144",
+    "source_name": "com/cheatbreaker/client/event/type/HudPreviewDrawEvent",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1798",
+    "source_name": "com/cheatbreaker/client/event/type/ScoreboardDrawEvent",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1385",
+    "source_name": "com/cheatbreaker/client/module/type/LegacyFPSModule",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedEnum1205",
+    "source_name": "com/cheatbreaker/client/emote/type/FlossPose",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedEnum4019",
+    "source_name": "com/cheatbreaker/client/module/type/TeammateHudSide",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedEnum3979",
+    "source_name": "com/cheatbreaker/client/module/type/notifications/NotificationKind",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedEnum3640",
+    "source_name": "com/cheatbreaker/client/ui/mainmenu/MainMenuMode",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedEnum4287",
+    "source_name": "com/cheatbreaker/client/ui/resourcepack/ResourcePackEntryAction",
+    "evidence": "Reviewed fields, constructor labels, method bodies and callers; semantic role, historical erased class name not asserted"
+  }
+]

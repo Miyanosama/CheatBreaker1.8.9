@@ -1,0 +1,415 @@
+[
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0122",
+    "reference": "junit/awtui/TestRunner$2",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createJUnitMenu",
+        "reference_method": "createJUnitMenu",
+        "instruction": 28,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createJUnitMenu",
+        "reference_method": "createJUnitMenu",
+        "instruction": 31,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4372",
+    "reference": "junit/awtui/TestRunner$4",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createUI",
+        "reference_method": "createUI",
+        "instruction": 73,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createUI",
+        "reference_method": "createUI",
+        "instruction": 76,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1118",
+    "reference": "junit/awtui/TestRunner$6",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createUI",
+        "reference_method": "createUI",
+        "instruction": 97,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createUI",
+        "reference_method": "createUI",
+        "instruction": 100,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3543",
+    "reference": "junit/awtui/TestRunner$8",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createUI",
+        "reference_method": "createUI",
+        "instruction": 201,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createUI",
+        "reference_method": "createUI",
+        "instruction": 204,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4000",
+    "reference": "junit/awtui/TestRunner$9",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createUI",
+        "reference_method": "createUI",
+        "instruction": 260,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/awtui/TestRunner",
+        "method": "createUI",
+        "reference_method": "createUI",
+        "instruction": 263,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1318",
+    "reference": "junit/swingui/AboutDialog$1",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/AboutDialog",
+        "method": "<init>",
+        "reference_method": "<init>",
+        "instruction": 33,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/AboutDialog",
+        "method": "<init>",
+        "reference_method": "<init>",
+        "instruction": 36,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass5128",
+    "reference": "junit/swingui/AboutDialog$2",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/AboutDialog",
+        "method": "<init>",
+        "reference_method": "<init>",
+        "instruction": 186,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/AboutDialog",
+        "method": "<init>",
+        "reference_method": "<init>",
+        "instruction": 189,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1443",
+    "reference": "net/minecraft/client/gui/GuiOverlayDebug$1",
+    "votes": 1,
+    "evidence": [
+      {
+        "caller": "net/minecraft/client/gui/GuiOverlayDebug",
+        "method": "call",
+        "reference_method": "call",
+        "instruction": 251,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1095",
+    "reference": "junit/awtui/AboutDialog$1",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/awtui/AboutDialog",
+        "method": "<init>",
+        "reference_method": "<init>",
+        "instruction": 24,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/awtui/AboutDialog",
+        "method": "<init>",
+        "reference_method": "<init>",
+        "instruction": 27,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3389",
+    "reference": "junit/awtui/AboutDialog$2",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/awtui/AboutDialog",
+        "method": "<init>",
+        "reference_method": "<init>",
+        "instruction": 170,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/awtui/AboutDialog",
+        "method": "<init>",
+        "reference_method": "<init>",
+        "instruction": 173,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3613",
+    "reference": "junit/swingui/TestSelector$1",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestSelector",
+        "method": "addListeners",
+        "reference_method": "addListeners",
+        "instruction": 2,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestSelector",
+        "method": "addListeners",
+        "reference_method": "addListeners",
+        "instruction": 5,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4851",
+    "reference": "junit/swingui/TestSelector$2",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestSelector",
+        "method": "addListeners",
+        "reference_method": "addListeners",
+        "instruction": 9,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestSelector",
+        "method": "addListeners",
+        "reference_method": "addListeners",
+        "instruction": 12,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass3786",
+    "reference": "junit/swingui/TestSelector$4",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestSelector",
+        "method": "addListeners",
+        "reference_method": "addListeners",
+        "instruction": 36,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestSelector",
+        "method": "addListeners",
+        "reference_method": "addListeners",
+        "instruction": 39,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass0268",
+    "reference": "junit/swingui/TestRunner$10",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createBrowseButton",
+        "reference_method": "createBrowseButton",
+        "instruction": 9,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createBrowseButton",
+        "reference_method": "createBrowseButton",
+        "instruction": 12,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1350",
+    "reference": "junit/swingui/TestRunner$19",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "synchUI",
+        "reference_method": "synchUI",
+        "instruction": 0,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "synchUI",
+        "reference_method": "synchUI",
+        "instruction": 3,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass5082",
+    "reference": "junit/swingui/TestRunner$5",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createJUnitMenu",
+        "reference_method": "createJUnitMenu",
+        "instruction": 14,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createJUnitMenu",
+        "reference_method": "createJUnitMenu",
+        "instruction": 17,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1945",
+    "reference": "junit/swingui/TestRunner$6",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createJUnitMenu",
+        "reference_method": "createJUnitMenu",
+        "instruction": 34,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createJUnitMenu",
+        "reference_method": "createJUnitMenu",
+        "instruction": 37,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1227",
+    "reference": "junit/swingui/TestRunner$8",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createQuitButton",
+        "reference_method": "createQuitButton",
+        "instruction": 6,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createQuitButton",
+        "reference_method": "createQuitButton",
+        "instruction": 9,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass1294",
+    "reference": "junit/swingui/TestRunner$4",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createFailedPanel",
+        "reference_method": "createFailedPanel",
+        "instruction": 23,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createFailedPanel",
+        "reference_method": "createFailedPanel",
+        "instruction": 26,
+        "class_fraction": 1.0
+      }
+    ]
+  },
+  {
+    "source": "recovered/unidentified/UnidentifiedClass4197",
+    "reference": "junit/swingui/TestRunner$9",
+    "votes": 2,
+    "evidence": [
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createRunButton",
+        "reference_method": "createRunButton",
+        "instruction": 9,
+        "class_fraction": 1.0
+      },
+      {
+        "caller": "junit/swingui/TestRunner",
+        "method": "createRunButton",
+        "reference_method": "createRunButton",
+        "instruction": 12,
+        "class_fraction": 1.0
+      }
+    ]
+  }
+]

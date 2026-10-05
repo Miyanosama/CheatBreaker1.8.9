@@ -1,0 +1,1162 @@
+[
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08576",
+    "name": "getString",
+    "descriptor": "(I)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08612",
+    "name": "optLong",
+    "descriptor": "(I)J",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08615",
+    "name": "put",
+    "descriptor": "(IJ)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08587",
+    "name": "put",
+    "descriptor": "(ILjava/util/Map;)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08571",
+    "name": "optString",
+    "descriptor": "(I)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08596",
+    "name": "join",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08614",
+    "name": "put",
+    "descriptor": "(II)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08608",
+    "name": "isNull",
+    "descriptor": "(I)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08566",
+    "name": "getJSONArray",
+    "descriptor": "(I)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08600",
+    "name": "put",
+    "descriptor": "(Z)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08574",
+    "name": "toList",
+    "descriptor": "()Ljava/util/List;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08621",
+    "name": "optBoolean",
+    "descriptor": "(I)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08594",
+    "name": "optEnum",
+    "descriptor": "(Ljava/lang/Class;ILjava/lang/Enum;)Ljava/lang/Enum;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08568",
+    "name": "optInt",
+    "descriptor": "(I)I",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08622",
+    "name": "toString",
+    "descriptor": "(I)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08565",
+    "name": "put",
+    "descriptor": "(I)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08588",
+    "name": "optBoolean",
+    "descriptor": "(IZ)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08598",
+    "name": "put",
+    "descriptor": "(Ljava/util/Map;)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08616",
+    "name": "put",
+    "descriptor": "(IZ)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08586",
+    "name": "put",
+    "descriptor": "(ILjava/util/Collection;)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08569",
+    "name": "optDouble",
+    "descriptor": "(I)D",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08583",
+    "name": "optString",
+    "descriptor": "(ILjava/lang/String;)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08609",
+    "name": "optJSONArray",
+    "descriptor": "(I)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08575",
+    "name": "put",
+    "descriptor": "(D)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08562",
+    "name": "remove",
+    "descriptor": "(I)Ljava/lang/Object;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08589",
+    "name": "put",
+    "descriptor": "(J)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08561",
+    "name": "getJSONObject",
+    "descriptor": "(I)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08564",
+    "name": "getBoolean",
+    "descriptor": "(I)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08597",
+    "name": "put",
+    "descriptor": "(Ljava/util/Collection;)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08613",
+    "name": "put",
+    "descriptor": "(ID)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08617",
+    "name": "optEnum",
+    "descriptor": "(Ljava/lang/Class;I)Ljava/lang/Enum;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONArray",
+    "old": "method_08591",
+    "name": "write",
+    "descriptor": "(Ljava/io/Writer;)Ljava/io/Writer;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/runner/TestCaseClassLoader",
+    "old": "method_29276",
+    "name": "isJar",
+    "descriptor": "(Ljava/lang/String;)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/awtui/Logo",
+    "old": "method_29184",
+    "name": "class$",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/Class;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/awtui/TestRunner",
+    "old": "method_28014",
+    "name": "reset",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/awtui/TestRunner",
+    "old": "method_28016",
+    "name": "showErrorTrace",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/awtui/TestRunner",
+    "old": "method_28040",
+    "name": "shouldReload",
+    "descriptor": "()Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/awtui/TestRunner",
+    "old": "method_00096",
+    "name": "testStarted",
+    "descriptor": "(Ljava/lang/String;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/awtui/TestRunner",
+    "old": "method_28015",
+    "name": "class$",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/Class;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/awtui/TestRunner",
+    "old": "method_28042",
+    "name": "failureSelected",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/awtui/TestRunner",
+    "old": "method_28032",
+    "name": "runSuite",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/awtui/TestRunner",
+    "old": "method_28033",
+    "name": "isErrorSelected",
+    "descriptor": "()Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/textui/TestRunner",
+    "old": "method_22615",
+    "name": "runSingleMethod",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/String;Z)Ljunit/framework/TestResult;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/realms/RealmsScrolledSelectionList",
+    "old": "method_06326",
+    "name": "getScrollbarPosition",
+    "descriptor": "()I",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/realms/RealmsScrolledSelectionList",
+    "old": "method_06328",
+    "name": "scroll",
+    "descriptor": "(I)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/realms/RealmsScrolledSelectionList",
+    "old": "method_06338",
+    "name": "mouseEvent",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/realms/RealmsScrolledSelectionList",
+    "old": "method_06329",
+    "name": "render",
+    "descriptor": "(IIF)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/runner/BaseTestRunner",
+    "old": "method_29459",
+    "name": "showStackRaw",
+    "descriptor": "()Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/runner/BaseTestRunner",
+    "old": "method_29473",
+    "name": "inMac",
+    "descriptor": "()Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/runner/BaseTestRunner",
+    "old": "method_29468",
+    "name": "setPreference",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/String;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/runner/BaseTestRunner",
+    "old": "method_29475",
+    "name": "truncate",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/AboutDialog",
+    "old": "method_21161",
+    "name": "createLogo",
+    "descriptor": "()Ljavax/swing/JLabel;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/AboutDialog",
+    "old": "method_21162",
+    "name": "class$",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/Class;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/TestResult",
+    "old": "method_22215",
+    "name": "startTest",
+    "descriptor": "(Ljunit/framework/Test;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/TestResult",
+    "old": "method_22224",
+    "name": "endTest",
+    "descriptor": "(Ljunit/framework/Test;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/TestCase",
+    "old": "method_25956",
+    "name": "runBare",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/server/MinecraftServer",
+    "old": "method_06824",
+    "name": "initialWorldChunkLoad",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONTokener",
+    "old": "method_01502",
+    "name": "nextValue",
+    "descriptor": "()Ljava/lang/Object;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONTokener",
+    "old": "method_01496",
+    "name": "next",
+    "descriptor": "(I)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONTokener",
+    "old": "method_01490",
+    "name": "nextClean",
+    "descriptor": "()C",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONTokener",
+    "old": "method_01491",
+    "name": "nextString",
+    "descriptor": "(C)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONTokener",
+    "old": "method_01498",
+    "name": "syntaxError",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/Throwable;)Lorg/json/JSONException;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONTokener",
+    "old": "method_01506",
+    "name": "end",
+    "descriptor": "()Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/StatusLine",
+    "old": "method_26433",
+    "name": "showError",
+    "descriptor": "(Ljava/lang/String;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/StatusLine",
+    "old": "method_26434",
+    "name": "showInfo",
+    "descriptor": "(Ljava/lang/String;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiOverlayDebug",
+    "old": "method_06580",
+    "name": "getDebugInfoRight",
+    "descriptor": "()Ljava/util/List;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiOverlayDebug",
+    "old": "method_06579",
+    "name": "call",
+    "descriptor": "()Ljava/util/List;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/network/NettyCompressionEncoder",
+    "old": "method_29533",
+    "name": "setCompressionTreshold",
+    "descriptor": "(I)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/DefaultFailureDetailView$StackTraceListModel",
+    "old": "method_29719",
+    "name": "scan",
+    "descriptor": "(Ljava/lang/String;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/util/MouseHelper",
+    "old": "method_21148",
+    "name": "mouseXYChange",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/util/MouseHelper",
+    "old": "method_21147",
+    "name": "grabMouseCursor",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/extensions/ActiveTestSuite",
+    "old": "method_10853",
+    "name": "runFinished",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/renderer/chunk/ChunkRenderDispatcher",
+    "old": "method_12353",
+    "name": "pauseChunkUpdates",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/ComparisonCompactor",
+    "old": "method_00585",
+    "name": "compactString",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/ComparisonCompactor",
+    "old": "method_00584",
+    "name": "computeCommonPrefix",
+    "descriptor": "()Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/ComparisonCompactor",
+    "old": "method_00587",
+    "name": "findCommonPrefix",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/ComparisonCompactor",
+    "old": "method_00583",
+    "name": "areStringsEqual",
+    "descriptor": "()Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/ComparisonCompactor",
+    "old": "method_00586",
+    "name": "computeCommonSuffix",
+    "descriptor": "()Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/ComparisonCompactor",
+    "old": "method_00582",
+    "name": "findCommonSuffix",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/ComparisonCompactor",
+    "old": "method_00588",
+    "name": "compact",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/realms/RealmsSimpleScrolledSelectionList",
+    "old": "method_01315",
+    "name": "getScrollbarPosition",
+    "descriptor": "()I",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/realms/RealmsSimpleScrolledSelectionList",
+    "old": "method_01323",
+    "name": "mouseEvent",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/realms/RealmsSimpleScrolledSelectionList",
+    "old": "method_01318",
+    "name": "render",
+    "descriptor": "(IIF)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/realms/RealmsSimpleScrolledSelectionList",
+    "old": "method_01326",
+    "name": "scroll",
+    "descriptor": "(I)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/renderer/RenderGlobal",
+    "old": "method_24672",
+    "name": "renderSky",
+    "descriptor": "(FI)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/runner/LoadingTestCollector",
+    "old": "method_04529",
+    "name": "class$",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/Class;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/network/OldServerPinger",
+    "old": "method_08034",
+    "name": "ping",
+    "descriptor": "(Lnet/minecraft/client/multiplayer/ServerData;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/TestSuite",
+    "old": "method_24118",
+    "name": "class$",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/Class;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/TestSuite",
+    "old": "method_24114",
+    "name": "isTestMethod",
+    "descriptor": "(Ljava/lang/reflect/Method;)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/TestSuite",
+    "old": "method_24119",
+    "name": "isPublicTestMethod",
+    "descriptor": "(Ljava/lang/reflect/Method;)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiIngame",
+    "old": "method_28517",
+    "name": "renderDemo",
+    "descriptor": "(Lnet/minecraft/client/gui/ScaledResolution;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/optifine/shaders/ShadersRender",
+    "old": "method_06618",
+    "name": "setupArrayPointersVbo",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "javax/vecmath/VecMathUtil",
+    "old": "method_08549",
+    "name": "doubleToLongBits",
+    "descriptor": "(D)J",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "javax/vecmath/VecMathUtil",
+    "old": "method_08550",
+    "name": "floatToIntBits",
+    "descriptor": "(F)I",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07224",
+    "name": "put",
+    "descriptor": "(Ljava/lang/String;Ljava/util/Map;)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07250",
+    "name": "putOpt",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07245",
+    "name": "optString",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07238",
+    "name": "optJSONArray",
+    "descriptor": "(Ljava/lang/String;)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07232",
+    "name": "optDouble",
+    "descriptor": "(Ljava/lang/String;)D",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07181",
+    "name": "getJSONObject",
+    "descriptor": "(Ljava/lang/String;)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07230",
+    "name": "isNull",
+    "descriptor": "(Ljava/lang/String;)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07193",
+    "name": "getBoolean",
+    "descriptor": "(Ljava/lang/String;)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07198",
+    "name": "append",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07234",
+    "name": "optLong",
+    "descriptor": "(Ljava/lang/String;)J",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07244",
+    "name": "testValidity",
+    "descriptor": "(Ljava/lang/Object;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07223",
+    "name": "put",
+    "descriptor": "(Ljava/lang/String;Ljava/util/Collection;)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07217",
+    "name": "quote",
+    "descriptor": "(Ljava/lang/String;Ljava/io/Writer;)Ljava/io/Writer;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07241",
+    "name": "optJSONObject",
+    "descriptor": "(Ljava/lang/String;)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07199",
+    "name": "entrySet",
+    "descriptor": "()Ljava/util/Set;",
+    "evidence": "delegates exactly to Map.entrySet; Set<Entry<String,Object>> source return type"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07204",
+    "name": "write",
+    "descriptor": "(Ljava/io/Writer;)Ljava/io/Writer;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07228",
+    "name": "optInt",
+    "descriptor": "(Ljava/lang/String;)I",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07240",
+    "name": "quote",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07201",
+    "name": "toString",
+    "descriptor": "(I)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07177",
+    "name": "getJSONArray",
+    "descriptor": "(Ljava/lang/String;)Lorg/json/JSONArray;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07242",
+    "name": "keys",
+    "descriptor": "()Ljava/util/Iterator;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07239",
+    "name": "putOnce",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07237",
+    "name": "getNames",
+    "descriptor": "(Ljava/lang/Object;)[Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07229",
+    "name": "remove",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/Object;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07208",
+    "name": "optEnum",
+    "descriptor": "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07236",
+    "name": "keySet",
+    "descriptor": "()Ljava/util/Set;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07182",
+    "name": "length",
+    "descriptor": "()I",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07225",
+    "name": "put",
+    "descriptor": "(Ljava/lang/String;Z)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07210",
+    "name": "numberToString",
+    "descriptor": "(Ljava/lang/Number;)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07254",
+    "name": "get",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/Object;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07200",
+    "name": "doubleToString",
+    "descriptor": "(D)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07209",
+    "name": "optEnum",
+    "descriptor": "(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Enum;)Ljava/lang/Enum;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07185",
+    "name": "accumulate",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07205",
+    "name": "indent",
+    "descriptor": "(Ljava/io/Writer;I)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07243",
+    "name": "getEnum",
+    "descriptor": "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/json/JSONObject",
+    "old": "method_07220",
+    "name": "optString",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/ProgressBar",
+    "old": "method_04438",
+    "name": "updateBarColor",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/ProgressBar",
+    "old": "method_29010",
+    "name": "reset",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/gui/achievement/GuiAchievement",
+    "old": "method_27788",
+    "name": "clearAchievements",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/renderer/EntityRenderer",
+    "old": "method_29139",
+    "name": "frameFinish",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/newsclub/net/unix/AFUNIXSocket",
+    "old": "method_25948",
+    "name": "connectTo",
+    "descriptor": "(Lorg/newsclub/net/unix/AFUNIXSocketAddress;)Lorg/newsclub/net/unix/AFUNIXSocket;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestSelector",
+    "old": "method_22001",
+    "name": "defineLayout",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestSelector",
+    "old": "method_22007",
+    "name": "addListeners",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestSelector",
+    "old": "method_22000",
+    "name": "okSelected",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/stream/IngestServerTester",
+    "old": "method_10737",
+    "name": "func_153036_a",
+    "descriptor": "(Ltv/twitch/broadcast/IngestServer;)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestTreeModel",
+    "old": "method_25919",
+    "name": "wasRun",
+    "descriptor": "(Ljunit/framework/Test;)Z",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00095",
+    "name": "aboutToStart",
+    "descriptor": "(Ljunit/framework/Test;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00098",
+    "name": "terminate",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00108",
+    "name": "class$",
+    "descriptor": "(Ljava/lang/String;)Ljava/lang/Class;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00068",
+    "name": "access$1402",
+    "descriptor": "(Ljunit/swingui/TestRunner;Ljava/lang/Thread;)Ljava/lang/Thread;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00090",
+    "name": "about",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00056",
+    "name": "pruneHistory",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00042",
+    "name": "saveHistory",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00037",
+    "name": "showFailureDetail",
+    "descriptor": "(Ljunit/framework/Test;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00049",
+    "name": "createQuitButton",
+    "descriptor": "()Ljavax/swing/JButton;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00096",
+    "name": "testStarted",
+    "descriptor": "(Ljava/lang/String;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00082",
+    "name": "browseTestClasses",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00074",
+    "name": "instanciateClass",
+    "descriptor": "(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/TestRunner",
+    "old": "method_00061",
+    "name": "createRunButton",
+    "descriptor": "()Ljavax/swing/JButton;",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "net/minecraft/client/Minecraft",
+    "old": "method_20426",
+    "name": "createDisplay",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/newsclub/net/unix/AFUNIXSocketImpl",
+    "old": "method_06137",
+    "name": "expectBoolean",
+    "descriptor": "(Ljava/lang/Object;)I",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/newsclub/net/unix/AFUNIXSocketImpl",
+    "old": "method_06145",
+    "name": "expectInteger",
+    "descriptor": "(Ljava/lang/Object;)I",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "org/newsclub/net/unix/AFUNIXSocketImpl",
+    "old": "method_06134",
+    "name": "bind",
+    "descriptor": "(ILjava/net/SocketAddress;)V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/swingui/MacProgressBar",
+    "old": "method_04438",
+    "name": "updateBarColor",
+    "descriptor": "()V",
+    "evidence": "unique same-class exact normalized method body and descriptor"
+  },
+  {
+    "class": "junit/framework/Assert",
+    "old": "method_03700",
+    "name": "assertNull",
+    "evidence": "direct canonical delegation or runBare setup and teardown call positions"
+  },
+  {
+    "class": "junit/framework/Assert",
+    "old": "method_03701",
+    "name": "assertSame",
+    "evidence": "direct canonical delegation or runBare setup and teardown call positions"
+  },
+  {
+    "class": "junit/framework/Assert",
+    "old": "method_03720",
+    "name": "assertNotNull",
+    "evidence": "direct canonical delegation or runBare setup and teardown call positions"
+  },
+  {
+    "class": "junit/framework/Assert",
+    "old": "method_03721",
+    "name": "assertEquals",
+    "evidence": "direct canonical delegation or runBare setup and teardown call positions"
+  },
+  {
+    "class": "junit/framework/Assert",
+    "old": "method_03717",
+    "name": "assertTrue",
+    "evidence": "direct canonical delegation or runBare setup and teardown call positions"
+  },
+  {
+    "class": "junit/framework/Assert",
+    "old": "method_03692",
+    "name": "assertNotSame",
+    "evidence": "direct canonical delegation or runBare setup and teardown call positions"
+  },
+  {
+    "class": "junit/framework/Assert",
+    "old": "method_03726",
+    "name": "assertFalse",
+    "evidence": "direct canonical delegation or runBare setup and teardown call positions"
+  },
+  {
+    "class": "junit/framework/TestCase",
+    "old": "method_25962",
+    "name": "setUp",
+    "evidence": "direct canonical delegation or runBare setup and teardown call positions"
+  },
+  {
+    "class": "junit/framework/TestCase",
+    "old": "method_25959",
+    "name": "tearDown",
+    "evidence": "direct canonical delegation or runBare setup and teardown call positions"
+  }
+]

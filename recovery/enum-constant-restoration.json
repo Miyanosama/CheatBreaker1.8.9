@@ -1,0 +1,8794 @@
+[
+  {
+    "class": "net/minecraft/network/play/server/S45PacketTitle$Type",
+    "source": "src/main/java/net/minecraft/network/play/server/S45PacketTitle.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "TITLE",
+        "name": "TITLE"
+      },
+      {
+        "ordinal": 1,
+        "field": "SUBTITLE",
+        "name": "SUBTITLE"
+      },
+      {
+        "ordinal": 2,
+        "field": "TIMES",
+        "name": "TIMES"
+      },
+      {
+        "ordinal": 3,
+        "field": "CLEAR",
+        "name": "CLEAR"
+      },
+      {
+        "ordinal": 4,
+        "field": "RESET",
+        "name": "RESET"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler$ServerHandshakeStateEvent",
+    "source": "src/main/java/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "HANDSHAKE_COMPLETE",
+        "name": "HANDSHAKE_COMPLETE"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/client/renderer/GlStateManager$TexGen",
+    "source": "src/main/java/net/minecraft/client/renderer/GlStateManager.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "S",
+        "name": "S"
+      },
+      {
+        "ordinal": 1,
+        "field": "T",
+        "name": "T"
+      },
+      {
+        "ordinal": 2,
+        "field": "R",
+        "name": "R"
+      },
+      {
+        "ordinal": 3,
+        "field": "Q",
+        "name": "Q"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/world/EnumSkyBlock",
+    "source": "src/main/java/net/minecraft/world/EnumSkyBlock.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SKY",
+        "name": "SKY"
+      },
+      {
+        "ordinal": 1,
+        "field": "BLOCK",
+        "name": "BLOCK"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/client/renderer/BlockModelRenderer$EnumNeighborInfo",
+    "source": "src/main/java/net/minecraft/client/renderer/BlockModelRenderer.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DOWN",
+        "name": "DOWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 2,
+        "field": "NORTH",
+        "name": "NORTH"
+      },
+      {
+        "ordinal": 3,
+        "field": "SOUTH",
+        "name": "SOUTH"
+      },
+      {
+        "ordinal": 4,
+        "field": "WEST",
+        "name": "WEST"
+      },
+      {
+        "ordinal": 5,
+        "field": "EAST",
+        "name": "EAST"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksCmdResponseDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksCmdResponseDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CHECK_PROTOCOL_VERSION",
+        "name": "CHECK_PROTOCOL_VERSION"
+      },
+      {
+        "ordinal": 1,
+        "field": "READ_CMD_HEADER",
+        "name": "READ_CMD_HEADER"
+      },
+      {
+        "ordinal": 2,
+        "field": "READ_CMD_ADDRESS",
+        "name": "READ_CMD_ADDRESS"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/event/ClickEvent$Action",
+    "source": "src/main/java/net/minecraft/event/ClickEvent.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "OPEN_URL",
+        "name": "OPEN_URL"
+      },
+      {
+        "ordinal": 1,
+        "field": "OPEN_FILE",
+        "name": "OPEN_FILE"
+      },
+      {
+        "ordinal": 2,
+        "field": "RUN_COMMAND",
+        "name": "RUN_COMMAND"
+      },
+      {
+        "ordinal": 3,
+        "field": "TWITCH_USER_INFO",
+        "name": "TWITCH_USER_INFO"
+      },
+      {
+        "ordinal": 4,
+        "field": "SUGGEST_COMMAND",
+        "name": "SUGGEST_COMMAND"
+      },
+      {
+        "ordinal": 5,
+        "field": "CHANGE_PAGE",
+        "name": "CHANGE_PAGE"
+      },
+      {
+        "ordinal": 6,
+        "field": "UPLOAD_SCREENSHOT",
+        "name": "UPLOAD_SCREENSHOT"
+      },
+      {
+        "ordinal": 7,
+        "field": "COPY_SCREENSHOT",
+        "name": "COPY_SCREENSHOT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockDoor$EnumHingePosition",
+    "source": "src/main/java/net/minecraft/block/BlockDoor.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "LEFT",
+        "name": "LEFT"
+      },
+      {
+        "ordinal": 1,
+        "field": "RIGHT",
+        "name": "RIGHT"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "com/cheatbreaker/client/util/SessionServer$Status",
+    "source": "src/main/java/com/cheatbreaker/client/util/SessionServer.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 1,
+        "field": "DOWN",
+        "name": "DOWN"
+      },
+      {
+        "ordinal": 2,
+        "field": "BUSY",
+        "name": "BUSY"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/entity/player/EntityPlayer$EnumChatVisibility",
+    "source": "src/main/java/net/minecraft/entity/player/EntityPlayer.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "FULL",
+        "name": "FULL"
+      },
+      {
+        "ordinal": 1,
+        "field": "SYSTEM",
+        "name": "SYSTEM"
+      },
+      {
+        "ordinal": 2,
+        "field": "HIDDEN",
+        "name": "HIDDEN"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedEnum1205",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedEnum1205.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "LEFT_TO_RIGHT",
+        "name": "LEFT_TO_RIGHT"
+      },
+      {
+        "ordinal": 1,
+        "field": "RIGHT_TO_LEFT",
+        "name": "RIGHT_TO_LEFT"
+      },
+      {
+        "ordinal": 2,
+        "field": "RIGHT_TO_BACK",
+        "name": "RIGHT_TO_BACK"
+      },
+      {
+        "ordinal": 3,
+        "field": "LEFT_TO_BACK",
+        "name": "LEFT_TO_BACK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/channel/rxtx/RxtxChannelConfig$Stopbits",
+    "source": "src/main/java/io/netty/channel/rxtx/RxtxChannelConfig.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "STOPBITS_1",
+        "name": "STOPBITS_1"
+      },
+      {
+        "ordinal": 1,
+        "field": "STOPBITS_2",
+        "name": "STOPBITS_2"
+      },
+      {
+        "ordinal": 2,
+        "field": "STOPBITS_1_5",
+        "name": "STOPBITS_1_5"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/item/ItemFishFood$FishType",
+    "source": "src/main/java/net/minecraft/item/ItemFishFood.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "COD",
+        "name": "COD"
+      },
+      {
+        "ordinal": 1,
+        "field": "SALMON",
+        "name": "SALMON"
+      },
+      {
+        "ordinal": 2,
+        "field": "CLOWNFISH",
+        "name": "CLOWNFISH"
+      },
+      {
+        "ordinal": 3,
+        "field": "PUFFERFISH",
+        "name": "PUFFERFISH"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/websocketx/WebSocketClientProtocolHandler$ClientHandshakeStateEvent",
+    "source": "src/main/java/io/netty/handler/codec/http/websocketx/WebSocketClientProtocolHandler.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "HANDSHAKE_ISSUED",
+        "name": "HANDSHAKE_ISSUED"
+      },
+      {
+        "ordinal": 1,
+        "field": "HANDSHAKE_COMPLETE",
+        "name": "HANDSHAKE_COMPLETE"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/world/border/EnumBorderStatus",
+    "source": "src/main/java/net/minecraft/world/border/EnumBorderStatus.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "GROWING",
+        "name": "GROWING"
+      },
+      {
+        "ordinal": 1,
+        "field": "SHRINKING",
+        "name": "SHRINKING"
+      },
+      {
+        "ordinal": 2,
+        "field": "STATIONARY",
+        "name": "STATIONARY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/BlockModelRenderer$VertexTranslations",
+    "source": "src/main/java/net/minecraft/client/renderer/BlockModelRenderer.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DOWN",
+        "name": "DOWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 2,
+        "field": "NORTH",
+        "name": "NORTH"
+      },
+      {
+        "ordinal": 3,
+        "field": "SOUTH",
+        "name": "SOUTH"
+      },
+      {
+        "ordinal": 4,
+        "field": "WEST",
+        "name": "WEST"
+      },
+      {
+        "ordinal": 5,
+        "field": "EAST",
+        "name": "EAST"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockLog$EnumAxis",
+    "source": "src/main/java/net/minecraft/block/BlockLog.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "X",
+        "name": "X"
+      },
+      {
+        "ordinal": 1,
+        "field": "Y",
+        "name": "Y"
+      },
+      {
+        "ordinal": 2,
+        "field": "Z",
+        "name": "Z"
+      },
+      {
+        "ordinal": 3,
+        "field": "NONE",
+        "name": "NONE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStairs$EnumHalf",
+    "source": "src/main/java/net/minecraft/block/BlockStairs.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "TOP",
+        "name": "TOP"
+      },
+      {
+        "ordinal": 1,
+        "field": "BOTTOM",
+        "name": "BOTTOM"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureStrongholdPieces$Stronghold$Door",
+    "source": "src/main/java/net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NORTH",
+        "name": "OPENING"
+      },
+      {
+        "ordinal": 1,
+        "field": "SOUTH",
+        "name": "WOOD_DOOR"
+      },
+      {
+        "ordinal": 2,
+        "field": "WEST",
+        "name": "GRATES"
+      },
+      {
+        "ordinal": 3,
+        "field": "EAST",
+        "name": "IRON_DOOR"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/item/EnumRarity",
+    "source": "src/main/java/net/minecraft/item/EnumRarity.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "COMMON",
+        "name": "COMMON"
+      },
+      {
+        "ordinal": 1,
+        "field": "UNCOMMON",
+        "name": "UNCOMMON"
+      },
+      {
+        "ordinal": 2,
+        "field": "RARE",
+        "name": "RARE"
+      },
+      {
+        "ordinal": 3,
+        "field": "EPIC",
+        "name": "EPIC"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksAuthStatus",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksAuthStatus.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SUCCESS",
+        "name": "SUCCESS"
+      },
+      {
+        "ordinal": 1,
+        "field": "FAILURE",
+        "name": "FAILURE"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/block/BlockDoor$EnumDoorHalf",
+    "source": "src/main/java/net/minecraft/block/BlockDoor.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UPPER",
+        "name": "UPPER"
+      },
+      {
+        "ordinal": 1,
+        "field": "LOWER",
+        "name": "LOWER"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Type",
+    "source": "src/main/java/net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "REBUILD_CHUNK",
+        "name": "REBUILD_CHUNK"
+      },
+      {
+        "ordinal": 1,
+        "field": "RESORT_TRANSPARENCY",
+        "name": "RESORT_TRANSPARENCY"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksSubnegotiationVersion",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksSubnegotiationVersion.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "AUTH_PASSWORD",
+        "name": "AUTH_PASSWORD"
+      },
+      {
+        "ordinal": 1,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksMessageType",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksMessageType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "REQUEST",
+        "name": "REQUEST"
+      },
+      {
+        "ordinal": 1,
+        "field": "RESPONSE",
+        "name": "RESPONSE"
+      },
+      {
+        "ordinal": 2,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/world/gen/layer/GenLayerEdge$Mode",
+    "source": "src/main/java/net/minecraft/world/gen/layer/GenLayerEdge.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "COOL_WARM",
+        "name": "COOL_WARM"
+      },
+      {
+        "ordinal": 1,
+        "field": "HEAT_ICE",
+        "name": "HEAT_ICE"
+      },
+      {
+        "ordinal": 2,
+        "field": "SPECIAL",
+        "name": "SPECIAL"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockRedstoneWire$EnumAttachPosition",
+    "source": "src/main/java/net/minecraft/block/BlockRedstoneWire.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 1,
+        "field": "SIDE",
+        "name": "SIDE"
+      },
+      {
+        "ordinal": 2,
+        "field": "NONE",
+        "name": "NONE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/shaders/config/EnumShaderOption",
+    "source": "src/main/java/net/optifine/shaders/config/EnumShaderOption.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ANTIALIASING",
+        "name": "ANTIALIASING"
+      },
+      {
+        "ordinal": 1,
+        "field": "NORMAL_MAP",
+        "name": "NORMAL_MAP"
+      },
+      {
+        "ordinal": 2,
+        "field": "SPECULAR_MAP",
+        "name": "SPECULAR_MAP"
+      },
+      {
+        "ordinal": 3,
+        "field": "RENDER_RES_MUL",
+        "name": "RENDER_RES_MUL"
+      },
+      {
+        "ordinal": 4,
+        "field": "SHADOW_RES_MUL",
+        "name": "SHADOW_RES_MUL"
+      },
+      {
+        "ordinal": 5,
+        "field": "HAND_DEPTH_MUL",
+        "name": "HAND_DEPTH_MUL"
+      },
+      {
+        "ordinal": 6,
+        "field": "CLOUD_SHADOW",
+        "name": "CLOUD_SHADOW"
+      },
+      {
+        "ordinal": 7,
+        "field": "OLD_HAND_LIGHT",
+        "name": "OLD_HAND_LIGHT"
+      },
+      {
+        "ordinal": 8,
+        "field": "OLD_LIGHTING",
+        "name": "OLD_LIGHTING"
+      },
+      {
+        "ordinal": 9,
+        "field": "SHADER_PACK",
+        "name": "SHADER_PACK"
+      },
+      {
+        "ordinal": 10,
+        "field": "TWEAK_BLOCK_DAMAGE",
+        "name": "TWEAK_BLOCK_DAMAGE"
+      },
+      {
+        "ordinal": 11,
+        "field": "SHADOW_CLIP_FRUSTRUM",
+        "name": "SHADOW_CLIP_FRUSTRUM"
+      },
+      {
+        "ordinal": 12,
+        "field": "TEX_MIN_FIL_B",
+        "name": "TEX_MIN_FIL_B"
+      },
+      {
+        "ordinal": 13,
+        "field": "TEX_MIN_FIL_N",
+        "name": "TEX_MIN_FIL_N"
+      },
+      {
+        "ordinal": 14,
+        "field": "TEX_MIN_FIL_S",
+        "name": "TEX_MIN_FIL_S"
+      },
+      {
+        "ordinal": 15,
+        "field": "TEX_MAG_FIL_B",
+        "name": "TEX_MAG_FIL_B"
+      },
+      {
+        "ordinal": 16,
+        "field": "TEX_MAG_FIL_N",
+        "name": "TEX_MAG_FIL_N"
+      },
+      {
+        "ordinal": 17,
+        "field": "TEX_MAG_FIL_S",
+        "name": "TEX_MAG_FIL_S"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/play/client/C0BPacketEntityAction$Action",
+    "source": "src/main/java/net/minecraft/network/play/client/C0BPacketEntityAction.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "START_SNEAKING",
+        "name": "START_SNEAKING"
+      },
+      {
+        "ordinal": 1,
+        "field": "STOP_SNEAKING",
+        "name": "STOP_SNEAKING"
+      },
+      {
+        "ordinal": 2,
+        "field": "STOP_SLEEPING",
+        "name": "STOP_SLEEPING"
+      },
+      {
+        "ordinal": 3,
+        "field": "START_SPRINTING",
+        "name": "START_SPRINTING"
+      },
+      {
+        "ordinal": 4,
+        "field": "STOP_SPRINTING",
+        "name": "STOP_SPRINTING"
+      },
+      {
+        "ordinal": 5,
+        "field": "RIDING_JUMP",
+        "name": "RIDING_JUMP"
+      },
+      {
+        "ordinal": 6,
+        "field": "OPEN_INVENTORY",
+        "name": "OPEN_INVENTORY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/expr/TokenType",
+    "source": "src/main/java/net/optifine/expr/TokenType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "IDENTIFIER",
+        "name": "IDENTIFIER"
+      },
+      {
+        "ordinal": 1,
+        "field": "NUMBER",
+        "name": "NUMBER"
+      },
+      {
+        "ordinal": 2,
+        "field": "OPERATOR",
+        "name": "OPERATOR"
+      },
+      {
+        "ordinal": 3,
+        "field": "COMMA",
+        "name": "COMMA"
+      },
+      {
+        "ordinal": 4,
+        "field": "BRACKET_OPEN",
+        "name": "BRACKET_OPEN"
+      },
+      {
+        "ordinal": 5,
+        "field": "BRACKET_CLOSE",
+        "name": "BRACKET_CLOSE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/spdy/SpdyOrHttpChooser$SelectedProtocol",
+    "source": "src/main/java/io/netty/handler/codec/spdy/SpdyOrHttpChooser.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SPDY_3_1",
+        "name": "SPDY_3_1"
+      },
+      {
+        "ordinal": 1,
+        "field": "HTTP_1_1",
+        "name": "HTTP_1_1"
+      },
+      {
+        "ordinal": 2,
+        "field": "HTTP_1_0",
+        "name": "HTTP_1_0"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/jagrosh/discordipc/entities/DiscordBuild",
+    "source": "src/main/java/com/jagrosh/discordipc/entities/DiscordBuild.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CANARY",
+        "name": "CANARY"
+      },
+      {
+        "ordinal": 1,
+        "field": "PTB",
+        "name": "PTB"
+      },
+      {
+        "ordinal": 2,
+        "field": "STABLE",
+        "name": "STABLE"
+      },
+      {
+        "ordinal": 3,
+        "field": "ANY",
+        "name": "ANY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/shaders/uniform/ShaderParameterFloat",
+    "source": "src/main/java/net/optifine/shaders/uniform/ShaderParameterFloat.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "BIOME",
+        "name": "BIOME"
+      },
+      {
+        "ordinal": 1,
+        "field": "TEMPERATURE",
+        "name": "TEMPERATURE"
+      },
+      {
+        "ordinal": 2,
+        "field": "RAINFALL",
+        "name": "RAINFALL"
+      },
+      {
+        "ordinal": 3,
+        "field": "HELD_ITEM_ID",
+        "name": "HELD_ITEM_ID"
+      },
+      {
+        "ordinal": 4,
+        "field": "HELD_BLOCK_LIGHT_VALUE",
+        "name": "HELD_BLOCK_LIGHT_VALUE"
+      },
+      {
+        "ordinal": 5,
+        "field": "HELD_ITEM_ID2",
+        "name": "HELD_ITEM_ID2"
+      },
+      {
+        "ordinal": 6,
+        "field": "HELD_BLOCK_LIGHT_VALUE2",
+        "name": "HELD_BLOCK_LIGHT_VALUE2"
+      },
+      {
+        "ordinal": 7,
+        "field": "WORLD_TIME",
+        "name": "WORLD_TIME"
+      },
+      {
+        "ordinal": 8,
+        "field": "WORLD_DAY",
+        "name": "WORLD_DAY"
+      },
+      {
+        "ordinal": 9,
+        "field": "MOON_PHASE",
+        "name": "MOON_PHASE"
+      },
+      {
+        "ordinal": 10,
+        "field": "FRAME_COUNTER",
+        "name": "FRAME_COUNTER"
+      },
+      {
+        "ordinal": 11,
+        "field": "FRAME_TIME",
+        "name": "FRAME_TIME"
+      },
+      {
+        "ordinal": 12,
+        "field": "FRAME_TIME_COUNTER",
+        "name": "FRAME_TIME_COUNTER"
+      },
+      {
+        "ordinal": 13,
+        "field": "SUN_ANGLE",
+        "name": "SUN_ANGLE"
+      },
+      {
+        "ordinal": 14,
+        "field": "SHADOW_ANGLE",
+        "name": "SHADOW_ANGLE"
+      },
+      {
+        "ordinal": 15,
+        "field": "RAIN_STRENGTH",
+        "name": "RAIN_STRENGTH"
+      },
+      {
+        "ordinal": 16,
+        "field": "ASPECT_RATIO",
+        "name": "ASPECT_RATIO"
+      },
+      {
+        "ordinal": 17,
+        "field": "VIEW_WIDTH",
+        "name": "VIEW_WIDTH"
+      },
+      {
+        "ordinal": 18,
+        "field": "VIEW_HEIGHT",
+        "name": "VIEW_HEIGHT"
+      },
+      {
+        "ordinal": 19,
+        "field": "NEAR",
+        "name": "NEAR"
+      },
+      {
+        "ordinal": 20,
+        "field": "FAR",
+        "name": "FAR"
+      },
+      {
+        "ordinal": 21,
+        "field": "WETNESS",
+        "name": "WETNESS"
+      },
+      {
+        "ordinal": 22,
+        "field": "EYE_ALTITUDE",
+        "name": "EYE_ALTITUDE"
+      },
+      {
+        "ordinal": 23,
+        "field": "EYE_BRIGHTNESS",
+        "name": "EYE_BRIGHTNESS"
+      },
+      {
+        "ordinal": 24,
+        "field": "TERRAIN_TEXTURE_SIZE",
+        "name": "TERRAIN_TEXTURE_SIZE"
+      },
+      {
+        "ordinal": 25,
+        "field": "TERRRAIN_ICON_SIZE",
+        "name": "TERRRAIN_ICON_SIZE"
+      },
+      {
+        "ordinal": 26,
+        "field": "IS_EYE_IN_WATER",
+        "name": "IS_EYE_IN_WATER"
+      },
+      {
+        "ordinal": 27,
+        "field": "NIGHT_VISION",
+        "name": "NIGHT_VISION"
+      },
+      {
+        "ordinal": 28,
+        "field": "BLINDNESS",
+        "name": "BLINDNESS"
+      },
+      {
+        "ordinal": 29,
+        "field": "SCREEN_BRIGHTNESS",
+        "name": "SCREEN_BRIGHTNESS"
+      },
+      {
+        "ordinal": 30,
+        "field": "HIDE_GUI",
+        "name": "HIDE_GUI"
+      },
+      {
+        "ordinal": 31,
+        "field": "CENTER_DEPT_SMOOTH",
+        "name": "CENTER_DEPT_SMOOTH"
+      },
+      {
+        "ordinal": 32,
+        "field": "ATLAS_SIZE",
+        "name": "ATLAS_SIZE"
+      },
+      {
+        "ordinal": 33,
+        "field": "CAMERA_POSITION",
+        "name": "CAMERA_POSITION"
+      },
+      {
+        "ordinal": 34,
+        "field": "PREVIOUS_CAMERA_POSITION",
+        "name": "PREVIOUS_CAMERA_POSITION"
+      },
+      {
+        "ordinal": 35,
+        "field": "SUN_POSITION",
+        "name": "SUN_POSITION"
+      },
+      {
+        "ordinal": 36,
+        "field": "MOON_POSITION",
+        "name": "MOON_POSITION"
+      },
+      {
+        "ordinal": 37,
+        "field": "SHADOW_LIGHT_POSITION",
+        "name": "SHADOW_LIGHT_POSITION"
+      },
+      {
+        "ordinal": 38,
+        "field": "UP_POSITION",
+        "name": "UP_POSITION"
+      },
+      {
+        "ordinal": 39,
+        "field": "SKY_COLOR",
+        "name": "SKY_COLOR"
+      },
+      {
+        "ordinal": 40,
+        "field": "GBUFFER_PROJECTION",
+        "name": "GBUFFER_PROJECTION"
+      },
+      {
+        "ordinal": 41,
+        "field": "GBUFFER_PROJECTION_INVERSE",
+        "name": "GBUFFER_PROJECTION_INVERSE"
+      },
+      {
+        "ordinal": 42,
+        "field": "GBUFFER_PREVIOUS_PROJECTION",
+        "name": "GBUFFER_PREVIOUS_PROJECTION"
+      },
+      {
+        "ordinal": 43,
+        "field": "GBUFFER_MODEL_VIEW",
+        "name": "GBUFFER_MODEL_VIEW"
+      },
+      {
+        "ordinal": 44,
+        "field": "GBUFFER_MODEL_VIEW_INVERSE",
+        "name": "GBUFFER_MODEL_VIEW_INVERSE"
+      },
+      {
+        "ordinal": 45,
+        "field": "GBUFFER_PREVIOUS_MODEL_VIEW",
+        "name": "GBUFFER_PREVIOUS_MODEL_VIEW"
+      },
+      {
+        "ordinal": 46,
+        "field": "SHADOW_PROJECTION",
+        "name": "SHADOW_PROJECTION"
+      },
+      {
+        "ordinal": 47,
+        "field": "SHADOW_PROJECTION_INVERSE",
+        "name": "SHADOW_PROJECTION_INVERSE"
+      },
+      {
+        "ordinal": 48,
+        "field": "SHADOW_MODEL_VIEW",
+        "name": "SHADOW_MODEL_VIEW"
+      },
+      {
+        "ordinal": 49,
+        "field": "SHADOW_MODEL_VIEW_INVERSE",
+        "name": "SHADOW_MODEL_VIEW_INVERSE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockFlower$EnumFlowerType",
+    "source": "src/main/java/net/minecraft/block/BlockFlower.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DANDELION",
+        "name": "DANDELION"
+      },
+      {
+        "ordinal": 1,
+        "field": "POPPY",
+        "name": "POPPY"
+      },
+      {
+        "ordinal": 2,
+        "field": "BLUE_ORCHID",
+        "name": "BLUE_ORCHID"
+      },
+      {
+        "ordinal": 3,
+        "field": "ALLIUM",
+        "name": "ALLIUM"
+      },
+      {
+        "ordinal": 4,
+        "field": "HOUSTONIA",
+        "name": "HOUSTONIA"
+      },
+      {
+        "ordinal": 5,
+        "field": "RED_TULIP",
+        "name": "RED_TULIP"
+      },
+      {
+        "ordinal": 6,
+        "field": "ORANGE_TULIP",
+        "name": "ORANGE_TULIP"
+      },
+      {
+        "ordinal": 7,
+        "field": "WHITE_TULIP",
+        "name": "WHITE_TULIP"
+      },
+      {
+        "ordinal": 8,
+        "field": "PINK_TULIP",
+        "name": "PINK_TULIP"
+      },
+      {
+        "ordinal": 9,
+        "field": "OXEYE_DAISY",
+        "name": "OXEYE_DAISY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/gui/GuiLockIconButton$Icon",
+    "source": "src/main/java/net/minecraft/client/gui/GuiLockIconButton.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "LOCKED",
+        "name": "LOCKED"
+      },
+      {
+        "ordinal": 1,
+        "field": "LOCKED_HOVER",
+        "name": "LOCKED_HOVER"
+      },
+      {
+        "ordinal": 2,
+        "field": "LOCKED_DISABLED",
+        "name": "LOCKED_DISABLED"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNLOCKED",
+        "name": "UNLOCKED"
+      },
+      {
+        "ordinal": 4,
+        "field": "UNLOCKED_HOVER",
+        "name": "UNLOCKED_HOVER"
+      },
+      {
+        "ordinal": 5,
+        "field": "UNLOCKED_DISABLED",
+        "name": "UNLOCKED_DISABLED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockSilverfish$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockSilverfish.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "STONE",
+        "name": "STONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "COBBLESTONE",
+        "name": "COBBLESTONE"
+      },
+      {
+        "ordinal": 2,
+        "field": "STONEBRICK",
+        "name": "STONEBRICK"
+      },
+      {
+        "ordinal": 3,
+        "field": "MOSSY_STONEBRICK",
+        "name": "MOSSY_STONEBRICK"
+      },
+      {
+        "ordinal": 4,
+        "field": "CRACKED_STONEBRICK",
+        "name": "CRACKED_STONEBRICK"
+      },
+      {
+        "ordinal": 5,
+        "field": "CHISELED_STONEBRICK",
+        "name": "CHISELED_STONEBRICK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/util/EnumFacing$Axis",
+    "source": "src/main/java/net/minecraft/util/EnumFacing.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "X",
+        "name": "X"
+      },
+      {
+        "ordinal": 1,
+        "field": "Y",
+        "name": "Y"
+      },
+      {
+        "ordinal": 2,
+        "field": "Z",
+        "name": "Z"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStone$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockStone.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "STONE",
+        "name": "STONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "GRANITE",
+        "name": "GRANITE"
+      },
+      {
+        "ordinal": 2,
+        "field": "GRANITE_SMOOTH",
+        "name": "GRANITE_SMOOTH"
+      },
+      {
+        "ordinal": 3,
+        "field": "DIORITE",
+        "name": "DIORITE"
+      },
+      {
+        "ordinal": 4,
+        "field": "DIORITE_SMOOTH",
+        "name": "DIORITE_SMOOTH"
+      },
+      {
+        "ordinal": 5,
+        "field": "ANDESITE",
+        "name": "ANDESITE"
+      },
+      {
+        "ordinal": 6,
+        "field": "ANDESITE_SMOOTH",
+        "name": "ANDESITE_SMOOTH"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksInitResponseDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksInitResponseDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CHECK_PROTOCOL_VERSION",
+        "name": "CHECK_PROTOCOL_VERSION"
+      },
+      {
+        "ordinal": 1,
+        "field": "READ_PREFFERED_AUTH_TYPE",
+        "name": "READ_PREFFERED_AUTH_TYPE"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/block/BlockPrismarine$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockPrismarine.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ROUGH",
+        "name": "ROUGH"
+      },
+      {
+        "ordinal": 1,
+        "field": "BRICKS",
+        "name": "BRICKS"
+      },
+      {
+        "ordinal": 2,
+        "field": "DARK",
+        "name": "DARK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/entity/model/anim/ModelVariableType",
+    "source": "src/main/java/net/optifine/entity/model/anim/ModelVariableType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "POS_X",
+        "name": "POS_X"
+      },
+      {
+        "ordinal": 1,
+        "field": "POS_Y",
+        "name": "POS_Y"
+      },
+      {
+        "ordinal": 2,
+        "field": "POS_Z",
+        "name": "POS_Z"
+      },
+      {
+        "ordinal": 3,
+        "field": "ANGLE_X",
+        "name": "ANGLE_X"
+      },
+      {
+        "ordinal": 4,
+        "field": "ANGLE_Y",
+        "name": "ANGLE_Y"
+      },
+      {
+        "ordinal": 5,
+        "field": "ANGLE_Z",
+        "name": "ANGLE_Z"
+      },
+      {
+        "ordinal": 6,
+        "field": "OFFSET_X",
+        "name": "OFFSET_X"
+      },
+      {
+        "ordinal": 7,
+        "field": "OFFSET_Y",
+        "name": "OFFSET_Y"
+      },
+      {
+        "ordinal": 8,
+        "field": "OFFSET_Z",
+        "name": "OFFSET_Z"
+      },
+      {
+        "ordinal": 9,
+        "field": "SCALE_X",
+        "name": "SCALE_X"
+      },
+      {
+        "ordinal": 10,
+        "field": "SCALE_Y",
+        "name": "SCALE_Y"
+      },
+      {
+        "ordinal": 11,
+        "field": "SCALE_Z",
+        "name": "SCALE_Z"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/server/network/NetHandlerLoginServer$LoginState",
+    "source": "src/main/java/net/minecraft/server/network/NetHandlerLoginServer.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "HELLO",
+        "name": "HELLO"
+      },
+      {
+        "ordinal": 1,
+        "field": "KEY",
+        "name": "KEY"
+      },
+      {
+        "ordinal": 2,
+        "field": "AUTHENTICATING",
+        "name": "AUTHENTICATING"
+      },
+      {
+        "ordinal": 3,
+        "field": "READY_TO_ACCEPT",
+        "name": "READY_TO_ACCEPT"
+      },
+      {
+        "ordinal": 4,
+        "field": "DELAY_ACCEPT",
+        "name": "DELAY_ACCEPT"
+      },
+      {
+        "ordinal": 5,
+        "field": "ACCEPTED",
+        "name": "ACCEPTED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockDirt$DirtType",
+    "source": "src/main/java/net/minecraft/block/BlockDirt.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DIRT",
+        "name": "DIRT"
+      },
+      {
+        "ordinal": 1,
+        "field": "COARSE_DIRT",
+        "name": "COARSE_DIRT"
+      },
+      {
+        "ordinal": 2,
+        "field": "PODZOL",
+        "name": "PODZOL"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedEnum4019",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedEnum4019.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "TOP",
+        "name": "TOP"
+      },
+      {
+        "ordinal": 1,
+        "field": "LEFT",
+        "name": "LEFT"
+      },
+      {
+        "ordinal": 2,
+        "field": "BOTTOM",
+        "name": "BOTTOM"
+      },
+      {
+        "ordinal": 3,
+        "field": "RIGHT",
+        "name": "RIGHT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStoneBrick$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockStoneBrick.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DEFAULT",
+        "name": "DEFAULT"
+      },
+      {
+        "ordinal": 1,
+        "field": "MOSSY",
+        "name": "MOSSY"
+      },
+      {
+        "ordinal": 2,
+        "field": "CRACKED",
+        "name": "CRACKED"
+      },
+      {
+        "ordinal": 3,
+        "field": "CHISELED",
+        "name": "CHISELED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/spdy/SpdyVersion",
+    "source": "src/main/java/io/netty/handler/codec/spdy/SpdyVersion.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SPDY_3_1",
+        "name": "SPDY_3_1"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/block/BlockHugeMushroom$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockHugeMushroom.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NORTH_WEST",
+        "name": "NORTH_WEST"
+      },
+      {
+        "ordinal": 1,
+        "field": "NORTH",
+        "name": "NORTH"
+      },
+      {
+        "ordinal": 2,
+        "field": "NORTH_EAST",
+        "name": "NORTH_EAST"
+      },
+      {
+        "ordinal": 3,
+        "field": "WEST",
+        "name": "WEST"
+      },
+      {
+        "ordinal": 4,
+        "field": "CENTER",
+        "name": "CENTER"
+      },
+      {
+        "ordinal": 5,
+        "field": "EAST",
+        "name": "EAST"
+      },
+      {
+        "ordinal": 6,
+        "field": "SOUTH_WEST",
+        "name": "SOUTH_WEST"
+      },
+      {
+        "ordinal": 7,
+        "field": "SOUTH",
+        "name": "SOUTH"
+      },
+      {
+        "ordinal": 8,
+        "field": "SOUTH_EAST",
+        "name": "SOUTH_EAST"
+      },
+      {
+        "ordinal": 9,
+        "field": "STEM",
+        "name": "STEM"
+      },
+      {
+        "ordinal": 10,
+        "field": "ALL_INSIDE",
+        "name": "ALL_INSIDE"
+      },
+      {
+        "ordinal": 11,
+        "field": "ALL_OUTSIDE",
+        "name": "ALL_OUTSIDE"
+      },
+      {
+        "ordinal": 12,
+        "field": "ALL_STEM",
+        "name": "ALL_STEM"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/audio/SoundCategory",
+    "source": "src/main/java/net/minecraft/client/audio/SoundCategory.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "MASTER",
+        "name": "MASTER"
+      },
+      {
+        "ordinal": 1,
+        "field": "MUSIC",
+        "name": "MUSIC"
+      },
+      {
+        "ordinal": 2,
+        "field": "RECORDS",
+        "name": "RECORDS"
+      },
+      {
+        "ordinal": 3,
+        "field": "WEATHER",
+        "name": "WEATHER"
+      },
+      {
+        "ordinal": 4,
+        "field": "BLOCKS",
+        "name": "BLOCKS"
+      },
+      {
+        "ordinal": 5,
+        "field": "MOBS",
+        "name": "MOBS"
+      },
+      {
+        "ordinal": 6,
+        "field": "ANIMALS",
+        "name": "ANIMALS"
+      },
+      {
+        "ordinal": 7,
+        "field": "PLAYERS",
+        "name": "PLAYERS"
+      },
+      {
+        "ordinal": 8,
+        "field": "AMBIENT",
+        "name": "AMBIENT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "org/slf4j/event/Level",
+    "source": "src/main/java/org/slf4j/event/Level.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ERROR",
+        "name": "ERROR"
+      },
+      {
+        "ordinal": 1,
+        "field": "WARN",
+        "name": "WARN"
+      },
+      {
+        "ordinal": 2,
+        "field": "INFO",
+        "name": "INFO"
+      },
+      {
+        "ordinal": 3,
+        "field": "DEBUG",
+        "name": "DEBUG"
+      },
+      {
+        "ordinal": 4,
+        "field": "TRACE",
+        "name": "TRACE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/util/EnumFacing",
+    "source": "src/main/java/net/minecraft/util/EnumFacing.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DOWN",
+        "name": "DOWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 2,
+        "field": "NORTH",
+        "name": "NORTH"
+      },
+      {
+        "ordinal": 3,
+        "field": "SOUTH",
+        "name": "SOUTH"
+      },
+      {
+        "ordinal": 4,
+        "field": "WEST",
+        "name": "WEST"
+      },
+      {
+        "ordinal": 5,
+        "field": "EAST",
+        "name": "EAST"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksAuthResponseDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksAuthResponseDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CHECK_PROTOCOL_VERSION",
+        "name": "CHECK_PROTOCOL_VERSION"
+      },
+      {
+        "ordinal": 1,
+        "field": "READ_AUTH_RESPONSE",
+        "name": "READ_AUTH_RESPONSE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "org/scijava/nativelib/NativeLibraryUtil$Architecture",
+    "source": "src/main/java/org/scijava/nativelib/NativeLibraryUtil.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "LINUX_32",
+        "name": "LINUX_32"
+      },
+      {
+        "ordinal": 2,
+        "field": "LINUX_64",
+        "name": "LINUX_64"
+      },
+      {
+        "ordinal": 3,
+        "field": "WINDOWS_32",
+        "name": "WINDOWS_32"
+      },
+      {
+        "ordinal": 4,
+        "field": "WINDOWS_64",
+        "name": "WINDOWS_64"
+      },
+      {
+        "ordinal": 5,
+        "field": "OSX_32",
+        "name": "OSX_32"
+      },
+      {
+        "ordinal": 6,
+        "field": "OSX_64",
+        "name": "OSX_64"
+      },
+      {
+        "ordinal": 7,
+        "field": "OSX_PPC",
+        "name": "OSX_PPC"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksResponseType",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksResponseType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "INIT",
+        "name": "INIT"
+      },
+      {
+        "ordinal": 1,
+        "field": "AUTH",
+        "name": "AUTH"
+      },
+      {
+        "ordinal": 2,
+        "field": "CMD",
+        "name": "CMD"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/scoreboard/IScoreObjectiveCriteria$EnumRenderType",
+    "source": "src/main/java/net/minecraft/scoreboard/IScoreObjectiveCriteria.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "INTEGER",
+        "name": "INTEGER"
+      },
+      {
+        "ordinal": 1,
+        "field": "HEARTS",
+        "name": "HEARTS"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/stream/ChatController$ChatState",
+    "source": "src/main/java/net/minecraft/client/stream/ChatController.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "Uninitialized",
+        "name": "Uninitialized"
+      },
+      {
+        "ordinal": 1,
+        "field": "Initializing",
+        "name": "Initializing"
+      },
+      {
+        "ordinal": 2,
+        "field": "Initialized",
+        "name": "Initialized"
+      },
+      {
+        "ordinal": 3,
+        "field": "ShuttingDown",
+        "name": "ShuttingDown"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/entity/item/EntityPainting$EnumArt",
+    "source": "src/main/java/net/minecraft/entity/item/EntityPainting.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "KEBAB",
+        "name": "KEBAB"
+      },
+      {
+        "ordinal": 1,
+        "field": "AZTEC",
+        "name": "AZTEC"
+      },
+      {
+        "ordinal": 2,
+        "field": "ALBAN",
+        "name": "ALBAN"
+      },
+      {
+        "ordinal": 3,
+        "field": "AZTEC_2",
+        "name": "AZTEC_2"
+      },
+      {
+        "ordinal": 4,
+        "field": "BOMB",
+        "name": "BOMB"
+      },
+      {
+        "ordinal": 5,
+        "field": "PLANT",
+        "name": "PLANT"
+      },
+      {
+        "ordinal": 6,
+        "field": "WASTELAND",
+        "name": "WASTELAND"
+      },
+      {
+        "ordinal": 7,
+        "field": "POOL",
+        "name": "POOL"
+      },
+      {
+        "ordinal": 8,
+        "field": "COURBET",
+        "name": "COURBET"
+      },
+      {
+        "ordinal": 9,
+        "field": "SEA",
+        "name": "SEA"
+      },
+      {
+        "ordinal": 10,
+        "field": "SUNSET",
+        "name": "SUNSET"
+      },
+      {
+        "ordinal": 11,
+        "field": "CREEBET",
+        "name": "CREEBET"
+      },
+      {
+        "ordinal": 12,
+        "field": "WANDERER",
+        "name": "WANDERER"
+      },
+      {
+        "ordinal": 13,
+        "field": "GRAHAM",
+        "name": "GRAHAM"
+      },
+      {
+        "ordinal": 14,
+        "field": "MATCH",
+        "name": "MATCH"
+      },
+      {
+        "ordinal": 15,
+        "field": "BUST",
+        "name": "BUST"
+      },
+      {
+        "ordinal": 16,
+        "field": "STAGE",
+        "name": "STAGE"
+      },
+      {
+        "ordinal": 17,
+        "field": "VOID",
+        "name": "VOID"
+      },
+      {
+        "ordinal": 18,
+        "field": "SKULL_AND_ROSES",
+        "name": "SKULL_AND_ROSES"
+      },
+      {
+        "ordinal": 19,
+        "field": "WITHER",
+        "name": "WITHER"
+      },
+      {
+        "ordinal": 20,
+        "field": "FIGHTERS",
+        "name": "FIGHTERS"
+      },
+      {
+        "ordinal": 21,
+        "field": "POINTER",
+        "name": "POINTER"
+      },
+      {
+        "ordinal": 22,
+        "field": "PIGSCENE",
+        "name": "PIGSCENE"
+      },
+      {
+        "ordinal": 23,
+        "field": "BURNING_SKULL",
+        "name": "BURNING_SKULL"
+      },
+      {
+        "ordinal": 24,
+        "field": "SKELETON",
+        "name": "SKELETON"
+      },
+      {
+        "ordinal": 25,
+        "field": "DONKEY_KONG",
+        "name": "DONKEY_KONG"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/item/EnumDyeColor",
+    "source": "src/main/java/net/minecraft/item/EnumDyeColor.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "WHITE",
+        "name": "WHITE"
+      },
+      {
+        "ordinal": 1,
+        "field": "ORANGE",
+        "name": "ORANGE"
+      },
+      {
+        "ordinal": 2,
+        "field": "MAGENTA",
+        "name": "MAGENTA"
+      },
+      {
+        "ordinal": 3,
+        "field": "LIGHT_BLUE",
+        "name": "LIGHT_BLUE"
+      },
+      {
+        "ordinal": 4,
+        "field": "YELLOW",
+        "name": "YELLOW"
+      },
+      {
+        "ordinal": 5,
+        "field": "LIME",
+        "name": "LIME"
+      },
+      {
+        "ordinal": 6,
+        "field": "PINK",
+        "name": "PINK"
+      },
+      {
+        "ordinal": 7,
+        "field": "GRAY",
+        "name": "GRAY"
+      },
+      {
+        "ordinal": 8,
+        "field": "SILVER",
+        "name": "SILVER"
+      },
+      {
+        "ordinal": 9,
+        "field": "CYAN",
+        "name": "CYAN"
+      },
+      {
+        "ordinal": 10,
+        "field": "PURPLE",
+        "name": "PURPLE"
+      },
+      {
+        "ordinal": 11,
+        "field": "BLUE",
+        "name": "BLUE"
+      },
+      {
+        "ordinal": 12,
+        "field": "BROWN",
+        "name": "BROWN"
+      },
+      {
+        "ordinal": 13,
+        "field": "GREEN",
+        "name": "GREEN"
+      },
+      {
+        "ordinal": 14,
+        "field": "RED",
+        "name": "RED"
+      },
+      {
+        "ordinal": 15,
+        "field": "BLACK",
+        "name": "BLACK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/world/EnumDifficulty",
+    "source": "src/main/java/net/minecraft/world/EnumDifficulty.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "PEACEFUL",
+        "name": "PEACEFUL"
+      },
+      {
+        "ordinal": 1,
+        "field": "EASY",
+        "name": "EASY"
+      },
+      {
+        "ordinal": 2,
+        "field": "NORMAL",
+        "name": "NORMAL"
+      },
+      {
+        "ordinal": 3,
+        "field": "HARD",
+        "name": "HARD"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/util/Util$EnumOS",
+    "source": "src/main/java/net/minecraft/util/Util.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "LINUX",
+        "name": "LINUX"
+      },
+      {
+        "ordinal": 1,
+        "field": "SOLARIS",
+        "name": "SOLARIS"
+      },
+      {
+        "ordinal": 2,
+        "field": "WINDOWS",
+        "name": "WINDOWS"
+      },
+      {
+        "ordinal": 3,
+        "field": "OSX",
+        "name": "OSX"
+      },
+      {
+        "ordinal": 4,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/shaders/uniform/UniformType",
+    "source": "src/main/java/net/optifine/shaders/uniform/UniformType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "BOOL",
+        "name": "BOOL"
+      },
+      {
+        "ordinal": 1,
+        "field": "INT",
+        "name": "INT"
+      },
+      {
+        "ordinal": 2,
+        "field": "FLOAT",
+        "name": "FLOAT"
+      },
+      {
+        "ordinal": 3,
+        "field": "VEC2",
+        "name": "VEC2"
+      },
+      {
+        "ordinal": 4,
+        "field": "VEC3",
+        "name": "VEC3"
+      },
+      {
+        "ordinal": 5,
+        "field": "VEC4",
+        "name": "VEC4"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/util/server/ServerRestrictionAction",
+    "source": "src/main/java/com/cheatbreaker/client/util/server/ServerRestrictionAction.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "WARN",
+        "name": "WARN"
+      },
+      {
+        "ordinal": 1,
+        "field": "WARN_STATUS",
+        "name": "WARN_STATUS"
+      },
+      {
+        "ordinal": 2,
+        "field": "BLOCK",
+        "name": "BLOCK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/util/title/Title$TitleType",
+    "source": "src/main/java/com/cheatbreaker/client/util/title/Title.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "TITLE",
+        "name": "TITLE"
+      },
+      {
+        "ordinal": 1,
+        "field": "SUBTITLE",
+        "name": "SUBTITLE"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "org/java_websocket/enums/CloseHandshakeType",
+    "source": "src/main/java/org/java_websocket/enums/CloseHandshakeType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NONE",
+        "name": "NONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "ONEWAY",
+        "name": "ONEWAY"
+      },
+      {
+        "ordinal": 2,
+        "field": "TWOWAY",
+        "name": "TWOWAY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/play/server/S38PacketPlayerListItem$Action",
+    "source": "src/main/java/net/minecraft/network/play/server/S38PacketPlayerListItem.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ADD_PLAYER",
+        "name": "ADD_PLAYER"
+      },
+      {
+        "ordinal": 1,
+        "field": "UPDATE_GAME_MODE",
+        "name": "UPDATE_GAME_MODE"
+      },
+      {
+        "ordinal": 2,
+        "field": "UPDATE_LATENCY",
+        "name": "UPDATE_LATENCY"
+      },
+      {
+        "ordinal": 3,
+        "field": "UPDATE_DISPLAY_NAME",
+        "name": "UPDATE_DISPLAY_NAME"
+      },
+      {
+        "ordinal": 4,
+        "field": "REMOVE_PLAYER",
+        "name": "REMOVE_PLAYER"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/util/friend/Status",
+    "source": "src/main/java/com/cheatbreaker/client/util/friend/Status.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ONLINE",
+        "name": "ONLINE"
+      },
+      {
+        "ordinal": 1,
+        "field": "AWAY",
+        "name": "AWAY"
+      },
+      {
+        "ordinal": 2,
+        "field": "BUSY",
+        "name": "BUSY"
+      },
+      {
+        "ordinal": 3,
+        "field": "HIDDEN",
+        "name": "OFFLINE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/EnumPacketDirection",
+    "source": "src/main/java/net/minecraft/network/EnumPacketDirection.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SERVERBOUND",
+        "name": "SERVERBOUND"
+      },
+      {
+        "ordinal": 1,
+        "field": "CLIENTBOUND",
+        "name": "CLIENTBOUND"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "io/netty/handler/codec/compression/JdkZlibDecoder$GzipState",
+    "source": "src/main/java/io/netty/handler/codec/compression/JdkZlibDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "HEADER_START",
+        "name": "HEADER_START"
+      },
+      {
+        "ordinal": 1,
+        "field": "HEADER_END",
+        "name": "HEADER_END"
+      },
+      {
+        "ordinal": 2,
+        "field": "FLG_READ",
+        "name": "FLG_READ"
+      },
+      {
+        "ordinal": 3,
+        "field": "XLEN_READ",
+        "name": "XLEN_READ"
+      },
+      {
+        "ordinal": 4,
+        "field": "SKIP_FNAME",
+        "name": "SKIP_FNAME"
+      },
+      {
+        "ordinal": 5,
+        "field": "SKIP_COMMENT",
+        "name": "SKIP_COMMENT"
+      },
+      {
+        "ordinal": 6,
+        "field": "PROCESS_FHCRC",
+        "name": "PROCESS_FHCRC"
+      },
+      {
+        "ordinal": 7,
+        "field": "FOOTER_START",
+        "name": "FOOTER_START"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "org/java_websocket/enums/Opcode",
+    "source": "src/main/java/org/java_websocket/enums/Opcode.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CONTINUOUS",
+        "name": "CONTINUOUS"
+      },
+      {
+        "ordinal": 1,
+        "field": "TEXT",
+        "name": "TEXT"
+      },
+      {
+        "ordinal": 2,
+        "field": "BINARY",
+        "name": "BINARY"
+      },
+      {
+        "ordinal": 3,
+        "field": "PING",
+        "name": "PING"
+      },
+      {
+        "ordinal": 4,
+        "field": "PONG",
+        "name": "PONG"
+      },
+      {
+        "ordinal": 5,
+        "field": "CLOSING",
+        "name": "CLOSING"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/spdy/SpdyHeaderBlockRawDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/spdy/SpdyHeaderBlockRawDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "READ_NUM_HEADERS",
+        "name": "READ_NUM_HEADERS"
+      },
+      {
+        "ordinal": 1,
+        "field": "READ_NAME_LENGTH",
+        "name": "READ_NAME_LENGTH"
+      },
+      {
+        "ordinal": 2,
+        "field": "READ_NAME",
+        "name": "READ_NAME"
+      },
+      {
+        "ordinal": 3,
+        "field": "SKIP_NAME",
+        "name": "SKIP_NAME"
+      },
+      {
+        "ordinal": 4,
+        "field": "READ_VALUE_LENGTH",
+        "name": "READ_VALUE_LENGTH"
+      },
+      {
+        "ordinal": 5,
+        "field": "READ_VALUE",
+        "name": "READ_VALUE"
+      },
+      {
+        "ordinal": 6,
+        "field": "SKIP_VALUE",
+        "name": "SKIP_VALUE"
+      },
+      {
+        "ordinal": 7,
+        "field": "END_HEADER_BLOCK",
+        "name": "END_HEADER_BLOCK"
+      },
+      {
+        "ordinal": 8,
+        "field": "ERROR",
+        "name": "ERROR"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/entity/item/EntityMinecart$EnumMinecartType",
+    "source": "src/main/java/net/minecraft/entity/item/EntityMinecart.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "RIDEABLE",
+        "name": "RIDEABLE"
+      },
+      {
+        "ordinal": 1,
+        "field": "CHEST",
+        "name": "CHEST"
+      },
+      {
+        "ordinal": 2,
+        "field": "FURNACE",
+        "name": "FURNACE"
+      },
+      {
+        "ordinal": 3,
+        "field": "TNT",
+        "name": "TNT"
+      },
+      {
+        "ordinal": 4,
+        "field": "SPAWNER",
+        "name": "SPAWNER"
+      },
+      {
+        "ordinal": 5,
+        "field": "HOPPER",
+        "name": "HOPPER"
+      },
+      {
+        "ordinal": 6,
+        "field": "COMMAND_BLOCK",
+        "name": "COMMAND_BLOCK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/entity/EnumCreatureType",
+    "source": "src/main/java/net/minecraft/entity/EnumCreatureType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "MONSTER",
+        "name": "MONSTER"
+      },
+      {
+        "ordinal": 1,
+        "field": "CREATURE",
+        "name": "CREATURE"
+      },
+      {
+        "ordinal": 2,
+        "field": "AMBIENT",
+        "name": "AMBIENT"
+      },
+      {
+        "ordinal": 3,
+        "field": "WATER_CREATURE",
+        "name": "WATER_CREATURE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStoneSlabNew$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockStoneSlabNew.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "RED_SANDSTONE",
+        "name": "RED_SANDSTONE"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "io/netty/channel/rxtx/RxtxChannelConfig$Paritybit",
+    "source": "src/main/java/io/netty/channel/rxtx/RxtxChannelConfig.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NONE",
+        "name": "NONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "ODD",
+        "name": "ODD"
+      },
+      {
+        "ordinal": 2,
+        "field": "EVEN",
+        "name": "EVEN"
+      },
+      {
+        "ordinal": 3,
+        "field": "MARK",
+        "name": "MARK"
+      },
+      {
+        "ordinal": 4,
+        "field": "SPACE",
+        "name": "SPACE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/BuildBranch",
+    "source": "src/main/java/com/cheatbreaker/client/BuildBranch.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DEVELOPMENT",
+        "name": "DEVELOPMENT"
+      },
+      {
+        "ordinal": 1,
+        "field": "BETA",
+        "name": "BETA"
+      },
+      {
+        "ordinal": 2,
+        "field": "MASTER",
+        "name": "MASTER"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksCmdRequestDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksCmdRequestDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CHECK_PROTOCOL_VERSION",
+        "name": "CHECK_PROTOCOL_VERSION"
+      },
+      {
+        "ordinal": 1,
+        "field": "READ_CMD_HEADER",
+        "name": "READ_CMD_HEADER"
+      },
+      {
+        "ordinal": 2,
+        "field": "READ_CMD_ADDRESS",
+        "name": "READ_CMD_ADDRESS"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/optifine/expr/ExpressionType",
+    "source": "src/main/java/net/optifine/expr/ExpressionType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "FLOAT",
+        "name": "FLOAT"
+      },
+      {
+        "ordinal": 1,
+        "field": "FLOAT_ARRAY",
+        "name": "FLOAT_ARRAY"
+      },
+      {
+        "ordinal": 2,
+        "field": "BOOL",
+        "name": "BOOL"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/play/server/S3CPacketUpdateScore$Action",
+    "source": "src/main/java/net/minecraft/network/play/server/S3CPacketUpdateScore.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CHANGE",
+        "name": "CHANGE"
+      },
+      {
+        "ordinal": 1,
+        "field": "REMOVE",
+        "name": "REMOVE"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/world/biome/BiomeGenBase$TempCategory",
+    "source": "src/main/java/net/minecraft/world/biome/BiomeGenBase.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "OCEAN",
+        "name": "OCEAN"
+      },
+      {
+        "ordinal": 1,
+        "field": "COLD",
+        "name": "COLD"
+      },
+      {
+        "ordinal": 2,
+        "field": "MEDIUM",
+        "name": "MEDIUM"
+      },
+      {
+        "ordinal": 3,
+        "field": "WARM",
+        "name": "WARM"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/config/SettingsDetailLevel",
+    "source": "src/main/java/com/cheatbreaker/client/config/SettingsDetailLevel.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SIMPLE",
+        "name": "SIMPLE"
+      },
+      {
+        "ordinal": 1,
+        "field": "MEDIUM",
+        "name": "MEDIUM"
+      },
+      {
+        "ordinal": 2,
+        "field": "ADVANCED",
+        "name": "ADVANCED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksCmdType",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksCmdType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CONNECT",
+        "name": "CONNECT"
+      },
+      {
+        "ordinal": 1,
+        "field": "BIND",
+        "name": "BIND"
+      },
+      {
+        "ordinal": 2,
+        "field": "UDP",
+        "name": "UDP"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/command/CommandResultStats$Type",
+    "source": "src/main/java/net/minecraft/command/CommandResultStats.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SUCCESS_COUNT",
+        "name": "SUCCESS_COUNT"
+      },
+      {
+        "ordinal": 1,
+        "field": "AFFECTED_BLOCKS",
+        "name": "AFFECTED_BLOCKS"
+      },
+      {
+        "ordinal": 2,
+        "field": "AFFECTED_ENTITIES",
+        "name": "AFFECTED_ENTITIES"
+      },
+      {
+        "ordinal": 3,
+        "field": "AFFECTED_ITEMS",
+        "name": "AFFECTED_ITEMS"
+      },
+      {
+        "ordinal": 4,
+        "field": "QUERY_RESULT",
+        "name": "QUERY_RESULT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/module/CBGuiAnchor",
+    "source": "src/main/java/com/cheatbreaker/client/ui/module/CBGuiAnchor.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "LEFT_TOP",
+        "name": "LEFT_TOP"
+      },
+      {
+        "ordinal": 1,
+        "field": "LEFT_MIDDLE",
+        "name": "LEFT_MIDDLE"
+      },
+      {
+        "ordinal": 2,
+        "field": "LEFT_BOTTOM",
+        "name": "LEFT_BOTTOM"
+      },
+      {
+        "ordinal": 3,
+        "field": "MIDDLE_TOP",
+        "name": "MIDDLE_TOP"
+      },
+      {
+        "ordinal": 4,
+        "field": "MIDDLE_MIDDLE",
+        "name": "MIDDLE_MIDDLE"
+      },
+      {
+        "ordinal": 5,
+        "field": "MIDDLE_BOTTOM_LEFT",
+        "name": "MIDDLE_BOTTOM_LEFT"
+      },
+      {
+        "ordinal": 6,
+        "field": "MIDDLE_BOTTOM_RIGHT",
+        "name": "MIDDLE_BOTTOM_RIGHT"
+      },
+      {
+        "ordinal": 7,
+        "field": "RIGHT_TOP",
+        "name": "RIGHT_TOP"
+      },
+      {
+        "ordinal": 8,
+        "field": "RIGHT_MIDDLE",
+        "name": "RIGHT_MIDDLE"
+      },
+      {
+        "ordinal": 9,
+        "field": "RIGHT_BOTTOM",
+        "name": "RIGHT_BOTTOM"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/entity/player/EntityPlayer$EnumStatus",
+    "source": "src/main/java/net/minecraft/entity/player/EntityPlayer.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "OK",
+        "name": "OK"
+      },
+      {
+        "ordinal": 1,
+        "field": "NOT_POSSIBLE_HERE",
+        "name": "NOT_POSSIBLE_HERE"
+      },
+      {
+        "ordinal": 2,
+        "field": "NOT_POSSIBLE_NOW",
+        "name": "NOT_POSSIBLE_NOW"
+      },
+      {
+        "ordinal": 3,
+        "field": "TOO_FAR_AWAY",
+        "name": "TOO_FAR_AWAY"
+      },
+      {
+        "ordinal": 4,
+        "field": "OTHER_PROBLEM",
+        "name": "OTHER_PROBLEM"
+      },
+      {
+        "ordinal": 5,
+        "field": "NOT_SAFE",
+        "name": "NOT_SAFE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/util/MathUtilsTest$OPER",
+    "source": "src/main/java/net/optifine/util/MathUtilsTest.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SIN",
+        "name": "SIN"
+      },
+      {
+        "ordinal": 1,
+        "field": "COS",
+        "name": "COS"
+      },
+      {
+        "ordinal": 2,
+        "field": "ASIN",
+        "name": "ASIN"
+      },
+      {
+        "ordinal": 3,
+        "field": "ACOS",
+        "name": "ACOS"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/HttpPostBodyUtil$TransferEncodingMechanism",
+    "source": "src/main/java/io/netty/handler/codec/http/multipart/HttpPostBodyUtil.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "BIT7",
+        "name": "BIT7"
+      },
+      {
+        "ordinal": 1,
+        "field": "BIT8",
+        "name": "BIT8"
+      },
+      {
+        "ordinal": 2,
+        "field": "BINARY",
+        "name": "BINARY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/Block$EnumOffsetType",
+    "source": "src/main/java/net/minecraft/block/Block.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NONE",
+        "name": "NONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "XZ",
+        "name": "XZ"
+      },
+      {
+        "ordinal": 2,
+        "field": "XYZ",
+        "name": "XYZ"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/util/EnumFacing$AxisDirection",
+    "source": "src/main/java/net/minecraft/util/EnumFacing.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "POSITIVE",
+        "name": "POSITIVE"
+      },
+      {
+        "ordinal": 1,
+        "field": "NEGATIVE",
+        "name": "NEGATIVE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockPressurePlate$Sensitivity",
+    "source": "src/main/java/net/minecraft/block/BlockPressurePlate.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "EVERYTHING",
+        "name": "EVERYTHING"
+      },
+      {
+        "ordinal": 1,
+        "field": "MOBS",
+        "name": "MOBS"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/optifine/ConnectedTexturesCompact$Dir",
+    "source": "src/main/java/net/optifine/ConnectedTexturesCompact.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 1,
+        "field": "UP_RIGHT",
+        "name": "UP_RIGHT"
+      },
+      {
+        "ordinal": 2,
+        "field": "RIGHT",
+        "name": "RIGHT"
+      },
+      {
+        "ordinal": 3,
+        "field": "DOWN_RIGHT",
+        "name": "DOWN_RIGHT"
+      },
+      {
+        "ordinal": 4,
+        "field": "DOWN",
+        "name": "DOWN"
+      },
+      {
+        "ordinal": 5,
+        "field": "DOWN_LEFT",
+        "name": "DOWN_LEFT"
+      },
+      {
+        "ordinal": 6,
+        "field": "LEFT",
+        "name": "LEFT"
+      },
+      {
+        "ordinal": 7,
+        "field": "UP_LEFT",
+        "name": "UP_LEFT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/util/ResourceLeakDetector$Level",
+    "source": "src/main/java/io/netty/util/ResourceLeakDetector.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DISABLED",
+        "name": "DISABLED"
+      },
+      {
+        "ordinal": 1,
+        "field": "SIMPLE",
+        "name": "SIMPLE"
+      },
+      {
+        "ordinal": 2,
+        "field": "ADVANCED",
+        "name": "ADVANCED"
+      },
+      {
+        "ordinal": 3,
+        "field": "PARANOID",
+        "name": "PARANOID"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksInitRequestDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksInitRequestDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CHECK_PROTOCOL_VERSION",
+        "name": "CHECK_PROTOCOL_VERSION"
+      },
+      {
+        "ordinal": 1,
+        "field": "READ_AUTH_SCHEMES",
+        "name": "READ_AUTH_SCHEMES"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "org/java_websocket/enums/HandshakeState",
+    "source": "src/main/java/org/java_websocket/enums/HandshakeState.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "MATCHED",
+        "name": "MATCHED"
+      },
+      {
+        "ordinal": 1,
+        "field": "NOT_MATCHED",
+        "name": "NOT_MATCHED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/multiplayer/ServerData$ServerResourceMode",
+    "source": "src/main/java/net/minecraft/client/multiplayer/ServerData.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ENABLED",
+        "name": "ENABLED"
+      },
+      {
+        "ordinal": 1,
+        "field": "DISABLED",
+        "name": "DISABLED"
+      },
+      {
+        "ordinal": 2,
+        "field": "PROMPT",
+        "name": "PROMPT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/util/EnumChatFormatting",
+    "source": "src/main/java/net/minecraft/util/EnumChatFormatting.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "BLACK",
+        "name": "BLACK"
+      },
+      {
+        "ordinal": 1,
+        "field": "DARK_BLUE",
+        "name": "DARK_BLUE"
+      },
+      {
+        "ordinal": 2,
+        "field": "DARK_GREEN",
+        "name": "DARK_GREEN"
+      },
+      {
+        "ordinal": 3,
+        "field": "DARK_AQUA",
+        "name": "DARK_AQUA"
+      },
+      {
+        "ordinal": 4,
+        "field": "DARK_RED",
+        "name": "DARK_RED"
+      },
+      {
+        "ordinal": 5,
+        "field": "DARK_PURPLE",
+        "name": "DARK_PURPLE"
+      },
+      {
+        "ordinal": 6,
+        "field": "GOLD",
+        "name": "GOLD"
+      },
+      {
+        "ordinal": 7,
+        "field": "GRAY",
+        "name": "GRAY"
+      },
+      {
+        "ordinal": 8,
+        "field": "DARK_GRAY",
+        "name": "DARK_GRAY"
+      },
+      {
+        "ordinal": 9,
+        "field": "BLUE",
+        "name": "BLUE"
+      },
+      {
+        "ordinal": 10,
+        "field": "GREEN",
+        "name": "GREEN"
+      },
+      {
+        "ordinal": 11,
+        "field": "AQUA",
+        "name": "AQUA"
+      },
+      {
+        "ordinal": 12,
+        "field": "RED",
+        "name": "RED"
+      },
+      {
+        "ordinal": 13,
+        "field": "LIGHT_PURPLE",
+        "name": "LIGHT_PURPLE"
+      },
+      {
+        "ordinal": 14,
+        "field": "YELLOW",
+        "name": "YELLOW"
+      },
+      {
+        "ordinal": 15,
+        "field": "WHITE",
+        "name": "WHITE"
+      },
+      {
+        "ordinal": 16,
+        "field": "OBFUSCATED",
+        "name": "OBFUSCATED"
+      },
+      {
+        "ordinal": 17,
+        "field": "BOLD",
+        "name": "BOLD"
+      },
+      {
+        "ordinal": 18,
+        "field": "STRIKETHROUGH",
+        "name": "STRIKETHROUGH"
+      },
+      {
+        "ordinal": 19,
+        "field": "UNDERLINE",
+        "name": "UNDERLINE"
+      },
+      {
+        "ordinal": 20,
+        "field": "ITALIC",
+        "name": "ITALIC"
+      },
+      {
+        "ordinal": 21,
+        "field": "RESET",
+        "name": "RESET"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/config/Weather",
+    "source": "src/main/java/net/optifine/config/Weather.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CLEAR",
+        "name": "CLEAR"
+      },
+      {
+        "ordinal": 1,
+        "field": "RAIN",
+        "name": "RAIN"
+      },
+      {
+        "ordinal": 2,
+        "field": "THUNDER",
+        "name": "THUNDER"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksAuthScheme",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksAuthScheme.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NO_AUTH",
+        "name": "NO_AUTH"
+      },
+      {
+        "ordinal": 1,
+        "field": "AUTH_GSSAPI",
+        "name": "AUTH_GSSAPI"
+      },
+      {
+        "ordinal": 2,
+        "field": "AUTH_PASSWORD",
+        "name": "AUTH_PASSWORD"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/ssl/SslProvider",
+    "source": "src/main/java/io/netty/handler/ssl/SslProvider.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "JDK",
+        "name": "JDK"
+      },
+      {
+        "ordinal": 1,
+        "field": "OPENSSL",
+        "name": "OPENSSL"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/HttpPostRequestEncoder$EncoderMode",
+    "source": "src/main/java/io/netty/handler/codec/http/multipart/HttpPostRequestEncoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "RFC1738",
+        "name": "RFC1738"
+      },
+      {
+        "ordinal": 1,
+        "field": "RFC3986",
+        "name": "RFC3986"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/util/EnumWorldBlockLayer",
+    "source": "src/main/java/net/minecraft/util/EnumWorldBlockLayer.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SOLID",
+        "name": "SOLID"
+      },
+      {
+        "ordinal": 1,
+        "field": "CUTOUT_MIPPED",
+        "name": "CUTOUT_MIPPED"
+      },
+      {
+        "ordinal": 2,
+        "field": "CUTOUT",
+        "name": "CUTOUT"
+      },
+      {
+        "ordinal": 3,
+        "field": "TRANSLUCENT",
+        "name": "TRANSLUCENT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/world/chunk/Chunk$EnumCreateEntityType",
+    "source": "src/main/java/net/minecraft/world/chunk/Chunk.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "IMMEDIATE",
+        "name": "IMMEDIATE"
+      },
+      {
+        "ordinal": 1,
+        "field": "QUEUED",
+        "name": "QUEUED"
+      },
+      {
+        "ordinal": 2,
+        "field": "CHECK",
+        "name": "CHECK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/entity/model/anim/RenderEntityParameterBool",
+    "source": "src/main/java/net/optifine/entity/model/anim/RenderEntityParameterBool.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "IS_ALIVE",
+        "name": "IS_ALIVE"
+      },
+      {
+        "ordinal": 1,
+        "field": "IS_BURNING",
+        "name": "IS_BURNING"
+      },
+      {
+        "ordinal": 2,
+        "field": "IS_CHILD",
+        "name": "IS_CHILD"
+      },
+      {
+        "ordinal": 3,
+        "field": "IS_GLOWING",
+        "name": "IS_GLOWING"
+      },
+      {
+        "ordinal": 4,
+        "field": "IS_HURT",
+        "name": "IS_HURT"
+      },
+      {
+        "ordinal": 5,
+        "field": "IS_IN_LAVA",
+        "name": "IS_IN_LAVA"
+      },
+      {
+        "ordinal": 6,
+        "field": "IS_IN_WATER",
+        "name": "IS_IN_WATER"
+      },
+      {
+        "ordinal": 7,
+        "field": "IS_INVISIBLE",
+        "name": "IS_INVISIBLE"
+      },
+      {
+        "ordinal": 8,
+        "field": "IS_ON_GROUND",
+        "name": "IS_ON_GROUND"
+      },
+      {
+        "ordinal": 9,
+        "field": "IS_RIDDEN",
+        "name": "IS_RIDDEN"
+      },
+      {
+        "ordinal": 10,
+        "field": "IS_RIDING",
+        "name": "IS_RIDING"
+      },
+      {
+        "ordinal": 11,
+        "field": "IS_SNEAKING",
+        "name": "IS_SNEAKING"
+      },
+      {
+        "ordinal": 12,
+        "field": "IS_SPRINTING",
+        "name": "IS_SPRINTING"
+      },
+      {
+        "ordinal": 13,
+        "field": "IS_WET",
+        "name": "IS_WET"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/InterfaceHttpData$HttpDataType",
+    "source": "src/main/java/io/netty/handler/codec/http/multipart/InterfaceHttpData.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "Attribute",
+        "name": "Attribute"
+      },
+      {
+        "ordinal": 1,
+        "field": "FileUpload",
+        "name": "FileUpload"
+      },
+      {
+        "ordinal": 2,
+        "field": "InternalAttribute",
+        "name": "InternalAttribute"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/entity/EnumCreatureAttribute",
+    "source": "src/main/java/net/minecraft/entity/EnumCreatureAttribute.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UNDEFINED",
+        "name": "UNDEFINED"
+      },
+      {
+        "ordinal": 1,
+        "field": "UNDEAD",
+        "name": "UNDEAD"
+      },
+      {
+        "ordinal": 2,
+        "field": "ARTHROPOD",
+        "name": "ARTHROPOD"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/module/AbstractModule$PreviewType",
+    "source": "src/main/java/com/cheatbreaker/client/module/AbstractModule.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "LABEL",
+        "name": "LABEL"
+      },
+      {
+        "ordinal": 1,
+        "field": "ICON",
+        "name": "ICON"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/client/renderer/block/model/ItemCameraTransforms$TransformType",
+    "source": "src/main/java/net/minecraft/client/renderer/block/model/ItemCameraTransforms.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NONE",
+        "name": "NONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "THIRD_PERSON",
+        "name": "THIRD_PERSON"
+      },
+      {
+        "ordinal": 2,
+        "field": "FIRST_PERSON",
+        "name": "FIRST_PERSON"
+      },
+      {
+        "ordinal": 3,
+        "field": "HEAD",
+        "name": "HEAD"
+      },
+      {
+        "ordinal": 4,
+        "field": "GUI",
+        "name": "GUI"
+      },
+      {
+        "ordinal": 5,
+        "field": "GROUND",
+        "name": "GROUND"
+      },
+      {
+        "ordinal": 6,
+        "field": "FIXED",
+        "name": "FIXED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/event/HoverEvent$Action",
+    "source": "src/main/java/net/minecraft/event/HoverEvent.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SHOW_TEXT",
+        "name": "SHOW_TEXT"
+      },
+      {
+        "ordinal": 1,
+        "field": "SHOW_ACHIEVEMENT",
+        "name": "SHOW_ACHIEVEMENT"
+      },
+      {
+        "ordinal": 2,
+        "field": "SHOW_ITEM",
+        "name": "SHOW_ITEM"
+      },
+      {
+        "ordinal": 3,
+        "field": "SHOW_ENTITY",
+        "name": "SHOW_ENTITY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/websocketx/WebSocketVersion",
+    "source": "src/main/java/io/netty/handler/codec/http/websocketx/WebSocketVersion.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "V00",
+        "name": "V00"
+      },
+      {
+        "ordinal": 2,
+        "field": "V07",
+        "name": "V07"
+      },
+      {
+        "ordinal": 3,
+        "field": "V08",
+        "name": "V08"
+      },
+      {
+        "ordinal": 4,
+        "field": "V13",
+        "name": "V13"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockRedstoneComparator$Mode",
+    "source": "src/main/java/net/minecraft/block/BlockRedstoneComparator.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "COMPARE",
+        "name": "COMPARE"
+      },
+      {
+        "ordinal": 1,
+        "field": "SUBTRACT",
+        "name": "SUBTRACT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/compression/ZlibWrapper",
+    "source": "src/main/java/io/netty/handler/codec/compression/ZlibWrapper.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ZLIB",
+        "name": "ZLIB"
+      },
+      {
+        "ordinal": 1,
+        "field": "GZIP",
+        "name": "GZIP"
+      },
+      {
+        "ordinal": 2,
+        "field": "NONE",
+        "name": "NONE"
+      },
+      {
+        "ordinal": 3,
+        "field": "ZLIB_OR_NONE",
+        "name": "ZLIB_OR_NONE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockRailBase$EnumRailDirection",
+    "source": "src/main/java/net/minecraft/block/BlockRailBase.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NORTH_SOUTH",
+        "name": "NORTH_SOUTH"
+      },
+      {
+        "ordinal": 1,
+        "field": "EAST_WEST",
+        "name": "EAST_WEST"
+      },
+      {
+        "ordinal": 2,
+        "field": "ASCENDING_EAST",
+        "name": "ASCENDING_EAST"
+      },
+      {
+        "ordinal": 3,
+        "field": "ASCENDING_WEST",
+        "name": "ASCENDING_WEST"
+      },
+      {
+        "ordinal": 4,
+        "field": "ASCENDING_NORTH",
+        "name": "ASCENDING_NORTH"
+      },
+      {
+        "ordinal": 5,
+        "field": "ASCENDING_SOUTH",
+        "name": "ASCENDING_SOUTH"
+      },
+      {
+        "ordinal": 6,
+        "field": "SOUTH_EAST",
+        "name": "SOUTH_EAST"
+      },
+      {
+        "ordinal": 7,
+        "field": "SOUTH_WEST",
+        "name": "SOUTH_WEST"
+      },
+      {
+        "ordinal": 8,
+        "field": "NORTH_WEST",
+        "name": "NORTH_WEST"
+      },
+      {
+        "ordinal": 9,
+        "field": "NORTH_EAST",
+        "name": "NORTH_EAST"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/vertex/VertexFormatElement$EnumType",
+    "source": "src/main/java/net/minecraft/client/renderer/vertex/VertexFormatElement.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "FLOAT",
+        "name": "FLOAT"
+      },
+      {
+        "ordinal": 1,
+        "field": "UBYTE",
+        "name": "UBYTE"
+      },
+      {
+        "ordinal": 2,
+        "field": "BYTE",
+        "name": "BYTE"
+      },
+      {
+        "ordinal": 3,
+        "field": "USHORT",
+        "name": "USHORT"
+      },
+      {
+        "ordinal": 4,
+        "field": "SHORT",
+        "name": "SHORT"
+      },
+      {
+        "ordinal": 5,
+        "field": "UINT",
+        "name": "UINT"
+      },
+      {
+        "ordinal": 6,
+        "field": "INT",
+        "name": "INT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockPlanks$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockPlanks.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "OAK",
+        "name": "OAK"
+      },
+      {
+        "ordinal": 1,
+        "field": "SPRUCE",
+        "name": "SPRUCE"
+      },
+      {
+        "ordinal": 2,
+        "field": "BIRCH",
+        "name": "BIRCH"
+      },
+      {
+        "ordinal": 3,
+        "field": "JUNGLE",
+        "name": "JUNGLE"
+      },
+      {
+        "ordinal": 4,
+        "field": "ACACIA",
+        "name": "ACACIA"
+      },
+      {
+        "ordinal": 5,
+        "field": "DARK_OAK",
+        "name": "DARK_OAK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/util/MovingObjectPosition$MovingObjectType",
+    "source": "src/main/java/net/minecraft/util/MovingObjectPosition.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "MISS",
+        "name": "MISS"
+      },
+      {
+        "ordinal": 1,
+        "field": "BLOCK",
+        "name": "BLOCK"
+      },
+      {
+        "ordinal": 2,
+        "field": "ENTITY",
+        "name": "ENTITY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/util/internal/logging/InternalLogLevel",
+    "source": "src/main/java/io/netty/util/internal/logging/InternalLogLevel.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "TRACE",
+        "name": "TRACE"
+      },
+      {
+        "ordinal": 1,
+        "field": "DEBUG",
+        "name": "DEBUG"
+      },
+      {
+        "ordinal": 2,
+        "field": "INFO",
+        "name": "INFO"
+      },
+      {
+        "ordinal": 3,
+        "field": "WARN",
+        "name": "WARN"
+      },
+      {
+        "ordinal": 4,
+        "field": "ERROR",
+        "name": "ERROR"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStairs$EnumShape",
+    "source": "src/main/java/net/minecraft/block/BlockStairs.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "STRAIGHT",
+        "name": "STRAIGHT"
+      },
+      {
+        "ordinal": 1,
+        "field": "INNER_LEFT",
+        "name": "INNER_LEFT"
+      },
+      {
+        "ordinal": 2,
+        "field": "INNER_RIGHT",
+        "name": "INNER_RIGHT"
+      },
+      {
+        "ordinal": 3,
+        "field": "OUTER_LEFT",
+        "name": "OUTER_LEFT"
+      },
+      {
+        "ordinal": 4,
+        "field": "OUTER_RIGHT",
+        "name": "OUTER_RIGHT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/CustomGuiProperties$EnumContainer",
+    "source": "src/main/java/net/optifine/CustomGuiProperties.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ANVIL",
+        "name": "ANVIL"
+      },
+      {
+        "ordinal": 1,
+        "field": "BEACON",
+        "name": "BEACON"
+      },
+      {
+        "ordinal": 2,
+        "field": "BREWING_STAND",
+        "name": "BREWING_STAND"
+      },
+      {
+        "ordinal": 3,
+        "field": "CHEST",
+        "name": "CHEST"
+      },
+      {
+        "ordinal": 4,
+        "field": "CRAFTING",
+        "name": "CRAFTING"
+      },
+      {
+        "ordinal": 5,
+        "field": "DISPENSER",
+        "name": "DISPENSER"
+      },
+      {
+        "ordinal": 6,
+        "field": "ENCHANTMENT",
+        "name": "ENCHANTMENT"
+      },
+      {
+        "ordinal": 7,
+        "field": "FURNACE",
+        "name": "FURNACE"
+      },
+      {
+        "ordinal": 8,
+        "field": "HOPPER",
+        "name": "HOPPER"
+      },
+      {
+        "ordinal": 9,
+        "field": "HORSE",
+        "name": "HORSE"
+      },
+      {
+        "ordinal": 10,
+        "field": "VILLAGER",
+        "name": "VILLAGER"
+      },
+      {
+        "ordinal": 11,
+        "field": "SHULKER_BOX",
+        "name": "SHULKER_BOX"
+      },
+      {
+        "ordinal": 12,
+        "field": "CREATIVE",
+        "name": "CREATIVE"
+      },
+      {
+        "ordinal": 13,
+        "field": "INVENTORY",
+        "name": "INVENTORY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksProtocolVersion",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksProtocolVersion.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SOCKS4a",
+        "name": "SOCKS4a"
+      },
+      {
+        "ordinal": 1,
+        "field": "SOCKS5",
+        "name": "SOCKS5"
+      },
+      {
+        "ordinal": 2,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockSand$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockSand.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SAND",
+        "name": "SAND"
+      },
+      {
+        "ordinal": 1,
+        "field": "RED_SAND",
+        "name": "RED_SAND"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockQuartz$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockQuartz.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DEFAULT",
+        "name": "DEFAULT"
+      },
+      {
+        "ordinal": 1,
+        "field": "CHISELED",
+        "name": "CHISELED"
+      },
+      {
+        "ordinal": 2,
+        "field": "LINES_Y",
+        "name": "LINES_Y"
+      },
+      {
+        "ordinal": 3,
+        "field": "LINES_X",
+        "name": "LINES_X"
+      },
+      {
+        "ordinal": 4,
+        "field": "LINES_Z",
+        "name": "LINES_Z"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/nethandler/obj/ServerRule",
+    "source": "src/main/java/com/cheatbreaker/client/nethandler/obj/ServerRule.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "VOICE_ENABLED",
+        "name": "VOICE_ENABLED"
+      },
+      {
+        "ordinal": 1,
+        "field": "MINIMAP_STATUS",
+        "name": "MINIMAP_STATUS"
+      },
+      {
+        "ordinal": 2,
+        "field": "SERVER_HANDLES_WAYPOINTS",
+        "name": "SERVER_HANDLES_WAYPOINTS"
+      },
+      {
+        "ordinal": 3,
+        "field": "COMPETITIVE_GAMEMODE",
+        "name": "COMPETITIVE_GAMEMODE"
+      },
+      {
+        "ordinal": 4,
+        "field": "LEGACY_ENCHANTING",
+        "name": "LEGACY_ENCHANTING"
+      },
+      {
+        "ordinal": 5,
+        "field": "LEGACY_COMBAT",
+        "name": "LEGACY_COMBAT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/stream/ChatController$EnumEmoticonMode",
+    "source": "src/main/java/net/minecraft/client/stream/ChatController.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "None",
+        "name": "None"
+      },
+      {
+        "ordinal": 1,
+        "field": "Url",
+        "name": "Url"
+      },
+      {
+        "ordinal": 2,
+        "field": "TextureAtlas",
+        "name": "TextureAtlas"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/EnumFaceDirection",
+    "source": "src/main/java/net/minecraft/client/renderer/EnumFaceDirection.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DOWN",
+        "name": "DOWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 2,
+        "field": "NORTH",
+        "name": "NORTH"
+      },
+      {
+        "ordinal": 3,
+        "field": "SOUTH",
+        "name": "SOUTH"
+      },
+      {
+        "ordinal": 4,
+        "field": "WEST",
+        "name": "WEST"
+      },
+      {
+        "ordinal": 5,
+        "field": "EAST",
+        "name": "EAST"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/scoreboard/Team$EnumVisible",
+    "source": "src/main/java/net/minecraft/scoreboard/Team.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ALWAYS",
+        "name": "ALWAYS"
+      },
+      {
+        "ordinal": 1,
+        "field": "NEVER",
+        "name": "NEVER"
+      },
+      {
+        "ordinal": 2,
+        "field": "HIDE_FOR_OTHER_TEAMS",
+        "name": "HIDE_FOR_OTHER_TEAMS"
+      },
+      {
+        "ordinal": 3,
+        "field": "HIDE_FOR_OWN_TEAM",
+        "name": "HIDE_FOR_OWN_TEAM"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/texture/InternalFormat",
+    "source": "src/main/java/net/optifine/texture/InternalFormat.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "R8",
+        "name": "R8"
+      },
+      {
+        "ordinal": 1,
+        "field": "RG8",
+        "name": "RG8"
+      },
+      {
+        "ordinal": 2,
+        "field": "RGB8",
+        "name": "RGB8"
+      },
+      {
+        "ordinal": 3,
+        "field": "RGBA8",
+        "name": "RGBA8"
+      },
+      {
+        "ordinal": 4,
+        "field": "R8_SNORM",
+        "name": "R8_SNORM"
+      },
+      {
+        "ordinal": 5,
+        "field": "RG8_SNORM",
+        "name": "RG8_SNORM"
+      },
+      {
+        "ordinal": 6,
+        "field": "RGB8_SNORM",
+        "name": "RGB8_SNORM"
+      },
+      {
+        "ordinal": 7,
+        "field": "RGBA8_SNORM",
+        "name": "RGBA8_SNORM"
+      },
+      {
+        "ordinal": 8,
+        "field": "R16",
+        "name": "R16"
+      },
+      {
+        "ordinal": 9,
+        "field": "RG16",
+        "name": "RG16"
+      },
+      {
+        "ordinal": 10,
+        "field": "RGB16",
+        "name": "RGB16"
+      },
+      {
+        "ordinal": 11,
+        "field": "RGBA16",
+        "name": "RGBA16"
+      },
+      {
+        "ordinal": 12,
+        "field": "R16_SNORM",
+        "name": "R16_SNORM"
+      },
+      {
+        "ordinal": 13,
+        "field": "RG16_SNORM",
+        "name": "RG16_SNORM"
+      },
+      {
+        "ordinal": 14,
+        "field": "RGB16_SNORM",
+        "name": "RGB16_SNORM"
+      },
+      {
+        "ordinal": 15,
+        "field": "RGBA16_SNORM",
+        "name": "RGBA16_SNORM"
+      },
+      {
+        "ordinal": 16,
+        "field": "R16F",
+        "name": "R16F"
+      },
+      {
+        "ordinal": 17,
+        "field": "RG16F",
+        "name": "RG16F"
+      },
+      {
+        "ordinal": 18,
+        "field": "RGB16F",
+        "name": "RGB16F"
+      },
+      {
+        "ordinal": 19,
+        "field": "RGBA16F",
+        "name": "RGBA16F"
+      },
+      {
+        "ordinal": 20,
+        "field": "R32F",
+        "name": "R32F"
+      },
+      {
+        "ordinal": 21,
+        "field": "RG32F",
+        "name": "RG32F"
+      },
+      {
+        "ordinal": 22,
+        "field": "RGB32F",
+        "name": "RGB32F"
+      },
+      {
+        "ordinal": 23,
+        "field": "RGBA32F",
+        "name": "RGBA32F"
+      },
+      {
+        "ordinal": 24,
+        "field": "R32I",
+        "name": "R32I"
+      },
+      {
+        "ordinal": 25,
+        "field": "RG32I",
+        "name": "RG32I"
+      },
+      {
+        "ordinal": 26,
+        "field": "RGB32I",
+        "name": "RGB32I"
+      },
+      {
+        "ordinal": 27,
+        "field": "RGBA32I",
+        "name": "RGBA32I"
+      },
+      {
+        "ordinal": 28,
+        "field": "R32UI",
+        "name": "R32UI"
+      },
+      {
+        "ordinal": 29,
+        "field": "RG32UI",
+        "name": "RG32UI"
+      },
+      {
+        "ordinal": 30,
+        "field": "RGB32UI",
+        "name": "RGB32UI"
+      },
+      {
+        "ordinal": 31,
+        "field": "RGBA32UI",
+        "name": "RGBA32UI"
+      },
+      {
+        "ordinal": 32,
+        "field": "R3_G3_B2",
+        "name": "R3_G3_B2"
+      },
+      {
+        "ordinal": 33,
+        "field": "RGB5_A1",
+        "name": "RGB5_A1"
+      },
+      {
+        "ordinal": 34,
+        "field": "RGB10_A2",
+        "name": "RGB10_A2"
+      },
+      {
+        "ordinal": 35,
+        "field": "R11F_G11F_B10F",
+        "name": "R11F_G11F_B10F"
+      },
+      {
+        "ordinal": 36,
+        "field": "RGB9_E5",
+        "name": "RGB9_E5"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/util/EnumFacing$Plane",
+    "source": "src/main/java/net/minecraft/util/EnumFacing.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "HORIZONTAL",
+        "name": "HORIZONTAL"
+      },
+      {
+        "ordinal": 1,
+        "field": "VERTICAL",
+        "name": "VERTICAL"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "com/jagrosh/discordipc/entities/pipe/PipeStatus",
+    "source": "src/main/java/com/jagrosh/discordipc/entities/pipe/PipeStatus.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UNINITIALIZED",
+        "name": "UNINITIALIZED"
+      },
+      {
+        "ordinal": 1,
+        "field": "CONNECTING",
+        "name": "CONNECTING"
+      },
+      {
+        "ordinal": 2,
+        "field": "CONNECTED",
+        "name": "CONNECTED"
+      },
+      {
+        "ordinal": 3,
+        "field": "CLOSED",
+        "name": "CLOSED"
+      },
+      {
+        "ordinal": 4,
+        "field": "DISCONNECTED",
+        "name": "DISCONNECTED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockSandStone$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockSandStone.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DEFAULT",
+        "name": "DEFAULT"
+      },
+      {
+        "ordinal": 1,
+        "field": "CHISELED",
+        "name": "CHISELED"
+      },
+      {
+        "ordinal": 2,
+        "field": "SMOOTH",
+        "name": "SMOOTH"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/play/server/S08PacketPlayerPosLook$EnumFlags",
+    "source": "src/main/java/net/minecraft/network/play/server/S08PacketPlayerPosLook.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "X",
+        "name": "X"
+      },
+      {
+        "ordinal": 1,
+        "field": "Y",
+        "name": "Y"
+      },
+      {
+        "ordinal": 2,
+        "field": "Z",
+        "name": "Z"
+      },
+      {
+        "ordinal": 3,
+        "field": "Y_ROT",
+        "name": "Y_ROT"
+      },
+      {
+        "ordinal": 4,
+        "field": "X_ROT",
+        "name": "X_ROT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/websocketx/WebSocket08FrameDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/http/websocketx/WebSocket08FrameDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "FRAME_START",
+        "name": "FRAME_START"
+      },
+      {
+        "ordinal": 1,
+        "field": "MASKING_KEY",
+        "name": "MASKING_KEY"
+      },
+      {
+        "ordinal": 2,
+        "field": "PAYLOAD",
+        "name": "PAYLOAD"
+      },
+      {
+        "ordinal": 3,
+        "field": "CORRUPT",
+        "name": "CORRUPT"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/network/play/client/C02PacketUseEntity$Action",
+    "source": "src/main/java/net/minecraft/network/play/client/C02PacketUseEntity.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "INTERACT",
+        "name": "INTERACT"
+      },
+      {
+        "ordinal": 1,
+        "field": "ATTACK",
+        "name": "ATTACK"
+      },
+      {
+        "ordinal": 2,
+        "field": "INTERACT_AT",
+        "name": "INTERACT_AT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/util/EnumParticleTypes",
+    "source": "src/main/java/net/minecraft/util/EnumParticleTypes.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "EXPLOSION_NORMAL",
+        "name": "EXPLOSION_NORMAL"
+      },
+      {
+        "ordinal": 1,
+        "field": "EXPLOSION_LARGE",
+        "name": "EXPLOSION_LARGE"
+      },
+      {
+        "ordinal": 2,
+        "field": "EXPLOSION_HUGE",
+        "name": "EXPLOSION_HUGE"
+      },
+      {
+        "ordinal": 3,
+        "field": "FIREWORKS_SPARK",
+        "name": "FIREWORKS_SPARK"
+      },
+      {
+        "ordinal": 4,
+        "field": "WATER_BUBBLE",
+        "name": "WATER_BUBBLE"
+      },
+      {
+        "ordinal": 5,
+        "field": "WATER_SPLASH",
+        "name": "WATER_SPLASH"
+      },
+      {
+        "ordinal": 6,
+        "field": "WATER_WAKE",
+        "name": "WATER_WAKE"
+      },
+      {
+        "ordinal": 7,
+        "field": "SUSPENDED",
+        "name": "SUSPENDED"
+      },
+      {
+        "ordinal": 8,
+        "field": "SUSPENDED_DEPTH",
+        "name": "SUSPENDED_DEPTH"
+      },
+      {
+        "ordinal": 9,
+        "field": "CRIT",
+        "name": "CRIT"
+      },
+      {
+        "ordinal": 10,
+        "field": "CRIT_MAGIC",
+        "name": "CRIT_MAGIC"
+      },
+      {
+        "ordinal": 11,
+        "field": "SMOKE_NORMAL",
+        "name": "SMOKE_NORMAL"
+      },
+      {
+        "ordinal": 12,
+        "field": "SMOKE_LARGE",
+        "name": "SMOKE_LARGE"
+      },
+      {
+        "ordinal": 13,
+        "field": "SPELL",
+        "name": "SPELL"
+      },
+      {
+        "ordinal": 14,
+        "field": "SPELL_INSTANT",
+        "name": "SPELL_INSTANT"
+      },
+      {
+        "ordinal": 15,
+        "field": "SPELL_MOB",
+        "name": "SPELL_MOB"
+      },
+      {
+        "ordinal": 16,
+        "field": "SPELL_MOB_AMBIENT",
+        "name": "SPELL_MOB_AMBIENT"
+      },
+      {
+        "ordinal": 17,
+        "field": "SPELL_WITCH",
+        "name": "SPELL_WITCH"
+      },
+      {
+        "ordinal": 18,
+        "field": "DRIP_WATER",
+        "name": "DRIP_WATER"
+      },
+      {
+        "ordinal": 19,
+        "field": "DRIP_LAVA",
+        "name": "DRIP_LAVA"
+      },
+      {
+        "ordinal": 20,
+        "field": "VILLAGER_ANGRY",
+        "name": "VILLAGER_ANGRY"
+      },
+      {
+        "ordinal": 21,
+        "field": "VILLAGER_HAPPY",
+        "name": "VILLAGER_HAPPY"
+      },
+      {
+        "ordinal": 22,
+        "field": "TOWN_AURA",
+        "name": "TOWN_AURA"
+      },
+      {
+        "ordinal": 23,
+        "field": "NOTE",
+        "name": "NOTE"
+      },
+      {
+        "ordinal": 24,
+        "field": "PORTAL",
+        "name": "PORTAL"
+      },
+      {
+        "ordinal": 25,
+        "field": "ENCHANTMENT_TABLE",
+        "name": "ENCHANTMENT_TABLE"
+      },
+      {
+        "ordinal": 26,
+        "field": "FLAME",
+        "name": "FLAME"
+      },
+      {
+        "ordinal": 27,
+        "field": "LAVA",
+        "name": "LAVA"
+      },
+      {
+        "ordinal": 28,
+        "field": "FOOTSTEP",
+        "name": "FOOTSTEP"
+      },
+      {
+        "ordinal": 29,
+        "field": "CLOUD",
+        "name": "CLOUD"
+      },
+      {
+        "ordinal": 30,
+        "field": "REDSTONE",
+        "name": "REDSTONE"
+      },
+      {
+        "ordinal": 31,
+        "field": "SNOWBALL",
+        "name": "SNOWBALL"
+      },
+      {
+        "ordinal": 32,
+        "field": "SNOW_SHOVEL",
+        "name": "SNOW_SHOVEL"
+      },
+      {
+        "ordinal": 33,
+        "field": "SLIME",
+        "name": "SLIME"
+      },
+      {
+        "ordinal": 34,
+        "field": "HEART",
+        "name": "HEART"
+      },
+      {
+        "ordinal": 35,
+        "field": "BARRIER",
+        "name": "BARRIER"
+      },
+      {
+        "ordinal": 36,
+        "field": "ITEM_CRACK",
+        "name": "ITEM_CRACK"
+      },
+      {
+        "ordinal": 37,
+        "field": "BLOCK_CRACK",
+        "name": "BLOCK_CRACK"
+      },
+      {
+        "ordinal": 38,
+        "field": "BLOCK_DUST",
+        "name": "BLOCK_DUST"
+      },
+      {
+        "ordinal": 39,
+        "field": "WATER_DROP",
+        "name": "WATER_DROP"
+      },
+      {
+        "ordinal": 40,
+        "field": "ITEM_TAKE",
+        "name": "ITEM_TAKE"
+      },
+      {
+        "ordinal": 41,
+        "field": "MOB_APPEARANCE",
+        "name": "MOB_APPEARANCE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/world/GameRules$ValueType",
+    "source": "src/main/java/net/minecraft/world/GameRules.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ANY_VALUE",
+        "name": "ANY_VALUE"
+      },
+      {
+        "ordinal": 1,
+        "field": "BOOLEAN_VALUE",
+        "name": "BOOLEAN_VALUE"
+      },
+      {
+        "ordinal": 2,
+        "field": "NUMERICAL_VALUE",
+        "name": "NUMERICAL_VALUE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/module/CBPositionEnum",
+    "source": "src/main/java/com/cheatbreaker/client/ui/module/CBPositionEnum.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "BOTTOM",
+        "name": "BOTTOM"
+      },
+      {
+        "ordinal": 1,
+        "field": "TOP",
+        "name": "TOP"
+      },
+      {
+        "ordinal": 2,
+        "field": "CENTER",
+        "name": "CENTER"
+      },
+      {
+        "ordinal": 3,
+        "field": "LEFT",
+        "name": "LEFT"
+      },
+      {
+        "ordinal": 4,
+        "field": "RIGHT",
+        "name": "RIGHT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/multipart/HttpPostRequestDecoder$MultiPartStatus",
+    "source": "src/main/java/io/netty/handler/codec/http/multipart/HttpPostRequestDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NOTSTARTED",
+        "name": "NOTSTARTED"
+      },
+      {
+        "ordinal": 1,
+        "field": "PREAMBLE",
+        "name": "PREAMBLE"
+      },
+      {
+        "ordinal": 2,
+        "field": "HEADERDELIMITER",
+        "name": "HEADERDELIMITER"
+      },
+      {
+        "ordinal": 3,
+        "field": "DISPOSITION",
+        "name": "DISPOSITION"
+      },
+      {
+        "ordinal": 4,
+        "field": "FIELD",
+        "name": "FIELD"
+      },
+      {
+        "ordinal": 5,
+        "field": "FILEUPLOAD",
+        "name": "FILEUPLOAD"
+      },
+      {
+        "ordinal": 6,
+        "field": "MIXEDPREAMBLE",
+        "name": "MIXEDPREAMBLE"
+      },
+      {
+        "ordinal": 7,
+        "field": "MIXEDDELIMITER",
+        "name": "MIXEDDELIMITER"
+      },
+      {
+        "ordinal": 8,
+        "field": "MIXEDDISPOSITION",
+        "name": "MIXEDDISPOSITION"
+      },
+      {
+        "ordinal": 9,
+        "field": "MIXEDFILEUPLOAD",
+        "name": "MIXEDFILEUPLOAD"
+      },
+      {
+        "ordinal": 10,
+        "field": "MIXEDCLOSEDELIMITER",
+        "name": "MIXEDCLOSEDELIMITER"
+      },
+      {
+        "ordinal": 11,
+        "field": "CLOSEDELIMITER",
+        "name": "CLOSEDELIMITER"
+      },
+      {
+        "ordinal": 12,
+        "field": "PREEPILOGUE",
+        "name": "PREEPILOGUE"
+      },
+      {
+        "ordinal": 13,
+        "field": "EPILOGUE",
+        "name": "EPILOGUE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/item/EnumAction",
+    "source": "src/main/java/net/minecraft/item/EnumAction.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NONE",
+        "name": "NONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "EAT",
+        "name": "EAT"
+      },
+      {
+        "ordinal": 2,
+        "field": "DRINK",
+        "name": "DRINK"
+      },
+      {
+        "ordinal": 3,
+        "field": "BLOCK",
+        "name": "BLOCK"
+      },
+      {
+        "ordinal": 4,
+        "field": "BOW",
+        "name": "BOW"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "org/java_websocket/enums/ReadyState",
+    "source": "src/main/java/org/java_websocket/enums/ReadyState.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NOT_YET_CONNECTED",
+        "name": "NOT_YET_CONNECTED"
+      },
+      {
+        "ordinal": 1,
+        "field": "OPEN",
+        "name": "OPEN"
+      },
+      {
+        "ordinal": 2,
+        "field": "CLOSING",
+        "name": "CLOSING"
+      },
+      {
+        "ordinal": 3,
+        "field": "CLOSED",
+        "name": "CLOSED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/shaders/uniform/ShaderParameterBool",
+    "source": "src/main/java/net/optifine/shaders/uniform/ShaderParameterBool.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "IS_ALIVE",
+        "name": "IS_ALIVE"
+      },
+      {
+        "ordinal": 1,
+        "field": "IS_BURNING",
+        "name": "IS_BURNING"
+      },
+      {
+        "ordinal": 2,
+        "field": "IS_CHILD",
+        "name": "IS_CHILD"
+      },
+      {
+        "ordinal": 3,
+        "field": "IS_GLOWING",
+        "name": "IS_GLOWING"
+      },
+      {
+        "ordinal": 4,
+        "field": "IS_HURT",
+        "name": "IS_HURT"
+      },
+      {
+        "ordinal": 5,
+        "field": "IS_IN_LAVA",
+        "name": "IS_IN_LAVA"
+      },
+      {
+        "ordinal": 6,
+        "field": "IS_IN_WATER",
+        "name": "IS_IN_WATER"
+      },
+      {
+        "ordinal": 7,
+        "field": "IS_INVISIBLE",
+        "name": "IS_INVISIBLE"
+      },
+      {
+        "ordinal": 8,
+        "field": "IS_ON_GROUND",
+        "name": "IS_ON_GROUND"
+      },
+      {
+        "ordinal": 9,
+        "field": "IS_RIDDEN",
+        "name": "IS_RIDDEN"
+      },
+      {
+        "ordinal": 10,
+        "field": "IS_RIDING",
+        "name": "IS_RIDING"
+      },
+      {
+        "ordinal": 11,
+        "field": "IS_SNEAKING",
+        "name": "IS_SNEAKING"
+      },
+      {
+        "ordinal": 12,
+        "field": "IS_SPRINTING",
+        "name": "IS_SPRINTING"
+      },
+      {
+        "ordinal": 13,
+        "field": "IS_WET",
+        "name": "IS_WET"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/entity/EntityLiving$SpawnPlacementType",
+    "source": "src/main/java/net/minecraft/entity/EntityLiving.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ON_GROUND",
+        "name": "ON_GROUND"
+      },
+      {
+        "ordinal": 1,
+        "field": "IN_AIR",
+        "name": "IN_AIR"
+      },
+      {
+        "ordinal": 2,
+        "field": "IN_WATER",
+        "name": "IN_WATER"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator$Status",
+    "source": "src/main/java/net/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "PENDING",
+        "name": "PENDING"
+      },
+      {
+        "ordinal": 1,
+        "field": "COMPILING",
+        "name": "COMPILING"
+      },
+      {
+        "ordinal": 2,
+        "field": "UPLOADING",
+        "name": "UPLOADING"
+      },
+      {
+        "ordinal": 3,
+        "field": "DONE",
+        "name": "DONE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/compression/SnappyFramedDecoder$ChunkType",
+    "source": "src/main/java/io/netty/handler/codec/compression/SnappyFramedDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "STREAM_IDENTIFIER",
+        "name": "STREAM_IDENTIFIER"
+      },
+      {
+        "ordinal": 1,
+        "field": "COMPRESSED_DATA",
+        "name": "COMPRESSED_DATA"
+      },
+      {
+        "ordinal": 2,
+        "field": "UNCOMPRESSED_DATA",
+        "name": "UNCOMPRESSED_DATA"
+      },
+      {
+        "ordinal": 3,
+        "field": "RESERVED_UNSKIPPABLE",
+        "name": "RESERVED_UNSKIPPABLE"
+      },
+      {
+        "ordinal": 4,
+        "field": "RESERVED_SKIPPABLE",
+        "name": "RESERVED_SKIPPABLE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockRedSandstone$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockRedSandstone.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DEFAULT",
+        "name": "DEFAULT"
+      },
+      {
+        "ordinal": 1,
+        "field": "CHISELED",
+        "name": "CHISELED"
+      },
+      {
+        "ordinal": 2,
+        "field": "SMOOTH",
+        "name": "SMOOTH"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/client/shader/ShaderLoader$ShaderType",
+    "source": "src/main/java/net/minecraft/client/shader/ShaderLoader.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "VERTEX",
+        "name": "VERTEX"
+      },
+      {
+        "ordinal": 1,
+        "field": "FRAGMENT",
+        "name": "FRAGMENT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/play/client/C16PacketClientStatus$EnumState",
+    "source": "src/main/java/net/minecraft/network/play/client/C16PacketClientStatus.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "PERFORM_RESPAWN",
+        "name": "PERFORM_RESPAWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "REQUEST_STATS",
+        "name": "REQUEST_STATS"
+      },
+      {
+        "ordinal": 2,
+        "field": "OPEN_INVENTORY_ACHIEVEMENT",
+        "name": "OPEN_INVENTORY_ACHIEVEMENT"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedEnum3640",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedEnum3640.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "OLD",
+        "name": "OLD"
+      },
+      {
+        "ordinal": 1,
+        "field": "MAIN",
+        "name": "MAIN"
+      },
+      {
+        "ordinal": 2,
+        "field": "VANILLA",
+        "name": "VANILLA"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockLever$EnumOrientation",
+    "source": "src/main/java/net/minecraft/block/BlockLever.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DOWN_X",
+        "name": "DOWN_X"
+      },
+      {
+        "ordinal": 1,
+        "field": "EAST",
+        "name": "EAST"
+      },
+      {
+        "ordinal": 2,
+        "field": "WEST",
+        "name": "WEST"
+      },
+      {
+        "ordinal": 3,
+        "field": "SOUTH",
+        "name": "SOUTH"
+      },
+      {
+        "ordinal": 4,
+        "field": "NORTH",
+        "name": "NORTH"
+      },
+      {
+        "ordinal": 5,
+        "field": "UP_Z",
+        "name": "UP_Z"
+      },
+      {
+        "ordinal": 6,
+        "field": "UP_X",
+        "name": "UP_X"
+      },
+      {
+        "ordinal": 7,
+        "field": "DOWN_Z",
+        "name": "DOWN_Z"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "io/netty/handler/codec/spdy/SpdyFrameDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/spdy/SpdyFrameDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "READ_COMMON_HEADER",
+        "name": "READ_COMMON_HEADER"
+      },
+      {
+        "ordinal": 1,
+        "field": "READ_DATA_FRAME",
+        "name": "READ_DATA_FRAME"
+      },
+      {
+        "ordinal": 2,
+        "field": "READ_SYN_STREAM_FRAME",
+        "name": "READ_SYN_STREAM_FRAME"
+      },
+      {
+        "ordinal": 3,
+        "field": "READ_SYN_REPLY_FRAME",
+        "name": "READ_SYN_REPLY_FRAME"
+      },
+      {
+        "ordinal": 4,
+        "field": "READ_RST_STREAM_FRAME",
+        "name": "READ_RST_STREAM_FRAME"
+      },
+      {
+        "ordinal": 5,
+        "field": "READ_SETTINGS_FRAME",
+        "name": "READ_SETTINGS_FRAME"
+      },
+      {
+        "ordinal": 6,
+        "field": "READ_SETTING",
+        "name": "READ_SETTING"
+      },
+      {
+        "ordinal": 7,
+        "field": "READ_PING_FRAME",
+        "name": "READ_PING_FRAME"
+      },
+      {
+        "ordinal": 8,
+        "field": "READ_GOAWAY_FRAME",
+        "name": "READ_GOAWAY_FRAME"
+      },
+      {
+        "ordinal": 9,
+        "field": "READ_HEADERS_FRAME",
+        "name": "READ_HEADERS_FRAME"
+      },
+      {
+        "ordinal": 10,
+        "field": "READ_WINDOW_UPDATE_FRAME",
+        "name": "READ_WINDOW_UPDATE_FRAME"
+      },
+      {
+        "ordinal": 11,
+        "field": "READ_HEADER_BLOCK",
+        "name": "READ_HEADER_BLOCK"
+      },
+      {
+        "ordinal": 12,
+        "field": "DISCARD_FRAME",
+        "name": "DISCARD_FRAME"
+      },
+      {
+        "ordinal": 13,
+        "field": "FRAME_ERROR",
+        "name": "FRAME_ERROR"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockSlab$EnumBlockHalf",
+    "source": "src/main/java/net/minecraft/block/BlockSlab.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "TOP",
+        "name": "TOP"
+      },
+      {
+        "ordinal": 1,
+        "field": "BOTTOM",
+        "name": "BOTTOM"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/audio/MusicTicker$MusicType",
+    "source": "src/main/java/net/minecraft/client/audio/MusicTicker.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "MENU",
+        "name": "MENU"
+      },
+      {
+        "ordinal": 1,
+        "field": "GAME",
+        "name": "GAME"
+      },
+      {
+        "ordinal": 2,
+        "field": "CREATIVE",
+        "name": "CREATIVE"
+      },
+      {
+        "ordinal": 3,
+        "field": "CREDITS",
+        "name": "CREDITS"
+      },
+      {
+        "ordinal": 4,
+        "field": "NETHER",
+        "name": "NETHER"
+      },
+      {
+        "ordinal": 5,
+        "field": "END_BOSS",
+        "name": "END_BOSS"
+      },
+      {
+        "ordinal": 6,
+        "field": "END",
+        "name": "END"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/entity/player/EnumPlayerModelParts",
+    "source": "src/main/java/net/minecraft/entity/player/EnumPlayerModelParts.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CAPE",
+        "name": "CAPE"
+      },
+      {
+        "ordinal": 1,
+        "field": "JACKET",
+        "name": "JACKET"
+      },
+      {
+        "ordinal": 2,
+        "field": "LEFT_SLEEVE",
+        "name": "LEFT_SLEEVE"
+      },
+      {
+        "ordinal": 3,
+        "field": "RIGHT_SLEEVE",
+        "name": "RIGHT_SLEEVE"
+      },
+      {
+        "ordinal": 4,
+        "field": "LEFT_PANTS_LEG",
+        "name": "LEFT_PANTS_LEG"
+      },
+      {
+        "ordinal": 5,
+        "field": "RIGHT_PANTS_LEG",
+        "name": "RIGHT_PANTS_LEG"
+      },
+      {
+        "ordinal": 6,
+        "field": "HAT",
+        "name": "HAT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/config/Setting$Type",
+    "source": "src/main/java/com/cheatbreaker/client/config/Setting.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "STRING",
+        "name": "STRING"
+      },
+      {
+        "ordinal": 1,
+        "field": "STRING_ARRAY",
+        "name": "STRING_ARRAY"
+      },
+      {
+        "ordinal": 2,
+        "field": "FLOAT",
+        "name": "FLOAT"
+      },
+      {
+        "ordinal": 3,
+        "field": "INTEGER",
+        "name": "INTEGER"
+      },
+      {
+        "ordinal": 4,
+        "field": "DOUBLE",
+        "name": "DOUBLE"
+      },
+      {
+        "ordinal": 5,
+        "field": "BOOLEAN",
+        "name": "BOOLEAN"
+      },
+      {
+        "ordinal": 6,
+        "field": "ARRAYLIST",
+        "name": "ARRAYLIST"
+      },
+      {
+        "ordinal": 7,
+        "field": "SHORT",
+        "name": "SHORT"
+      },
+      {
+        "ordinal": 8,
+        "field": "FILE",
+        "name": "FILE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/texture/PixelType",
+    "source": "src/main/java/net/optifine/texture/PixelType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "BYTE",
+        "name": "BYTE"
+      },
+      {
+        "ordinal": 1,
+        "field": "SHORT",
+        "name": "SHORT"
+      },
+      {
+        "ordinal": 2,
+        "field": "INT",
+        "name": "INT"
+      },
+      {
+        "ordinal": 3,
+        "field": "HALF_FLOAT",
+        "name": "HALF_FLOAT"
+      },
+      {
+        "ordinal": 4,
+        "field": "FLOAT",
+        "name": "FLOAT"
+      },
+      {
+        "ordinal": 5,
+        "field": "UNSIGNED_BYTE",
+        "name": "UNSIGNED_BYTE"
+      },
+      {
+        "ordinal": 6,
+        "field": "UNSIGNED_BYTE_3_3_2",
+        "name": "UNSIGNED_BYTE_3_3_2"
+      },
+      {
+        "ordinal": 7,
+        "field": "UNSIGNED_BYTE_2_3_3_REV",
+        "name": "UNSIGNED_BYTE_2_3_3_REV"
+      },
+      {
+        "ordinal": 8,
+        "field": "UNSIGNED_SHORT",
+        "name": "UNSIGNED_SHORT"
+      },
+      {
+        "ordinal": 9,
+        "field": "UNSIGNED_SHORT_5_6_5",
+        "name": "UNSIGNED_SHORT_5_6_5"
+      },
+      {
+        "ordinal": 10,
+        "field": "UNSIGNED_SHORT_5_6_5_REV",
+        "name": "UNSIGNED_SHORT_5_6_5_REV"
+      },
+      {
+        "ordinal": 11,
+        "field": "UNSIGNED_SHORT_4_4_4_4",
+        "name": "UNSIGNED_SHORT_4_4_4_4"
+      },
+      {
+        "ordinal": 12,
+        "field": "UNSIGNED_SHORT_4_4_4_4_REV",
+        "name": "UNSIGNED_SHORT_4_4_4_4_REV"
+      },
+      {
+        "ordinal": 13,
+        "field": "UNSIGNED_SHORT_5_5_5_1",
+        "name": "UNSIGNED_SHORT_5_5_5_1"
+      },
+      {
+        "ordinal": 14,
+        "field": "UNSIGNED_SHORT_1_5_5_5_REV",
+        "name": "UNSIGNED_SHORT_1_5_5_5_REV"
+      },
+      {
+        "ordinal": 15,
+        "field": "UNSIGNED_INT",
+        "name": "UNSIGNED_INT"
+      },
+      {
+        "ordinal": 16,
+        "field": "UNSIGNED_INT_8_8_8_8",
+        "name": "UNSIGNED_INT_8_8_8_8"
+      },
+      {
+        "ordinal": 17,
+        "field": "UNSIGNED_INT_8_8_8_8_REV",
+        "name": "UNSIGNED_INT_8_8_8_8_REV"
+      },
+      {
+        "ordinal": 18,
+        "field": "UNSIGNED_INT_10_10_10_2",
+        "name": "UNSIGNED_INT_10_10_10_2"
+      },
+      {
+        "ordinal": 19,
+        "field": "UNSIGNED_INT_2_10_10_10_REV",
+        "name": "UNSIGNED_INT_2_10_10_10_REV"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/logging/LogLevel",
+    "source": "src/main/java/io/netty/handler/logging/LogLevel.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "TRACE",
+        "name": "TRACE"
+      },
+      {
+        "ordinal": 1,
+        "field": "DEBUG",
+        "name": "DEBUG"
+      },
+      {
+        "ordinal": 2,
+        "field": "INFO",
+        "name": "INFO"
+      },
+      {
+        "ordinal": 3,
+        "field": "WARN",
+        "name": "WARN"
+      },
+      {
+        "ordinal": 4,
+        "field": "ERROR",
+        "name": "ERROR"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/compression/Snappy$State",
+    "source": "src/main/java/io/netty/handler/codec/compression/Snappy.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "READY",
+        "name": "READY"
+      },
+      {
+        "ordinal": 1,
+        "field": "READING_PREAMBLE",
+        "name": "READING_PREAMBLE"
+      },
+      {
+        "ordinal": 2,
+        "field": "READING_TAG",
+        "name": "READING_TAG"
+      },
+      {
+        "ordinal": 3,
+        "field": "READING_LITERAL",
+        "name": "READING_LITERAL"
+      },
+      {
+        "ordinal": 4,
+        "field": "READING_COPY",
+        "name": "READING_COPY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedEnum0393",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedEnum0393.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "START",
+        "name": "START"
+      },
+      {
+        "ordinal": 1,
+        "field": "END",
+        "name": "END"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockFlowerPot$EnumFlowerType",
+    "source": "src/main/java/net/minecraft/block/BlockFlowerPot.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "EMPTY",
+        "name": "EMPTY"
+      },
+      {
+        "ordinal": 1,
+        "field": "POPPY",
+        "name": "POPPY"
+      },
+      {
+        "ordinal": 2,
+        "field": "BLUE_ORCHID",
+        "name": "BLUE_ORCHID"
+      },
+      {
+        "ordinal": 3,
+        "field": "ALLIUM",
+        "name": "ALLIUM"
+      },
+      {
+        "ordinal": 4,
+        "field": "HOUSTONIA",
+        "name": "HOUSTONIA"
+      },
+      {
+        "ordinal": 5,
+        "field": "RED_TULIP",
+        "name": "RED_TULIP"
+      },
+      {
+        "ordinal": 6,
+        "field": "ORANGE_TULIP",
+        "name": "ORANGE_TULIP"
+      },
+      {
+        "ordinal": 7,
+        "field": "WHITE_TULIP",
+        "name": "WHITE_TULIP"
+      },
+      {
+        "ordinal": 8,
+        "field": "PINK_TULIP",
+        "name": "PINK_TULIP"
+      },
+      {
+        "ordinal": 9,
+        "field": "OXEYE_DAISY",
+        "name": "OXEYE_DAISY"
+      },
+      {
+        "ordinal": 10,
+        "field": "DANDELION",
+        "name": "DANDELION"
+      },
+      {
+        "ordinal": 11,
+        "field": "OAK_SAPLING",
+        "name": "OAK_SAPLING"
+      },
+      {
+        "ordinal": 12,
+        "field": "SPRUCE_SAPLING",
+        "name": "SPRUCE_SAPLING"
+      },
+      {
+        "ordinal": 13,
+        "field": "BIRCH_SAPLING",
+        "name": "BIRCH_SAPLING"
+      },
+      {
+        "ordinal": 14,
+        "field": "JUNGLE_SAPLING",
+        "name": "JUNGLE_SAPLING"
+      },
+      {
+        "ordinal": 15,
+        "field": "ACACIA_SAPLING",
+        "name": "ACACIA_SAPLING"
+      },
+      {
+        "ordinal": 16,
+        "field": "DARK_OAK_SAPLING",
+        "name": "DARK_OAK_SAPLING"
+      },
+      {
+        "ordinal": 17,
+        "field": "MUSHROOM_RED",
+        "name": "MUSHROOM_RED"
+      },
+      {
+        "ordinal": 18,
+        "field": "MUSHROOM_BROWN",
+        "name": "MUSHROOM_BROWN"
+      },
+      {
+        "ordinal": 19,
+        "field": "DEAD_BUSH",
+        "name": "DEAD_BUSH"
+      },
+      {
+        "ordinal": 20,
+        "field": "FERN",
+        "name": "FERN"
+      },
+      {
+        "ordinal": 21,
+        "field": "CACTUS",
+        "name": "CACTUS"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/EnumConnectionState",
+    "source": "src/main/java/net/minecraft/network/EnumConnectionState.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "HANDSHAKING",
+        "name": "HANDSHAKING"
+      },
+      {
+        "ordinal": 1,
+        "field": "PLAY",
+        "name": "PLAY"
+      },
+      {
+        "ordinal": 2,
+        "field": "STATUS",
+        "name": "STATUS"
+      },
+      {
+        "ordinal": 3,
+        "field": "LOGIN",
+        "name": "LOGIN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/ui/module/SomeRandomAssEnum",
+    "source": "src/main/java/com/cheatbreaker/client/ui/module/SomeRandomAssEnum.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "RIGHT_BOTTOM",
+        "name": "RIGHT_BOTTOM"
+      },
+      {
+        "ordinal": 1,
+        "field": "LEFT_BOTTOM",
+        "name": "LEFT_BOTTOM"
+      },
+      {
+        "ordinal": 2,
+        "field": "RIGHT_TOP",
+        "name": "RIGHT_TOP"
+      },
+      {
+        "ordinal": 3,
+        "field": "LEFT_TOP",
+        "name": "LEFT_TOP"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/channel/socket/InternetProtocolFamily",
+    "source": "src/main/java/io/netty/channel/socket/InternetProtocolFamily.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "IPv4",
+        "name": "IPv4"
+      },
+      {
+        "ordinal": 1,
+        "field": "IPv6",
+        "name": "IPv6"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksRequestType",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksRequestType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "INIT",
+        "name": "INIT"
+      },
+      {
+        "ordinal": 1,
+        "field": "AUTH",
+        "name": "AUTH"
+      },
+      {
+        "ordinal": 2,
+        "field": "CMD",
+        "name": "CMD"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "io/netty/handler/codec/http/HttpObjectDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/http/HttpObjectDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SKIP_CONTROL_CHARS",
+        "name": "SKIP_CONTROL_CHARS"
+      },
+      {
+        "ordinal": 1,
+        "field": "READ_INITIAL",
+        "name": "READ_INITIAL"
+      },
+      {
+        "ordinal": 2,
+        "field": "READ_HEADER",
+        "name": "READ_HEADER"
+      },
+      {
+        "ordinal": 3,
+        "field": "READ_VARIABLE_LENGTH_CONTENT",
+        "name": "READ_VARIABLE_LENGTH_CONTENT"
+      },
+      {
+        "ordinal": 4,
+        "field": "READ_FIXED_LENGTH_CONTENT",
+        "name": "READ_FIXED_LENGTH_CONTENT"
+      },
+      {
+        "ordinal": 5,
+        "field": "READ_CHUNK_SIZE",
+        "name": "READ_CHUNK_SIZE"
+      },
+      {
+        "ordinal": 6,
+        "field": "READ_CHUNKED_CONTENT",
+        "name": "READ_CHUNKED_CONTENT"
+      },
+      {
+        "ordinal": 7,
+        "field": "READ_CHUNK_DELIMITER",
+        "name": "READ_CHUNK_DELIMITER"
+      },
+      {
+        "ordinal": 8,
+        "field": "READ_CHUNK_FOOTER",
+        "name": "READ_CHUNK_FOOTER"
+      },
+      {
+        "ordinal": 9,
+        "field": "BAD_MESSAGE",
+        "name": "BAD_MESSAGE"
+      },
+      {
+        "ordinal": 10,
+        "field": "UPGRADED",
+        "name": "UPGRADED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/util/cosmetic/CosmeticType",
+    "source": "src/main/java/com/cheatbreaker/client/util/cosmetic/CosmeticType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "WINGS",
+        "name": "WINGS"
+      },
+      {
+        "ordinal": 1,
+        "field": "CAPE",
+        "name": "CAPE"
+      },
+      {
+        "ordinal": 2,
+        "field": "EMOTE",
+        "name": "EMOTE"
+      },
+      {
+        "ordinal": 3,
+        "field": "ICON",
+        "name": "ICON"
+      },
+      {
+        "ordinal": 4,
+        "field": "SUBICON",
+        "name": "SUBICON"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockTrapDoor$DoorHalf",
+    "source": "src/main/java/net/minecraft/block/BlockTrapDoor.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "TOP",
+        "name": "TOP"
+      },
+      {
+        "ordinal": 1,
+        "field": "BOTTOM",
+        "name": "BOTTOM"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/vertex/VertexFormatElement$EnumUsage",
+    "source": "src/main/java/net/minecraft/client/renderer/vertex/VertexFormatElement.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "POSITION",
+        "name": "POSITION"
+      },
+      {
+        "ordinal": 1,
+        "field": "NORMAL",
+        "name": "NORMAL"
+      },
+      {
+        "ordinal": 2,
+        "field": "COLOR",
+        "name": "COLOR"
+      },
+      {
+        "ordinal": 3,
+        "field": "UV",
+        "name": "UV"
+      },
+      {
+        "ordinal": 4,
+        "field": "MATRIX",
+        "name": "MATRIX"
+      },
+      {
+        "ordinal": 5,
+        "field": "BLEND_WEIGHT",
+        "name": "BLEND_WEIGHT"
+      },
+      {
+        "ordinal": 6,
+        "field": "PADDING",
+        "name": "PADDING"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/item/ItemArmor$ArmorMaterial",
+    "source": "src/main/java/net/minecraft/item/ItemArmor.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "LEATHER",
+        "name": "LEATHER"
+      },
+      {
+        "ordinal": 1,
+        "field": "CHAIN",
+        "name": "CHAIN"
+      },
+      {
+        "ordinal": 2,
+        "field": "IRON",
+        "name": "IRON"
+      },
+      {
+        "ordinal": 3,
+        "field": "GOLD",
+        "name": "GOLD"
+      },
+      {
+        "ordinal": 4,
+        "field": "DIAMOND",
+        "name": "DIAMOND"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/stream/IStream$AuthFailureReason",
+    "source": "src/main/java/net/minecraft/client/stream/IStream.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ERROR",
+        "name": "ERROR"
+      },
+      {
+        "ordinal": 1,
+        "field": "INVALID_TOKEN",
+        "name": "INVALID_TOKEN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/module/ModuleRule",
+    "source": "src/main/java/com/cheatbreaker/client/module/ModuleRule.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "MINIMAP_NOT_ALLOWED",
+        "name": "NEUTRAL"
+      },
+      {
+        "ordinal": 1,
+        "field": "ALLOWED",
+        "name": "ALLOWED"
+      },
+      {
+        "ordinal": 2,
+        "field": "FORCED_OFF",
+        "name": "FORCED_OFF"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/CustomGuiProperties$EnumVariant",
+    "source": "src/main/java/net/optifine/CustomGuiProperties.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "HORSE",
+        "name": "HORSE"
+      },
+      {
+        "ordinal": 1,
+        "field": "DONKEY",
+        "name": "DONKEY"
+      },
+      {
+        "ordinal": 2,
+        "field": "MULE",
+        "name": "MULE"
+      },
+      {
+        "ordinal": 3,
+        "field": "LLAMA",
+        "name": "LLAMA"
+      },
+      {
+        "ordinal": 4,
+        "field": "DISPENSER",
+        "name": "DISPENSER"
+      },
+      {
+        "ordinal": 5,
+        "field": "DROPPER",
+        "name": "DROPPER"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/world/WorldSettings$GameType",
+    "source": "src/main/java/net/minecraft/world/WorldSettings.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NOT_SET",
+        "name": "NOT_SET"
+      },
+      {
+        "ordinal": 1,
+        "field": "SURVIVAL",
+        "name": "SURVIVAL"
+      },
+      {
+        "ordinal": 2,
+        "field": "CREATIVE",
+        "name": "CREATIVE"
+      },
+      {
+        "ordinal": 3,
+        "field": "ADVENTURE",
+        "name": "ADVENTURE"
+      },
+      {
+        "ordinal": 4,
+        "field": "SPECTATOR",
+        "name": "SPECTATOR"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockDoublePlant$EnumBlockHalf",
+    "source": "src/main/java/net/minecraft/block/BlockDoublePlant.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UPPER",
+        "name": "UPPER"
+      },
+      {
+        "ordinal": 1,
+        "field": "LOWER",
+        "name": "LOWER"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/base64/Base64Dialect",
+    "source": "src/main/java/io/netty/handler/codec/base64/Base64Dialect.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "STANDARD",
+        "name": "STANDARD"
+      },
+      {
+        "ordinal": 1,
+        "field": "URL_SAFE",
+        "name": "URL_SAFE"
+      },
+      {
+        "ordinal": 2,
+        "field": "ORDERED",
+        "name": "ORDERED"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "io/netty/handler/timeout/IdleState",
+    "source": "src/main/java/io/netty/handler/timeout/IdleState.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "READER_IDLE",
+        "name": "READER_IDLE"
+      },
+      {
+        "ordinal": 1,
+        "field": "WRITER_IDLE",
+        "name": "WRITER_IDLE"
+      },
+      {
+        "ordinal": 2,
+        "field": "ALL_IDLE",
+        "name": "ALL_IDLE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/audio/SoundList$SoundEntry$Type",
+    "source": "src/main/java/net/minecraft/client/audio/SoundList.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "FILE",
+        "name": "FILE"
+      },
+      {
+        "ordinal": 1,
+        "field": "SOUND_EVENT",
+        "name": "SOUND_EVENT"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/network/play/client/C19PacketResourcePackStatus$Action",
+    "source": "src/main/java/net/minecraft/network/play/client/C19PacketResourcePackStatus.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SUCCESSFULLY_LOADED",
+        "name": "SUCCESSFULLY_LOADED"
+      },
+      {
+        "ordinal": 1,
+        "field": "DECLINED",
+        "name": "DECLINED"
+      },
+      {
+        "ordinal": 2,
+        "field": "FAILED_DOWNLOAD",
+        "name": "FAILED_DOWNLOAD"
+      },
+      {
+        "ordinal": 3,
+        "field": "ACCEPTED",
+        "name": "ACCEPTED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/audio/ISound$AttenuationType",
+    "source": "src/main/java/net/minecraft/client/audio/ISound.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NONE",
+        "name": "NONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "LINEAR",
+        "name": "LINEAR"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "org/scijava/nativelib/NativeLibraryUtil$Processor",
+    "source": "src/main/java/org/scijava/nativelib/NativeLibraryUtil.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "INTEL_32",
+        "name": "INTEL_32"
+      },
+      {
+        "ordinal": 2,
+        "field": "INTEL_64",
+        "name": "INTEL_64"
+      },
+      {
+        "ordinal": 3,
+        "field": "PPC",
+        "name": "PPC"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockFlower$EnumFlowerColor",
+    "source": "src/main/java/net/minecraft/block/BlockFlower.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "YELLOW",
+        "name": "YELLOW"
+      },
+      {
+        "ordinal": 1,
+        "field": "RED",
+        "name": "RED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksAuthRequestDecoder$State",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksAuthRequestDecoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CHECK_PROTOCOL_VERSION",
+        "name": "CHECK_PROTOCOL_VERSION"
+      },
+      {
+        "ordinal": 1,
+        "field": "READ_USERNAME",
+        "name": "READ_USERNAME"
+      },
+      {
+        "ordinal": 2,
+        "field": "READ_PASSWORD",
+        "name": "READ_PASSWORD"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/enchantment/EnumEnchantmentType",
+    "source": "src/main/java/net/minecraft/enchantment/EnumEnchantmentType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ALL",
+        "name": "ALL"
+      },
+      {
+        "ordinal": 1,
+        "field": "ARMOR",
+        "name": "ARMOR"
+      },
+      {
+        "ordinal": 2,
+        "field": "ARMOR_FEET",
+        "name": "ARMOR_FEET"
+      },
+      {
+        "ordinal": 3,
+        "field": "ARMOR_LEGS",
+        "name": "ARMOR_LEGS"
+      },
+      {
+        "ordinal": 4,
+        "field": "ARMOR_TORSO",
+        "name": "ARMOR_TORSO"
+      },
+      {
+        "ordinal": 5,
+        "field": "ARMOR_HEAD",
+        "name": "ARMOR_HEAD"
+      },
+      {
+        "ordinal": 6,
+        "field": "WEAPON",
+        "name": "WEAPON"
+      },
+      {
+        "ordinal": 7,
+        "field": "DIGGER",
+        "name": "DIGGER"
+      },
+      {
+        "ordinal": 8,
+        "field": "FISHING_ROD",
+        "name": "FISHING_ROD"
+      },
+      {
+        "ordinal": 9,
+        "field": "BREAKABLE",
+        "name": "BREAKABLE"
+      },
+      {
+        "ordinal": 10,
+        "field": "BOW",
+        "name": "BOW"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/texture/TextureType",
+    "source": "src/main/java/net/optifine/texture/TextureType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "TEXTURE_1D",
+        "name": "TEXTURE_1D"
+      },
+      {
+        "ordinal": 1,
+        "field": "TEXTURE_2D",
+        "name": "TEXTURE_2D"
+      },
+      {
+        "ordinal": 2,
+        "field": "TEXTURE_3D",
+        "name": "TEXTURE_3D"
+      },
+      {
+        "ordinal": 3,
+        "field": "TEXTURE_RECTANGLE",
+        "name": "TEXTURE_RECTANGLE"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedEnum3979",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedEnum3979.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "INFO",
+        "name": "INFO"
+      },
+      {
+        "ordinal": 1,
+        "field": "ERROR",
+        "name": "ERROR"
+      },
+      {
+        "ordinal": 2,
+        "field": "NEUTRAL",
+        "name": "NEUTRAL"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockPistonExtension$EnumPistonType",
+    "source": "src/main/java/net/minecraft/block/BlockPistonExtension.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DEFAULT",
+        "name": "DEFAULT"
+      },
+      {
+        "ordinal": 1,
+        "field": "STICKY",
+        "name": "STICKY"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/play/server/S44PacketWorldBorder$Action",
+    "source": "src/main/java/net/minecraft/network/play/server/S44PacketWorldBorder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SET_SIZE",
+        "name": "SET_SIZE"
+      },
+      {
+        "ordinal": 1,
+        "field": "LERP_SIZE",
+        "name": "LERP_SIZE"
+      },
+      {
+        "ordinal": 2,
+        "field": "SET_CENTER",
+        "name": "SET_CENTER"
+      },
+      {
+        "ordinal": 3,
+        "field": "INITIALIZE",
+        "name": "INITIALIZE"
+      },
+      {
+        "ordinal": 4,
+        "field": "SET_WARNING_TIME",
+        "name": "SET_WARNING_TIME"
+      },
+      {
+        "ordinal": 5,
+        "field": "SET_WARNING_BLOCKS",
+        "name": "SET_WARNING_BLOCKS"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/expr/FunctionType",
+    "source": "src/main/java/net/optifine/expr/FunctionType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "PLUS",
+        "name": "PLUS"
+      },
+      {
+        "ordinal": 1,
+        "field": "MINUS",
+        "name": "MINUS"
+      },
+      {
+        "ordinal": 2,
+        "field": "MUL",
+        "name": "MUL"
+      },
+      {
+        "ordinal": 3,
+        "field": "DIV",
+        "name": "DIV"
+      },
+      {
+        "ordinal": 4,
+        "field": "MOD",
+        "name": "MOD"
+      },
+      {
+        "ordinal": 5,
+        "field": "NEG",
+        "name": "NEG"
+      },
+      {
+        "ordinal": 6,
+        "field": "PI",
+        "name": "PI"
+      },
+      {
+        "ordinal": 7,
+        "field": "SIN",
+        "name": "SIN"
+      },
+      {
+        "ordinal": 8,
+        "field": "COS",
+        "name": "COS"
+      },
+      {
+        "ordinal": 9,
+        "field": "ASIN",
+        "name": "ASIN"
+      },
+      {
+        "ordinal": 10,
+        "field": "ACOS",
+        "name": "ACOS"
+      },
+      {
+        "ordinal": 11,
+        "field": "TAN",
+        "name": "TAN"
+      },
+      {
+        "ordinal": 12,
+        "field": "ATAN",
+        "name": "ATAN"
+      },
+      {
+        "ordinal": 13,
+        "field": "ATAN2",
+        "name": "ATAN2"
+      },
+      {
+        "ordinal": 14,
+        "field": "TORAD",
+        "name": "TORAD"
+      },
+      {
+        "ordinal": 15,
+        "field": "TODEG",
+        "name": "TODEG"
+      },
+      {
+        "ordinal": 16,
+        "field": "MIN",
+        "name": "MIN"
+      },
+      {
+        "ordinal": 17,
+        "field": "MAX",
+        "name": "MAX"
+      },
+      {
+        "ordinal": 18,
+        "field": "CLAMP",
+        "name": "CLAMP"
+      },
+      {
+        "ordinal": 19,
+        "field": "ABS",
+        "name": "ABS"
+      },
+      {
+        "ordinal": 20,
+        "field": "FLOOR",
+        "name": "FLOOR"
+      },
+      {
+        "ordinal": 21,
+        "field": "CEIL",
+        "name": "CEIL"
+      },
+      {
+        "ordinal": 22,
+        "field": "EXP",
+        "name": "EXP"
+      },
+      {
+        "ordinal": 23,
+        "field": "FRAC",
+        "name": "FRAC"
+      },
+      {
+        "ordinal": 24,
+        "field": "LOG",
+        "name": "LOG"
+      },
+      {
+        "ordinal": 25,
+        "field": "POW",
+        "name": "POW"
+      },
+      {
+        "ordinal": 26,
+        "field": "RANDOM",
+        "name": "RANDOM"
+      },
+      {
+        "ordinal": 27,
+        "field": "ROUND",
+        "name": "ROUND"
+      },
+      {
+        "ordinal": 28,
+        "field": "SIGNUM",
+        "name": "SIGNUM"
+      },
+      {
+        "ordinal": 29,
+        "field": "SQRT",
+        "name": "SQRT"
+      },
+      {
+        "ordinal": 30,
+        "field": "FMOD",
+        "name": "FMOD"
+      },
+      {
+        "ordinal": 31,
+        "field": "TIME",
+        "name": "TIME"
+      },
+      {
+        "ordinal": 32,
+        "field": "IF",
+        "name": "IF"
+      },
+      {
+        "ordinal": 33,
+        "field": "NOT",
+        "name": "NOT"
+      },
+      {
+        "ordinal": 34,
+        "field": "AND",
+        "name": "AND"
+      },
+      {
+        "ordinal": 35,
+        "field": "OR",
+        "name": "OR"
+      },
+      {
+        "ordinal": 36,
+        "field": "GREATER",
+        "name": "GREATER"
+      },
+      {
+        "ordinal": 37,
+        "field": "GREATER_OR_EQUAL",
+        "name": "GREATER_OR_EQUAL"
+      },
+      {
+        "ordinal": 38,
+        "field": "SMALLER",
+        "name": "SMALLER"
+      },
+      {
+        "ordinal": 39,
+        "field": "SMALLER_OR_EQUAL",
+        "name": "SMALLER_OR_EQUAL"
+      },
+      {
+        "ordinal": 40,
+        "field": "EQUAL",
+        "name": "EQUAL"
+      },
+      {
+        "ordinal": 41,
+        "field": "NOT_EQUAL",
+        "name": "NOT_EQUAL"
+      },
+      {
+        "ordinal": 42,
+        "field": "BETWEEN",
+        "name": "BETWEEN"
+      },
+      {
+        "ordinal": 43,
+        "field": "EQUALS",
+        "name": "EQUALS"
+      },
+      {
+        "ordinal": 44,
+        "field": "IN",
+        "name": "IN"
+      },
+      {
+        "ordinal": 45,
+        "field": "SMOOTH",
+        "name": "SMOOTH"
+      },
+      {
+        "ordinal": 46,
+        "field": "TRUE",
+        "name": "TRUE"
+      },
+      {
+        "ordinal": 47,
+        "field": "FALSE",
+        "name": "FALSE"
+      },
+      {
+        "ordinal": 48,
+        "field": "VEC2",
+        "name": "VEC2"
+      },
+      {
+        "ordinal": 49,
+        "field": "VEC3",
+        "name": "VEC3"
+      },
+      {
+        "ordinal": 50,
+        "field": "VEC4",
+        "name": "VEC4"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/block/model/ItemModelGenerator$SpanFacing",
+    "source": "src/main/java/net/minecraft/client/renderer/block/model/ItemModelGenerator.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 1,
+        "field": "DOWN",
+        "name": "DOWN"
+      },
+      {
+        "ordinal": 2,
+        "field": "LEFT",
+        "name": "LEFT"
+      },
+      {
+        "ordinal": 3,
+        "field": "RIGHT",
+        "name": "RIGHT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/resources/model/ModelRotation",
+    "source": "src/main/java/net/minecraft/client/resources/model/ModelRotation.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "X0_Y0",
+        "name": "X0_Y0"
+      },
+      {
+        "ordinal": 1,
+        "field": "X0_Y90",
+        "name": "X0_Y90"
+      },
+      {
+        "ordinal": 2,
+        "field": "X0_Y180",
+        "name": "X0_Y180"
+      },
+      {
+        "ordinal": 3,
+        "field": "X0_Y270",
+        "name": "X0_Y270"
+      },
+      {
+        "ordinal": 4,
+        "field": "X90_Y0",
+        "name": "X90_Y0"
+      },
+      {
+        "ordinal": 5,
+        "field": "X90_Y90",
+        "name": "X90_Y90"
+      },
+      {
+        "ordinal": 6,
+        "field": "X90_Y180",
+        "name": "X90_Y180"
+      },
+      {
+        "ordinal": 7,
+        "field": "X90_Y270",
+        "name": "X90_Y270"
+      },
+      {
+        "ordinal": 8,
+        "field": "X180_Y0",
+        "name": "X180_Y0"
+      },
+      {
+        "ordinal": 9,
+        "field": "X180_Y90",
+        "name": "X180_Y90"
+      },
+      {
+        "ordinal": 10,
+        "field": "X180_Y180",
+        "name": "X180_Y180"
+      },
+      {
+        "ordinal": 11,
+        "field": "X180_Y270",
+        "name": "X180_Y270"
+      },
+      {
+        "ordinal": 12,
+        "field": "X270_Y0",
+        "name": "X270_Y0"
+      },
+      {
+        "ordinal": 13,
+        "field": "X270_Y90",
+        "name": "X270_Y90"
+      },
+      {
+        "ordinal": 14,
+        "field": "X270_Y180",
+        "name": "X270_Y180"
+      },
+      {
+        "ordinal": 15,
+        "field": "X270_Y270",
+        "name": "X270_Y270"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/stream/BroadcastController$BroadcastState",
+    "source": "src/main/java/net/minecraft/client/stream/BroadcastController.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "Uninitialized",
+        "name": "Uninitialized"
+      },
+      {
+        "ordinal": 1,
+        "field": "Initialized",
+        "name": "Initialized"
+      },
+      {
+        "ordinal": 2,
+        "field": "Authenticating",
+        "name": "Authenticating"
+      },
+      {
+        "ordinal": 3,
+        "field": "Authenticated",
+        "name": "Authenticated"
+      },
+      {
+        "ordinal": 4,
+        "field": "LoggingIn",
+        "name": "LoggingIn"
+      },
+      {
+        "ordinal": 5,
+        "field": "LoggedIn",
+        "name": "LoggedIn"
+      },
+      {
+        "ordinal": 6,
+        "field": "FindingIngestServer",
+        "name": "FindingIngestServer"
+      },
+      {
+        "ordinal": 7,
+        "field": "ReceivedIngestServers",
+        "name": "ReceivedIngestServers"
+      },
+      {
+        "ordinal": 8,
+        "field": "ReadyToBroadcast",
+        "name": "ReadyToBroadcast"
+      },
+      {
+        "ordinal": 9,
+        "field": "Starting",
+        "name": "Starting"
+      },
+      {
+        "ordinal": 10,
+        "field": "Broadcasting",
+        "name": "Broadcasting"
+      },
+      {
+        "ordinal": 11,
+        "field": "Stopping",
+        "name": "Stopping"
+      },
+      {
+        "ordinal": 12,
+        "field": "Paused",
+        "name": "Paused"
+      },
+      {
+        "ordinal": 13,
+        "field": "IngestTesting",
+        "name": "IngestTesting"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockTallGrass$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockTallGrass.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DEAD_BUSH",
+        "name": "DEAD_BUSH"
+      },
+      {
+        "ordinal": 1,
+        "field": "GRASS",
+        "name": "GRASS"
+      },
+      {
+        "ordinal": 2,
+        "field": "FERN",
+        "name": "FERN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/settings/GameSettings$Options",
+    "source": "src/main/java/net/minecraft/client/settings/GameSettings.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "INVERT_MOUSE",
+        "name": "INVERT_MOUSE"
+      },
+      {
+        "ordinal": 1,
+        "field": "SENSITIVITY",
+        "name": "SENSITIVITY"
+      },
+      {
+        "ordinal": 2,
+        "field": "FOV",
+        "name": "FOV"
+      },
+      {
+        "ordinal": 3,
+        "field": "GAMMA",
+        "name": "GAMMA"
+      },
+      {
+        "ordinal": 4,
+        "field": "SATURATION",
+        "name": "SATURATION"
+      },
+      {
+        "ordinal": 5,
+        "field": "RENDER_DISTANCE",
+        "name": "RENDER_DISTANCE"
+      },
+      {
+        "ordinal": 6,
+        "field": "VIEW_BOBBING",
+        "name": "VIEW_BOBBING"
+      },
+      {
+        "ordinal": 7,
+        "field": "ANAGLYPH",
+        "name": "ANAGLYPH"
+      },
+      {
+        "ordinal": 8,
+        "field": "FRAMERATE_LIMIT",
+        "name": "FRAMERATE_LIMIT"
+      },
+      {
+        "ordinal": 9,
+        "field": "FBO_ENABLE",
+        "name": "FBO_ENABLE"
+      },
+      {
+        "ordinal": 10,
+        "field": "RENDER_CLOUDS",
+        "name": "RENDER_CLOUDS"
+      },
+      {
+        "ordinal": 11,
+        "field": "GRAPHICS",
+        "name": "GRAPHICS"
+      },
+      {
+        "ordinal": 12,
+        "field": "AMBIENT_OCCLUSION",
+        "name": "AMBIENT_OCCLUSION"
+      },
+      {
+        "ordinal": 13,
+        "field": "GUI_SCALE",
+        "name": "GUI_SCALE"
+      },
+      {
+        "ordinal": 14,
+        "field": "PARTICLES",
+        "name": "PARTICLES"
+      },
+      {
+        "ordinal": 15,
+        "field": "CHAT_VISIBILITY",
+        "name": "CHAT_VISIBILITY"
+      },
+      {
+        "ordinal": 16,
+        "field": "CHAT_COLOR",
+        "name": "CHAT_COLOR"
+      },
+      {
+        "ordinal": 17,
+        "field": "CHAT_LINKS",
+        "name": "CHAT_LINKS"
+      },
+      {
+        "ordinal": 18,
+        "field": "CHAT_OPACITY",
+        "name": "CHAT_OPACITY"
+      },
+      {
+        "ordinal": 19,
+        "field": "CHAT_LINKS_PROMPT",
+        "name": "CHAT_LINKS_PROMPT"
+      },
+      {
+        "ordinal": 20,
+        "field": "SNOOPER_ENABLED",
+        "name": "SNOOPER_ENABLED"
+      },
+      {
+        "ordinal": 21,
+        "field": "USE_FULLSCREEN",
+        "name": "USE_FULLSCREEN"
+      },
+      {
+        "ordinal": 22,
+        "field": "ENABLE_VSYNC",
+        "name": "ENABLE_VSYNC"
+      },
+      {
+        "ordinal": 23,
+        "field": "USE_VBO",
+        "name": "USE_VBO"
+      },
+      {
+        "ordinal": 24,
+        "field": "TOUCHSCREEN",
+        "name": "TOUCHSCREEN"
+      },
+      {
+        "ordinal": 25,
+        "field": "CHAT_SCALE",
+        "name": "CHAT_SCALE"
+      },
+      {
+        "ordinal": 26,
+        "field": "CHAT_WIDTH",
+        "name": "CHAT_WIDTH"
+      },
+      {
+        "ordinal": 27,
+        "field": "CHAT_HEIGHT_FOCUSED",
+        "name": "CHAT_HEIGHT_FOCUSED"
+      },
+      {
+        "ordinal": 28,
+        "field": "CHAT_HEIGHT_UNFOCUSED",
+        "name": "CHAT_HEIGHT_UNFOCUSED"
+      },
+      {
+        "ordinal": 29,
+        "field": "MIPMAP_LEVELS",
+        "name": "MIPMAP_LEVELS"
+      },
+      {
+        "ordinal": 30,
+        "field": "FORCE_UNICODE_FONT",
+        "name": "FORCE_UNICODE_FONT"
+      },
+      {
+        "ordinal": 31,
+        "field": "STREAM_BYTES_PER_PIXEL",
+        "name": "STREAM_BYTES_PER_PIXEL"
+      },
+      {
+        "ordinal": 32,
+        "field": "STREAM_VOLUME_MIC",
+        "name": "STREAM_VOLUME_MIC"
+      },
+      {
+        "ordinal": 33,
+        "field": "STREAM_VOLUME_SYSTEM",
+        "name": "STREAM_VOLUME_SYSTEM"
+      },
+      {
+        "ordinal": 34,
+        "field": "STREAM_KBPS",
+        "name": "STREAM_KBPS"
+      },
+      {
+        "ordinal": 35,
+        "field": "STREAM_FPS",
+        "name": "STREAM_FPS"
+      },
+      {
+        "ordinal": 36,
+        "field": "STREAM_COMPRESSION",
+        "name": "STREAM_COMPRESSION"
+      },
+      {
+        "ordinal": 37,
+        "field": "STREAM_SEND_METADATA",
+        "name": "STREAM_SEND_METADATA"
+      },
+      {
+        "ordinal": 38,
+        "field": "STREAM_CHAT_ENABLED",
+        "name": "STREAM_CHAT_ENABLED"
+      },
+      {
+        "ordinal": 39,
+        "field": "STREAM_CHAT_USER_FILTER",
+        "name": "STREAM_CHAT_USER_FILTER"
+      },
+      {
+        "ordinal": 40,
+        "field": "STREAM_MIC_TOGGLE_BEHAVIOR",
+        "name": "STREAM_MIC_TOGGLE_BEHAVIOR"
+      },
+      {
+        "ordinal": 41,
+        "field": "BLOCK_ALTERNATIVES",
+        "name": "BLOCK_ALTERNATIVES"
+      },
+      {
+        "ordinal": 42,
+        "field": "REDUCED_DEBUG_INFO",
+        "name": "REDUCED_DEBUG_INFO"
+      },
+      {
+        "ordinal": 43,
+        "field": "ENTITY_SHADOWS",
+        "name": "ENTITY_SHADOWS"
+      },
+      {
+        "ordinal": 44,
+        "field": "REALMS_NOTIFICATIONS",
+        "name": "REALMS_NOTIFICATIONS"
+      },
+      {
+        "ordinal": 45,
+        "field": "FOG_FANCY",
+        "name": "FOG_FANCY"
+      },
+      {
+        "ordinal": 46,
+        "field": "FOG_START",
+        "name": "FOG_START"
+      },
+      {
+        "ordinal": 47,
+        "field": "MIPMAP_TYPE",
+        "name": "MIPMAP_TYPE"
+      },
+      {
+        "ordinal": 48,
+        "field": "SMOOTH_FPS",
+        "name": "SMOOTH_FPS"
+      },
+      {
+        "ordinal": 49,
+        "field": "CLOUDS",
+        "name": "CLOUDS"
+      },
+      {
+        "ordinal": 50,
+        "field": "CLOUD_HEIGHT",
+        "name": "CLOUD_HEIGHT"
+      },
+      {
+        "ordinal": 51,
+        "field": "TREES",
+        "name": "TREES"
+      },
+      {
+        "ordinal": 52,
+        "field": "RAIN",
+        "name": "RAIN"
+      },
+      {
+        "ordinal": 53,
+        "field": "ANIMATED_WATER",
+        "name": "ANIMATED_WATER"
+      },
+      {
+        "ordinal": 54,
+        "field": "ANIMATED_LAVA",
+        "name": "ANIMATED_LAVA"
+      },
+      {
+        "ordinal": 55,
+        "field": "ANIMATED_FIRE",
+        "name": "ANIMATED_FIRE"
+      },
+      {
+        "ordinal": 56,
+        "field": "ANIMATED_PORTAL",
+        "name": "ANIMATED_PORTAL"
+      },
+      {
+        "ordinal": 57,
+        "field": "AO_LEVEL",
+        "name": "AO_LEVEL"
+      },
+      {
+        "ordinal": 58,
+        "field": "LAGOMETER",
+        "name": "LAGOMETER"
+      },
+      {
+        "ordinal": 59,
+        "field": "SHOW_FPS",
+        "name": "SHOW_FPS"
+      },
+      {
+        "ordinal": 60,
+        "field": "AUTOSAVE_TICKS",
+        "name": "AUTOSAVE_TICKS"
+      },
+      {
+        "ordinal": 61,
+        "field": "BETTER_GRASS",
+        "name": "BETTER_GRASS"
+      },
+      {
+        "ordinal": 62,
+        "field": "ANIMATED_REDSTONE",
+        "name": "ANIMATED_REDSTONE"
+      },
+      {
+        "ordinal": 63,
+        "field": "ANIMATED_EXPLOSION",
+        "name": "ANIMATED_EXPLOSION"
+      },
+      {
+        "ordinal": 64,
+        "field": "ANIMATED_FLAME",
+        "name": "ANIMATED_FLAME"
+      },
+      {
+        "ordinal": 65,
+        "field": "ANIMATED_SMOKE",
+        "name": "ANIMATED_SMOKE"
+      },
+      {
+        "ordinal": 66,
+        "field": "WEATHER",
+        "name": "WEATHER"
+      },
+      {
+        "ordinal": 67,
+        "field": "SKY",
+        "name": "SKY"
+      },
+      {
+        "ordinal": 68,
+        "field": "STARS",
+        "name": "STARS"
+      },
+      {
+        "ordinal": 69,
+        "field": "SUN_MOON",
+        "name": "SUN_MOON"
+      },
+      {
+        "ordinal": 70,
+        "field": "VIGNETTE",
+        "name": "VIGNETTE"
+      },
+      {
+        "ordinal": 71,
+        "field": "CHUNK_UPDATES",
+        "name": "CHUNK_UPDATES"
+      },
+      {
+        "ordinal": 72,
+        "field": "CHUNK_UPDATES_DYNAMIC",
+        "name": "CHUNK_UPDATES_DYNAMIC"
+      },
+      {
+        "ordinal": 73,
+        "field": "TIME",
+        "name": "TIME"
+      },
+      {
+        "ordinal": 74,
+        "field": "CLEAR_WATER",
+        "name": "CLEAR_WATER"
+      },
+      {
+        "ordinal": 75,
+        "field": "SMOOTH_WORLD",
+        "name": "SMOOTH_WORLD"
+      },
+      {
+        "ordinal": 76,
+        "field": "VOID_PARTICLES",
+        "name": "VOID_PARTICLES"
+      },
+      {
+        "ordinal": 77,
+        "field": "WATER_PARTICLES",
+        "name": "WATER_PARTICLES"
+      },
+      {
+        "ordinal": 78,
+        "field": "RAIN_SPLASH",
+        "name": "RAIN_SPLASH"
+      },
+      {
+        "ordinal": 79,
+        "field": "PORTAL_PARTICLES",
+        "name": "PORTAL_PARTICLES"
+      },
+      {
+        "ordinal": 80,
+        "field": "POTION_PARTICLES",
+        "name": "POTION_PARTICLES"
+      },
+      {
+        "ordinal": 81,
+        "field": "FIREWORK_PARTICLES",
+        "name": "FIREWORK_PARTICLES"
+      },
+      {
+        "ordinal": 82,
+        "field": "PROFILER",
+        "name": "PROFILER"
+      },
+      {
+        "ordinal": 83,
+        "field": "DRIPPING_WATER_LAVA",
+        "name": "DRIPPING_WATER_LAVA"
+      },
+      {
+        "ordinal": 84,
+        "field": "BETTER_SNOW",
+        "name": "BETTER_SNOW"
+      },
+      {
+        "ordinal": 85,
+        "field": "FULLSCREEN_MODE",
+        "name": "FULLSCREEN_MODE"
+      },
+      {
+        "ordinal": 86,
+        "field": "ANIMATED_TERRAIN",
+        "name": "ANIMATED_TERRAIN"
+      },
+      {
+        "ordinal": 87,
+        "field": "SWAMP_COLORS",
+        "name": "SWAMP_COLORS"
+      },
+      {
+        "ordinal": 88,
+        "field": "RANDOM_ENTITIES",
+        "name": "RANDOM_ENTITIES"
+      },
+      {
+        "ordinal": 89,
+        "field": "SMOOTH_BIOMES",
+        "name": "SMOOTH_BIOMES"
+      },
+      {
+        "ordinal": 90,
+        "field": "CUSTOM_FONTS",
+        "name": "CUSTOM_FONTS"
+      },
+      {
+        "ordinal": 91,
+        "field": "CUSTOM_COLORS",
+        "name": "CUSTOM_COLORS"
+      },
+      {
+        "ordinal": 92,
+        "field": "SHOW_CAPES",
+        "name": "SHOW_CAPES"
+      },
+      {
+        "ordinal": 93,
+        "field": "CONNECTED_TEXTURES",
+        "name": "CONNECTED_TEXTURES"
+      },
+      {
+        "ordinal": 94,
+        "field": "CUSTOM_ITEMS",
+        "name": "CUSTOM_ITEMS"
+      },
+      {
+        "ordinal": 95,
+        "field": "AA_LEVEL",
+        "name": "AA_LEVEL"
+      },
+      {
+        "ordinal": 96,
+        "field": "AF_LEVEL",
+        "name": "AF_LEVEL"
+      },
+      {
+        "ordinal": 97,
+        "field": "ANIMATED_TEXTURES",
+        "name": "ANIMATED_TEXTURES"
+      },
+      {
+        "ordinal": 98,
+        "field": "NATURAL_TEXTURES",
+        "name": "NATURAL_TEXTURES"
+      },
+      {
+        "ordinal": 99,
+        "field": "EMISSIVE_TEXTURES",
+        "name": "EMISSIVE_TEXTURES"
+      },
+      {
+        "ordinal": 100,
+        "field": "HELD_ITEM_TOOLTIPS",
+        "name": "HELD_ITEM_TOOLTIPS"
+      },
+      {
+        "ordinal": 101,
+        "field": "DROPPED_ITEMS",
+        "name": "DROPPED_ITEMS"
+      },
+      {
+        "ordinal": 102,
+        "field": "LAZY_CHUNK_LOADING",
+        "name": "LAZY_CHUNK_LOADING"
+      },
+      {
+        "ordinal": 103,
+        "field": "CUSTOM_SKY",
+        "name": "CUSTOM_SKY"
+      },
+      {
+        "ordinal": 104,
+        "field": "FAST_MATH",
+        "name": "FAST_MATH"
+      },
+      {
+        "ordinal": 105,
+        "field": "FAST_RENDER",
+        "name": "FAST_RENDER"
+      },
+      {
+        "ordinal": 106,
+        "field": "TRANSLUCENT_BLOCKS",
+        "name": "TRANSLUCENT_BLOCKS"
+      },
+      {
+        "ordinal": 107,
+        "field": "DYNAMIC_FOV",
+        "name": "DYNAMIC_FOV"
+      },
+      {
+        "ordinal": 108,
+        "field": "DYNAMIC_LIGHTS",
+        "name": "DYNAMIC_LIGHTS"
+      },
+      {
+        "ordinal": 109,
+        "field": "ALTERNATE_BLOCKS",
+        "name": "ALTERNATE_BLOCKS"
+      },
+      {
+        "ordinal": 110,
+        "field": "CUSTOM_ENTITY_MODELS",
+        "name": "CUSTOM_ENTITY_MODELS"
+      },
+      {
+        "ordinal": 111,
+        "field": "ADVANCED_TOOLTIPS",
+        "name": "ADVANCED_TOOLTIPS"
+      },
+      {
+        "ordinal": 112,
+        "field": "SCREENSHOT_SIZE",
+        "name": "SCREENSHOT_SIZE"
+      },
+      {
+        "ordinal": 113,
+        "field": "CUSTOM_GUIS",
+        "name": "CUSTOM_GUIS"
+      },
+      {
+        "ordinal": 114,
+        "field": "RENDER_REGIONS",
+        "name": "RENDER_REGIONS"
+      },
+      {
+        "ordinal": 115,
+        "field": "SHOW_GL_ERRORS",
+        "name": "SHOW_GL_ERRORS"
+      },
+      {
+        "ordinal": 116,
+        "field": "SMART_ANIMATIONS",
+        "name": "SMART_ANIMATIONS"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/stream/ChatController$EnumChannelState",
+    "source": "src/main/java/net/minecraft/client/stream/ChatController.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "Created",
+        "name": "Created"
+      },
+      {
+        "ordinal": 1,
+        "field": "Connecting",
+        "name": "Connecting"
+      },
+      {
+        "ordinal": 2,
+        "field": "Connected",
+        "name": "Connected"
+      },
+      {
+        "ordinal": 3,
+        "field": "Disconnecting",
+        "name": "Disconnecting"
+      },
+      {
+        "ordinal": 4,
+        "field": "Disconnected",
+        "name": "Disconnected"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/util/Session$Type",
+    "source": "src/main/java/net/minecraft/util/Session.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "LEGACY",
+        "name": "LEGACY"
+      },
+      {
+        "ordinal": 1,
+        "field": "MOJANG",
+        "name": "MOJANG"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockBed$EnumPartType",
+    "source": "src/main/java/net/minecraft/block/BlockBed.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "HEAD",
+        "name": "HEAD"
+      },
+      {
+        "ordinal": 1,
+        "field": "FOOT",
+        "name": "FOOT"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksCmdStatus",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksCmdStatus.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SUCCESS",
+        "name": "SUCCESS"
+      },
+      {
+        "ordinal": 1,
+        "field": "FAILURE",
+        "name": "FAILURE"
+      },
+      {
+        "ordinal": 2,
+        "field": "FORBIDDEN",
+        "name": "FORBIDDEN"
+      },
+      {
+        "ordinal": 3,
+        "field": "NETWORK_UNREACHABLE",
+        "name": "NETWORK_UNREACHABLE"
+      },
+      {
+        "ordinal": 4,
+        "field": "HOST_UNREACHABLE",
+        "name": "HOST_UNREACHABLE"
+      },
+      {
+        "ordinal": 5,
+        "field": "REFUSED",
+        "name": "REFUSED"
+      },
+      {
+        "ordinal": 6,
+        "field": "TTL_EXPIRED",
+        "name": "TTL_EXPIRED"
+      },
+      {
+        "ordinal": 7,
+        "field": "COMMAND_NOT_SUPPORTED",
+        "name": "COMMAND_NOT_SUPPORTED"
+      },
+      {
+        "ordinal": 8,
+        "field": "ADDRESS_NOT_SUPPORTED",
+        "name": "ADDRESS_NOT_SUPPORTED"
+      },
+      {
+        "ordinal": 9,
+        "field": "UNASSIGNED",
+        "name": "UNASSIGNED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/entity/passive/EntityRabbit$EnumMoveType",
+    "source": "src/main/java/net/minecraft/entity/passive/EntityRabbit.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NONE",
+        "name": "NONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "HOP",
+        "name": "HOP"
+      },
+      {
+        "ordinal": 2,
+        "field": "STEP",
+        "name": "STEP"
+      },
+      {
+        "ordinal": 3,
+        "field": "SPRINT",
+        "name": "SPRINT"
+      },
+      {
+        "ordinal": 4,
+        "field": "ATTACK",
+        "name": "ATTACK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/BlockDir",
+    "source": "src/main/java/net/optifine/BlockDir.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DOWN",
+        "name": "DOWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 2,
+        "field": "NORTH",
+        "name": "NORTH"
+      },
+      {
+        "ordinal": 3,
+        "field": "SOUTH",
+        "name": "SOUTH"
+      },
+      {
+        "ordinal": 4,
+        "field": "WEST",
+        "name": "WEST"
+      },
+      {
+        "ordinal": 5,
+        "field": "EAST",
+        "name": "EAST"
+      },
+      {
+        "ordinal": 6,
+        "field": "NORTH_WEST",
+        "name": "NORTH_WEST"
+      },
+      {
+        "ordinal": 7,
+        "field": "NORTH_EAST",
+        "name": "NORTH_EAST"
+      },
+      {
+        "ordinal": 8,
+        "field": "SOUTH_WEST",
+        "name": "SOUTH_WEST"
+      },
+      {
+        "ordinal": 9,
+        "field": "SOUTH_EAST",
+        "name": "SOUTH_EAST"
+      },
+      {
+        "ordinal": 10,
+        "field": "DOWN_NORTH",
+        "name": "DOWN_NORTH"
+      },
+      {
+        "ordinal": 11,
+        "field": "DOWN_SOUTH",
+        "name": "DOWN_SOUTH"
+      },
+      {
+        "ordinal": 12,
+        "field": "UP_NORTH",
+        "name": "UP_NORTH"
+      },
+      {
+        "ordinal": 13,
+        "field": "UP_SOUTH",
+        "name": "UP_SOUTH"
+      },
+      {
+        "ordinal": 14,
+        "field": "DOWN_WEST",
+        "name": "DOWN_WEST"
+      },
+      {
+        "ordinal": 15,
+        "field": "DOWN_EAST",
+        "name": "DOWN_EAST"
+      },
+      {
+        "ordinal": 16,
+        "field": "UP_WEST",
+        "name": "UP_WEST"
+      },
+      {
+        "ordinal": 17,
+        "field": "UP_EAST",
+        "name": "UP_EAST"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockDoublePlant$EnumPlantType",
+    "source": "src/main/java/net/minecraft/block/BlockDoublePlant.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "SUNFLOWER",
+        "name": "SUNFLOWER"
+      },
+      {
+        "ordinal": 1,
+        "field": "SYRINGA",
+        "name": "SYRINGA"
+      },
+      {
+        "ordinal": 2,
+        "field": "GRASS",
+        "name": "GRASS"
+      },
+      {
+        "ordinal": 3,
+        "field": "FERN",
+        "name": "FERN"
+      },
+      {
+        "ordinal": 4,
+        "field": "ROSE",
+        "name": "ROSE"
+      },
+      {
+        "ordinal": 5,
+        "field": "PAEONIA",
+        "name": "PAEONIA"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/tileentity/TileEntityBanner$EnumBannerPattern",
+    "source": "src/main/java/net/minecraft/tileentity/TileEntityBanner.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "BASE",
+        "name": "BASE"
+      },
+      {
+        "ordinal": 1,
+        "field": "SQUARE_BOTTOM_LEFT",
+        "name": "SQUARE_BOTTOM_LEFT"
+      },
+      {
+        "ordinal": 2,
+        "field": "SQUARE_BOTTOM_RIGHT",
+        "name": "SQUARE_BOTTOM_RIGHT"
+      },
+      {
+        "ordinal": 3,
+        "field": "SQUARE_TOP_LEFT",
+        "name": "SQUARE_TOP_LEFT"
+      },
+      {
+        "ordinal": 4,
+        "field": "SQUARE_TOP_RIGHT",
+        "name": "SQUARE_TOP_RIGHT"
+      },
+      {
+        "ordinal": 5,
+        "field": "STRIPE_BOTTOM",
+        "name": "STRIPE_BOTTOM"
+      },
+      {
+        "ordinal": 6,
+        "field": "STRIPE_TOP",
+        "name": "STRIPE_TOP"
+      },
+      {
+        "ordinal": 7,
+        "field": "STRIPE_LEFT",
+        "name": "STRIPE_LEFT"
+      },
+      {
+        "ordinal": 8,
+        "field": "STRIPE_RIGHT",
+        "name": "STRIPE_RIGHT"
+      },
+      {
+        "ordinal": 9,
+        "field": "STRIPE_CENTER",
+        "name": "STRIPE_CENTER"
+      },
+      {
+        "ordinal": 10,
+        "field": "STRIPE_MIDDLE",
+        "name": "STRIPE_MIDDLE"
+      },
+      {
+        "ordinal": 11,
+        "field": "STRIPE_DOWNRIGHT",
+        "name": "STRIPE_DOWNRIGHT"
+      },
+      {
+        "ordinal": 12,
+        "field": "STRIPE_DOWNLEFT",
+        "name": "STRIPE_DOWNLEFT"
+      },
+      {
+        "ordinal": 13,
+        "field": "STRIPE_SMALL",
+        "name": "STRIPE_SMALL"
+      },
+      {
+        "ordinal": 14,
+        "field": "CROSS",
+        "name": "CROSS"
+      },
+      {
+        "ordinal": 15,
+        "field": "STRAIGHT_CROSS",
+        "name": "STRAIGHT_CROSS"
+      },
+      {
+        "ordinal": 16,
+        "field": "TRIANGLE_BOTTOM",
+        "name": "TRIANGLE_BOTTOM"
+      },
+      {
+        "ordinal": 17,
+        "field": "TRIANGLE_TOP",
+        "name": "TRIANGLE_TOP"
+      },
+      {
+        "ordinal": 18,
+        "field": "TRIANGLES_BOTTOM",
+        "name": "TRIANGLES_BOTTOM"
+      },
+      {
+        "ordinal": 19,
+        "field": "TRIANGLES_TOP",
+        "name": "TRIANGLES_TOP"
+      },
+      {
+        "ordinal": 20,
+        "field": "DIAGONAL_LEFT",
+        "name": "DIAGONAL_LEFT"
+      },
+      {
+        "ordinal": 21,
+        "field": "DIAGONAL_RIGHT",
+        "name": "DIAGONAL_RIGHT"
+      },
+      {
+        "ordinal": 22,
+        "field": "DIAGONAL_LEFT_MIRROR",
+        "name": "DIAGONAL_LEFT_MIRROR"
+      },
+      {
+        "ordinal": 23,
+        "field": "DIAGONAL_RIGHT_MIRROR",
+        "name": "DIAGONAL_RIGHT_MIRROR"
+      },
+      {
+        "ordinal": 24,
+        "field": "CIRCLE_MIDDLE",
+        "name": "CIRCLE_MIDDLE"
+      },
+      {
+        "ordinal": 25,
+        "field": "RHOMBUS_MIDDLE",
+        "name": "RHOMBUS_MIDDLE"
+      },
+      {
+        "ordinal": 26,
+        "field": "HALF_VERTICAL",
+        "name": "HALF_VERTICAL"
+      },
+      {
+        "ordinal": 27,
+        "field": "HALF_HORIZONTAL",
+        "name": "HALF_HORIZONTAL"
+      },
+      {
+        "ordinal": 28,
+        "field": "HALF_VERTICAL_MIRROR",
+        "name": "HALF_VERTICAL_MIRROR"
+      },
+      {
+        "ordinal": 29,
+        "field": "HALF_HORIZONTAL_MIRROR",
+        "name": "HALF_HORIZONTAL_MIRROR"
+      },
+      {
+        "ordinal": 30,
+        "field": "BORDER",
+        "name": "BORDER"
+      },
+      {
+        "ordinal": 31,
+        "field": "CURLY_BORDER",
+        "name": "CURLY_BORDER"
+      },
+      {
+        "ordinal": 32,
+        "field": "CREEPER",
+        "name": "CREEPER"
+      },
+      {
+        "ordinal": 33,
+        "field": "GRADIENT",
+        "name": "GRADIENT"
+      },
+      {
+        "ordinal": 34,
+        "field": "GRADIENT_UP",
+        "name": "GRADIENT_UP"
+      },
+      {
+        "ordinal": 35,
+        "field": "BRICKS",
+        "name": "BRICKS"
+      },
+      {
+        "ordinal": 36,
+        "field": "SKULL",
+        "name": "SKULL"
+      },
+      {
+        "ordinal": 37,
+        "field": "FLOWER",
+        "name": "FLOWER"
+      },
+      {
+        "ordinal": 38,
+        "field": "MOJANG",
+        "name": "MOJANG"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/play/server/S42PacketCombatEvent$Event",
+    "source": "src/main/java/net/minecraft/network/play/server/S42PacketCombatEvent.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "ENTER_COMBAT",
+        "name": "ENTER_COMBAT"
+      },
+      {
+        "ordinal": 1,
+        "field": "END_COMBAT",
+        "name": "END_COMBAT"
+      },
+      {
+        "ordinal": 2,
+        "field": "ENTITY_DIED",
+        "name": "ENTITY_DIED"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/item/Item$ToolMaterial",
+    "source": "src/main/java/net/minecraft/item/Item.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "WOOD",
+        "name": "WOOD"
+      },
+      {
+        "ordinal": 1,
+        "field": "STONE",
+        "name": "STONE"
+      },
+      {
+        "ordinal": 2,
+        "field": "IRON",
+        "name": "IRON"
+      },
+      {
+        "ordinal": 3,
+        "field": "EMERALD",
+        "name": "EMERALD"
+      },
+      {
+        "ordinal": 4,
+        "field": "GOLD",
+        "name": "GOLD"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/http/HttpContentEncoder$State",
+    "source": "src/main/java/io/netty/handler/codec/http/HttpContentEncoder.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "PASS_THROUGH",
+        "name": "PASS_THROUGH"
+      },
+      {
+        "ordinal": 1,
+        "field": "AWAIT_HEADERS",
+        "name": "AWAIT_HEADERS"
+      },
+      {
+        "ordinal": 2,
+        "field": "AWAIT_CONTENT",
+        "name": "AWAIT_CONTENT"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/optifine/shaders/ProgramStage",
+    "source": "src/main/java/net/optifine/shaders/ProgramStage.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NONE",
+        "name": "NONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "SHADOW",
+        "name": "SHADOW"
+      },
+      {
+        "ordinal": 2,
+        "field": "GBUFFERS",
+        "name": "GBUFFERS"
+      },
+      {
+        "ordinal": 3,
+        "field": "DEFERRED",
+        "name": "DEFERRED"
+      },
+      {
+        "ordinal": 4,
+        "field": "COMPOSITE",
+        "name": "COMPOSITE"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/renderer/BlockModelRenderer$Orientation",
+    "source": "src/main/java/net/minecraft/client/renderer/BlockModelRenderer.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DOWN",
+        "name": "DOWN"
+      },
+      {
+        "ordinal": 1,
+        "field": "UP",
+        "name": "UP"
+      },
+      {
+        "ordinal": 2,
+        "field": "NORTH",
+        "name": "NORTH"
+      },
+      {
+        "ordinal": 3,
+        "field": "SOUTH",
+        "name": "SOUTH"
+      },
+      {
+        "ordinal": 4,
+        "field": "WEST",
+        "name": "WEST"
+      },
+      {
+        "ordinal": 5,
+        "field": "EAST",
+        "name": "EAST"
+      },
+      {
+        "ordinal": 6,
+        "field": "FLIP_DOWN",
+        "name": "FLIP_DOWN"
+      },
+      {
+        "ordinal": 7,
+        "field": "FLIP_UP",
+        "name": "FLIP_UP"
+      },
+      {
+        "ordinal": 8,
+        "field": "FLIP_NORTH",
+        "name": "FLIP_NORTH"
+      },
+      {
+        "ordinal": 9,
+        "field": "FLIP_SOUTH",
+        "name": "FLIP_SOUTH"
+      },
+      {
+        "ordinal": 10,
+        "field": "FLIP_WEST",
+        "name": "FLIP_WEST"
+      },
+      {
+        "ordinal": 11,
+        "field": "FLIP_EAST",
+        "name": "FLIP_EAST"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/texture/PixelFormat",
+    "source": "src/main/java/net/optifine/texture/PixelFormat.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "RED",
+        "name": "RED"
+      },
+      {
+        "ordinal": 1,
+        "field": "RG",
+        "name": "RG"
+      },
+      {
+        "ordinal": 2,
+        "field": "RGB",
+        "name": "RGB"
+      },
+      {
+        "ordinal": 3,
+        "field": "BGR",
+        "name": "BGR"
+      },
+      {
+        "ordinal": 4,
+        "field": "RGBA",
+        "name": "RGBA"
+      },
+      {
+        "ordinal": 5,
+        "field": "BGRA",
+        "name": "BGRA"
+      },
+      {
+        "ordinal": 6,
+        "field": "RED_INTEGER",
+        "name": "RED_INTEGER"
+      },
+      {
+        "ordinal": 7,
+        "field": "RG_INTEGER",
+        "name": "RG_INTEGER"
+      },
+      {
+        "ordinal": 8,
+        "field": "RGB_INTEGER",
+        "name": "RGB_INTEGER"
+      },
+      {
+        "ordinal": 9,
+        "field": "BGR_INTEGER",
+        "name": "BGR_INTEGER"
+      },
+      {
+        "ordinal": 10,
+        "field": "RGBA_INTEGER",
+        "name": "RGBA_INTEGER"
+      },
+      {
+        "ordinal": 11,
+        "field": "BGRA_INTEGER",
+        "name": "BGRA_INTEGER"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/channel/rxtx/RxtxChannelConfig$Databits",
+    "source": "src/main/java/io/netty/channel/rxtx/RxtxChannelConfig.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "DATABITS_5",
+        "name": "DATABITS_5"
+      },
+      {
+        "ordinal": 1,
+        "field": "DATABITS_6",
+        "name": "DATABITS_6"
+      },
+      {
+        "ordinal": 2,
+        "field": "DATABITS_7",
+        "name": "DATABITS_7"
+      },
+      {
+        "ordinal": 3,
+        "field": "DATABITS_8",
+        "name": "DATABITS_8"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/network/play/client/C07PacketPlayerDigging$Action",
+    "source": "src/main/java/net/minecraft/network/play/client/C07PacketPlayerDigging.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "START_DESTROY_BLOCK",
+        "name": "START_DESTROY_BLOCK"
+      },
+      {
+        "ordinal": 1,
+        "field": "ABORT_DESTROY_BLOCK",
+        "name": "ABORT_DESTROY_BLOCK"
+      },
+      {
+        "ordinal": 2,
+        "field": "STOP_DESTROY_BLOCK",
+        "name": "STOP_DESTROY_BLOCK"
+      },
+      {
+        "ordinal": 3,
+        "field": "DROP_ALL_ITEMS",
+        "name": "DROP_ALL_ITEMS"
+      },
+      {
+        "ordinal": 4,
+        "field": "DROP_ITEM",
+        "name": "DROP_ITEM"
+      },
+      {
+        "ordinal": 5,
+        "field": "RELEASE_USE_ITEM",
+        "name": "RELEASE_USE_ITEM"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/optifine/entity/model/anim/RenderEntityParameterFloat",
+    "source": "src/main/java/net/optifine/entity/model/anim/RenderEntityParameterFloat.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "LIMB_SWING",
+        "name": "LIMB_SWING"
+      },
+      {
+        "ordinal": 1,
+        "field": "LIMB_SWING_SPEED",
+        "name": "LIMB_SWING_SPEED"
+      },
+      {
+        "ordinal": 2,
+        "field": "AGE",
+        "name": "AGE"
+      },
+      {
+        "ordinal": 3,
+        "field": "HEAD_YAW",
+        "name": "HEAD_YAW"
+      },
+      {
+        "ordinal": 4,
+        "field": "HEAD_PITCH",
+        "name": "HEAD_PITCH"
+      },
+      {
+        "ordinal": 5,
+        "field": "SCALE",
+        "name": "SCALE"
+      },
+      {
+        "ordinal": 6,
+        "field": "HEALTH",
+        "name": "HEALTH"
+      },
+      {
+        "ordinal": 7,
+        "field": "HURT_TIME",
+        "name": "HURT_TIME"
+      },
+      {
+        "ordinal": 8,
+        "field": "IDLE_TIME",
+        "name": "IDLE_TIME"
+      },
+      {
+        "ordinal": 9,
+        "field": "MAX_HEALTH",
+        "name": "MAX_HEALTH"
+      },
+      {
+        "ordinal": 10,
+        "field": "MOVE_FORWARD",
+        "name": "MOVE_FORWARD"
+      },
+      {
+        "ordinal": 11,
+        "field": "MOVE_STRAFING",
+        "name": "MOVE_STRAFING"
+      },
+      {
+        "ordinal": 12,
+        "field": "PARTIAL_TICKS",
+        "name": "PARTIAL_TICKS"
+      },
+      {
+        "ordinal": 13,
+        "field": "POS_X",
+        "name": "POS_X"
+      },
+      {
+        "ordinal": 14,
+        "field": "POS_Y",
+        "name": "POS_Y"
+      },
+      {
+        "ordinal": 15,
+        "field": "POS_Z",
+        "name": "POS_Z"
+      },
+      {
+        "ordinal": 16,
+        "field": "REVENGE_TIME",
+        "name": "REVENGE_TIME"
+      },
+      {
+        "ordinal": 17,
+        "field": "SWING_PROGRESS",
+        "name": "SWING_PROGRESS"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "net/minecraft/block/BlockWall$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockWall.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NORMAL",
+        "name": "NORMAL"
+      },
+      {
+        "ordinal": 1,
+        "field": "MOSSY",
+        "name": "MOSSY"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedEnum4287",
+    "source": "src/main/java/recovered/unidentified/UnidentifiedEnum4287.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "MOVE_UP",
+        "name": "MOVE_UP"
+      },
+      {
+        "ordinal": 1,
+        "field": "MOVE_DOWN",
+        "name": "MOVE_DOWN"
+      },
+      {
+        "ordinal": 2,
+        "field": "MOVE_BACK",
+        "name": "MOVE_BACK"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "org/java_websocket/enums/Role",
+    "source": "src/main/java/org/java_websocket/enums/Role.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "CLIENT",
+        "name": "CLIENT"
+      },
+      {
+        "ordinal": 1,
+        "field": "SERVER",
+        "name": "SERVER"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/stream/IngestServerTester$IngestTestState",
+    "source": "src/main/java/net/minecraft/client/stream/IngestServerTester.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "Uninitalized",
+        "name": "Uninitalized"
+      },
+      {
+        "ordinal": 1,
+        "field": "Starting",
+        "name": "Starting"
+      },
+      {
+        "ordinal": 2,
+        "field": "ConnectingToServer",
+        "name": "ConnectingToServer"
+      },
+      {
+        "ordinal": 3,
+        "field": "TestingServer",
+        "name": "TestingServer"
+      },
+      {
+        "ordinal": 4,
+        "field": "DoneTestingServer",
+        "name": "DoneTestingServer"
+      },
+      {
+        "ordinal": 5,
+        "field": "Finished",
+        "name": "Finished"
+      },
+      {
+        "ordinal": 6,
+        "field": "Cancelling",
+        "name": "Cancelling"
+      },
+      {
+        "ordinal": 7,
+        "field": "Cancelled",
+        "name": "Cancelled"
+      },
+      {
+        "ordinal": 8,
+        "field": "Failed",
+        "name": "Failed"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/block/BlockStoneSlab$EnumType",
+    "source": "src/main/java/net/minecraft/block/BlockStoneSlab.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "STONE",
+        "name": "STONE"
+      },
+      {
+        "ordinal": 1,
+        "field": "SAND",
+        "name": "SAND"
+      },
+      {
+        "ordinal": 2,
+        "field": "WOOD",
+        "name": "WOOD"
+      },
+      {
+        "ordinal": 3,
+        "field": "COBBLESTONE",
+        "name": "COBBLESTONE"
+      },
+      {
+        "ordinal": 4,
+        "field": "BRICK",
+        "name": "BRICK"
+      },
+      {
+        "ordinal": 5,
+        "field": "SMOOTHBRICK",
+        "name": "SMOOTHBRICK"
+      },
+      {
+        "ordinal": 6,
+        "field": "NETHERBRICK",
+        "name": "NETHERBRICK"
+      },
+      {
+        "ordinal": 7,
+        "field": "QUARTZ",
+        "name": "QUARTZ"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "io/netty/handler/codec/socks/SocksAddressType",
+    "source": "src/main/java/io/netty/handler/codec/socks/SocksAddressType.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "IPv4",
+        "name": "IPv4"
+      },
+      {
+        "ordinal": 1,
+        "field": "DOMAIN",
+        "name": "DOMAIN"
+      },
+      {
+        "ordinal": 2,
+        "field": "IPv6",
+        "name": "IPv6"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/jagrosh/discordipc/entities/User$DefaultAvatar",
+    "source": "src/main/java/com/jagrosh/discordipc/entities/User$DefaultAvatar.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "BLURPLE",
+        "name": "BLURPLE"
+      },
+      {
+        "ordinal": 1,
+        "field": "GREY",
+        "name": "GREY"
+      },
+      {
+        "ordinal": 2,
+        "field": "GREEN",
+        "name": "GREEN"
+      },
+      {
+        "ordinal": 3,
+        "field": "ORANGE",
+        "name": "ORANGE"
+      },
+      {
+        "ordinal": 4,
+        "field": "RED",
+        "name": "RED"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/cheatbreaker/client/event/EventPhase",
+    "source": "src/main/java/com/cheatbreaker/client/event/EventPhase.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "START",
+        "name": "START"
+      },
+      {
+        "ordinal": 1,
+        "field": "END",
+        "name": "END"
+      }
+    ],
+    "order_changed": false
+  },
+  {
+    "class": "com/jagrosh/discordipc/entities/Packet$OpCode",
+    "source": "src/main/java/com/jagrosh/discordipc/entities/Packet$OpCode.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "HANDSHAKE",
+        "name": "HANDSHAKE"
+      },
+      {
+        "ordinal": 1,
+        "field": "FRAME",
+        "name": "FRAME"
+      },
+      {
+        "ordinal": 2,
+        "field": "CLOSE",
+        "name": "CLOSE"
+      },
+      {
+        "ordinal": 3,
+        "field": "PING",
+        "name": "PING"
+      },
+      {
+        "ordinal": 4,
+        "field": "PONG",
+        "name": "PONG"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "net/minecraft/client/gui/stream/GuiStreamUnavailable$Reason",
+    "source": "src/main/java/net/minecraft/client/gui/stream/GuiStreamUnavailable.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NO_FBO",
+        "name": "NO_FBO"
+      },
+      {
+        "ordinal": 1,
+        "field": "LIBRARY_ARCH_MISMATCH",
+        "name": "LIBRARY_ARCH_MISMATCH"
+      },
+      {
+        "ordinal": 2,
+        "field": "LIBRARY_FAILURE",
+        "name": "LIBRARY_FAILURE"
+      },
+      {
+        "ordinal": 3,
+        "field": "UNSUPPORTED_OS_WINDOWS",
+        "name": "UNSUPPORTED_OS_WINDOWS"
+      },
+      {
+        "ordinal": 4,
+        "field": "UNSUPPORTED_OS_MAC",
+        "name": "UNSUPPORTED_OS_MAC"
+      },
+      {
+        "ordinal": 5,
+        "field": "UNSUPPORTED_OS_OTHER",
+        "name": "UNSUPPORTED_OS_OTHER"
+      },
+      {
+        "ordinal": 6,
+        "field": "ACCOUNT_NOT_MIGRATED",
+        "name": "ACCOUNT_NOT_MIGRATED"
+      },
+      {
+        "ordinal": 7,
+        "field": "ACCOUNT_NOT_BOUND",
+        "name": "ACCOUNT_NOT_BOUND"
+      },
+      {
+        "ordinal": 8,
+        "field": "FAILED_TWITCH_AUTH",
+        "name": "FAILED_TWITCH_AUTH"
+      },
+      {
+        "ordinal": 9,
+        "field": "FAILED_TWITCH_AUTH_ERROR",
+        "name": "FAILED_TWITCH_AUTH_ERROR"
+      },
+      {
+        "ordinal": 10,
+        "field": "INITIALIZATION_FAILURE",
+        "name": "INITIALIZATION_FAILURE"
+      },
+      {
+        "ordinal": 11,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  },
+  {
+    "class": "com/jagrosh/discordipc/IPCClient$Event",
+    "source": "src/main/java/com/jagrosh/discordipc/IPCClient$Event.java",
+    "original_constants": [
+      {
+        "ordinal": 0,
+        "field": "NULL",
+        "name": "NULL"
+      },
+      {
+        "ordinal": 1,
+        "field": "READY",
+        "name": "READY"
+      },
+      {
+        "ordinal": 2,
+        "field": "ERROR",
+        "name": "ERROR"
+      },
+      {
+        "ordinal": 3,
+        "field": "ACTIVITY_JOIN",
+        "name": "ACTIVITY_JOIN"
+      },
+      {
+        "ordinal": 4,
+        "field": "ACTIVITY_SPECTATE",
+        "name": "ACTIVITY_SPECTATE"
+      },
+      {
+        "ordinal": 5,
+        "field": "ACTIVITY_JOIN_REQUEST",
+        "name": "ACTIVITY_JOIN_REQUEST"
+      },
+      {
+        "ordinal": 6,
+        "field": "UNKNOWN",
+        "name": "UNKNOWN"
+      }
+    ],
+    "order_changed": true
+  }
+]

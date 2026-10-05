@@ -1,0 +1,11 @@
+{
+  "class": "net/minecraft/entity/passive/EntityVillager",
+  "ordered_fields": [
+    "careerId",
+    "careerLevel",
+    "recoveredField3243",
+    "recoveredField3245",
+    "villagerInventory"
+  ],
+  "evidence": "Same-version OptiFine FieldLocatorTypes requires contiguous int,int,boolean,boolean,InventoryBasic career sequence. Only plain declarations moved; sole existing instance initializer preserved."
+}

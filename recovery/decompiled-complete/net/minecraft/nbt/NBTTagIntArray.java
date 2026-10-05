@@ -1,0 +1,78 @@
+package net.minecraft.nbt;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.util.Arrays;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.optifine.expr.FunctionFloat;
+
+public class NBTTagIntArray extends NBTBase {
+   public FunctionFloat field_0002;
+   public int[] intArray;
+   public ModelResourceLocation field_0000;
+
+   @Override
+   public byte getId() {
+      return 11;
+   }
+
+   @Override
+   public void write(DataOutput var1) {
+      var1.writeInt(this.intArray.length);
+
+      for (int var2 = 0; var2 < this.intArray.length; var2++) {
+         var1.writeInt(this.intArray[var2]);
+      }
+   }
+
+   @Override
+   public String toString() {
+      String var1 = "[";
+
+      for (int var5 : this.intArray) {
+         var1 = var1 + var5 + ",";
+      }
+
+      return var1 + "]";
+   }
+
+   @Override
+   public int hashCode() {
+      return super.hashCode() ^ Arrays.hashCode(this.intArray);
+   }
+
+   public int[] getIntArray() {
+      return this.intArray;
+   }
+
+   @Override
+   public boolean equals(Object var1) {
+      return super.equals(var1) ? Arrays.equals(this.intArray, ((NBTTagIntArray)var1).intArray) : false;
+   }
+
+   @Override
+   public void read(DataInput var1, int var2, NBTSizeTracker var3) {
+      var3.read(-4705717638767046200L & 730112243L);
+      int var4 = var1.readInt();
+      var3.read(32 * var4);
+      this.intArray = new int[var4];
+
+      for (int var5 = 0; var5 < var4; var5++) {
+         this.intArray[var5] = var1.readInt();
+      }
+   }
+
+   public NBTTagIntArray(int[] var1) {
+      this.intArray = var1;
+   }
+
+   public NBTTagIntArray() {
+   }
+
+   @Override
+   public NBTBase copy() {
+      int[] var1 = new int[this.intArray.length];
+      System.arraycopy(this.intArray, 0, var1, 0, this.intArray.length);
+      return new NBTTagIntArray(var1);
+   }
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0201",
+    "enum_types": [
+      "net/minecraft/scoreboard/Team$EnumVisible"
+    ],
+    "users": [
+      "net/minecraft/client/renderer/entity/RendererLivingEntity"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4617",
+    "enum_types": [
+      "net/minecraft/util/EnumFacing$Axis"
+    ],
+    "users": [
+      "net/minecraft/tileentity/TileEntityPiston"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1135",
+    "enum_types": [
+      "recovered/unidentified/UnidentifiedEnum4287"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4240"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1092",
+    "enum_types": [
+      "com/cheatbreaker/client/config/Setting$Type"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass1388"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1132",
+    "enum_types": [
+      "com/cheatbreaker/client/config/Setting$Type"
+    ],
+    "users": [
+      "com/cheatbreaker/client/ui/element/type/custom/WorldTimeElement"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4502",
+    "enum_types": [
+      "com/cheatbreaker/client/ui/module/CBPositionEnum"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0105"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4723",
+    "enum_types": [
+      "com/cheatbreaker/client/config/Setting$Type"
+    ],
+    "users": [
+      "com/cheatbreaker/client/ui/element/module/ModuleListElement"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass5030",
+    "enum_types": [
+      "net/minecraft/util/EnumFacing"
+    ],
+    "users": [
+      "com/cheatbreaker/client/module/type/BlockOverlayModule"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4776",
+    "enum_types": [
+      "net/minecraft/item/EnumAction"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4786"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3858",
+    "enum_types": [
+      "com/cheatbreaker/client/config/Setting$Type"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass4179"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1096",
+    "enum_types": [
+      "com/cheatbreaker/client/config/Setting$Type"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass3584"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1036",
+    "enum_types": [
+      "net/minecraft/item/EnumAction"
+    ],
+    "users": [
+      "net/minecraft/client/renderer/ItemRenderer"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1104",
+    "enum_types": [
+      "net/minecraft/util/EnumFacing$Axis"
+    ],
+    "users": [
+      "net/minecraft/block/BlockQuartz"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4343",
+    "enum_types": [
+      "net/minecraft/util/EnumFacing"
+    ],
+    "users": [
+      "net/minecraft/client/renderer/tileentity/TileEntitySkullRenderer"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1908",
+    "enum_types": [
+      "recovered/unidentified/UnidentifiedEnum4019"
+    ],
+    "users": [
+      "com/cheatbreaker/client/module/type/TeammatesModule"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass1443",
+    "enum_types": [
+      "net/minecraft/util/EnumFacing"
+    ],
+    "users": [
+      "net/minecraft/client/gui/GuiOverlayDebug"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3279",
+    "enum_types": [
+      "recovered/unidentified/UnidentifiedEnum3979"
+    ],
+    "users": [
+      "com/cheatbreaker/client/module/type/notifications/CBNotificationRenderer"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4541",
+    "enum_types": [
+      "net/minecraft/util/EnumFacing"
+    ],
+    "users": [
+      "net/minecraft/block/BlockLadder"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4506",
+    "enum_types": [
+      "com/cheatbreaker/client/config/Setting$Type"
+    ],
+    "users": [
+      "com/cheatbreaker/client/config/ConfigManager"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass0943",
+    "enum_types": [
+      "net/minecraft/util/EnumFacing"
+    ],
+    "users": [
+      "net/minecraft/block/BlockFurnace"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3988",
+    "enum_types": [
+      "org/scijava/nativelib/NativeLibraryUtil$Architecture"
+    ],
+    "users": [
+      "org/scijava/nativelib/NativeLibraryUtil"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3460",
+    "enum_types": [
+      "recovered/unidentified/UnidentifiedEnum1205"
+    ],
+    "users": [
+      "com/cheatbreaker/client/emote/type/FlossEmote"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4816",
+    "enum_types": [
+      "net/minecraft/util/EnumFacing"
+    ],
+    "users": [
+      "net/minecraft/world/gen/structure/StructureBoundingBox"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass3368",
+    "enum_types": [
+      "com/cheatbreaker/client/config/Setting$Type"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedClass0913"
+    ]
+  },
+  {
+    "class": "recovered/unidentified/UnidentifiedClass4985",
+    "enum_types": [
+      "recovered/unidentified/UnidentifiedEnum3640"
+    ],
+    "users": [
+      "recovered/unidentified/UnidentifiedEnum3640"
+    ]
+  }
+]

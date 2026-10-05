@@ -1,0 +1,17 @@
+{
+  "recoveredField979": "DEBUG_INT",
+  "recoveredField980": "NA_SUBST",
+  "recoveredField981": "ERROR_INT",
+  "recoveredField982": "INFO_INT",
+  "recoveredField983": "WARN_INT",
+  "recoveredField984": "TRACE_INT",
+  "recoveredField207": "FLUSH_FAILURE",
+  "recoveredField208": "WRITE_FAILURE",
+  "recoveredField209": "GENERIC_FAILURE",
+  "recoveredField210": "ADDRESS_PARSE_FAILURE",
+  "recoveredField211": "CLOSE_FAILURE",
+  "recoveredField212": "MISSING_LAYOUT",
+  "recoveredField213": "FILE_OPEN_FAILURE",
+  "recoveredField847": "ALPHAS",
+  "recoveredField848": "DIGITS"
+}

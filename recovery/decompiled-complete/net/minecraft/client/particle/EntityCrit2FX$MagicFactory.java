@@ -1,0 +1,16 @@
+package net.minecraft.client.particle;
+
+import io.netty.channel.socket.nio.NioServerSocketChannel;
+import net.minecraft.world.World;
+
+public class EntityCrit2FX$MagicFactory implements IParticleFactory {
+   public NioServerSocketChannel field_0000;
+
+   @Override
+   public EntityFX getEntityFX(int var1, World var2, double var3, double var5, double var7, double var9, double var11, double var13, int... var15) {
+      EntityCrit2FX var16 = new EntityCrit2FX(var2, var3, var5, var7, var9, var11, var13);
+      var16.b(var16.getRedColorF() * 0.3F, var16.getGreenColorF() * 0.8F, var16.getBlueColorF());
+      var16.k();
+      return var16;
+   }
+}

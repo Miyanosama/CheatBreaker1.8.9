@@ -1,0 +1,234 @@
+[
+  {
+    "source": "io/netty/handler/codec/compression/SnappyFramedDecoder.java",
+    "field": "$SwitchMap$io$netty$handler$codec$compression$SnappyFramedDecoder$ChunkType",
+    "bytecode_owner": "io/netty/handler/codec/compression/SnappyFramedDecoder$1",
+    "case_mapping": {
+      "1": "STREAM_IDENTIFIER",
+      "2": "RESERVED_SKIPPABLE",
+      "3": "RESERVED_UNSKIPPABLE",
+      "4": "UNCOMPRESSED_DATA",
+      "5": "COMPRESSED_DATA"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$HandshakeStatus",
+    "bytecode_owner": "io/netty/handler/ssl/SslHandler$8",
+    "case_mapping": {
+      "1": "NEED_TASK",
+      "2": "FINISHED",
+      "3": "NOT_HANDSHAKING",
+      "4": "NEED_WRAP",
+      "5": "NEED_UNWRAP"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$HandshakeStatus",
+    "bytecode_owner": "io/netty/handler/ssl/SslHandler$8",
+    "case_mapping": {
+      "1": "NEED_TASK",
+      "2": "FINISHED",
+      "3": "NOT_HANDSHAKING",
+      "4": "NEED_WRAP",
+      "5": "NEED_UNWRAP"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$Status",
+    "bytecode_owner": "io/netty/handler/ssl/SslHandler$8",
+    "case_mapping": {
+      "1": "BUFFER_OVERFLOW"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$HandshakeStatus",
+    "bytecode_owner": "io/netty/handler/ssl/SslHandler$8",
+    "case_mapping": {
+      "1": "NEED_TASK",
+      "2": "FINISHED",
+      "3": "NOT_HANDSHAKING",
+      "4": "NEED_WRAP",
+      "5": "NEED_UNWRAP"
+    }
+  },
+  {
+    "source": "io/netty/handler/ssl/SslHandler.java",
+    "field": "$SwitchMap$javax$net$ssl$SSLEngineResult$Status",
+    "bytecode_owner": "io/netty/handler/ssl/SslHandler$8",
+    "case_mapping": {
+      "1": "BUFFER_OVERFLOW"
+    }
+  },
+  {
+    "source": "net/minecraft/client/audio/SoundHandler.java",
+    "field": "field_0000",
+    "bytecode_owner": "net/minecraft/client/audio/SoundHandler$3",
+    "case_mapping": {
+      "1": "FILE",
+      "2": "SOUND_EVENT"
+    }
+  },
+  {
+    "source": "net/minecraft/client/network/NetHandlerPlayClient.java",
+    "field": "field_178884_b",
+    "bytecode_owner": "net/minecraft/client/network/NetHandlerPlayClient$4",
+    "case_mapping": {
+      "1": "ADD_PLAYER",
+      "2": "UPDATE_GAME_MODE",
+      "3": "UPDATE_LATENCY",
+      "4": "UPDATE_DISPLAY_NAME"
+    }
+  },
+  {
+    "source": "net/minecraft/client/network/NetHandlerPlayClient.java",
+    "field": "field_178885_a",
+    "bytecode_owner": "net/minecraft/client/network/NetHandlerPlayClient$4",
+    "case_mapping": {
+      "1": "TITLE",
+      "2": "SUBTITLE",
+      "3": "RESET"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/GlStateManager.java",
+    "field": "$SwitchMap$net$minecraft$client$renderer$GlStateManager$TexGen",
+    "bytecode_owner": "net/minecraft/client/renderer/GlStateManager$1",
+    "case_mapping": {
+      "1": "S",
+      "2": "T",
+      "3": "R",
+      "4": "Q"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/RenderGlobal.java",
+    "field": "$SwitchMap$net$minecraft$client$renderer$vertex$VertexFormatElement$EnumUsage",
+    "bytecode_owner": "net/minecraft/client/renderer/RenderGlobal$2",
+    "case_mapping": {
+      "1": "POSITION",
+      "2": "UV",
+      "3": "COLOR"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/WorldVertexBufferUploader.java",
+    "field": "field_0005",
+    "bytecode_owner": "net/minecraft/client/renderer/WorldVertexBufferUploader$1",
+    "case_mapping": {
+      "1": "POSITION",
+      "2": "UV",
+      "3": "COLOR",
+      "4": "NORMAL"
+    }
+  },
+  {
+    "source": "net/minecraft/client/renderer/WorldVertexBufferUploader.java",
+    "field": "field_0005",
+    "bytecode_owner": "net/minecraft/client/renderer/WorldVertexBufferUploader$1",
+    "case_mapping": {
+      "1": "POSITION",
+      "2": "UV",
+      "3": "COLOR",
+      "4": "NORMAL"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces.java",
+    "field": "field_175956_a",
+    "bytecode_owner": "net/minecraft/world/gen/structure/ComponentScatteredFeaturePieces$1",
+    "case_mapping": {
+      "1": "NORTH",
+      "2": "SOUTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces.java",
+    "field": "field_175971_a",
+    "bytecode_owner": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$1",
+    "case_mapping": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces.java",
+    "field": "field_175971_a",
+    "bytecode_owner": "net/minecraft/world/gen/structure/StructureOceanMonumentPieces$1",
+    "case_mapping": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "bytecode_owner": "net/minecraft/world/gen/structure/StructureStrongholdPieces$3",
+    "case_mapping": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "bytecode_owner": "net/minecraft/world/gen/structure/StructureStrongholdPieces$3",
+    "case_mapping": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "bytecode_owner": "net/minecraft/world/gen/structure/StructureStrongholdPieces$3",
+    "case_mapping": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "bytecode_owner": "net/minecraft/world/gen/structure/StructureStrongholdPieces$3",
+    "case_mapping": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_175951_b",
+    "bytecode_owner": "net/minecraft/world/gen/structure/StructureStrongholdPieces$3",
+    "case_mapping": {
+      "1": "NORTH",
+      "2": "SOUTH",
+      "3": "WEST",
+      "4": "EAST"
+    }
+  },
+  {
+    "source": "net/minecraft/world/gen/structure/StructureStrongholdPieces.java",
+    "field": "field_75245_a",
+    "bytecode_owner": "net/minecraft/world/gen/structure/StructureStrongholdPieces$3",
+    "case_mapping": {
+      "1": "SOUTH",
+      "2": "WEST",
+      "3": "EAST",
+      "4": "NORTH"
+    }
+  }
+]

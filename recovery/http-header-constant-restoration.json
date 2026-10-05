@@ -1,0 +1,26 @@
+[
+  {
+    "class": "io/netty/handler/codec/http/HttpHeaders$Names",
+    "field": "UPGRADE",
+    "value": "Upgrade",
+    "evidence": "Original classfile ConstantValue with ACC_STATIC | ACC_FINAL; declaration had lost value during source type repair."
+  },
+  {
+    "class": "io/netty/handler/codec/http/HttpHeaders$Values",
+    "field": "UPGRADE",
+    "value": "Upgrade",
+    "evidence": "Original classfile ConstantValue with ACC_STATIC | ACC_FINAL; declaration had lost value during source type repair."
+  },
+  {
+    "class": "io/netty/handler/codec/rtsp/RtspHeaders$Names",
+    "field": "PUBLIC",
+    "value": "Public",
+    "evidence": "Original classfile ConstantValue with ACC_STATIC | ACC_FINAL; declaration had lost value during source type repair."
+  },
+  {
+    "class": "io/netty/handler/codec/rtsp/RtspHeaders$Values",
+    "field": "PUBLIC",
+    "value": "public",
+    "evidence": "Original classfile ConstantValue with ACC_STATIC | ACC_FINAL; declaration had lost value during source type repair."
+  }
+]

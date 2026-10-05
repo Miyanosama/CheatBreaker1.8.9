@@ -1,0 +1,66 @@
+package io.netty.handler.codec.http.websocketx;
+
+import com.cheatbreaker.client.ui.util.HudUtil;
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.handler.codec.MessageToMessageEncoder;
+import java.util.List;
+import com.cheatbreaker.client.websocket.client.WSPacketClientCosmetics;
+
+public class WebSocket00FrameEncoder extends MessageToMessageEncoder<WebSocketFrame> implements WebSocketFrameEncoder {
+   public static ByteBuf _0X00 = Unpooled.unreleasableBuffer(Unpooled.directBuffer(1, 1).writeByte(0));
+   public static ByteBuf _0XFF = Unpooled.unreleasableBuffer(Unpooled.directBuffer(1, 1).writeByte(-1));
+   public static ByteBuf _0XFF_0X00 = Unpooled.unreleasableBuffer(Unpooled.directBuffer(2, 2).writeByte(-1).writeByte(0));
+
+   public void encode(ChannelHandlerContext var1, WebSocketFrame var2, List<Object> var3) throws java.lang.Exception {
+      if (var2 instanceof TextWebSocketFrame) {
+         ByteBuf var4 = var2.content();
+         var3.add(_0X00.duplicate());
+         var3.add(var4.retain());
+         var3.add(_0XFF.duplicate());
+      } else if (var2 instanceof CloseWebSocketFrame) {
+         var3.add(_0XFF_0X00.duplicate());
+      } else {
+         ByteBuf var15 = var2.content();
+         int var5 = var15.readableBytes();
+         ByteBuf var6 = var1.alloc().buffer(5);
+         boolean var7 = true;
+
+         try {
+            var6.writeByte(-128);
+            int var8 = var5 >>> 28 & 127;
+            int var9 = var5 >>> 14 & 127;
+            int var10 = var5 >>> 7 & 127;
+            int var11 = var5 & 127;
+            if (var8 == 0) {
+               if (var9 == 0) {
+                  if (var10 == 0) {
+                     var6.writeByte(var11);
+                  } else {
+                     var6.writeByte(var10 | 128);
+                     var6.writeByte(var11);
+                  }
+               } else {
+                  var6.writeByte(var9 | 128);
+                  var6.writeByte(var10 | 128);
+                  var6.writeByte(var11);
+               }
+            } else {
+               var6.writeByte(var8 | 128);
+               var6.writeByte(var9 | 128);
+               var6.writeByte(var10 | 128);
+               var6.writeByte(var11);
+            }
+
+            var3.add(var6);
+            var3.add(var15.retain());
+            var7 = false;
+         } finally {
+            if (var7) {
+               var6.release();
+            }
+         }
+      }
+   }
+}

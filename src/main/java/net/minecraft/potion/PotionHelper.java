@@ -1,0 +1,471 @@
+package net.minecraft.potion;
+
+import com.google.common.collect.Lists;
+import com.google.common.collect.Maps;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+import net.minecraft.src.Config;
+import net.minecraft.util.IntegerCache;
+import net.optifine.CustomColors;
+
+public class PotionHelper {
+   public static final String recoveredField3229 = "+5-6-7";
+   public static final String recoveredField3230 = "+14&13-13";
+   public static final String recoveredField3231 = "-0+3-4+13";
+   public static final String recoveredField3232 = "+0-1-2+3&4-4+13";
+   public static final String recoveredField3233 = "-0+1+2-3+13&4-4";
+   public static final String recoveredField3234 = "-5+6-7";
+   public static final String recoveredField3235 = "+0+1-2+3&4-4+13";
+   public static final String recoveredField3236 = "+0+1-2-3&4-4+13";
+   public static final String recoveredField3237 = "-0-1+2-3&4-4+13";
+   public static final String recoveredField3238 = "-0+1-2-3&4-4+13";
+   public static final String recoveredField3239 = "+0-1+2+3+13&4-4";
+   public static final String recoveredField3240 = "+0-1+2-3&4-4+13";
+   public static final String recoveredField3241 = "+0-1-2-3&4-4+13";
+   public static String unusedString = null;
+   public static Map<Integer, String> potionRequirements = Maps.newHashMap();
+   public static Map<Integer, String> potionAmplifiers = Maps.newHashMap();
+   public static Map<Integer, Integer> DATAVALUE_COLORS = Maps.newHashMap();
+   public static String[] potionPrefixes = new String[]{
+      "potion.prefix.mundane",
+      "potion.prefix.uninteresting",
+      "potion.prefix.bland",
+      "potion.prefix.clear",
+      "potion.prefix.milky",
+      "potion.prefix.diffuse",
+      "potion.prefix.artless",
+      "potion.prefix.thin",
+      "potion.prefix.awkward",
+      "potion.prefix.flat",
+      "potion.prefix.bulky",
+      "potion.prefix.bungling",
+      "potion.prefix.buttered",
+      "potion.prefix.smooth",
+      "potion.prefix.suave",
+      "potion.prefix.debonair",
+      "potion.prefix.thick",
+      "potion.prefix.elegant",
+      "potion.prefix.fancy",
+      "potion.prefix.charming",
+      "potion.prefix.dashing",
+      "potion.prefix.refined",
+      "potion.prefix.cordial",
+      "potion.prefix.sparkling",
+      "potion.prefix.potent",
+      "potion.prefix.foul",
+      "potion.prefix.odorless",
+      "potion.prefix.rank",
+      "potion.prefix.harsh",
+      "potion.prefix.acrid",
+      "potion.prefix.gross",
+      "potion.prefix.stinky"
+   };
+
+   public static int getPotionPrefixIndexFlags(int var0, int var1, int var2, int var3, int var4, int var5) {
+      return (checkFlag(var0, var1) ? 16 : 0)
+         | (checkFlag(var0, var2) ? 8 : 0)
+         | (checkFlag(var0, var3) ? 4 : 0)
+         | (checkFlag(var0, var4) ? 2 : 0)
+         | (checkFlag(var0, var5) ? 1 : 0);
+   }
+
+   public static String getPotionPrefix(int var0) {
+      int var1 = getPotionPrefixIndex(var0);
+      return potionPrefixes[var1];
+   }
+
+   static {
+      potionRequirements.put(Potion.regeneration.getId(), "0 & !1 & !2 & !3 & 0+6");
+      potionRequirements.put(Potion.moveSpeed.getId(), "!0 & 1 & !2 & !3 & 1+6");
+      potionRequirements.put(Potion.fireResistance.getId(), "0 & 1 & !2 & !3 & 0+6");
+      potionRequirements.put(Potion.heal.getId(), "0 & !1 & 2 & !3");
+      potionRequirements.put(Potion.poison.getId(), "!0 & !1 & 2 & !3 & 2+6");
+      potionRequirements.put(Potion.weakness.getId(), "!0 & !1 & !2 & 3 & 3+6");
+      potionRequirements.put(Potion.harm.getId(), "!0 & !1 & 2 & 3");
+      potionRequirements.put(Potion.moveSlowdown.getId(), "!0 & 1 & !2 & 3 & 3+6");
+      potionRequirements.put(Potion.damageBoost.getId(), "0 & !1 & !2 & 3 & 3+6");
+      potionRequirements.put(Potion.nightVision.getId(), "!0 & 1 & 2 & !3 & 2+6");
+      potionRequirements.put(Potion.invisibility.getId(), "!0 & 1 & 2 & 3 & 2+6");
+      potionRequirements.put(Potion.waterBreathing.getId(), "0 & !1 & 2 & 3 & 2+6");
+      potionRequirements.put(Potion.jump.getId(), "0 & 1 & !2 & 3 & 3+6");
+      potionAmplifiers.put(Potion.moveSpeed.getId(), "5");
+      potionAmplifiers.put(Potion.digSpeed.getId(), "5");
+      potionAmplifiers.put(Potion.damageBoost.getId(), "5");
+      potionAmplifiers.put(Potion.regeneration.getId(), "5");
+      potionAmplifiers.put(Potion.harm.getId(), "5");
+      potionAmplifiers.put(Potion.heal.getId(), "5");
+      potionAmplifiers.put(Potion.resistance.getId(), "5");
+      potionAmplifiers.put(Potion.poison.getId(), "5");
+      potionAmplifiers.put(Potion.jump.getId(), "5");
+   }
+
+   public static int isFlagSet(int var0, int var1) {
+      return checkFlag(var0, var1) ? 1 : 0;
+   }
+
+   public static int getLiquidColor(int var0, boolean var1) {
+      Integer var2 = IntegerCache.getInteger(var0);
+      if (!var1) {
+         if (DATAVALUE_COLORS.containsKey(var2)) {
+            return DATAVALUE_COLORS.get(var2);
+         } else {
+            int var3 = calcPotionLiquidColor(getPotionEffects(var2, false));
+            DATAVALUE_COLORS.put(var2, var3);
+            return var3;
+         }
+      } else {
+         return calcPotionLiquidColor(getPotionEffects(var2, true));
+      }
+   }
+
+   public static int countSetFlags(int var0) {
+      int var1;
+      for (var1 = 0; var0 > 0; var1++) {
+         var0 &= var0 - 1;
+      }
+
+      return var1;
+   }
+
+   public static int getPotionEffect(boolean var0, boolean var1, boolean var2, int var3, int var4, int var5, int var6) {
+      int var7 = 0;
+      if (var0) {
+         var7 = isFlagUnset(var6, var4);
+      } else if (var3 != -1) {
+         if (var3 == 0 && countSetFlags(var6) == var4) {
+            var7 = 1;
+         } else if (var3 == 1 && countSetFlags(var6) > var4) {
+            var7 = 1;
+         } else if (var3 == 2 && countSetFlags(var6) < var4) {
+            var7 = 1;
+         }
+      } else {
+         var7 = isFlagSet(var6, var4);
+      }
+
+      if (var1) {
+         var7 *= var5;
+      }
+
+      if (var2) {
+         var7 *= -1;
+      }
+
+      return var7;
+   }
+
+   public static int brewBitOperations(int var0, int var1, boolean var2, boolean var3, boolean var4) {
+      if (var4) {
+         if (!checkFlag(var0, var1)) {
+            return 0;
+         }
+      } else if (var2) {
+         var0 &= ~(1 << var1);
+      } else if (var3) {
+         if ((var0 & 1 << var1) == 0) {
+            var0 |= 1 << var1;
+         } else {
+            var0 &= ~(1 << var1);
+         }
+      } else {
+         var0 |= 1 << var1;
+      }
+
+      return var0;
+   }
+
+   public static boolean checkFlag(int var0, int var1) {
+      return (var0 & 1 << var1) != 0;
+   }
+
+   public static int getPotionPrefixIndex(int var0) {
+      return getPotionPrefixIndexFlags(var0, 5, 4, 3, 2, 1);
+   }
+
+   public static List<PotionEffect> getPotionEffects(int var0, boolean var1) {
+      ArrayList var2 = null;
+
+      for (Potion var6 : Potion.potionTypes) {
+         if (var6 != null && (!var6.isUsable() || var1)) {
+            String var7 = potionRequirements.get(var6.getId());
+            if (var7 != null) {
+               int var8 = parsePotionEffects(var7, 0, var7.length(), var0);
+               if (var8 > 0) {
+                  int var9 = 0;
+                  String var10 = potionAmplifiers.get(var6.getId());
+                  if (var10 != null) {
+                     var9 = parsePotionEffects(var10, 0, var10.length(), var0);
+                     if (var9 < 0) {
+                        var9 = 0;
+                     }
+                  }
+
+                  if (var6.isInstant()) {
+                     var8 = 1;
+                  } else {
+                     var8 = 1200 * (var8 * 3 + (var8 - 1) * 2);
+                     var8 >>= var9;
+                     var8 = (int)Math.round(var8 * var6.getEffectiveness());
+                     if ((var0 & 16384) != 0) {
+                        var8 = (int)Math.round(var8 * 0.75 + 0.5);
+                     }
+                  }
+
+                  if (var2 == null) {
+                     var2 = Lists.newArrayList();
+                  }
+
+                  PotionEffect var11 = new PotionEffect(var6.getId(), var8, var9);
+                  if ((var0 & 16384) != 0) {
+                     var11.setSplashPotion(true);
+                  }
+
+                  var2.add(var11);
+               }
+            }
+         }
+      }
+
+      return var2;
+   }
+
+   public static int isFlagUnset(int var0, int var1) {
+      return checkFlag(var0, var1) ? 0 : 1;
+   }
+
+   public static int parsePotionEffects(String var0, int var1, int var2, int var3) {
+      if (var1 < var0.length() && var2 >= 0 && var1 < var2) {
+         int var4 = var0.indexOf(124, var1);
+         if (var4 >= 0 && var4 < var2) {
+            int var17 = parsePotionEffects(var0, var1, var4 - 1, var3);
+            if (var17 > 0) {
+               return var17;
+            } else {
+               int var19 = parsePotionEffects(var0, var4 + 1, var2, var3);
+               return var19 > 0 ? var19 : 0;
+            }
+         } else {
+            int var5 = var0.indexOf(38, var1);
+            if (var5 >= 0 && var5 < var2) {
+               int var18 = parsePotionEffects(var0, var1, var5 - 1, var3);
+               if (var18 <= 0) {
+                  return 0;
+               } else {
+                  int var20 = parsePotionEffects(var0, var5 + 1, var2, var3);
+                  return var20 <= 0 ? 0 : (var18 > var20 ? var18 : var20);
+               }
+            } else {
+               boolean var6 = false;
+               boolean var7 = false;
+               boolean var8 = false;
+               boolean var9 = false;
+               boolean var10 = false;
+               byte var11 = -1;
+               int var12 = 0;
+               int var13 = 0;
+               int var14 = 0;
+
+               for (int var15 = var1; var15 < var2; var15++) {
+                  char var16 = var0.charAt(var15);
+                  if (var16 >= '0' && var16 <= '9') {
+                     if (var6) {
+                        var13 = var16 - '0';
+                        var7 = true;
+                     } else {
+                        var12 *= 10;
+                        var12 += var16 - '0';
+                        var8 = true;
+                     }
+                  } else if (var16 == '*') {
+                     var6 = true;
+                  } else if (var16 == '!') {
+                     if (var8) {
+                        var14 += getPotionEffect(var9, var7, var10, var11, var12, var13, var3);
+                        var9 = false;
+                        var10 = false;
+                        var6 = false;
+                        var7 = false;
+                        var8 = false;
+                        var13 = 0;
+                        var12 = 0;
+                        var11 = -1;
+                     }
+
+                     var9 = true;
+                  } else if (var16 == '-') {
+                     if (var8) {
+                        var14 += getPotionEffect(var9, var7, var10, var11, var12, var13, var3);
+                        var9 = false;
+                        var10 = false;
+                        var6 = false;
+                        var7 = false;
+                        var8 = false;
+                        var13 = 0;
+                        var12 = 0;
+                        var11 = -1;
+                     }
+
+                     var10 = true;
+                  } else if (var16 != '=' && var16 != '<' && var16 != '>') {
+                     if (var16 == '+' && var8) {
+                        var14 += getPotionEffect(var9, var7, var10, var11, var12, var13, var3);
+                        var9 = false;
+                        var10 = false;
+                        var6 = false;
+                        var7 = false;
+                        var8 = false;
+                        var13 = 0;
+                        var12 = 0;
+                        var11 = -1;
+                     }
+                  } else {
+                     if (var8) {
+                        var14 += getPotionEffect(var9, var7, var10, var11, var12, var13, var3);
+                        var9 = false;
+                        var10 = false;
+                        var6 = false;
+                        var7 = false;
+                        var8 = false;
+                        var13 = 0;
+                        var12 = 0;
+                        var11 = -1;
+                     }
+
+                     if (var16 == '=') {
+                        var11 = 0;
+                     } else if (var16 == '<') {
+                        var11 = 2;
+                     } else if (var16 == '>') {
+                        var11 = 1;
+                     }
+                  }
+               }
+
+               if (var8) {
+                  var14 += getPotionEffect(var9, var7, var10, var11, var12, var13, var3);
+               }
+
+               return var14;
+            }
+         }
+      } else {
+         return 0;
+      }
+   }
+
+   public static int calcPotionLiquidColor(Collection<PotionEffect> var0) {
+      int var1 = 3694022;
+      if (var0 != null && !var0.isEmpty()) {
+         float var2 = 0.0F;
+         float var3 = 0.0F;
+         float var4 = 0.0F;
+         float var5 = 0.0F;
+
+         for (PotionEffect var7 : var0) {
+            if (var7.getIsShowParticles()) {
+               int var8 = Potion.potionTypes[var7.getPotionID()].getLiquidColor();
+               if (Config.isCustomColors()) {
+                  var8 = CustomColors.method_29818(var7.getPotionID(), var8);
+               }
+
+               for (int var9 = 0; var9 <= var7.getAmplifier(); var9++) {
+                  var2 += (var8 >> 16 & 0xFF) / 255.0F;
+                  var3 += (var8 >> 8 & 0xFF) / 255.0F;
+                  var4 += (var8 >> 0 & 0xFF) / 255.0F;
+                  var5++;
+               }
+            }
+         }
+
+         if (var5 == 0.0F) {
+            return 0;
+         } else {
+            var2 = var2 / var5 * 255.0F;
+            var3 = var3 / var5 * 255.0F;
+            var4 = var4 / var5 * 255.0F;
+            return (int)var2 << 16 | (int)var3 << 8 | (int)var4;
+         }
+      } else {
+         return Config.isCustomColors() ? CustomColors.method_29818(0, var1) : var1;
+      }
+   }
+
+   public static boolean getAreAmbient(Collection<PotionEffect> var0) {
+      for (PotionEffect var2 : var0) {
+         if (!var2.getIsAmbient()) {
+            return false;
+         }
+      }
+
+      return true;
+   }
+
+   public static int applyIngredient(int var0, String var1) {
+      byte var2 = 0;
+      int var3 = var1.length();
+      boolean var4 = false;
+      boolean var5 = false;
+      boolean var6 = false;
+      boolean var7 = false;
+      int var8 = 0;
+
+      for (int var9 = var2; var9 < var3; var9++) {
+         char var10 = var1.charAt(var9);
+         if (var10 >= '0' && var10 <= '9') {
+            var8 *= 10;
+            var8 += var10 - '0';
+            var4 = true;
+         } else if (var10 == '!') {
+            if (var4) {
+               var0 = brewBitOperations(var0, var8, var6, var5, var7);
+               var7 = false;
+               var5 = false;
+               var6 = false;
+               var4 = false;
+               var8 = 0;
+            }
+
+            var5 = true;
+         } else if (var10 == '-') {
+            if (var4) {
+               var0 = brewBitOperations(var0, var8, var6, var5, var7);
+               var7 = false;
+               var5 = false;
+               var6 = false;
+               var4 = false;
+               var8 = 0;
+            }
+
+            var6 = true;
+         } else if (var10 == '+') {
+            if (var4) {
+               var0 = brewBitOperations(var0, var8, var6, var5, var7);
+               var7 = false;
+               var5 = false;
+               var6 = false;
+               var4 = false;
+               var8 = 0;
+            }
+         } else if (var10 == '&') {
+            if (var4) {
+               var0 = brewBitOperations(var0, var8, var6, var5, var7);
+               var7 = false;
+               var5 = false;
+               var6 = false;
+               var4 = false;
+               var8 = 0;
+            }
+
+            var7 = true;
+         }
+      }
+
+      if (var4) {
+         var0 = brewBitOperations(var0, var8, var6, var5, var7);
+      }
+
+      return var0 & 32767;
+   }
+}

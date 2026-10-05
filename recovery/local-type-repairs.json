@@ -1,0 +1,236 @@
+[
+  {
+    "source": "src/main/java/org/apache/log4j/xml/Log4jEntityResolver.java",
+    "variable": "var4",
+    "type": "java.io.InputStream",
+    "initializer": "var3.getResourceAsStream(\"/org/apache/log4j/xml/log4j.dtd\")"
+  },
+  {
+    "source": "src/main/java/net/optifine/ConnectedTextures.java",
+    "variable": "var3",
+    "type": "List",
+    "initializer": "(List)var1.get(var2)"
+  },
+  {
+    "source": "src/main/java/net/optifine/CustomColors.java",
+    "variable": "var3",
+    "type": "List",
+    "initializer": "(List)var1.get(var2)"
+  },
+  {
+    "source": "src/main/java/net/optifine/CustomColors.java",
+    "variable": "var5",
+    "type": "net.optifine.CustomColormap",
+    "initializer": "getBlockColormap(var1)"
+  },
+  {
+    "source": "src/main/java/net/optifine/CustomGuis.java",
+    "variable": "var3",
+    "type": "List",
+    "initializer": "(List)var1.get(var2)"
+  },
+  {
+    "source": "src/main/java/net/optifine/CustomItems.java",
+    "variable": "var3",
+    "type": "List",
+    "initializer": "(List)var1.get(var2)"
+  },
+  {
+    "source": "src/main/java/net/optifine/EmissiveTextures.java",
+    "variable": "var4",
+    "type": "ITextureObject",
+    "initializer": "(ITextureObject)var1.get(var3)"
+  },
+  {
+    "source": "src/main/java/net/optifine/config/ConnectedParser.java",
+    "variable": "var13",
+    "type": "List",
+    "initializer": "(List)var6.get(var10)"
+  },
+  {
+    "source": "src/main/java/net/optifine/shaders/BlockAliases.java",
+    "variable": "var5",
+    "type": "List",
+    "initializer": "(List)var0.get(var4)"
+  },
+  {
+    "source": "src/main/java/net/optifine/entity/model/ModelAdapterBanner.java",
+    "variable": "var4",
+    "type": "net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer",
+    "initializer": "var3.getSpecialRendererByClass(TileEntityBanner.class)"
+  },
+  {
+    "source": "src/main/java/net/optifine/entity/model/ModelAdapterBook.java",
+    "variable": "var4",
+    "type": "net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer",
+    "initializer": "var3.getSpecialRendererByClass(TileEntityEnchantmentTable.class)"
+  },
+  {
+    "source": "src/main/java/net/optifine/entity/model/ModelAdapterChest.java",
+    "variable": "var4",
+    "type": "net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer",
+    "initializer": "var3.getSpecialRendererByClass(TileEntityChest.class)"
+  },
+  {
+    "source": "src/main/java/net/optifine/entity/model/ModelAdapterChestLarge.java",
+    "variable": "var4",
+    "type": "net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer",
+    "initializer": "var3.getSpecialRendererByClass(TileEntityChest.class)"
+  },
+  {
+    "source": "src/main/java/net/optifine/entity/model/ModelAdapterEnderChest.java",
+    "variable": "var4",
+    "type": "net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer",
+    "initializer": "var3.getSpecialRendererByClass(TileEntityEnderChest.class)"
+  },
+  {
+    "source": "src/main/java/net/optifine/entity/model/ModelAdapterHeadHumanoid.java",
+    "variable": "var4",
+    "type": "net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer",
+    "initializer": "var3.getSpecialRendererByClass(TileEntitySkull.class)"
+  },
+  {
+    "source": "src/main/java/net/optifine/entity/model/ModelAdapterHeadSkeleton.java",
+    "variable": "var4",
+    "type": "net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer",
+    "initializer": "var3.getSpecialRendererByClass(TileEntitySkull.class)"
+  },
+  {
+    "source": "src/main/java/net/optifine/entity/model/ModelAdapterSign.java",
+    "variable": "var4",
+    "type": "net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer",
+    "initializer": "var3.getSpecialRendererByClass(TileEntitySign.class)"
+  },
+  {
+    "source": "src/main/java/net/minecraft/block/BlockChest.java",
+    "variable": "var4",
+    "type": "TileEntityChest",
+    "initializer": "(TileEntityChest)var3"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/CommandBase.java",
+    "variable": "var3",
+    "type": "net.minecraft.entity.Entity",
+    "initializer": "PlayerSelector.matchOneEntity(var0, var1, var2)"
+  },
+  {
+    "source": "src/main/java/net/minecraft/command/CommandShowSeed.java",
+    "variable": "var3",
+    "type": "net.minecraft.world.WorldServer",
+    "initializer": "var1 instanceof EntityPlayer ? ((EntityPlayer)var1).o : MinecraftServer.getServer().worldServerForDimension(0)"
+  },
+  {
+    "source": "src/main/java/net/minecraft/crash/CrashReport.java",
+    "variable": "var3",
+    "type": "java.lang.Throwable",
+    "initializer": "this.cause"
+  },
+  {
+    "source": "src/main/java/net/minecraft/world/SpawnerAnimals.java",
+    "variable": "var49",
+    "type": "java.util.Set",
+    "initializer": "this.eligibleChunksForSpawning"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/gui/GuiNewChat.java",
+    "variable": "var55",
+    "type": "java.lang.String",
+    "initializer": "CheatBreaker.getInstance().getModuleManager().recoveredField1705.recoveredField849.method_08874()"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/gui/GuiOverlayDebug.java",
+    "variable": "var19",
+    "type": "java.lang.String",
+    "initializer": "((Comparable)var18.getValue()).toString()"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/gui/GuiWinGame.java",
+    "variable": "var7",
+    "type": "java.lang.String",
+    "initializer": "var1.substring(0, var9)"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/model/ModelGuardian.java",
+    "variable": "var26",
+    "type": "net.minecraft.entity.Entity",
+    "initializer": "Minecraft.getMinecraft().getRenderViewEntity()"
+  },
+  {
+    "source": "src/main/java/net/minecraft/client/network/NetHandlerPlayClient.java",
+    "variable": "var3",
+    "type": "EntityLivingBase",
+    "initializer": "(EntityLivingBase)this.clientWorldController.getEntityByID(var1.getEntityID())"
+  },
+  {
+    "source": "src/main/java/io/netty/channel/AbstractChannelHandlerContext.java",
+    "variable": "var1",
+    "type": "io.netty.channel.ChannelFuture",
+    "initializer": "this.succeededFuture"
+  },
+  {
+    "source": "src/main/java/io/netty/util/internal/InternalThreadLocalMap.java",
+    "variable": "var1",
+    "type": "java.util.Map",
+    "initializer": "this.typeParameterMatcherFindCache"
+  },
+  {
+    "source": "src/main/java/io/netty/util/internal/InternalThreadLocalMap.java",
+    "variable": "var1",
+    "type": "java.util.Map",
+    "initializer": "this.handlerSharableCache"
+  },
+  {
+    "source": "src/main/java/io/netty/util/internal/InternalThreadLocalMap.java",
+    "variable": "var1",
+    "type": "java.util.Map",
+    "initializer": "this.charsetEncoderCache"
+  },
+  {
+    "source": "src/main/java/io/netty/util/internal/InternalThreadLocalMap.java",
+    "variable": "var1",
+    "type": "java.util.Map",
+    "initializer": "this.charsetDecoderCache"
+  },
+  {
+    "source": "src/main/java/io/netty/util/internal/InternalThreadLocalMap.java",
+    "variable": "var1",
+    "type": "java.util.Map",
+    "initializer": "this.typeParameterMatcherGetCache"
+  },
+  {
+    "source": "src/main/java/io/netty/util/internal/TypeParameterMatcher.java",
+    "variable": "var5",
+    "type": "Map",
+    "initializer": "(Map)var3.get(var4)"
+  },
+  {
+    "source": "src/main/java/io/netty/util/internal/TypeParameterMatcher.java",
+    "variable": "var2",
+    "type": "TypeParameterMatcher",
+    "initializer": "(TypeParameterMatcher)var1.get(var0)"
+  },
+  {
+    "source": "src/main/java/io/netty/handler/traffic/AbstractTrafficShapingHandler.java",
+    "variable": "var8",
+    "type": "Runnable",
+    "initializer": "(Runnable)var7.get()"
+  },
+  {
+    "source": "src/main/java/io/netty/handler/codec/http/QueryStringDecoder.java",
+    "variable": "var4",
+    "type": "List",
+    "initializer": "(List)var1.get(var2)"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/util/dash/DashHook.java",
+    "variable": "var3",
+    "type": "java.io.InputStream",
+    "initializer": "var2.getResourceAsStream(var1)"
+  },
+  {
+    "source": "src/main/java/com/cheatbreaker/client/module/type/TabListModule.java",
+    "variable": "var27",
+    "type": "java.lang.String",
+    "initializer": "this.minecraft.ingameGUI.overlayPlayerList.getPlayerName(var26)"
+  }
+]

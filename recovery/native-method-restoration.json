@@ -1,0 +1,20 @@
+{
+  "library": "junixsocket-common 2.0.4",
+  "mapping": {
+    "method_25802": "setConnected",
+    "method_25792": "setCreatedServer",
+    "method_25797": "read",
+    "method_25800": "bind",
+    "method_25795": "shutdown",
+    "method_25809": "setCreated",
+    "method_25798": "unlink",
+    "method_25799": "connect",
+    "method_25805": "setBoundServer",
+    "method_25807": "listen",
+    "method_25789": "setBound",
+    "method_25794": "available",
+    "method_25801": "accept",
+    "method_25808": "write"
+  },
+  "evidence": "matching native descriptors and calls from socket constructors, connect, accept, read and write"
+}

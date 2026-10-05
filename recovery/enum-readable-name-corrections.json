@@ -1,0 +1,38 @@
+[
+  {
+    "class": "net/minecraft/world/gen/structure/StructureStrongholdPieces$Stronghold$Door",
+    "old": "NORTH",
+    "name": "OPENING",
+    "evidence": "enum constructor String name operand"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureStrongholdPieces$Stronghold$Door",
+    "old": "SOUTH",
+    "name": "WOOD_DOOR",
+    "evidence": "enum constructor String name operand"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureStrongholdPieces$Stronghold$Door",
+    "old": "WEST",
+    "name": "GRATES",
+    "evidence": "enum constructor String name operand"
+  },
+  {
+    "class": "net/minecraft/world/gen/structure/StructureStrongholdPieces$Stronghold$Door",
+    "old": "EAST",
+    "name": "IRON_DOOR",
+    "evidence": "enum constructor String name operand"
+  },
+  {
+    "class": "com/cheatbreaker/client/util/friend/Status",
+    "old": "HIDDEN",
+    "name": "OFFLINE",
+    "evidence": "enum constructor String name operand"
+  },
+  {
+    "class": "com/cheatbreaker/client/module/ModuleRule",
+    "old": "MINIMAP_NOT_ALLOWED",
+    "name": "NEUTRAL",
+    "evidence": "enum constructor String name operand"
+  }
+]

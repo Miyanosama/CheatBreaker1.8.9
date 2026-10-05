@@ -1,0 +1,59 @@
+package net.minecraft.client.model;
+
+import java.util.Random;
+import javax.vecmath.GVector;
+import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.MathHelper;
+import org.apache.log4j.config.PropertySetter;
+import org.apache.log4j.lf5.LogLevelFormatException;
+import recovered.unidentified.UnidentifiedClass1161;
+
+public class ModelGhast extends ModelBase {
+   public LogLevelFormatException field_0003;
+   public UnidentifiedClass1161 field_0005;
+   public ModelRenderer[] tentacles = new ModelRenderer[9];
+   public GVector field_0004;
+   public ModelRenderer body;
+   public PropertySetter field_0001;
+
+   @Override
+   public void render(Entity var1, float var2, float var3, float var4, float var5, float var6, float var7) {
+      this.setRotationAngles(var2, var3, var4, var5, var6, var7, var1);
+      GlStateManager.pushMatrix();
+      GlStateManager.translate(0.0F, 0.6F, 0.0F);
+      this.body.render(var7);
+
+      for (ModelRenderer var11 : this.tentacles) {
+         var11.render(var7);
+      }
+
+      GlStateManager.popMatrix();
+   }
+
+   @Override
+   public void setRotationAngles(float var1, float var2, float var3, float var4, float var5, float var6, Entity var7) {
+      for (int var8 = 0; var8 < this.tentacles.length; var8++) {
+         this.tentacles[var8].rotateAngleX = 0.2F * MathHelper.sin(var3 * 0.3F + var8) + 0.4F;
+      }
+   }
+
+   public ModelGhast() {
+      byte var1 = -16;
+      this.body = new ModelRenderer(this, 0, 0);
+      this.body.addBox(-8.0F, -8.0F, -8.0F, 16, 16, 16);
+      this.body.rotationPointY += 24 + var1;
+      Random var2 = new Random(8914941L & 437886L);
+
+      for (int var3 = 0; var3 < this.tentacles.length; var3++) {
+         this.tentacles[var3] = new ModelRenderer(this, 0, 0);
+         float var4 = ((var3 % 3 - var3 / 3 % 2 * 0.5F + 0.25F) / 2.0F * 2.0F - 1.0F) * 5.0F;
+         float var5 = (var3 / 3 / 2.0F * 2.0F - 1.0F) * 5.0F;
+         int var6 = var2.nextInt(7) + 8;
+         this.tentacles[var3].addBox(-1.0F, 0.0F, -1.0F, 2, var6, 2);
+         this.tentacles[var3].rotationPointX = var4;
+         this.tentacles[var3].rotationPointZ = var5;
+         this.tentacles[var3].rotationPointY = 31 + var1;
+      }
+   }
+}

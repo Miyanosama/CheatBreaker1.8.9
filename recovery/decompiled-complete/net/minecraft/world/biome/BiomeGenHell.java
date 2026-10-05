@@ -1,0 +1,25 @@
+package net.minecraft.world.biome;
+
+import net.minecraft.block.BlockDeadBush;
+import net.minecraft.client.model.ModelSilverfish;
+import net.minecraft.entity.monster.EntityGhast;
+import net.minecraft.entity.monster.EntityMagmaCube;
+import net.minecraft.entity.monster.EntityPigZombie;
+import net.optifine.config.ItemLocator;
+
+public class BiomeGenHell extends BiomeGenBase {
+   public ItemLocator field_0000;
+   public BlockDeadBush field_0002;
+   public ModelSilverfish field_0001;
+
+   public BiomeGenHell(int var1) {
+      super(var1);
+      this.at.clear();
+      this.au.clear();
+      this.av.clear();
+      this.aw.clear();
+      this.at.add(new BiomeGenBase$SpawnListEntry(EntityGhast.class, 50, 4, 4));
+      this.at.add(new BiomeGenBase$SpawnListEntry(EntityPigZombie.class, 100, 4, 4));
+      this.at.add(new BiomeGenBase$SpawnListEntry(EntityMagmaCube.class, 1, 4, 4));
+   }
+}

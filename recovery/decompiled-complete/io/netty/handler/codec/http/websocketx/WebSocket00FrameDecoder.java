@@ -1,0 +1,100 @@
+package io.netty.handler.codec.http.websocketx;
+
+import io.netty.buffer.ByteBuf;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.handler.codec.ReplayingDecoder;
+import io.netty.handler.codec.TooLongFrameException;
+import io.netty.handler.codec.spdy.SpdySession$PendingWrite;
+import java.util.List;
+import net.minecraft.entity.monster.EntityEnderman;
+
+public class WebSocket00FrameDecoder extends ReplayingDecoder<Void> implements WebSocketFrameDecoder {
+   public boolean receivedClosingHandshake;
+   public EntityEnderman __junk1342925054550780521;
+   public long maxFrameSize;
+   public static int DEFAULT_MAX_FRAME_SIZE;
+   public SpdySession$PendingWrite __junk4885330743248585208;
+
+   @Override
+   public void decode(ChannelHandlerContext var1, ByteBuf var2, List<Object> var3) {
+      if (this.receivedClosingHandshake) {
+         var2.skipBytes(this.actualReadableBytes());
+      } else {
+         byte var4 = var2.readByte();
+         WebSocketFrame var5;
+         if ((var4 & 128) == 128) {
+            var5 = this.decodeBinaryFrame(var1, var4, var2);
+         } else {
+            var5 = this.decodeTextFrame(var1, var2);
+         }
+
+         if (var5 != null) {
+            var3.add(var5);
+         }
+      }
+   }
+
+   public WebSocket00FrameDecoder(int var1) {
+      this.maxFrameSize = var1;
+   }
+
+   public WebSocketFrame decodeTextFrame(ChannelHandlerContext var1, ByteBuf var2) {
+      int var3 = var2.readerIndex();
+      int var4 = this.actualReadableBytes();
+      int var5 = var2.indexOf(var3, var3 + var4, (byte)-1);
+      if (var5 == -1) {
+         if (var4 > this.maxFrameSize) {
+            throw new TooLongFrameException();
+         } else {
+            return null;
+         }
+      } else {
+         int var6 = var5 - var3;
+         if (var6 > this.maxFrameSize) {
+            throw new TooLongFrameException();
+         } else {
+            ByteBuf var7 = var1.alloc().buffer(var6);
+            var2.readBytes(var7);
+            var2.skipBytes(1);
+            int var8 = var7.indexOf(var7.readerIndex(), var7.writerIndex(), (byte)-1);
+            if (var8 >= 0) {
+               throw new IllegalArgumentException("a text frame should not contain 0xFF.");
+            } else {
+               return new TextWebSocketFrame(var7);
+            }
+         }
+      }
+   }
+
+   public WebSocket00FrameDecoder() {
+      this(16384);
+   }
+
+   public WebSocketFrame decodeBinaryFrame(ChannelHandlerContext var1, byte var2, ByteBuf var3) {
+      long var4 = 6294536L & 1896600198L;
+      int var6 = 0;
+
+      byte var7;
+      do {
+         var7 = var3.readByte();
+         var4 <<= 7;
+         var4 |= var7 & 127;
+         if (var4 > this.maxFrameSize) {
+            throw new TooLongFrameException();
+         }
+
+         if (++var6 > 8) {
+            throw new TooLongFrameException();
+         }
+      } while ((var7 & 128) == 128);
+
+      if (var2 == -1 && var4 == (109068814L & 822223904L)) {
+         this.receivedClosingHandshake = true;
+         return new CloseWebSocketFrame();
+      } else {
+         ByteBuf var8 = var1.alloc().buffer((int)var4);
+         var3.readBytes(var8);
+         return new BinaryWebSocketFrame(var8);
+      }
+   }
+}

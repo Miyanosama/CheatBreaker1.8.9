@@ -1,0 +1,14 @@
+{
+  "source": "src/main/java/com/cheatbreaker/client/nethandler/NetHandler.java",
+  "method": "method_11450",
+  "enum": "com/cheatbreaker/client/nethandler/obj/ServerRule",
+  "original_switch": "ordinal tableswitch 0..3",
+  "repaired_cases": {
+    "0": "VOICE_ENABLED",
+    "1": "MINIMAP_STATUS",
+    "2": "SERVER_HANDLES_WAYPOINTS",
+    "3": "COMPETITIVE_GAMEMODE"
+  },
+  "cause": "Vineflower interpreted shuffled enum declarations as ordinal order; source corrected against constructor ordinal operands",
+  "all_direct_ordinal_switches_in_original_source": 1
+}

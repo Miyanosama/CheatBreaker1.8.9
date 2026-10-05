@@ -1,0 +1,7 @@
+{
+  "mapping": {
+    "net/minecraft/server/management/PlayerProfileCache$1": "net/minecraft/server/management/PlayerProfileCache$2",
+    "net/minecraft/world/biome/BiomeGenForest$1": "net/minecraft/world/biome/BiomeGenForest$2"
+  },
+  "evidence": "ParameterizedType class is vanilla PlayerProfileCache$2; forest decorate subclass is vanilla BiomeGenForest$2. The callback and random-tree subclass are respectively $1. Original first-pass anonymous numbering was incorrect; javac now emits the corrected two inline classes."
+}

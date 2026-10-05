@@ -1,0 +1,48 @@
+package net.optifine;
+
+import io.netty.bootstrap.ServerBootstrap$ServerBootstrapAcceptor$1;
+import io.netty.channel.embedded.EmbeddedChannel;
+import net.minecraft.src.Config;
+import net.minecraft.util.Vec3;
+import net.optifine.shaders.CustomTextureLocation;
+
+public class CustomColorFader {
+   public long timeUpdate;
+   public ServerBootstrap$ServerBootstrapAcceptor$1 field_0004;
+   public Vec3 color = null;
+   public EmbeddedChannel field_0003;
+   public CustomTextureLocation field_0000;
+
+   public Vec3 getColor(double var1, double var3, double var5) {
+      if (this.color == null) {
+         this.color = new Vec3(var1, var3, var5);
+         return this.color;
+      } else {
+         long var7 = System.currentTimeMillis();
+         long var9 = var7 - this.timeUpdate;
+         if (var9 == (2064969419209222184L & 77087365L)) {
+            return this.color;
+         } else {
+            this.timeUpdate = var7;
+            if (Math.abs(var1 - this.color.xCoord) < 0.004 && Math.abs(var3 - this.color.yCoord) < 0.004 && Math.abs(var5 - this.color.zCoord) < 0.004) {
+               return this.color;
+            } else {
+               double var11 = var9 * 0.001;
+               var11 = Config.limit(var11, 0.0, 1.0);
+               double var13 = var1 - this.color.xCoord;
+               double var15 = var3 - this.color.yCoord;
+               double var17 = var5 - this.color.zCoord;
+               double var19 = this.color.xCoord + var13 * var11;
+               double var21 = this.color.yCoord + var15 * var11;
+               double var23 = this.color.zCoord + var17 * var11;
+               this.color = new Vec3(var19, var21, var23);
+               return this.color;
+            }
+         }
+      }
+   }
+
+   public CustomColorFader() {
+      this.timeUpdate = System.currentTimeMillis();
+   }
+}

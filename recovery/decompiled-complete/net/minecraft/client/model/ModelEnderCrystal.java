@@ -1,0 +1,55 @@
+package net.minecraft.client.model;
+
+import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.ai.EntityAIWatchClosest;
+import net.minecraft.item.ItemEnchantedBook;
+import net.minecraft.realms.RealmsMth;
+import net.optifine.shaders.DefaultTexture;
+import org.apache.log4j.pattern.NDCPatternConverter;
+
+public class ModelEnderCrystal extends ModelBase {
+   public ModelRenderer glass = new ModelRenderer(this, "glass");
+   public DefaultTexture field_0006;
+   public RealmsMth field_0002;
+   public ModelRenderer base;
+   public EntityAIWatchClosest field_0000;
+   public NDCPatternConverter field_0001;
+   public ItemEnchantedBook field_0007;
+   public ModelRenderer cube;
+
+   public ModelEnderCrystal(float var1, boolean var2) {
+      this.glass.setTextureOffset(0, 0).addBox(-4.0F, -4.0F, -4.0F, 8, 8, 8);
+      this.cube = new ModelRenderer(this, "cube");
+      this.cube.setTextureOffset(32, 0).addBox(-4.0F, -4.0F, -4.0F, 8, 8, 8);
+      if (var2) {
+         this.base = new ModelRenderer(this, "base");
+         this.base.setTextureOffset(0, 16).addBox(-6.0F, 0.0F, -6.0F, 12, 4, 12);
+      }
+   }
+
+   @Override
+   public void render(Entity var1, float var2, float var3, float var4, float var5, float var6, float var7) {
+      GlStateManager.pushMatrix();
+      GlStateManager.scale(2.0F, 2.0F, 2.0F);
+      GlStateManager.translate(0.0F, -0.5F, 0.0F);
+      if (this.base != null) {
+         this.base.render(var7);
+      }
+
+      GlStateManager.rotate(var3, 0.0F, 1.0F, 0.0F);
+      GlStateManager.translate(0.0F, 0.8F + var4, 0.0F);
+      GlStateManager.rotate(60.0F, 0.7071F, 0.0F, 0.7071F);
+      this.glass.render(var7);
+      float var8 = 0.875F;
+      GlStateManager.scale(var8, var8, var8);
+      GlStateManager.rotate(60.0F, 0.7071F, 0.0F, 0.7071F);
+      GlStateManager.rotate(var3, 0.0F, 1.0F, 0.0F);
+      this.glass.render(var7);
+      GlStateManager.scale(var8, var8, var8);
+      GlStateManager.rotate(60.0F, 0.7071F, 0.0F, 0.7071F);
+      GlStateManager.rotate(var3, 0.0F, 1.0F, 0.0F);
+      this.cube.render(var7);
+      GlStateManager.popMatrix();
+   }
+}
