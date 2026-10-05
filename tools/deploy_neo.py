@@ -32,7 +32,13 @@ manifest['clientVersion'] = '1.8.9'
 manifest['type'] = 'custom'
 manifest.pop('downloads', None)
 targets[1].write_text(json.dumps(manifest, indent=2), 'utf-8')
-shutil.copytree(ROOT / 'natives', targets[2], dirs_exist_ok=True)
+def copy_native_if_changed(source, destination):
+    target = pathlib.Path(destination)
+    if target.is_file() and pathlib.Path(source).read_bytes() == target.read_bytes():
+        return str(target)  # Loaded DLLs cannot be overwritten on Windows.
+    return shutil.copy2(source, destination)
+
+shutil.copytree(ROOT / 'natives', targets[2], dirs_exist_ok=True, copy_function=copy_native_if_changed)
 digest = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 assert digest(targets[0]) == digest(JAR)
 assert json.loads(targets[1].read_text('utf-8'))['id'] == VERSION
