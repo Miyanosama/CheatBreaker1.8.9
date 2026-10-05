@@ -12,6 +12,13 @@ public final class ServerListReorderGeometry {
       return Math.max(0, Math.min(rowCount - 1, (int)((mouseY - rowsTop) / rowHeight)));
    }
 
+   public static int previewRow(int row, int from, int to) {
+      if (row == from) return -1;
+      if (from < to && row > from && row <= to) return row - 1;
+      if (to < from && row >= to && row < from) return row + 1;
+      return row;
+   }
+
    public static int scrollDirection(int mouseY, int top, int bottom) {
       return mouseY < top + 10 ? -1 : mouseY > bottom - 10 ? 1 : 0;
    }

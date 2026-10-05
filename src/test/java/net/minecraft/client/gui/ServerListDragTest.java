@@ -101,6 +101,45 @@ public class ServerListDragTest extends TestCase {
       assertEquals(0, owner.moves);
    }
 
+   public void testPreviewMakesSpaceDownwardWithoutChangingStoredRows() throws Exception {
+      RecordingMultiplayer owner = withoutGameStartup(RecordingMultiplayer.class);
+      ServerSelectionList list = list(owner);
+      Object first = list.getListEntry(1);
+      Object second = list.getListEntry(2);
+      list.noteRowPress(100, 80);
+      list.tickRowDrag(100, 150, true, true, 1000L);
+      assertEquals(0, list.previewRow(0));
+      assertEquals(-1, list.previewRow(1));
+      assertEquals(1, list.previewRow(2));
+      assertEquals(2, list.previewRow(3));
+      assertEquals(4, list.previewRow(4));
+      assertSame(first, list.getListEntry(1));
+      assertSame(second, list.getListEntry(2));
+      assertEquals(0, owner.moves);
+      list.resetRowDrag();
+      for (int row = 0; row < list.getSize(); row++) assertEquals(row, list.previewRow(row));
+   }
+
+   public void testPreviewMakesSpaceUpwardAndTracksANewDropTarget() throws Exception {
+      RecordingMultiplayer owner = withoutGameStartup(RecordingMultiplayer.class);
+      ServerSelectionList list = list(owner);
+      list.noteRowPress(100, 150);
+      list.tickRowDrag(100, 80, true, true, 1000L);
+      assertEquals(0, list.previewRow(0));
+      assertEquals(2, list.previewRow(1));
+      assertEquals(3, list.previewRow(2));
+      assertEquals(-1, list.previewRow(3));
+      assertEquals(4, list.previewRow(4));
+      list.tickRowDrag(100, 120, true, true, 1010L);
+      assertEquals(1, list.previewRow(1));
+      assertEquals(3, list.previewRow(2));
+      assertEquals(-1, list.previewRow(3));
+      list.tickRowDrag(100, 120, false, true, 1020L);
+      assertEquals(1, owner.moves);
+      assertEquals(3, owner.from);
+      assertEquals(2, owner.to);
+   }
+
    public void testMoveUsesInsertionOrderAndProtectsPinnedServers() throws Exception {
       ServerList list = withoutGameStartup(ServerList.class);
       ServerData pinned = new ServerData(true, "Pinned", "pinned.invalid", false);

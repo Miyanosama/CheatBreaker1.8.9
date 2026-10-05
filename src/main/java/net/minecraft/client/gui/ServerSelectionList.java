@@ -31,6 +31,31 @@ public class ServerSelectionList extends GuiListExtended {
 
    public boolean isRowDragging() { return this.draggingEntry != null; }
 
+   int previewRow(int row) {
+      return this.isRowDragging() ? ServerListReorderGeometry.previewRow(row, this.dragPressRow, this.dragTargetRow) : row;
+   }
+
+   @Override
+   public void drawSelectionBox(int x, int rowsTop, int mouseX, int mouseY) {
+      if (!this.isRowDragging()) {
+         super.drawSelectionBox(x, rowsTop, mouseX, mouseY);
+         return;
+      }
+      int gapY = rowsTop + this.headerPadding + this.dragTargetRow * this.slotHeight;
+      Gui.drawRect(x, gapY, x + this.v_() - 4, gapY + this.slotHeight - 4, 0x30FFE080);
+      Gui.drawRect(x, gapY, x + this.v_() - 4, gapY + 1, 0xA0FFE080);
+      Gui.drawRect(x, gapY + this.slotHeight - 5, x + this.v_() - 4, gapY + this.slotHeight - 4, 0xA0FFE080);
+      for (int row = 0; row < this.getSize(); row++) {
+         int preview = this.previewRow(row);
+         if (preview < 0) continue;
+         int y = rowsTop + this.headerPadding + preview * this.slotHeight;
+         if (y > this.bottom || y + this.slotHeight - 4 < this.d) {
+            this.func_178040_a(row, x, y);
+         }
+         this.drawSlot(row, x, y, this.slotHeight - 4, mouseX, mouseY);
+      }
+   }
+
    @Override
    public void a(int width, int height, int top, int bottom) {
       this.resetRowDrag();
@@ -141,14 +166,6 @@ public class ServerSelectionList extends GuiListExtended {
       int y = Math.max(this.d, Math.min(this.bottom - this.slotHeight, mouseY - this.slotHeight / 2));
       Gui.drawRect(x, y, x + this.v_(), y + this.slotHeight, 0xA0000000);
       this.draggingEntry.drawEntry(this.dragPressRow, x, y, this.v_(), this.slotHeight - 4, mouseX, mouseY, false);
-      int originalY = this.d + 4 - this.getAmountScrolled() + this.headerPadding + this.dragPressRow * this.slotHeight;
-      if (originalY + this.slotHeight > this.d && originalY < this.bottom) {
-         Gui.drawRect(x, Math.max(this.d, originalY), x + this.v_(), Math.min(this.bottom, originalY + this.slotHeight), 0x40000000);
-      }
-      int targetY = this.d + 4 - this.getAmountScrolled() + this.headerPadding + this.dragTargetRow * this.slotHeight;
-      if (this.dragTargetRow > this.dragPressRow) targetY += this.slotHeight;
-      targetY = Math.max(this.d + 1, Math.min(this.bottom - 1, targetY));
-      Gui.drawRect(x, targetY - 1, x + this.v_(), targetY + 1, 0xFFFFE080);
    }
 
    @Override
