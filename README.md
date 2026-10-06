@@ -35,6 +35,12 @@ python tools/package_client.py
 
 欢迎通过 Issues 报告问题或通过 Pull Requests 提交改进。请说明复现步骤、预期行为和实际行为；提交日志前请移除账号信息、令牌及个人路径。源码位于 `src/main/java/`，资源位于 `src/main/resources/`。
 
+### 独立性声明与许可证
+
+本项目与 Mojang、OptiFine、微软（Microsoft）及 CheatBreaker LLC 均无关联，也未获得上述主体的赞助、认可或官方授权。
+
+本项目的原创代码采用 [MIT 许可证](LICENSE)。第三方代码、资源、依赖及商标的权利归各自权利人所有，并继续适用其原有许可证或使用条款。
+
 ## 繁體中文
 
 ### 專案介紹
@@ -67,6 +73,12 @@ python tools/package_client.py
 ### 貢獻
 
 歡迎透過 Issues 回報問題，或透過 Pull Requests 提交改善。請說明重現步驟、預期行為及實際行為；提交日誌前請移除帳號資訊、權杖及個人路徑。原始碼位於 `src/main/java/`，資源位於 `src/main/resources/`。
+
+### 獨立性聲明與授權條款
+
+本專案與 Mojang、OptiFine、微軟（Microsoft）及 CheatBreaker LLC 均無關聯，也未獲得上述主體的贊助、認可或官方授權。
+
+本專案的原創程式碼採用 [MIT 授權條款](LICENSE)。第三方程式碼、資源、相依套件及商標的權利歸各自權利人所有，並繼續適用其原有授權條款或使用條款。
 
 ## 日本語
 
@@ -101,6 +113,12 @@ python tools/package_client.py
 
 Issues での不具合報告や Pull Requests での改善を歓迎します。再現手順、期待する動作、実際の動作を記載してください。ログを投稿する前に、アカウント情報、トークン、個人のパスを削除してください。ソースコードは `src/main/java/`、リソースは `src/main/resources/` にあります。
 
+### 独立性に関する声明とライセンス
+
+本プロジェクトは Mojang、OptiFine、Microsoft、CheatBreaker LLC のいずれとも関係がなく、これらの組織によるスポンサーシップ、承認、公式な許諾を受けていません。
+
+本プロジェクト独自のコードには [MIT ライセンス](LICENSE) を適用します。第三者のコード、リソース、依存ライブラリ、商標の権利は各権利者に帰属し、それぞれの既存のライセンスまたは利用条件が引き続き適用されます。
+
 ## English
 
 ### About
@@ -133,3 +151,9 @@ The build runs compilation, tests, and audits. The resulting JAR is `.target/mav
 ### Contributing
 
 Bug reports through Issues and improvements through Pull Requests are welcome. Include reproduction steps, expected behavior, and actual behavior. Remove account details, tokens, and personal paths before submitting logs. Source code is in `src/main/java/`, and resources are in `src/main/resources/`.
+
+### Independence and License
+
+This project is not affiliated with, sponsored by, endorsed by, or officially authorized by Mojang, OptiFine, Microsoft, or CheatBreaker LLC.
+
+Original code contributed to this project is licensed under the [MIT License](LICENSE). Third-party code, assets, dependencies, and trademarks remain the property of their respective rights holders and remain subject to their existing licenses or terms of use.
