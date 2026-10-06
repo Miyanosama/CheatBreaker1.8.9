@@ -120,6 +120,36 @@ public class CosmeticPreviewCacheTest extends TestCase {
         }
     }
 
+    public void testSearchResultsDecodeAndUploadUsingOriginalIndices() throws Exception {
+        List<ClientResourceManager> cosmetics = new ArrayList<>();
+        for (int index = 0; index < 15; index++) cosmetics.add(wing(index));
+        CosmeticPreviewCache cache = new CosmeticPreviewCache(cosmetics);
+        cache.setDisplayOrder(java.util.Arrays.asList(cosmetics.get(10), cosmetics.get(14)));
+        cache.reset(location -> image(64, 32, 0xff123456));
+        cache.getEntry(10).loaded.get(5, TimeUnit.SECONDS);
+        cache.getEntry(14).loaded.get(5, TimeUnit.SECONDS);
+        assertNull(cache.getEntry(0));
+        final int[] uploads = {0};
+        CosmeticPreviewCache.Uploader uploader = new CosmeticPreviewCache.Uploader() {
+            public int allocate(int width, int height) { return 42; }
+            public void upload(int texture, int[] pixels, int width, int rows, int y) { uploads[0]++; }
+            public void delete(int texture) { }
+        };
+        cache.advanceFrame(uploader);
+        assertTrue(cache.getEntry(10).ready);
+        assertFalse(cache.getEntry(14).ready);
+        cache.advanceFrame(uploader);
+        assertTrue(cache.getEntry(14).ready);
+        assertEquals(2, uploads[0]);
+        cache.setDisplayOrder(Collections.emptyList());
+        cache.requestPage(2);
+        cache.advanceFrame(uploader);
+        assertEquals(2, uploads[0]);
+        cache.setDisplayOrder(cosmetics);
+        cache.requestPage(0);
+        cache.getEntry(0).loaded.get(5, TimeUnit.SECONDS);
+    }
+
     private static void await(CountDownLatch latch) throws java.io.IOException {
         try {
             latch.await(5, TimeUnit.SECONDS);

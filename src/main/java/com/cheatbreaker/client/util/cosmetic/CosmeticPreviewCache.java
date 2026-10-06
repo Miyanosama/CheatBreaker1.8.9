@@ -34,6 +34,7 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
     private static final long CACHE_BYTES = 64L * 1024 * 1024;
     private final List<ClientResourceManager> cosmetics;
     private final Map<ClientResourceManager, Integer> indices = new IdentityHashMap<>();
+    private List<Integer> displayOrder = new java.util.ArrayList<>();
     private final LinkedHashMap<Integer, Entry> entries = new LinkedHashMap<>(16, 0.75F, true);
     private final LinkedHashSet<Integer> pending = new LinkedHashSet<>();
     private final ArrayDeque<Integer> retiredTextures = new ArrayDeque<>();
@@ -84,7 +85,24 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
 
     public CosmeticPreviewCache(List<ClientResourceManager> cosmetics) {
         this.cosmetics = cosmetics;
-        for (int index = 0; index < cosmetics.size(); index++) indices.put(cosmetics.get(index), index);
+        for (int index = 0; index < cosmetics.size(); index++) {
+            indices.put(cosmetics.get(index), index);
+            displayOrder.add(index);
+        }
+    }
+
+    public synchronized void setDisplayOrder(List<ClientResourceManager> displayed) {
+        List<Integer> next = new java.util.ArrayList<>();
+        for (ClientResourceManager cosmetic : displayed) {
+            Integer index = indices.get(cosmetic);
+            if (index != null) next.add(index);
+        }
+        if (!next.equals(displayOrder)) {
+            displayOrder = next;
+            page = Math.min(page, Math.max(0, (displayOrder.size() - 1) / PAGE_SIZE));
+            skippedPrefetch.clear();
+            pending.clear();
+        }
     }
 
     @Override
@@ -109,14 +127,15 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
     synchronized Entry getEntry(int index) { return entries.get(index); }
 
     public synchronized void requestPage(int requestedPage) {
-        int nextPage = Math.max(0, Math.min(requestedPage, Math.max(0, (cosmetics.size() - 1) / PAGE_SIZE)));
+        int nextPage = Math.max(0, Math.min(requestedPage, Math.max(0, (displayOrder.size() - 1) / PAGE_SIZE)));
         if (nextPage != page) skippedPrefetch.clear();
         page = nextPage;
         pending.clear();
         for (int candidate : new int[]{page, page + 1, page - 1}) {
             int first = candidate * PAGE_SIZE;
-            if (candidate < 0 || first >= cosmetics.size()) continue;
-            for (int index = first; index < Math.min(first + PAGE_SIZE, cosmetics.size()); index++) {
+            if (candidate < 0 || first >= displayOrder.size()) continue;
+            for (int slot = first; slot < Math.min(first + PAGE_SIZE, displayOrder.size()); slot++) {
+                int index = displayOrder.get(slot);
                 if (candidate != page && skippedPrefetch.contains(index)) continue;
                 Entry entry = entries.get(index);
                 if (entry == null) {
@@ -189,7 +208,7 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
         while (bytes > CACHE_BYTES && iterator.hasNext()) {
             Map.Entry<Integer, Entry> item = iterator.next();
             // Visible originals remain available even if this page alone exceeds the budget.
-            if (item.getKey() / PAGE_SIZE == page) continue;
+            if (displayOrder.subList(page * PAGE_SIZE, Math.min((page + 1) * PAGE_SIZE, displayOrder.size())).contains(item.getKey())) continue;
             bytes -= item.getValue().bytes();
             retire(item.getValue());
             pending.remove(item.getKey());
@@ -208,7 +227,8 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
         while (!retiredTextures.isEmpty()) uploader.delete(retiredTextures.remove());
         for (int candidate : new int[]{page, page + 1, page - 1}) {
             if (candidate < 0) continue;
-            for (int index = candidate * PAGE_SIZE; index < Math.min((candidate + 1) * PAGE_SIZE, cosmetics.size()); index++) {
+            for (int slot = candidate * PAGE_SIZE; slot < Math.min((candidate + 1) * PAGE_SIZE, displayOrder.size()); slot++) {
+                int index = displayOrder.get(slot);
                 Entry entry = entries.get(index);
                 if (entry == null || entry.pixels == null || entry.ready) continue;
                 if (entry.texture == 0) entry.texture = uploader.allocate(entry.width, entry.height);

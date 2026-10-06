@@ -5,6 +5,9 @@ import com.cheatbreaker.client.ui.util.RenderUtil;
 import com.cheatbreaker.client.util.ClientResourceManager;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
+import com.cheatbreaker.client.ui.overlay.element.InputFieldElement;
+import org.lwjgl.input.Keyboard;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.gui.Gui;
@@ -18,21 +21,82 @@ public class CosmeticsMenu extends MainMenuBase {
    public int recoveredField63;
    public GradientTextButton recoveredField64;
    public ResourceLocation recoveredField65 = new ResourceLocation("client/icons/left.png");
+   List<CosmeticSelectionElement> allCosmetics = new ArrayList<>();
+   List<ClientResourceManager> previewOrder = new ArrayList<>();
+   InputFieldElement searchField;
+   private String searchQuery;
+   private boolean previewOrderChanged = true;
+
+   void updateSearchResults() {
+      String query = searchField.getText().trim().replace('_', ' ').toLowerCase(Locale.ROOT);
+      if (query.equals(searchQuery)) return;
+      searchQuery = query;
+      recoveredField61.clear();
+      previewOrder.clear();
+      for (CosmeticSelectionElement element : allCosmetics) {
+         String name = element.recoveredField2291.method_20858().replace('_', ' ').toLowerCase(Locale.ROOT);
+         if (name.contains(query)) {
+            recoveredField61.add(element);
+            previewOrder.add(element.recoveredField2291);
+         }
+      }
+      recoveredField63 = 0;
+      previewOrderChanged = true;
+   }
+
+   @Override
+   public void initGui() {
+      super.initGui();
+      Keyboard.enableRepeatEvents(true);
+   }
+
+   @Override
+   public void updateScreen() {
+      super.updateScreen();
+      searchField.handleElementUpdate();
+   }
+
+   @Override
+   public void onGuiClosed() {
+      searchField.method_06028(false);
+      Keyboard.enableRepeatEvents(false);
+      CheatBreaker.getInstance().method_19791().getPreviewCache()
+         .setDisplayOrder(CheatBreaker.getInstance().method_19791().getLocalCosmetics().getCosmetics());
+      super.onGuiClosed();
+   }
+
+   @Override
+   public void keyTyped(char character, int key) throws java.io.IOException {
+      if (searchField.method_06013()) {
+         if (key == Keyboard.KEY_ESCAPE || key == Keyboard.KEY_RETURN || key == Keyboard.KEY_NUMPADENTER) {
+            searchField.method_06028(false);
+         } else {
+            searchField.handleElementKeyTyped(character, key);
+            updateSearchResults();
+         }
+         return;
+      }
+      super.keyTyped(character, key);
+   }
 
    @Override
    public void onMouseClicked(float var1, float var2, int var3) {
       super.onMouseClicked(var1, var2, var3);
+      if (this.j.currentScreen != this) return;
+      searchField.handleElementMouseClicked(var1, var2, var3, true);
+      updateSearchResults();
+      if (searchField.a_(var1, var2)) return;
       if (this.recoveredField64.a_(var1, var2)) {
          Minecraft.getMinecraft().getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
          this.j.displayGuiScreen(new MainMenu());
       } else {
          if (this.recoveredField61.size() > 5) {
-            boolean var5 = var1 > this.getScaledWidth() / 2.0F - 40.0F
-               && var1 < this.getScaledWidth() / 2.0F - 1.0F
+            boolean var5 = var1 > this.getScaledWidth() / 2.0F + 34.0F
+               && var1 < this.getScaledWidth() / 2.0F + 54.0F
                && var2 > this.getScaledHeight() / 2.0F + 80.0F
                && var2 < this.getScaledHeight() / 2.0F + 100.0F;
-            boolean var4 = var1 > this.getScaledWidth() / 2.0F + 1.0F
-               && var1 < this.getScaledWidth() / 2.0F + 40.0F
+            boolean var4 = var1 > this.getScaledWidth() / 2.0F + 56.0F
+               && var1 < this.getScaledWidth() / 2.0F + 76.0F
                && var2 > this.getScaledHeight() / 2.0F + 80.0F
                && var2 < this.getScaledHeight() / 2.0F + 100.0F;
             if (this.recoveredField63 > 0 && var5) {
@@ -61,12 +125,20 @@ public class CosmeticsMenu extends MainMenuBase {
       this.recoveredField63 = 0;
 
       for (ClientResourceManager var2 : CheatBreaker.getInstance().method_19791().getLocalCosmetics().getCosmetics()) {
-         this.recoveredField61.add(new CosmeticSelectionElement(var2, 1.0F));
+         this.allCosmetics.add(new CosmeticSelectionElement(var2, 1.0F));
       }
+      searchField = new InputFieldElement(CheatBreaker.getInstance().robotoRegular13px,
+         "Search cosmetics...", 0x40808080, -1);
+      searchField.trimToLength(128);
+      updateSearchResults();
    }
 
    @Override
    public void drawMenu(float var1, float var2) {
+      if (previewOrderChanged) {
+         CheatBreaker.getInstance().method_19791().getPreviewCache().setDisplayOrder(previewOrder);
+         previewOrderChanged = false;
+      }
       CheatBreaker.getInstance().method_19791().getPreviewCache().beginFrame(this.recoveredField63);
       super.drawMenu(var1, var2);
       Gui.drawRect(
@@ -78,10 +150,13 @@ public class CosmeticsMenu extends MainMenuBase {
       );
       this.recoveredField64.setElementSize(this.getScaledWidth() / 2.0F - 30.0F, this.getScaledHeight() / 2.0F + 105.0F, 60.0F, 12.0F);
       this.recoveredField64.drawElement(var1, var2, true);
+      searchField.setElementSize(this.getScaledWidth() / 2.0F - 74.0F,
+         this.getScaledHeight() / 2.0F + 82.0F, 104.0F, 14.0F);
+      searchField.drawElement(var1, var2, true);
       if (this.recoveredField61.isEmpty()) {
          CheatBreaker.getInstance()
             .recoveredField1548
-            .drawCenteredString("You don't own any cosmetics.", this.getScaledWidth() / 2.0F, this.getScaledHeight() / 2.0F + 4.0F, -6381922);
+            .drawCenteredString("No matching cosmetics.", this.getScaledWidth() / 2.0F, this.getScaledHeight() / 2.0F + 4.0F, -6381922);
       } else {
          CheatBreaker.getInstance()
             .recoveredField1595
@@ -99,18 +174,18 @@ public class CosmeticsMenu extends MainMenuBase {
          }
 
          if (this.recoveredField61.size() > 5) {
-            boolean var7 = var1 > this.getScaledWidth() / 2.0F - 40.0F
-               && var1 < this.getScaledWidth() / 2.0F - 1.0F
+            boolean var7 = var1 > this.getScaledWidth() / 2.0F + 34.0F
+               && var1 < this.getScaledWidth() / 2.0F + 54.0F
                && var2 > this.getScaledHeight() / 2.0F + 80.0F
                && var2 < this.getScaledHeight() / 2.0F + 100.0F;
             GL11.glColor4f(0.0F, 0.0F, 0.0F, var7 ? 0.45F : 0.25F);
-            RenderUtil.drawIcon(this.recoveredField65, 4.0F, this.getScaledWidth() / 2.0F - 10.0F, this.getScaledHeight() / 2.0F + 84.0F);
-            boolean var8 = var1 > this.getScaledWidth() / 2.0F + 1.0F
-               && var1 < this.getScaledWidth() / 2.0F + 40.0F
+            RenderUtil.drawIcon(this.recoveredField65, 4.0F, this.getScaledWidth() / 2.0F + 44.0F, this.getScaledHeight() / 2.0F + 84.0F);
+            boolean var8 = var1 > this.getScaledWidth() / 2.0F + 56.0F
+               && var1 < this.getScaledWidth() / 2.0F + 76.0F
                && var2 > this.getScaledHeight() / 2.0F + 80.0F
                && var2 < this.getScaledHeight() / 2.0F + 100.0F;
             GL11.glColor4f(0.0F, 0.0F, 0.0F, var8 ? 0.45F : 0.25F);
-            RenderUtil.drawIcon(this.recoveredField62, 4.0F, this.getScaledWidth() / 2.0F + 10.0F, this.getScaledHeight() / 2.0F + 84.0F);
+            RenderUtil.drawIcon(this.recoveredField62, 4.0F, this.getScaledWidth() / 2.0F + 66.0F, this.getScaledHeight() / 2.0F + 84.0F);
          }
       }
 
