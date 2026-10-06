@@ -8,7 +8,7 @@ import com.cheatbreaker.client.util.AsyncExecutor;
 
 import com.cheatbreaker.client.CheatBreaker;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Objects;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.ResourcePackRepository;
@@ -21,7 +21,7 @@ public class ClientStartupListener {
    }
 
    public void method_28652(ClientInitializedEvent var1) {
-      HashMap var2 = new HashMap();
+      LinkedHashMap var2 = new LinkedHashMap();
 
       for (String var4 : this.recoveredField3563.gameSettings.resourcePacks) {
          var2.put(var4, null);

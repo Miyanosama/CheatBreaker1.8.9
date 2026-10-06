@@ -219,9 +219,13 @@ public class ResourcePackGui extends GuiScreen {
             ArrayList var2 = new ArrayList<>(Lists.reverse(this.recoveredField859.method_04862()));
             this.recoveredField863.setRepositories(var2);
             this.j.gameSettings.resourcePacks.clear();
+            this.j.gameSettings.incompatibleResourcePacks.clear();
 
             for (ResourcePackRepository.Entry var4 : (Iterable<ResourcePackRepository.Entry>)(Iterable<?>)(var2)) {
                this.j.gameSettings.resourcePacks.add(var4.getResourcePackName());
+               if (var4.func_183027_f() != 1) {
+                  this.j.gameSettings.incompatibleResourcePacks.add(var4.getResourcePackName());
+               }
             }
 
             this.j.gameSettings.saveOptions();
