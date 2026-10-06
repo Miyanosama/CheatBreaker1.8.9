@@ -11,6 +11,7 @@ import net.minecraft.client.renderer.entity.layers.LayerCape;
 import net.minecraft.client.renderer.entity.layers.LayerCustomHead;
 import net.minecraft.client.renderer.entity.layers.LayerDeadmau5Head;
 import net.minecraft.client.renderer.entity.layers.LayerHeldItem;
+import net.minecraft.client.renderer.entity.layers.LayerWings;
 import net.minecraft.entity.player.EnumPlayerModelParts;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.ItemStack;
@@ -130,6 +131,7 @@ public class RenderPlayer extends RendererLivingEntity<AbstractClientPlayer> {
       this.a(new LayerArrow(this));
       this.a(new LayerDeadmau5Head(this));
       this.a(new LayerCape(this));
+      this.a(new LayerWings(this));
       this.a(new LayerCustomHead(this.getMainModel().e));
    }
 
