@@ -24,13 +24,15 @@ public class LocalCosmeticsTest extends TestCase {
             }
             assertTrue(capes.size() > 1);
             assertNotNull(wings);
+            ClientResourceManager importedCape = capes.get(capes.size() - 1);
+            assertTrue(importedCape.method_20859().getResourcePath().startsWith("client/capes/imported/"));
             local.toggle(capes.get(0));
             local.toggle(wings);
-            local.toggle(capes.get(1));
+            local.toggle(importedCape);
             assertFalse(capes.get(0).method_20849());
-            assertSame(capes.get(1), local.getEquipped(CosmeticType.CAPE));
+            assertSame(importedCape, local.getEquipped(CosmeticType.CAPE));
             LocalCosmetics restarted = new LocalCosmetics(config);
-            assertEquals(capes.get(1).method_20859(), restarted.getEquipped(CosmeticType.CAPE).method_20859());
+            assertEquals(importedCape.method_20859(), restarted.getEquipped(CosmeticType.CAPE).method_20859());
             assertEquals(wings.method_20859(), restarted.getEquipped(CosmeticType.WINGS).method_20859());
             restarted.toggle(restarted.getEquipped(CosmeticType.CAPE));
             restarted.toggle(restarted.getEquipped(CosmeticType.WINGS));
@@ -46,7 +48,7 @@ public class LocalCosmeticsTest extends TestCase {
 
     public void testEveryCatalogEntryHasTextureAndWingsPreview() {
         LocalCosmetics local = new LocalCosmetics(new File(".target/no-local-cosmetics-config"));
-        assertEquals(52, local.getCosmetics().size());
+        assertEquals(631, local.getCosmetics().size());
         for (ClientResourceManager cosmetic : local.getCosmetics()) {
             assertNotNull(cosmetic.method_20858(), getClass().getResource(
                 "/assets/minecraft/" + cosmetic.method_20859().getResourcePath()));

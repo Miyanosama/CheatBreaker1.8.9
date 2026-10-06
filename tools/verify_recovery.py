@@ -64,10 +64,32 @@ class RecoveryAudit(unittest.TestCase):
                     if len(a)>2 and a[1]=='dynamic':a[2:]=b[2:]
                 self.assertEqual(expected,got,o+'/'+m['name'])
     def test_resource_bytes_match_original(self):
+        # Explicit, hash-verified cape replacement requested by the user.
+        capes=json.loads((ROOT/'recovery/cape-resources.json').read_text('utf-8'))
+        prefix='assets/minecraft/client/capes/'
+        preserved={prefix+'cb.png',prefix+'cb2.png'}
+        self.assertEqual(set(capes['preserved']),preserved)
         with zipfile.ZipFile(ROOT/'.target/input/preview.jar') as z:
+            removed={n for n in z.namelist() if n.startswith(prefix) and not n.endswith('/') and n not in preserved}
+            self.assertEqual(set(capes['removed_original']),removed)
             for n in z.namelist():
                 if n.endswith('/') or n.endswith('.class') or re.fullmatch(r'META-INF/.*\.(SF|RSA|DSA)',n):continue
+                if n in removed:
+                    self.assertFalse((ROOT/'src/main/resources'/n).exists(),n)
+                    continue
                 self.assertEqual(hashlib.sha256(z.read(n)).digest(),hashlib.sha256((ROOT/'src/main/resources'/n).read_bytes()).digest(),n)
+        imported={entry['path'] for entry in capes['imported']}
+        self.assertEqual(len(imported),len(capes['imported']))
+        actual={p.relative_to(ROOT/'src/main/resources').as_posix() for p in (ROOT/'src/main/resources'/prefix).rglob('*') if p.is_file()}
+        self.assertEqual(actual,preserved|imported)
+        for entry in capes['imported']:
+            self.assertTrue(entry['path'].startswith(prefix+'imported/'))
+            data=(ROOT/'src/main/resources'/entry['path']).read_bytes()
+            self.assertEqual(hashlib.sha256(data).hexdigest(),entry['sha256'],entry['path'])
+            self.assertEqual(data[:8],b'\x89PNG\r\n\x1a\n')
+            width=int.from_bytes(data[16:20],'big');height=int.from_bytes(data[20:24],'big')
+            self.assertEqual((width,height),(entry['width'],entry['height']))
+            self.assertEqual(width,2*height,entry['path'])
     def test_selected_source_has_no_decompiler_failure_placeholders(self):
         bad=[]
         for p in (ROOT/'src/main/java').rglob('*.java'):
