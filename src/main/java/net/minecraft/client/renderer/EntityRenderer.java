@@ -3,6 +3,7 @@ package net.minecraft.client.renderer;
 import com.cheatbreaker.client.CheatBreaker;
 import com.cheatbreaker.client.module.type.EnvironmentModule;
 import com.cheatbreaker.client.module.type.PerspectiveModule;
+import com.cheatbreaker.client.module.type.HurtcamModule;
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
 import com.google.gson.JsonSyntaxException;
@@ -1131,8 +1132,11 @@ public class EntityRenderer implements IResourceManagerReloadListener {
 
    public void method_29171(float var1) {
       PerspectiveModule var2 = CheatBreaker.getInstance().getModuleManager().recoveredField1723;
-      boolean var3 = var2.isEnabled() && !var2.recoveredField3171.method_08908() && !var2.method_28796();
+      HurtcamModule hurtcam = CheatBreaker.getInstance().getModuleManager().hurtcam;
+      boolean customHurtcam = hurtcam != null && hurtcam.isEnabled();
+      boolean var3 = !customHurtcam && var2.isEnabled() && !var2.recoveredField3171.method_08908() && !var2.method_28796();
       float var4 = var2.recoveredField3174.method_08905();
+      float hurtAngle = customHurtcam ? 14.0F * hurtcam.getIntensityMultiplier() : (var2.isEnabled() ? var4 : 14.0F);
       if (!var3) {
          if (this.mc.getRenderViewEntity() instanceof EntityLivingBase) {
             EntityLivingBase var5 = (EntityLivingBase)this.mc.getRenderViewEntity();
@@ -1142,7 +1146,7 @@ public class EntityRenderer implements IResourceManagerReloadListener {
                GlStateManager.rotate(40.0F - 8000.0F / (var7 + 200.0F), 0.0F, 0.0F, 1.0F);
             }
 
-            if (var6 < 0.0F) {
+            if (var6 < 0.0F || hurtAngle == 0.0F) {
                return;
             }
 
@@ -1150,7 +1154,7 @@ public class EntityRenderer implements IResourceManagerReloadListener {
             var6 = MathHelper.sin(var6 * var6 * var6 * var6 * (float) Math.PI);
             float var10 = var5.aw;
             GlStateManager.rotate(-var10, 0.0F, 1.0F, 0.0F);
-            GlStateManager.rotate(-var6 * (var2.isEnabled() ? var4 : 14.0F), 0.0F, 0.0F, 1.0F);
+            GlStateManager.rotate(-var6 * hurtAngle, 0.0F, 0.0F, 1.0F);
             GlStateManager.rotate(var10, 0.0F, 1.0F, 0.0F);
          }
       }

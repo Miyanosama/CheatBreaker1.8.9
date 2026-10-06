@@ -10,6 +10,7 @@ import com.cheatbreaker.client.module.staff.StaffModule;
 import com.cheatbreaker.client.module.staff.TrimpModule;
 import com.cheatbreaker.client.module.staff.XRayModule;
 import com.cheatbreaker.client.module.type.AnimationsModule;
+import com.cheatbreaker.client.module.type.HurtcamModule;
 import com.cheatbreaker.client.module.type.AutoTextModule;
 import com.cheatbreaker.client.module.type.BlockOverlayModule;
 import com.cheatbreaker.client.module.type.BossBarModule;
@@ -118,6 +119,7 @@ public class ModuleManager {
    public CrosshairModule recoveredField1721;
    public TNTTimerModule recoveredField1722;
    public PerspectiveModule recoveredField1723;
+   public HurtcamModule hurtcam;
    public int recoveredField1724;
    public List<StaffModule> recoveredField1725 = new ArrayList<>();
    public EnvironmentModule recoveredField1726;
@@ -157,6 +159,7 @@ public class ModuleManager {
       this.recoveredField1706.add(this.recoveredField1696 = new BlockOverlayModule());
       this.recoveredField1706.add(this.recoveredField1727 = new TextureOptionsModule());
       this.recoveredField1706.add(this.recoveredField1723 = new PerspectiveModule());
+      this.recoveredField1706.add(this.hurtcam = new HurtcamModule());
       this.recoveredField1706.add(this.recoveredField1703 = new HitboxesModule());
       this.recoveredField1706.add(this.recoveredField1719 = new HypixelModule());
       new Timer().scheduleAtFixedRate(new HypixelAutoTipTask(), TimeUnit.SECONDS.toMillis(15L), TimeUnit.MINUTES.toMillis(1L));
