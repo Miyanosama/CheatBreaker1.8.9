@@ -18,13 +18,18 @@ public class HurtcamModuleTest extends TestCase {
         return type.cast(((Unsafe)field.get(null)).allocateInstance(type));
     }
 
-    @Override public void setUp() throws Exception {
+    @Override public void setUp() {
         previous = CheatBreaker.instance;
-        CheatBreaker.instance = allocate(CheatBreaker.class);
-        CheatBreaker.instance.configManager = allocate(ConfigManager.class);
-        EventBus bus = allocate(EventBus.class);
-        bus.recoveredField2205 = new ConcurrentHashMap<>();
-        CheatBreaker.instance.recoveredField1568 = bus;
+        try {
+            CheatBreaker.instance = allocate(CheatBreaker.class);
+            CheatBreaker.instance.configManager = allocate(ConfigManager.class);
+            EventBus bus = allocate(EventBus.class);
+            bus.recoveredField2205 = new ConcurrentHashMap<>();
+            CheatBreaker.instance.recoveredField1568 = bus;
+        } catch (Exception error) {
+            CheatBreaker.instance = previous;
+            throw new IllegalStateException(error);
+        }
     }
 
     @Override public void tearDown() { CheatBreaker.instance = previous; }
