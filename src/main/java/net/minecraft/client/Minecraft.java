@@ -819,21 +819,23 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
                }
             } while (this.gameSettings.recoveredField2680.isPressed() || this.gameSettings.keyBindPickBlock.isPressed());
          } else {
-            while (this.gameSettings.recoveredField2699.isPressed()) {
-               this.method_20362();
-            }
-
             while (this.gameSettings.recoveredField2680.isPressed()) {
                this.method_20407();
+            }
+
+            if (this.gameSettings.recoveredField2680.isKeyDown() && this.recoveredField3825 == 0 && !this.thePlayer.isUsingItem()) {
+               this.method_20407();
+            }
+
+            while (this.gameSettings.recoveredField2699.isPressed()) {
+               if (!this.thePlayer.isUsingItem()) {
+                  this.method_20362();
+               }
             }
 
             while (this.gameSettings.keyBindPickBlock.isPressed()) {
                this.method_20415();
             }
-         }
-
-         if (this.gameSettings.recoveredField2680.isKeyDown() && this.recoveredField3825 == 0 && !this.thePlayer.isUsingItem()) {
-            this.method_20407();
          }
 
          this.sendClickBlockToController(this.currentScreen == null && this.gameSettings.recoveredField2699.isKeyDown() && this.recoveredField3812);
@@ -1396,6 +1398,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
    }
 
    public void method_20407() {
+      this.playerController.resetBlockRemoving();
       if (!this.playerController.getIsHittingBlock()) {
          this.recoveredField3825 = 4;
          boolean var1 = true;
