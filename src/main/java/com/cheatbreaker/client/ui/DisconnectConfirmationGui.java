@@ -7,7 +7,6 @@ import com.cheatbreaker.client.ui.mainmenu.LegacyMainMenu;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.multiplayer.GuiConnecting;
-import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.util.ResourceLocation;
 
@@ -63,7 +62,6 @@ public class DisconnectConfirmationGui extends AbstractGui {
       } else if (this.recoveredField1021.a_(var1, var2)) {
          if (this.j.currentServerData != null && this.j.theWorld != null) {
             this.j.theWorld.method_05035();
-            this.j.loadWorld((WorldClient)null);
          }
 
          if (this.j.currentServerData != null) {

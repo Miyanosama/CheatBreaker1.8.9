@@ -11,6 +11,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.GuiConnecting;
 import net.minecraft.client.multiplayer.ServerAddress;
 import net.minecraft.client.multiplayer.ServerData;
+import net.minecraft.client.multiplayer.WorldClient;
 import sun.misc.Unsafe;
 
 public class ServerConnectionResponsivenessTest extends TestCase {
@@ -18,6 +19,47 @@ public class ServerConnectionResponsivenessTest extends TestCase {
     private static final CountDownLatch RELEASE = new CountDownLatch(1);
     private static volatile Thread resolverThread;
     private static volatile boolean srvRequested;
+
+    private static class UnloadingMinecraft extends Minecraft {
+        boolean unloaded;
+        UnloadingMinecraft() { super(null); }
+        @Override public void loadWorld(WorldClient world) {
+            unloaded = true;
+            theWorld = world;
+            setServerData(null);
+        }
+    }
+
+    private static class CancelledConnecting extends GuiConnecting {
+        CancelledConnecting(Minecraft minecraft, ServerData server) {
+            super(null, minecraft, server);
+        }
+        @Override protected ServerAddress resolveAddress(String host, int port, boolean lookupSrv) {
+            // Keep this test entirely offline until the caller cancels the attempt.
+            while (!cancel) Thread.yield();
+            return new ServerAddress("127.0.0.1", 25565);
+        }
+    }
+
+    public void testConnectingUnloadsExistingWorldWithoutLosingReconnectTarget() throws Exception {
+        Field field = Unsafe.class.getDeclaredField("theUnsafe");
+        field.setAccessible(true);
+        Unsafe unsafe = (Unsafe)field.get(null);
+        UnloadingMinecraft minecraft = (UnloadingMinecraft)unsafe.allocateInstance(UnloadingMinecraft.class);
+        minecraft.theWorld = (WorldClient)unsafe.allocateInstance(WorldClient.class);
+        ServerData server = new ServerData("Reconnect", "example.invalid:25570", false);
+        minecraft.setServerData(server);
+        CancelledConnecting screen = new CancelledConnecting(minecraft, minecraft.currentServerData);
+        try {
+            assertTrue(minecraft.unloaded);
+            assertNull(minecraft.theWorld);
+            assertSame(server, minecraft.currentServerData);
+            assertEquals("example.invalid:25570", minecraft.currentServerData.serverIP);
+            assertNull(screen.networkManager);
+        } finally {
+            screen.cancel = true;
+        }
+    }
 
     private static class SlowConnecting extends GuiConnecting {
         SlowConnecting(Minecraft minecraft, ServerData server) {
