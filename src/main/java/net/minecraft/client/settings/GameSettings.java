@@ -2384,6 +2384,20 @@ public class GameSettings {
       }
    }
 
+   private static String serializeResourcePackNames(List<String> names) {
+      String json = gson.toJson(names);
+      StringBuilder escaped = new StringBuilder(json.length());
+      for (int i = 0; i < json.length(); i++) {
+         char character = json.charAt(i);
+         if (character > 127) {
+            escaped.append(String.format("\\u%04x", (int)character));
+         } else {
+            escaped.append(character);
+         }
+      }
+      return escaped.toString();
+   }
+
    public void saveOptions() {
       if (Reflector.FMLClientHandler.exists()) {
          Object var1 = Reflector.call(Reflector.FMLClientHandler_instance);
@@ -2422,8 +2436,8 @@ public class GameSettings {
                var7.println("renderClouds:true");
          }
 
-         var7.println("resourcePacks:" + gson.toJson(this.resourcePacks));
-         var7.println("incompatibleResourcePacks:" + gson.toJson(this.incompatibleResourcePacks));
+         var7.println("resourcePacks:" + serializeResourcePackNames(this.resourcePacks));
+         var7.println("incompatibleResourcePacks:" + serializeResourcePackNames(this.incompatibleResourcePacks));
          var7.println("lastServer:" + this.lastServer);
          var7.println("lang:" + this.language);
          var7.println("chatVisibility:" + this.chatVisibility.getChatVisibility());

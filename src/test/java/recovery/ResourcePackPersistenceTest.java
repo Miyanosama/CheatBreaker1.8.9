@@ -55,8 +55,10 @@ public class ResourcePackPersistenceTest extends TestCase {
             settings.optionsFile = directory.resolve("options.txt").toFile();
             settings.incompatibleResourcePacks.add("removed-pack");
             minecraft.gameSettings = settings;
-            ResourcePackRepository.Entry compatible = entry(minecraft.repository, "a", 1);
-            ResourcePackRepository.Entry otherFormat = entry(minecraft.repository, "z", 3);
+            String compatibleName = "a\u00a7\u4e2d\u6587\u00fc\u00ff\ud83d\ude42.zip";
+            String otherFormatName = "z\u00ff.zip";
+            ResourcePackRepository.Entry compatible = entry(minecraft.repository, compatibleName, 1);
+            ResourcePackRepository.Entry otherFormat = entry(minecraft.repository, otherFormatName, 3);
             ResourcePackGui screen = allocate(ResourcePackGui.class);
             screen.j = minecraft;
             screen.recoveredField863 = minecraft.repository;
@@ -72,6 +74,10 @@ public class ResourcePackPersistenceTest extends TestCase {
             List<String> packOptions = new ArrayList<>();
             for (String line : Files.readAllLines(settings.optionsFile.toPath(), Charset.defaultCharset())) {
                 if (line.startsWith("resourcePacks:") || line.startsWith("incompatibleResourcePacks:")) {
+                    for (char character : line.toCharArray()) {
+                        assertTrue("Pack names must survive Windows code pages", character <= 127);
+                    }
+                    assertEquals(line, new String(line.getBytes("GBK"), "GBK"));
                     packOptions.add(line);
                 }
             }
@@ -80,8 +86,8 @@ public class ResourcePackPersistenceTest extends TestCase {
             DiskSettings restored = new DiskSettings();
             restored.optionsFile = savedPacks.toFile();
             restored.method_01273();
-            assertEquals(Arrays.asList("a", "z"), restored.resourcePacks);
-            assertEquals(Collections.singletonList("z"), restored.incompatibleResourcePacks);
+            assertEquals(Arrays.asList(compatibleName, otherFormatName), restored.resourcePacks);
+            assertEquals(Collections.singletonList(otherFormatName), restored.incompatibleResourcePacks);
             assertTrue(minecraft.refreshed);
         } finally {
             Files.deleteIfExists(directory.resolve("options.txt"));
