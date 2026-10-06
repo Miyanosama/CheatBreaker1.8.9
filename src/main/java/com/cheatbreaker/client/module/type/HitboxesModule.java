@@ -6,6 +6,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.item.EntityXPOrb;
 import net.minecraft.entity.projectile.EntityThrowable;
+import net.minecraft.util.ResourceLocation;
 
 public class HitboxesModule extends AbstractModule {
    public HitboxSettings recoveredField327;
@@ -33,6 +34,6 @@ public class HitboxesModule extends AbstractModule {
       this.recoveredField329 = new HitboxSettings(this, "Projectile");
       this.recoveredField330 = new HitboxSettings(this, "Exp Orb");
       this.method_28821("Shows an outline around an entity's hitbox.");
-      this.setPreviewLabel("Hitboxes", 1.0F);
+      this.setPreviewIcon(new ResourceLocation("client/icons/mods/hitboxes.png"), 32, 32);
    }
 }

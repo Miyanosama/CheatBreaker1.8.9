@@ -15,7 +15,7 @@ public class HurtcamModule extends AbstractModule {
          .setValue(100.0F).setMinMax(0.0F, 100.0F).method_08892("%")
          .method_08914(SettingsDetailLevel.SIMPLE);
       this.method_28821("Adjust camera shake when taking damage.");
-      this.setPreviewIcon(new ResourceLocation("client/icons/mods/hittint.png"), 32, 32);
+      this.setPreviewIcon(new ResourceLocation("client/icons/mods/hurtcam.png"), 32, 32);
    }
 
    public float getIntensityMultiplier() {
