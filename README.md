@@ -37,7 +37,7 @@ python tools/package_client.py
 
 ### 独立性声明与许可证
 
-本项目与 Mojang、OptiFine、微软（Microsoft）及 CheatBreaker LLC 均无关联，也未获得上述主体的赞助、认可或官方授权。
+本项目与 [Mojang AB（Mojang Studios）](https://www.minecraft.net/en-us/usage-guidelines)、[OptiFine（作者：sp614x）](https://optifine.net/copyright)、[Microsoft Corporation](https://www.microsoft.com/) 及 [CheatBreaker®](https://github.com/CheatBreaker) 均无关联，也未获得上述主体的赞助、认可或官方授权。
 
 本项目的原创代码采用 [MIT 许可证](LICENSE)。第三方代码、资源、依赖及商标的权利归各自权利人所有，并继续适用其原有许可证或使用条款。
 
@@ -76,7 +76,7 @@ python tools/package_client.py
 
 ### 獨立性聲明與授權條款
 
-本專案與 Mojang、OptiFine、微軟（Microsoft）及 CheatBreaker LLC 均無關聯，也未獲得上述主體的贊助、認可或官方授權。
+本專案與 [Mojang AB（Mojang Studios）](https://www.minecraft.net/en-us/usage-guidelines)、[OptiFine（作者：sp614x）](https://optifine.net/copyright)、[Microsoft Corporation](https://www.microsoft.com/) 及 [CheatBreaker®](https://github.com/CheatBreaker) 均無關聯，也未獲得上述主體的贊助、認可或官方授權。
 
 本專案的原創程式碼採用 [MIT 授權條款](LICENSE)。第三方程式碼、資源、相依套件及商標的權利歸各自權利人所有，並繼續適用其原有授權條款或使用條款。
 
@@ -115,7 +115,7 @@ Issues での不具合報告や Pull Requests での改善を歓迎します。�
 
 ### 独立性に関する声明とライセンス
 
-本プロジェクトは Mojang、OptiFine、Microsoft、CheatBreaker LLC のいずれとも関係がなく、これらの組織によるスポンサーシップ、承認、公式な許諾を受けていません。
+本プロジェクトは [Mojang AB（Mojang Studios）](https://www.minecraft.net/en-us/usage-guidelines)、[OptiFine（作者：sp614x）](https://optifine.net/copyright)、[Microsoft Corporation](https://www.microsoft.com/)、[CheatBreaker®](https://github.com/CheatBreaker) のいずれとも関係がなく、これらの主体によるスポンサーシップ、承認、公式な許諾を受けていません。
 
 本プロジェクト独自のコードには [MIT ライセンス](LICENSE) を適用します。第三者のコード、リソース、依存ライブラリ、商標の権利は各権利者に帰属し、それぞれの既存のライセンスまたは利用条件が引き続き適用されます。
 
@@ -154,6 +154,6 @@ Bug reports through Issues and improvements through Pull Requests are welcome. I
 
 ### Independence and License
 
-This project is not affiliated with, sponsored by, endorsed by, or officially authorized by Mojang, OptiFine, Microsoft, or CheatBreaker LLC.
+This project is not affiliated with, sponsored by, endorsed by, or officially authorized by [Mojang AB (Mojang Studios)](https://www.minecraft.net/en-us/usage-guidelines), [OptiFine (author: sp614x)](https://optifine.net/copyright), [Microsoft Corporation](https://www.microsoft.com/), or [CheatBreaker®](https://github.com/CheatBreaker).
 
 Original code contributed to this project is licensed under the [MIT License](LICENSE). Third-party code, assets, dependencies, and trademarks remain the property of their respective rights holders and remain subject to their existing licenses or terms of use.
