@@ -628,7 +628,7 @@ public abstract class GuiScreen extends Gui implements GuiYesNoCallback {
 
       if (this.j.isFullScreen() && CheatBreaker.getInstance().getGlobalSettings().recoveredField514) {
          String var3 = "1.8.9";
-         CheatBreaker.getInstance().recoveredField1557.drawStringWithShadow(var3, 5.0, this.m - 14.0F, -1879048193);
+         CheatBreaker.getInstance().recoveredField1557.drawStringWithShadow(var3, 5.0, var2 - 14.0F, -1879048193);
       }
    }
 
