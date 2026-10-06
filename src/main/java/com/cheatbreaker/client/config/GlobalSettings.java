@@ -278,8 +278,7 @@ public class GlobalSettings {
          .method_08914(SettingsDetailLevel.MEDIUM);
       this.recoveredField516 = new Setting(this.recoveredField571, "label").setValue("Render Settings");
       this.recoveredField541 = new Setting(this.recoveredField571, "Show Potion info in inventory")
-         .setValue(true)
-         .method_08894(() -> CheatBreaker.getInstance().getModuleManager().potionStatus.isEnabled());
+         .setValue(true);
       this.recoveredField515 = new Setting(
             this.recoveredField571, "Potion info shifts inventory", "Choose to make the potion info shift the inventory position."
          )

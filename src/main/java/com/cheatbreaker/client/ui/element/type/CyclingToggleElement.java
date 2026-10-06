@@ -15,6 +15,7 @@ import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 
 public class CyclingToggleElement extends AbstractModulesGuiElement {
+   private final String displayName;
    public String recoveredField1971;
    public int recoveredField1972;
    public ResourceLocation recoveredField1973;
@@ -22,7 +23,12 @@ public class CyclingToggleElement extends AbstractModulesGuiElement {
    public float recoveredField1975;
 
    public CyclingToggleElement(Setting var1, float var2) {
+      this(var1, var2, var1.method_08911());
+   }
+
+   public CyclingToggleElement(Setting var1, float var2, String displayName) {
       super(var2);
+      this.displayName = displayName;
       this.recoveredField1973 = new ResourceLocation("client/icons/right.png");
       this.recoveredField1972 = 0;
       this.recoveredField1975 = 0.0F;
@@ -43,7 +49,7 @@ public class CyclingToggleElement extends AbstractModulesGuiElement {
       CheatBreaker.getInstance()
          .recoveredField1589
          .drawString(
-            this.setting.method_08911().toUpperCase(),
+            this.displayName.toUpperCase(),
             this.x + 10,
             this.y + 2,
             !var5 && !var4

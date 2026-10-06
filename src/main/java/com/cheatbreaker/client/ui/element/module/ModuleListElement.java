@@ -91,7 +91,16 @@ public class ModuleListElement extends AbstractScrollableElement {
             for (Setting var11 : ((AbstractModule)var16).getSettingsList()) {
                switch (ModuleListElement$EnumSwitch.recoveredField991[var11.getType().ordinal()]) {
                   case 1:
-                     var9.add(new CyclingToggleElement(var11, var2));
+                     if (var16 == CheatBreaker.getInstance().getModuleManager().potionStatus
+                        && var11 == CheatBreaker.getInstance().getModuleManager().potionStatus.recoveredField2953) {
+                        // Keep the existing global storage keys while grouping the inventory controls in Potion Status.
+                        GlobalSettings settings = CheatBreaker.getInstance().getGlobalSettings();
+                        var9.add(new CyclingToggleElement(var11, var2, "Show Potion Info (Mod On)"));
+                        var9.add(new CyclingToggleElement(settings.recoveredField541, var2, "Show Potion Info (Mod Off)"));
+                        var9.add(new CyclingToggleElement(settings.recoveredField515, var2));
+                     } else {
+                        var9.add(new CyclingToggleElement(var11, var2));
+                     }
                      break;
                   case 2:
                   case 3:
@@ -166,6 +175,10 @@ public class ModuleListElement extends AbstractScrollableElement {
       this.recoveredField1362 = new ArrayList<>();
 
       for (Setting var17 : CheatBreaker.getInstance().getGlobalSettings().recoveredField571) {
+         GlobalSettings settings = CheatBreaker.getInstance().getGlobalSettings();
+         if (var17 == settings.recoveredField541 || var17 == settings.recoveredField515) {
+            continue;
+         }
          switch (ModuleListElement$EnumSwitch.recoveredField991[var17.getType().ordinal()]) {
             case 1:
                this.recoveredField1362.add(new CyclingToggleElement(var17, var2));
