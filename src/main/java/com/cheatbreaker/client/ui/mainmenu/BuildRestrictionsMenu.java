@@ -25,11 +25,9 @@ public class BuildRestrictionsMenu extends MainMenuBase {
       float var7 = this.getScaledHeight() - 40.0F;
       Gui.drawRect(var4, var6, var5, var7, 788529152);
       Gui.drawRect(var4 + 8.0F, var6 + 16.0F, var5 - 8.0F, var6 + 16.5F, 452984831);
-      String var8 = "About confidential builds";
+      String var8 = "CheatBreaker 1.8.9";
       CheatBreaker.getInstance().recoveredField1548.drawString(var8.toUpperCase(), var4 + 8.0F, var6 + 5.0F, -1);
-      String var9 = "PLEASE READ THIS SECTION CAREFULLY.\n\nYou are currently using a private CheatBreaker build. Private builds have certain restrictions in place which are described below:\n\nBranch "
-         + CheatBreaker.getInstance().method_19798()
-         + " restrictions:\n- Disclosure to any user below the lowest authorized ranking is prohibited. This includes but is not limited to new changes inside the build such as new features, fixes, and improvements.\n- Recording/streaming on this build is not recommended, but allowed to a certain extent. If any capturing software is showing this build, do not show any changes from this build that differ from the master branch. If, however, you are recording to submit a bug report, these restrictions do not apply.\n\nManagement reserves the rights to restrict your access to future builds if you violate any restrictions applied.";
+      String var9 = "CheatBreaker 1.8.9";
       String var10 = WordWrap.method_05899(var9).method_29697(60).method_29703(false).method_29693();
       String[] var11 = var10.split("\n");
       int var12 = 0;

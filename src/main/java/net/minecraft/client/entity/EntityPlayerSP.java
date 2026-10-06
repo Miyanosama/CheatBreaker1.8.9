@@ -501,20 +501,7 @@ public class EntityPlayerSP extends AbstractClientPlayer {
    public void sendChatMessage(String var1) {
       if (var1.equals("/cb debug")) {
          CheatBreaker.getInstance().getGlobalSettings().recoveredField514 = !CheatBreaker.getInstance().getGlobalSettings().recoveredField514;
-         Display.setTitle(
-            "Minecraft 1.8.9"
-               + (
-                  CheatBreaker.getInstance().getGlobalSettings().recoveredField514
-                     ? " - "
-                        + CheatBreaker.getInstance().method_19784()
-                        + " Build ("
-                        + CheatBreaker.getInstance().method_19754()
-                        + "/"
-                        + CheatBreaker.getInstance().method_19798()
-                        + ")"
-                     : ""
-               )
-         );
+         Display.setTitle("CheatBreaker 1.8.9");
          ChatComponentText var2 = new ChatComponentText(
             EnumChatFormatting.GRAY + "Debug: " + EnumChatFormatting.RESET + CheatBreaker.getInstance().getGlobalSettings().recoveredField514
          );

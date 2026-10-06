@@ -107,16 +107,7 @@ public class MainMenuBase extends AbstractGui {
       this.recoveredField404 = new TextButtonElement("CHANGELOG");
       this.recoveredField401 = new TextButtonElement("COSMETICS");
       this.recoveredField415 = ImmutableList.of(this.recoveredField410, this.recoveredField401, this.recoveredField404);
-      this.recoveredField416 = !CheatBreaker.getInstance().method_19784().isEmpty()
-            && !CheatBreaker.getInstance().method_19784().toLowerCase().equals(CheatBreaker.getInstance().method_19798())
-         ? "CheatBreaker "
-            + CheatBreaker.getInstance().method_19784()
-            + " ("
-            + CheatBreaker.getInstance().method_19754()
-            + "/"
-            + CheatBreaker.getInstance().method_19798()
-            + ")"
-         : "CheatBreaker (" + CheatBreaker.getInstance().method_19754() + "/" + CheatBreaker.getInstance().method_19798() + ")";
+      this.recoveredField416 = "CheatBreaker 1.8.9";
       this.recoveredField413 = "Copyright Mojang AB. Do not distribute!";
       this.recoveredField411 = "Unauthorized disclosure of this build in any manner may result in disciplinary action up to and including termination of an assignment.";
       this.recoveredField406 = new FadingTextElement(this.recoveredField416);

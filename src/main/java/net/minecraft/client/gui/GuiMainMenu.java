@@ -518,13 +518,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback {
       byte var6 = 30;
       this.method_00889(0.0F, 0.0F, this.l, this.m, 1610612735, 805306367);
       drawRect(0.0F, 0.0F, this.l, 25.0F, -819846622);
-      String var7 = "CheatBreaker "
-         + CheatBreaker.getInstance().method_19784()
-         + " ("
-         + CheatBreaker.getInstance().method_19754()
-         + "/"
-         + CheatBreaker.getInstance().method_19798()
-         + ")";
+      String var7 = "CheatBreaker 1.8.9";
       this.drawString(this.q, var7, 2, this.m - 10, -1);
       String var8 = "Copyright Mojang AB. Do not distribute!";
       this.drawString(this.q, var8, this.l - this.q.getStringWidth(var8) - 2, this.m - 10, -1);

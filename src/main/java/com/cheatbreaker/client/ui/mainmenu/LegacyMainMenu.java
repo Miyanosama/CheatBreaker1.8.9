@@ -273,13 +273,7 @@ public class LegacyMainMenu extends GuiScreen implements GuiYesNoCallback {
       var8 = var8 * 100.0F / (this.q.getStringWidth(this.recoveredField232) + 32);
       GL11.glScalef(var8, var8, var8);
       GL11.glPopMatrix();
-      String var9 = "CheatBreaker "
-         + CheatBreaker.getInstance().method_19784()
-         + " ("
-         + CheatBreaker.getInstance().method_19754()
-         + "/"
-         + CheatBreaker.getInstance().method_19798()
-         + ")";
+      String var9 = "CheatBreaker 1.8.9";
       this.drawString(this.q, var9, 2, this.m - 10, -1);
       String var10 = "Copyright Mojang AB. Do not distribute!";
       this.drawString(this.q, var10, this.l - this.q.getStringWidth(var10) - 2, this.m - 10, -1);
