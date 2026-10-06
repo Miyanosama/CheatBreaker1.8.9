@@ -57,12 +57,12 @@ public class CosmeticsMenu extends MainMenuBase {
    }
 
    @Override
-   public void onGuiClosed() {
+   public void a_() {
       searchField.method_06028(false);
       Keyboard.enableRepeatEvents(false);
       CheatBreaker.getInstance().method_19791().getPreviewCache()
          .setDisplayOrder(CheatBreaker.getInstance().method_19791().getLocalCosmetics().getCosmetics());
-      super.onGuiClosed();
+      super.a_();
    }
 
    @Override
