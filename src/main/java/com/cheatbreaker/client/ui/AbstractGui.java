@@ -51,7 +51,7 @@ public abstract class AbstractGui extends GuiScreen {
    }
 
    public float getScaleFactor() {
-      return 1.0F / (this.resolution.getScaleFactor() / 2.0F);
+      return ClientUiScale.getRenderScale(this.j, this.resolution);
    }
 
    @Override

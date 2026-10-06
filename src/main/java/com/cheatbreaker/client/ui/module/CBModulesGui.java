@@ -1,6 +1,7 @@
 package com.cheatbreaker.client.ui.module;
 
 import com.cheatbreaker.client.CheatBreaker;
+import com.cheatbreaker.client.ui.ClientUiScale;
 import com.cheatbreaker.client.module.AbstractModule;
 import com.cheatbreaker.client.ui.element.AbstractModulesGuiElement;
 import com.cheatbreaker.client.ui.element.AbstractScrollableElement;
@@ -28,6 +29,7 @@ import com.cheatbreaker.client.ui.module.ModuleGroupPositionSnapshot;
 import com.cheatbreaker.client.ui.module.ModuleResizeSnapshot;
 
 public class CBModulesGui extends GuiScreen {
+   private float clientUiRenderScale;
    public float recoveredField778;
    public ResourceLocation recoveredField779 = new ResourceLocation("client/icons/cog-64.png");
    public List<CBModulePosition> positions;
@@ -517,7 +519,7 @@ public class CBModulesGui extends GuiScreen {
       super.drawScreen(var1, var2, var3);
       this.method_11292();
       ScaledResolution var7 = new ScaledResolution(this.j);
-      float var8 = 1.0F / CheatBreaker.method_19763();
+      float var8 = this.clientUiRenderScale;
       if (draggingModule != null) {
          if (!Mouse.isButtonDown(1)) {
             RenderUtil.method_22054(2.0, 2.0, 2.5, this.m - 2, 0.0, -15599126);
@@ -825,7 +827,8 @@ public class CBModulesGui extends GuiScreen {
 
    @Override
    public void updateScreen() {
-      float var1 = 1.0F / CheatBreaker.method_19763();
+      this.refreshClientUiScale();
+      float var1 = this.clientUiRenderScale;
       int var2 = (int)(this.l / var1);
       int var3 = (int)(this.m / var1);
       this.method_26998(var2);
@@ -990,7 +993,8 @@ public class CBModulesGui extends GuiScreen {
       this.currentScrollableElement = null;
       this.recoveredField790 = null;
       recoveredField784 = false;
-      float var1 = 1.0F / CheatBreaker.method_19763();
+      this.clientUiRenderScale = ClientUiScale.getRenderScale(this.j, new ScaledResolution(this.j));
+      float var1 = this.clientUiRenderScale;
       int var2 = (int)(this.l / var1);
       int var3 = (int)(this.m / var1);
       this.recoveredField789.clear();
@@ -1414,5 +1418,35 @@ public class CBModulesGui extends GuiScreen {
 
          this.method_27003(this.currentScrollableElement, false, var1);
       }
+   }
+
+   private void refreshClientUiScale() {
+      float scale = ClientUiScale.getRenderScale(this.j, new ScaledResolution(this.j));
+      if (scale == this.clientUiRenderScale) {
+         return;
+      }
+      int current = this.recoveredField789.indexOf(this.currentScrollableElement);
+      int open = this.recoveredField789.indexOf(this.recoveredField795);
+      List<AbstractScrollableElement> oldPanels = new ArrayList<>(this.recoveredField789);
+      boolean closing = recoveredField784;
+      float fade = this.recoveredField778;
+      this.initGui();
+      for (int index = 0; index < oldPanels.size(); index++) {
+         AbstractScrollableElement oldPanel = oldPanels.get(index);
+         AbstractScrollableElement newPanel = this.recoveredField789.get(index);
+         newPanel.recoveredField3012 = oldPanel.recoveredField3012;
+         newPanel.recoveredField3010 = oldPanel.recoveredField3010;
+         if (oldPanel instanceof ModuleListElement && newPanel instanceof ModuleListElement) {
+            ((ModuleListElement)newPanel).module = ((ModuleListElement)oldPanel).module;
+            ((ModuleListElement)newPanel).recoveredField1358 = ((ModuleListElement)oldPanel).recoveredField1358;
+         }
+      }
+      if (current >= 0) this.currentScrollableElement = this.recoveredField789.get(current);
+      if (open >= 0) {
+         this.recoveredField795 = this.recoveredField789.get(open);
+         this.recoveredField795.x = (int)(this.l / scale) / 2 - 185;
+      }
+      recoveredField784 = closing;
+      this.recoveredField778 = fade;
    }
 }

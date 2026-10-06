@@ -17,6 +17,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import com.cheatbreaker.client.ui.mainmenu.MainMenuMode;
 
 public class GlobalSettings {
+   public Setting clientUiScale;
    public KeyBinding recoveredField479;
    public Setting recoveredField480;
    public Setting recoveredField481;
@@ -221,6 +222,8 @@ public class GlobalSettings {
          .setValue(true)
          .method_08894(() -> (Boolean)this.recoveredField564.getValue());
       new Setting(this.recoveredField571, "label").setValue("General Settings");
+      this.clientUiScale = new Setting(this.recoveredField571, "Client UI Scale", "Change the size of CheatBreaker menus.")
+         .setValue("Normal").acceptedValues("Small", "Normal", "Large", "4x", "5x", "Auto");
       this.rawMouseInput = new Setting(this.recoveredField571, "Raw Mouse Input", "Use unaccelerated mouse movement on Windows.").setValue(true);
       this.preventImeSticking = new Setting(this.recoveredField571, "Prevent IME Input Sticking",
          "Enable Windows IME only while editing text to prevent blocked game keys.").setValue(true);
