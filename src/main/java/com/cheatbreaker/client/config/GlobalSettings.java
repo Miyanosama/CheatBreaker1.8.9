@@ -490,8 +490,6 @@ public class GlobalSettings {
       this.recoveredField536 = new Setting(this.recoveredField571, "Default color", "Change the default color that will be displayed when mods are enabled.")
          .setValue(-1)
          .setMinMax(Integer.MIN_VALUE, Integer.MAX_VALUE);
-      this.recoveredField484.add(new String[]{"Rushware Network", "mc.rushware.cn"});
-      this.recoveredField484.add(new String[]{"Minemen Club [NA]", "na.minemen.club"});
       this.recoveredField517
          .put(
             new String[]{"lunar.gg"},
