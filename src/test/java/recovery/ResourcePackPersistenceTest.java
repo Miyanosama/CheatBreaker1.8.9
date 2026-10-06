@@ -5,12 +5,14 @@ import com.cheatbreaker.client.ui.resourcepack.ResourcePackFolderScanner;
 import com.cheatbreaker.client.ui.resourcepack.SelectedResourcePackEntry;
 import com.cheatbreaker.client.util.ClientStartupListener;
 import java.lang.reflect.Field;
+import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 import junit.framework.TestCase;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
@@ -66,14 +68,24 @@ public class ResourcePackPersistenceTest extends TestCase {
 
             screen.actionPerformed(screen.recoveredField874);
 
+            // Other options initialize display modes; reload only the persisted pack settings here.
+            List<String> packOptions = new ArrayList<>();
+            for (String line : Files.readAllLines(settings.optionsFile.toPath(), Charset.defaultCharset())) {
+                if (line.startsWith("resourcePacks:") || line.startsWith("incompatibleResourcePacks:")) {
+                    packOptions.add(line);
+                }
+            }
+            Path savedPacks = directory.resolve("pack-options.txt");
+            Files.write(savedPacks, packOptions, Charset.defaultCharset());
             DiskSettings restored = new DiskSettings();
-            restored.optionsFile = settings.optionsFile;
+            restored.optionsFile = savedPacks.toFile();
             restored.method_01273();
             assertEquals(Arrays.asList("a", "z"), restored.resourcePacks);
             assertEquals(Collections.singletonList("z"), restored.incompatibleResourcePacks);
             assertTrue(minecraft.refreshed);
         } finally {
             Files.deleteIfExists(directory.resolve("options.txt"));
+            Files.deleteIfExists(directory.resolve("pack-options.txt"));
             Files.delete(directory);
         }
     }
