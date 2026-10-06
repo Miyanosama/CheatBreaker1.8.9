@@ -3,9 +3,10 @@ package com.cheatbreaker.client.module.type;
 import com.cheatbreaker.client.module.AbstractModule;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.IProjectile;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.item.EntityXPOrb;
-import net.minecraft.entity.projectile.EntityThrowable;
+import net.minecraft.entity.projectile.EntityFireball;
 import net.minecraft.util.ResourceLocation;
 
 public class HitboxesModule extends AbstractModule {
@@ -23,7 +24,7 @@ public class HitboxesModule extends AbstractModule {
       } else if (var1 instanceof EntityXPOrb) {
          return this.recoveredField330;
       } else {
-         return var1 instanceof EntityThrowable ? this.recoveredField329 : this.recoveredField328;
+         return var1 instanceof IProjectile || var1 instanceof EntityFireball ? this.recoveredField329 : this.recoveredField328;
       }
    }
 
