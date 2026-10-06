@@ -40,7 +40,7 @@ public class AccountList extends AbstractElement {
       RenderUtil.drawIcon(this.recoveredField350, var5, this.x + 4.0F, this.y + this.recoveredField353 / 2.0F - var5);
       float var10002 = this.x + 22.0F;
       float var10003 = this.y + 4.5F;
-      CheatBreaker.getInstance().robotoRegular13px.drawString(this.recoveredField351, var10002, var10003, -1342177281);
+      CheatBreaker.getInstance().robotoRegular13px.drawString(this.recoveredField351, var10002, var10003, 0xE6FFFFFF);
       float var6 = this.recoveredField356.method_21232(this.a_(var1, var2) && var3);
       if (this.recoveredField356.method_21233()) {
          this.setElementSize(this.x, this.y, this.width, this.recoveredField353 + this.recoveredField349 * var6);
@@ -84,7 +84,7 @@ public class AccountList extends AbstractElement {
                && !this.recoveredField347.isDragClick();
             GL11.glColor4f(1.0F, 1.0F, 1.0F, var17 ? 1.0F : 0.7F);
             RenderUtil.drawIcon(var12.method_09052(), var5, this.x + 4.0F, var15 + 8.0F - var5);
-            CheatBreaker.getInstance().robotoRegular13px.drawString(var12.method_09047(), this.x + 22.0F, var15 + 4.0F, var17 ? -1 : -1342177281);
+            CheatBreaker.getInstance().robotoRegular13px.drawString(var12.method_09047(), this.x + 22.0F, var15 + 4.0F, var17 ? -1 : 0xE6FFFFFF);
             var10++;
          }
 

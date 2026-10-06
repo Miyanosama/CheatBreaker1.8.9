@@ -52,8 +52,6 @@ public class MainMenu extends MainMenuBase {
    public void drawMenu(float var1, float var2) {
       super.drawMenu(var1, var2);
       GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-      this.singleplayerButton.drawElement(var1, var2, true);
-      this.multiplayerButton.drawElement(var1, var2, true);
       Gui.drawRect(
          this.singleplayerButton.getX() - 20.0F,
          this.getScaledHeight() / 2.0F - 80.0F,
@@ -61,6 +59,8 @@ public class MainMenu extends MainMenuBase {
          this.multiplayerButton.getY() + this.multiplayerButton.getHeight() + 14.0F,
          788529152
       );
+      this.singleplayerButton.drawElement(var1, var2, true);
+      this.multiplayerButton.drawElement(var1, var2, true);
       float var3 = this.method_12917() ? this.recoveredField2506.method_21227() : 1.0F;
       if (this.method_12917()) {
          Gui.drawRect(

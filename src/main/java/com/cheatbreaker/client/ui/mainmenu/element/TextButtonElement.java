@@ -10,7 +10,7 @@ public class TextButtonElement extends AbstractElement {
 
    public TextButtonElement(String var1) {
       this.recoveredField294 = var1;
-      this.recoveredField293 = new ColorFade(-1879048193, -1);
+      this.recoveredField293 = new ColorFade(0xE6FFFFFF, -1);
    }
 
    public ColorFade method_26722() {

@@ -3,6 +3,7 @@ package com.cheatbreaker.client.ui.util.font;
 import com.cheatbreaker.client.CheatBreaker;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Executors;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.DynamicTexture;
 import net.minecraft.util.EnumChatFormatting;
@@ -10,6 +11,15 @@ import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 
 public class CBFontRenderer extends CBFont {
+   private static final FontAtlasCache<DynamicTexture> ADAPTIVE_FONTS = new FontAtlasCache<>(
+      Executors.newSingleThreadExecutor(task -> {
+         Thread thread = new Thread(task, "CheatBreaker font rasterizer");
+         thread.setDaemon(true);
+         return thread;
+      }), new FontAtlasCache.Textures<DynamicTexture>() {
+         @Override public DynamicTexture upload(FontAtlasImage image) { return new DynamicTexture(image.image); }
+         @Override public void delete(DynamicTexture texture) { texture.deleteGlTexture(); }
+      }, System::nanoTime, 64L * 1024 * 1024, 32);
    public DynamicTexture texItalicBold;
    public char COLOR_CODE_START = 167;
    public DynamicTexture texItalic;
@@ -145,6 +155,9 @@ public class CBFontRenderer extends CBFont {
          boolean var13 = false;
          boolean var14 = false;
          boolean var15 = true;
+         FontScreenGeometry screen = FontScreenGeometry.capture();
+         FontAtlasCache.Atlas<DynamicTexture> atlas = null;
+         boolean selectAtlas = true;
          var2 *= 2.0;
          var4 = (var4 - 3.0) * 2.0;
          if (var15) {
@@ -225,9 +238,24 @@ public class CBFontRenderer extends CBFont {
                   }
 
                   var18++;
+                  selectAtlas = true;
                } else if (var19 < var8.length && var19 >= 0) {
+                  if (selectAtlas) {
+                     int style = (var11 ? java.awt.Font.BOLD : 0) | (var12 ? java.awt.Font.ITALIC : 0);
+                     atlas = ADAPTIVE_FONTS.get(this.font.deriveFont(style), screen.rasterScale(), this.antiAlias,
+                        this.fractionalMetrics, texture -> texture.getGlTextureId() != var17);
+                     DynamicTexture base = var11 ? (var12 ? this.texItalicBold : this.texBold) : (var12 ? this.texItalic : this.tex);
+                     GL11.glBindTexture(3553, atlas == null ? base.getGlTextureId() : atlas.texture.getGlTextureId());
+                     selectAtlas = false;
+                  }
+                  float glyphX = (float)(screen.snapX(var2 / 2) * 2);
+                  float glyphY = (float)(screen.snapY((var4 + 6) / 2) * 2);
                   GL11.glBegin(4);
-                  this.drawChar(var8, var19, (float)var2, (float)var4 + 6.0F);
+                  if (atlas == null) {
+                     this.drawChar(var8, var19, glyphX, glyphY);
+                  } else {
+                     drawAdaptiveChar(atlas, var19, glyphX, glyphY);
+                  }
                   GL11.glEnd();
                   if (var13) {
                      this.method_03179(var2, var4 + var8[var19].height / 2, var2 + var8[var19].width - 8.0, var4 + var8[var19].height / 2, 1.0F);
@@ -439,5 +467,21 @@ public class CBFontRenderer extends CBFont {
       this.texBold = this.setupTexture(this.font.deriveFont(1), this.antiAlias, this.fractionalMetrics, this.boldChars);
       this.texItalic = this.setupTexture(this.font.deriveFont(2), this.antiAlias, this.fractionalMetrics, this.italicChars);
       this.texItalicBold = this.setupTexture(this.font.deriveFont(3), this.antiAlias, this.fractionalMetrics, this.boldItalicChars);
+   }
+
+   private static void drawAdaptiveChar(FontAtlasCache.Atlas<DynamicTexture> atlas, char character, float x, float y) {
+      FontAtlasImage.Glyph glyph = atlas.glyphs[character];
+      x -= glyph.left / atlas.density;
+      y -= glyph.top / atlas.density;
+      float width = (float)(glyph.width / atlas.density);
+      float height = (float)(glyph.height / atlas.density);
+      float u0 = (float)glyph.x / atlas.width, v0 = (float)glyph.y / atlas.height;
+      float u1 = (float)(glyph.x + glyph.width) / atlas.width, v1 = (float)(glyph.y + glyph.height) / atlas.height;
+      GL11.glTexCoord2f(u1, v0); GL11.glVertex2f(x + width, y);
+      GL11.glTexCoord2f(u0, v0); GL11.glVertex2f(x, y);
+      GL11.glTexCoord2f(u0, v1); GL11.glVertex2f(x, y + height);
+      GL11.glTexCoord2f(u0, v1); GL11.glVertex2f(x, y + height);
+      GL11.glTexCoord2f(u1, v1); GL11.glVertex2f(x + width, y + height);
+      GL11.glTexCoord2f(u1, v0); GL11.glVertex2f(x + width, y);
    }
 }
