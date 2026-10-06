@@ -69,16 +69,16 @@ public class ServerList {
    public void loadServerList() {
       try {
          this.servers.clear();
+         for (String[] var4 : CheatBreaker.getInstance().getGlobalSettings().method_02689()) {
+            this.servers.add(new ServerData(true, var4[0], var4[1], false));
+         }
+
          NBTTagCompound var1 = CompressedStreamTools.read(new File(this.mc.mcDataDir, "servers.dat"));
          if (var1 == null) {
             return;
          }
 
          NBTTagList var2 = var1.getTagList("servers", 10);
-
-         for (String[] var4 : CheatBreaker.getInstance().getGlobalSettings().method_02689()) {
-            this.servers.add(new ServerData(true, var4[0], var4[1], false));
-         }
 
          for (int var6 = 0; var6 < var2.tagCount(); var6++) {
             this.servers.add(ServerData.getServerDataFromNBTCompound(var2.getCompoundTagAt(var6)));

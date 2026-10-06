@@ -1,6 +1,8 @@
 package net.minecraft.client.gui;
 
 import com.cheatbreaker.client.ui.serverlist.PinnedServerEntry;
+import com.cheatbreaker.client.CheatBreaker;
+import com.cheatbreaker.client.config.GlobalSettings;
 import java.lang.reflect.Field;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -179,6 +181,43 @@ public class ServerListDragTest extends TestCase {
          assertEquals("first.invalid", restored.serverIP);
          assertEquals(ServerData.ServerResourceMode.ENABLED, restored.getResourceMode());
       } finally {
+         Files.deleteIfExists(directory.resolve("servers.dat"));
+         Files.deleteIfExists(directory.resolve("servers.dat_tmp"));
+         Files.deleteIfExists(directory);
+      }
+   }
+
+   public void testFeaturedServersLoadWithoutSavedFileAndStayAboveSavedServers() throws Exception {
+      CheatBreaker previous = CheatBreaker.instance;
+      Path directory = Files.createTempDirectory(Files.createDirectories(Paths.get(".target", "test-data")), "featured-");
+      try {
+         CheatBreaker client = withoutGameStartup(CheatBreaker.class);
+         GlobalSettings settings = withoutGameStartup(GlobalSettings.class);
+         settings.recoveredField484 = Arrays.asList(new String[]{"Rushware Network", "mc.rushware.cn"},
+            new String[]{"Minemen Club [NA]", "na.minemen.club"});
+         client.globalSettings = settings;
+         CheatBreaker.instance = client;
+         Minecraft minecraft = withoutGameStartup(Minecraft.class);
+         minecraft.mcDataDir = directory.toFile();
+         ServerList list = new ServerList(minecraft);
+         assertEquals(2, list.countServers());
+         assertEquals("Rushware Network", list.getServerData(0).serverName);
+         assertEquals("mc.rushware.cn", list.getServerData(0).serverIP);
+         assertTrue(list.getServerData(0).recoveredField3389);
+         assertFalse(list.moveServer(0, 1));
+         ServerData saved = new ServerData("My server", "saved.invalid:25570", false);
+         saved.setResourceMode(ServerData.ServerResourceMode.ENABLED);
+         list.addServerData(saved);
+         list.saveServerList();
+         list.loadServerList();
+         assertEquals(3, list.countServers());
+         assertEquals("mc.rushware.cn", list.getServerData(0).serverIP);
+         assertEquals("saved.invalid:25570", list.getServerData(2).serverIP);
+         assertEquals(ServerData.ServerResourceMode.ENABLED, list.getServerData(2).getResourceMode());
+         NBTTagList persisted = CompressedStreamTools.read(directory.resolve("servers.dat").toFile()).getTagList("servers", 10);
+         assertEquals(1, persisted.tagCount());
+      } finally {
+         CheatBreaker.instance = previous;
          Files.deleteIfExists(directory.resolve("servers.dat"));
          Files.deleteIfExists(directory.resolve("servers.dat_tmp"));
          Files.deleteIfExists(directory);
