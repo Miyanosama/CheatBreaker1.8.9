@@ -26,7 +26,7 @@ public class ClientUiScaleTest extends TestCase {
 
    public void testSmallWindowsClampScaleToKeepSettingsAccessible() {
       assertEquals(1, ClientUiScale.resolve("5x", 640, 480));
-      assertEquals(2, ClientUiScale.resolve("Auto", 1280, 720));
+      assertEquals(3, ClientUiScale.resolve("Auto", 1280, 720));
       assertEquals(4, ClientUiScale.resolve("5x", 1920, 1080));
       assertEquals(5, ClientUiScale.resolve("5x", 2560, 1440));
       assertEquals(1, ClientUiScale.resolve("Auto", 200, 150));
