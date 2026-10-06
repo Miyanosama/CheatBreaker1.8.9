@@ -8,5 +8,5 @@ if not exist "%RECOVERY_MVN%" (
   powershell -NoProfile -ExecutionPolicy Bypass -File "%RECOVERY_ROOT%tools\bootstrap-maven.ps1"
   if errorlevel 1 exit /b 1
 )
-call "%RECOVERY_MVN%" -f "%RECOVERY_ROOT%pom.xml" %*
+call "%RECOVERY_MVN%" -f "%RECOVERY_ROOT%pom.xml" "-Dsource.build.directory=%RECOVERY_ROOT%.target\maven-source" %*
 exit /b %errorlevel%

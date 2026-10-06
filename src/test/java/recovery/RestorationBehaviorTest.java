@@ -56,8 +56,10 @@ public class RestorationBehaviorTest extends TestCase {
     }
 
     public void testRiffSampleWriteBeyondByteRange() throws Exception {
+        java.nio.file.Path directory = java.nio.file.Paths.get(".target/test-data");
+        java.nio.file.Files.createDirectories(directory);
         java.nio.file.Path file = java.nio.file.Files.createTempFile(
-                java.nio.file.Paths.get(".target/maven"), "recovery-riff-", ".wav");
+                directory, "recovery-riff-", ".wav");
         javazoom.jl.converter.RiffFile riff = new javazoom.jl.converter.RiffFile();
         try {
             assertEquals(0, riff.Open(file.toString(), 1));

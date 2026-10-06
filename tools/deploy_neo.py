@@ -9,7 +9,7 @@ import zipfile
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 VERSION = 'CheatBreakerNeo-1.8.9'
 DEST = pathlib.Path(r'C:\Users\hp\AppData\Roaming\.minecraft\versions') / VERSION
-JAR = ROOT / '.target/maven/CheatBreaker1.8.9.jar'
+JAR = ROOT / '.target/maven-source/CheatBreaker1.8.9.jar'
 assert JAR.is_file(), 'Build the source JAR first'
 with zipfile.ZipFile(JAR) as archive:
     names = set(archive.namelist())

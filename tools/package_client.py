@@ -6,7 +6,7 @@ import shutil
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DEST = ROOT / '.target/client/CheatBreaker1.8.9'
-JAR = ROOT / '.target/maven/CheatBreaker1.8.9.jar'
+JAR = ROOT / '.target/maven-source/CheatBreaker1.8.9.jar'
 assert JAR.is_file(), 'Run the Maven package phase first'
 DEST.mkdir(parents=True, exist_ok=True)
 shutil.copy2(JAR, DEST / JAR.name)

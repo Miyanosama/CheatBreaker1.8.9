@@ -47,7 +47,10 @@ public class PlayerProfileCache {
    public LinkedList<GameProfile> gameProfiles;
    public static SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss Z");
    public Map<UUID, PlayerProfileCache.ProfileEntry> uuidToProfileEntryMap = Maps.newHashMap();
-   public static ParameterizedType TYPE = new ParameterizedType() {
+   public static ParameterizedType TYPE = new ProfileEntryListType();
+
+   // Avoid anonymous-class numbering collisions with the recovered $1 callback.
+   static final class ProfileEntryListType implements ParameterizedType {
       @Override
       public Type getRawType() {
          return List.class;
@@ -62,7 +65,7 @@ public class PlayerProfileCache {
       public Type getOwnerType() {
          return null;
       }
-   };
+   }
    public File usercacheFile;
 
    public PlayerProfileCache.ProfileEntry getByUUID(UUID var1) {

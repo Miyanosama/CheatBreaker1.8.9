@@ -15,3 +15,4 @@
 - `src/main/java` 是实际编译源码；`recovery/decompiled-complete` 是反编译参考档案。
 - 参考 `F:\Work\CheatBreakerZ` 时，不修改参考项目。
 - 构建、日志和备份产物写入 `.target/`，不提交到 Git。
+- `mvnw.cmd` 的正式构建使用 `.target/maven-source/`，与 IDE 默认的 `.target/maven/` 隔离；打包和部署只读取正式构建产物。`package` 阶段必须通过成品 JAR 构造器链接检查。
