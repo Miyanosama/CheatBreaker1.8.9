@@ -6,7 +6,6 @@ import junit.framework.TestCase;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.ISound;
 import net.minecraft.client.audio.SoundHandler;
-import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.main.GameConfiguration;
 import net.minecraft.client.multiplayer.WorldClient;
 import sun.misc.Unsafe;
@@ -77,7 +76,7 @@ public class DisconnectConfirmationGuiTest extends TestCase {
          if (world != null) throw new AssertionError("Expected world unload");
          unloads++;
          theWorld = null;
-         currentScreen = new GuiScreen();
+         currentScreen = null;
          throw new WorldUnloaded();
       }
    }
