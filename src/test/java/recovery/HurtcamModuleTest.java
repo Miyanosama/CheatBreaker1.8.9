@@ -18,7 +18,7 @@ public class HurtcamModuleTest extends TestCase {
         return type.cast(((Unsafe)field.get(null)).allocateInstance(type));
     }
 
-    @Override protected void setUp() throws Exception {
+    @Override public void setUp() throws Exception {
         previous = CheatBreaker.instance;
         CheatBreaker.instance = allocate(CheatBreaker.class);
         CheatBreaker.instance.configManager = allocate(ConfigManager.class);
@@ -27,7 +27,7 @@ public class HurtcamModuleTest extends TestCase {
         CheatBreaker.instance.recoveredField1568 = bus;
     }
 
-    @Override protected void tearDown() { CheatBreaker.instance = previous; }
+    @Override public void tearDown() { CheatBreaker.instance = previous; }
 
     public void testPercentageSliderDefaultsAndScaling() {
         HurtcamModule module = new HurtcamModule();
