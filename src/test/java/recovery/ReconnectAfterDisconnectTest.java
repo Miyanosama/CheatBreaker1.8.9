@@ -38,7 +38,7 @@ public class ReconnectAfterDisconnectTest extends TestCase {
             minecraft.setServerData(server);
             NetHandlerPlayClient handler = allocate(NetHandlerPlayClient.class);
             handler.gameController = minecraft;
-            handler.guiScreenServer = new GuiScreen();
+            handler.guiScreenServer = new GuiScreen() { };
             handler.onDisconnect(new ChatComponentText("Kicked"));
             assertTrue(minecraft.worldUnloaded);
             assertNull(minecraft.getCurrentServerData());
@@ -62,7 +62,7 @@ public class ReconnectAfterDisconnectTest extends TestCase {
             Minecraft.theMinecraft = minecraft;
             ServerData server = new ServerData("Login failure", "example.invalid:25571", false);
             minecraft.setServerData(server);
-            GuiDisconnected screen = new GuiDisconnected(new GuiScreen(), "connect.failed",
+            GuiDisconnected screen = new GuiDisconnected(new GuiScreen() { }, "connect.failed",
                     new ChatComponentText("Login rejected"));
             minecraft.setServerData(null);
             assertSame(server, screen.reconnectServer);
