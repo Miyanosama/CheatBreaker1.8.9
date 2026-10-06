@@ -46,12 +46,18 @@ public class DisconnectConfirmationGui extends AbstractGui {
 
    @Override
    public void onMouseClicked(float var1, float var2, int var3) {
+      if (var3 != 0 || this.j.currentScreen != this) {
+         return;
+      }
+
       if (this.recoveredField1022.a_(var1, var2)) {
          this.j.getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
          this.j.displayGuiScreen(this.recoveredField1026);
       } else if (this.recoveredField1025.a_(var1, var2)) {
          this.j.getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
-         this.j.theWorld.method_05035();
+         if (this.j.theWorld != null) {
+            this.j.theWorld.method_05035();
+         }
          this.j.loadWorld(null);
          this.j.displayGuiScreen(new LegacyMainMenu());
       } else if (this.recoveredField1021.a_(var1, var2)) {
