@@ -6,11 +6,13 @@ import com.cheatbreaker.client.config.Setting;
 import com.cheatbreaker.client.ui.element.AbstractScrollableElement;
 import com.cheatbreaker.client.ui.element.module.ModuleListElement;
 import com.cheatbreaker.client.ui.module.CBModulesGui;
+import com.cheatbreaker.client.ui.loading.StartupLoadingGui;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import junit.framework.TestCase;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.main.GameConfiguration;
 import net.minecraft.client.settings.GameSettings;
 import sun.misc.Unsafe;
@@ -52,6 +54,31 @@ public class ClientUiScaleTest extends TestCase {
       Field field = Unsafe.class.getDeclaredField("theUnsafe");
       field.setAccessible(true);
       return type.cast(((Unsafe)field.get(null)).allocateInstance(type));
+   }
+
+   public void testStartupLoadingScaleBeforeClientAndSettingsInitialization() throws Exception {
+      CheatBreaker previous = CheatBreaker.instance;
+      try {
+         StartupLoadingGui loading = allocate(StartupLoadingGui.class);
+         loading.j = allocate(TestMinecraft.class);
+         loading.j.displayWidth = 2560;
+         loading.j.displayHeight = 1440;
+         loading.resolution = allocate(ScaledResolution.class);
+         loading.resolution.scaleFactor = 4;
+         CheatBreaker.instance = null;
+         assertEquals(0.5F, loading.getScaleFactor(), 0.0F);
+         CheatBreaker client = allocate(CheatBreaker.class);
+         CheatBreaker.instance = client;
+         assertEquals(0.5F, loading.getScaleFactor(), 0.0F);
+         client.globalSettings = allocate(GlobalSettings.class);
+         assertEquals(0.5F, loading.getScaleFactor(), 0.0F);
+         client.globalSettings.clientUiScale = allocate(Setting.class);
+         assertEquals(0.5F, loading.getScaleFactor(), 0.0F);
+         client.globalSettings.clientUiScale.recoveredField3086 = "5x";
+         assertEquals(1.25F, loading.getScaleFactor(), 0.0F);
+      } finally {
+         CheatBreaker.instance = previous;
+      }
    }
 
    public void testChangingScalePreservesOpenSettingsPageAndScrollPosition() throws Exception {

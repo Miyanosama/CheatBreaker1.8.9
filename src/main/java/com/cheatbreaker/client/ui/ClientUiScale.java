@@ -28,7 +28,9 @@ public final class ClientUiScale {
    }
 
    public static float getRenderScale(Minecraft minecraft, ScaledResolution resolution) {
-      GlobalSettings settings = CheatBreaker.getInstance().getGlobalSettings();
+      // The startup loading screen is drawn before the CheatBreaker singleton exists.
+      CheatBreaker client = CheatBreaker.getInstance();
+      GlobalSettings settings = client == null ? null : client.getGlobalSettings();
       String choice = settings == null || settings.clientUiScale == null ? "Normal" : (String)settings.clientUiScale.getValue();
       return renderScale(choice, minecraft.displayWidth, minecraft.displayHeight, resolution.getScaleFactor());
    }
