@@ -502,6 +502,7 @@ public class NetHandlerPlayClient implements INetHandlerPlayClient {
 
    @Override
    public void onDisconnect(IChatComponent var1) {
+      ServerData reconnectServer = this.gameController.getCurrentServerData();
       this.gameController.loadWorld((WorldClient)null);
       CheatBreaker.getInstance().method_19817().method_21935(new DisconnectEvent());
       if (this.guiScreenServer != null) {
@@ -509,10 +510,10 @@ public class NetHandlerPlayClient implements INetHandlerPlayClient {
             this.gameController
                .displayGuiScreen(new DisconnectedRealmsScreen(((GuiScreenRealmsProxy)this.guiScreenServer).func_154321_a(), "disconnect.lost", var1).getProxy());
          } else {
-            this.gameController.displayGuiScreen(new GuiDisconnected(this.guiScreenServer, "disconnect.lost", var1));
+            this.gameController.displayGuiScreen(new GuiDisconnected(this.guiScreenServer, "disconnect.lost", var1, reconnectServer));
          }
       } else {
-         this.gameController.displayGuiScreen(new GuiDisconnected(new GuiMultiplayer(new GuiMainMenu()), "disconnect.lost", var1));
+         this.gameController.displayGuiScreen(new GuiDisconnected(new GuiMultiplayer(new GuiMainMenu()), "disconnect.lost", var1, reconnectServer));
       }
    }
 
