@@ -106,6 +106,7 @@ public class GlobalSettings {
    public Setting recoveredField561;
    public Setting recoveredField562;
    public Setting recoveredField563;
+   public Setting disableParticlePhysics;
    public Setting recoveredField564;
    public Setting recoveredField565;
    public Setting recoveredField566;
@@ -168,6 +169,10 @@ public class GlobalSettings {
       }).setValue(85).setMinMax(0, 100).method_08892("%").method_08915("MEDIUM");
       this.recoveredField523 = new Setting(this.recoveredField571, "label").setValue("FPS Boost");
       this.recoveredField563 = new Setting(this.recoveredField571, "Enable FPS Boost", "Enables all FPS boost settings in this category.").setValue(true);
+      this.disableParticlePhysics = new Setting(this.recoveredField571, "Disable Particle Physics",
+            "Skip particle collisions with blocks to reduce CPU usage. Particles can pass through blocks.")
+         .setValue(false)
+         .method_08894(this.recoveredField563::method_08908);
       this.recoveredField580 = new Setting(this.recoveredField571, "Entity Shadows", "Draws a shadow below entities.")
          .setValue(true)
          .method_08894(this.recoveredField563::method_08908)

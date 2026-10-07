@@ -1,5 +1,7 @@
 package net.minecraft.client.particle;
 
+import com.cheatbreaker.client.CheatBreaker;
+import com.cheatbreaker.client.config.GlobalSettings;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.WorldRenderer;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
@@ -39,6 +41,25 @@ public class EntityFX extends Entity {
       this.h = (this.V.nextFloat() * 0.5F + 0.5F) * 2.0F;
       this.g = (int)(4.0F / (this.V.nextFloat() * 0.9F + 0.1F));
       this.f = 0;
+   }
+
+   @Override
+   public void d(double x, double y, double z) {
+      CheatBreaker client = CheatBreaker.getInstance();
+      GlobalSettings settings = client == null ? null : client.getGlobalSettings();
+      if (settings != null && settings.recoveredField563 != null && settings.disableParticlePhysics != null
+         && settings.recoveredField563.method_08908() && settings.disableParticlePhysics.method_08908()) {
+         // Keep the bounding box and position synchronized without querying the world.
+         // Do not change noClip: disabling the option restores each particle's own behavior.
+         this.setEntityBoundingBox(this.getEntityBoundingBox().offset(x, y, z));
+         this.resetPositionToBB();
+         this.C = false;
+         this.D = false;
+         this.recoveredField1643 = false;
+         this.recoveredField1644 = false;
+      } else {
+         super.d(x, y, z);
+      }
    }
 
    @Override
