@@ -158,6 +158,11 @@ public class ModulesGuiButtonElement extends AbstractModulesGuiElement {
          float var7 = this.recoveredField2852 ? 3.5F : 8.0F;
          float var8 = this.recoveredField2845 ? this.x + 2.0F : (this.recoveredField2852 ? (float)(this.x + 1.6) : this.x + 6);
          float var9 = this.recoveredField2845 ? this.y + 2.0F : (this.recoveredField2852 ? (float)(this.y + 1.7) : this.y + 6);
+         if ("cosmetics-64.png".equals(this.displayString)) {
+            var8 += var7 * 0.1F;
+            var9 += var7 * 0.1F;
+            var7 *= 0.9F;
+         }
          GL11.glPushMatrix();
          float var10 = GlobalSettings.recoveredField529.method_08908() ? 1.0F : 0.0F;
          GL11.glColor4f(var10, var10, var10, 0.45F);
