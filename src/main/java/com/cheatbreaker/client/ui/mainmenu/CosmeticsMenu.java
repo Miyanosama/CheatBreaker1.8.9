@@ -1,7 +1,7 @@
 package com.cheatbreaker.client.ui.mainmenu;
 
 import com.cheatbreaker.client.CheatBreaker;
-import com.cheatbreaker.client.ui.util.RenderUtil;
+import com.cheatbreaker.client.ui.mainmenu.element.IconButtonElement;
 import com.cheatbreaker.client.util.ClientResourceManager;
 import java.util.ArrayList;
 import java.util.List;
@@ -92,6 +92,8 @@ public class CosmeticsMenu extends MainMenuBase {
    private com.cheatbreaker.client.util.cosmetic.CosmeticType selectedType;
    private final GradientTextButton wingsButton = new GradientTextButton("WINGS");
    private final GradientTextButton capesButton = new GradientTextButton("CAPES");
+   private final IconButtonElement previousPageButton = new IconButtonElement(recoveredField65);
+   private final IconButtonElement nextPageButton = new IconButtonElement(new ResourceLocation("client/icons/right.png"));
    private final CosmeticPlayerPreview playerPreview = new CosmeticPlayerPreview();
    private boolean dragging;
    private float lastDragX;
@@ -110,6 +112,8 @@ public class CosmeticsMenu extends MainMenuBase {
       searchField.setElementSize(15F, 179F, 140F, 15F);
       wingsButton.setElementSize(370F, 183F, 50F, 12F);
       capesButton.setElementSize(425F, 183F, 50F, 12F);
+      previousPageButton.setElementSize(235F, 179F, 15F, 15F);
+      nextPageButton.setElementSize(260F, 179F, 15F, 15F);
       int first = recoveredField63 * PAGE_SIZE;
       for (int i = first; i < Math.min(first + PAGE_SIZE, recoveredField61.size()); i++) {
          int slot = i - first;
@@ -150,10 +154,10 @@ public class CosmeticsMenu extends MainMenuBase {
          sound();
          return;
       }
-      if (inside(x, y, 235, 179, 15, 15) && recoveredField63 > 0) {
+      if (previousPageButton.a_(x, y) && recoveredField63 > 0) {
          recoveredField63--;
          sound();
-      } else if (inside(x, y, 260, 179, 15, 15) && (recoveredField63 + 1) * PAGE_SIZE < recoveredField61.size()) {
+      } else if (nextPageButton.a_(x, y) && (recoveredField63 + 1) * PAGE_SIZE < recoveredField61.size()) {
          recoveredField63++;
          sound();
       } else if (inside(x, y, 345, 0, 155, 165)) {
@@ -214,8 +218,9 @@ public class CosmeticsMenu extends MainMenuBase {
       float scale = contentScale();
       GL11.glScalef(scale, scale, scale);
       GL11.glTranslatef(-250F, -95F, 0F);
-      Gui.drawRect(0F, 0F, 335F, 205F, 0x60000000);
-      Gui.drawRect(345F, 0F, 500F, 205F, 0x60000000);
+      // Match the native NewsMenu/ChangelogMenu panel and separator style.
+      Gui.drawRect(0F, 0F, 335F, 205F, 788529152);
+      Gui.drawRect(345F, 0F, 500F, 205F, 788529152);
       int first = recoveredField63 * PAGE_SIZE;
       for (int i = first; i < Math.min(first + PAGE_SIZE, recoveredField61.size()); i++) {
          recoveredField61.get(i).handleDrawElement((int)x, (int)y, 1F);
@@ -223,10 +228,10 @@ public class CosmeticsMenu extends MainMenuBase {
       if (recoveredField61.isEmpty()) {
          CheatBreaker.getInstance().robotoRegular13px.drawCenteredString("No matching cosmetics.", 167.5F, 80F, 0xFFBBBBBB);
       }
-      Gui.drawRect(15F, 170F, 320F, 171F, 0x40808080);
+      Gui.drawRect(15F, 170F, 320F, 170.5F, 452984831);
       searchField.drawElement(x, y, true);
-      drawArrow(x, y, 235F, recoveredField65, recoveredField63 > 0);
-      drawArrow(x, y, 260F, recoveredField62, (recoveredField63 + 1) * PAGE_SIZE < recoveredField61.size());
+      previousPageButton.drawElement(x, y, recoveredField63 > 0);
+      nextPageButton.drawElement(x, y, (recoveredField63 + 1) * PAGE_SIZE < recoveredField61.size());
       playerPreview.draw(422.5F, 56F, 67F, yaw);
       CheatBreaker.getInstance().robotoRegular13px.drawCenteredString("Hint: Click to drag.", 422.5F, 168F, 0xFFCCCCCC);
       wingsButton.drawElement(x, y, true);
@@ -235,12 +240,4 @@ public class CosmeticsMenu extends MainMenuBase {
       GL11.glPopMatrix();
    }
 
-   private void drawArrow(float x, float y, float left, ResourceLocation icon, boolean enabled) {
-      boolean hover = enabled && inside(x, y, left, 179F, 15F, 15F);
-      Gui.drawRect(left, 179F, left + 15F, 194F, hover ? 0x70777777 : 0x40777777);
-      Gui.drawRect(left + 1F, 180F, left + 14F, 193F, 0x40222222);
-      GL11.glColor4f(1F, 1F, 1F, enabled ? 0.8F : 0.3F);
-      RenderUtil.drawIcon(icon, 4F, left + 3.5F, 182.5F);
-      GL11.glColor4f(1F, 1F, 1F, 1F);
-   }
 }
