@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Locale;
 import com.cheatbreaker.client.ui.overlay.element.InputFieldElement;
 import org.lwjgl.input.Keyboard;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.util.ResourceLocation;
@@ -226,7 +225,7 @@ public class CosmeticsMenu extends MainMenuBase {
       Gui.drawRect(left, 179F, left + 15F, 194F, hover ? 0x70777777 : 0x40777777);
       Gui.drawRect(left + 1F, 180F, left + 14F, 193F, 0x40222222);
       GL11.glColor4f(1F, 1F, 1F, enabled ? 0.8F : 0.3F);
-      RenderUtil.drawIcon(icon, 4F, left + 7.5F, 182F);
+      RenderUtil.drawIcon(icon, 4F, left + 3.5F, 182.5F);
       GL11.glColor4f(1F, 1F, 1F, 1F);
    }
 }

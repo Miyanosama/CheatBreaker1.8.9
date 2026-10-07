@@ -46,6 +46,9 @@ final class CosmeticPlayerPreview {
       GlStateManager.rotate(-135F, 0F, 1F, 0F);
       GlStateManager.rotate(-10F, 1F, 0F, 0F);
       GlStateManager.rotate(yaw, 0F, 1F, 0F);
+      GlStateManager.enableTexture2D();
+      GlStateManager.enableAlpha();
+      GlStateManager.alphaFunc(516, 0.1F);
       GlStateManager.enableDepth();
       GlStateManager.enableRescaleNormal();
       GlStateManager.enableColorMaterial();
