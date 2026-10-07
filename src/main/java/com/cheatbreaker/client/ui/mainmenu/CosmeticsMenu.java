@@ -35,7 +35,7 @@ public class CosmeticsMenu extends MainMenuBase {
       previewOrder.clear();
       for (CosmeticSelectionElement element : allCosmetics) {
          String name = element.recoveredField2291.method_20858().replace('_', ' ').toLowerCase(Locale.ROOT);
-         if (name.contains(query)) {
+         if ((selectedType == null || element.recoveredField2291.method_20848() == selectedType) && name.contains(query)) {
             recoveredField61.add(element);
             previewOrder.add(element.recoveredField2291);
          }
@@ -60,6 +60,7 @@ public class CosmeticsMenu extends MainMenuBase {
    public void a_() {
       searchField.method_06028(false);
       Keyboard.enableRepeatEvents(false);
+      CheatBreaker.getInstance().method_19791().getPreviewCache().prepareModelCape(null);
       CheatBreaker.getInstance().method_19791().getPreviewCache()
          .setDisplayOrder(CheatBreaker.getInstance().method_19791().getLocalCosmetics().getCosmetics());
       super.a_();
@@ -79,47 +80,91 @@ public class CosmeticsMenu extends MainMenuBase {
       super.keyTyped(character, key);
    }
 
+   private com.cheatbreaker.client.util.cosmetic.CosmeticType selectedType;
+   private final GradientTextButton wingsButton = new GradientTextButton("WINGS");
+   private final GradientTextButton capesButton = new GradientTextButton("CAPES");
+   private final CosmeticPlayerPreview playerPreview = new CosmeticPlayerPreview();
+   private boolean dragging;
+   private float lastDragX;
+   private float yaw = 155F;
+   static final int PAGE_SIZE = 10;
+
+   private float contentScale() {
+      return Math.min(1F, Math.min((getScaledWidth() - 24F) / 500F, (getScaledHeight() - 85F) / 235F));
+   }
+
+   private float localX(float x) { return (x - getScaledWidth() / 2F) / contentScale() + 250F; }
+   private float localY(float y) { return (y - getScaledHeight() / 2F) / contentScale() + 95F; }
+
+   private void layout() {
+      recoveredField64.setElementSize(220F, 220F, 60F, 12F);
+      searchField.setElementSize(15F, 179F, 140F, 15F);
+      wingsButton.setElementSize(370F, 183F, 50F, 12F);
+      capesButton.setElementSize(425F, 183F, 50F, 12F);
+      int first = recoveredField63 * PAGE_SIZE;
+      for (int i = first; i < Math.min(first + PAGE_SIZE, recoveredField61.size()); i++) {
+         int slot = i - first;
+         CosmeticSelectionElement element = recoveredField61.get(i);
+         element.setDimensions(15 + (slot / 5) * 160, 15 + (slot % 5) * 30, 150, 30);
+      }
+   }
+
+   private static boolean inside(float x, float y, float left, float top, float width, float height) {
+      return x >= left && x < left + width && y >= top && y < top + height;
+   }
+
+   private void sound() {
+      j.getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1F));
+   }
+
    @Override
-   public void onMouseClicked(float var1, float var2, int var3) {
-      super.onMouseClicked(var1, var2, var3);
-      if (this.j.currentScreen != this) return;
-      searchField.handleElementMouseClicked(var1, var2, var3, true);
+   public void onMouseClicked(float x, float y, int button) {
+      super.onMouseClicked(x, y, button);
+      if (j.currentScreen != this) return;
+      x = localX(x);
+      y = localY(y);
+      layout();
+      searchField.handleElementMouseClicked(x, y, button, true);
       updateSearchResults();
-      if (searchField.a_(var1, var2)) return;
-      if (this.recoveredField64.a_(var1, var2)) {
-         Minecraft.getMinecraft().getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
-         this.j.displayGuiScreen(new MainMenu());
+      if (button != 0 || searchField.a_(x, y)) return;
+      if (recoveredField64.a_(x, y)) {
+         sound();
+         j.displayGuiScreen(new MainMenu());
+         return;
+      }
+      if (wingsButton.a_(x, y) || capesButton.a_(x, y)) {
+         selectedType = wingsButton.a_(x, y)
+            ? com.cheatbreaker.client.util.cosmetic.CosmeticType.WINGS
+            : com.cheatbreaker.client.util.cosmetic.CosmeticType.CAPE;
+         searchQuery = null;
+         updateSearchResults();
+         sound();
+         return;
+      }
+      if (inside(x, y, 235, 179, 15, 15) && recoveredField63 > 0) {
+         recoveredField63--;
+         sound();
+      } else if (inside(x, y, 260, 179, 15, 15) && (recoveredField63 + 1) * PAGE_SIZE < recoveredField61.size()) {
+         recoveredField63++;
+         sound();
+      } else if (inside(x, y, 345, 0, 155, 165)) {
+         dragging = true;
+         lastDragX = x;
       } else {
-         if (this.recoveredField61.size() > 5) {
-            boolean var5 = var1 > this.getScaledWidth() / 2.0F + 34.0F
-               && var1 < this.getScaledWidth() / 2.0F + 54.0F
-               && var2 > this.getScaledHeight() / 2.0F + 80.0F
-               && var2 < this.getScaledHeight() / 2.0F + 100.0F;
-            boolean var4 = var1 > this.getScaledWidth() / 2.0F + 56.0F
-               && var1 < this.getScaledWidth() / 2.0F + 76.0F
-               && var2 > this.getScaledHeight() / 2.0F + 80.0F
-               && var2 < this.getScaledHeight() / 2.0F + 100.0F;
-            if (this.recoveredField63 > 0 && var5) {
-               this.recoveredField63--;
-               Minecraft.getMinecraft().getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
-            } else if (var4 && this.recoveredField63 + 1 < this.recoveredField61.size() / 5.0F) {
-               this.recoveredField63++;
-               Minecraft.getMinecraft().getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
-            }
-         }
-
-         int var7 = 0;
-
-         for (CosmeticSelectionElement var6 : this.recoveredField61) {
-            var7++;
-            if (var7 - 1 >= this.recoveredField63 * 5 && var7 - 1 < (this.recoveredField63 + 1) * 5) {
-               var6.handleMouseClick((int)var1, (int)var2, var3);
-            }
+         int first = recoveredField63 * PAGE_SIZE;
+         for (int i = first; i < Math.min(first + PAGE_SIZE, recoveredField61.size()); i++) {
+            recoveredField61.get(i).handleMouseClick((int)x, (int)y, button);
          }
       }
    }
 
+   @Override
+   public void onMouseReleased(float x, float y, int button) {
+      if (button == 0) dragging = false;
+   }
+
    public CosmeticsMenu() {
+      this.recoveredField415 = java.util.Arrays.asList(this.recoveredField410, this.recoveredField401);
       this.recoveredField62 = new ResourceLocation("client/icons/right.png");
       this.recoveredField64 = new GradientTextButton("BACK");
       this.recoveredField63 = 0;
@@ -130,64 +175,58 @@ public class CosmeticsMenu extends MainMenuBase {
       searchField = new InputFieldElement(CheatBreaker.getInstance().robotoRegular13px,
          "Search cosmetics...", 0x40808080, -1);
       searchField.trimToLength(128);
+      selectedType = com.cheatbreaker.client.util.cosmetic.CosmeticType.WINGS;
       updateSearchResults();
    }
 
    @Override
-   public void drawMenu(float var1, float var2) {
+   public void drawMenu(float mouseX, float mouseY) {
       if (previewOrderChanged) {
-         CheatBreaker.getInstance().method_19791().getPreviewCache().setDisplayOrder(previewOrder);
+         CheatBreaker.getInstance().method_19791().getPreviewCache().setDisplayOrder(previewOrder, PAGE_SIZE);
          previewOrderChanged = false;
       }
-      CheatBreaker.getInstance().method_19791().getPreviewCache().beginFrame(this.recoveredField63);
-      super.drawMenu(var1, var2);
-      Gui.drawRect(
-         this.getScaledWidth() / 2.0F - 80.0F,
-         this.getScaledHeight() / 2.0F - 78.0F,
-         this.getScaledWidth() / 2.0F + 80.0F,
-         this.getScaledHeight() / 2.0F + 100.0F,
-         788529152
-      );
-      this.recoveredField64.setElementSize(this.getScaledWidth() / 2.0F - 30.0F, this.getScaledHeight() / 2.0F + 105.0F, 60.0F, 12.0F);
-      this.recoveredField64.drawElement(var1, var2, true);
-      searchField.setElementSize(this.getScaledWidth() / 2.0F - 74.0F,
-         this.getScaledHeight() / 2.0F + 82.0F, 104.0F, 14.0F);
-      searchField.drawElement(var1, var2, true);
-      if (this.recoveredField61.isEmpty()) {
-         CheatBreaker.getInstance()
-            .recoveredField1548
-            .drawCenteredString("No matching cosmetics.", this.getScaledWidth() / 2.0F, this.getScaledHeight() / 2.0F + 4.0F, -6381922);
-      } else {
-         CheatBreaker.getInstance()
-            .recoveredField1595
-            .drawCenteredString("Cosmetics (" + this.recoveredField61.size() + ")", this.getScaledWidth() / 2.0F, this.getScaledHeight() / 2.0F - 90.0F, -1);
-         int var3 = 0;
-         float var4 = 0.0F;
-
-         for (CosmeticSelectionElement var6 : this.recoveredField61) {
-            var3++;
-            if (var3 - 1 >= this.recoveredField63 * 5 && var3 - 1 < (this.recoveredField63 + 1) * 5) {
-               var6.setDimensions((int)this.getScaledWidth() / 2 - 76, (int)(this.getScaledHeight() / 2.0F - 72.0F + var4), 152, var6.getHeight());
-               var6.handleDrawElement((int)var1, (int)var2, 1.0F);
-               var4 += var6.getHeight();
-            }
-         }
-
-         if (this.recoveredField61.size() > 5) {
-            boolean var7 = var1 > this.getScaledWidth() / 2.0F + 34.0F
-               && var1 < this.getScaledWidth() / 2.0F + 54.0F
-               && var2 > this.getScaledHeight() / 2.0F + 80.0F
-               && var2 < this.getScaledHeight() / 2.0F + 100.0F;
-            GL11.glColor4f(0.0F, 0.0F, 0.0F, var7 ? 0.45F : 0.25F);
-            RenderUtil.drawIcon(this.recoveredField65, 4.0F, this.getScaledWidth() / 2.0F + 44.0F, this.getScaledHeight() / 2.0F + 84.0F);
-            boolean var8 = var1 > this.getScaledWidth() / 2.0F + 56.0F
-               && var1 < this.getScaledWidth() / 2.0F + 76.0F
-               && var2 > this.getScaledHeight() / 2.0F + 80.0F
-               && var2 < this.getScaledHeight() / 2.0F + 100.0F;
-            GL11.glColor4f(0.0F, 0.0F, 0.0F, var8 ? 0.45F : 0.25F);
-            RenderUtil.drawIcon(this.recoveredField62, 4.0F, this.getScaledWidth() / 2.0F + 66.0F, this.getScaledHeight() / 2.0F + 84.0F);
-         }
+      CheatBreaker.getInstance().method_19791().getPreviewCache().prepareModelCape(
+         CheatBreaker.getInstance().method_19791().getLocalCosmetics().getEquipped(com.cheatbreaker.client.util.cosmetic.CosmeticType.CAPE));
+      CheatBreaker.getInstance().method_19791().getPreviewCache().beginFrame(recoveredField63);
+      super.drawMenu(mouseX, mouseY);
+      float x = localX(mouseX), y = localY(mouseY);
+      if (dragging) {
+         yaw = (yaw + (x - lastDragX) * 1.5F) % 360F;
+         lastDragX = x;
       }
+      layout();
+      GL11.glPushMatrix();
+      GL11.glTranslatef(getScaledWidth() / 2F, getScaledHeight() / 2F, 0F);
+      float scale = contentScale();
+      GL11.glScalef(scale, scale, scale);
+      GL11.glTranslatef(-250F, -95F, 0F);
+      Gui.drawRect(0F, 0F, 335F, 205F, 0x60000000);
+      Gui.drawRect(345F, 0F, 500F, 205F, 0x60000000);
+      int first = recoveredField63 * PAGE_SIZE;
+      for (int i = first; i < Math.min(first + PAGE_SIZE, recoveredField61.size()); i++) {
+         recoveredField61.get(i).handleDrawElement((int)x, (int)y, 1F);
+      }
+      if (recoveredField61.isEmpty()) {
+         CheatBreaker.getInstance().robotoRegular13px.drawCenteredString("No matching cosmetics.", 167.5F, 80F, 0xFFBBBBBB);
+      }
+      Gui.drawRect(15F, 170F, 320F, 171F, 0x40808080);
+      searchField.drawElement(x, y, true);
+      drawArrow(x, y, 235F, recoveredField65, recoveredField63 > 0);
+      drawArrow(x, y, 260F, recoveredField62, (recoveredField63 + 1) * PAGE_SIZE < recoveredField61.size());
+      playerPreview.draw(422.5F, 56F, 67F, yaw);
+      CheatBreaker.getInstance().robotoRegular13px.drawCenteredString("Hint: Click to drag.", 422.5F, 168F, 0xFFCCCCCC);
+      wingsButton.drawElement(x, y, true);
+      capesButton.drawElement(x, y, true);
+      recoveredField64.drawElement(x, y, true);
+      GL11.glPopMatrix();
+   }
 
+   private void drawArrow(float x, float y, float left, ResourceLocation icon, boolean enabled) {
+      boolean hover = enabled && inside(x, y, left, 179F, 15F, 15F);
+      Gui.drawRect(left, 179F, left + 15F, 194F, hover ? 0x70777777 : 0x40777777);
+      Gui.drawRect(left + 1F, 180F, left + 14F, 193F, 0x40222222);
+      GL11.glColor4f(1F, 1F, 1F, enabled ? 0.8F : 0.3F);
+      RenderUtil.drawIcon(icon, 4F, left + 7.5F, 182F);
+      GL11.glColor4f(1F, 1F, 1F, 1F);
    }
 }

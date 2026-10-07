@@ -32,7 +32,10 @@ public class DragonWingsModel extends ModelBase {
    }
 
    public void method_20013(Entity var1, float var2, float var3, float var4, float var5, float var6, float var7, float var8, ResourceLocation var9) {
-      if (var1 instanceof EntityPlayer) {
+      if (var1 instanceof EntityPlayer) renderPreview(var7, var8, var9);
+   }
+
+   public void renderPreview(float var7, float var8, ResourceLocation var9) {
          Minecraft.getMinecraft().getTextureManager().bindTexture(var9);
          GL11.glPushMatrix();
          GL11.glScaled(var8, var8, var8);
@@ -56,6 +59,5 @@ public class DragonWingsModel extends ModelBase {
          GL11.glPopMatrix();
          GL11.glCullFace(1029);
          GL11.glDisable(2884);
-      }
    }
 }

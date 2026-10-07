@@ -48,6 +48,8 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
     private boolean decoding;
     private int generation;
     private int page;
+    private int pageSize = PAGE_SIZE;
+    private Integer modelCapeIndex;
 
     interface ImageReader {
         BufferedImage read(ResourceLocation location) throws IOException;
@@ -92,14 +94,21 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
     }
 
     public synchronized void setDisplayOrder(List<ClientResourceManager> displayed) {
+        setDisplayOrder(displayed, PAGE_SIZE);
+    }
+
+    public synchronized void setDisplayOrder(List<ClientResourceManager> displayed, int requestedPageSize) {
+        if (requestedPageSize < 1) throw new IllegalArgumentException("Invalid cosmetic page size");
+        boolean sizeChanged = pageSize != requestedPageSize;
+        pageSize = requestedPageSize;
         List<Integer> next = new java.util.ArrayList<>();
         for (ClientResourceManager cosmetic : displayed) {
             Integer index = indices.get(cosmetic);
             if (index != null) next.add(index);
         }
-        if (!next.equals(displayOrder)) {
+        if (sizeChanged || !next.equals(displayOrder)) {
             displayOrder = next;
-            page = Math.min(page, Math.max(0, (displayOrder.size() - 1) / PAGE_SIZE));
+            page = Math.min(page, Math.max(0, (displayOrder.size() - 1) / pageSize));
             skippedPrefetch.clear();
             pending.clear();
         }
@@ -127,14 +136,14 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
     synchronized Entry getEntry(int index) { return entries.get(index); }
 
     public synchronized void requestPage(int requestedPage) {
-        int nextPage = Math.max(0, Math.min(requestedPage, Math.max(0, (displayOrder.size() - 1) / PAGE_SIZE)));
+        int nextPage = Math.max(0, Math.min(requestedPage, Math.max(0, (displayOrder.size() - 1) / pageSize)));
         if (nextPage != page) skippedPrefetch.clear();
         page = nextPage;
         pending.clear();
         for (int candidate : new int[]{page, page + 1, page - 1}) {
-            int first = candidate * PAGE_SIZE;
+            int first = candidate * pageSize;
             if (candidate < 0 || first >= displayOrder.size()) continue;
-            for (int slot = first; slot < Math.min(first + PAGE_SIZE, displayOrder.size()); slot++) {
+            for (int slot = first; slot < Math.min(first + pageSize, displayOrder.size()); slot++) {
                 int index = displayOrder.get(slot);
                 if (candidate != page && skippedPrefetch.contains(index)) continue;
                 Entry entry = entries.get(index);
@@ -144,6 +153,14 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
                 }
                 if (!entry.loaded.isDone()) pending.add(index);
             }
+        }
+        if (modelCapeIndex != null) {
+            Entry cape = entries.get(modelCapeIndex);
+            if (cape == null) {
+                cape = new Entry();
+                entries.put(modelCapeIndex, cape);
+            }
+            if (!cape.loaded.isDone()) pending.add(modelCapeIndex);
         }
         if (!decoding && reader != null && !pending.isEmpty()) {
             decoding = true;
@@ -207,8 +224,9 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
         Iterator<Map.Entry<Integer, Entry>> iterator = entries.entrySet().iterator();
         while (bytes > CACHE_BYTES && iterator.hasNext()) {
             Map.Entry<Integer, Entry> item = iterator.next();
+            if (item.getKey().equals(modelCapeIndex)) continue;
             // Visible originals remain available even if this page alone exceeds the budget.
-            if (displayOrder.subList(page * PAGE_SIZE, Math.min((page + 1) * PAGE_SIZE, displayOrder.size())).contains(item.getKey())) continue;
+            if (displayOrder.subList(page * pageSize, Math.min((page + 1) * pageSize, displayOrder.size())).contains(item.getKey())) continue;
             bytes -= item.getValue().bytes();
             retire(item.getValue());
             pending.remove(item.getKey());
@@ -223,14 +241,34 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
         advanceFrame(OPENGL);
     }
 
+    public synchronized void prepareModelCape(ClientResourceManager cape) {
+        modelCapeIndex = cape == null ? null : indices.get(cape);
+    }
+
+    public synchronized boolean bindModelCape(ClientResourceManager cape) {
+        Integer index = indices.get(cape);
+        Entry entry = index == null ? null : entries.get(index);
+        if (entry == null || !entry.ready) return false;
+        GlStateManager.setActiveTexture(OpenGlHelper.defaultTexUnit);
+        TextureUtil.bindTexture(entry.texture);
+        return true;
+    }
+
     synchronized void advanceFrame(Uploader uploader) {
         while (!retiredTextures.isEmpty()) uploader.delete(retiredTextures.remove());
+        if (modelCapeIndex != null && uploadEntry(entries.get(modelCapeIndex), uploader)) return;
         for (int candidate : new int[]{page, page + 1, page - 1}) {
             if (candidate < 0) continue;
-            for (int slot = candidate * PAGE_SIZE; slot < Math.min((candidate + 1) * PAGE_SIZE, displayOrder.size()); slot++) {
+            for (int slot = candidate * pageSize; slot < Math.min((candidate + 1) * pageSize, displayOrder.size()); slot++) {
                 int index = displayOrder.get(slot);
                 Entry entry = entries.get(index);
-                if (entry == null || entry.pixels == null || entry.ready) continue;
+                if (uploadEntry(entry, uploader)) return;
+            }
+        }
+    }
+
+    private boolean uploadEntry(Entry entry, Uploader uploader) {
+        if (entry == null || entry.pixels == null || entry.ready) return false;
                 if (entry.texture == 0) entry.texture = uploader.allocate(entry.width, entry.height);
                 int rows = Math.min(entry.height - entry.uploadedRows, Math.max(1, PIXELS_PER_FRAME / entry.width));
                 int offset = entry.uploadedRows * entry.width;
@@ -241,9 +279,7 @@ public final class CosmeticPreviewCache implements IResourceManagerReloadListene
                     entry.ready = true;
                     entry.pixels = null;
                 }
-                return; // At most one bounded upload per rendered frame.
-            }
-        }
+        return true; // At most one bounded upload per rendered frame.
     }
 
     public synchronized void draw(ClientResourceManager cosmetic, int x, int y) {

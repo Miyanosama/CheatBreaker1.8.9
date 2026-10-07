@@ -58,4 +58,28 @@ public class CosmeticsSearchTest extends TestCase {
         menu.updateSearchResults();
         assertEquals(1, menu.recoveredField61.size());
     }
+    public void testCategorySwitchFiltersAndResetsPageWithoutLosingSelection() throws Exception {
+        CosmeticsMenu menu = menu();
+        ClientResourceManager wing = new ClientResourceManager("local", "Blue wing", CosmeticType.WINGS,
+            0.125F, true, "client/wings/blue.png");
+        menu.allCosmetics.add(new CosmeticSelectionElement(wing, 1F));
+        Field type = CosmeticsMenu.class.getDeclaredField("selectedType");
+        type.setAccessible(true);
+        type.set(menu, CosmeticType.WINGS);
+        Field query = CosmeticsMenu.class.getDeclaredField("searchQuery");
+        query.setAccessible(true);
+        query.set(menu, null);
+        menu.recoveredField63 = 2;
+        menu.updateSearchResults();
+        assertEquals(0, menu.recoveredField63);
+        assertEquals(1, menu.recoveredField61.size());
+        assertSame(wing, menu.previewOrder.get(0));
+        assertTrue(wing.method_20849());
+        type.set(menu, CosmeticType.CAPE);
+        query.set(menu, null);
+        menu.updateSearchResults();
+        assertEquals(12, menu.recoveredField61.size());
+        assertTrue(wing.method_20849());
+    }
+
 }

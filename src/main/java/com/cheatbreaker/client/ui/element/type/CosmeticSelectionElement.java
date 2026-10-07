@@ -23,9 +23,16 @@ public class CosmeticSelectionElement extends AbstractModulesGuiElement {
       CheatBreaker.getInstance().method_19791().getPreviewCache()
          .draw(this.recoveredField2291, this.x + 20, this.y + 7);
 
+      String label = this.recoveredField2291.method_20858().replace("_", " ");
+      if (label.startsWith("wings ")) label = label.substring(6);
+      String fullLabel = label;
+      while (!label.isEmpty() && CheatBreaker.getInstance().recoveredField1548.getStringWidth(label) > this.width - 46) {
+         label = label.substring(0, label.length() - 1);
+      }
+      if (!label.equals(fullLabel) && label.length() > 3) label = label.substring(0, label.length() - 3) + "...";
       CheatBreaker.getInstance()
          .recoveredField1548
-         .drawString(this.recoveredField2291.method_20858().replace("_", " "), this.x + 42, this.y + this.height / 2 - 5, -1342177281);
+         .drawString(label, this.x + 42, this.y + this.height / 2 - 5, -1342177281);
       if (this.recoveredField2291.method_20849()) {
          GL11.glColor4f(0.0F, 0.8F, 0.0F, 0.45F);
       } else {

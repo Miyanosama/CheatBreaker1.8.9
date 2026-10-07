@@ -150,6 +150,33 @@ public class CosmeticPreviewCacheTest extends TestCase {
         cache.getEntry(0).loaded.get(5, TimeUnit.SECONDS);
     }
 
+    public void testTenItemPagesAndEquippedCapeOutsideCategoryDecodeWithoutBlocking() throws Exception {
+        List<ClientResourceManager> cosmetics = new ArrayList<>();
+        for (int index = 0; index < 31; index++) cosmetics.add(wing(index));
+        ClientResourceManager cape = new ClientResourceManager("local", "Cape", CosmeticType.CAPE, 1F, true, "client/capes/cb.png");
+        cosmetics.add(cape);
+        CosmeticPreviewCache cache = new CosmeticPreviewCache(cosmetics);
+        cache.setDisplayOrder(cosmetics.subList(0, 31), 10);
+        cache.prepareModelCape(cape);
+        cache.requestPage(2);
+        cache.reset(location -> image(64, 32, 0xffabcdef));
+        cache.getEntry(29).loaded.get(5, TimeUnit.SECONDS);
+        cache.getEntry(31).loaded.get(5, TimeUnit.SECONDS);
+        assertNull(cache.getEntry(0));
+        assertEquals(64, cache.getEntry(29).width);
+        CosmeticPreviewCache.Uploader uploader = new CosmeticPreviewCache.Uploader() {
+            public int allocate(int width, int height) { return 42; }
+            public void upload(int texture, int[] pixels, int width, int rows, int y) { }
+            public void delete(int texture) { }
+        };
+        cache.advanceFrame(uploader);
+        assertTrue(cache.getEntry(31).ready);
+        cache.prepareModelCape(null);
+        cache.setDisplayOrder(cosmetics);
+        cache.requestPage(0);
+        cache.getEntry(0).loaded.get(5, TimeUnit.SECONDS);
+    }
+
     private static void await(CountDownLatch latch) throws java.io.IOException {
         try {
             latch.await(5, TimeUnit.SECONDS);
