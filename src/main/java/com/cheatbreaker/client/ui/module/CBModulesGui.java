@@ -1013,7 +1013,7 @@ public class CBModulesGui extends GuiScreen {
       this.recoveredField789.add(this.recoveredField796);
       this.recoveredField792 = new ModulesGuiButtonElement(null, "eye-64.png", 4, var3 - 32, 28, 28, -12418828, var1);
       this.recoveredField788 = new ModulesGuiButtonElement(null, "?", 36, var3 - 32, 28, 28, -12418828, var1);
-      this.cosmeticsButton = new ModulesGuiButtonElement(null, "star-64.png", 68, var3 - 32, 28, 28, -12418828, var1);
+      this.cosmeticsButton = new ModulesGuiButtonElement(null, "cosmetics-64.png", 68, var3 - 32, 28, 28, -12418828, var1);
       if (CheatBreaker.getInstance().getConfigManager().method_25096()) {
          this.buttons.add(new ModulesGuiButtonElement(this.recoveredField802, "Staff Mods", var2 / 2 - 50, var3 / 2 - 44, 100, 20, -9442858, var1));
       }
