@@ -57,6 +57,7 @@ public class CBModulesGui extends GuiScreen {
    public AbstractScrollableElement recoveredField801;
    public AbstractScrollableElement recoveredField802;
    public List<ModulesGuiButtonElement> buttons;
+   private ModulesGuiButtonElement cosmeticsButton;
    public List<AbstractModule> recoveredField803;
 
    public void snapVertically(float var1) {
@@ -694,6 +695,7 @@ public class CBModulesGui extends GuiScreen {
       int var39 = (int)(this.m / var8);
       this.recoveredField792.handleDrawElement(var1, var2, var3);
       this.recoveredField788.handleDrawElement(var1, var2, var3);
+      this.cosmeticsButton.handleDrawElement(var1, var2, var3);
       float var41 = this.recoveredField778 * 8.0F / 255.0F;
       GL11.glPushMatrix();
       GL11.glColor4f(1.0F, 1.0F, 1.0F, var41);
@@ -1011,6 +1013,7 @@ public class CBModulesGui extends GuiScreen {
       this.recoveredField789.add(this.recoveredField796);
       this.recoveredField792 = new ModulesGuiButtonElement(null, "eye-64.png", 4, var3 - 32, 28, 28, -12418828, var1);
       this.recoveredField788 = new ModulesGuiButtonElement(null, "?", 36, var3 - 32, 28, 28, -12418828, var1);
+      this.cosmeticsButton = new ModulesGuiButtonElement(null, "star-64.png", 68, var3 - 32, 28, 28, -12418828, var1);
       if (CheatBreaker.getInstance().getConfigManager().method_25096()) {
          this.buttons.add(new ModulesGuiButtonElement(this.recoveredField802, "Staff Mods", var2 / 2 - 50, var3 / 2 - 44, 100, 20, -9442858, var1));
       }
@@ -1025,6 +1028,12 @@ public class CBModulesGui extends GuiScreen {
 
    @Override
    public void mouseClicked(int var1, int var2, int var3) throws java.io.IOException {
+      if (var3 == 0 && draggingModule == null && this.cosmeticsButton.isMouseInside(var1, var2)
+         && (this.recoveredField795 == null || !this.recoveredField795.isMouseInside(var1, var2))) {
+         this.j.getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
+         this.j.displayGuiScreen(new com.cheatbreaker.client.ui.mainmenu.CosmeticsMenu(this));
+         return;
+      }
       ScaledResolution var4 = new ScaledResolution(this.j);
       if (this.recoveredField795 != null && this.recoveredField795.isMouseInside(var1, var2)) {
          this.recoveredField795.handleMouseClick(var1, var2, var3);

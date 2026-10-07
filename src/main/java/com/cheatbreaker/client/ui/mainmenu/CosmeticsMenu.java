@@ -24,6 +24,7 @@ public class CosmeticsMenu extends MainMenuBase {
    List<ClientResourceManager> previewOrder = new ArrayList<>();
    InputFieldElement searchField;
    private String searchQuery;
+   private net.minecraft.client.gui.GuiScreen returnScreen;
    private boolean previewOrderChanged = true;
 
    void updateSearchResults() {
@@ -76,6 +77,10 @@ public class CosmeticsMenu extends MainMenuBase {
          }
          return;
       }
+      if (key == Keyboard.KEY_ESCAPE && returnScreen != null) {
+         j.displayGuiScreen(returnScreen);
+         return;
+      }
       super.keyTyped(character, key);
    }
 
@@ -118,6 +123,12 @@ public class CosmeticsMenu extends MainMenuBase {
 
    @Override
    public void onMouseClicked(float x, float y, int button) {
+      if (returnScreen != null && button == 0 && this.recoveredField399.a_(x, y)) {
+         sound();
+         j.displayGuiScreen(returnScreen);
+         return;
+      }
+      if (returnScreen != null && this.recoveredField401.a_(x, y)) return;
       super.onMouseClicked(x, y, button);
       if (j.currentScreen != this) return;
       x = localX(x);
@@ -128,7 +139,7 @@ public class CosmeticsMenu extends MainMenuBase {
       if (button != 0 || searchField.a_(x, y)) return;
       if (recoveredField64.a_(x, y)) {
          sound();
-         j.displayGuiScreen(new MainMenu());
+         j.displayGuiScreen(returnScreen != null ? returnScreen : new MainMenu());
          return;
       }
       if (wingsButton.a_(x, y) || capesButton.a_(x, y)) {
@@ -160,6 +171,11 @@ public class CosmeticsMenu extends MainMenuBase {
    @Override
    public void onMouseReleased(float x, float y, int button) {
       if (button == 0) dragging = false;
+   }
+
+   public CosmeticsMenu(net.minecraft.client.gui.GuiScreen returnScreen) {
+      this();
+      this.returnScreen = returnScreen;
    }
 
    public CosmeticsMenu() {
