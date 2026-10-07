@@ -1,18 +1,15 @@
 # CheatBreaker 1.8.9 工作约定
 
-## 每轮修改的完成流程
+## 完成流程
 
-- 每轮修改完成后，必须将所有变更提交到 Git，提交信息说明修改内容。
-- 提交后从零重新构建全部产物，执行 `mvnw.cmd clean package`，确保编译、Java 测试和 recovery audit 全部通过；不得仅复制旧 JAR 或进行增量打包。
-- 构建成功后执行 `python tools/package_client.py` 和 `python tools/deploy_neo.py`，将本轮产物部署到 `C:\Users\hp\AppData\Roaming\.minecraft\versions\CheatBreakerNeo-1.8.9`，供用户实际测试。
-- 部署必须更新该版本的 JAR、JSON 和 natives，并保留部署脚本生成的旧产物备份。保留用户游戏配置、存档及其他运行数据。
-- 验证部署 JAR 与本轮构建 JAR 的 SHA-256 一致，版本 JSON 的 id/jar 为 `CheatBreakerNeo-1.8.9`，clientVersion 为 `1.8.9`，并核对全部 natives。
-- 若部署生成受 Git 管理的报告变更，完成后也必须提交这些变更，确保最终工作区干净。
-- 最终回复说明提交号、构建/测试结果和部署目录。游戏内效果未经实际验证时须如实说明。
+- 每轮先完成修改、构建、部署及报告更新，再将全部变更一次性提交，说明修改内容并保持工作区干净。每轮只提交一次；不自动推送，由用户手动推送。
+- 执行 `mvnw.cmd clean package` 全量构建，编译、Java 测试、recovery audit 和成品 JAR 构造器链接检查须通过；不复用旧 JAR 或增量打包。
+- 成功后依次运行 `python tools/package_client.py`、`python tools/deploy_neo.py`，部署到 `C:\Users\hp\AppData\Roaming\.minecraft\versions\CheatBreakerNeo-1.8.9`。
+- 更新 JAR、JSON、natives，保留脚本备份及用户配置、存档等数据。核对 JAR SHA-256、全部 natives；JSON 的 id/jar 为 `CheatBreakerNeo-1.8.9`，clientVersion 为 `1.8.9`。
+- 最终说明提交号、构建/测试结果、部署目录；未验证游戏内效果须如实说明。
 
-## 修改范围
+## 范围与命名
 
-- `src/main/java` 是实际编译源码；`recovery/decompiled-complete` 是反编译参考档案。
-- 参考 `F:\Work\CheatBreakerZ` 时，不修改参考项目。
-- 构建、日志和备份产物写入 `.target/`，不提交到 Git。
-- `mvnw.cmd` 的正式构建使用 `.target/maven-source/`，与 IDE 默认的 `.target/maven/` 隔离；打包和部署只读取正式构建产物。`package` 阶段必须通过成品 JAR 构造器链接检查。
+- 编译源码：`src/main/java`；反编译参考：`recovery/decompiled-complete`。不修改参考项目 `F:\Work\CheatBreakerZ`。
+- 构建、日志、备份放在 `.target/`，不提交。正式构建及打包部署只用 `.target/maven-source/`，与 IDE 的 `.target/maven/` 隔离。
+- 繁体中文使用 `zh-Hant`（文字体系）命名，不用地区代码；README 语言入口使用居中的“🌐 README available in:”文本链接。
