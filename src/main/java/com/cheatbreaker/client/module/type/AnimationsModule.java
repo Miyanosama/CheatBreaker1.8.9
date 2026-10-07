@@ -79,7 +79,7 @@ public class AnimationsModule extends AbstractModule {
          .setValue(true)
          .method_08916("1.8", "1.7");
       new Setting(this, "label").setValue("HUD Settings");
-      this.enchantmentGlint = new Setting(this, "Enchantment Glint", "Use 1.7.10 enchantment glint blending in the inventory and hotbar, including potions.")
+      this.enchantmentGlint = new Setting(this, "Enchantment Glint", "Use native 1.7.10 inventory and hotbar glint, including its texture motion and potion brightness.")
          .setValue(true)
          .method_08916("1.8", "1.7");
       this.recoveredField3731 = new Setting(this, "Health Bar Flashing", "Stops your health bar flashing when you take damage.")

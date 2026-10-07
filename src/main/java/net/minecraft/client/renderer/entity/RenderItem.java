@@ -3,6 +3,15 @@ package net.minecraft.client.renderer.entity;
 import com.cheatbreaker.client.CheatBreaker;
 import com.cheatbreaker.client.module.type.EnchantmentGlintModule;
 import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.IdentityHashMap;
+import java.util.Map;
+import java.util.Set;
+import java.nio.FloatBuffer;
+import org.lwjgl.BufferUtils;
+import org.lwjgl.opengl.GL11;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDirt;
 import net.minecraft.block.BlockDoublePlant;
@@ -82,6 +91,9 @@ public class RenderItem implements IResourceManagerReloadListener {
    public ModelResourceLocation modelLocation = null;
    public boolean renderModelEmissive;
    public boolean renderItemGui = false;
+   private final Map<IBakedModel, int[]> legacyGlintVertices = new IdentityHashMap<>();
+   private final FloatBuffer legacyGlintPlane = BufferUtils.createFloatBuffer(4);
+   private final FloatBuffer legacyGlintMatrix = BufferUtils.createFloatBuffer(16);
 
    public void renderItem(ItemStack var1, ItemCameraTransforms.TransformType var2) {
       if (var1 != null) {
@@ -653,6 +665,13 @@ public class RenderItem implements IResourceManagerReloadListener {
    public void renderItemIntoGUI(ItemStack var1, int var2, int var3) {
       this.renderItemGui = true;
       IBakedModel var4 = this.itemModelMesher.getItemModel(var1);
+      if (var1.hasEffect() && this.useLegacyGuiGlint() && this.method_26144("inventory")
+         && CheatBreaker.getInstance().getModuleManager().recoveredField1714.isEnabled()) {
+         // Define coordinates in GUI space before the item/model transforms. The two
+         // passes below then sample the same (x - 2, y - 2, 20, 20) area as 1.7.10.
+         this.setLegacyGlintPlane(GlStateManager.TexGen.S, 1.0F, 0.0F, 2.0F - var2);
+         this.setLegacyGlintPlane(GlStateManager.TexGen.T, 0.0F, 1.0F, 2.0F - var3);
+      }
       GlStateManager.pushMatrix();
       this.recoveredField1395.bindTexture(TextureMap.locationBlocksTexture);
       this.recoveredField1395.getTexture(TextureMap.locationBlocksTexture).setBlurMipmap(false, false);
@@ -854,6 +873,7 @@ public class RenderItem implements IResourceManagerReloadListener {
 
    @Override
    public void onResourceManagerReload(IResourceManager var1) {
+      this.legacyGlintVertices.clear();
       this.itemModelMesher.rebuildCache();
    }
 
@@ -1090,13 +1110,16 @@ public class RenderItem implements IResourceManagerReloadListener {
    public void method_26121(IBakedModel var1, String var2) {
       EnchantmentGlintModule var3 = CheatBreaker.getInstance().getModuleManager().recoveredField1714;
       if ((!Config.isCustomItems() || CustomItems.isUseGlint()) && (!Config.isShaders() || !Shaders.isShadowPass)) {
+         if (this.useLegacyGuiGlint()) {
+            if (var3.isEnabled()) {
+               this.renderLegacyGuiGlint(var1, this.method_26127(var2));
+            }
+            return;
+         }
          GlStateManager.depthMask(false);
          GlStateManager.depthFunc(514);
          GlStateManager.disableLighting();
-         // 1.7.10 used destination color for GUI glint; held/world items used source color.
-         boolean legacyGuiGlint = this.renderItemGui
-            && CheatBreaker.getInstance().getModuleManager().recoveredField1717.enchantmentGlint.method_08908();
-         GlStateManager.blendFunc(legacyGuiGlint ? 772 : 768, 1);
+         GlStateManager.blendFunc(768, 1);
          this.recoveredField1395.bindTexture(RES_ITEM_GLINT);
          if (Config.isShaders() && !this.renderItemGui) {
             ShadersRender.method_06622();
@@ -1133,5 +1156,108 @@ public class RenderItem implements IResourceManagerReloadListener {
             ShadersRender.renderEnchantedGlintEnd();
          }
       }
+   }
+
+   private boolean useLegacyGuiGlint() {
+      return this.renderItemGui
+         && CheatBreaker.getInstance().getModuleManager().recoveredField1717.enchantmentGlint.method_08908();
+   }
+
+   private void setLegacyGlintPlane(GlStateManager.TexGen coordinate, float x, float y, float offset) {
+      this.legacyGlintPlane.clear();
+      this.legacyGlintPlane.put(x).put(y).put(0.0F).put(offset).flip();
+      GlStateManager.texGen(coordinate, GL11.GL_EYE_LINEAR);
+      GlStateManager.texGen(coordinate, GL11.GL_EYE_PLANE, this.legacyGlintPlane);
+   }
+
+   static int[] uniqueGlintPositions(List<int[]> quads) {
+      List<int[]> positions = new ArrayList<>();
+      Set<String> seen = new HashSet<>();
+      for (int[] data : quads) {
+         int stride = data.length / 4;
+         int[] xyz = new int[12];
+         for (int vertex = 0; vertex < 4; vertex++) {
+            System.arraycopy(data, vertex * stride, xyz, vertex * 3, 3);
+         }
+         // Potion bottle/liquid layers have the same face geometry but different
+         // atlas UVs. The native screen overlay covers that face only once per pass.
+         if (seen.add(Arrays.toString(xyz))) {
+            positions.add(xyz);
+         }
+      }
+      int[] result = new int[positions.size() * 12];
+      for (int i = 0; i < positions.size(); i++) {
+         System.arraycopy(positions.get(i), 0, result, i * 12, 12);
+      }
+      return result;
+   }
+
+   private void renderLegacyGuiGlint(IBakedModel model, int color) {
+      int[] vertices = this.legacyGlintVertices.get(model);
+      if (vertices == null) {
+         List<int[]> quads = new ArrayList<>();
+         for (BakedQuad quad : model.getGeneralQuads()) {
+            quads.add(quad.getVertexData());
+         }
+         for (EnumFacing face : EnumFacing.VALUES) {
+            for (BakedQuad quad : model.getFaceQuads(face)) {
+               quads.add(quad.getVertexData());
+            }
+         }
+         vertices = uniqueGlintPositions(quads);
+         this.legacyGlintVertices.put(model, vertices);
+      }
+      GlStateManager.depthFunc(GL11.GL_EQUAL);
+      GlStateManager.depthMask(false);
+      GlStateManager.disableLighting();
+      GlStateManager.enableAlpha();
+      GlStateManager.enableBlend();
+      GlStateManager.tryBlendFuncSeparate(GL11.GL_DST_COLOR, GL11.GL_ONE, GL11.GL_ZERO, GL11.GL_ZERO);
+      this.recoveredField1395.bindTexture(RES_ITEM_GLINT);
+      if (color == -8372020) {
+         GlStateManager.color(0.5F, 0.25F, 0.8F, 1.0F);
+      } else {
+         GlStateManager.color((color >> 16 & 255) / 255.0F, (color >> 8 & 255) / 255.0F,
+            (color & 255) / 255.0F, (color >>> 24) / 255.0F);
+      }
+      GlStateManager.method_25242(GlStateManager.TexGen.S);
+      GlStateManager.method_25242(GlStateManager.TexGen.T);
+      GlStateManager.matrixMode(GL11.GL_TEXTURE);
+      GlStateManager.pushMatrix();
+      WorldRenderer buffer = Tessellator.getInstance().getWorldRenderer();
+      long time = Minecraft.getSystemTime();
+      for (int pass = 0; pass < 2; pass++) {
+         fillLegacyGlintMatrix(this.legacyGlintMatrix, pass, time);
+         GlStateManager.loadIdentity();
+         GL11.glMultMatrix(this.legacyGlintMatrix);
+         buffer.begin(GL11.GL_QUADS, DefaultVertexFormats.POSITION);
+         for (int i = 0; i < vertices.length; i += 3) {
+            buffer.pos(Float.intBitsToFloat(vertices[i]), Float.intBitsToFloat(vertices[i + 1]),
+               Float.intBitsToFloat(vertices[i + 2])).endVertex();
+         }
+         Tessellator.getInstance().draw();
+      }
+      GlStateManager.popMatrix();
+      GlStateManager.matrixMode(GL11.GL_MODELVIEW);
+      GlStateManager.method_25310(GlStateManager.TexGen.S);
+      GlStateManager.method_25310(GlStateManager.TexGen.T);
+      GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
+      GlStateManager.tryBlendFuncSeparate(GL11.GL_SRC_ALPHA, GL11.GL_ONE_MINUS_SRC_ALPHA, GL11.GL_ONE, GL11.GL_ZERO);
+      GlStateManager.depthMask(true);
+      GlStateManager.enableLighting();
+      GlStateManager.depthFunc(GL11.GL_LEQUAL);
+      this.recoveredField1395.bindTexture(TextureMap.locationBlocksTexture);
+   }
+
+   static void fillLegacyGlintMatrix(FloatBuffer matrix, int pass, long time) {
+      int period = 3000 + pass * 1873;
+      float scroll = (float)(time % period) / period;
+      float shear = pass == 0 ? 4.0F : -1.0F;
+      matrix.clear();
+      matrix.put(1.0F / 256.0F).put(0).put(0).put(0);
+      matrix.put(shear / 256.0F).put(1.0F / 256.0F).put(0).put(0);
+      matrix.put(0).put(0).put(1).put(0);
+      matrix.put(scroll).put(0).put(0).put(1);
+      matrix.flip();
    }
 }
