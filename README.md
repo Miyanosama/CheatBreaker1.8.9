@@ -1,12 +1,14 @@
-# CheatBreaker 1.8.9
+<p align="center">
+  <img src="docs/assets/cheatbreaker-logo.jpg" alt="CheatBreaker" width="200" height="200">
+</p>
+
+<h1 align="center">CheatBreaker 1.8.9</h1>
+
+CheatBreaker 1.8.9 是一个提供性能优化、PvP模组、免费饰品的开源客户端，衍生于2018年因争议而停止更新的版本。本版本由社区开源并维护！
 
 <p align="center">
   🌐 README available in: <a href="README.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="README.ja.md">日本語</a> | <a href="README.en.md">English</a>
 </p>
-
-## 项目介绍
-
-CheatBreaker 1.8.9 是面向 Minecraft Java Edition 1.8.9 的客户端项目，提供 CheatBreaker 风格的界面、可配置的 HUD 与模组，以及本地饰品功能。项目旨在改善日常游玩体验，并通过源码维护持续修复问题、优化交互。
 
 ## 主要功能
 

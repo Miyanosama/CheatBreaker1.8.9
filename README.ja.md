@@ -1,12 +1,14 @@
-# CheatBreaker 1.8.9
+<p align="center">
+  <img src="docs/assets/cheatbreaker-logo.jpg" alt="CheatBreaker" width="200" height="200">
+</p>
+
+<h1 align="center">CheatBreaker 1.8.9</h1>
+
+CheatBreaker 1.8.9 は、パフォーマンス最適化、PvP モジュール、無料のコスメティックを提供するオープンソースのクライアントです。2018年に論争により更新が停止したバージョンから派生しています。本バージョンはコミュニティによってオープンソース化され、メンテナンスされています！
 
 <p align="center">
   🌐 README available in: <a href="README.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="README.ja.md">日本語</a> | <a href="README.en.md">English</a>
 </p>
-
-## プロジェクトについて
-
-CheatBreaker 1.8.9 は、Minecraft Java Edition 1.8.9 向けのクライアントプロジェクトです。CheatBreaker スタイルの UI、設定可能な HUD とモジュール、ローカルのコスメティック機能を提供します。日常のプレイ体験を改善し、ソースコードの保守を通じて不具合の修正と操作性の向上を続けることを目指しています。
 
 ## 主な機能
 

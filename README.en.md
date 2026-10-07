@@ -1,12 +1,14 @@
-# CheatBreaker 1.8.9
+<p align="center">
+  <img src="docs/assets/cheatbreaker-logo.jpg" alt="CheatBreaker" width="200" height="200">
+</p>
+
+<h1 align="center">CheatBreaker 1.8.9</h1>
+
+CheatBreaker 1.8.9 is an open-source client offering performance optimizations, PvP modules, and free cosmetics, derived from the version whose updates stopped in 2018 amid controversy. This version has been open-sourced and is maintained by the community!
 
 <p align="center">
   🌐 README available in: <a href="README.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="README.ja.md">日本語</a> | <a href="README.en.md">English</a>
 </p>
-
-## About
-
-CheatBreaker 1.8.9 is a client project for Minecraft Java Edition 1.8.9. It provides a CheatBreaker-style interface, configurable HUD elements and modules, and local cosmetics. The project aims to improve everyday gameplay through ongoing source maintenance, bug fixes, and interface improvements.
 
 ## Features
 
