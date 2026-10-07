@@ -37,6 +37,7 @@ final class CosmeticPlayerPreview {
             }
          }, false);
       }
+      model.r = false;
       GlStateManager.pushMatrix();
       GlStateManager.translate(x, y, 100F);
       GlStateManager.scale(size, size, -size);
