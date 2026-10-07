@@ -45,6 +45,11 @@ public class CosmeticsMenu extends MainMenuBase {
    }
 
    @Override
+   public void renderSkybox(int mouseX, int mouseY, float partialTicks) {
+      if (returnScreen == null) super.renderSkybox(mouseX, mouseY, partialTicks);
+   }
+
+   @Override
    public void initGui() {
       super.initGui();
       Keyboard.enableRepeatEvents(true);
@@ -123,13 +128,7 @@ public class CosmeticsMenu extends MainMenuBase {
 
    @Override
    public void onMouseClicked(float x, float y, int button) {
-      if (returnScreen != null && button == 0 && this.recoveredField399.a_(x, y)) {
-         sound();
-         j.displayGuiScreen(returnScreen);
-         return;
-      }
-      if (returnScreen != null && this.recoveredField401.a_(x, y)) return;
-      super.onMouseClicked(x, y, button);
+      if (returnScreen == null) super.onMouseClicked(x, y, button);
       if (j.currentScreen != this) return;
       x = localX(x);
       y = localY(y);
@@ -203,7 +202,7 @@ public class CosmeticsMenu extends MainMenuBase {
       CheatBreaker.getInstance().method_19791().getPreviewCache().prepareModelCape(
          CheatBreaker.getInstance().method_19791().getLocalCosmetics().getEquipped(com.cheatbreaker.client.util.cosmetic.CosmeticType.CAPE));
       CheatBreaker.getInstance().method_19791().getPreviewCache().beginFrame(recoveredField63);
-      super.drawMenu(mouseX, mouseY);
+      if (returnScreen == null) super.drawMenu(mouseX, mouseY);
       float x = localX(mouseX), y = localY(mouseY);
       if (dragging) {
          yaw = (yaw + (x - lastDragX) * 1.5F) % 360F;
