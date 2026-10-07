@@ -38,8 +38,8 @@ public final class LocalCosmetics {
                 while ((path = reader.readLine()) != null) {
                     if (path.isEmpty()) continue;
                     CosmeticType type = path.startsWith("client/capes/") ? CosmeticType.CAPE : CosmeticType.WINGS;
-                    String namePrefix = path.startsWith("client/capes/imported/")
-                        ? "client/capes/imported/" : "client/";
+                    String importedPrefix = type == CosmeticType.CAPE ? "client/capes/imported/" : "client/wings/imported/";
+                    String namePrefix = path.startsWith(importedPrefix) ? importedPrefix : "client/";
                     String name = path.substring(namePrefix.length(), path.length() - 4).replace('/', ' ');
                     cosmetics.add(new ClientResourceManager("local", name, type,
                         type == CosmeticType.WINGS ? 0.125F : 1.0F,

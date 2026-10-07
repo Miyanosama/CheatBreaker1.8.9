@@ -1,0 +1,32 @@
+{
+  "imported_wings": 163,
+  "imported_thumbnails": 163,
+  "excluded_animated_frame_strips": 18,
+  "removed_original_wing_assets": 21,
+  "build_command": "mvnw.cmd clean package",
+  "build_log": ".target/wings-build.log",
+  "java_tests": {
+    "tests": 80,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "recovery_audit": {
+    "checks": 7,
+    "failures": 0,
+    "errors": 0,
+    "passed": true,
+    "meaning": "Recovery audit only; does not assert successful source compilation or runtime equivalence of cleaned source"
+  },
+  "source_jar_constructor_linkage": "passed",
+  "deployed_jar_resources_verified": 326,
+  "jar_sha256": "9d300ad7de5752d2a8e2fae0fbebe24933b47bb877f502a9156d30729234b78e",
+  "deployment_directory": "C:\\Users\\hp\\AppData\\Roaming\\.minecraft\\versions\\CheatBreakerNeo-1.8.9",
+  "native_files_verified": 14,
+  "launcher_manifest_verified": {
+    "id": "CheatBreakerNeo-1.8.9",
+    "jar": "CheatBreakerNeo-1.8.9",
+    "clientVersion": "1.8.9"
+  },
+  "in_game_visuals_verified": false
+}

@@ -1,0 +1,3256 @@
+{
+  "format": "Static square RGBA PNG texture, static 64x64 RGBA PNG thumbnail; lossless conversion",
+  "source_directory": "C:\\Users\\hp\\Desktop\\§2§lCustom §r§3Lunar §bCosmetics\\assets\\lunar\\cosmetics\\wings",
+  "removed_original": [
+    "assets/minecraft/client/preview/wings/black.png",
+    "assets/minecraft/client/preview/wings/blue.png",
+    "assets/minecraft/client/preview/wings/bone.png",
+    "assets/minecraft/client/preview/wings/dark_blue.png",
+    "assets/minecraft/client/preview/wings/gold.png",
+    "assets/minecraft/client/preview/wings/green.png",
+    "assets/minecraft/client/preview/wings/indigo.png",
+    "assets/minecraft/client/preview/wings/orange.png",
+    "assets/minecraft/client/preview/wings/pink.png",
+    "assets/minecraft/client/preview/wings/purple.png",
+    "assets/minecraft/client/preview/wings/red.png",
+    "assets/minecraft/client/preview/wings/turquoise.png",
+    "assets/minecraft/client/preview/wings/yellow.png",
+    "assets/minecraft/client/wings/black.png",
+    "assets/minecraft/client/wings/blue.png",
+    "assets/minecraft/client/wings/dark_blue.png",
+    "assets/minecraft/client/wings/green.png",
+    "assets/minecraft/client/wings/purple.png",
+    "assets/minecraft/client/wings/red.png",
+    "assets/minecraft/client/wings/turquoise.png",
+    "assets/minecraft/client/wings/yellow.png"
+  ],
+  "imported_count": 163,
+  "excluded_count": 18,
+  "imported": [
+    {
+      "source": "autumnleaves.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/autumnleaves.png",
+          "sha256": "a564021801461ff7ee4e488920e163afdbbd5bd0f81fabfb7463c22ee0659d60",
+          "source_sha256": "42e90b14e87ea3a8c2e249e68b63240ea32dc38be28b68bc876eabe5eea0e2b5",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/autumnleaves.png",
+          "sha256": "2d7b86d11722d08ff93b45e800c18b0e4cb45be25dd7d9858e3878599402a202",
+          "source_sha256": "2e07c2bfb8623f8c5673942cca907b9a475e3831bd1fc9cd0dbb1c8309d360ef",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "autumnorange.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/autumnorange.png",
+          "sha256": "776714bc1cde8ee47d603d4a3a58178760984e785234a58846df2d02633efce6",
+          "source_sha256": "d3bae89796a1d5a0135eac907117bc55e4d3cf9d30fdb8a77b792c5b9bf0fa1d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/autumnorange.png",
+          "sha256": "15fd2acc595e635b05464a99602414339032e10810ae1ac94781d1a901b6cc34",
+          "source_sha256": "faeaedfc3ce8b9877beb7f3ba3e96dd36bf4c4ea7fdacc9045a1533df066e25a",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "autumnpumpkin.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/autumnpumpkin.png",
+          "sha256": "0d4f349cd77971ed6536b32233c4f5755fbf4eef650a76f55d2ab299f9f4d914",
+          "source_sha256": "35d6536992f57636581ac1ff7f801b7fec69d6c7bae6a6230bb77d57eeda5ef4",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/autumnpumpkin.png",
+          "sha256": "fa4fbd5d468a656e54051bf989f4d9084e503233af815d38aea9e2b52a941ce6",
+          "source_sha256": "7fba0b1925d612ad8ad8f074f5a4888ce6aac59786d83121d7e7099fe61580f5",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "babyblueaugust.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/babyblueaugust.png",
+          "sha256": "7307ee9c7aa688fdc493cd743bcb515bc3b7b2b0f2cb6f2b79ede578bca1c8f6",
+          "source_sha256": "557b449d31daa172018369f2f63a122a0377aa6015cdd80b1d0040e8324605dd",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/babyblueaugust.png",
+          "sha256": "5d02cba3b46d3d3bffa80da8cd527a603c13dfdebc9f912b199bed41fd2958e2",
+          "source_sha256": "48ce4aca170addfb96811a11fc7dad244fdb0c2316dadff349ddcf5f5dcfb2f7",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "beachwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/beachwings.png",
+          "sha256": "bf3b21ff7d849f35d5910fd075d8989475872788283608e909137c9f15d2b105",
+          "source_sha256": "74f3f9f1849f6997774c4046b0993f60fa999166be8e2fdb5a396cb509ce9c5d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/beachwings.png",
+          "sha256": "fcad15c49226a725de47b4778bc2cc9240bea493ec27cc0246fe74035c7d85c7",
+          "source_sha256": "94859049b19763477dfec8ccb516074866398becdce93526813e0e6bcc680fa4",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "black.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/black.png",
+          "sha256": "5f5dcff22f86a537138e02363bbd7084626f43f31dff76eb541c97efba2300b4",
+          "source_sha256": "9efa83ea1242b95d872c6065a8d142f3f1b020f65716d063e3f2960e07dd334b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/black.png",
+          "sha256": "a13c0cfc65fab7239e68799334ee1ad9473bc0da71bc7801a6c07b100362acb7",
+          "source_sha256": "98edc781c6671b081e31b3891d8656262d95f9f921a91d81a0170a872c80ca9a",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackandbluewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackandbluewings.png",
+          "sha256": "3181d81d19b1974a7db609481e28a80dafa1676d397cfc33d799dd74afad340a",
+          "source_sha256": "7125221a0ce0046158b385df5f29ddeef0d8a2f72da2eee3da18cde323cf54e0",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackandbluewings.png",
+          "sha256": "a098fe94003cec9ba7797800e2a89bf4c4107b310e5169effaee25fff942a3c3",
+          "source_sha256": "2b3a21cb0986654603a1b7ae5a8b727ee64373ea9d38ac13e05e1f214939a184",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackandgreenwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackandgreenwings.png",
+          "sha256": "b47254dcd5223149880ee9c2755d0d5c4cb996251519210b8c5695636fc3451c",
+          "source_sha256": "c28c0195c2a6c16fb5385409f7a4ea8c0d79b77a5b4704fbe5e0a950ca9fe437",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackandgreenwings.png",
+          "sha256": "cf837656aef2be31cdc2897b81da30b5f131d840f5aa522398ca9bbc0a484517",
+          "source_sha256": "26552e9c876e6316abc4bbb4adfea32e4d2a60e6441d5c992ee45861fb363c04",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackandmaroonwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackandmaroonwings.png",
+          "sha256": "0b4eb8ffc5a2cb904f389d9d632b1963d7bd9e3096361b31832376fb9dc2be76",
+          "source_sha256": "003d33b095a2f3946d05b0083f0143b9f589d2779575e50a61f8d6400c028a37",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackandmaroonwings.png",
+          "sha256": "f18bd123c8d8bc79d4eff61a2864cf5f5bd289cf1e894d2ea133e1ea363bb020",
+          "source_sha256": "3044f0cde3fdca52d9c629437b42758d3c59a9874cc4310a92fc97d4c6c99990",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackandpinkhearts.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackandpinkhearts.png",
+          "sha256": "e0ee7882f28328a2c1b9222ef49e9bb66b45fbba45816b8f07c07d97a10407b6",
+          "source_sha256": "d0e71eb309419f77422df21f5927c269a69b3c396ea9980d957d4606b42ae915",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackandpinkhearts.png",
+          "sha256": "dfc1163236c83532c4848d1e148efd049a0f8db8ae78a007b55448e964b27cc1",
+          "source_sha256": "847947bd9d785526b5e28ff55d69da89c9018f8ab77b8d4c14976e13703a216f",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackandredwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackandredwings.png",
+          "sha256": "68b6fd48ab950d920ec5adb9e8d6b9984fb968daf750d20f8f6b92fc4e8917b1",
+          "source_sha256": "8bc5aed5403018fd14b0992d1ae785c233b29e42e5969b69cc97e46ed8a67073",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackandredwings.png",
+          "sha256": "f2704102725f9c02d3a899eb9e9718c8c4793cb595506c5db09925f5fea6d18a",
+          "source_sha256": "f91a96d7d33c4486c331b9934a0d86cf770200b49131ba0662a7d6a7725e5a63",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackandwhitewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackandwhitewings.png",
+          "sha256": "917efcee2dcdaed97d360564ed05a32000cbdf85d869c680f51fa11f67d72bb5",
+          "source_sha256": "bb47a89e1f99d996a76cbc7db9cf99af415b6f7fcb4c6924ab68ea20a329f190",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackandwhitewings.png",
+          "sha256": "c955c0ab57fafaee0f3c34b78a5c2570cced0e3466d4afbb7ced46775da9042c",
+          "source_sha256": "390b311931b7b54af29e4a076c729726ca81799311d73babfb814ae0c905e971",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackandyellowwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackandyellowwings.png",
+          "sha256": "e384d910228421018bb51ed0f5896f6b9b20e8c0aa1a6776987dda69ee0cab37",
+          "source_sha256": "7126b20cc20de7d86e8f2145f99b81a248f8112e083343b6560e778d68c1a1b6",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackandyellowwings.png",
+          "sha256": "99b27b9be0c2fc99b7f04b9c2bf208e45bfa74b623635028b79df8b9512d77b3",
+          "source_sha256": "5c650cd71d84c78d0d495bf2a40d0856a6a7ad49c706a0902ba6bafbbeef3358",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackbloodwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackbloodwings.png",
+          "sha256": "d706101c52963020087ff5882078467af19c2bf1c2966427da89b46619725ffd",
+          "source_sha256": "4e5328199361dfe5c1e108f0ba3c521fc8321f0258653b67ac2d43574741e46c",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackbloodwings.png",
+          "sha256": "4c86e2b578358734dc92a321b02c7e9ea2991b8c716d088306a3515d29581f75",
+          "source_sha256": "f35939bc6028ef4989027f877b69f478f2c2bbdaaa1ee433f765905a3a677254",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackcandyhearts.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackcandyhearts.png",
+          "sha256": "6664507d6d066e5b77d44d61b0d23ac84eddfe7e3d6f228103283cdf6111dfe8",
+          "source_sha256": "cde7e20802c61704ac1dde4b2cbbcafe38dfa88cbd0a3492bf730ae6136df60b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackcandyhearts.png",
+          "sha256": "0d2bf229bdd60d90f29a18e44a285776690c8e0e248fb60861357048fa8fa754",
+          "source_sha256": "c05b85ed8930ca3dc8ade865dc705be441dc268d8dc22ab42840fe569e504c2d",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackgalaxywings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackgalaxywings.png",
+          "sha256": "f4d19ced731606a52caea3846a31f9d04ec21e43d412c0da4e2474779ce5444b",
+          "source_sha256": "0633220875aab3dfc3269aba7d97a524c3613cd425cc23142290a031cde3f2b6",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackgalaxywings.png",
+          "sha256": "ce3b82e23bbf55df59454fbfc4f0ab47a09207bb33d676bdaa32086837dbc372",
+          "source_sha256": "1d2fd0f51468e4019f20bac9bf807273ed5baa5150dfaa85a4e82244fad9ecd7",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackglitchedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackglitchedwings.png",
+          "sha256": "16e3ab05886d6bb247d6be709f1f17f888cf0ca57ce1224e597e361ef48d5d58",
+          "source_sha256": "04093128772a28842bb709fc83741cbf4a8e44b206aa9ca39da547ba9e749bb4",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackglitchedwings.png",
+          "sha256": "da3e70b7db3af97e137a707574569f8f16514fb397d65f8cd1850a3150e06900",
+          "source_sha256": "e019c899d2644fc12b20cde4ecbfebc7290f90c7141af2737f8ccd888b44b3b4",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blackstripedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blackstripedwings.png",
+          "sha256": "af0183140f238cfc4aeac466412299d430c811b2772f6c0c080384d976b36448",
+          "source_sha256": "1f51e57876e7d639e3eb6f678a654cef822a7f741cab0eb9090715d4f6669607",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blackstripedwings.png",
+          "sha256": "31333bb2cee55c2f3655b32cec9204950386e51982a6eb1c5b51554d2a7f9fd6",
+          "source_sha256": "7362c089f2cbb77c51947daa44e34554877badf4caba976511065d036c06d212",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blue.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blue.png",
+          "sha256": "f3ec52a93367aca22ee9e552bb226aa8870b4b0b493bef161be09399e5499fe5",
+          "source_sha256": "b7ff82f8431899654b07f3b088ceb0c76cf6cc4684863f2466ded45150cab471",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blue.png",
+          "sha256": "f47de7492754620051071929652519b7ab209640fd0e3961d904cc89d2074445",
+          "source_sha256": "17490429ed64430be41c4a8abe79f8cbd1319f49cec5b95b1547469730affd9a",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blueeasterwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blueeasterwings.png",
+          "sha256": "03088ee92aac03cbf246d8225494af46807e989a3a1c587e9acc5abb3bea0ee4",
+          "source_sha256": "51112523c50c0ae9ef4762a7faaa68842767635f8369a66365bcb12eaa54cd1d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blueeasterwings.png",
+          "sha256": "3702517fd81662d15af49bdc88805aeeec68430484a2b3f6cbd328ab625e359c",
+          "source_sha256": "6799a178a1213ae3da25101155ff7e1ab08a132622521b95909dbcc77b444ffb",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "bluefogwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/bluefogwings.png",
+          "sha256": "0a0eab3bcb3c5cd01fd956a187ae46a833f2d204f8326eea82cc54ca5a628dea",
+          "source_sha256": "095112fda84bcc0f7466f795507ff0d84c197492b3fd025235d43a1ebbede227",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/bluefogwings.png",
+          "sha256": "c704da2322f89d8cb883c35e1508487e5c259642d4a88b6a947eeb65dffc4cf1",
+          "source_sha256": "ae2b509e15d72d9b6507b1be2f9eb6d574013667e57009dd99565dc324f382b0",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "bluegalaxywings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/bluegalaxywings.png",
+          "sha256": "b71cd45f53d52eedddee2cfaa5e3ae10080f304dde8157f7aa06d28f8d480c1b",
+          "source_sha256": "2160c64209a72ea0f3151a3a19ea0e733bf4d091fcf75cdf412d3fb1fe22087a",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/bluegalaxywings.png",
+          "sha256": "6fe645428e3b2304ec9c144b6c2230b2eac5a44dfa87e3b805b0964290ec59a3",
+          "source_sha256": "49b1010e383bcd0aad73639323e5b6d11aab895944d01612853cb7f8624dd409",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "blueglitchedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/blueglitchedwings.png",
+          "sha256": "3bf756489ff4e213d41ac1ad21d409ca43cbf5cfba3ff8465e3cc69825541ac6",
+          "source_sha256": "1d8f02d0f663eb45bbc13c49206e8b2e009159301fcd909c5e3c2f0b6b644c0b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/blueglitchedwings.png",
+          "sha256": "7c789a6a9c46942802e303a06e3400d082efe02fd81c0905456039faad043835",
+          "source_sha256": "cbd1d6ac6a08a304901fe915821cdffbc62c1e22b60f4a7fe2249fb10ddc9424",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "bone.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/bone.png",
+          "sha256": "d53391d9095749ff795b68d2516e91ed038073ec81952e7c5a68abe54c9ef8c3",
+          "source_sha256": "e07437dc1756606efd3362a1535ee7067556c9625ffa68d895b8fa9760bdcfae",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/bone.png",
+          "sha256": "4bad25b749cd30b1a5a09bc35a2a908a99d7a0b9b67d000925f40aec93ab2a6d",
+          "source_sha256": "98b7033dee334da67a65a58b7b69bf04599dcb41ceef2776bc9cb9ddc89c7b73",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "butterfly_1.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/butterfly_1.png",
+          "sha256": "ccf917b99f4688e4e980f96f1541e27b9ef7d3933fcf2e08365e8ba97901b13f",
+          "source_sha256": "6c7cfa673a79b41a5aa6137e0120745bafb74182e8235596f3916e806f3ccbcc",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/butterfly_1.png",
+          "sha256": "f81e1dda04cc0594f31a72c1c750a1955a2c66398364a4001619ff3b12268dc0",
+          "source_sha256": "af25e3817f16fd3a953c1c151af7969955e1546627c8ffc0924eaf1888f4f101",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "butterfly_2.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/butterfly_2.png",
+          "sha256": "11acb84de86401767068d41bef5266f6535fe2eadd1f4dccadb59ac06de04f83",
+          "source_sha256": "d7be2b91dd6b4ec9f30859b28d0975816d448f727bf621cdff362f7f9d0459c5",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/butterfly_2.png",
+          "sha256": "51b56f483506040606476c464d7b81ce00efff426cb1612bbc6359138560ec70",
+          "source_sha256": "f1999a9a447a7326969a01e3c8351a517e47ba858c438f3f06be5bc6c01807eb",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "camoblue.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/camoblue.png",
+          "sha256": "e4ada94b00d1290f65fb294208ecabaa04a6847d4a086fbd687bfd7f3d27a4ec",
+          "source_sha256": "7ab4aa0107535f43e51f0533173554afd549942d77c34156f735d61df5e25b53",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/camoblue.png",
+          "sha256": "47823614ba31e15f7f96523bb9ddb677c189833cf8b6cc3d39456116036a790a",
+          "source_sha256": "21ba23b145df527aa3cf3b69a48231c516d1d9266ee2bdfeb918d7d99cc97e35",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "camogray.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/camogray.png",
+          "sha256": "b3a064439a392b2bd8277e308821e48075f5bc9acd8aa609ee342570465473bb",
+          "source_sha256": "83a6f8aa4310eaf4a2367844d6889914cafc2e36e46a8d900079f90321ed367e",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/camogray.png",
+          "sha256": "55f96af2cf99624b2f6a68e9967e811e4d9ccea330d98b59dcbd1d0a743106f2",
+          "source_sha256": "967d7d70be601f7e8fe45738b92f7ad28db21f068626692400708b76f509d281",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "camogreen.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/camogreen.png",
+          "sha256": "27dd50c9420c0e38f727f7f4eedd59235a18bfcc63e67381e7468e9735c1ab33",
+          "source_sha256": "2ab91e2e05552d04e978acdb391e8510ccd609c3b4231e170e5a97c16f02a270",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/camogreen.png",
+          "sha256": "eaea5553d5eb041b23ba17d8933fe95cd20c6dded16453e94c3ea143adff85ac",
+          "source_sha256": "af29699ca977644bf24513e60775cc297831793b83d1d91d6bb7c115bdbdf8fb",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "camored.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/camored.png",
+          "sha256": "b0fa3d7384a746fb01ca785c5d3e74814acfba0e73e2ff78edd62f1f8ad1fc4e",
+          "source_sha256": "b55434661891886373d1c20779e6844180754c3b1ffad84a8a012835446d945a",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/camored.png",
+          "sha256": "70d6887c728d0d49b2464b647940b48e10282cd39c4cb9a57dffe293953f91f8",
+          "source_sha256": "d766fa3bec93d23682cc375ad9a34572778787691223c000f6bf9d7cf5f01330",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "candycornwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/candycornwings.png",
+          "sha256": "f60f26843824530f846cc83f91a101a0bf94dcf2cb7c094cc97eaf902e0e4a31",
+          "source_sha256": "f109d0c5d49f3de54657e1c5c1aa3869955fd5af75be52f85678d1078b52e0eb",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/candycornwings.png",
+          "sha256": "8886393a133e33ac52ba8e70e79b260b81623efeb21e575ce356108042480313",
+          "source_sha256": "0a94d1fe17d38252525557c02650c82a9352344de8e1112c71d9d904e5f6b7fc",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "candywings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/candywings.png",
+          "sha256": "4e537e225b4c76140f259a33ce66056e135d2d147e4980a4d330fd3c8f86f936",
+          "source_sha256": "bf85ca5a3a137ed6516cc4ef269e6661fa71e3223baa7d453cfdab3444544b36",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/candywings.png",
+          "sha256": "a5106f857f9c03ff02ebed205c11b80030f754231bc40663b5a89df3e6e8bf1e",
+          "source_sha256": "6a50b7c297c44b40e4f8c037b29149c61536184421da0f109c96672f123bc0dd",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "christmasbluewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/christmasbluewings.png",
+          "sha256": "c0749142b437a79bf89979aaabaef51a5cffed1d8b03ac77bf541fe4d688a08b",
+          "source_sha256": "363028b6f8fd9a10350e97d443e26173038f83f731960f478e407f5f785ca141",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/christmasbluewings.png",
+          "sha256": "f04393c8306afeb66ecf96389ce5d0b8654b23f253ee77f6a18564caf3ba7fbe",
+          "source_sha256": "2fc12fcd06776ff4cd9fb5b44232ec094a98f1350a2029f4733dc416ea826848",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "christmascandycanewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/christmascandycanewings.png",
+          "sha256": "129eb6c85bf2eb4ede5478ce62c00e7645977f0979aac456821b1836eb347249",
+          "source_sha256": "05d80ba769e3a1110eb8f906dcdc6449dfae1014398c97071d93933e9ba9e0e3",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/christmascandycanewings.png",
+          "sha256": "69765abd482a8f145d407b7e35abe0801f6298a4487c827673513164e0f6a3b3",
+          "source_sha256": "b457a186fcc5c63774d5a957feb4f4768139b8d150614f0d63f303a0eb99a3aa",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "christmasgreenwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/christmasgreenwings.png",
+          "sha256": "3b5eaab81c9f9945f9d6c085db2bf2c40d0436ca501f811140514bd6fde010bb",
+          "source_sha256": "cdc1a6ecfbbaa8d4d40fe8896677c38b383e44d8397cb920769bdf909332a9dd",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/christmasgreenwings.png",
+          "sha256": "9ef30200803c3831f990b26b15456ff848495c5af6476c6aaf1593a2cdeabbf0",
+          "source_sha256": "3badcc12bcb908e90f0c19028187d446da373db90d40fb08600453399649a085",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "christmasiciclewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/christmasiciclewings.png",
+          "sha256": "f53e48ad350185ae885572a9ac0345af5ca8e6203b2824d183ad017000bd81db",
+          "source_sha256": "a3987b78ff715fa6103efb7ea7802fdba02ad5a6a01a4968602c33fa9df6afb2",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/christmasiciclewings.png",
+          "sha256": "b3b828385d00d4ad70b9d106574141295b5fcad94da6da65a8e3224afd19c478",
+          "source_sha256": "17b17399027bfcb5c6444f49e3da14309f19a8a1099bb0295bb7769e3fbf20d2",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "christmasredwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/christmasredwings.png",
+          "sha256": "37a7f831399c7c91e90599a6edf3185e2eb838bc9c24e7f72cbc9fac8f4ec33e",
+          "source_sha256": "1ebc22442f628c5ad56ba40aecc73385f54c1412805d786ce2b6645534cd2abb",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/christmasredwings.png",
+          "sha256": "0827f8e70ea6df30a44d00ff2af8af79825b2391084372388cb2cb04cf0796b7",
+          "source_sha256": "adb04db2b281842119830c02b835421850984e117bb024798bf55fd20a66fa0c",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "christmassantawings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/christmassantawings.png",
+          "sha256": "398deb803b3b154ccf8ab54a3449105f93f00a96c1067c3781b2dc1b7ab3b200",
+          "source_sha256": "9f6ca6ffbde6f2252ccdd3ba978ff515436d3e2495cd474dfeab4e1d9f8c3ccd",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/christmassantawings.png",
+          "sha256": "a73a3dba3d3f4962752bd21a2f6ea96a450734b5beddcd5b2aa3f72d8f74ff66",
+          "source_sha256": "66f6512a93c7c2f602e429943aa68380207ffe0d294454d9472d6a975c373dad",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "christmassnowflakewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/christmassnowflakewings.png",
+          "sha256": "4fa5a903990f8c68ea7cbfb3d112d3b0a85895b3f4f6053ea0b2cdd37b5caa0e",
+          "source_sha256": "faa1877d0e9a77a48f1ad4431771ddeacdbc935fc3f130e2a9ec35833fe7032c",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/christmassnowflakewings.png",
+          "sha256": "56a7ff4c4e24af18965b1d00d2e1734522ffae170ec3425a961f0a95a5060ae6",
+          "source_sha256": "dac9c95e756489f86419344f9b37ef922aea73d44587f9f79783fb6a7043bf28",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "christmastreewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/christmastreewings.png",
+          "sha256": "cbaf3bda2f6a397f00fc42fe086b24d67358c24be27b4941489df8bcc0028c94",
+          "source_sha256": "74609eeabf4fd849dc30002dbce2d41747d92af55518dd48140b32d63816058b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/christmastreewings.png",
+          "sha256": "8281a05a8499686d723f8793d875e0a5d8917f23f3ed3a18b5942c24d4e63440",
+          "source_sha256": "8dcdabea100b3ca9176d02df5a01fb9aace92b9ff8ee01bc388c00dfdfedd911",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "chromawings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/chromawings.png",
+          "sha256": "955f3fb0bf3386f98a201bdf1d8d5a6abfcd318da0d18ec96acb36db891be8c9",
+          "source_sha256": "978310353cc21444107d8bcf97b6b7344fbb1160daf528c66257fd85164456f9",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/chromawings.png",
+          "sha256": "5994f9ea0bd5e9263d0e87070cebad916714126cc46d4414cdb3cc800416c5c6",
+          "source_sha256": "c80476f9083b719a3e04e0e9e901e796338390aad1284a24ed518c3e926cb3a3",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "clawwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/clawwings.png",
+          "sha256": "0876c9f6ed4c771ac10f01819e9e684f059afcc6c44216244c27f6c358ad0ac8",
+          "source_sha256": "e5c3af0bc4cd64f031ff2a7adc5eb7ca71b223c562999c6423851c4897c3e13b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/clawwings.png",
+          "sha256": "e402c9eefa6bbd9d9a6481de9078e0380000bf92fd7b36f8a0591d1a35194c7d",
+          "source_sha256": "0528fe3c69b63d412aa52fd76265467b9fb831aa915bbdc875e7ad2014034925",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "cloudwhitewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/cloudwhitewings.png",
+          "sha256": "2aae17de426a01d4ceb172947cbf6ed90ad325a4a62a167c3d97938b1ee1b78a",
+          "source_sha256": "32408f590572220f7f2b91c910ce5d4a0838592b068a92d24e72596c803df471",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/cloudwhitewings.png",
+          "sha256": "974a051db4289bd6c9cae79a78be95c0a158903e8e73de14369f211c661faf55",
+          "source_sha256": "e5860c634c68ac8ec933eb5f7860871a68a76dd4aef414f5bdfc8f0b8d108d28",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "colorfulleaveswings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/colorfulleaveswings.png",
+          "sha256": "6358680fb001f3c7ebe759349803270864eda8f258dab7e8ebe2d79b6859d4a7",
+          "source_sha256": "09e593d90a094af0096889bc2b3dd52515c65b7944b1a7dd2d3b36800ef77d3b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/colorfulleaveswings.png",
+          "sha256": "d0d948ef2e4018c68c3b4fba8861eae5cbdeb94058f851bc34542394f27ce7eb",
+          "source_sha256": "79dc9f9ba807a109ba438ac2b71994dfbf734b7717c878d372b144c1eb34cd5f",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "crimsonredwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/crimsonredwings.png",
+          "sha256": "bc569afbe7ce56064efb8208eecc0f4ff93f71a10467f60f82fb0fc43bfef08c",
+          "source_sha256": "056225de0acb92962ac5d3be2781aae638844f7cbb3c5d60695ea3763960125a",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/crimsonredwings.png",
+          "sha256": "a9286d5dbc82aa101c409cd4427ebaa6d5bd681fd7138a1d677c15812bcafc08",
+          "source_sha256": "4ef2a5d7f62bd5825b89fec377ad9336eaae80aecd4a1f419ccbce9447a6d7a4",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "customheartwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/customheartwings.png",
+          "sha256": "b3aa1aca09446c8e613efe9b0ebfa62b936d04618e905a6e56dee076caecee97",
+          "source_sha256": "2dadfd0378046ce6c0f64c9ddd09307ced7bb7911299f1b158060e734cb58fd2",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/customheartwings.png",
+          "sha256": "1abc32d42e7b4f25cdb7ce1803023da3c3ea03b445aa6cd18a7f6e01d9afd4fe",
+          "source_sha256": "5b389302adba30dc2634e082482e8c93ccdd3cdb70983dc3ba15adf88203fcc8",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "cyberyellowings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/cyberyellowings.png",
+          "sha256": "323b047d31970e933324bca09ed7f0a50cd0f71b7e6ececb5c47764c1f34c5f1",
+          "source_sha256": "4772ed848e0c2e280eec1594d1dd987293025a5117fb5c4ea3d651453a09dd25",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/cyberyellowings.png",
+          "sha256": "10a4cd95ffaf31e7f4b498f8f50141cc38f0cadbae26cc5e9d8de15cb425e96c",
+          "source_sha256": "9b1e85f2657ca7b0520918b682a8c7f125aa5197cad43e697ab1ed246ec99da2",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "darkblue.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/darkblue.png",
+          "sha256": "bc81465b9b292e724e3c7324dfc148bdabd63c3dca163218f9282a72e66fd8a8",
+          "source_sha256": "031d7056797ff55aad73b70eafa34035d99792c8b9b6462f2970232ba644ecc1",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/darkblue.png",
+          "sha256": "864fa5774ca4378c14c8f8fdc63d1a9db01039bdb0c3ffa21d96090484b6f847",
+          "source_sha256": "93728244ff6a101d0f0d895ba3a8ecb6ffcb55cf02dec28cc84b838a63c26cea",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "darkbluestripedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/darkbluestripedwings.png",
+          "sha256": "56ed0a8b81ff393a37d6dbd632f10d3c338353b944ab421a7c7a33dd9f8f4fe5",
+          "source_sha256": "56c4140ca15117c8d8789f2b7db690e4a978c397dc3ec952ecac12f9f3f0c73c",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/darkbluestripedwings.png",
+          "sha256": "93c899423c032360ffc071499feb033bd68b5f8d013943b407085f013a7eb84c",
+          "source_sha256": "d7604553131927c53e80306725278c6f9dc09467c59d5e0fb46ad8ed7eacf145",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "fireorangewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/fireorangewings.png",
+          "sha256": "fee5ba92b05f7cf560ba3aa9290fd76ebaf697c95401fed9e5c2548545366459",
+          "source_sha256": "43d667665c489b1c6db8464bae943931414e03c90c4be7d7adbc45e754ecbba3",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/fireorangewings.png",
+          "sha256": "04ae3bf8638ac3483f52c6caff6a0bdd57c2350edeaae263908e6701efd9dcd8",
+          "source_sha256": "dc4839f8c63b9289d6ff19c7c8f9ae0656adeb8160d502bd190edbe8bafc9d57",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "forestgreenwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/forestgreenwings.png",
+          "sha256": "cae41359b0816601336f3be9df850f380e3411344b3567171d6ff62f98ea2d19",
+          "source_sha256": "fd239e2d32cc3c02ccf79775c71c2020a7ace4b70b683a7e5250679aed8ff764",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/forestgreenwings.png",
+          "sha256": "3986e3fe45df8c1aa1e5a5db2ddafb219880d46187bc9929667e58a955ed6646",
+          "source_sha256": "e30f44ea9e861bad5c5d4689fe398ddd48b27ec41b4e5e8559d368ddff68932c",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "galaxy.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/galaxy.png",
+          "sha256": "6e4819d0b8442870f6dc2de25786c5a235a3cb9fdfe69812bbdde6743a6f6f6e",
+          "source_sha256": "9b0f8dd17b8c1507880aa7612a28c3dfee450601d21f6834edebeccd0950eb5b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/galaxy.png",
+          "sha256": "9cea3fba34ed305cf2ef60b43300a03f305bdce812a144149f237f5f98b643ee",
+          "source_sha256": "6fb1d03e9d57fc73b5a4318ccfec09975478225c445a9d7364b069b8040e7912",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "ghostwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/ghostwings.png",
+          "sha256": "4a8c14e8ee6cd33820478960d20ae215113b0d425fd887d7b03e8a9f6f047649",
+          "source_sha256": "74bf81cd4706a127ee2767e207e1eace65ccdaec459c3159e5bc30d83913fba2",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/ghostwings.png",
+          "sha256": "a436f31128febed202b3ba0edb3e7cb2d27df62698426b6ad207120be46217cd",
+          "source_sha256": "808329727ad5eeec28e19618958fedb14fc3f48a8b273e3a2170e7189483ccde",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "gingerbreadwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/gingerbreadwings.png",
+          "sha256": "44084fd849614892d51a602ef1899fc5634d3bf85d39edfb6a6266ff24547a7f",
+          "source_sha256": "ec2f0f3dcaa5bec8d2887ac4f46d884aac744f6d00d229ef6670f575601b1f8c",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/gingerbreadwings.png",
+          "sha256": "7d8c39e81ef489b67ae0ff3f576975c17aee4e8b81eee2fc54c70a27c1276d8b",
+          "source_sha256": "5a355abfd4c95e5cb93d57e23e6ddde7b3aac05dc34acbbee973784b69c740a3",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "green.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/green.png",
+          "sha256": "a5db121241e7739730a679eea8d32e2337f1c3b260da56fe618fd052bd2949c5",
+          "source_sha256": "138a9fa9bbe87b6cdba7630828c71edb5911a716484e1dd750dd56caec638cd6",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/green.png",
+          "sha256": "d49f1f65a8dad2f7186757af7c308340f5b108879a83abe38943dc076a076546",
+          "source_sha256": "ed52a87da18b41457b16223101ee28ed7252efdc8d9d6b8d1425122c763acaf5",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "greeneasterwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/greeneasterwings.png",
+          "sha256": "ae535a93b5d73a8ef84fa2e0bb109564eeeb7f0e4645bc16e79f904053eaedd7",
+          "source_sha256": "1cefed3e1b5b5f72717c792dcc885157c38cbda15cee73fdb8fcad159e567852",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/greeneasterwings.png",
+          "sha256": "e5ace0000b90b8179622be7c3bbcd6de764f6d29d93e41aa54f3d2528358c4c7",
+          "source_sha256": "c0f9b53c07eb29fbc6e1983e4c702f115370941c090b103fbc1c5a0c53d71f75",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "greenfogwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/greenfogwings.png",
+          "sha256": "a0e2f5d2d5357691296c2f6b2d32ed41ff292b2f10b243d95ba4a7c199306726",
+          "source_sha256": "cb393a9f183366a8bfc681dac2093e28eb30e9cc7ea59c4353ecaa3ca9ef0e26",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/greenfogwings.png",
+          "sha256": "abcfc76c397ce905b5d959e15ff2a9faf3a33752d3e5198bee6fc8ae9acdd206",
+          "source_sha256": "edb0e1cd2a52654d583a30e130d4840f0f9670d5d856c151d8ee171b90febaf0",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "greenglitchedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/greenglitchedwings.png",
+          "sha256": "8e707ee896838143e8d11f0b5b8b3312114ffe214c08deda88f856d9b7032a89",
+          "source_sha256": "7b1886f74845168f9b1d16cb24ae4f4951014e26352bac44e23ec80c89aa3c4e",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/greenglitchedwings.png",
+          "sha256": "004456ed97bd162f13bbe5f5d3f9001a97e3fc0118be55bb3d0036cbebf8f5f7",
+          "source_sha256": "a76d7785bb6eecde22e2f31808c9708ccdd458649072c456f2581dd50c858b6f",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "halloweenbonewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/halloweenbonewings.png",
+          "sha256": "a36358ef3a5cf9ada10fca88275407e59e1aae33fa99187e82543fe887a731ff",
+          "source_sha256": "ae43e3f02f487e604ef64696fc3da39d1acd4765540bac80049e3ba3f43c4ef1",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/halloweenbonewings.png",
+          "sha256": "2d97356a8587568849173e46382296e7471866e2590658f7ebaab94eada2a9d1",
+          "source_sha256": "fd3f897b3dfdb6d85dba7986f44b2b1536141a719315c5fda1bb82d27c429fef",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "halloweendevilwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/halloweendevilwings.png",
+          "sha256": "a3b5c4992f9716abc0a56ff466863d36de3b8cb5ef528a7235def8a5f9c9a6d7",
+          "source_sha256": "649f412c31fe0e6d24dc269926f2b9d15a0c55b568df214e5f3512286eb6f0d8",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/halloweendevilwings.png",
+          "sha256": "00f9f10b8a2d7d352947b0b3321363bae70f59d456594773cc84ce13642f3732",
+          "source_sha256": "5ebac5b1696f63af7c0b5ed70321b2507f018aa12db979c6c15a7af951104137",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "halloweenwebwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/halloweenwebwings.png",
+          "sha256": "0f2ba31113f7128f05740129420286e51b469a938fc7cbc93dd7f6a7eaea8b76",
+          "source_sha256": "1da4af53de85ec1aed2ec55d2bf5ea74211ce77d8113afb884912bea7082db34",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/halloweenwebwings.png",
+          "sha256": "ce26a47baf59a8bc05e31dc5ee35e183200ed48eb2af1c4433f6e8dec424e6f7",
+          "source_sha256": "af90d630b21f17571d34c141a10b05e824bbe64d1143c8cbe13ebabb43fdc933",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "hollyivywings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/hollyivywings.png",
+          "sha256": "dee580f26c995eca4988046811cb5066727674db167704d36fa031ae1a06ff82",
+          "source_sha256": "f7c7b055a7d86161f37914c1a7698981e5ad4e697a4bbcfc4f5ad176316009f0",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/hollyivywings.png",
+          "sha256": "9868c402a006772653456b4447c3e947c04a0e5cfa0eb6501fbf8ba3c3334bdd",
+          "source_sha256": "18bdf3b53204766e5d2ed42d8e8b271fb95b2a23a61e8738cd8f20b8df5c0d95",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "hotpinkglitchedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/hotpinkglitchedwings.png",
+          "sha256": "2ed85d71440c601cea604d68d90f508801864f1ce729af9a200ef0e92b661191",
+          "source_sha256": "65766d356ab11a57934be0baa33e40003e314ba53c5acb6b19a1c29605db7908",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/hotpinkglitchedwings.png",
+          "sha256": "c4a5f0a49e6f57afd662e769497df726eaaaf1491df062349afa8e99561c6fcc",
+          "source_sha256": "381573a63fbd9bb6ce984a6f9881ac9fcc2b7b42a4b147fdb741c520e52af15d",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "hotpinkstripedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/hotpinkstripedwings.png",
+          "sha256": "af32dad81eedb66d30c9f8d9833f1dd1af57c7d825ed2abdd4a16f36597e141f",
+          "source_sha256": "3aa70516a928309b5cdca22cd1038d663f46633829d16870a83838eb59a35477",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/hotpinkstripedwings.png",
+          "sha256": "ec09b7446445a41fbffcf6edba43bb276ca6a593ca6d6d1670fcaff87c43a856",
+          "source_sha256": "c1d00743d20bf627ebcc4b0f9df87ed2eabc06857fa9399528859da79d6ed7f1",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "icespikewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/icespikewings.png",
+          "sha256": "5588137f56ae8b8c7da21194d7d7bbb92b9589d505f543dd597bc63fb5ae87b9",
+          "source_sha256": "359ebb589048278e1d6995ae2299d764a49a88811915adc76f7ebe67f1f2a48c",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/icespikewings.png",
+          "sha256": "4bec3db77a7d5549a492beeefc53918e34fb253b7ff8aa4fa336a84e75419747",
+          "source_sha256": "542310678a3c6d7d6e5781482c09babd3c0118e0eee19a97f51d73dc782468ec",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "indigo.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/indigo.png",
+          "sha256": "5e8c672a29d996a0b5c951db2791b10d7829319ddbb84a714b2a324b9097eb59",
+          "source_sha256": "adbe194b1f9e60c21897c47c63cf65390d9caf1f3122a535e119e86fc1a0d8c3",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/indigo.png",
+          "sha256": "188a35bca047f4cf0947717a24a73af6e206333d51c4004d21d15ea55af0307f",
+          "source_sha256": "1242a0cc075b11c6d9775c008c0f0a31fcbb40bbbd93883e408bb4c7e042d2a1",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lapisbluewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lapisbluewings.png",
+          "sha256": "c3857e16886716093fa603cd2aa4d7cc843f1617fee13f807032a3ebb4bb2fd9",
+          "source_sha256": "e53bdbe5e2d8410c3f9a1199ad50fb952db8d5314e5dbc9d34dce285191852c0",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lapisbluewings.png",
+          "sha256": "1040fd02f35f6e87589b491c849833bedfb530684be1e4c210cc18654196f3e7",
+          "source_sha256": "7e50e7057cb9a7866fae5338118aaf43384e1e8827414e25a0a8f11827a1858a",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lightbluestripedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lightbluestripedwings.png",
+          "sha256": "f8d8d55d33cdd5b1bab2652ba2c93a6063da290f1b7254e83538509ecd6fceb2",
+          "source_sha256": "fdf71d66907b61b124e24e9f7f148938c0852720050a6ff30bb2677356594eb4",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lightbluestripedwings.png",
+          "sha256": "4c7b35b40d7aa52c76b1e36b8c15ed4a255c463d86cf69cb05d9ad495d9ea1ba",
+          "source_sha256": "d1b79ee6618e1edc5cf4e5e7c47c76068023d0ad0963dd51d8e1e9f2b6e9b2ca",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lightbluewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lightbluewings.png",
+          "sha256": "fc9bc05c4c1dbb14f68259d9a2892a8541ad9cac97ceb0863c1aef7e67f959ca",
+          "source_sha256": "a5ee1098901f5646684903cd967c348e40b792a84ec812fc26b5b852ccf5cfce",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lightbluewings.png",
+          "sha256": "977d0663cdd0b6df6b6c631a9341d409617db0534b0b846cdb4f3fe985ca7b40",
+          "source_sha256": "ef19566f19b32ad6c2e5bba805b011c26aac941f316eea53ca44ceafba9621ee",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lightpinkglitchedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lightpinkglitchedwings.png",
+          "sha256": "16826fa8626f634a2fd46cd94648bd1339814013ba53bcf663ae9ca92d1ffbd0",
+          "source_sha256": "c6cb98eae047e2ede4d8ed7446d7ccbe7e91622387aef43055a394712029e42a",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lightpinkglitchedwings.png",
+          "sha256": "718e8e7c6550273b5d0674a4138b19e0d21e17904b02bd656d8924e9084e5c92",
+          "source_sha256": "f8abe5a3efb25809bff46012ef55306223f556e34d823f6d8642b928936c1ee1",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lightpinkstripedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lightpinkstripedwings.png",
+          "sha256": "dfb4e5fd32a5d2c4d315c5d36c4b29f76244edce4d92eeddba3e0ef09dceae7b",
+          "source_sha256": "1087fc8e135d7fae4c36ee2c771f35a4c043f957daaf881c293c9f879acac8a0",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lightpinkstripedwings.png",
+          "sha256": "b1704c5e3148763b5a4886ad7a1b4d61f1ac813cb61226180c4b2c1f81950d41",
+          "source_sha256": "40c5ff48a0779441163149a31403982382eccd9f9916f6eb7023051be8e67ebf",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lightpinkwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lightpinkwings.png",
+          "sha256": "5429e54e907b63433179fc145d84c626361d62021b40563f3a5568b63f2a027b",
+          "source_sha256": "7fb6d5de7654f0bec14d05caf1e43a0154aca369d7919e4d888218e6c9c92029",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lightpinkwings.png",
+          "sha256": "9ede67f48990787c146d931c3c12a5d4fa48880c2ee18d33c5de0edbb83587ac",
+          "source_sha256": "f5bbf3cc7d57d9ee4cbd0ba6e2a979d09ffb204c75949e0f55adc373b8a9e4de",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lunarcomicscolorfulwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lunarcomicscolorfulwings.png",
+          "sha256": "511f1699a56337022c772d477a487fa91bae4ab7d4bd1552da7db125b3c51456",
+          "source_sha256": "18e0457ee6d9c65763f23dad2a5472dc90fddd8fb7acc28a796f723ea684440c",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lunarcomicscolorfulwings.png",
+          "sha256": "e3e38e8ef8f021b19f4cf4e0bc0dd09ff5361751371c45c5b0643c5bc3897c85",
+          "source_sha256": "e6fe09c58a257d2f18c258501299c7e81f29c0c7159478c0ccec056b9e1875db",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lunarcomicsorangewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lunarcomicsorangewings.png",
+          "sha256": "842b6b9002db2a705199f7482df29e563ac28d1125e4cca40444f2469a29a08d",
+          "source_sha256": "f956c40a9b48a62bee17b39e2454a7563c1986f9d4e31552bed82f6d96408def",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lunarcomicsorangewings.png",
+          "sha256": "9a1ba8d30e2516c9d62a4b8f5a2d36b8a88225275421aad413e3859da403617b",
+          "source_sha256": "1fb438d7936220aff076e972d34a9c09503a2b2debbee90f9017b7c79fbe60b5",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lunarcomicsredwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lunarcomicsredwings.png",
+          "sha256": "648c32fc6e6d1fd5a8643eb3eae57c6955ba4702eef2d1dd186f318a9b9c2690",
+          "source_sha256": "b6c0413a0e77ce79716b70ebdc4bf2b9d7ce3333958dd2ccfd91d5ef9134d1c9",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lunarcomicsredwings.png",
+          "sha256": "b864ebf425e31b7c4c9ef81b432d54bc61ea766382a60259bfda53983059c8d0",
+          "source_sha256": "186dd7e08635daf3021396b9bd8204bf7a1dd008e606544b953cb508c498ea8f",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lunarcomicswhitewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lunarcomicswhitewings.png",
+          "sha256": "2b57493a9f57b566349751f972329f1f69b4c019b7a71b413974e5058a0b16db",
+          "source_sha256": "e4f6f80df79488ad959b5a86de955b62ba758115d6eb0f40746ee905624405a5",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lunarcomicswhitewings.png",
+          "sha256": "becf95f0cd740769c14c75474501d51eca7f546687097151dc0001f5246a2e66",
+          "source_sha256": "03f372142168aafe51beb39fd70004a4c5a427d76b395e7d8f65d0b5d6b1aae7",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lunarcomicsyellowwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lunarcomicsyellowwings.png",
+          "sha256": "6e360cd29a1568f92fbe349f8ed1aeb713130b6b69ce072afb330e30313c3751",
+          "source_sha256": "838918c4253975e99fa0a2db336efb474086adc408c5948ffcb51a0f90cadead",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lunarcomicsyellowwings.png",
+          "sha256": "6aa967edae294e400794d08c42a0b5ed987be21ed913624217905a4259029999",
+          "source_sha256": "2c05965598b6ac13c9e769661654af11ecd639245ec45b101de17da7da6dc70f",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "lunarwinterwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/lunarwinterwings.png",
+          "sha256": "51d0ef58ce1989b47fc198f6f4baa4e477bf232d8515a5149effc8ee5eeece0e",
+          "source_sha256": "4bb8f13d855530690b19715b8cd8ef07865fd9765a320db0ce507712c751c3d6",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/lunarwinterwings.png",
+          "sha256": "18d5d4a170cc82f90dc02c0889252721d380b2608db1961f9e04dacac2612f00",
+          "source_sha256": "231765adb1757e56229ead5292d70f814e1b0a1e0570516035e950b9f77ac283",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marblebluewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marblebluewings.png",
+          "sha256": "14a398b3a4468ed8e4c9e6f73df803bba6150bcac4d1142ef6c3e40d92f3d6d7",
+          "source_sha256": "c5f547d50302a873f7b64bfb058f0dde1cf2f4dcca159572e8ed00ffc23b1d07",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marblebluewings.png",
+          "sha256": "a004b411e005dcabbf277de813c8c7b1b61841c08dac998433b6ab0ed712696c",
+          "source_sha256": "d46926535e9a72ec08f02949338c3e778d10595cb105c44c5aff8faea08cb0c3",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marblegraywings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marblegraywings.png",
+          "sha256": "34f493f112540b05a79aa9a188bde6d29ea5750cf0953c6501c6b8912d5d25b8",
+          "source_sha256": "dcb896b8e7fad1fe6429660868f7ee48e0c7c60958145426a5308ef5767ec522",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marblegraywings.png",
+          "sha256": "d47fbd470dbd0c8d5cfaa84ec355d79baa4154a7cff0349aaf179a43f9826fd5",
+          "source_sha256": "839331f4000b6a8128b896b594060a825d586d7d40c1f335269ccb59f2267eb4",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marblegreenwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marblegreenwings.png",
+          "sha256": "0e8f92cc44134fd8918000025bc9e8d2b4071a7a0ba91b8c093087e05772dfe8",
+          "source_sha256": "d55ffd2a8fb4e612871ac8ae7d39641218f75d451ef01c71fe008a73878301bc",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marblegreenwings.png",
+          "sha256": "878227abcdebd60419a5b5f301081fdc61587b491a91484ea1ab0b949dc262cf",
+          "source_sha256": "ed98626ba1e035bb35d5f8af72cd7dc328adfd68b16d7d53f0cd13e559d3c14a",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marblelimewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marblelimewings.png",
+          "sha256": "0165a6ebf8c75860d823f17c858d10c26009278b9a4c6b140052e0933776022b",
+          "source_sha256": "ad9580434774b6515399e37aa765d3feeb5277c8d7204d9ca0a0659a864e97e8",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marblelimewings.png",
+          "sha256": "80b4717fb9f0db81f3332caa2f768fd716c9f343003d1e395350d9488bd4dd46",
+          "source_sha256": "0a015d2d415560bb6b3b809f329e81b872c42b87090974ff6e755512cad6f79d",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marbleorangewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marbleorangewings.png",
+          "sha256": "6269af862b0531165777c080e5c8f31275c09cf387a03d1eaa1e4629a9c48e69",
+          "source_sha256": "08f0115cad09e8f35a894be6935e2a86f8d2943061b4eba3f64b3af5047a2512",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marbleorangewings.png",
+          "sha256": "b115ead7a257abc558bb2e451a10167dbc65bc4b0984024c738cf89faf2402cf",
+          "source_sha256": "9c722778f943ead58debd1134fc50eb0f1e3f56a71e1fdc363715821f7eb0bad",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marblepinkwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marblepinkwings.png",
+          "sha256": "b2ac39da45624a40dea8689c3286bbc44dcb9a67962720f1e0ee98c899f62a67",
+          "source_sha256": "8976988eb2621ec52caa007245d66fd99b7e8975c9f73255a14027ac329f7b70",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marblepinkwings.png",
+          "sha256": "087b9a9de3633cb0f36cbf3c6bb224d9816f22626d520f258da8aacff572d93e",
+          "source_sha256": "2556ccca9fa58518e0996f1360f7f29208bff656e738cff6d2fde8b2c1a42e57",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marblepurplewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marblepurplewings.png",
+          "sha256": "b9d4665079dfe5004fe294339eae3fe260b5bcde5702834afb853d73e820520d",
+          "source_sha256": "12ac8655f1f7b14b785be05bcf609e5d5daa241712c8d6bdc083f5514702da86",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marblepurplewings.png",
+          "sha256": "06ebbfcc0ff7d26a09215391c7eb9cf0af6be99b7da28e52357cde6b7cc74eee",
+          "source_sha256": "d7f96e14c18e3360626eecbea0054c92b2539aad7a0d7bebe70bcc619577bd7c",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marbleredwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marbleredwings.png",
+          "sha256": "cb17c6963b8cf510bde0d039af27dd9fac47a260b8f55aae0668af90f7505e25",
+          "source_sha256": "548f123f28d79f063bc6b98757c2d31cf34396c68f114cc06c4c26e7fbfb54c8",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marbleredwings.png",
+          "sha256": "049ae9ecea1b3d734ac8158965a607bb2a91d1d2e3641519dab939da7d41c59f",
+          "source_sha256": "42fdd880ea3fe59dc8438f08a1d9fdf4b0cfbcfa1f44a6454552c5b467bbe079",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marblerosewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marblerosewings.png",
+          "sha256": "c91ee7bdf82a5d3aeb0fa9fbdd007c4c025741029539507ac8a5a8609ffa674b",
+          "source_sha256": "fd9ebcf9d0e18683ff10b54dfc3924037b3a93bb9f0e4ec3d87e19eeaa582e77",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marblerosewings.png",
+          "sha256": "4844cda2017afc5b7fb133ee2de698f7fb59da07afc647e399a45d0835075d14",
+          "source_sha256": "c450f6f0618b19860448b99337eaef58c9f07de66362ea99c48db64547853c08",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marbletealwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marbletealwings.png",
+          "sha256": "da5ed74bd3bf4166910979ff6863a9286f725cc3d69ff65cee6f1b7160929ba9",
+          "source_sha256": "5dddf74debe1afc021a0a46506c3bdce14e6a3d9470e69e156ff0cb5bda5e921",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marbletealwings.png",
+          "sha256": "4d3828d174ba95670803b97a90821b7e3c57a2c8f3de7df298e685cb8e9bedd9",
+          "source_sha256": "899ac9b87fd177610514b0d0b685c5e342387da7b778b416acfe1fb27b6f35af",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marblewhitewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marblewhitewings.png",
+          "sha256": "8cdf319a3e69a66d8faee5f96c4f89962a98b6e4b3fd58b1ff20f0e0e3701af8",
+          "source_sha256": "be0dc9853785af2d9587af8f54a2e52225d901525659ca22c30d87a53f7e0ecd",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marblewhitewings.png",
+          "sha256": "1c3896937830fb1666a63400063751a853ab5e279625b831e1dbae5f4f3ab337",
+          "source_sha256": "a5d20e5ddee8f01eaaca08e742dc3d6c3c54cde5211b096ee40c05b575a997d7",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "marbleyellowwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/marbleyellowwings.png",
+          "sha256": "ef6caa332a35cb5220fbcddadcd4b826c8e349fc9836a94accec3bc95cb5f4bf",
+          "source_sha256": "fe058b6fb05139e4ccad7514b25dce57158521cbdc26a4a46c8a6755d78a32bd",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/marbleyellowwings.png",
+          "sha256": "76cf4baf1aab8769bd76fb472ab558e2f46034554c9907b17f26528a18953572",
+          "source_sha256": "0cc581483d29f8a5d718eb2c6516a942362ccc403857d212990921d259f4e7c2",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "metalicsilveraugust.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/metalicsilveraugust.png",
+          "sha256": "2b8f8fc627dc4978588703473f46c6a488b2e2e89b3cdbe6908ebad2b0860596",
+          "source_sha256": "c2d7556a5cd1cc4b2a21f158a13d667aa5db696c0f8d5462197df4c7cc80b17a",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/metalicsilveraugust.png",
+          "sha256": "58e7dd25a250e8022acbfd31115f1955b57bed0926b161d60cd2eb23058b8c8c",
+          "source_sha256": "03f88f4c56ce94ce16d99585cad2d7a49cf106888333baf0c3917ae7539b1bcf",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "mintwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/mintwings.png",
+          "sha256": "d5e0eeb2d654bf118937b4426c2b0461debe35b235d334b0f9dbc101d9fbf776",
+          "source_sha256": "065d4d054cdd28a520ecd726d67d8d4039344b5fefd72f99217ae5d13282376e",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/mintwings.png",
+          "sha256": "0c444b79d8833f01b0f028dea5fd26ce78b1697411e92ecfa0ae8873040caed1",
+          "source_sha256": "84a34f72a5e8b97355290ed1371afac80578d416ea737bd831c9bf1ee548f5f9",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "neonblueyellowwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/neonblueyellowwings.png",
+          "sha256": "d4cc3ac1517fa3d85898f73042a5563613a33882a1355154e9559f608479f920",
+          "source_sha256": "105678bd3914c1bdbc6a1a9bf43bd84bfcf163e754d46e0c04dfb6b26fa2a50d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/neonblueyellowwings.png",
+          "sha256": "1261d6434d28a92b5f689e03c96efd68b4b80cae76d31c3465031abea520637c",
+          "source_sha256": "bf30f6883557d71f1060e578c230f08189fb77f026b77972fc23813e19fb2365",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "neonorangeredwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/neonorangeredwings.png",
+          "sha256": "bdb176b4e1edcea3dd86bfd63489e3011c55a8fe96fe6f585442d38ddf828d4b",
+          "source_sha256": "6a9a0aaef9b21394f8c597b47405ec29b04fb740307d00143601b5f088cf35be",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/neonorangeredwings.png",
+          "sha256": "ae0eb29a54b6cbbc6f2cae58e2624978ca4daf8a56262dfef5763846cac71f39",
+          "source_sha256": "6258a16b54d2c9f43e4695688a5a16a2b3237f8586ef1ab648454bc4de4a61c7",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "neonpinkbluewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/neonpinkbluewings.png",
+          "sha256": "a479ac929dae45ea542a7b75d4681bf7614e528e66a5a0d2e88e614b8ac542e5",
+          "source_sha256": "02a597f4c6db3d93fbdde969fe1a9f00bcc8efa420de112fb57b8cc4af839edf",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/neonpinkbluewings.png",
+          "sha256": "06c6f0b916ef78c322f9dfc62a1131aed0e9bcfbd9c479c7a86e1cce6d4188a1",
+          "source_sha256": "dbef1e4751c944af7501e98c8ad43f10e7e390ecfefd7d0be5c280920a2a9ca4",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "neonpurpleorangewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/neonpurpleorangewings.png",
+          "sha256": "62fec6e179f8da073c8da81093f617a9127b0520e49b36b62bb48f35bda0c37a",
+          "source_sha256": "56d274774d30ec59d6ae3425dc17eea1c7455e5915b7d5bfffb0c5d8840bdfb2",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/neonpurpleorangewings.png",
+          "sha256": "4a8c9d24775bd2e6dbce7ac07ab31a0a6446d2b94ba22938d14f22962e87acb8",
+          "source_sha256": "cf74c7326864143c73127667354a5b1cc5a479e35a6377fb26b9899ae3af2afc",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "neonredgreenwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/neonredgreenwings.png",
+          "sha256": "6b98999989deb24a1c73dd27894d0c498fbabbd4ccef48d5d1bef82a1a8fdbb1",
+          "source_sha256": "ef470a14bfd4caa10687097a6a2ef457f5f5e9e0e3fe5b229cb673c676aa5db8",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/neonredgreenwings.png",
+          "sha256": "9b5aaae5589bb19824afa5abecfc4d164faf9ca674cd774136f1495ba4b353b9",
+          "source_sha256": "b8b73c6bd141a11725ee44d128ad619510f96fbdd42572679a181f7c7077fd90",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "orange.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/orange.png",
+          "sha256": "5ff209957402ac0e7a18813d59f9bc46ee4abdf6bd8038fc1aafcf515fb8b2b6",
+          "source_sha256": "773560e1d36dc740a271046ab908fb094ba0608a1f99001d8e98070160dce626",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/orange.png",
+          "sha256": "30b0c465f448829a2848cfc955d0ff15c694eec6f51269b8cfdf27be6c922dc1",
+          "source_sha256": "a023574c24905720467e372469fd37014975a3d78ccb2bfdb2c6b0f660740aeb",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "orangeeasterwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/orangeeasterwings.png",
+          "sha256": "18143644d8c327672696296a5a8b208555e18b5397a3e6e3b8b90e42faa9735c",
+          "source_sha256": "8fc53772fe5372cf3fa6a1a63ef8a3aad726d7d1bef7ca1acdf41818d062bb16",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/orangeeasterwings.png",
+          "sha256": "06e4955f31325bfe42eb40335b1b9f1590f87c1f9ed97d56570c5705f7babe71",
+          "source_sha256": "d137a665a5fe11c2a466d5db0c468c95bc5cc465a039967f0cb0e0861b7ac7d0",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "orangefogwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/orangefogwings.png",
+          "sha256": "ba267467a989cca389c9e53797843eae8fa06af58b452293ebd14298212b5a28",
+          "source_sha256": "0ccd94f2a0832e507163f9e7733ce3f4f7745b0c844ee910e8684b53a41c1e46",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/orangefogwings.png",
+          "sha256": "10d4420154e88c649c34517521ba996d1a850f13bbb5dfc94f73d238722d128f",
+          "source_sha256": "c7702f7a8cbcd41e0b74e7b25947519aee801472afad087e551532172250f377",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "orangegalaxywings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/orangegalaxywings.png",
+          "sha256": "91e8dfcde8eee7fbf055a28761cdfca0a03f3d0d469b107a9357e0dac0a284ae",
+          "source_sha256": "8aa607fc67e075fd8ddc9a9b13e37bc8562ad26d00afc8880f781ba974a30b3b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/orangegalaxywings.png",
+          "sha256": "5adab66641c4270480757c33c2ef354325e080a26df4f5d34db486cdb7851dd1",
+          "source_sha256": "5c42a0691993b47432b99427bfc8d2483c2d08354f409987382bf4772b85cd1b",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "palmtreewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/palmtreewings.png",
+          "sha256": "4c9af56594ec8ecca1a50aea4ce723622ac5008cea449f68be566870dadf0d48",
+          "source_sha256": "ee6a9e74ccb153d2896c354ac48b563f9c3ded5e2b042d30d989a2ad90347491",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/palmtreewings.png",
+          "sha256": "58b30e1a1bef032a4fbee47de0650ca2e5b03fee1f9bff1decec363ba15eee56",
+          "source_sha256": "b86c6da64c30faa09260ef0ba6d4cf7aabf6c2b7f5ca1e14714bb7c4d3af470b",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pearlwhiteaugust.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pearlwhiteaugust.png",
+          "sha256": "1aacdfa4d30991d59c69cfb10237d796186ba95f166f3ccc83ecc26872954617",
+          "source_sha256": "851adbb6d9a6e684198f09e62b504eb208f5328cad49c8f58eb35d7ce714f4fb",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pearlwhiteaugust.png",
+          "sha256": "a1366b82b54ca26d64e3731ffc075b0f842ce18993fe1080bf1d521fadf40881",
+          "source_sha256": "75c064919a75070c5eb4c907b8c7a1ae8405102cdb4a2ae5040b2d0bb4323c4c",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "piersunsetwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/piersunsetwings.png",
+          "sha256": "519ae08161f3a711fba8a1b03f5762b4df91007f6d2052263e0b04abad56d870",
+          "source_sha256": "93c3002666cccdafba11904d8bc2db7041c9081ff5d8efd07a890bd89fdb7d9d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/piersunsetwings.png",
+          "sha256": "f9eb1810794643324643eebc8590a20d13db652f3bc9d7e34438c66b70687176",
+          "source_sha256": "be1f19f3a6ec192caa1ca295bda6f779cfb98e9cbdba383aa6faf969fcb3fd03",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pink.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pink.png",
+          "sha256": "77b479dc968fc4896805386ba456b3844c461420607540f9b2b85614c0038307",
+          "source_sha256": "89cf944e71bd4d1246ba761ffb43f8f246fb6b6d4592db2baec4c8457bd9a73b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pink.png",
+          "sha256": "44e726dfa576264cd40989f43bfdf340d4f721cdfd72a65e1ab0a81410413ec4",
+          "source_sha256": "0b8b3d9f5f76346c3cf1d138447225a408ff0619d19319a70264c6f94668ef1b",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pinkbutterfly.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pinkbutterfly.png",
+          "sha256": "5725d29d239297d290204ee6d61c1face5191f212d5546aca06bfabab16e24cf",
+          "source_sha256": "156a7d2c0c9b8a7797d974adbeb7617d4dab5c36e19911619660a995d17efa44",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pinkbutterfly.png",
+          "sha256": "e0807f284bea657e423075dc62e786a7f63a0b92f08f9fa5c6a884cf153a073a",
+          "source_sha256": "fb4979555d79d3b840cd22a2111e9ca6713cfffdb7c530912ddf38831e226c91",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pinkcherryblossom.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pinkcherryblossom.png",
+          "sha256": "f53e0c7572d39308d93c61ab8fcd8a29cacf47b9e302887928ba839a35af6b8d",
+          "source_sha256": "9e4b89083c95e3ca75e3bb808e3917939de2877dbfa7fd404e76f8becbe616bb",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pinkcherryblossom.png",
+          "sha256": "0ba36cac3313887a52fd66d04f05fae2b81f86d74d54e0b87a66a9cacae6c7b6",
+          "source_sha256": "fa43f39b83aeda41333e23da464a8430ccbba22deaac637705f9a94c7c2d92e0",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pinkeasterwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pinkeasterwings.png",
+          "sha256": "7e7a64898294010b32021a7caf83ba2756092d102a57ff4aa86d1afe418183bb",
+          "source_sha256": "98b9b40d4a3cf43ee63d5fb6e10babb79eb224aed851f6ff3cfcc1907141e609",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pinkeasterwings.png",
+          "sha256": "0a89862ccc5234fb04b88f32d1524c34a698b98635a27698e077a30759e48531",
+          "source_sha256": "ffa387108d6fa870e8ef8e78f7ae1fa47f305ddb766caceba6a9266b47460968",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pinkglowwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pinkglowwings.png",
+          "sha256": "859734fbd3ead4d56a311f73c1ed208cae65908566abdadb7e501f8ad039d270",
+          "source_sha256": "0ab291c2311f03d41f814eaddad4258fd4f75d1031a5b007bd05beeb31ac2a18",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pinkglowwings.png",
+          "sha256": "4a0ea3df53c6df539a10a3e9ffd59039a6eb3711046b93d0a268024687ad9d43",
+          "source_sha256": "b29295bcc1f05de8e4c894873190a538ef5e1f4ecf13108b478982ec278ed163",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pixelatedblackwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pixelatedblackwings.png",
+          "sha256": "95915c819fab5d16fb6535533526d0d6d388600ad9870a29985cd4d9b7642e7f",
+          "source_sha256": "4cff704d1067389a20cf63d74f4d99bba30576a6686031f0c7e231f5b43f5c60",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pixelatedblackwings.png",
+          "sha256": "5e5904ffc7d64bb58397d0c5662360d1e47d55b689e7ef7eaaab39caa73232a9",
+          "source_sha256": "fa8a635de308a469eb302bedf02a9ec3906e5ebe983bf18a2022223208a6440b",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pixelatedbluewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pixelatedbluewings.png",
+          "sha256": "830dde7e9c2d050a9584bb207dabc5b28ef389adc352aabbb6b300a8c9dbd49d",
+          "source_sha256": "8fe838b84cbe89d304d24f0d4f51aa282e6b25a6b7e24625dda3fa55941f53bb",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pixelatedbluewings.png",
+          "sha256": "7a38126af70e8454bc293ea390611bdd4178b17c784753ed2d7eaea649be6a56",
+          "source_sha256": "3f2988e4bf053b4b40a4482d05feefe0c87f78e414526f7ae3d2fe989f167329",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pixelatedcyanwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pixelatedcyanwings.png",
+          "sha256": "3398f9640fdbf5e333dd10177c37b1ee041b86f424b19943bf1f6e4827496677",
+          "source_sha256": "efad624ad8f302e6703e6caaf02cb25cee4d7b882b1cba17638235ab1d3e2b33",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pixelatedcyanwings.png",
+          "sha256": "62b8ae273aa80bc0b4b0563b37f8f4e0c6d681be7871c34cf8ab4609dac4d303",
+          "source_sha256": "4d3d66e0fa3b051fbbf9af8e82d431eebb4a3fc3a8512b77449f099f8102e451",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pixelatedgoldwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pixelatedgoldwings.png",
+          "sha256": "209d328a108663453c7e38a5a31891cafb156e275be94eae1ae76306945f32bc",
+          "source_sha256": "251ba711de735dfbca76a211631b48dfc03eb5c3f6c2bd424f4d28058041bb80",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pixelatedgoldwings.png",
+          "sha256": "4c3af5d164bcbeaa8569a2b5be915c8a38ccf223215534b60c713aa2cbfe335f",
+          "source_sha256": "060d6a3521c6b2f82f2398a8819f25aef339ec82ddfeb6dba34102e1cea50293",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pixelatedgreenwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pixelatedgreenwings.png",
+          "sha256": "e6626af9ec656e2ac452bc27ef08998b19f32191febc71345e1f8f7e4d7e2673",
+          "source_sha256": "77ee66bd9c57a7d4b5c31576ee5d2c529e441b41012b94a6fd6ca8acf07746b0",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pixelatedgreenwings.png",
+          "sha256": "47b19ac2b5821c5a4a32c332c4bb47f3384ceb14cc198068a757cd3322dcb1b4",
+          "source_sha256": "1b6639a8dc869462d95b4cb8d7a6ff1e81fd34f6b09f48f306a8d9149d00d182",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pixelatedpinkwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pixelatedpinkwings.png",
+          "sha256": "efab5386856a2ac28783c18404965799ab33151607085c2f97d0c2b6411908ef",
+          "source_sha256": "e47f6aa465e6c4db6ba75cc62a36a081490080f2376b429d61507710dda5566c",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pixelatedpinkwings.png",
+          "sha256": "74e73cd2fbc4aded7989f9e0b7062b178f91d343a01b0ef4c615577fe75be587",
+          "source_sha256": "a31fbccbef02b5a3a8d3ce85e421f45e23618bce57651989d4cc6b1033ef75e0",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pixelatedpurplewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pixelatedpurplewings.png",
+          "sha256": "564a3b12687a17bcb7475b4d0aa9056fa43f675ebf1da631b8db25fb0a667b8f",
+          "source_sha256": "5ecf79dfef2ee00158bf6051a30e7b59e02d3f7513ab1b6814e5890e027e02b0",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pixelatedpurplewings.png",
+          "sha256": "f44551a36fbd98cff50f51d2823607f5e49981a02e9eeaf03418db182ec17976",
+          "source_sha256": "74015b70e7961745b5107e83874d055f100abd1c82de56963a94ee0825f1cc4a",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pixelatedredwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pixelatedredwings.png",
+          "sha256": "6868cd170425e30c9e348a8ea6db8dcee44ddbee56f0efff40ea288b2221a7a5",
+          "source_sha256": "d704b6b45274289ff0242402c1f1f267b4afb1b77d874beadca3bbb4719509dc",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pixelatedredwings.png",
+          "sha256": "de14868333eb344bfd1ca73b6ff8dbae7a37a6eb6a7bb5759edfdd71214ba34a",
+          "source_sha256": "a9596479c59210fcea95cafc65c121d4e41e158cbbd0d325a9f0a1da894c0917",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "pixelheartwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/pixelheartwings.png",
+          "sha256": "cb869b7c71517243280a877e2c5938d4d9e6ac036aa0ed5401f7995b0d2d6b84",
+          "source_sha256": "8abf53a3667e7066baa7ebca4c60bf4a3f341f293e9868005693f290181fb826",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/pixelheartwings.png",
+          "sha256": "dcdfe0297771d4c58b05de6c1b22621a7a0e4c0c5519bf549b153efe9269399f",
+          "source_sha256": "ce006175535316022707d9489bf48efb5ccf530f09be52d474685b64a8ed75ec",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "purple.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/purple.png",
+          "sha256": "a115da2d7e6650828128936216b1dd63f3a24710c56dddd737751567fbba5ffa",
+          "source_sha256": "633f9fc0f2d7567f2282fb7310f97318924cffd1569de67baa74ac34c22c3aa1",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/purple.png",
+          "sha256": "bf8e56c66f634be3c80d8b48e780a918ce97d8b44ac9c04dcec841d63211540f",
+          "source_sha256": "70cd6c4259f1ae1729d9592143d609b06c3fa11e84ced75f67a2fbe97196dcd5",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "purplefogwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/purplefogwings.png",
+          "sha256": "ec10951bc8467791031c674519f191231af4dc50976e0d6e9785e1f52e903323",
+          "source_sha256": "1727c5672e92d92c73b195ad68b0131ff2d64b0519e16b23fef069b4029eba85",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/purplefogwings.png",
+          "sha256": "9acbdac1d43ddbb15407398ac30d6a76d9bdd182a1da73decfc6ff6a830c77c5",
+          "source_sha256": "2bd042c7ad93b81ba1b035b673955cfb4fd817d9e02c3f0c462b01bee5060009",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "purplegalaxywings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/purplegalaxywings.png",
+          "sha256": "1031d33f0c82781e0bab179ecaae16a97a80892fd3d6713e5c8d72aa13ef29ff",
+          "source_sha256": "b85c2e806f7b7cf48e350e749d910d1eeb09a24380dd3e65c095cf5db11293c7",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/purplegalaxywings.png",
+          "sha256": "d88e5b9faa8741a8736fa42e73ee010341888493e4215407f9ce2a13e541e0f9",
+          "source_sha256": "df46848a3f6b54509b7308753161b853074635871a98b0312a0499da551fd80e",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "purpleglitchedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/purpleglitchedwings.png",
+          "sha256": "70884c2635b9642009d5dd8f3ddf16f19c4c6afdb8a5d0dce3ba315799ed828b",
+          "source_sha256": "54b9c64687c16fb1a2921f97c491ef994116074d7aaac2862d2d01d91e00309d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/purpleglitchedwings.png",
+          "sha256": "229c11d9b32d269130c2616212d8f1a3a780dc682722f6fcd8767914158103b4",
+          "source_sha256": "61b9b35b18ef9f1876fd8a588b798117f19ae6d4d886cb7ef383e7215a6a664e",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "purplesnowflakewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/purplesnowflakewings.png",
+          "sha256": "6fe002ee9763aac3ba23003f75a4b2664adb2ab4d1914c1defdfab98b0a54306",
+          "source_sha256": "298050ea7e604854bef2d055abbcf52ef1b77f90c121d5d161209bb975707851",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/purplesnowflakewings.png",
+          "sha256": "890fccd89708b93229c9280126943ab10ee742ba0c15819f2a0720ba3f9ae929",
+          "source_sha256": "c3ed2ad9fdec49b9f86eea405e311eebb9dd5923d0dcaac20792d9335eeed4c7",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "purplestripedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/purplestripedwings.png",
+          "sha256": "ae5079604ea1091d5e8c928a10d6f0bbc006594feebf5000856d1645c37c98aa",
+          "source_sha256": "d71ff7c584edc299d8f9ca64d80aedffb8300febea44617aeb14f771dcab0b12",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/purplestripedwings.png",
+          "sha256": "d64f24bd828c87488a66bf66e203050bdd6fe467e66a68c7a98307a5c2ed6735",
+          "source_sha256": "149bea5dd329bc9feae26ac6b8fe0cd6578674264c1db82968fd4295874fa8a3",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "rainbowbutterfly.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/rainbowbutterfly.png",
+          "sha256": "c47f9c14466564643dc182122f20a766123e757bf1b2005dcacb70a4b6268994",
+          "source_sha256": "06236f3cb427b68089ba13c97dab7b06c63f497384f6470f2c0826aa3d866314",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/rainbowbutterfly.png",
+          "sha256": "f143683bf63a38ef2c81a68d5f208d357b970560c48c05725f8dbba931b42bbf",
+          "source_sha256": "97dbc592ecadd49bbf9d8629a9b006fb4da9f0ff8d5ad3d2474e6bb1cbca2e94",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "rainbowgalaxywings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/rainbowgalaxywings.png",
+          "sha256": "63a478b6b78c44bfcc11c3c0b5a09ccb14d29748f9b8ba8b0ed7c6696c438292",
+          "source_sha256": "b1ed343fdd5e13c96d17938ce3744d915b58155be0c5f3fa04fc0b92dc6b56b7",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/rainbowgalaxywings.png",
+          "sha256": "ac6e435e3748fe42a73a9ea0c6abea4af1cf949da0d1b641f6930bf4b9625e8d",
+          "source_sha256": "7f6f108b54726f251a9ebbfa18fbc6983a0b35393cba27464f9a0bbde568cb4e",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "raspberrypinkaugust.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/raspberrypinkaugust.png",
+          "sha256": "c86bc2140e23bc98ba14ce53cbe6c43b379f6544e5cc0fefc399b9190a0c3e13",
+          "source_sha256": "bd64d1ee33b508eb73ad2aeddb2d1245f68eaa42c6557c87d74444888c554d6f",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/raspberrypinkaugust.png",
+          "sha256": "a3d9293a2d239f68ed6ce6652491641821763414509770b67c60b318d494f2a2",
+          "source_sha256": "f226fbef1fa5b7c311a49d6958463604a2ac0d01fc92157e7e1e27890c6e701a",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "ravenblackwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/ravenblackwings.png",
+          "sha256": "453c9e761b3603c0fcf9ffd20f13d1a263b40346d4dd90d72494273b7438f80c",
+          "source_sha256": "894abb80765739236076497e2ef35d5f0767e724dd40f7a70bf19c94f82534fd",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/ravenblackwings.png",
+          "sha256": "5f16b951c0c3aaa6c0e942fdbccc29e1c04cffac9c1a97945614141d17cabfea",
+          "source_sha256": "3a5ad9a2dccc0947bc0c3961892453aacdde4abaad4f2bb5b75ee01566e8ba15",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "red.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/red.png",
+          "sha256": "739ec81d781bfd1519dae2f2065726fbb7f2e552577498f38c6c31df3770e479",
+          "source_sha256": "e0aab3e8e2761365ab3c53ac05292f104f0792f1fac80a4dc32398028dcbdf5d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/red.png",
+          "sha256": "f1046717afa057ae57cca6472d100cc39ccff48924aa9217e737a32d98462748",
+          "source_sha256": "741eb1bec662de9165b06f4209d27ecad66a8127a3332eec59f1d5f49e420f0e",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "redandblackheartwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/redandblackheartwings.png",
+          "sha256": "407441563a7234321ccda36b5272ba302ff004c3034315feb794522970d2ac26",
+          "source_sha256": "852bb412890d6cad0e2a5a2296d317ce9528b41bf9777b88a0c439eb51482a64",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/redandblackheartwings.png",
+          "sha256": "69ce29489196817ed38edb1c646012fab0d3bc0433061481763a7c11a2383576",
+          "source_sha256": "03da577d434ed76bc97e10ce275a0b3e9955626dcb3a4556365f20f0824cd997",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "redfogwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/redfogwings.png",
+          "sha256": "0bff866558cb95821a41d49e1f395eb9478491d9f3af7c6c94d43a0e597f4c9d",
+          "source_sha256": "8e7f56710860e32a5e78bfd0515eb0e911b7ed76de284c8e8df02ddbc035f3d0",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/redfogwings.png",
+          "sha256": "08a980fb77698f894f6ab5e1d2cd9e38937d8632b85a5ca403b8dea2b56ab0fd",
+          "source_sha256": "d2da05487677e66fb3d1cf0aea9a4428bf9d37c2c2ef78aee2308a37f3f3c75c",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "redgalaxywings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/redgalaxywings.png",
+          "sha256": "79f28865a16109846f089d1f1f2e757a49c073861908a0b893fb4821e8cb0ef5",
+          "source_sha256": "c66a2fc7e4338113561bae80128ef431a2e1984c09f86c66865a5c5a4dcc9fea",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/redgalaxywings.png",
+          "sha256": "906edf535086ab53bac153989037ec813de64ae52348e70c9bf3375bc9f55e07",
+          "source_sha256": "dcdf1fae45f0607dcded8212f45d6cdbe9551a10ce33c03ec6407679dc86508a",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "redglitchedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/redglitchedwings.png",
+          "sha256": "539043b895318788904d5a967c6b28f2d4919a89bc8b3d4e344aded9ca2170ee",
+          "source_sha256": "807706a8875157726a317ee72801ebdf562114a0a2671ba1ca21012b9735ba5a",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/redglitchedwings.png",
+          "sha256": "6493543bde582ebd1214b591d2b57b0f94cd352296cebfbd494f7bccd208f4c3",
+          "source_sha256": "068cb2e972dcf6d16baddff6830e72a1883a18fb9cebd3b7e875f4315d8b8865",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "redglowwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/redglowwings.png",
+          "sha256": "74f33a58300decd7de0c44c3cce59013b6edb83cc99f80a2c3b04aadbc7db87d",
+          "source_sha256": "de02e878479adf622f60348192571369a0c29659448e833e5bebf9269e7b9c5d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/redglowwings.png",
+          "sha256": "f847e8156d51351d654fc062b3d5e750a059d3b42efa28191ecd6fe723082584",
+          "source_sha256": "1cccfe96ddc1c82ee7c19f9ea2715d2822089a2b8345ab1533e4409c410d07d7",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "redheartwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/redheartwings.png",
+          "sha256": "4357f54eb628e54bdfe5e1073679815fdb7263459cbcfad5e3b00b8922bfc020",
+          "source_sha256": "74c2d30f94f95669979ad5666ea6e6334ca8923f5259af0150b83de07720c5b2",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/redheartwings.png",
+          "sha256": "76b10eddf6bc7c8ca505607643464261873dd002be9f734ae76a443d88ab73da",
+          "source_sha256": "97d9672f0a5bcdb8625fda8771584aca93259c02bb11d8a1f318797ee49a6493",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "redorangestipedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/redorangestipedwings.png",
+          "sha256": "b39c04449ce705bb8d8bc0d1c3e99eed6d3fd840670815ffc5a751e965bffaf7",
+          "source_sha256": "bca20aae73aa670642cb8a57e22468fc77e175ba3cfb3018b15033249c760403",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/redorangestipedwings.png",
+          "sha256": "c91c3bff8d2d0d1258d0d3f3fa3301c25d11fb6b24a6563f123cd93da614e691",
+          "source_sha256": "b5edeae9331559519ce463a0c4b2d37accd8c24b0764f943eea012deed7c75b5",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "redstripedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/redstripedwings.png",
+          "sha256": "4744d627e846c5794e205b92915cf7fd95700b95cf74294fa5940e4b6943079d",
+          "source_sha256": "c326ca8f5b836c984a1f3aee78a7172570cb4a2b029b1a08a0a23184107ebfef",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/redstripedwings.png",
+          "sha256": "d8406bd95a45c44b1b3bc14f8da54874a56ed081f42e150c57b523c68d5e4527",
+          "source_sha256": "022feb95212513f25e4b16868bbeef43728bf4540dbad95a948cf9d4393189ed",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "redsupreme.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/redsupreme.png",
+          "sha256": "e24ddeac87c54d95a9ca35b3fdde897bba619a8e5c1dee46f2ce940046875451",
+          "source_sha256": "a33d2923e30eb06ec027fd1c599d5ae2220050d2e3f47b9fe5875edfd3f4c5e8",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/redsupreme.png",
+          "sha256": "db8c66321d606bc2e129d8cd3783012c9afdee615510e5c369b8cbfd3becf635",
+          "source_sha256": "1ad180232ee3d12c716d9f36ccfba6834095ed059ffd7fb1d6cfe1067987f3a3",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "royalpurplewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/royalpurplewings.png",
+          "sha256": "458525f08b03aeb85fb5a3fb16e0f479fa9a3dd2a9ccef3fc57b1e9c3eab8493",
+          "source_sha256": "f5fadff127293b418cc9ba1289b721f50dbace25b3874ecac1d3e15c21e9546e",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/royalpurplewings.png",
+          "sha256": "c1ce930bb5b3d8cab60dfa241baf9965445d51fd5e365884532f806a8c207930",
+          "source_sha256": "af8dd9bf0677a6563167aff76b52c6e343f6e65cd92b542722b2667f42402ba1",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "scarletorangeaugust.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/scarletorangeaugust.png",
+          "sha256": "e962fa016d276b975b70e14420fd845c2191874bdd6040099408a0950e1bca31",
+          "source_sha256": "6edbc683859f4cdc4a4e84d42b903308af4a56364a98d767f6539479e3ffdf0c",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/scarletorangeaugust.png",
+          "sha256": "b2608b60b45f7e9606e6d14792ed9f759e47c66aba9bba7a27c52a73c93eb932",
+          "source_sha256": "5590f515b9887eea9673cfe2029324bf509eba9eafa5de832b7ecaf39c698d3e",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "solidblackwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/solidblackwings.png",
+          "sha256": "4064af2101fc9e7cf7f38f3049bde222510214515a444bcebfaf4affcacaa214",
+          "source_sha256": "48f2803342262fed9318d7addc657217f60d39b3dcc7809cbfa1e9bf32b2b02d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/solidblackwings.png",
+          "sha256": "e1bcd3832e2a07004283d6755d19913daf995e33cda52a6847f096647776cce2",
+          "source_sha256": "2ff9fa92f1d3f820981102b805aa75dfcee645c2d94a2a202b1765bf387fa4c1",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "springbutterflyaqua.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/springbutterflyaqua.png",
+          "sha256": "14a89b969a94873096c7b7cbd81234f177c3ae2a099770fb0f3dc3ff0ede9277",
+          "source_sha256": "63cf8bc43f420fbeb61b6e63d9cac97e54bde683cef57566451552270a637965",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/springbutterflyaqua.png",
+          "sha256": "466c583c970b138380eda30a7011f79eb1b4fa645a78e1e796b4514f377a22cb",
+          "source_sha256": "40a347ef2e75a15340b407a685c53531585495965fb07f0a2dc280476578e14c",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "springbutterflyorange.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/springbutterflyorange.png",
+          "sha256": "1bc714c6548adee5e38ceb60e317f6a1bffc467ca62d8824671a7982236a816d",
+          "source_sha256": "59533c34cd1e38c7baa2a45b05d530836d6b9f9472667693a1bacfeaf12742a4",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/springbutterflyorange.png",
+          "sha256": "8fd20828c25d64c2e40e6826a0fe8e072ed5c925d7496cb7f7c2ee4421f59e26",
+          "source_sha256": "444fcb05e888e23ffa71cfff3756576b3a4f1b19f188c95d2acf7b6470cadda2",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "springbutterflypink.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/springbutterflypink.png",
+          "sha256": "a71e2eab1d19598047e0df6b94d1ba82176b48b9df541bf77727ef5ac86d702d",
+          "source_sha256": "e71e2bf6e6ab593446774f611d9f2afd584ef2f3a5b6fdeb86380218be2b114b",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/springbutterflypink.png",
+          "sha256": "18f442f72db6a1f2f094f83db0284ddfd98fbeb68f91cf0157d12ff4c33831ac",
+          "source_sha256": "a846cd8f89f219c665e47a534e8447987895cc10372c63a0022f762badab164c",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "springbutterflypurple.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/springbutterflypurple.png",
+          "sha256": "f25856b3acdc00191a97bfcad935a73076fe8d2d59cdf0cba2993ce9f7dee477",
+          "source_sha256": "3f398f049c150a5e5a1b94a73298d3e71fe469d4917569cb87ef137f40ed56a5",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/springbutterflypurple.png",
+          "sha256": "1b9a3dfadcf8a32c2587b862693641f117e31fba19bd742b8ef9f95470070ec8",
+          "source_sha256": "a1a7b01acd5aa3be99defa454c3b69ac8e6ba5e56a7b193b66118be3cce4409e",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "springdaisy.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/springdaisy.png",
+          "sha256": "ff190e8d234235c203b8a155a94658afc28f7a62f60b3243ec340e446702668f",
+          "source_sha256": "9ddf94510c0eb0671b542b93af9743544506568b642e0a2225cc645eec1c2748",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/springdaisy.png",
+          "sha256": "2a0e55df09f8c61772d3635985e59ed53bae39c24c2e5274b0ec4d9fcf89f7de",
+          "source_sha256": "4f6ea64e0c488d0fe9ad45c850ae085218312319ca214fd5842499a90aa09a58",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "springhoneycomb.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/springhoneycomb.png",
+          "sha256": "7872f572a0f682a2810962587d3da9f09555b781370c3d1ad789d11ef1940223",
+          "source_sha256": "be37da687129d55c9d45844e226143567ab4ea3f8f2c5952994a32c081f71f48",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/springhoneycomb.png",
+          "sha256": "de1af4f425660cb620b28505e231bb8a6254a5ba4d7f7d67abd94cc5bb96493b",
+          "source_sha256": "0e91de29b14c841603864da4a18987e47f6393af2e9c261bd2e25d3b00e7a7db",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "sunflowerwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/sunflowerwings.png",
+          "sha256": "d7f59ef8090713ed4596f3fd8d20597a8fed9b2d9dc49c7bbf17e870e78c7bd4",
+          "source_sha256": "014c6c83cad96adeab7af674b9382ccb73d6fdddb742e980b58e0714fabdea14",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/sunflowerwings.png",
+          "sha256": "545e5d28c2142ae3f5d41b6a6bca68c503cef24b7199010d17b82cfa59bc9404",
+          "source_sha256": "3b2eb557db0108bb6869e5f4bb231bb33f27007d3a60514cb245ee4799b475ab",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "tiger.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/tiger.png",
+          "sha256": "721401cd704e2f421637bee6dda1484b2fac18b12bb4b90bc3ac901983291666",
+          "source_sha256": "668d633508bb019ec6d727375e651e53120f62010e404e6f25adff194a26d74a",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/tiger.png",
+          "sha256": "9b40b23ee1024b9e26928ca17ffcff43c060e267cf4bc1a89b9c8f0ea10443db",
+          "source_sha256": "ded01637cd74b063608a4c0c57ace7b18649395a774da90f2eee3a7a366a6090",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "turkeytailorange.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/turkeytailorange.png",
+          "sha256": "c56b07a645632d49c5e7ec3d690685b7b8fe4fe273510f49e24a44f80a0fb698",
+          "source_sha256": "9fc5449c8dd3166e9f303c560953a3081ba56fd4a437673903d1a695f1e0bc06",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/turkeytailorange.png",
+          "sha256": "3481fe64b21bf408d256117dade9782d26b6a5522b839726459f23211b0d391b",
+          "source_sha256": "ea68e773657095ddac13950759c72d7f2daf80805a88b0c73b6a2e87d0c2523b",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "turkeytailred.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/turkeytailred.png",
+          "sha256": "0d4c99a7058fd12834c24bc3d14bd679097567a33b7f52c60cbb1c325caff959",
+          "source_sha256": "519d80dae96b45b347f7bc506b68a139a886f746b19a7f8d14a2d5a871570bdf",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/turkeytailred.png",
+          "sha256": "690d4b077c59b757f00de1b9fdb7b8f4379f01e6e241da403b3fde5d2d30bc43",
+          "source_sha256": "46c3d9a873df364c87730af7f7a1a3e6c9180ea3cf277f9dd40f14b009ba5da8",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "turquoise.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/turquoise.png",
+          "sha256": "ef48edcafa944d3b572c19168101587730db1321e69b84976e809b43cc381115",
+          "source_sha256": "168de82d787d8f33b11032cab6e8f682bfb0ad6a4d4c2b7149191328f0f431d5",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/turquoise.png",
+          "sha256": "cd10c83b4039acd79bbab5c1594b43a0cd853a4699a7ad7d2e18e93f5fdefb2a",
+          "source_sha256": "11d48d2f06bbe3218cf94ca1c52518399a88c29452f4d30a77b2295dbc34a8bd",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "violetstripedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/violetstripedwings.png",
+          "sha256": "b8ca60bf5eec55a5cd90c64613a83dfc94219c4df7787f04e2cac7d327ddf3b8",
+          "source_sha256": "6ac5311bdecb710e5fe08a290c38a840b58e669c3b3fac374032df93415a086d",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/violetstripedwings.png",
+          "sha256": "9883a719cbbd18b62508ca346c50ad795d88adfd4b38f2d773aa538e48387660",
+          "source_sha256": "aefaba269e444802b4aa99385c1c3f0ce84b616d5071a7adb90ab81e067c84d2",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "weedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/weedwings.png",
+          "sha256": "209bb6690cd2118ff1829f775f1ce5858f53e2b3c1518dc2210aa6168db62d1f",
+          "source_sha256": "675b8b02abc44ed194a3046b80e023bda9b367de9e23fc0c54ce1898092fec43",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/weedwings.png",
+          "sha256": "fa368587e12f43c485240c5edd7920b388e86bdc91b83f954f6c1b44ff73646b",
+          "source_sha256": "4b6d77bf9c37f726648411d150b8719256e503c4a6230009b4f80474057855d2",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "whitecandyhearts.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/whitecandyhearts.png",
+          "sha256": "2969ec39a7b50e570568bf492b56bce5c3db3108042402705b3c1cf0c5df3263",
+          "source_sha256": "9b1a9a9898c640a2fb58bbee77bcf853f157b2d638bfdfc62d805cc8356eb0ad",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/whitecandyhearts.png",
+          "sha256": "1c84287738049e0a445f44113e917ac78f544183465118da3d9fe56395a1061d",
+          "source_sha256": "498f360699d41f3c643d1db10892980773aada8e094a27d0335de578f23dd598",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "whiteglitchedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/whiteglitchedwings.png",
+          "sha256": "16f58c0ef1c7179b8b621a0236a144e356b9ca890b9d889daab7b84a842f63fa",
+          "source_sha256": "9af501c1677d12829b8f5a58326854174be422d6f402314f0bcccc834736f078",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/whiteglitchedwings.png",
+          "sha256": "9651292261139f90407092058272324e1c0b7737ccb8b6adc29d7311d4bae67f",
+          "source_sha256": "90f5cbf2baf406a6bacced762fe06fa4710900cce788cacecce5381caec306c8",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "winterwonderlandwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/winterwonderlandwings.png",
+          "sha256": "f4d44c56c4cda27435544eb0f6b4071015c1fce499de22c86c2ce8ae637dd66b",
+          "source_sha256": "663e80324f975ddbd72c0581b891be6faf5810d190800517763993d63b528bf6",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/winterwonderlandwings.png",
+          "sha256": "18d5d4a170cc82f90dc02c0889252721d380b2608db1961f9e04dacac2612f00",
+          "source_sha256": "231765adb1757e56229ead5292d70f814e1b0a1e0570516035e950b9f77ac283",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "xmastreewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/xmastreewings.png",
+          "sha256": "fcad7d701d29543ef56b344e4f79539055a48249a0658a6bd4390594ce763c11",
+          "source_sha256": "28e844c57af4c97e7297ccc2de5acff9836f202691bf712db2c6c9296da3dce2",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/xmastreewings.png",
+          "sha256": "4f6211c95154a7eab5b0c9a75e2d20a0ec3553ff653b57aa59973de7d920c222",
+          "source_sha256": "62360d23ecbcbc62d51fab35a64d4acfd88d5244332b0d6c2e4667207a4733e9",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "yellow.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/yellow.png",
+          "sha256": "dd3c0181918b7ab970f5f723cefa739c541fef56f27f79468a5122da2bb5cf76",
+          "source_sha256": "8c8b2446e010972e781a0c1d638f3571b3d0626a09d7276753d7a73b4920101c",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/yellow.png",
+          "sha256": "92be9a46a27ac9df557b62447a3bd171cc8e4edc78b88ee6f480cbf7842d3d89",
+          "source_sha256": "eca2ba8eba6e8a497dd7738a07db780398364d25a2bfc38a9aed99e68db98a93",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "yelloweasterwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/yelloweasterwings.png",
+          "sha256": "2369a33ad754baedc28334893c46ac2ef931d57693d17d2913ca10ad46583174",
+          "source_sha256": "e0690a5dfd873d5b83b721a132614a3a4dee5927ee56029b685991c5d51c78f9",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/yelloweasterwings.png",
+          "sha256": "59a2cbb8d91cc863cda151dcdb55a79a92c0e0a2e7d483b63d9890497a3d0a99",
+          "source_sha256": "88cc7dab1a0b20ef2323a2353acc9f85f644a41c94eb3f004267925a8d0476ad",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "yellowfogwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/yellowfogwings.png",
+          "sha256": "1ca86494231c25ff10078ed515669818fb7c232e598ac608de373d50f13a2c2f",
+          "source_sha256": "9a17725e4120a37cd7f1b3c042b5a6b3f63c1cf5caa2e4fee6ea7a60b25324f8",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/yellowfogwings.png",
+          "sha256": "8f4c3cc76b59a3c201b2067005cf1d2be8c8743b57ff42e15a1fa64f009c66c6",
+          "source_sha256": "0329b671030e921f61c8273b8705ec8e206cc91898fa3f99f3fc73743c888ef9",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "yellowglitchedwings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/yellowglitchedwings.png",
+          "sha256": "238a4972447c45c12fecf8d1560b98754e98619f57cc9acc7f1cc53e8962ae08",
+          "source_sha256": "e38e10509ed6b9b92c0cdbd929ef10382ddeb15af3e087230e6e9697058f133e",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/yellowglitchedwings.png",
+          "sha256": "484f48f2b3e5720b6573c3e5e911bfa775dd8140a36c5ab9086f32635fda1a0f",
+          "source_sha256": "118bc38c1f3dbaab499809826d44fb061f8a49c782a5fd0e406cc05ffa8bbe06",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "source": "zombiewings.webp",
+      "files": [
+        {
+          "path": "assets/minecraft/client/wings/imported/zombiewings.png",
+          "sha256": "defe18ae41d8b22a9aaf63478479de7de64601893da19b0cf3e47a375329cf33",
+          "source_sha256": "8af5d013d893b44f67975b77ae46865b9c54f40f976441b54c2a429035ed16e5",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "path": "assets/minecraft/client/preview/wings/imported/zombiewings.png",
+          "sha256": "e0eea1b500e2b5ab8dea25f48366e5e4e5903d922fe12dd6507349da11162163",
+          "source_sha256": "ccc959d9d1179860ebc06254473a0b3642177a67a3e2f1a0cac4fe8203b2ff79",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "source": "aqualightningwings1.webp",
+      "source_sha256": "fce1b0169b2e70edea0a76af32a333afe5a60762b30877846807e21a5464b047",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "aqualightningwings2.webp",
+      "source_sha256": "d80231a9080df769255a2771dedf9323cd2969845d0fa77b85c0143e08095462",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "bluelightningsolid.webp",
+      "source_sha256": "878356a0dfa2b3951fcc311bd40efa3db98f50b7fa755c1028fdf8968410f517",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "bluelightningwings.webp",
+      "source_sha256": "fcfd05c29386bbdb84b90d3ad5ff3468b9c45ba41e23cfc975965c7f1e8b2bd9",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "greenlightningwings.webp",
+      "source_sha256": "82626fe16f64f6f449f568a24ce4ef6360a3ea5473368959602bbf86750b6561",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "greenlightningwingssolid.webp",
+      "source_sha256": "bfd3b8a273e9b02768bbd0e9454c9165b19aceb7051fda00a1428d6c75623a18",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "lightningwingsblack.webp",
+      "source_sha256": "0379ec04d54150f498b700ef8cc957484e952813acca2f17a1f51f8765316904",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "orangelightningsolid.webp",
+      "source_sha256": "6c8376b4d4f415b2dc086366150e07efbc0f13c4d32df8060bc9ef8a7ee9db16",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "orangelightningwings.webp",
+      "source_sha256": "130bb2dd04b96455d9cca8970c708242b6f5635cfb72d79840cd17b05ef07d37",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "pinklightningsolid.webp",
+      "source_sha256": "4a786c09ed0f325553d3e7c3a67d14eb7d6baa2dd223a3f320c93408ce055a4f",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "pinklightningwings.webp",
+      "source_sha256": "bbff3829cdae35829c69a2e59895ea7cf8a59e6333e80f09898d5bafb5f42b5f",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "purplelightningsolid.webp",
+      "source_sha256": "49947057041824c1f3a55d08bd0b286d81cbaaa8083460ef021a7d66e6080c1f",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "purplelightningwings.webp",
+      "source_sha256": "ff11c93c89fa4f282da42767df5ad28cb7e1c8a6eabce67290282a61cc93e434",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "redlightningsolid.webp",
+      "source_sha256": "0d1f98ea3c4bca639c10a7568baee3a443bc42b652832816da451243e19bc4e3",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "redlightningwings.webp",
+      "source_sha256": "a53cb7c9ec5c0b253d89dbf7009b1adc03dee0a594f7c698c023f696b5ae7292",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "whitelightningsolid.webp",
+      "source_sha256": "d0a3786d3713545ca04cadc75e9c7ee99f4a949f723eb9c14db0e9b168a94020",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "yellowlightningsolid.webp",
+      "source_sha256": "eb4498a794a188e5157cd857d097ae8cadb292dae22200cf018d47a0b92cb00a",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    },
+    {
+      "source": "yellowlightningwings.webp",
+      "source_sha256": "a5eecc99aaf4d389b2be810803be1215002e141957d65fbdfdaef00a96b98358",
+      "reason": "Not a static square texture (animation metadata or frame strip)",
+      "width": 1024,
+      "height": 6144
+    }
+  ]
+}

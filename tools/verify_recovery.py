@@ -64,14 +64,18 @@ class RecoveryAudit(unittest.TestCase):
                     if len(a)>2 and a[1]=='dynamic':a[2:]=b[2:]
                 self.assertEqual(expected,got,o+'/'+m['name'])
     def test_resource_bytes_match_original(self):
-        # Explicit, hash-verified cape replacement requested by the user.
+        # Explicit, hash-verified cosmetic replacements requested by the user.
         capes=json.loads((ROOT/'recovery/cape-resources.json').read_text('utf-8'))
+        wings=json.loads((ROOT/'recovery/wing-resources.json').read_text('utf-8'))
         prefix='assets/minecraft/client/capes/'
         preserved={prefix+'cb.png',prefix+'cb2.png'}
         self.assertEqual(set(capes['preserved']),preserved)
         with zipfile.ZipFile(ROOT/'.target/input/preview.jar') as z:
             removed={n for n in z.namelist() if n.startswith(prefix) and not n.endswith('/') and n not in preserved}
             self.assertEqual(set(capes['removed_original']),removed)
+            wing_removed={n for n in z.namelist() if n.startswith(('assets/minecraft/client/wings/','assets/minecraft/client/preview/wings/')) and not n.endswith('/')}
+            self.assertEqual(set(wings['removed_original']),wing_removed)
+            removed |= wing_removed
             for n in z.namelist():
                 if n.endswith('/') or n.endswith('.class') or re.fullmatch(r'META-INF/.*\.(SF|RSA|DSA)',n):continue
                 if n in removed:
@@ -90,6 +94,30 @@ class RecoveryAudit(unittest.TestCase):
             width=int.from_bytes(data[16:20],'big');height=int.from_bytes(data[20:24],'big')
             self.assertEqual((width,height),(entry['width'],entry['height']))
             self.assertEqual(width,2*height,entry['path'])
+    def test_imported_wings_and_thumbnails(self):
+        resources=ROOT/'src/main/resources'
+        report=json.loads((ROOT/'recovery/wing-resources.json').read_text('utf-8'))
+        self.assertEqual(report['imported_count'],len(report['imported']))
+        self.assertEqual(report['excluded_count'],len(report['excluded']))
+        expected=set()
+        for entry in report['imported']:
+            self.assertEqual(len(entry['files']),2)
+            texture,preview=entry['files']
+            self.assertEqual(preview['path'],texture['path'].replace('client/wings/','client/preview/wings/'))
+            for asset in entry['files']:
+                self.assertNotIn(asset['path'],expected)
+                expected.add(asset['path'])
+                data=(resources/asset['path']).read_bytes()
+                self.assertEqual(hashlib.sha256(data).hexdigest(),asset['sha256'])
+                self.assertEqual(data[:8],b'\x89PNG\r\n\x1a\n')
+                size=(int.from_bytes(data[16:20],'big'),int.from_bytes(data[20:24],'big'))
+                self.assertEqual(size,(asset['width'],asset['height']))
+                self.assertEqual(size[0],size[1])
+            self.assertEqual((preview['width'],preview['height']),(64,64))
+        actual={p.relative_to(resources).as_posix() for prefix in ('assets/minecraft/client/wings','assets/minecraft/client/preview/wings') for p in (resources/prefix).rglob('*') if p.is_file()}
+        self.assertEqual(actual,expected)
+        catalog=(resources/'assets/minecraft/client/local-cosmetics.txt').read_text('utf-8').splitlines()
+        self.assertEqual({line for line in catalog if line.startswith('client/wings/')},{entry['files'][0]['path'].removeprefix('assets/minecraft/') for entry in report['imported']})
     def test_selected_source_has_no_decompiler_failure_placeholders(self):
         bad=[]
         for p in (ROOT/'src/main/java').rglob('*.java'):

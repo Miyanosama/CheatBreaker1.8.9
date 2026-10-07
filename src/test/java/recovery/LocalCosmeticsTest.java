@@ -48,14 +48,18 @@ public class LocalCosmeticsTest extends TestCase {
 
     public void testEveryCatalogEntryHasTextureAndWingsPreview() {
         LocalCosmetics local = new LocalCosmetics(new File(".target/no-local-cosmetics-config"));
-        assertEquals(631, local.getCosmetics().size());
+        assertEquals(786, local.getCosmetics().size());
+        int wings = 0;
         for (ClientResourceManager cosmetic : local.getCosmetics()) {
             assertNotNull(cosmetic.method_20858(), getClass().getResource(
                 "/assets/minecraft/" + cosmetic.method_20859().getResourcePath()));
             if (cosmetic.method_20848() == CosmeticType.WINGS) {
+                wings++;
+                assertTrue(cosmetic.method_20859().getResourcePath().startsWith("client/wings/imported/"));
                 assertNotNull(cosmetic.method_20858(), getClass().getResource(
                     "/assets/minecraft/" + cosmetic.method_20850().getResourcePath()));
             }
         }
+        assertEquals(163, wings);
     }
 }
