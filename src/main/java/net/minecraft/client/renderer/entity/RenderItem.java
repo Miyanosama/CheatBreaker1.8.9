@@ -1093,7 +1093,10 @@ public class RenderItem implements IResourceManagerReloadListener {
          GlStateManager.depthMask(false);
          GlStateManager.depthFunc(514);
          GlStateManager.disableLighting();
-         GlStateManager.blendFunc(768, 1);
+         // 1.7.10 used destination color for GUI glint; held/world items used source color.
+         boolean legacyGuiGlint = this.renderItemGui
+            && CheatBreaker.getInstance().getModuleManager().recoveredField1717.enchantmentGlint.method_08908();
+         GlStateManager.blendFunc(legacyGuiGlint ? 772 : 768, 1);
          this.recoveredField1395.bindTexture(RES_ITEM_GLINT);
          if (Config.isShaders() && !this.renderItemGui) {
             ShadersRender.method_06622();
