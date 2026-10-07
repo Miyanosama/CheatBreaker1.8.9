@@ -2187,7 +2187,7 @@ public class EntityRenderer implements IResourceManagerReloadListener {
 
       this.method_29171(var1);
       PerspectiveModule var4 = CheatBreaker.getInstance().getModuleManager().recoveredField1723;
-      if (this.mc.gameSettings.viewBobbing) {
+      if (CheatBreaker.getInstance().getModuleManager().recoveredField1717.shouldBobScreen(this.mc.gameSettings.viewBobbing)) {
          if (var4.isEnabled()) {
             var4.method_24319(var1, var4.recoveredField3181);
          } else {
