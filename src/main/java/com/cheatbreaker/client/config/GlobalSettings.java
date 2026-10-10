@@ -17,6 +17,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import com.cheatbreaker.client.ui.mainmenu.MainMenuMode;
 
 public class GlobalSettings {
+   public Setting friendListKeybind;
    public Setting clientUiScale;
    public KeyBinding recoveredField479;
    public Setting recoveredField480;
@@ -421,6 +422,10 @@ public class GlobalSettings {
          .setValue(Integer.MIN_VALUE)
          .setMinMax(Integer.MIN_VALUE, Integer.MAX_VALUE)
          .method_08914(SettingsDetailLevel.MEDIUM);
+      new Setting(this.recoveredField571, "label").setValue("Social Settings");
+      this.friendListKeybind = new Setting(this.recoveredField571, "Friend List Keybind",
+         "Opens or closes the friend list. Hold Shift, Ctrl or Alt for a combination. Backspace clears the binding.")
+         .setValue(FriendListKeybind.DEFAULT).setMinMax(0, 2047);
       this.recoveredField544 = new Setting(this.recoveredField571, "label").setValue("Keybind Handling Settings");
       this.recoveredField492 = new Setting(this.recoveredField571, "Modern Keybind Handling").setValue(true);
       this.recoveredField588 = new Setting(this.recoveredField571, "Exclude Sneak Keybind")

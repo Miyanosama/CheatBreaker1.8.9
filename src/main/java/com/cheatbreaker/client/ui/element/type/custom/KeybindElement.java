@@ -2,6 +2,7 @@ package com.cheatbreaker.client.ui.element.type.custom;
 
 import com.cheatbreaker.client.CheatBreaker;
 import com.cheatbreaker.client.config.GlobalSettings;
+import com.cheatbreaker.client.config.FriendListKeybind;
 import com.cheatbreaker.client.config.Setting;
 import com.cheatbreaker.client.ui.element.AbstractModulesGuiElement;
 import com.cheatbreaker.client.ui.element.module.ModulesGuiButtonElement;
@@ -26,10 +27,15 @@ public class KeybindElement extends AbstractModulesGuiElement {
             this.y + 4,
             GlobalSettings.recoveredField529.method_08908() ? GuiThemeColors.recoveredField1679 : GuiThemeColors.recoveredField1654
          );
-      if (this.recoveredField471 && Keyboard.getEventKeyState()) {
+      boolean friendList = this.setting == CheatBreaker.getInstance().getGlobalSettings().friendListKeybind;
+      if (friendList && !this.recoveredField471) {
+         this.recoveredField472.displayString = FriendListKeybind.getDisplayName(this.setting.method_08912());
+      }
+      if (this.recoveredField471 && Keyboard.getEventKeyState()
+         && (!friendList || !FriendListKeybind.isModifier(Keyboard.getEventKey()))) {
          Minecraft.getMinecraft().getSoundHandler().playSound(PositionedSoundRecord.create(new ResourceLocation("gui.button.press"), 1.0F));
          if (Keyboard.getKeyName(Keyboard.getEventKey()).equalsIgnoreCase("Back")
-            || CheatBreaker.getInstance().getModuleManager().method_21668(this.setting, Keyboard.getEventKey())) {
+            || !friendList && CheatBreaker.getInstance().getModuleManager().method_21668(this.setting, Keyboard.getEventKey())) {
             this.setting.setValue(0);
             this.recoveredField472.displayString = "NONE";
             this.setting.method_08885(false);
@@ -37,13 +43,13 @@ public class KeybindElement extends AbstractModulesGuiElement {
             return;
          }
 
-         this.setting.setValue(Keyboard.getEventKey());
+         this.setting.setValue(friendList ? FriendListKeybind.encode(Keyboard.getEventKey(), FriendListKeybind.getModifiers()) : Keyboard.getEventKey());
          this.setting.method_08885(false);
-         this.recoveredField472.displayString = Keyboard.getKeyName((Integer)this.setting.getValue());
+         this.recoveredField472.displayString = friendList ? FriendListKeybind.getDisplayName(this.setting.method_08912()) : Keyboard.getKeyName((Integer)this.setting.getValue());
          this.recoveredField471 = false;
       }
 
-      if (this.recoveredField471 && Mouse.getEventButton() != 0 && Mouse.getEventButtonState()) {
+      if (!friendList && this.recoveredField471 && Mouse.getEventButton() != 0 && Mouse.getEventButtonState()) {
          if (CheatBreaker.getInstance().getModuleManager().method_21668(this.setting, Mouse.getEventButton())) {
             this.setting.setValue(0);
             this.recoveredField472.displayString = "NONE";
@@ -75,7 +81,7 @@ public class KeybindElement extends AbstractModulesGuiElement {
       this.recoveredField472 = new ModulesGuiButtonElement(
          CheatBreaker.getInstance().recoveredField1575,
          null,
-         var1.method_08879() ? "Button " + (var1.method_08912() + 1) : Keyboard.getKeyName(var1.method_08912()),
+         var1 == CheatBreaker.getInstance().getGlobalSettings().friendListKeybind ? FriendListKeybind.getDisplayName(var1.method_08912()) : var1.method_08879() ? "Button " + (var1.method_08912() + 1) : Keyboard.getKeyName(var1.method_08912()),
          this.x + this.width - 100,
          this.y,
          96,

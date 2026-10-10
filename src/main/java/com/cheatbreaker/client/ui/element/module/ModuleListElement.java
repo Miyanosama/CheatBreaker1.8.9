@@ -188,6 +188,8 @@ public class ModuleListElement extends AbstractScrollableElement {
             case 4:
                if (var17.getType().equals(Setting.Type.INTEGER) && var17.method_08911().toLowerCase().contains("color")) {
                   this.recoveredField1362.add(new ColorPickerElement(var17, var2));
+               } else if (var17 == settings.friendListKeybind) {
+                  this.recoveredField1362.add(new KeybindElement(var17, var2));
                } else if (var17 != CheatBreaker.getInstance().getGlobalSettings().getCrosshairSettingsLabel()) {
                   this.recoveredField1362.add(new IconNumericSliderElement(var17, var2));
                }

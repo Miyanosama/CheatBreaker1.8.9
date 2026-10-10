@@ -587,7 +587,7 @@ public class MainMenuBase extends AbstractGui {
    @Override
    public void keyTyped(char var1, int var2) throws java.io.IOException {
       if (var2 != 1 || !(Minecraft.getMinecraft().currentScreen instanceof MainMenu)) {
-         if (Keyboard.isKeyDown(42) && Keyboard.getEventKey() == 15) {
+         if (com.cheatbreaker.client.config.FriendListKeybind.isPressed(var2)) {
             Minecraft.getMinecraft().displayGuiScreen(OverlayGui.createInstance(Minecraft.getMinecraft().currentScreen));
          }
 

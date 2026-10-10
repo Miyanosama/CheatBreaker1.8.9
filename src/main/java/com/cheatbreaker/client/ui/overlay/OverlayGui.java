@@ -110,7 +110,7 @@ public class OverlayGui extends AbstractGui {
 
    @Override
    public void keyTyped(char var1, int var2) throws java.io.IOException {
-      if (var2 == 15 && Keyboard.isKeyDown(42) && System.currentTimeMillis() - this.initGuiMillis > 200L || var2 == 1) {
+      if (com.cheatbreaker.client.config.FriendListKeybind.isPressed(var2) && System.currentTimeMillis() - this.initGuiMillis > 200L || var2 == 1) {
          this.revertToContextTime = System.currentTimeMillis();
          this.j.displayGuiScreen(this.context);
       }

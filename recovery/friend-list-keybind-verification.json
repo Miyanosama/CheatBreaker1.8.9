@@ -1,0 +1,35 @@
+{
+  "feature": "Social Settings / Friend List Keybind",
+  "default": "SHIFT + TAB",
+  "scope": "Reuse global setting persistence and keybind button; replace the three hard-coded friend-list shortcut checks.",
+  "input": "Keyboard key with optional Shift/Ctrl/Alt modifiers; Backspace clears the binding.",
+  "build_command": "mvnw.cmd clean package",
+  "build_directory": ".target/maven-source",
+  "build": "passed",
+  "java_tests": {
+    "run": 84,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "new_friend_list_keybind_tests": 4
+  },
+  "recovery_audit": {
+    "run": 7,
+    "result": "passed"
+  },
+  "source_jar_constructor_linkage_audit": "passed",
+  "packaging": "python tools/package_client.py: passed",
+  "deployment": "python tools/deploy_neo.py: passed",
+  "deployed_directory": "C:\\Users\\hp\\AppData\\Roaming\\.minecraft\\versions\\CheatBreakerNeo-1.8.9",
+  "jar_sha256": "e97648f7be41e02b62a6f23141bffadf1070059740e2113a4189aa598f50bce9",
+  "native_files_verified": 14,
+  "manifest": {
+    "id": "CheatBreakerNeo-1.8.9",
+    "jar": "CheatBreakerNeo-1.8.9",
+    "clientVersion": "1.8.9"
+  },
+  "backup": "F:\\Work\\CheatBreaker1.8.9\\.target\\deployment-backups\\20261010-110541",
+  "gameplay_verified": false,
+  "build_log": ".target/friend-list-keybind-build.log",
+  "verified_at": "2026-10-10T11:05:42.086489+08:00"
+}

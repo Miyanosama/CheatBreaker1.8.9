@@ -659,7 +659,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
             this.dispatchKeypresses();
             if (Keyboard.getEventKeyState()) {
                CheatBreaker.getInstance().method_19817().method_21935(new KeyPressEvent(Keyboard.getEventKey()));
-               if (Keyboard.isKeyDown(42) && Keyboard.getEventKey() == 15) {
+               if (com.cheatbreaker.client.config.FriendListKeybind.isPressed(Keyboard.getEventKey())) {
                   this.displayGuiScreen(OverlayGui.createInstance(this.currentScreen));
                }
 
